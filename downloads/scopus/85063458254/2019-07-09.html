@@ -1,0 +1,818 @@
+
+<!DOCTYPE html><html lang="en_US"><head><META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"><META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"><META NAME="verify-v1" CONTENT="M5q4CxMVJyf1WE5UwVmHfV8q3LK1vh/3qmo894V0Pqg="><META NAME="dc.identifier" CONTENT ="10.3390/atmos10030103"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQQPUFdVCRADVVVXAwABVA=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(18),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(19),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(21)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(21)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(21)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(21)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(){var t=window.NREUM,n=t.info.accountID||null,e=t.info.agentID||null,r=t.info.trustKey||null,i="btoa"in window&&"function"==typeof window.btoa;if(!n||!e||!i)return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:e,id:o.generateCatId(),tr:o.generateCatId(),ti:Date.now()}};return r&&n!==r&&(a.d.tk=r),btoa(JSON.stringify(a))}var o=t(16);n.exports={generateTraceHeader:r}},{}],11:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(l[r],this.listener,!1);n.aborted||(e.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):a(this,t),e.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[n,e,this.startTime]))}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return w(r)}function i(t,n){var e=f(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}function a(t,n){t.params.status=n.status;var e=o(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(12),u=t(10).generateTraceHeader,d=t("ee"),l=["load","error","abort","timeout"],p=l.length,h=t("id"),m=t(15),w=t(14),v=window.XMLHttpRequest;s.features.xhr=!0,t(9),d.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){a(n,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=!1;if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(e=!!NREUM.init.distributed_tracing.enabled),e&&this.sameOrigin){var r=u();r&&n.setRequestHeader("newrelic",r)}}),d.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=w(r);i&&(e.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{d.emit("internal-error",[e])}catch(r){}}};for(var a=0;a<p;a++)n.addEventListener(l[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),d.on("xhr-load-added",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],n)}),d.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],n)}),d.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,n){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,n],n)})}},{}],12:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],13:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(18),s=t(19),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],14:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],15:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],16:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],17:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],18:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],19:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],20:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],21:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(19),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(18),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return R.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(18),u=t("ee"),d=t(17),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:x,userAgent:d};t(13),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,R=t(20)},{}]},{},["loader",2,11,4,3]);</script><script type="text/javascript" src="https://cdn.optimizely.com/js/277918141.js"></script><style type="text/css">.jsEnabled {display:none;}</style><META NAME= "robots" CONTENT = "NOARCHIVE, NOFOLLOW, NOINDEX"><META NAME="description" CONTENT="Elsevier's Scopus, the largest abstract and citation database of peer-reviewed literature. Search and access research from the science, technology, medicine, social sciences and arts and humanities fields.">	<link rel="SHORTCUT ICON" href="/static/proteus-images/favicon.ico?ver=1.0"><script type="text/javascript" src="https://acw.elsevier.com/SSOCore/jawr_loader.js"></script>
+<script type="text/javascript" src="/gzip_N806072365/bundles/masterjquery.js" ></script>
+<script type="text/javascript">
+JAWR.loader.script('/bundles/jcars.js');
+JAWR.loader.style('/bundles/jcars.css', 'all');
+</script>
+<script language="javascript" type="text/javascript">
+window.$ = window.jQuery;
+</script>
+<script type="text/javascript" src="/gzip_N1606155294/bundles/remoteAccMsg.js" ></script>
+<script>
+var feMetricUrl = new Object();
+feMetricUrl = 'https://els-eum.elsst.com';
+</script>
+<link rel="stylesheet" type="text/css" media="all" href="/gzip_N1075175357/bundles/ScopusMasterLayout.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/gzip_N1361801193/bundles/d3charts.css" />
+<script type="text/javascript" src="/gzip_1864740017/bundles/RecordPageTopMaster.js" ></script>
+<script src="https://b2btagmgr.azalead.com/tag?az=aWRTdWJzY3JpYmVyPTIyMjYmaWRTaXRlPTIzMTYmb3JpZ2luPXd3dy5lbHNldmllci5jb20mY3VzdG9tPW5vbmU=" type="application/javascript"> </script> 
+<script type="text/javascript">
+var MendeleybookmarkletUrl = '';
+var isPreviewPage = true;
+var selectedNav = "";
+var isRegisteredPreview = 'true' === 'false';
+</script>
+<script type="text/javascript">
+writeJavaScriptCookie();
+isLoggedInUser = 'true' === 'false';
+isShibUser = ('GUEST'==="SHIBBOLETHANON")?true:false;
+var isIndividual = 'true' === 'false';
+isIndividuallyAuthenticated = isLoggedInUser || isIndividual;
+</script>
+<script type="text/javascript">
+var isIDPlusEnabled = 'true' === 'false';
+var isCarsForIDPlus = 'true' === 'false';
+var isCARSBulkRegisterPage = 'true' === '';
+var isCARSRegisterPage = 'true' === '';
+var isCARSPathChoicePage = 'true' === '';
+var isCARSLoginFullPage = 'true' === '';
+</script>
+<script>
+var smapiVars = {};
+smapiVars["AFW_AUTHOR_MAX_SELECT_COUNT"] = "50";
+smapiVars["MAX_SOURCE_RESULTS_DISPLAYED"] = "1000";
+</script>
+<title>Scopus preview - Scopus - Document details</title><script type="text/javascript" src="/gzip_1118813398/bundles/SiteCatalystTop.js" ></script>
+<script type="text/javascript">
+var pageData = {
+page: {},
+visitor: {}
+};
+pageDataUtil.loadPageDataObject("false","88.200.100.205","en_US","","13341253","(13341253,U|289839,D|278641,A|72218,P|1,PL)(SCOPUS,CON|ANON_GUEST,ACCESS_TYPE)",
+"GUEST","278641","", "Scopus Preview");
+</script>
+<script src="//assets.adobedtm.com/376c5346e33126fdb6b2dbac81e307cbacfd7935/satelliteLib-c74074f9c1cbd68a79f7ff7103e0cdc14b7e5f41.js"></script>
+</head><body onLoad="onBodyLoad();" data-page-type="" id="resultsPagePreview"><iframe class="displayNone" src='//acw.scopus.com/SSOCore/update?utt=0fd46be6d28db6102456315-5cbe9a38e6a949a0-4'></iframe><iframe class="displayNone" src='//acw.evise.com/SSOCore/update?utt=0fd46be6d28db6102456315-5cbe9a38e6a949a0-4'></iframe><iframe class="displayNone" src='//acw.sciencedirect.com/SSOCore/update?utt=0fd46be6d28db6102456315-5cbe9a38e6a949a0-4'></iframe><iframe class="displayNone" src='//acw.elsevier.com/SSOCore/update?utt=0fd46be6d28db6102456315-5cbe9a38e6a949a0-4'></iframe><div id="mainSkipNav" class="skipnav list-group"><a href="#skip1" class="list-group-item">Skip Main Navigation Links</a><a href="#skiptofooter" class="list-group-item">Jump to Footer</a></div><div class="container-fluid"><div class="row-fluid mainRow" id="rowMain"><div id="contentContainer" class="col-md-12 fullHeightHack content"><div class="row"><div class="col-md-12 globalNavigation"><header><a name="top" id="top"></a><input type="hidden" id="txGid" value="AB769E471D0BEB3D48EC1766EE3A586A.wsnAw8kcdt7IPYLO0V48gA:3"/> <script>
+var prs = {rt: function(label,ts) { this[label]=(ts||ts==0?ts:new Date().getTime());}};	
+var continuePcrRecording = true;
+var PCR_SCR_ATTRIBUTE_NAME = 'data-reportRenderTime';
+function recordRendering (primaryContentElements, mutations) {
+if (continuePcrRecording) {
+primaryContentElements.each (function () {
+for (var i = 0; i < mutations.length; i++) {
+var changedNode = mutations[i].target;
+if (this === changedNode || $.contains (this, changedNode)) {
+var contentSignificance = $(this).attr (PCR_SCR_ATTRIBUTE_NAME);
+prs.rt (contentSignificance);
+}
+}
+});
+}  
+};
+MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+var domChangeListener = new MutationObserver (function (mutations) {
+// fired when the document changes - look for PCR / SCR changes
+recordRendering ($('[' + PCR_SCR_ATTRIBUTE_NAME + '="pcr"]'), mutations);
+recordRendering ($('[' + PCR_SCR_ATTRIBUTE_NAME + '^="scr"]'), mutations);
+});
+domChangeListener.observe (document, {childList: true, attributes: true, characterData: true, subtree: true});
+</script>     
+<div class="col-md-1">
+<h1 class="logo">
+<a href="/home.uri?zone=header&amp;origin=searchbasic" title="Select to go to the Scopus main search page">
+Scopus			
+<span class="preview">Preview</span>
+</a>
+</h1>
+</div> 
+<nav class="navbar col-md-11 globalNavigation">
+<ul id="globalLinks" class="nav navbar-nav navbar-right verticalAlign">          
+<li>
+<a href="/freelookup/form/author.uri?zone=&amp;origin=recordpage" class="">
+<span class="anchorText">Author search</span>
+</a>
+</li>
+<li class="">
+<a href="/sources?zone=&amp;origin=recordpage" title="Browse or search the indexed sources/journals by title." class="">
+<span class="anchorText">Sources</span>
+</a>
+</li>
+<li id="helpMenu">
+<div class="dropdownGroup">
+<button type="button" title="Select to display help and Contact options" class="btn btn-link dropdown-toggle icon-wide" id="helpMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<span class="anchorText">Help</span> 
+<span class="ico-navigate-down" aria-hidden="true"></span>
+</button>
+<div id="helpMenuDropdown" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="helpMenu">
+<span class="dropdownHeader"></span> 
+<span class="dropdownContent">
+<span class="dropdownContentWrap">
+<span id="dropdownTitle" class="row" tabindex="-1"></span>
+<ul class="list-unstyled">
+<li role="presentation">
+<a role="menuitem" href="/standard/help.uri?topic=15533&anchor=tips" target="globalHelp" onClick="return openGlobalhelp('/standard/help.uri?zone=&amp;origin=recordpage&amp;topic=15533','globalHelp',760,570,0)"
+title="View Scopus help files (opens in a new window)" class="secondaryLink">
+<span class="anchorText">Help</span>
+</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="#" target="globalHelp"
+onClick="return openGlobalhelp('/standard/tutorial.uri?zone=&amp;origin=recordpage&amp;module=revdoc',
+'globalHelp',760,570,0)" title="Select to view tutorials (opens in a new window)" class="secondaryLink">
+<span class="anchorText">Tutorials</span>
+</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="#" target="_blank" title="Contact us (opens in a new window)"
+onClick="return openGlobalhelp('/standard/contactForm.uri?zone=&amp;origin=recordpage',
+'globalHelp',760,570,0)" class="secondaryLink">
+<span class="anchorText">Contact us</span>
+</a>
+</li>
+</ul>
+<button class="btn btn-link closeDropDown" data-toggle="dropdown" id="closeHelpMenu" type="button">
+<span class="ico-delete icon" aria-hidden="true"></span>
+<span class="sr-only">Close help menu</span>
+</button>
+</span>
+</span> 
+<span class="dropdownFooter"></span>
+</div>
+</div>
+</li>
+<li id="registerLogin">
+<div xmlns:cars="http://cars-services.elsevier.com/cars/server" class="CARS_panelClass" id="login-panel" displaystyle="">
+<div displaystyle="" id="login_page_main" class="    ">
+<div id="login_maincontroller" class="    " displaystyle=":right">
+<a id="login_reglink" displaystyle="" href="https://www.scopus.com/customer/profile/display.uri" title="Register a username and password for using alerts and other personal features">Register</a><a onclick="javascript:return CARS.submitCheck(&quot;toggleBackground,toggle&quot;,this)" href="javascript:void(0);" displaystyle="" id="login_loginlink" aria-haspopup="true" title="Login To Scopus" aria-controls="login_pop_container">
+<div class="CARS_displayNone">
+<script type="text/javascript">							if(true){							var metainfo = new CARS.metadata();							metainfo.elementId = 'login_loginlink_expand';							metainfo.action = 'toggle';							metainfo.dependency = 'login_loginlink_expand,login_loginlink_collapse,login_pop_container';							metainfo.name = 'login_loginlink_expand';							CARS_dataList.push(metainfo);							}						</script>
+</div>
+<img displaystyle=":expandImage" id="login_loginlink_expand"><div class="CARS_displayNone">
+<script type="text/javascript">							if(true){							var metainfo = new CARS.metadata();							metainfo.elementId = 'login_loginlink_collapse';							metainfo.action = 'toggle';							metainfo.dependency = 'login_loginlink_collapse,login_loginlink_expand,login_pop_container';							metainfo.name = 'login_loginlink_collapse';							CARS_dataList.push(metainfo);							}						</script>
+</div>
+<img displaystyle=":collapseImage:displaynone" id="login_loginlink_collapse">Login</a>
+<div class="CARS_displayNone">
+<script type="text/javascript">            if(true){            var metainfo = new CARS.metadata();            metainfo.elementId = 'login_loginlink';			metainfo.action = 'toggleBackground,toggle';			metainfo.dependency = 'login_pop_container';			if(metainfo.action.indexOf("toggle")!=-1){				metainfo.dependency = metainfo.dependency + "," + metainfo.elementId + "_expand," + metainfo.elementId + "_collapse";				metainfo.executeonload = '';				metainfo.togglevarid = '';				metainfo.requireddependency = '';			}			if(metainfo.action.indexOf("onchange")!=-1){				metainfo.selecttextdependency = '';				metainfo.executeonload = '';				metainfo.defaultselectvalue = '';				metainfo.togglevarid = '';				metainfo.requireddependency = '';			}            metainfo.name = '';            metainfo.validationcheck = '';			metainfo.error = '';			metainfo.togglestyle = ':background';			metainfo.togglestyleid = 'login_loginlink';            CARS_dataList.push(metainfo);            }        </script>
+</div>
+</div>
+<div class="CARS_clear"></div>
+<div id="login_pop_container" class="    " displaystyle=":paddingsmall:right:displaynone:background:border" focusrequired="true">
+<div id="login_pop_container_logform" class="    " displaystyle=":background:left:widthsmall">
+<div class="CARS_groupTitle">Login using your Elsevier credentials</div>
+<form action="https://www.scopus.com/customer/authenticate.uri" method="POST" enctype="form-data">
+<div id="login_username" displaystyle="" class="    ">
+<label for="username"><span>Username:</span></label><input type="text" name="username" id="username" aria-required="true" focusonload="true"><span displaystyle="" class="CARS_red">*</span>
+</div>
+<div id="login_password" displaystyle="" class="    ">
+<label for="login_password-password"><span>Password:</span></label><input type="password" name="password" id="login_password-password" aria-required="true"><span displaystyle="" class="CARS_red">*</span>
+</div>
+<div id="login_rem_forgot_submit" class="    " displaystyle="">
+<div displaystyle=":displayblock:paddingL120" class="    ">
+<input type="checkbox" id="login_rem_check" name="remember_flag" checked value="true" title="Remember me"><label for="login_rem_check">Remember me</label>
+</div>
+<div id="login_submit_btn" displaystyle=":displayinline:paddingL120" class="    ">
+<input type="submit" title="Login" aria-label="Login" value="Login" name="submit">
+</div>
+<a id="login_not_register" displaystyle="" href="https://www.scopus.com/customer/profile/display.uri" title="Register a username and password for using alerts and other personal features">Not Registered?<span displaystyle=":hidespan">Register a username and password for using alerts and other personal features</span></a>
+</div>
+<a id="login_forgot_pass" displaystyle=":fontverysmall:paddingL120:paddingT10" onclick="javascript:return CARS.submitCheck(&quot;openPopUp&quot;,this)" href="https://www.scopus.com/customer/reminder.uri" title="Opens in a new window." target="_popup">Forgotten your username or password?<span displaystyle=":hidespan">Opens in a new window.</span></a>
+<div class="CARS_displayNone">
+<script type="text/javascript">            if(true){            var metainfo = new CARS.metadata();            metainfo.elementId = 'login_forgot_pass';			metainfo.action = 'openPopUp';			metainfo.dependency = '';			if(metainfo.action.indexOf("toggle")!=-1){				metainfo.dependency = metainfo.dependency + "," + metainfo.elementId + "_expand," + metainfo.elementId + "_collapse";				metainfo.executeonload = '';				metainfo.togglevarid = '';				metainfo.requireddependency = '';			}			if(metainfo.action.indexOf("onchange")!=-1){				metainfo.selecttextdependency = '';				metainfo.executeonload = '';				metainfo.defaultselectvalue = '';				metainfo.togglevarid = '';				metainfo.requireddependency = '';			}            metainfo.name = '';            metainfo.validationcheck = '';			metainfo.error = '';			metainfo.togglestyle = '';			metainfo.togglestyleid = '';            CARS_dataList.push(metainfo);            }        </script>
+</div>
+<input type="hidden" name="auth_type" value="LOGIN_PASSWORD"><input type="hidden" name="http_method_name" value="POST"><input type="hidden" name="shibboleth_fence" value="true"><input type="hidden" name="isClaimingRemoteAccess" value="FALSE"><input type="hidden" name="remember_path_flag" value="false"><input type="hidden" name="path_choice" value=""><input type="hidden" name="path_choice_exists" value="false"><input type="hidden" name="acct_name" value=""><input type="hidden" name="dept_name" value=""><input type="hidden" name="PII_Req" value=""><input type="hidden" name="cars_cookie_flag" value="TRUE"><input type="hidden" name="origin" value="loginBox"><input type="hidden" name="zone" value="main">
+</form>
+</div>
+<div id="login_pop_container_socialform" class="    " displaystyle=":left:widthsmall:background">
+<form action="https://www.scopus.com/customer/authenticate.uri" method="POST" enctype="form-data">
+<a onclick="javascript:return CARS.submitCheck(&quot;submit&quot;,this,&quot;true&quot;)" href="javascript:void(0);" displaystyle="" id="login_open_athens" title="Log in using OpenAthens">OpenAthens login</a><input type="hidden" name="federation_id" value="6025"><input type="hidden" name="institution_id" value="88190"><input type="hidden" name="auth_type" value="SHIBBOLETH"><input type="hidden" name="domain_name" value="https://www.scopus.com/customer/authenticate.uri">
+</form>
+<div id="institutionAvail" class="    " displaystyle="">
+<div class="CARS_groupTitle">Login via your institution</div>
+<div id="rem-inst-choice-list" class="    " displaystyle="displayblock"></div>
+<a id="login_other_inst" displaystyle="" href="https://www.scopus.com/customer/institutionchoice.uri?shibboleth_fence=TRUE&amp;origin=loginBox&amp;zone=main" title="Other Institution login">Other Institution login</a>
+<div id="login-inst-choice-fed-inst-list" class="    " displaystyle=":displaynone">
+<div id="login-inst-choice-list" class="    " displaystyle="displayblock"></div>
+</div>
+</div>
+<div id="remotegroup" class="    " displaystyle="">
+<form action="https://www.scopus.com/customer/authenticate/manra.uri" method="POST" enctype="form-data">
+<a onclick="javascript:return CARS.submitCheck(&quot;submit&quot;,this,&quot;true&quot;)" href="javascript:void(0);" displaystyle="" id="login_remote_access" title="Apply for Remote Access">Apply for Remote Access</a>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</nav>
+<div id="userNameError" class="errorInput displayNone" role="alert">You must enter a username.</div>
+<div id="passwordError" class="errorInput displayNone" role="alert">You must enter your password.</div>
+</header></div></div><div class="row"><div class="col-md-12"><header role="banner" class="headerdBackgroundPreview"><h1 class="documentHeader preview">Document details</h1></header></div></div>							<div class="row"><div id="contentWrapper" class="col-md-12"><div id="alertArea" aria-live="polite" aria-atomic="true" ><noscript>
+<div class="alert alert-danger" role="alert">
+<div class="jsMsgImg">
+<img src="/static/images/warning_small.gif" />
+</div>
+<div class="jsMsgTxt">
+<span class="Bold">We have detected that your browser has JavaScript disabled.</span>
+<br>
+<span>Scopus needs JavaScript to function correctly. Please turn on JavaScript to continue.</span>
+</div>
+</div>
+</noscript>
+<div class="alert alert-danger ie9InfoMsgCnt displayNone" role="alert"><a href="#" class="close" data-dismiss="alert" aria-label="close">×</a><p>Scopus will soon cease the support of IE 9 and users are recommended to upgrade to the latest Internet Explorer, Firefox, or Chrome.</p></div></div><div id="container"> <a name="skip1" id=skip1 href="#"></a><div class="row wrapper whiteBg">
+<div id="prevProfilelayout" class="row">	
+<div id="profileleftside"  class="col-md-9">	
+<div id="docDetailPage">
+<section id="topResultListLinks1">
+<nav class="navigationLink" id="refNavLinksId">
+<ul class="list-inline">
+<li class="recordPageCount"> 
+<strong>1  of 1</strong>
+</li>
+</ul>
+</nav>
+</section>
+<section id="quickLinks">
+<ul class="list-inline">
+<li id="exportFeature">
+<a class="disabled" title='Export this document: Subscription required'>
+<span class="ico-log-in" aria-hidden="true"></span>
+<span class="anchorText">Export</span>
+</a>
+</li>
+<li id="downloadFeature">
+<a class="disabled" title='Download the abstract or full text of the selected document(s), depending on availability: Subscription required'>
+<span class="ico-download" aria-hidden="true"></span>
+<span class="anchorText">Download</span>
+</a>
+</li>				
+<li id="moreMenu">
+<menu class="dropdownGroup">
+<a class="disabled" data-type="moreLink" title="Add to My List, Print this document, Email or Create bibliography">
+<span class="anchorText">More...</span>
+<span class="ico-navigate-right" aria-hidden="true"></span>
+</a>
+</menu>
+</li>
+</ul>
+</section>						
+</div>	   
+<div id="profileleftinside">
+<section xmlns:htm="http://www.w3.org/1999/xhtml" xmlns:localzn="xalan://com.elsevier.scopus.biz.util.LocalizationHelper" id="articleTitleInfo" class="list-group marginTop1 noMarginLeft paddingTop1">
+<span id="guestAccessSourceTitle" class="list-group-item">Atmosphere</span><span id="journalInfo" class="list-group-item">Volume 10, Issue 3, 1 March 2019, Article number 103</span><span class="list-group-item"></span>
+</section><input id="sourceId" type="hidden" value="15838"><input id="sourceType" type="hidden" value="j"><input id="citationType" type="hidden" value="ar"><input id="currentRecordPageEID" type="hidden" value="2-s2.0-85063458254"><input id="currentRecordPageSCP" type="hidden" value="85063458254"><input id="publicationYear" type="hidden" value="2019">
+<div>
+<h2 xmlns:localzn="xalan://com.elsevier.scopus.biz.util.LocalizationHelper" class="h3">Relationship between particulate matter pollution and acute coronary syndrome incidence<span>(Article)</span><span>(<span id="openAccessNotice" class="text-nowrap">Open Access</span>)</span>
+</h2>
+<section id="authorlist">
+<ul class="list-inline">
+<li>
+<span class="previewTxt" title="Show author details: Subscription required">Ravljen, M.</span><span class="disabled" title="Email this author: Subscription required"></span><span class="guestView">,</span>
+</li>
+<li>
+<span class="previewTxt" title="Show author details: Subscription required">Hovelja, T.</span><span class="disabled" title="Email this author: Subscription required"></span><span class="guestView">,</span>
+</li>
+<li>
+<span class="previewTxt" title="Show author details: Subscription required">Vavpotič, D.</span><span class="disabled" title="Email this author: Subscription required"></span>
+</li>
+<li>
+<a name="corrAuthorTitle"><span class="ico-person" aria-hidden="true"></span><span class="sr-only">View Correspondence (jump link)</span></a>
+</li>
+</ul>
+</section>
+<section id="viewHideAuthorList-dummy" class="previewTxt">
+<a class="viewAddIcon" href="#" aria-expanded="false" title="View additional authors"><span class="anchorText">View additional authors</span>&nbsp;
+<span class="ico-navigate-down" aria-hidden="true"></span></a>
+</section>
+<section id="AuthorRetriving" class="hidden">
+<div>
+<img src="/static/images/loading_3.gif"></div>
+<div>Retrieving additional authors...</div>
+</section>
+<section id="affiliationlist">
+<ul class="list-unstyled">
+<li id="superscript_a">
+<sup class="guestView">a</sup>Faculty of Health Sciences, University of Ljubljana, Zdravstvena pot 5, Ljubljana, SI-1000, Slovenia</li>
+<li id="superscript_b">
+<sup class="guestView">b</sup>Faculty of Computer and Information Science, Information Systems Laboratory, University of Ljubljana, Věcna pot 113, Ljubljana, SI-1000, Slovenia</li>
+</ul>
+</section>
+<section id="viewHideAffilList-dummy">
+<a id="viewMoreAffilite" href="#" aria-expanded="false" title="View additional affiliations" class="disabled"><span class="anchorText">View additional affiliations</span>&nbsp;
+<span class="ico-navigate-down" aria-hidden="true"></span></a>
+</section>
+<section id="AffRetriving" class="hidden">
+<div>
+<img src="/static/images/loading_3.gif"></div>
+<div>Retrieving additional affiliations...</div>
+</section>
+<a name="abstract"></a>
+<section id="abstractSection" class="row">
+<h3 class="h4">Abstract<span class="pull-right hidden"><a title="View reference: Subscription required" class="ico-navigate-down"><span class="anchorText">View references</span></a></span>
+</h3>
+<p data-reportRenderTime="PCR">(1) Background: In recent decades, studies have reported on the increased cardiovascular risk associated with increased levels of air pollutants, especially particulate matters (PM). It remains unclear whether the specific subgroups share the same involvement and whether the effect is delayed. (2) Methods: Data for acute coronary syndrome (ACS) incidences from 2008 to 2011 were gathered in two major medical centres in Slovenia. A time series analysis was conducted in which daily ACS incidence data were linked with daily concentrations of PM<sub>10</sub> (PM with a median aerodynamic diameter less than 10 μm) using a well-established generalized linear model with a log link function and a Poisson distribution of ACS.We specifically focused on groups based simultaneously on age and gender. (3) Results: On the basis of the presented models, it appears that daily average concentrations of PM<sub>10</sub> have a significant impact on ACS incidence for the entire population, with a higher impact on older populations and the highest impact on older men. The analysis of the delayed effect in PM<sub>10</sub>-related ACS incidences observed the strongest effect at a one day lag. (4) Conclusions: Our study detected the presence of a "rise and fall" lag pattern observed in three aforementioned population groups; however, no significant association was detected for women and younger populations. © 2019 by the authors. Licensee MDPI, Basel, Switzerland.</p>
+</section>
+<div id="reaxysSubstanceBlk"></div>
+<div id="reaxysBlk"></div>
+<section id="authorKeywords">
+<h3 class="h4">Author keywords</h3>
+<span class="badges">Air pollution</span><span class="badges">Lag effect</span><span class="badges">Morbidity</span><span class="badges">Myocardial infarction</span><span class="badges">PM<sub>10</sub></span>
+</section>
+<section id="indexedKeywords">
+<h3 class="h4">Indexed keywords</h3>
+<table class="table">
+<tr>
+<th scope="row">Engineering controlled terms:</th><td><span class="badges">Air pollution</span><span class="badges">Poisson distribution</span></td>
+</tr>
+<tr>
+<th scope="row">Engineering uncontrolled terms</th><td><span class="badges">Acute Coronary Syndrome (ACS)</span><span class="badges">Acute coronary syndromes</span><span class="badges">Lag effects</span><span class="badges">Median aerodynamic diameters</span><span class="badges">Morbidity</span><span class="badges">Myocardial Infarction</span><span class="badges">Particulate matter pollution</span><span class="badges">PM10</span></td>
+</tr>
+<tr>
+<th scope="row">Engineering main heading:</th><td><span class="badges">Time series analysis</span></td>
+</tr>
+<tr>
+<th scope="row">GEOBASE Subject Index:</th><td><span class="badges">atmospheric pollution</span><span class="badges">cardiovascular disease</span><span class="badges">concentration (composition)</span><span class="badges">disease incidence</span><span class="badges">morbidity</span><span class="badges">particulate matter</span><span class="badges">time series analysis</span></td>
+</tr>
+<tr>
+<th scope="row">Regional Index:</th><td><span class="badges">Slovenia</span></td>
+</tr>
+<tr>
+<td colspan="2"></td>
+</tr>
+</table>
+</section>
+<section id="referenceInfo">
+<div class="row">
+<div class="col-md-5">
+<ul class="list-unstyled" id="citationInfo">
+<li>
+<strong>ISSN: </strong>20734433</li>
+<li>
+<strong>Source Type: </strong>Journal</li>
+<li>
+<strong>Original language: </strong>English</li>
+</ul>
+</div>
+<div class="col-md-7">
+<ul class="list-unstyled" id="documentInfo">
+<li>
+<strong>DOI: </strong><span id="recordDOI">10.3390/atmos10030103</span>
+</li>
+<li>
+<strong>Document Type: </strong>Article</li>
+<li>
+<strong>Publisher: </strong>MDPI AG</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+<div id="SC_BA1P" class="sgfNoTitleBar svDoNotLink">
+</div>
+<div id="SC_BA1" class="svDoNotLink">	       
+</div>
+<a name="ref"></a>
+<hr>
+<div id="refDocs"></div>
+<p class="corrAuthSect">
+<a name="corrAuthorFooter"><span class="ico-person">&nbsp;</span></a> Ravljen, M.; Faculty of Health Sciences, University of Ljubljana, Zdravstvena pot 5, Ljubljana, Slovenia; <BR>
+&copy; Copyright 2019 Elsevier B.V., All rights reserved.</p>
+</div>
+</div>
+<div id="profilerightside"  class="col-md-3">
+<div id="profilerightinside">
+<div id='chapterList'  class ="displayNone"></div>
+<script type="text/javascript">
+var chapterListEnabled = true;
+</script>
+<div>
+<div id="recordPageBoxes">
+<div class="panel panel-default boxPanel">
+<div class="panel-heading">
+<h3 class="panel-title">
+Cited by 0 documents 
+</h3>
+</div>
+</div> 
+<div class="panel-footer">
+<div class="footerSection">
+<span class="findMoreHeader ">Inform me when this document is cited in Scopus:</BR></span>
+<div class="citeinfo flexDisplay verticalAlign">
+<a class="btn btn-secondary-altBg btn-xsm altColor saveAsAlert disabled" title='Set citation alert'>
+<span class="anchorText">Set citation alert</span>
+<span class="ico-navigate-right" aria-hidden="true"></span>
+</a>
+<a class="btn btn-secondary-altBg btn-xsm altColor icon setFeed disabled" title='Set citation feed'>
+<span class="anchorText">Set citation feed</span>
+<span class="ico-navigate-right" aria-hidden="true"></span>
+</a>
+</div>
+</div>      
+</div>
+			
+</div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+var mltContinueURL;
+if (mltContinueURL != null) {
+yes = confirm(mltContinueMsg);
+if (yes) {
+window.location = mltContinueURL;
+}
+}
+</script>
+<div style="display:none" id="mlttable">
+<div id="recordPageBoxes">
+<div id="relatedDocBox" class="panel panel-default boxPanel">
+<div class="panel-heading">
+<h3 class="panel-title">Related documents</h3>
+</div>
+<div class="panel-body">
+<div id="relatedDoc"></div>
+</div>
+<div class="panel-footer">
+<div class="inforeldocbox footerSection">
+<span class="findMoreHeader">Find more related documents in Scopus based on:</span>
+<div class="footerSctnLinks flexDisplay verticalAlign">
+<div class="pull-left">
+<div class="">
+<a class="disabled" title='Authors: Subscription required'>
+<span class="anchorText">Authors</span>
+<span class="ico-navigate-right" aria-hidden="true"></span>
+</a>
+</div>
+</div>
+<div class="pull-left keywordsMargin">
+<div>
+<a class="disabled" title='Keywords: Subscription required'>
+<span class="anchorText">Keywords</span>
+<span class="ico-navigate-right" aria-hidden="true"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+document.getElementById('mlttable').style.display = "block";
+</script>
+<section id="articleDataSet"></section>
+</div>
+</div>
+<div class="sciTopicsVal displayNone">{"topic":{"name":"Particulate Matter; Air Pollution; Long-term exposure","id":1135,"uri":"Topic/1135","prominencePercentile":99.60338,"prominencePercentileString":"99.603","overallScholarlyOutput":0},"dig":"7b4a3fe2c8f717a46ffc1544ca8482e510d8f4f29e956e0e87110baf23dc5dad"}</div>
+<div class="sciTopics">
+<section id="topicSection" class="row">
+<h3 class="topicTitle h4 displayInline">SciVal Topic Prominence</h3>
+<span class="dropdown dropup">
+<button type="button" title="Learn about these Topics" class="btn btn-link dropdown-toggle btn-sm" id="topicsBtn" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="false">
+<span class="ico-information triangleColor" aria-hidden="true"></span>
+</button>
+<div class="dropdown-menu dropdown-menu-right dropdown-menu-medium" role="menu" aria-labelledby="downloadHelp" id="topicsHelp">
+<span class="dropdownHeader"></span>
+<span class="dropdownContent">
+<span class="dropdownContentWrap">
+<span id="dropdownTitle" class="row" tabindex="-1"></span>
+<h4 id="meModalTitle"><strong class="font-weight-bold">New: </strong>SciVal Topic Prominence</h4>
+<p>Topics are unique areas of research, created using all Scopus publications from 1996 onwards. </p>
+<p class="noMargin">
+Use this section to learn about the Topic, find key authors to follow, and view related documents.
+<a class="btn btn-sm secondaryLink externalLink marginTopHalf noBorder" href="/standard/help.uri?topic=27947"
+alt="" target="globalHelp" title="Learn more about these Topics (opens in a new window)" id="topicDetail"> 
+<span class="anchorText paddingTopHalf">Learn more about these Topics</span>
+<span class="ico-external-link-after" aria-hidden="true"></span>
+</a>
+</p>
+<button class="btn btn-link closeDropDown" data-toggle="dropdown" id="closeDownloadHelpMenu" type="button">
+<span class="ico-delete icon" aria-hidden="true"></span>
+<span class="sr-only"> Close window </span>
+</button>
+</span>
+</span>
+<span class="dropdownFooter"></span>
+</div>
+</span>
+<div class="topicContent marginBottom1 marginTop1">
+Topic: 
+<a href="#topicDetailModal" data-toggle="modal" data-target="#topicDetailModal" title="Open Topic details" id="topicLink" class="paddingLeftHalf secondaryLink"></a>
+</div>
+<div class="topicsProgress flexAlignCenter flexDisplay">
+<div>
+Prominence percentile:
+<span class="paddingRightHalf paddingLeft1 percentText"></span>
+</div>
+<div class="progress quarterWidth noMarginBottom" style="width: 4.9rem">
+<div class="progress-bar">&nbsp;</div>
+</div>
+<div class="dropdown dropup">
+<button type="button" title="Learn about prominence percentile"
+class="btn btn-link dropdown-toggle btn-sm marginLeftHalf" id="svTopicInfo"
+data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<span class="ico-information triangleColor" aria-hidden="true"></span>
+</button>
+<div class="dropdown-menu dropup-menu-right dropdown-menu-medium marginLeft1" role="menu" aria-labelledby="svTopicInfo">
+<span class="dropdownHeader"></span> <span class="dropdownContent">
+<span class="dropdownContentWrap greyText">
+<span class="">Prominence is an indicator that shows the current momentum of a Topic. It is calculated by weighing 3 metrics for papers clustered in a Topic: Citation count, Scopus views and Average CiteScore.</span>
+<button class="btn btn-link closeDropDown" data-toggle="dropdown" id="closeBtnTopicId" type="button">
+<span class="ico-delete icon" aria-hidden="true"></span>
+</button>
+</span>
+</span> <span class="dropdownFooter"></span>
+</div>
+</div>
+</div>
+</section></div>
+<script type="text/javascript" src="/gzip_N1377736354/bundles/d3.js" async="async" ></script>
+<div class="modal popupModal" id="topicDetailModal" data-backdrop="true" aria-labelledby="" aria-describedby="" tabindex="-1"
+role="dialog">
+<div class="modal-dialog modal-xl smallText" role="document">
+<div class="modal-content">
+<div class="modal-header"><h3><span class="topicName">Topic: </span></h3>
+<div><span>Year range: </span><span class="yrRange"></span></div>
+<button type="button" class="close" data-dismiss="modal" aria-label="">
+<span class="ico-delete icon" aria-hidden="true"></span>
+</button>
+</div>
+<div class="modal-body paddingTop1 noPaddingBottom">
+<div class="row">
+<div class="col-md-7 pull-left">
+<section id="documents">
+<header class="paddingBottomHalf fontMedium">Representative documents</header>
+<ul class="articleList list-unstyled"></ul>
+</section>
+</div>
+<div class="col-md-5 pull-right">
+<aside id="authors" class="col-md-10">
+<table class="table">
+<thead>
+<th class="noBorder noPaddingLeft noPaddingTop fontMedium paddingBottomHalf">Top authors</th>
+<th class="noBorder textRight noPaddingLeft noPaddingTop lightGreyText fontSmall paddingBottomHalf">Scholarly Output</th>
+</thead>
+<tbody>
+</tbody>
+</table>
+</aside>
+<aside id="visual" class="col-md-12">
+<div id="tabs" class="clearfix marginTop2 marginBottom1Half marginRight1">
+<header class="pull-left fontMedium">Keyphrase analysis</header>
+<ul class="noBorder pull-right nav buttonTab">
+<li data-tabname="wrdCldCtner" class="pull-left active" default>
+<button href="#wrdCldCtner" class="btn btn-sm paddingRightHalf paddingLeftHalf btn-secondary btn-link secondary-button-border-color noBorderRight" data-toggle="tab" id="chartTab">
+<span class="ico-upwards-line-chart paddingRightQuarter"></span><span class="btnText noBorder">Chart</span>
+</button>
+</li>
+<li data-tabname="keyword" class="pull-left">
+<button href="#keyword" class="btn btn-sm paddingRightHalf paddingLeftHalf btn-secondary btn-link secondary-button-border-color noBorderLeft" data-toggle="tab" id="tableTab">
+<span class="ico-tables paddingRightQuarter"></span><span class="btnText noBorder">Table</span>
+</button>
+</li>
+</ul>
+</div>
+<div class="tab-content">
+<div id="wrdCldCtner" class="tab-pane fade in active">
+<div id="chart"></div>
+<div class="wordCloudLegend textCenter">
+<span class="relevance">
+<span class="normal">A</span>
+<span class="large">A</span>
+<span class="larger">A</span>
+<span>relevance of keyphrase</span>
+<span class="verticalpipe">|</span>
+</span>
+<span class="nowrap">
+<span>declining</span>
+<span class="large declining">A</span>
+<span class="large flat">A</span>
+<span class="large growing">A</span>
+<span>Growth</span>
+</span>
+</div>
+</div>
+<div id="keyword" class="tab-pane">
+<table id="keyword-table" class="table table-fixed tableRowBorder"></table>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<div class="row pull-right paddingRight1 paddingBottom1 marginTop2">
+<a class="btn btn-primary btn-sm" data-link='https://scival.com/viewtopic?id=' title="Analyze this topic in SciVal (opens in new tab)"
+id="topicsLink" target="_blank"> <span class="btnText paddingRightHalf noBorder">Analyze in SciVal</span><span class="ico-navigate-right whiteText"
+aria-hidden="true"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="clear"></div></div></div><div class="row"><div class="col-md-12 footer"><footer>
+<a href="#" name="skiptofooter" id="skiptofooter"></a>
+<div class="row footerLinks">
+<div class="col-md-3">
+<header>
+<h3>About Scopus</h3>
+</header>
+<ul class="list-unstyled">
+<li>
+<a target="_blank" href="https://www.elsevier.com/online-tools/scopus" title='Learn more about Scopus (opens in a new window)' class="secondaryLink">
+<span class="anchorText">What is Scopus</span>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.elsevier.com/online-tools/scopus/content-overview/" title='Learn more about Scopus&#039; content coverage (opens in a new window)' class="secondaryLink">
+<span class="anchorText">Content coverage</span>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://blog.scopus.com/" title='Read the Scopus Blog (opens in a new window)' class="secondaryLink">
+<span class="anchorText">Scopus blog</span>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://dev.elsevier.com/" title='Learn more about Scopus API&#039;s (opens in a new window)' class="secondaryLink">
+<span class="anchorText">Scopus API</span>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.elsevier.com/about/our-business/policies/privacy-principles" title='View privacy matters page (opens in a new window)' class="secondaryLink">
+<span class="anchorText">Privacy matters</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3">
+<header>
+<h3>Language</h3>
+</header>
+<ul class="list-unstyled" id="languageSwitchList" data-currentlocale="en_US">
+<li lang="ja" >
+<a lang="ja" hreflang="ja" href="/personalization/switch/Japanese.uri?origin=recordpage&zone=footer&locale=ja_JP" target="_top" title="日本語版を表示する" class="">
+<span class="anchorText">
+日本語に切り替える
+</span>
+</a>
+</li>
+<li lang="zh-Hans" >
+<a lang="zh-Hans" hreflang="zh-Hans" href="/personalization/switch/Chinese.uri?origin=recordpage&zone=footer&locale=zh_CN" target="_top" title="查看简体中文版本" class="">
+<span class="anchorText">
+切换到简体中文
+</span>
+</a>
+</li>
+<li lang="zh-Hant" >
+<a lang="zh-Hant" hreflang="zh-Hant" href="/personalization/switch/Chinese.uri?origin=recordpage&zone=footer&locale=zh_TW" target="_top" title="查看繁體中文版本" class="">
+<span class="anchorText">
+切換到繁體中文
+</span>
+</a>
+</li>
+<li lang="ru" >
+<a lang="ru" hreflang="ru" href="/personalization/switch/Russian.uri?origin=recordpage&zone=footer&locale=ru_RU" target="_top" title="Просмотр версии на русском языке" class="">
+<span class="anchorText">
+Русский язык
+</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="col-md-6">
+<header>
+<h3>Customer Service</h3>
+</header>
+<ul class="list-unstyled">
+<li>
+<a target="_blank" title="View Scopus help files (opens in a new window)" href="/standard/contactUs.uri?pageOrigin=footer">
+<span class="anchorText">Help</span>
+</a>
+</li>
+<li>
+<a target="_blank" title="Contact us (opens in a new window)" 
+href="/standard/contactForm.uri?pageOrigin=footer">
+<span class="anchorText">
+Contact us
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row footerCopyright">
+<div class="col-md-2">
+<a id="elsevierLogo" target="_blank" href="https://www.elsevier.com/" title="Go to the Elsevier site (opens in a new window)">
+<img src="/static/images/logo_Elsevier.svg" alt="Elsevier">
+</a>
+</div>
+<div class="col-md-8">
+<ul class="list-unstyled list-inline">
+<li>
+<a target="_blank" href="https://www.elsevier.com/locate/termsandconditions" title="View the terms and conditions of Elsevier (opens in a new window)" class="btn-link secondaryLink noPaddingLeft noBorder">
+<span class="anchorText">
+Terms and conditions
+</span>
+<span class="ico-external-link-after noMargin" aria-hidden="true"></span>
+<span class="sr-only">View the terms and conditions of Elsevier (opens in a new window)</span>
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.elsevier.com/locate/privacypolicy" title="View the privacy policy of Elsevier (opens in a new window)" class="btn-link secondaryLink noPaddingLeft noBorder">
+<span class="anchorText">
+Privacy policy
+</span>
+<span class="ico-external-link-after noMargin" aria-hidden="true"></span>
+</a>
+</li>
+</ul>
+<p id="copyRightID" class="noMargin">
+Copyright ©  <a target="_blank" href="https://www.elsevier.com" title="Go to the Elsevier site (opens in a new window)" class="btn-link noPadding secondaryLink noBorder"><span class="anchorText">Elsevier B.V </span><span class="ico-external-link-after noMargin" aria-hidden="true"></span></a>. All rights reserved. Scopus® is a registered trademark of Elsevier B.V.
+</p>
+<p class="cookiesTextID" class="noMargin">
+We use cookies to help provide and enhance our service and tailor content. By continuing, you agree to the <a href="/cookies/policy.uri" title="See cookie details (opens in a new window)" class="btn-link noPadding secondaryLink">use of cookies</a>.
+</p>
+</div>
+<div class="col-md-2">
+<a id="relexLogo" href="http://www.relx.com" title="Go to RELX Group Homepage (Opens in a new window)" target="_blank">
+<img src="/static/images/reLogo_orange.svg" alt="RELX Group" />
+<img src="/static/images/reText_gray.svg" alt="RELX Group" />
+</a>
+</div>
+</div>
+</footer><script type="text/javascript" src="/gzip_N972365176/bundles/ScopusMasterJS.js" ></script>
+<script type="text/javascript" src="/gzip_2031053442/bundles/RecordPageBottomMaster.js" ></script>
+</div></div></div><input type="hidden" value="278641" id="accId" name="accId">
+<script type="text/javascript">	
+var WAM = new Object;
+WAM.sep = "#";
+WAM.ud = "GUEST#289839#278641#0fd46be6d28db6102456315-5cbe9a38e6a949a0-4";
+WAM.cars = "";
+WAM.part = "2dRBettD";
+WAM.exportAction=function(format, info, count) {return true;};
+</script>
+<script type="text/javascript"></script><div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-busy="true" aria-live="assertive"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-body">Loading...<span class="loading-wrapper"><span class="loadingIcon"></span></span>			</div></div></div></div></div></div><script type="text/javascript" src="/gzip_N2121183168/bundles/pendoTop.js" ></script>
+<script type="text/javascript">
+var pendoData = {};
+pendoDataUtil.loadPendoDataObject("13341253",
+"88.200.100.205",
+"(13341253,U|289839,D|278641,A|72218,P|1,PL)(SCOPUS,CON|ANON_GUEST,ACCESS_TYPE)",
+"GUEST",
+"en_US",
+"278641",
+"Scopus Preview",
+"");
+(function(p, e, n, d, o) {
+var v, w, x, y, z;
+o = p[d] = p[d] || {};
+o._q = [];
+v = [ 'initialize', 'identify', 'updateOptions', 'pageLoad' ];
+for (w = 0, x = v.length; w < x; ++w)
+(function(m) {
+o[m] = o[m]
+|| function() {
+o._q[m === v[0] ? 'unshift' : 'push']([ m ]
+.concat([].slice.call(arguments, 0)));
+};
+})(v[w]);
+y = e.createElement(n);
+y.async = !0;
+y.src = 'https://cdn.pendo.io/agent/static/7108b796-60e0-44bd-6a6b-7313c4a99c35/pendo.js';
+z = e.getElementsByTagName(n)[0];
+z.parentNode.insertBefore(y, z);
+})(window, document, 'script', 'pendo');
+/* Call this whenever information about your visitors becomes available. 
+* Please use Strings, Numbers, or Bools for value types. */
+pendo.initialize({
+apiKey : '7108b796-60e0-44bd-6a6b-7313c4a99c35',
+visitor : {
+id : pendoData.userId,
+scopusOriginalId: pendoData.scopusOriginalId,
+ipAddress : pendoData.ipAddress,
+loginStatus : pendoData.loginStatus,
+language : pendoData.language,
+SCSessionID : pendoData.SCSessionID,
+navigatorLanguage : window.navigator.language
+},
+account : {
+id : pendoData.accountId,
+name : pendoData.accountName,
+accessType : pendoData.accessType,
+consortiumId : pendoData.consortiumId
+}
+});
+</script>
+<script type="text/javascript">
+pageDataUtil.loadFooterPageDataObject();
+pageData.page.loadTime = performance ? Math.round(performance.now()).toString() : '';
+pageDataTracker.trackPageLoad();
+siteCatPageUtil.afterPageLoad();
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"0268925da8","agent":"","beacon":"bam.nr-data.net","applicationTime":98,"applicationID":"31454162","transactionName":"MwAGYhBYX0oEABUNXQpKN0YQUF9eJgwPEEALCQhTEBZDXAYMEwAdAAwXRg5YSBlNJCQwGw==","queueTime":0}</script></body></html>

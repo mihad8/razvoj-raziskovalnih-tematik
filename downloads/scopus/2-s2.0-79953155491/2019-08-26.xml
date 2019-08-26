@@ -1,0 +1,240 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/79953155491</prism:url><dc:identifier>SCOPUS_ID:79953155491</dc:identifier><eid>2-s2.0-79953155491</eid><dc:title>Automatic pluviograph strip chart reading Računalniško branje padavinskih grafov</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Elektrotehniski Vestnik/Electrotechnical Review</prism:publicationName><source-id>16651</source-id><prism:issn>00135852</prism:issn><prism:volume>77</prism:volume><prism:issueIdentifier>2-3</prism:issueIdentifier><prism:startingPage>149</prism:startingPage><prism:endingPage>154</prism:endingPage><prism:pageRange>149-154</prism:pageRange><prism:coverDate>2010-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="37057067800"><ce:initials>G.</ce:initials><ce:indexed-name>Derganc G.</ce:indexed-name><ce:surname>Derganc</ce:surname><ce:given-name>Gašper</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Derganc G.</ce:indexed-name><ce:surname>Derganc</ce:surname><ce:given-name>Gašper</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/37057067800</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                    <ce:para>An algorithm aimed at automatic detection and digitalization of the rainfall signal recorded by the float based rain gauges on paper strip charts (Fig. 1) is presented. The algorithm consists of several steps that gradually lead to the desired goal. The rainfall signal is extracted from the digital image of the strip chart. By using the moving average method (Fig. 3) and curve edge following method (Fig. 2) the rainfall curve is detected and uniquely determined. In each image column there is one single point representing the rainfall curve plotline. From the curve plotline a high-resolution rainfall time series is obtained. Besides image analysis techniques in the design of the algorithm, the mechanical features of the recording instrument were taken into consideration. The availability of high resolution rainfall time series is required in many applications, including rainfall classification, analysis of extreme rainfall events, calibration of raifall-runoff models, weather prediction models and many research projects. The algorithm was tested on 58 pluviograph strip chart images. A comparison between the data obtained with the proposed algorithm and the official data from the Environmental Agency of the Republic of Slovenia shows that the algorithm usually accurately detects the rainfall curve and consequently an accurate rainfall time series is obtained (Tab. 2). Since it is not always 100 % reliable, it should be used as a component of a system that would enable inspection of the detected curve and when required, it should also enable interactive changing of the parts needing correction.</ce:para>
+                </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/79953155491" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=79953155491&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=79953155491&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="37057067800"><ce:initials>G.</ce:initials><ce:indexed-name>Derganc G.</ce:indexed-name><ce:surname>Derganc</ce:surname><ce:given-name>Gašper</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Derganc G.</ce:indexed-name><ce:surname>Derganc</ce:surname><ce:given-name>Gašper</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/37057067800</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003277146"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003277146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="slv"/><authkeywords><author-keyword>Computer vision</author-keyword><author-keyword>Digitalisation</author-keyword><author-keyword>Meteorology</author-keyword><author-keyword>Pluviograph</author-keyword><author-keyword>Rainfall</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Automatic Detection</mainterm><mainterm weight="a" candidate="n">Digital image</mainterm><mainterm weight="a" candidate="n">Digitalisation</mainterm><mainterm weight="a" candidate="n">Environmental Agency</mainterm><mainterm weight="a" candidate="n">Extreme rainfall</mainterm><mainterm weight="a" candidate="n">High resolution</mainterm><mainterm weight="a" candidate="n">Image analysis techniques</mainterm><mainterm weight="a" candidate="n">Mechanical feature</mainterm><mainterm weight="a" candidate="n">Moving average method</mainterm><mainterm weight="a" candidate="n">Pluviograph</mainterm><mainterm weight="a" candidate="n">Rain gauges</mainterm><mainterm weight="a" candidate="n">Rainfall</mainterm><mainterm weight="a" candidate="n">Runoff model</mainterm><mainterm weight="a" candidate="n">Single point</mainterm><mainterm weight="a" candidate="n">Slovenia</mainterm><mainterm weight="a" candidate="n">Weather prediction model</mainterm></idxterms><subject-areas><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered timestamp="2012-06-03T11:11:54.000054+01:00" day="03" month="06" year="2012"/><ait:date-sort day="01" month="12" year="2010"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2011 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                <itemid idtype="PUI">361512975</itemid>
+                <itemid idtype="CPX">20111313882896</itemid>
+                <itemid idtype="SCP">79953155491</itemid>
+                <itemid idtype="SGR">79953155491</itemid>
+            </itemidlist><history>
+                <date-created day="01" month="04" year="2011"/>
+            </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="slv" language="Slovenian"/><abstract-language xml:lang="eng" language="English"/><abstract-language xml:lang="slv" language="Slovenian"/><author-keywords>
+                    <author-keyword>Computer vision</author-keyword>
+                    <author-keyword>Digitalisation</author-keyword>
+                    <author-keyword>Meteorology</author-keyword>
+                    <author-keyword>Pluviograph</author-keyword>
+                    <author-keyword>Rainfall</author-keyword>
+                </author-keywords></citation-info><citation-title><titletext original="n" xml:lang="eng" language="English">Automatic pluviograph strip chart reading</titletext><titletext original="y" xml:lang="slv" language="Slovenian">Računalniško branje padavinskih grafov</titletext></citation-title><author-group><author seq="1" auid="37057067800"><ce:initials>G.</ce:initials><ce:indexed-name>Derganc G.</ce:indexed-name><ce:surname>Derganc</ce:surname><ce:given-name>Gašper</ce:given-name><preferred-name>
+                        <ce:initials>G.</ce:initials>
+                        <ce:indexed-name>Derganc G.</ce:indexed-name>
+                        <ce:surname>Derganc</ce:surname>
+                        <ce:given-name>Gašper</ce:given-name>
+                    </preferred-name></author><author seq="2" auid="7003277146"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name>
+                        <ce:initials>P.</ce:initials>
+                        <ce:indexed-name>Peer P.</ce:indexed-name>
+                        <ce:surname>Peer</ce:surname>
+                        <ce:given-name>Peter</ce:given-name>
+                    </preferred-name></author><affiliation country="svn" dptid="104580817" afid="60031106"><organization>Fakulteta za računalništvo in informatiko</organization><organization>Univerza v Ljubljani</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                    <ce:initials>G.</ce:initials>
+                    <ce:indexed-name>Derganc G.</ce:indexed-name>
+                    <ce:surname>Derganc</ce:surname>
+                </person><affiliation country="svn"><organization>Fakulteta za računalništvo in informatiko</organization><organization>Univerza v Ljubljani</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                    <ce:para>An algorithm aimed at automatic detection and digitalization of the rainfall signal recorded by the float based rain gauges on paper strip charts (Fig. 1) is presented. The algorithm consists of several steps that gradually lead to the desired goal. The rainfall signal is extracted from the digital image of the strip chart. By using the moving average method (Fig. 3) and curve edge following method (Fig. 2) the rainfall curve is detected and uniquely determined. In each image column there is one single point representing the rainfall curve plotline. From the curve plotline a high-resolution rainfall time series is obtained. Besides image analysis techniques in the design of the algorithm, the mechanical features of the recording instrument were taken into consideration. The availability of high resolution rainfall time series is required in many applications, including rainfall classification, analysis of extreme rainfall events, calibration of raifall-runoff models, weather prediction models and many research projects. The algorithm was tested on 58 pluviograph strip chart images. A comparison between the data obtained with the proposed algorithm and the official data from the Environmental Agency of the Republic of Slovenia shows that the algorithm usually accurately detects the rainfall curve and consequently an accurate rainfall time series is obtained (Tab. 2). Since it is not always 100 % reliable, it should be used as a component of a system that would enable inspection of the detected curve and when required, it should also enable interactive changing of the parts needing correction.</ce:para>
+                </abstract></abstracts><source country="svn" type="j" srcid="16651"><sourcetitle>Elektrotehniski Vestnik/Electrotechnical Review</sourcetitle><sourcetitle-abbrev>Elektroteh Vestn Electrotech Rev</sourcetitle-abbrev><issn type="print">00135852</issn><codencode>ELVEA</codencode><volisspag>
+                    <voliss issue="2-3" volume="77"/>
+                    <pagerange last="154" first="149"/>
+                </volisspag><publicationyear first="2010"/><publicationdate>
+                    <year>2010</year>
+                <date-text xfab-added="true">2010</date-text></publicationdate><website>
+                    <ce:e-address type="url">http://ev.fe.uni-lj.si/2-3-2010/Derganc.pdf</ce:e-address>
+                </website></source><enhancement><classificationgroup>
+                    <classifications type="ASJC">
+                        <classification>2208</classification>
+                    </classifications><classifications type="SUBJABBR"><classification>ENGI</classification></classifications>
+                    <classifications type="CPXCLASS">
+                        <classification>
+                            <classification-code>443</classification-code>
+                            <classification-description>Meteorology</classification-description> </classification>
+                        <classification>
+                            <classification-code>741</classification-code>
+                            <classification-description>Light, Optics and Optical Devices</classification-description> </classification>
+                        <classification>
+                            <classification-code>741.2</classification-code>
+                            <classification-description>Vision</classification-description> </classification>
+                        <classification>
+                            <classification-code>921</classification-code>
+                            <classification-description>Applied Mathematics</classification-description> </classification>
+                        <classification>
+                            <classification-code>922.2</classification-code>
+                            <classification-description>Mathematical Statistics</classification-description> </classification>
+                        <classification>
+                            <classification-code>943.3</classification-code>
+                            <classification-description>Special Purpose Instruments</classification-description> </classification>
+                    </classifications>
+                    <classifications type="GEOCLASS">
+                        <classification>
+                            <classification-code>Related Topics</classification-code> </classification>
+                    </classifications>
+                </classificationgroup></enhancement></head><tail><bibliography refcount="7">
+                <reference id="1">
+                    <ref-info>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">79551503469</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>M.</ce:initials>
+                                <ce:indexed-name>Brilly M.</ce:indexed-name>
+                                <ce:surname>Brilly</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>Š.</ce:initials>
+                                <ce:indexed-name>Mojca S.</ce:indexed-name>
+                                <ce:surname>Mojca</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Osnove Hidrologije - 1</ref-sourcetitle>
+                        <ref-publicationyear first="2005"/>
+                        <ref-text>izd, Ljubljana, Fakulteta za gradbeništvo in geodezijo</ref-text>
+                    </ref-info>
+                    <ref-fulltext>Mitja Brilly, Mojca Šraj, Osnove hidrologije - 1. izd, Ljubljana, Fakulteta za gradbeništvo in geodezijo, 2005.</ref-fulltext>
+                </reference>
+                <reference id="2">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>An automatic system for rainfall signal recognition from tipping bucket gage strip charts</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">33845988407</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>R.</ce:initials>
+                                <ce:indexed-name>Deidda R.</ce:indexed-name>
+                                <ce:surname>Deidda</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>G.</ce:initials>
+                                <ce:indexed-name>Mascaro G.</ce:indexed-name>
+                                <ce:surname>Mascaro</ce:surname>
+                            </author>
+                            <author seq="3">
+                                <ce:initials>E.</ce:initials>
+                                <ce:indexed-name>Piga E.</ce:indexed-name>
+                                <ce:surname>Piga</ce:surname>
+                            </author>
+                            <author seq="4">
+                                <ce:initials>G.</ce:initials>
+                                <ce:indexed-name>Querzoli G.</ce:indexed-name>
+                                <ce:surname>Querzoli</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Journal of Hydrology</ref-sourcetitle>
+                        <ref-publicationyear first="2007"/>
+                        <ref-volisspag>
+                            <voliss issue="2-4" volume="333"/>
+                            <pagerange last="412" first="400"/>
+                        </ref-volisspag>
+                        <ref-text>DOI 10.1016/j.jhydrol.2006.09.011, PII S0022169406004811</ref-text>
+                    </ref-info>
+                    <ref-fulltext>Roberto Deidda, Giuseppe Mascaro, Enrico Piga, Giorgio Querzoli, "An automatic system for rainfall signal recognition from tipping bucket gage strip charts", Journal of Hydrology, 333, str. 400-412, 2007. (Pubitemid 46053968)</ref-fulltext>
+                </reference>
+                <reference id="3">
+                    <ref-info>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">0004162649</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>D.A.</ce:initials>
+                                <ce:indexed-name>Forsyth D.A.</ce:indexed-name>
+                                <ce:surname>Forsyth</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>J.</ce:initials>
+                                <ce:indexed-name>Ponce J.</ce:indexed-name>
+                                <ce:surname>Ponce</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Computer Vision - A Modern Approach</ref-sourcetitle>
+                        <ref-publicationyear first="2002"/>
+                        <ref-text>Prentice Hall</ref-text>
+                    </ref-info>
+                    <ref-fulltext>David A. Forsyth, Jean Ponce, Computer Vision - A Modern Approach, Prentice Hall, 2002.</ref-fulltext>
+                </reference>
+                <reference id="4">
+                    <ref-info>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">0004137004</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>D.</ce:initials>
+                                <ce:indexed-name>Gusfield D.</ce:indexed-name>
+                                <ce:surname>Gusfield</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Algorithms on Strings, Trees and Sequences: Computer Science and Computational Biology</ref-sourcetitle>
+                        <ref-publicationyear first="1997"/>
+                        <ref-text>New York, Cambridge University Press, poglavje 12.5</ref-text>
+                    </ref-info>
+                    <ref-fulltext>Dan Gusfield, Algorithms on Strings, Trees and Sequences: Computer Science and Computational Biology, New York, Cambridge University Press, poglavje 12.5, 1997.</ref-fulltext>
+                </reference>
+                <reference id="5">
+                    <ref-info>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">78650844558</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>I.</ce:initials>
+                                <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                <ce:surname>Kononenko</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Strojno Učenje</ref-sourcetitle>
+                        <ref-publicationyear first="1997"/>
+                        <ref-volisspag>
+                            <pagerange last="52" first="51"/>
+                        </ref-volisspag>
+                        <ref-text>Ljubljana, Fakulteta za računalništvo in informatiko</ref-text>
+                    </ref-info>
+                    <ref-fulltext>Igor Kononenko, Strojno učenje, Ljubljana, Fakulteta za računalništvo in informatiko, str. 51-52, 1997.</ref-fulltext>
+                </reference>
+                <reference id="6">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Seeded region growing features extraction algorithm; Its potential use in improving screening for cervical cancer</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">41649094820</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>A.N.</ce:initials>
+                                <ce:indexed-name>Mat-Isa A.N.</ce:indexed-name>
+                                <ce:surname>Mat-Isa</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>Y.M.</ce:initials>
+                                <ce:indexed-name>Mashor Y.M.</ce:indexed-name>
+                                <ce:surname>Mashor</ce:surname>
+                            </author>
+                            <author seq="3">
+                                <ce:initials>H.N.</ce:initials>
+                                <ce:indexed-name>Othman H.N.</ce:indexed-name>
+                                <ce:surname>Othman</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>International Journal of The Computer, the Internet and Management</ref-sourcetitle>
+                        <ref-publicationyear first="2005"/>
+                        <ref-volisspag>
+                            <voliss issue="1" volume="13"/>
+                            <pagerange last="70" first="61"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Ashidi N. Mat-Isa, Yusof M. Mashor, Hayati N. Othman, "Seeded Region Growing Features Extraction Algorithm; Its Potential Use in Improving Screening for Cervical Cancer", International Journal of The Computer, the Internet and Management, 13(1), str. 61-70, 2005.</ref-fulltext>
+                </reference>
+                <reference id="7">
+                    <ref-info>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">79953146225</itemid>
+                        </refd-itemidlist>
+                        <ref-sourcetitle>Wikipedia CIELAB</ref-sourcetitle>
+                        <ref-website>
+                            <ce:e-address type="url">http://en.wikipedia.org/wiki/Lab_color_space</ce:e-address>
+                        </ref-website>
+                        <ref-text>1.9.2009</ref-text>
+                    </ref-info>
+                    <ref-fulltext>Wikipedia CIELAB: http://en.wikipedia.org/wiki/Lab-color-space (1.9.2009).</ref-fulltext>
+                </reference>
+            </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

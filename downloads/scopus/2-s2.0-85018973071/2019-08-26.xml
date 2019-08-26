@@ -1,0 +1,2148 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85018973071</prism:url><dc:identifier>SCOPUS_ID:85018973071</dc:identifier><eid>2-s2.0-85018973071</eid><pubmed-id>28467899</pubmed-id><pii>S2211124717305223</pii><prism:doi>10.1016/j.celrep.2017.04.028</prism:doi><dc:title>High-Resolution RNA Maps Suggest Common Principles of Splicing and Polyadenylation Regulation by TDP-43</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>17</citedby-count><prism:publicationName>Cell Reports</prism:publicationName><dc:publisher>
+                        Elsevier B.V.
+                    </dc:publisher><source-id>21100201068</source-id><prism:issn>22111247</prism:issn><prism:volume>19</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:startingPage>1056</prism:startingPage><prism:endingPage>1067</prism:endingPage><prism:pageRange>1056-1067</prism:pageRange><prism:coverDate>2017-05-02</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="34875482800"><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/34875482800</author-url><affiliation id="60026285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60026285"/><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 The Author(s)</publishercopyright>
+                        <ce:para>Many RNA-binding proteins (RBPs) regulate both alternative exons and poly(A) site selection. To understand their regulatory principles, we developed expressRNA, a web platform encompassing computational tools for integration of iCLIP and RNA motif analyses with RNA-seq and 3′ mRNA sequencing. This reveals at nucleotide resolution the “RNA maps” describing how the RNA binding positions of RBPs relate to their regulatory functions. We use this approach to examine how TDP-43, an RBP involved in several neurodegenerative diseases, binds around its regulated poly(A) sites. Binding close to the poly(A) site generally represses, whereas binding further downstream enhances use of the site, which is similar to TDP-43 binding around regulated exons. Our RNAmotifs2 software also identifies sequence motifs that cluster together with the binding motifs of TDP-43. We conclude that TDP-43 directly regulates diverse types of pre-mRNA processing according to common position-dependent principles.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85018973071" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85018973071&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85018973071&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60107715" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107715"><affilname>Institute of Molecular Biology of the National Academy of Sciences of Armenia</affilname><affiliation-city>Yerevan</affiliation-city><affiliation-country>Armenia</affiliation-country></affiliation><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"><affilname>The Francis Crick Institute</affilname><affiliation-city>London</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60105781" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105781"><affilname>Institut de Biologie de l'École Normale Supérieure</affilname><affiliation-city>Paris</affiliation-city><affiliation-country>France</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60026285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60026285"><affilname>Swiss Institute of Bioinformatics</affilname><affiliation-city>Geneva</affiliation-city><affiliation-country>Switzerland</affiliation-country></affiliation><affiliation id="60024007" href="https://api.elsevier.com/content/affiliation/affiliation_id/60024007"><affilname>Helmholtz Center Munich German Research Center for Environmental Health</affilname><affiliation-city>Neuherberg</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"><affilname>UCL Institute of Neurology</affilname><affiliation-city>London</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"><affilname>The Medical Research Council Laboratory of Molecular Biology</affilname><affiliation-city>Cambridge</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"><affilname>European Molecular Biology Laboratory Heidelberg</affilname><affiliation-city>Heidelberg</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><authors><author seq="1" auid="34875482800"><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/34875482800</author-url><affiliation id="60026285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60026285"/><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/></author><author seq="2" auid="35212012100"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35212012100</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/><affiliation id="60105781" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105781"/></author><author seq="3" auid="55928963700"><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55928963700</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"/></author><author seq="4" auid="55355844200"><ce:initials>M.</ce:initials><ce:indexed-name>Modic M.</ce:indexed-name><ce:surname>Modic</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Modic M.</ce:indexed-name><ce:surname>Modic</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55355844200</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/><affiliation id="60024007" href="https://api.elsevier.com/content/affiliation/affiliation_id/60024007"/></author><author seq="5" auid="57193921172"><ce:initials>T.</ce:initials><ce:indexed-name>Lence T.</ce:indexed-name><ce:surname>Lenče</ce:surname><ce:given-name>Tina</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Lenče T.</ce:indexed-name><ce:surname>Lenče</ce:surname><ce:given-name>Tina</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57193921172</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/><affiliation id="60107715" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107715"/></author><author seq="6" auid="6505760018"><ce:initials>M.</ce:initials><ce:indexed-name>Hallegger M.</ce:indexed-name><ce:surname>Hallegger</ce:surname><ce:given-name>Martina</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Hallegger M.</ce:indexed-name><ce:surname>Hallegger</ce:surname><ce:given-name>Martina</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505760018</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"/></author><author seq="7" auid="55356372800"><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55356372800</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"/></author><author seq="8" auid="6506958162"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506958162</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="9" auid="6602603515"><ce:initials>C.</ce:initials><ce:indexed-name>von Mering C.</ce:indexed-name><ce:surname>von Mering</ce:surname><ce:given-name>Christian</ce:given-name><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>von Mering C.</ce:indexed-name><ce:surname>von Mering</ce:surname><ce:given-name>Christian</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602603515</author-url><affiliation id="60026285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60026285"/></author><author seq="10" auid="57204150692"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204150692</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>3′ mRNA sequencing</author-keyword><author-keyword>alternative polyadenylation</author-keyword><author-keyword>alternative splicing</author-keyword><author-keyword>clustered sequence motifs</author-keyword><author-keyword>expressRNA</author-keyword><author-keyword>iCLIP</author-keyword><author-keyword>positional regulatory principles</author-keyword><author-keyword>RNA map</author-keyword><author-keyword>RNAmotifs2</author-keyword><author-keyword>TDP-43</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">DNA-Binding Proteins</mainterm><mainterm weight="b" candidate="n">HEK293 Cells</mainterm><mainterm weight="b" candidate="n">Humans</mainterm><mainterm weight="a" candidate="n">Polyadenylation</mainterm><mainterm weight="b" candidate="n">Protein Binding</mainterm><mainterm weight="b" candidate="n">RNA 3' Polyadenylation Signals</mainterm><mainterm weight="a" candidate="n">RNA Splicing</mainterm><mainterm weight="b" candidate="n">RNA, Messenger</mainterm></idxterms><subject-areas><subject-area code="1300" abbrev="BIOC">Biochemistry, Genetics and Molecular Biology (all)</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-08T01:24:47Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>European Research Council</xocs:funding-agency-matched-string><xocs:funding-id>206726-CLIP</xocs:funding-id><xocs:funding-id>617837-Translate</xocs:funding-id><xocs:funding-agency>European Research Council</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000781</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-id>J7-5460</xocs:funding-id><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>J.U.</xocs:funding-agency-matched-string></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Swiss National Science Foundation</xocs:funding-agency-matched-string><xocs:funding-id>31003A_160095</xocs:funding-id><xocs:funding-agency>Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001711</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2658434/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>T.C.</xocs:funding-agency-matched-string><xocs:funding-agency>T.C. stanbul Kltr niversitesi</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100007503</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/298795/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>We thank Jo?o F. Matias Rodrigues and Sebastian Schmidt for discussions on data analysis, Jan Attig for assistance with the minigene experiments, Dalia Daujotyte for assistance with the QuantSeq experiments, and von Mering and Ule lab members for comments on the manuscript. This work was supported by the European Research Council (206726-CLIP and 617837-Translate to J.U.) and the Slovenian Research Agency (J7-5460 to J.U. and T.C.); G.R. and C.v.M. were funded by the Swiss National Science Foundation (grant 31003A_160095).</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="19" month="10" timestamp="2018-10-19T11:27:17.000017-04:00" year="2018"/><ait:date-sort day="02" month="05" year="2017"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2017 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S2211124717305223</ce:pii>
+                    <ce:doi>10.1016/j.celrep.2017.04.028</ce:doi>
+                    <itemid idtype="PUI">615887458</itemid>
+                    <itemid idtype="CAR-ID">664138297</itemid>
+                    <itemid idtype="EMBASE">20170318395</itemid>
+                    <itemid idtype="EMBIO">2016995449</itemid>
+                    <itemid idtype="NURSNG">2017153425</itemid>
+                    <itemid idtype="REAXYSCAR">20170791143</itemid>
+                    <itemid idtype="SCP">85018973071</itemid>
+                    <itemid idtype="SGR">85018973071</itemid>
+                    <itemid idtype="PUIsecondary">620686995</itemid>
+                    <itemid idtype="MEDL">28467899</itemid>
+                </itemidlist><history>
+                    <date-created day="16" month="05" timestamp="BST 10:40:19" year="2017"/>
+                </history><dbcollection>EMBASE</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>NURSNG</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>Scopusbase</dbcollection><dbcollection>MEDL</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">3′ mRNA sequencing</author-keyword>
+                        <author-keyword xml:lang="eng">alternative polyadenylation</author-keyword>
+                        <author-keyword xml:lang="eng">alternative splicing</author-keyword>
+                        <author-keyword xml:lang="eng">clustered sequence motifs</author-keyword>
+                        <author-keyword xml:lang="eng">expressRNA</author-keyword>
+                        <author-keyword xml:lang="eng">iCLIP</author-keyword>
+                        <author-keyword xml:lang="eng">positional regulatory principles</author-keyword>
+                        <author-keyword xml:lang="eng">RNA map</author-keyword>
+                        <author-keyword xml:lang="eng">RNAmotifs2</author-keyword>
+                        <author-keyword xml:lang="eng">TDP-43</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">High-Resolution RNA Maps Suggest Common Principles of Splicing and Polyadenylation Regulation by TDP-43</titletext></citation-title><author-group><author auid="34875482800" seq="1" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Rot G.</ce:indexed-name>
+                            <ce:surname>Rot</ce:surname>
+                            <ce:given-name>Gregor</ce:given-name>
+                        </preferred-name></author><author auid="6602603515" seq="9" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>von Mering C.</ce:indexed-name><ce:surname>von Mering</ce:surname><ce:given-name>Christian</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>von Mering C.</ce:indexed-name>
+                            <ce:surname>von Mering</ce:surname>
+                            <ce:given-name>Christian</ce:given-name>
+                        </preferred-name></author><affiliation afid="60026285" country="che"><organization>Institute of Molecular Life Sciences and Swiss Institute of Bioinformatics</organization><address-part>Winterthurerstrasse 190</address-part><city>Zurich</city><postal-code>8057</postal-code><affiliation-id afid="60026285"/><country>Switzerland</country></affiliation></author-group><author-group><author auid="34875482800" seq="1" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Rot G.</ce:indexed-name>
+                            <ce:surname>Rot</ce:surname>
+                            <ce:given-name>Gregor</ce:given-name>
+                        </preferred-name></author><author auid="35212012100" seq="2" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Wang Z.</ce:indexed-name>
+                            <ce:surname>Wang</ce:surname>
+                            <ce:given-name>Zhen</ce:given-name>
+                        </preferred-name></author><author auid="55928963700" seq="3" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Huppertz I.</ce:indexed-name>
+                            <ce:surname>Huppertz</ce:surname>
+                            <ce:given-name>Ina</ce:given-name>
+                        </preferred-name></author><author auid="55355844200" seq="4" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Modic M.</ce:indexed-name><ce:surname>Modic</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Modic M.</ce:indexed-name>
+                            <ce:surname>Modic</ce:surname>
+                            <ce:given-name>Miha</ce:given-name>
+                        </preferred-name></author><author auid="57193921172" seq="5" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Lence T.</ce:indexed-name><ce:surname>Lenče</ce:surname><ce:given-name>Tina</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Lenče T.</ce:indexed-name>
+                            <ce:surname>Lenče</ce:surname>
+                            <ce:given-name>Tina</ce:given-name>
+                        </preferred-name></author><author auid="57204150692" seq="10" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Ule J.</ce:indexed-name>
+                            <ce:surname>Ule</ce:surname>
+                            <ce:given-name>Jernej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60010269" country="gbr"><organization>MRC Laboratory of Molecular Biology</organization><address-part>Francis Crick Avenue</address-part><city>Cambridge</city><postal-code>CB2 0QH</postal-code><affiliation-id afid="60010269"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="35212012100" seq="2" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Wang Z.</ce:indexed-name>
+                            <ce:surname>Wang</ce:surname>
+                            <ce:given-name>Zhen</ce:given-name>
+                        </preferred-name></author><affiliation afid="60105781" country="fra"><organization>Institut de Biologie de l'ENS (IBENS)</organization><address-part>46 rue d'Ulm</address-part><city>Paris</city><postal-code>75005</postal-code><affiliation-id afid="60105781"/><country>France</country></affiliation></author-group><author-group><author auid="6505760018" seq="6" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Hallegger M.</ce:indexed-name><ce:surname>Hallegger</ce:surname><ce:given-name>Martina</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Hallegger M.</ce:indexed-name>
+                            <ce:surname>Hallegger</ce:surname>
+                            <ce:given-name>Martina</ce:given-name>
+                        </preferred-name></author><author auid="55356372800" seq="7" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Haberman N.</ce:indexed-name>
+                            <ce:surname>Haberman</ce:surname>
+                            <ce:given-name>Nejc</ce:given-name>
+                        </preferred-name></author><author auid="57204150692" seq="10" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Ule J.</ce:indexed-name>
+                            <ce:surname>Ule</ce:surname>
+                            <ce:given-name>Jernej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60019953" country="gbr"><organization>UCL Institute of Neurology</organization><address-part>Queen Square</address-part><city>London</city><postal-code>WC1N 3BG</postal-code><affiliation-id afid="60019953"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="6505760018" seq="6" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Hallegger M.</ce:indexed-name><ce:surname>Hallegger</ce:surname><ce:given-name>Martina</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Hallegger M.</ce:indexed-name>
+                            <ce:surname>Hallegger</ce:surname>
+                            <ce:given-name>Martina</ce:given-name>
+                        </preferred-name></author><author auid="55356372800" seq="7" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Haberman N.</ce:indexed-name>
+                            <ce:surname>Haberman</ce:surname>
+                            <ce:given-name>Nejc</ce:given-name>
+                        </preferred-name></author><author auid="57204150692" seq="10" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Ule J.</ce:indexed-name>
+                            <ce:surname>Ule</ce:surname>
+                            <ce:given-name>Jernej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60107285" country="gbr"><organization>The Francis Crick Institute</organization><address-part>1 Midland Road</address-part><city>London</city><postal-code>NW1 1AT</postal-code><affiliation-id afid="60107285"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="55928963700" seq="3" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Huppertz I.</ce:indexed-name>
+                            <ce:surname>Huppertz</ce:surname>
+                            <ce:given-name>Ina</ce:given-name>
+                        </preferred-name></author><affiliation afid="60007257" country="deu"><organization>European Molecular Biology Laboratory</organization><address-part>Meyerhofstrasse 1</address-part><city>Heidelberg</city><postal-code>69117</postal-code><affiliation-id afid="60007257"/><country>Germany</country></affiliation></author-group><author-group><author auid="55355844200" seq="4" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Modic M.</ce:indexed-name><ce:surname>Modic</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Modic M.</ce:indexed-name>
+                            <ce:surname>Modic</ce:surname>
+                            <ce:given-name>Miha</ce:given-name>
+                        </preferred-name></author><affiliation afid="60024007" country="deu" dptid="104211569"><organization>Institute of Stem Cell Research</organization><organization>Helmholtz Center Munich</organization><address-part>Ingolstaedter Landstrasse 1</address-part><city>Neuherberg</city><postal-code>85764</postal-code><affiliation-id afid="60024007" dptid="104211569"/><country>Germany</country></affiliation></author-group><author-group><author auid="57193921172" seq="5" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Lence T.</ce:indexed-name><ce:surname>Lenče</ce:surname><ce:given-name>Tina</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Lenče T.</ce:indexed-name>
+                            <ce:surname>Lenče</ce:surname>
+                            <ce:given-name>Tina</ce:given-name>
+                        </preferred-name></author><affiliation afid="60107715" country="deu"><organization>Institute of Molecular Biology</organization><address-part>Ackermannweg 4</address-part><city>Mainz</city><postal-code>55128</postal-code><affiliation-id afid="60107715"/><country>Germany</country></affiliation></author-group><author-group><author auid="6506958162" date-locked="2018-10-19T10:07:04.263" seq="8" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Curk T.</ce:indexed-name>
+                            <ce:surname>Curk</ce:surname>
+                            <ce:given-name>Tomaž</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1001</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>G.</ce:initials>
+                        <ce:indexed-name>Rot G.</ce:indexed-name>
+                        <ce:surname>Rot</ce:surname>
+                        <ce:given-name>Gregor</ce:given-name>
+                    </person><affiliation country="che"><organization>Institute of Molecular Life Sciences and Swiss Institute of Bioinformatics</organization><address-part>Winterthurerstrasse 190</address-part><city>Zurich</city><postal-code>8057</postal-code><country>Switzerland</country></affiliation></correspondence><grantlist complete="y"><grant>
+                        <grant-id>206726-CLIP</grant-id>
+                        <grant-acronym>ERC</grant-acronym>
+                        <grant-agency>European Research Council</grant-agency>
+                    </grant><grant>
+                        <grant-id>31003A_160095</grant-id>
+                        <grant-acronym>SNF</grant-acronym>
+                        <grant-agency>Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung</grant-agency>
+                    </grant><grant>
+                        <grant-id>617837-Translate</grant-id>
+                        <grant-acronym>ERC</grant-acronym>
+                        <grant-agency>European Research Council</grant-agency>
+                    </grant><grant>
+                        <grant-id>J7-5460</grant-id>
+                        <grant-acronym>ARRS</grant-acronym>
+                        <grant-agency>Javna Agencija za Raziskovalno Dejavnost RS</grant-agency>
+                    </grant><grant-text xml:lang="eng">We thank João F. Matias Rodrigues and Sebastian Schmidt for discussions on data analysis, Jan Attig for assistance with the minigene experiments, Dalia Daujotyte for assistance with the QuantSeq experiments, and von Mering and Ule lab members for comments on the manuscript. This work was supported by the European Research Council (206726-CLIP and 617837-Translate to J.U.) and the Slovenian Research Agency (J7-5460 to J.U. and T.C.); G.R. and C.v.M. were funded by the Swiss National Science Foundation (grant 31003A_160095).</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 The Author(s)</publishercopyright>
+                        <ce:para>Many RNA-binding proteins (RBPs) regulate both alternative exons and poly(A) site selection. To understand their regulatory principles, we developed expressRNA, a web platform encompassing computational tools for integration of iCLIP and RNA motif analyses with RNA-seq and 3′ mRNA sequencing. This reveals at nucleotide resolution the “RNA maps” describing how the RNA binding positions of RBPs relate to their regulatory functions. We use this approach to examine how TDP-43, an RBP involved in several neurodegenerative diseases, binds around its regulated poly(A) sites. Binding close to the poly(A) site generally represses, whereas binding further downstream enhances use of the site, which is similar to TDP-43 binding around regulated exons. Our RNAmotifs2 software also identifies sequence motifs that cluster together with the binding motifs of TDP-43. We conclude that TDP-43 directly regulates diverse types of pre-mRNA processing according to common position-dependent principles.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="21100201068" type="j"><sourcetitle>Cell Reports</sourcetitle><sourcetitle-abbrev>Cell Rep.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Cell Reports</translated-sourcetitle><issn type="electronic">22111247</issn><volisspag>
+                        <voliss issue="5" volume="19"/>
+                        <pagerange first="1056" last="1067"/>
+                    </volisspag><publicationyear first="2017"/><publicationdate>
+                        <year>2017</year>
+                        <month>05</month>
+                        <day>02</day>
+                    <date-text xfab-added="true">2 May 2017</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.sciencedirect.com/science/journal/22111247</ce:e-address>
+                    </website><publisher>
+                        <publishername>Elsevier B.V.</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="EMCLASS">
+                            <classification>
+                                <classification-code>29</classification-code>
+                                <classification-description>Clinical and Experimental Biochemistry</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>8</classification-code>
+                                <classification-description>Neurology and Neurosurgery</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1300</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>BIOC</classification></classifications></classificationgroup><chemicalgroup>
+                        <chemicals source="nlm">
+                            <chemical>
+                                <chemical-name>DNA-Binding Proteins</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA, Messenger</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>TDP-43 protein, human</chemical-name>
+                            </chemical>
+                        </chemicals>
+                    </chemicalgroup></enhancement></head><tail><bibliography refcount="38">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>POLYAR, a new computer program for prediction of poly(A) sites in human sequences</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib1</itemid>
+                                <itemid idtype="SGR">78349239707</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.N.</ce:initials>
+                                    <ce:indexed-name>Akhtar M.N.</ce:indexed-name>
+                                    <ce:surname>Akhtar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Bukhari S.A.</ce:indexed-name>
+                                    <ce:surname>Bukhari</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Fazal Z.</ce:indexed-name>
+                                    <ce:surname>Fazal</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Qamar R.</ce:indexed-name>
+                                    <ce:surname>Qamar</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.A.</ce:initials>
+                                    <ce:indexed-name>Shahmuradov I.A.</ce:indexed-name>
+                                    <ce:surname>Shahmuradov</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BMC Genomics</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="646"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Akhtar, M.N., Bukhari, S.A., Fazal, Z., Qamar, R., Shahmuradov, I.A., POLYAR, a new computer program for prediction of poly(A) sites in human sequences. BMC Genomics, 11, 2010, 646.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib2</itemid>
+                                <itemid idtype="SGR">84938888109</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Alipanahi B.</ce:indexed-name>
+                                    <ce:surname>Alipanahi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Delong A.</ce:indexed-name>
+                                    <ce:surname>Delong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Weirauch M.T.</ce:indexed-name>
+                                    <ce:surname>Weirauch</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.J.</ce:initials>
+                                    <ce:indexed-name>Frey B.J.</ce:indexed-name>
+                                    <ce:surname>Frey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat. Biotechnol.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="33"/>
+                                <pagerange first="831" last="838"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Alipanahi, B., Delong, A., Weirauch, M.T., Frey, B.J., Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning. Nat. Biotechnol. 33 (2015), 831–838.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detecting differential usage of exons from RNA-seq data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib3</itemid>
+                                <itemid idtype="SGR">84865527768</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Anders S.</ce:indexed-name>
+                                    <ce:surname>Anders</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Reyes A.</ce:indexed-name>
+                                    <ce:surname>Reyes</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Huber W.</ce:indexed-name>
+                                    <ce:surname>Huber</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="22"/>
+                                <pagerange first="2008" last="2017"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Anders, S., Reyes, A., Huber, W., Detecting differential usage of exons from RNA-seq data. Genome Res. 22 (2012), 2008–2017.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deciphering the splicing code</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib4</itemid>
+                                <itemid idtype="SGR">77952029221</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Barash Y.</ce:indexed-name>
+                                    <ce:surname>Barash</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Calarco J.A.</ce:indexed-name>
+                                    <ce:surname>Calarco</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Gao W.</ce:indexed-name>
+                                    <ce:surname>Gao</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Pan Q.</ce:indexed-name>
+                                    <ce:surname>Pan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wang X.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Shai O.</ce:indexed-name>
+                                    <ce:surname>Shai</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>B.J.</ce:initials>
+                                    <ce:indexed-name>Blencowe B.J.</ce:indexed-name>
+                                    <ce:surname>Blencowe</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>B.J.</ce:initials>
+                                    <ce:indexed-name>Frey B.J.</ce:indexed-name>
+                                    <ce:surname>Frey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="465"/>
+                                <pagerange first="53" last="59"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Barash, Y., Calarco, J.A., Gao, W., Pan, Q., Wang, X., Shai, O., Blencowe, B.J., Frey, B.J., Deciphering the splicing code. Nature 465 (2010), 53–59.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Loss of MBNL leads to disruption of developmentally regulated alternative polyadenylation in RNA-mediated disease</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib5</itemid>
+                                <itemid idtype="SGR">84922319971</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Batra R.</ce:indexed-name>
+                                    <ce:surname>Batra</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Charizanis K.</ce:indexed-name>
+                                    <ce:surname>Charizanis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Manchanda M.</ce:indexed-name>
+                                    <ce:surname>Manchanda</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mohan A.</ce:indexed-name>
+                                    <ce:surname>Mohan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Li M.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Finn D.J.</ce:indexed-name>
+                                    <ce:surname>Finn</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Goodwin M.</ce:indexed-name>
+                                    <ce:surname>Goodwin</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Zhang C.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Sobczak K.</ce:indexed-name>
+                                    <ce:surname>Sobczak</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Thornton C.A.</ce:indexed-name>
+                                    <ce:surname>Thornton</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Swanson M.S.</ce:indexed-name>
+                                    <ce:surname>Swanson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol. Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="56"/>
+                                <pagerange first="311" last="322"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Batra, R., Charizanis, K., Manchanda, M., Mohan, A., Li, M., Finn, D.J., Goodwin, M., Zhang, C., Sobczak, K., Thornton, C.A., Swanson, M.S., Loss of MBNL leads to disruption of developmentally regulated alternative polyadenylation in RNA-mediated disease. Mol. Cell 56 (2014), 311–322.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Patterns of variant polyadenylation signal usage in human genes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib6</itemid>
+                                <itemid idtype="SGR">0033858202</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Beaudoing E.</ce:indexed-name>
+                                    <ce:surname>Beaudoing</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Freier S.</ce:indexed-name>
+                                    <ce:surname>Freier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Wyatt J.R.</ce:indexed-name>
+                                    <ce:surname>Wyatt</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Claverie J.M.</ce:indexed-name>
+                                    <ce:surname>Claverie</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Gautheret D.</ce:indexed-name>
+                                    <ce:surname>Gautheret</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="1001" last="1010"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Beaudoing, E., Freier, S., Wyatt, J.R., Claverie, J.M., Gautheret, D., Patterns of variant polyadenylation signal usage in human genes. Genome Res. 10 (2000), 1001–1010.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>RNAmotifs: Prediction of multivalent RNA motifs that control alternative splicing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib7</itemid>
+                                <itemid idtype="SGR">84893207466</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Cereda M.</ce:indexed-name>
+                                    <ce:surname>Cereda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Pozzoli U.</ce:indexed-name>
+                                    <ce:surname>Pozzoli</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Rot G.</ce:indexed-name>
+                                    <ce:surname>Rot</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Juvan P.</ce:indexed-name>
+                                    <ce:surname>Juvan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Schweitzer A.</ce:indexed-name>
+                                    <ce:surname>Schweitzer</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Clark T.</ce:indexed-name>
+                                    <ce:surname>Clark</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="15"/>
+                                <pagerange first="R20"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cereda, M., Pozzoli, U., Rot, G., Juvan, P., Schweitzer, A., Clark, T., Ule, J., RNAmotifs: Prediction of multivalent RNA motifs that control alternative splicing. Genome Biol., 15, 2014, R20.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rbfox Proteins Regulate Splicing as Part of a Large Multiprotein Complex LASR</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib8</itemid>
+                                <itemid idtype="SGR">84964403010</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Damianov A.</ce:indexed-name>
+                                    <ce:surname>Damianov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Ying Y.</ce:indexed-name>
+                                    <ce:surname>Ying</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.-H.</ce:initials>
+                                    <ce:indexed-name>Lin C.-H.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.-A.</ce:initials>
+                                    <ce:indexed-name>Lee J.-A.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Tran D.</ce:indexed-name>
+                                    <ce:surname>Tran</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.A.</ce:initials>
+                                    <ce:indexed-name>Vashisht A.A.</ce:indexed-name>
+                                    <ce:surname>Vashisht</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Bahrami-Samani E.</ce:indexed-name>
+                                    <ce:surname>Bahrami-Samani</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Xing Y.</ce:indexed-name>
+                                    <ce:surname>Xing</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>K.C.</ce:initials>
+                                    <ce:indexed-name>Martin K.C.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Wohlschlegel J.A.</ce:indexed-name>
+                                    <ce:surname>Wohlschlegel</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>D.L.</ce:initials>
+                                    <ce:indexed-name>Black D.L.</ce:indexed-name>
+                                    <ce:surname>Black</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="165"/>
+                                <pagerange first="606" last="619"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Damianov, A., Ying, Y., Lin, C.-H., Lee, J.-A., Tran, D., Vashisht, A.A., Bahrami-Samani, E., Xing, Y., Martin, K.C., Wohlschlegel, J.A., Black, D.L., Rbfox Proteins Regulate Splicing as Part of a Large Multiprotein Complex LASR. Cell 165 (2016), 606–619.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A quantitative atlas of polyadenylation in five mammals</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib9</itemid>
+                                <itemid idtype="SGR">84861903786</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Derti A.</ce:indexed-name>
+                                    <ce:surname>Derti</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Garrett-Engele P.</ce:indexed-name>
+                                    <ce:surname>Garrett-Engele</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.D.</ce:initials>
+                                    <ce:indexed-name>Macisaac K.D.</ce:indexed-name>
+                                    <ce:surname>Macisaac</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.C.</ce:initials>
+                                    <ce:indexed-name>Stevens R.C.</ce:indexed-name>
+                                    <ce:surname>Stevens</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sriram S.</ce:indexed-name>
+                                    <ce:surname>Sriram</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Chen R.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Rohl C.A.</ce:indexed-name>
+                                    <ce:surname>Rohl</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Johnson J.M.</ce:indexed-name>
+                                    <ce:surname>Johnson</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Babak T.</ce:indexed-name>
+                                    <ce:surname>Babak</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="22"/>
+                                <pagerange first="1173" last="1183"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Derti, A., Garrett-Engele, P., Macisaac, K.D., Stevens, R.C., Sriram, S., Chen, R., Rohl, C.A., Johnson, J.M., Babak, T., A quantitative atlas of polyadenylation in five mammals. Genome Res. 22 (2012), 1173–1183.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mechanisms and consequences of alternative polyadenylation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib10</itemid>
+                                <itemid idtype="SGR">80052979140</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.C.</ce:initials>
+                                    <ce:indexed-name>Di Giammartino D.C.</ce:indexed-name>
+                                    <ce:surname>Di Giammartino</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Nishida K.</ce:indexed-name>
+                                    <ce:surname>Nishida</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Manley J.L.</ce:indexed-name>
+                                    <ce:surname>Manley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol. Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="43"/>
+                                <pagerange first="853" last="866"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Di Giammartino, D.C., Nishida, K., Manley, J.L., Mechanisms and consequences of alternative polyadenylation. Mol. Cell 43 (2011), 853–866.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>STAR: Ultrafast universal RNA-seq aligner</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib11</itemid>
+                                <itemid idtype="SGR">84871809302</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Dobin A.</ce:indexed-name>
+                                    <ce:surname>Dobin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Davis C.A.</ce:indexed-name>
+                                    <ce:surname>Davis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Schlesinger F.</ce:indexed-name>
+                                    <ce:surname>Schlesinger</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Drenkow J.</ce:indexed-name>
+                                    <ce:surname>Drenkow</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Zaleski C.</ce:indexed-name>
+                                    <ce:surname>Zaleski</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Jha S.</ce:indexed-name>
+                                    <ce:surname>Jha</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Batut P.</ce:indexed-name>
+                                    <ce:surname>Batut</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Chaisson M.</ce:indexed-name>
+                                    <ce:surname>Chaisson</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>T.R.</ce:initials>
+                                    <ce:indexed-name>Gingeras T.R.</ce:indexed-name>
+                                    <ce:surname>Gingeras</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="15" last="21"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dobin, A., Davis, C.A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S., Batut, P., Chaisson, M., Gingeras, T.R., STAR: Ultrafast universal RNA-seq aligner. Bioinformatics 29 (2013), 15–21.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Alternative cleavage and polyadenylation: Extent, regulation and function</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib12</itemid>
+                                <itemid idtype="SGR">84879408529</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Elkon R.</ce:indexed-name>
+                                    <ce:surname>Elkon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.P.</ce:initials>
+                                    <ce:indexed-name>Ugalde A.P.</ce:indexed-name>
+                                    <ce:surname>Ugalde</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Agami R.</ce:indexed-name>
+                                    <ce:surname>Agami</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat. Rev. Genet.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="496" last="506"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Elkon, R., Ugalde, A.P., Agami, R., Alternative cleavage and polyadenylation: Extent, regulation and function. Nat. Rev. Genet. 14 (2013), 496–506.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Context-dependent control of alternative splicing by RNA-binding proteins</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib13</itemid>
+                                <itemid idtype="SGR">84922255144</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.-D.</ce:initials>
+                                    <ce:indexed-name>Fu X.-D.</ce:indexed-name>
+                                    <ce:surname>Fu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ares M.</ce:indexed-name>
+                                    <ce:surname>Ares</ce:surname>
+                                    <ce:suffix>Jr.</ce:suffix>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat. Rev. Genet.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="15"/>
+                                <pagerange first="689" last="701"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Fu, X.-D., Ares, M. Jr., Context-dependent control of alternative splicing by RNA-binding proteins. Nat. Rev. Genet. 15 (2014), 689–701.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cleavage factor Im is a key regulator of 3′ UTR length</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib14</itemid>
+                                <itemid idtype="SGR">84875175052</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.R.</ce:initials>
+                                    <ce:indexed-name>Gruber A.R.</ce:indexed-name>
+                                    <ce:surname>Gruber</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Martin G.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Keller W.</ce:indexed-name>
+                                    <ce:surname>Keller</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zavolan M.</ce:indexed-name>
+                                    <ce:surname>Zavolan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>RNA Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="9"/>
+                                <pagerange first="1405" last="1412"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gruber, A.R., Martin, G., Keller, W., Zavolan, M., Cleavage factor Im is a key regulator of 3′ UTR length. RNA Biol. 9 (2012), 1405–1412.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comprehensive analysis of 3′ end sequencing data sets reveals novel polyadenylation signals and the repressive role of heterogeneous ribonucleoprotein C on cleavage and polyadenylation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib15</itemid>
+                                <itemid idtype="SGR">84982957237</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.J.</ce:initials>
+                                    <ce:indexed-name>Gruber A.J.</ce:indexed-name>
+                                    <ce:surname>Gruber</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Schmidt R.</ce:indexed-name>
+                                    <ce:surname>Schmidt</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.R.</ce:initials>
+                                    <ce:indexed-name>Gruber A.R.</ce:indexed-name>
+                                    <ce:surname>Gruber</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Martin G.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ghosh S.</ce:indexed-name>
+                                    <ce:surname>Ghosh</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Belmadani M.</ce:indexed-name>
+                                    <ce:surname>Belmadani</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Keller W.</ce:indexed-name>
+                                    <ce:surname>Keller</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zavolan M.</ce:indexed-name>
+                                    <ce:surname>Zavolan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="26"/>
+                                <pagerange first="1145" last="1159"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gruber, A.J., Schmidt, R., Gruber, A.R., Martin, G., Ghosh, S., Belmadani, M., Keller, W., Zavolan, M., A comprehensive analysis of 3′ end sequencing data sets reveals novel polyadenylation signals and the repressive role of heterogeneous ribonucleoprotein C on cleavage and polyadenylation. Genome Res. 26 (2016), 1145–1159.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis of alternative cleavage and polyadenylation by 3′ region extraction and deep sequencing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib16</itemid>
+                                <itemid idtype="SGR">84873405541</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hoque M.</ce:indexed-name>
+                                    <ce:surname>Hoque</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Ji Z.</ce:indexed-name>
+                                    <ce:surname>Ji</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zheng D.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Luo W.</ce:indexed-name>
+                                    <ce:surname>Luo</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Li W.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>You B.</ce:indexed-name>
+                                    <ce:surname>You</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.Y.</ce:initials>
+                                    <ce:indexed-name>Park J.Y.</ce:indexed-name>
+                                    <ce:surname>Park</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Yehia G.</ce:indexed-name>
+                                    <ce:surname>Yehia</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Tian B.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat. Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="133" last="139"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hoque, M., Ji, Z., Zheng, D., Luo, W., Li, W., You, B., Park, J.Y., Yehia, G., Tian, B., Analysis of alternative cleavage and polyadenylation by 3′ region extraction and deep sequencing. Nat. Methods 10 (2013), 133–139.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Systematic Profiling of Poly(A)+ Transcripts Modulated by Core 3’ End Processing and Splicing Factors Reveals Regulatory Rules of Alternative Cleavage and Polyadenylation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib17</itemid>
+                                <itemid idtype="SGR">84930331173</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Li W.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>You B.</ce:indexed-name>
+                                    <ce:surname>You</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hoque M.</ce:indexed-name>
+                                    <ce:surname>Hoque</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zheng D.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Luo W.</ce:indexed-name>
+                                    <ce:surname>Luo</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Ji Z.</ce:indexed-name>
+                                    <ce:surname>Ji</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.Y.</ce:initials>
+                                    <ce:indexed-name>Park J.Y.</ce:indexed-name>
+                                    <ce:surname>Park</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>S.I.</ce:initials>
+                                    <ce:indexed-name>Gunderson S.I.</ce:indexed-name>
+                                    <ce:surname>Gunderson</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kalsotra A.</ce:indexed-name>
+                                    <ce:surname>Kalsotra</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Manley J.L.</ce:indexed-name>
+                                    <ce:surname>Manley</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Tian B.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS Genet.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1" last="28"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Li, W., You, B., Hoque, M., Zheng, D., Luo, W., Ji, Z., Park, J.Y., Gunderson, S.I., Kalsotra, A., Manley, J.L., Tian, B., Systematic Profiling of Poly(A)+ Transcripts Modulated by Core 3’ End Processing and Splicing Factors Reveals Regulatory Rules of Alternative Cleavage and Polyadenylation. PLoS Genet. 11 (2015), 1–28.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>HITS-CLIP yields genome-wide insights into brain alternative RNA processing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib18</itemid>
+                                <itemid idtype="SGR">56549105330</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.D.</ce:initials>
+                                    <ce:indexed-name>Licatalosi D.D.</ce:indexed-name>
+                                    <ce:surname>Licatalosi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Fak J.J.</ce:indexed-name>
+                                    <ce:surname>Fak</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.W.</ce:initials>
+                                    <ce:indexed-name>Chi S.W.</ce:indexed-name>
+                                    <ce:surname>Chi</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>T.A.</ce:initials>
+                                    <ce:indexed-name>Clark T.A.</ce:indexed-name>
+                                    <ce:surname>Clark</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>A.C.</ce:initials>
+                                    <ce:indexed-name>Schweitzer A.C.</ce:indexed-name>
+                                    <ce:surname>Schweitzer</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>J.E.</ce:initials>
+                                    <ce:indexed-name>Blume J.E.</ce:indexed-name>
+                                    <ce:surname>Blume</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wang X.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="456"/>
+                                <pagerange first="464" last="469"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Licatalosi, D.D., Mele, A., Fak, J.J., Ule, J., Kayikci, M., Chi, S.W., Clark, T.A., Schweitzer, A.C., Blume, J.E., Wang, X., et al. HITS-CLIP yields genome-wide insights into brain alternative RNA processing. Nature 456 (2008), 464–469.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cold-induced RNA-binding proteins regulate circadian gene expression by controlling alternative polyadenylation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib19</itemid>
+                                <itemid idtype="SGR">84891688491</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Liu Y.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Hu W.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Murakawa Y.</ce:indexed-name>
+                                    <ce:surname>Murakawa</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Yin J.</ce:indexed-name>
+                                    <ce:surname>Yin</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Wang G.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Landthaler M.</ce:indexed-name>
+                                    <ce:surname>Landthaler</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Yan J.</ce:indexed-name>
+                                    <ce:surname>Yan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sci. Rep.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="2054"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu, Y., Hu, W., Murakawa, Y., Yin, J., Wang, G., Landthaler, M., Yan, J., Cold-induced RNA-binding proteins regulate circadian gene expression by controlling alternative polyadenylation. Sci. Rep., 3, 2013, 2054.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Genome-wide analysis of pre-mRNA 3′ end processing reveals a decisive role of human cleavage factor I in the regulation of 3′ UTR length</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib20</itemid>
+                                <itemid idtype="SGR">84863093884</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Martin G.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.R.</ce:initials>
+                                    <ce:indexed-name>Gruber A.R.</ce:indexed-name>
+                                    <ce:surname>Gruber</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Keller W.</ce:indexed-name>
+                                    <ce:surname>Keller</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zavolan M.</ce:indexed-name>
+                                    <ce:surname>Zavolan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell Rep.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="753" last="763"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Martin, G., Gruber, A.R., Keller, W., Zavolan, M., Genome-wide analysis of pre-mRNA 3′ end processing reveals a decisive role of human cleavage factor I in the regulation of 3′ UTR length. Cell Rep. 1 (2012), 753–763.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Position-specific binding of FUS to nascent RNA regulates mRNA length</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib21</itemid>
+                                <itemid idtype="SGR">84929584026</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Masuda A.</ce:indexed-name>
+                                    <ce:surname>Masuda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Takeda J.</ce:indexed-name>
+                                    <ce:surname>Takeda</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Okuno T.</ce:indexed-name>
+                                    <ce:surname>Okuno</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Okamoto T.</ce:indexed-name>
+                                    <ce:surname>Okamoto</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Ohkawara B.</ce:indexed-name>
+                                    <ce:surname>Ohkawara</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ito M.</ce:indexed-name>
+                                    <ce:surname>Ito</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ishigaki S.</ce:indexed-name>
+                                    <ce:surname>Ishigaki</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Sobue G.</ce:indexed-name>
+                                    <ce:surname>Sobue</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Ohno K.</ce:indexed-name>
+                                    <ce:surname>Ohno</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genes Dev.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="1045" last="1057"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Masuda, A., Takeda, J., Okuno, T., Okamoto, T., Ohkawara, B., Ito, M., Ishigaki, S., Sobue, G., Ohno, K., Position-specific binding of FUS to nascent RNA regulates mRNA length. Genes Dev. 29 (2015), 1045–1057.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Widespread and extensive lengthening of 3′ UTRs in the mammalian brain</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib22</itemid>
+                                <itemid idtype="SGR">84877111454</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Miura P.</ce:indexed-name>
+                                    <ce:surname>Miura</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Shenker S.</ce:indexed-name>
+                                    <ce:surname>Shenker</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Andreu-Agullo C.</ce:indexed-name>
+                                    <ce:surname>Andreu-Agullo</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.O.</ce:initials>
+                                    <ce:indexed-name>Westholm J.O.</ce:indexed-name>
+                                    <ce:surname>Westholm</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>E.C.</ce:initials>
+                                    <ce:indexed-name>Lai E.C.</ce:indexed-name>
+                                    <ce:surname>Lai</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Miura P.</ce:indexed-name>
+                                    <ce:surname>Miura</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Shenker S.</ce:indexed-name>
+                                    <ce:surname>Shenker</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Andreu-Agullo C.</ce:indexed-name>
+                                    <ce:surname>Andreu-Agullo</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>J.O.</ce:initials>
+                                    <ce:indexed-name>Westholm J.O.</ce:indexed-name>
+                                    <ce:surname>Westholm</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>E.C.</ce:initials>
+                                    <ce:indexed-name>Lai E.C.</ce:indexed-name>
+                                    <ce:surname>Lai</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="23"/>
+                                <pagerange first="812" last="825"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Miura, P., Shenker, S., Andreu-Agullo, C., Westholm, J.O., Lai, E.C., Miura, P., Shenker, S., Andreu-Agullo, C., Westholm, J.O., Lai, E.C., Widespread and extensive lengthening of 3′ UTRs in the mammalian brain. Genome Res. 23 (2013), 812–825.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Global analyses of the effect of different cellular contexts on microRNA targeting</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib23</itemid>
+                                <itemid idtype="SGR">84896397929</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Nam J.W.</ce:indexed-name>
+                                    <ce:surname>Nam</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.S.</ce:initials>
+                                    <ce:indexed-name>Rissland O.S.</ce:indexed-name>
+                                    <ce:surname>Rissland</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Koppstein D.</ce:indexed-name>
+                                    <ce:surname>Koppstein</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Abreu-Goodger C.</ce:indexed-name>
+                                    <ce:surname>Abreu-Goodger</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.H.</ce:initials>
+                                    <ce:indexed-name>Jan C.H.</ce:indexed-name>
+                                    <ce:surname>Jan</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Agarwal V.</ce:indexed-name>
+                                    <ce:surname>Agarwal</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.A.</ce:initials>
+                                    <ce:indexed-name>Yildirim M.A.</ce:indexed-name>
+                                    <ce:surname>Yildirim</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rodriguez A.</ce:indexed-name>
+                                    <ce:surname>Rodriguez</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>D.P.</ce:initials>
+                                    <ce:indexed-name>Bartel D.P.</ce:indexed-name>
+                                    <ce:surname>Bartel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol. Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="53"/>
+                                <pagerange first="1031" last="1043"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nam, J.W., Rissland, O.S., Koppstein, D., Abreu-Goodger, C., Jan, C.H., Agarwal, V., Yildirim, M.A., Rodriguez, A., Bartel, D.P., Global analyses of the effect of different cellular contexts on microRNA targeting. Mol. Cell 53 (2014), 1031–1043.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Distinct polyadenylation landscapes of diverse human tissues revealed by a modified PA-seq strategy</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib24</itemid>
+                                <itemid idtype="SGR">84883611839</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ni T.</ce:indexed-name>
+                                    <ce:surname>Ni</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Yang Y.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Hafez D.</ce:indexed-name>
+                                    <ce:surname>Hafez</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Yang W.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Kiesewetter K.</ce:indexed-name>
+                                    <ce:surname>Kiesewetter</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wakabayashi Y.</ce:indexed-name>
+                                    <ce:surname>Wakabayashi</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Ohler U.</ce:indexed-name>
+                                    <ce:surname>Ohler</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Peng W.</ce:indexed-name>
+                                    <ce:surname>Peng</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zhu J.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BMC Genomics</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="615"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ni, T., Yang, Y., Hafez, D., Yang, W., Kiesewetter, K., Wakabayashi, Y., Ohler, U., Peng, W., Zhu, J., Distinct polyadenylation landscapes of diverse human tissues revealed by a modified PA-seq strategy. BMC Genomics, 14, 2013, 615.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Heterogeneity in polyadenylation cleavage sites in mammalian mRNA sequences: Implications for SAGE analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib25</itemid>
+                                <itemid idtype="SGR">0035870688</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Pauws E.</ce:indexed-name>
+                                    <ce:surname>Pauws</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.H.</ce:initials>
+                                    <ce:indexed-name>van Kampen A.H.</ce:indexed-name>
+                                    <ce:surname>van Kampen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>van de Graaf S.A.</ce:indexed-name>
+                                    <ce:surname>van de Graaf</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>de Vijlder J.J.</ce:indexed-name>
+                                    <ce:surname>de Vijlder</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Ris-Stalpers C.</ce:indexed-name>
+                                    <ce:surname>Ris-Stalpers</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="1690" last="1694"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pauws, E., van Kampen, A.H., van de Graaf, S.A., de Vijlder, J.J., Ris-Stalpers, C., Heterogeneity in polyadenylation cleavage sites in mammalian mRNA sequences: Implications for SAGE analysis. Nucleic Acids Res. 29 (2001), 1690–1694.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The DPYSL2 gene connects mTOR and schizophrenia</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib26</itemid>
+                                <itemid idtype="SGR">84994335142</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Pham X.</ce:indexed-name>
+                                    <ce:surname>Pham</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Song G.</ce:indexed-name>
+                                    <ce:surname>Song</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Lao S.</ce:indexed-name>
+                                    <ce:surname>Lao</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Goff L.</ce:indexed-name>
+                                    <ce:surname>Goff</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zhu H.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Valle D.</ce:indexed-name>
+                                    <ce:surname>Valle</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Avramopoulos D.</ce:indexed-name>
+                                    <ce:surname>Avramopoulos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2016"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1038/tp.2016.204</ce:e-address>
+                            </ref-website>
+                            <ref-text>Published online November 1, 20166.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Pham, X., Song, G., Lao, S., Goff, L., Zhu, H., Valle, D., Avramopoulos, D., 2016. The DPYSL2 gene connects mTOR and schizophrenia. Published online November 1, 2016. http://dx.doi.org/10.1038/tp.2016.204.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Physiological functions and pathobiology of TDP-43 and FUS/TLS proteins</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib27</itemid>
+                                <itemid idtype="SGR">84981188324</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ratti A.</ce:indexed-name>
+                                    <ce:surname>Ratti</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Buratti E.</ce:indexed-name>
+                                    <ce:surname>Buratti</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Neurochem.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="138"/>
+                                <pagerange first="95" last="111"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ratti, A., Buratti, E., Physiological functions and pathobiology of TDP-43 and FUS/TLS proteins. J Neurochem. 138 (2016), 95–111.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Point mutations in AAUAAA and the poly (A) addition site: Effects on the accuracy and efficiency of cleavage and polyadenylation in vitro</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib28</itemid>
+                                <itemid idtype="SGR">0025029405</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.D.</ce:initials>
+                                    <ce:indexed-name>Sheets M.D.</ce:indexed-name>
+                                    <ce:surname>Sheets</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.C.</ce:initials>
+                                    <ce:indexed-name>Ogg S.C.</ce:indexed-name>
+                                    <ce:surname>Ogg</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.P.</ce:initials>
+                                    <ce:indexed-name>Wickens M.P.</ce:indexed-name>
+                                    <ce:surname>Wickens</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="5799" last="5805"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sheets, M.D., Ogg, S.C., Wickens, M.P., Point mutations in AAUAAA and the poly (A) addition site: Effects on the accuracy and efficiency of cleavage and polyadenylation in vitro. Nucleic Acids Res. 18 (1990), 5799–5805.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Alternative polyadenylation: New insights from global analyses</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib29</itemid>
+                                <itemid idtype="SGR">84869765539</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Shi Y.</ce:indexed-name>
+                                    <ce:surname>Shi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>RNA</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="2105" last="2117"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shi, Y., Alternative polyadenylation: New insights from global analyses. RNA 18 (2012), 2105–2117.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A large-scale analysis of mRNA polyadenylation of human and mouse genes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib30</itemid>
+                                <itemid idtype="SGR">13744254695</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Tian B.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hu J.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zhang H.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lutz C.S.</ce:indexed-name>
+                                    <ce:surname>Lutz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="33"/>
+                                <pagerange first="201" last="212"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tian, B., Hu, J., Zhang, H., Lutz, C.S., A large-scale analysis of mRNA polyadenylation of human and mouse genes. Nucleic Acids Res. 33 (2005), 201–212.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Characterizing the RNA targets and position-dependent splicing regulation by TDP-43</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib31</itemid>
+                                <itemid idtype="SGR">79953180492</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Tollervey J.R.</ce:indexed-name>
+                                    <ce:surname>Tollervey</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Rogelj B.</ce:indexed-name>
+                                    <ce:surname>Rogelj</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Briese M.</ce:indexed-name>
+                                    <ce:surname>Briese</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Cereda M.</ce:indexed-name>
+                                    <ce:surname>Cereda</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Konig J.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Hortobagyi T.</ce:indexed-name>
+                                    <ce:surname>Hortobágyi</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Nishimura A.L.</ce:indexed-name>
+                                    <ce:surname>Nishimura</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Zupunski V.</ce:indexed-name>
+                                    <ce:surname>Župunski</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat. Neurosci.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="452" last="458"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tollervey, J.R., Curk, T., Rogelj, B., Briese, M., Cereda, M., Kayikci, M., König, J., Hortobágyi, T., Nishimura, A.L., Župunski, V., et al. Characterizing the RNA targets and position-dependent splicing regulation by TDP-43. Nat. Neurosci. 14 (2011), 452–458.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>RNA directed modulation of phenotypic plasticity in human cells</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib32</itemid>
+                                <itemid idtype="SGR">85019000246</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Trakman L.</ce:indexed-name>
+                                    <ce:surname>Trakman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hewson C.</ce:indexed-name>
+                                    <ce:surname>Hewson</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Burdach J.</ce:indexed-name>
+                                    <ce:surname>Burdach</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.V.</ce:initials>
+                                    <ce:indexed-name>Morris K.V.</ce:indexed-name>
+                                    <ce:surname>Morris</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS ONE</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="e0152424"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Trakman, L., Hewson, C., Burdach, J., Morris, K.V., RNA directed modulation of phenotypic plasticity in human cells. PLoS ONE, 11, 2016, e0152424.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An RNA map predicting Nova-dependent splicing regulation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib33</itemid>
+                                <itemid idtype="SGR">33749056769</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Stefani G.</ce:indexed-name>
+                                    <ce:surname>Stefani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ruggiu M.</ce:indexed-name>
+                                    <ce:surname>Ruggiu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wang X.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Taneri B.</ce:indexed-name>
+                                    <ce:surname>Taneri</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Gaasterland T.</ce:indexed-name>
+                                    <ce:surname>Gaasterland</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>B.J.</ce:initials>
+                                    <ce:indexed-name>Blencowe B.J.</ce:indexed-name>
+                                    <ce:surname>Blencowe</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Darnell R.B.</ce:indexed-name>
+                                    <ce:surname>Darnell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="444"/>
+                                <pagerange first="580" last="586"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ule, J., Stefani, G., Mele, A., Ruggiu, M., Wang, X., Taneri, B., Gaasterland, T., Blencowe, B.J., Darnell, R.B., An RNA map predicting Nova-dependent splicing regulation. Nature 444 (2006), 580–586.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tar DNA binding protein of 43 kDa (TDP-43), 14-3-3 proteins and copper/zinc superoxide dismutase (SOD1) interact to modulate NFL mRNA stability. Implications for altered RNA processing in amyotrophic lateral sclerosis (ALS)</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib34</itemid>
+                                <itemid idtype="SGR">73949134014</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Volkening K.</ce:indexed-name>
+                                    <ce:surname>Volkening</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Leystra-Lantz C.</ce:indexed-name>
+                                    <ce:surname>Leystra-Lantz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Yang W.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Jaffee H.</ce:indexed-name>
+                                    <ce:surname>Jaffee</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Strong M.J.</ce:indexed-name>
+                                    <ce:surname>Strong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Brain Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="1305"/>
+                                <pagerange first="168" last="182"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Volkening, K., Leystra-Lantz, C., Yang, W., Jaffee, H., Strong, M.J., Tar DNA binding protein of 43 kDa (TDP-43), 14-3-3 proteins and copper/zinc superoxide dismutase (SOD1) interact to modulate NFL mRNA stability. Implications for altered RNA processing in amyotrophic lateral sclerosis (ALS). Brain Res. 1305 (2009), 168–182.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>iCLIP predicts the dual splicing effects of TIA-RNA interactions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib35</itemid>
+                                <itemid idtype="SGR">78149393552</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Wang Z.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Briese M.</ce:indexed-name>
+                                    <ce:surname>Briese</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                                    <ce:surname>Zarnack</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.M.</ce:initials>
+                                    <ce:indexed-name>Luscombe N.M.</ce:indexed-name>
+                                    <ce:surname>Luscombe</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Rot G.</ce:indexed-name>
+                                    <ce:surname>Rot</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="8"/>
+                                <pagerange first="e1000530"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wang, Z., Kayikci, M., Briese, M., Zarnack, K., Luscombe, N.M., Rot, G., Zupan, B., Curk, T., Ule, J., iCLIP predicts the dual splicing effects of TIA-RNA interactions. PLoS Biol., 8, 2010, e1000530.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Understanding splicing regulation through RNA splicing maps</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib36</itemid>
+                                <itemid idtype="SGR">79952105381</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.T.</ce:initials>
+                                    <ce:indexed-name>Witten J.T.</ce:indexed-name>
+                                    <ce:surname>Witten</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Trends Genet.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="89" last="97"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Witten, J.T., Ule, J., Understanding splicing regulation through RNA splicing maps. Trends Genet. 27 (2011), 89–97.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Structural biology of poly(A) site definition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib37</itemid>
+                                <itemid idtype="SGR">84857743195</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Yang Q.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Doublie S.</ce:indexed-name>
+                                    <ce:surname>Doublié</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Wiley Interdiscip. Rev. RNA</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="732" last="747"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yang, Q., Doublié, S., Structural biology of poly(A) site definition. Wiley Interdiscip. Rev. RNA 2 (2011), 732–747.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Transcriptome-wide analyses of CstF64-RNA interactions in global regulation of mRNA alternative polyadenylation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib38</itemid>
+                                <itemid idtype="SGR">84869228761</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Yao C.</ce:indexed-name>
+                                    <ce:surname>Yao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Biesinger J.</ce:indexed-name>
+                                    <ce:surname>Biesinger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wan J.</ce:indexed-name>
+                                    <ce:surname>Wan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Weng L.</ce:indexed-name>
+                                    <ce:surname>Weng</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Xing Y.</ce:indexed-name>
+                                    <ce:surname>Xing</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Xie X.</ce:indexed-name>
+                                    <ce:surname>Xie</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Shi Y.</ce:indexed-name>
+                                    <ce:surname>Shi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Natl. Acad. Sci. USA</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="109"/>
+                                <pagerange first="18773" last="18778"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yao, C., Biesinger, J., Wan, J., Weng, L., Xing, Y., Xie, X., Shi, Y., Transcriptome-wide analyses of CstF64-RNA interactions in global regulation of mRNA alternative polyadenylation. Proc. Natl. Acad. Sci. USA 109 (2012), 18773–18778.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

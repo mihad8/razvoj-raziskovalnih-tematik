@@ -1,0 +1,545 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/33750337560</prism:url><dc:identifier>SCOPUS_ID:33750337560</dc:identifier><eid>2-s2.0-33750337560</eid><dc:title>Why is rule learning optimistic and how to correct it</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>12</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><dc:publisher>
+                        Springer Verlag
+                        service@springer.de
+                    </dc:publisher><source-id>25674</source-id><prism:isbn>354045375X</prism:isbn><prism:isbn>9783540453758</prism:isbn><prism:issn>16113349 03029743</prism:issn><prism:volume>4212 LNAI</prism:volume><prism:startingPage>330</prism:startingPage><prism:endingPage>340</prism:endingPage><prism:pageRange>330-340</prism:pageRange><prism:coverDate>2006-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>In their search through a huge space of possible hypotheses, rule induction algorithms compare estimations of qualities of a large number of rules to find the one that appears to be best. This mechanism can easily find random patterns in the data which will - even though the estimating method itself may be unbiased (such as relative frequency) - have optimistically high quality estimates. It is generally believed that the problem, which eventually leads to overfilling, can be alleviated by using m-estimate of probability. We show that this can only partially mend the problem, and propose a novel solution to making the common rule evaluation functions account for multiple comparisons in the search. Experiments on artificial data sets and data sets from the UCI repository show a large improvement in accuracy of probability predictions and also a decent gain in AUC of the constructed models. © Springer-Verlag Berlin Heidelberg 2006.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/33750337560" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=33750337560&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=33750337560&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="14061424900"><ce:initials>J.</ce:initials><ce:indexed-name>Zabkar J.</ce:indexed-name><ce:surname>Žabkar</ce:surname><ce:given-name>Jure</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Žabkar J.</ce:indexed-name><ce:surname>Žabkar</ce:surname><ce:given-name>Jure</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14061424900</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Data sets</mainterm><mainterm weight="b" candidate="n">Evaluation functions</mainterm><mainterm weight="b" candidate="n">Probability predictions</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="27" month="10" timestamp="2018-10-27T21:17:07.000007-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2006"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">44618843</itemid>
+                    <itemid idtype="CAR-ID">20141755</itemid>
+                    <itemid idtype="CPX">20064410207302</itemid>
+                    <itemid idtype="SCP">33750337560</itemid>
+                    <itemid idtype="SGR">33750337560</itemid>
+                </itemidlist><history>
+                    <date-created day="31" month="10" year="2006"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Why is rule learning optimistic and how to correct it</titletext></citation-title><author-group><author auid="35409925300" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Možina M.</ce:indexed-name>
+                            <ce:surname>Možina</ce:surname>
+                            <ce:given-name>Martin</ce:given-name>
+                        </preferred-name></author><author auid="55075851300" seq="2" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Demšar J.</ce:indexed-name>
+                            <ce:surname>Demšar</ce:surname>
+                            <ce:given-name>Janez</ce:given-name>
+                        </preferred-name></author><author auid="14061424900" seq="3" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Zabkar J.</ce:indexed-name><ce:surname>Žabkar</ce:surname><ce:given-name>Jure</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Žabkar J.</ce:indexed-name>
+                            <ce:surname>Žabkar</ce:surname>
+                            <ce:given-name>Jure</ce:given-name>
+                        </preferred-name></author><author auid="7003286588" seq="4" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Bratko I.</ce:indexed-name>
+                            <ce:surname>Bratko</ce:surname>
+                            <ce:given-name>Ivan</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science, University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>SI-1001 Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Mozina M.</ce:indexed-name>
+                        <ce:surname>Možina</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science, University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>SI-1001 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>In their search through a huge space of possible hypotheses, rule induction algorithms compare estimations of qualities of a large number of rules to find the one that appears to be best. This mechanism can easily find random patterns in the data which will - even though the estimating method itself may be unbiased (such as relative frequency) - have optimistically high quality estimates. It is generally believed that the problem, which eventually leads to overfilling, can be alleviated by using m-estimate of probability. We show that this can only partially mend the problem, and propose a novel solution to making the common rule evaluation functions account for multiple comparisons in the search. Experiments on artificial data sets and data sets from the UCI repository show a large improvement in accuracy of probability predictions and also a decent gain in AUC of the constructed models. © Springer-Verlag Berlin Heidelberg 2006.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</translated-sourcetitle><issuetitle>Machine Learning: ECML 2006 - 17th European Conference on Machine Learning,  Proceedings</issuetitle><issn type="electronic">16113349</issn><issn type="print">03029743</issn><isbn length="10" level="volume" type="print">354045375X</isbn><isbn length="13" level="volume" type="print">9783540453758</isbn><volisspag>
+                        <voliss volume="4212 LNAI"/>
+                        <pagerange first="330" last="340"/>
+                    </volisspag><publicationyear first="2006"/><publicationdate>
+                        <year>2006</year>
+                    <date-text xfab-added="true">2006</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://springerlink.com/content/0302-9743/copyright/2005/</ce:e-address>
+                    </website><publisher>
+                        <publishername>Springer Verlag</publishername>
+                        <ce:e-address type="email">service@springer.de</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>17th European Conference on Machine Learning, ECML 2006</confname>
+                                <conflocation country="deu">
+                                    <city-group>Berlin</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="18" month="09" year="2006"/>
+                                    <enddate day="22" month="09" year="2006"/>
+                                </confdate>
+                                <confcode>68409</confcode>
+                                <confsponsors complete="y">
+                                    <confsponsor>Deutsche Forschungsgemeinschaft, DFG</confsponsor>
+                                    <confsponsor>et al.</confsponsor>
+                                    <confsponsor>Google</confsponsor>
+                                    <confsponsor>Humboldt-Universitaet zu Berlin, Germany</confsponsor>
+                                    <confsponsor>IBM</confsponsor>
+                                    <confsponsor>PASCAL</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpagecount>848p</procpagecount>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723.3</classification-code>
+                                <classification-description>Database Systems</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.4</classification-code>
+                                <classification-description>Artificial Intelligence</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.4.1</classification-code>
+                                <classification-description>Expert Systems</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>922.1</classification-code>
+                                <classification-description>Probability Theory</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="16">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003857244</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.E.</ce:initials>
+                                    <ce:indexed-name>Atkinson K.E.</ce:indexed-name>
+                                    <ce:surname>Atkinson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>An Introduction to Numerical Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-text>John Wiley and Sons, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kendall E. Atkinson. An Introduction to Numerical Analysis. John Wiley and Sons, New York, 1989.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimating probabilities: A crucial task in machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003006556</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Cestnik B.</ce:indexed-name>
+                                    <ce:surname>Cestnik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Ninth European Conference on Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <pagerange first="147" last="149"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>B. Cestnik. Estimating probabilities: A crucial task in machine learning. In Proceedings of the Ninth European Conference on Artificial Intelligence, pages 147-149, 1990.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rule induction with CN2: Some recent improvements</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85015191605</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Clark P.</ce:indexed-name>
+                                    <ce:surname>Clark</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Boswell R.</ce:indexed-name>
+                                    <ce:surname>Boswell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning - Proceeding of the Fifth Europen Conference (EWSL-91)</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <pagerange first="151" last="163"/>
+                            </ref-volisspag>
+                            <ref-text>Berlin</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Peter Clark and Robin Boswell. Rule induction with CN2: Some recent improvements. In Machine Learning - Proceeding of the Fifth Europen Conference (EWSL-91), pages 151-163, Berlin, 1991.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The CN2 induction algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34249966007</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Clark P.</ce:indexed-name>
+                                    <ce:surname>Clark</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Niblett T.</ce:indexed-name>
+                                    <ce:surname>Niblett</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning Journal</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="4"/>
+                                <pagerange first="261" last="283"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Peter Clark and Tim Niblett. The CN2 induction algorithm. Machine Learning Journal, 4(3):261-283, 1989.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Orange: From experimental machine learning to interactive data mining</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33744805635</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>White Paper</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.ailab.si/orange</ce:e-address>
+                            </ref-website>
+                            <ref-text>Faculty of Computer and Information Science, University of Ljubljana</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Demšar and B. Zupan. Orange: From experimental machine learning to interactive data mining. White Paper [http://www.ailab.si/orange], Faculty of Computer and Information Science, University of Ljubljana, 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Accurate methods for the statistics of surprise and coincidence</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85055298348</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.E.</ce:initials>
+                                    <ce:indexed-name>Dunning T.E.</ce:indexed-name>
+                                    <ce:surname>Dunning</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computational Linguistics</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="19"/>
+                                <pagerange first="61" last="74"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ted E. Dunning. Accurate methods for the statistics of surprise and coincidence. Computational Linguistics, 19(1):61-74, 1993.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Limiting forms of the frequency distribution of the largest and smallest member of a sample</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84958156266</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Fisher R.A.</ce:indexed-name>
+                                    <ce:surname>Fisher</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.H.C.</ce:initials>
+                                    <ce:indexed-name>Tippett L.H.C.</ce:indexed-name>
+                                    <ce:surname>Tippett</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Camb. Phil. Soc.</ref-sourcetitle>
+                            <ref-publicationyear first="1928"/>
+                            <ref-volisspag>
+                                <voliss volume="24"/>
+                                <pagerange first="180" last="190"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R.A. Fisher and L.H.C. Tippett. Limiting forms of the frequency distribution of the largest and smallest member of a sample. Proc. Camb. Phil. Soc., 24:180-190, 1928.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Roc 'n' rule learning - Towards a better understanding of covering algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">14844361816</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Fuernkranz J.</ce:indexed-name>
+                                    <ce:surname>Fuernkranz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.A.</ce:initials>
+                                    <ce:indexed-name>Flach P.A.</ce:indexed-name>
+                                    <ce:surname>Flach</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="58"/>
+                                <pagerange first="39" last="77"/>
+                            </ref-volisspag>
+                            <ref-text>January</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Johannes Fuernkranz and Peter A. Flach. Roc 'n' rule learning - towards a better understanding of covering algorithms. Machine Learning, 58(1):39-77, January 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Statistical theory of extreme values and some practical applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003337001</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.J.</ce:initials>
+                                    <ce:indexed-name>Gumbel E.J.</ce:indexed-name>
+                                    <ce:surname>Gumbel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>National Bureau of Standards Applied Mathematics Series (US Government Printing Office)</ref-sourcetitle>
+                            <ref-publicationyear first="1954"/>
+                            <ref-volisspag>
+                                <voliss volume="33"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Emil J. Gumbel. Statistical theory of extreme values and some practical applications. National Bureau of Standards Applied Mathematics Series (US Government Printing Office), 33, 1954.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Some applications of extreme-value models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3142653304</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.J.</ce:initials>
+                                    <ce:indexed-name>Gumbel E.J.</ce:indexed-name>
+                                    <ce:surname>Gumbel</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lieblein J.</ce:indexed-name>
+                                    <ce:surname>Lieblein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>American Statistician</ref-sourcetitle>
+                            <ref-publicationyear first="1954"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="8"/>
+                                <pagerange first="14" last="17"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Emil J. Gumbel and J. Lieblein. Some applications of extreme-value models. American Statistician, 8(5):14-17, 1954.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Order statistics from the gamma distribution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84944979679</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.S.</ce:initials>
+                                    <ce:indexed-name>Gupta S.S.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Technometrics</ref-sourcetitle>
+                            <ref-publicationyear first="1960"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="243" last="262"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shanti S. Gupta. Order statistics from the gamma distribution. Technometrics, 2:243-262, 1960.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multiple comparisons in induction algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033907286</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.D.</ce:initials>
+                                    <ce:indexed-name>Jensen D.D.</ce:indexed-name>
+                                    <ce:surname>Jensen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.R.</ce:initials>
+                                    <ce:indexed-name>Cohen P.R.</ce:indexed-name>
+                                    <ce:surname>Cohen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="38"/>
+                                <pagerange first="309" last="338"/>
+                            </ref-volisspag>
+                            <ref-text>March</ref-text>
+                        </ref-info>
+                        <ref-fulltext>David D. Jensen and Paul R. Cohen. Multiple comparisons in induction algorithms. Machine Learning, 38(3):309-338, March 2000.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rule evaluation measures: A unifying view</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84949207526</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lavrac N.</ce:indexed-name>
+                                    <ce:surname>Lavrač</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Flach P.</ce:indexed-name>
+                                    <ce:surname>Flach</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 9th International Workshop on Inductive Logic Programming (ILP-99)</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="174" last="185"/>
+                            </ref-volisspag>
+                            <ref-text>Saša Džeroski and Peter Flach, editors, Bled, Slovenia</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Nada Lavrač, Peter Flach, and Blaž Zupan. Rule evaluation measures: A unifying view. In Saša Džeroski and Peter Flach, editors, Proceedings of the 9th International Workshop on Inductive Logic Programming (ILP-99), pages 174-185, Bled, Slovenia, 1999.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Extreme value distribution based gene selection criteria for discriminant microarray data analysis using logistic regression</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3142592326</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Li W.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Sun F.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Grosse I.</ce:indexed-name>
+                                    <ce:surname>Grosse</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Computational Biology</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="2-3" volume="11"/>
+                                <pagerange first="215" last="226"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wentian Li, Fengzhu Sun, and Ivo Grosse. Extreme value distribution based gene selection criteria for discriminant microarray data analysis using logistic regression. Journal of Computational Biology, 11(2/3):215-226, 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003408496</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.M.</ce:initials>
+                                    <ce:indexed-name>Murphy P.M.</ce:indexed-name>
+                                    <ce:surname>Murphy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.W.</ce:initials>
+                                    <ce:indexed-name>Aha D.W.</ce:indexed-name>
+                                    <ce:surname>Aha</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>UCI Repository of Machine Learning Databases</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.ics.uci.edu/~mlearn/mlrepository.html</ce:e-address>
+                            </ref-website>
+                            <ref-text>Irvine, CA: University of California, Department of Information and Computer Science</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. M. Murphy and D. W. Aha. UCI Repository of machine learning databases [http://www.ics.uci.edu/~mlearn/mlrepository.html]. Irvine, CA: University of California, Department of Information and Computer Science, 1994.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predictive performance of weighted relative accuracy</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84908362061</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Todorovski L.</ce:indexed-name>
+                                    <ce:surname>Todorovski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Flach P.</ce:indexed-name>
+                                    <ce:surname>Flach</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lavrac N.</ce:indexed-name>
+                                    <ce:surname>Lavrač</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 4th European Conference of Principles of Data Mining and Knowledge Discovery (PKDD-00)</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="255" last="264"/>
+                            </ref-volisspag>
+                            <ref-text>D. Zighed, J. Komorowski, and J. Zytkow, editors, Lyon, France</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ljupčo Todorovski, Peter Flach, and Nada Lavrač. Predictive performance of weighted relative accuracy. In D. Zighed, J. Komorowski, and J. Zytkow, editors, Proceedings of the 4th European Conference of Principles of Data Mining and Knowledge Discovery (PKDD-00), pages 255-264, Lyon, France, 2000.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

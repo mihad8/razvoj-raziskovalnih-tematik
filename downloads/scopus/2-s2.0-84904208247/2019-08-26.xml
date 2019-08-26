@@ -1,0 +1,1391 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84904208247</prism:url><dc:identifier>SCOPUS_ID:84904208247</dc:identifier><eid>2-s2.0-84904208247</eid><pii>S0952197614001237</pii><prism:doi>10.1016/j.engappai.2014.06.001</prism:doi><dc:title>Enhancing data stream predictions with reliability estimators and explanation</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>5</citedby-count><prism:publicationName>Engineering Applications of Artificial Intelligence</prism:publicationName><dc:publisher>
+                        Elsevier Ltd
+                    </dc:publisher><source-id>24182</source-id><prism:issn>09521976</prism:issn><prism:volume>34</prism:volume><prism:startingPage>178</prism:startingPage><prism:endingPage>192</prism:endingPage><prism:pageRange>178-192</prism:pageRange><prism:coverDate>2014-01-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="23566763400"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnić Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23566763400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Incremental learning from data streams is increasingly attracting research focus due to many real streaming problems (such as learning from transactions, sensors or other sequential observations) that require processing and forecasting in the real time. In this paper we deal with two issues related to incremental learning - prediction accuracy and prediction explanation - and demonstrate their applicability on several streaming problems for predicting electricity load in the future. For improving prediction accuracy we propose and evaluate the use of two reliability estimators that allow us to estimate prediction error and correct predictions. For improving interpretability of the incremental model and its predictions we propose an adaptation of the existing prediction explanation methodology, which was originally developed for batch learning from stationary data. The explanation methodology is combined with a state-of-the-art concept drift detector and a visualization technique to enhance the explanation in dynamic streaming settings. The results show that the proposed approaches can improve prediction accuracy and allow transparent insight into the modeled concept. © 2014 Elsevier Ltd.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84904208247" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84904208247&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84904208247&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60020432" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020432"><affilname>Institute for Systems and Computer Engineering, Technology and Science</affilname><affiliation-city>Porto</affiliation-city><affiliation-country>Portugal</affiliation-country></affiliation><affiliation id="60007249" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007249"><affilname>Universidade do Porto</affilname><affiliation-city>Porto</affiliation-city><affiliation-country>Portugal</affiliation-country></affiliation><authors><author seq="1" auid="23566763400"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnić Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23566763400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="56266505400"><ce:initials>G.</ce:initials><ce:indexed-name>Kespret G.</ce:indexed-name><ce:surname>Kešpret</ce:surname><ce:given-name>Grega</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Kešpret G.</ce:indexed-name><ce:surname>Kešpret</ce:surname><ce:given-name>Grega</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56266505400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="14024612500"><ce:initials>P.</ce:initials><ce:indexed-name>Pereira Rodrigues P.</ce:indexed-name><ce:surname>Pereira Rodrigues</ce:surname><ce:given-name>Pedro</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Pereira Rodrigues P.</ce:indexed-name><ce:surname>Pereira Rodrigues</ce:surname><ce:given-name>Pedro</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14024612500</author-url><affiliation id="60007249" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007249"/></author><author seq="5" auid="6603760806"><ce:initials>J.</ce:initials><ce:indexed-name>Gama J.</ce:indexed-name><ce:surname>Gama</ce:surname><ce:given-name>João</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Gama J.</ce:indexed-name><ce:surname>Gama</ce:surname><ce:given-name>João</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603760806</author-url><affiliation id="60020432" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020432"/></author><author seq="6" auid="57188535146"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188535146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Data stream</author-keyword><author-keyword>Incremental learning</author-keyword><author-keyword>Prediction accuracy</author-keyword><author-keyword>Prediction correction</author-keyword><author-keyword>Prediction explanation</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Data stream</mainterm><mainterm weight="b" candidate="n">Data stream predictions</mainterm><mainterm weight="b" candidate="n">Incremental learning</mainterm><mainterm weight="b" candidate="n">Incremental modeling</mainterm><mainterm weight="b" candidate="n">Prediction accuracy</mainterm><mainterm weight="b" candidate="n">Prediction correction</mainterm><mainterm weight="b" candidate="n">Prediction errors</mainterm><mainterm weight="b" candidate="n">Visualization technique</mainterm><mainterm weight="b" candidate="n">Dynamic Streaming</mainterm></idxterms><subject-areas><subject-area code="2207" abbrev="ENGI">Control and Systems Engineering</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-13T10:35:12.701Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="19" month="10" timestamp="2018-10-19T08:47:22.000022-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2014 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0952197614001237</ce:pii>
+                    <ce:doi>10.1016/j.engappai.2014.06.001</ce:doi>
+                    <itemid idtype="PUI">373516872</itemid>
+                    <itemid idtype="CAR-ID">353677307</itemid>
+                    <itemid idtype="CPX">20142917958984</itemid>
+                    <itemid idtype="SCP">84904208247</itemid>
+                    <itemid idtype="SGR">84904208247</itemid>
+                    <itemid idtype="PUIsecondary">602854021</itemid>
+                </itemidlist><history>
+                    <date-created day="29" month="07" year="2014"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Data stream</author-keyword>
+                        <author-keyword xml:lang="eng">Incremental learning</author-keyword>
+                        <author-keyword xml:lang="eng">Prediction accuracy</author-keyword>
+                        <author-keyword xml:lang="eng">Prediction correction</author-keyword>
+                        <author-keyword xml:lang="eng">Prediction explanation</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Enhancing data stream predictions with reliability estimators and explanation</titletext></citation-title><author-group><author auid="23566763400" seq="1" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Bosnić Z.</ce:indexed-name>
+                            <ce:surname>Bosnić</ce:surname>
+                            <ce:given-name>Zoran</ce:given-name>
+                        </preferred-name></author><author auid="55075851300" seq="2" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Demšar J.</ce:indexed-name>
+                            <ce:surname>Demšar</ce:surname>
+                            <ce:given-name>Jaka</ce:given-name>
+                        </preferred-name></author><author auid="56266505400" seq="3" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Kespret G.</ce:indexed-name><ce:surname>Kešpret</ce:surname><ce:given-name>Grega</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Kešpret G.</ce:indexed-name>
+                            <ce:surname>Kešpret</ce:surname>
+                            <ce:given-name>Grega</ce:given-name>
+                        </preferred-name></author><author auid="57188535146" seq="6" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                            <ce:surname>Kononenko</ce:surname>
+                            <ce:given-name>Igor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="14024612500" seq="4" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Pereira Rodrigues P.</ce:indexed-name><ce:surname>Pereira Rodrigues</ce:surname><ce:given-name>Pedro</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Pereira Rodrigues P.</ce:indexed-name>
+                            <ce:surname>Pereira Rodrigues</ce:surname>
+                            <ce:given-name>Pedro</ce:given-name>
+                        </preferred-name></author><affiliation afid="60007249" country="prt" dptid="113257325"><organization>CINTESIS - Faculty of Medicine, University of Porto</organization><affiliation-id afid="60007249" dptid="113257325"/><country>Portugal</country></affiliation></author-group><author-group><author auid="6603760806" seq="5" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Gama J.</ce:indexed-name><ce:surname>Gama</ce:surname><ce:given-name>João</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Gama J.</ce:indexed-name>
+                            <ce:surname>Gama</ce:surname>
+                            <ce:given-name>João</ce:given-name>
+                        </preferred-name></author><affiliation afid="60020432" country="prt" dptid="113954197"><organization>LIAAD - INESC Porto, L.A. and Faculty of Economics, University of Porto</organization><affiliation-id afid="60020432" dptid="113954197"/><affiliation-id afid="60007249"/><country>Portugal</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>Z.</ce:initials>
+                        <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                        <ce:surname>Bosnić</ce:surname>
+                    </person><affiliation country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Incremental learning from data streams is increasingly attracting research focus due to many real streaming problems (such as learning from transactions, sensors or other sequential observations) that require processing and forecasting in the real time. In this paper we deal with two issues related to incremental learning - prediction accuracy and prediction explanation - and demonstrate their applicability on several streaming problems for predicting electricity load in the future. For improving prediction accuracy we propose and evaluate the use of two reliability estimators that allow us to estimate prediction error and correct predictions. For improving interpretability of the incremental model and its predictions we propose an adaptation of the existing prediction explanation methodology, which was originally developed for batch learning from stationary data. The explanation methodology is combined with a state-of-the-art concept drift detector and a visualization technique to enhance the explanation in dynamic streaming settings. The results show that the proposed approaches can improve prediction accuracy and allow transparent insight into the modeled concept. © 2014 Elsevier Ltd.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="24182" type="j"><sourcetitle>Engineering Applications of Artificial Intelligence</sourcetitle><sourcetitle-abbrev>Eng Appl Artif Intell</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Engineering Applications of Artificial Intelligence</translated-sourcetitle><issn type="print">09521976</issn><codencode>EAAIE</codencode><volisspag>
+                        <voliss volume="34"/>
+                        <pagerange first="178" last="192"/>
+                    </volisspag><publicationyear first="2014"/><publicationdate>
+                        <year>2014</year>
+                        <date-text>September 2014</date-text>
+                    </publicationdate><publisher>
+                        <publishername>Elsevier Ltd</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>716</classification-code>
+                                <classification-description>Electronic Equipment, Radar, Radio and Television</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>717</classification-code>
+                                <classification-description>Electro-Optical Communication</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>718</classification-code>
+                                <classification-description>Telephone and Other Line Communications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2207</classification>
+                            <classification>1702</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ENGI</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="43">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Survey and critique of techniques for extracting rules from trained artificial neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029484103</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Andrews R.</ce:indexed-name>
+                                    <ce:surname>Andrews</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Diederich J.</ce:indexed-name>
+                                    <ce:surname>Diederich</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.B.</ce:initials>
+                                    <ce:indexed-name>Tickle A.B.</ce:indexed-name>
+                                    <ce:surname>Tickle</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl.-Based Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss volume="8"/>
+                                <pagerange first="373" last="389"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. Andrews, J. Diederich, and A.B. Tickle Survey and critique of techniques for extracting rules from trained artificial neural networks Knowl.-Based Syst. 8 1995 373 389</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visualizing the simple Bayesian classier</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0345159788</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Becker B.</ce:indexed-name>
+                                    <ce:surname>Becker</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kohavi R.</ce:indexed-name>
+                                    <ce:surname>Kohavi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Sommerfield D.</ce:indexed-name>
+                                    <ce:surname>Sommerfield</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>KDD Workshop on Issues in the Integration of Data Mining and Data Visualization</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                        </ref-info>
+                        <ref-fulltext>Becker, B.; Kohavi, R.; Sommerfield, D.; 1997. Visualizing the simple Bayesian classier. In: KDD Workshop on Issues in the Integration of Data Mining and Data Visualization.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Moa: Massive online analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953527363</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Bifet A.</ce:indexed-name>
+                                    <ce:surname>Bifet</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Holmes G.</ce:indexed-name>
+                                    <ce:surname>Holmes</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kirkby R.</ce:indexed-name>
+                                    <ce:surname>Kirkby</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Pfahringer B.</ce:indexed-name>
+                                    <ce:surname>Pfahringer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Mach. Learn. Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1601" last="1604"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Bifet, G. Holmes, R. Kirkby, and B. Pfahringer Moa: Massive online analysis J. Mach. Learn. Res. 11 2010 1601 1604</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Comparison of approaches for estimating reliability of individual regression prediction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">54349094489</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Knowl. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="67"/>
+                                <pagerange first="504" last="516"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Bosnić, and I. Kononenko Comparison of approaches for estimating reliability of individual regression prediction Data Knowl. Eng. 67 2008 504 516</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimation of individual prediction reliability using the local sensitivity analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">54249164497</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Appl. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="187" last="203"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Bosnić, and I. Kononenko Estimation of individual prediction reliability using the local sensitivity analysis Appl. Intell. 29 2008 187 203</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An overview of advances in reliability estimation of individual predictions in machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62449194481</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Intell. Data Anal.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="385" last="401"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Bosnić, and I. Kononenko An overview of advances in reliability estimation of individual predictions in machine learning Intell. Data Anal. 13 2009 385 401</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mining data from hemodynamic simulations for generating prediction and explanation models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84858132703</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Vracar P.</ce:indexed-name>
+                                    <ce:surname>Vračar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Radovic M.</ce:indexed-name>
+                                    <ce:surname>Radović</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Devedz ic G.</ce:indexed-name>
+                                    <ce:surname>Devedž ić</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Filipovic N.</ce:indexed-name>
+                                    <ce:surname>Filipović</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Inf. Technol. Biomed.: A Publ. IEEE Eng. Med. Biol. Soc.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="248" last="254"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Bosnić, P. Vračar, M. Radović, G. Devedžić, N. Filipović, and I. Kononenko Mining data from hemodynamic simulations for generating prediction and explanation models IEEE Trans. Inf. Technol. Biomed.: A Publ. IEEE Eng. Med. Biol. Soc. 2 2012 248 254</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Stability and generalization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038368335</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Bousquet O.</ce:indexed-name>
+                                    <ce:surname>Bousquet</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Elisseeff A.</ce:indexed-name>
+                                    <ce:surname>Elisseeff</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Mach. Learn. Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="499" last="526"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>O. Bousquet, and A. Elisseeff Stability and generalization J. Mach. Learn. Res. 2 2002 499 526</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Random forests</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035478854</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Breiman L.</ce:indexed-name>
+                                    <ce:surname>Breiman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mach. Learn. J.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="45"/>
+                                <pagerange first="5" last="32"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. Breiman Random forests Mach. Learn. J. 45 2001 5 32</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0022215834</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Bunn D.</ce:indexed-name>
+                                    <ce:surname>Bunn</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Farmer E.</ce:indexed-name>
+                                    <ce:surname>Farmer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comparative Models for Electrical Load Forecasting</ref-sourcetitle>
+                            <ref-publicationyear first="1985"/>
+                            <ref-text>Wiley New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Bunn, and E. Farmer Comparative Models for Electrical Load Forecasting 1985 Wiley New York</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Confidence and prediction intervals for neural network ensembles</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033351401</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Carney J.</ce:indexed-name>
+                                    <ce:surname>Carney</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Cunningham P.</ce:indexed-name>
+                                    <ce:surname>Cunningham</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of IJCNN'99, the International Joint Conference on Neural Networks, Washington, USA</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="1215" last="1218"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Carney, J.; Cunningham, P.; 1999. Confidence and prediction intervals for neural network ensembles. In: Proceedings of IJCNN'99, The International Joint Conference on Neural Networks, Washington, USA, pp. 1215-1218.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Using sampling and queries to extract rules from trained neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005074965</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.W.</ce:initials>
+                                    <ce:indexed-name>Craven M.W.</ce:indexed-name>
+                                    <ce:surname>Craven</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Shavlik J.</ce:indexed-name>
+                                    <ce:surname>Shavlik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of International Conference on Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <pagerange first="37" last="45"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Craven, M.W.; Shavlik, J.; 1994. Using sampling and queries to extract rules from trained neural networks. In: Proceedings of International Conference on Machine Learning, pp. 37-45.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0041674583</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Fox D.J.</ce:indexed-name>
+                                    <ce:surname>Fox</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>An R and S Plus Companion to Applied Regression</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-text>1st edition Sage Publications, Inc</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D.J. Fox An R and S Plus Companion to Applied Regression 1st edition 2002 Sage Publications, Inc</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85020715458</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge Discovery from Data Streams</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>1st edition Chapman &amp; Hall/CRC chapter 3, pp. 42-47</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Gama Knowledge Discovery from Data Streams 1st edition 2010 Chapman &amp; Hall/CRC chapter 3, pp. 42-47</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84895370818</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Rodrigues P.</ce:indexed-name>
+                                    <ce:surname>Rodrigues</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Learning from Data Streams - Processing Techniques in Sensor Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-text>Springer Verlag chapter 3, pp. 25-39</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Gama, and P. Rodrigues Learning from Data Streams - Processing Techniques in Sensor Networks 2007 Springer Verlag chapter 3, pp. 25-39</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On evaluating stream learning algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874677467</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sebastiao R.</ce:indexed-name>
+                                    <ce:surname>Sebastião</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.P.</ce:initials>
+                                    <ce:indexed-name>Rodrigues P.P.</ce:indexed-name>
+                                    <ce:surname>Rodrigues</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mach. Learn.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="90"/>
+                                <pagerange first="317" last="346"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Gama, R. Sebastião, and P.P. Rodrigues On evaluating stream learning algorithms Mach. Learn. 90 2013 317 346</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning by transduction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002947383</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gammerman A.</ce:indexed-name>
+                                    <ce:surname>Gammerman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vovk V.</ce:indexed-name>
+                                    <ce:surname>Vovk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vapnik V.</ce:indexed-name>
+                                    <ce:surname>Vapnik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 14th Conference on Uncertainty in Artificial Intelligence, Madison, Wisconsin</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="148" last="155"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gammerman, A.; Vovk, V.; Vapnik, V.; 1998. Learning by transduction. In: Proceedings of the 14th Conference on Uncertainty in Artificial Intelligence, Madison, Wisconsin, pp. 148-155.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visualization of support vector machines with unsupervised learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">50249158464</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Hamel L.</ce:indexed-name>
+                                    <ce:surname>Hamel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of 2006 IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology, Toronto, Canada</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hamel, L.; 2006. Visualization of support vector machines with unsupervised learning. In: Proceedings of 2006 IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology, Toronto, Canada, pp. 1-8.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Practical confidence and prediction intervals</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898947879</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Heskes T.</ce:indexed-name>
+                                    <ce:surname>Heskes</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advances in Neural Information Processing Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <pagerange first="176" last="182"/>
+                            </ref-volisspag>
+                            <ref-text>M.C. Mozer, M.I. Jordan, T. Petsche, The MIT Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T. Heskes Practical confidence and prediction intervals M.C. Mozer, M.I. Jordan, T. Petsche, Advances in Neural Information Processing Systems 1997 The MIT Press 176 182</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mining time-changing data streams</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035789299</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hulten G.</ce:indexed-name>
+                                    <ce:surname>Hulten</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Spencer L.</ce:indexed-name>
+                                    <ce:surname>Spencer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Domingos P.</ce:indexed-name>
+                                    <ce:surname>Domingos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="97" last="106"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hulten, G.; Spencer, L.; Domingos, P.; 2001. Mining time-changing data streams. In: Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 97-106.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nomograms for visualizing support vector machines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">32344441116</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jakulin A.</ce:indexed-name>
+                                    <ce:surname>Jakulin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>KDD '05: Proceeding of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="108" last="117"/>
+                            </ref-volisspag>
+                            <ref-text>ACM, New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jakulin, A.; Možina, M.; Demšar, J.; Bratko, I.; Zupan, B.; 2005. Nomograms for visualizing support vector machines. In: KDD '05: Proceeding of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining, ACM, New York, NY, USA. pp. 108-117.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Inductive and bayesian learning in medical diagnosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027682531</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Appl. Artif. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="317" last="337"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>I. Kononenko Inductive and bayesian learning in medical diagnosis Appl. Artif. Intell. 7 1993 317 337</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84879219067</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kuhn M.</ce:indexed-name>
+                                    <ce:surname>Kuhn</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Variable Selection Using the Caret Package</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://cran.cermin.lipi.go.id/web/packages/caret/vignettes/ caretSelection.pdf</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Kuhn, M.; 2012. Variable Selection Using the Caret Package. URL http://cran.cermin.lipi.go.id/web/packages/caret/vignettes/caretSelection.pdf .</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Short term electric load forecasting a tutorial</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750988786</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Kyriakides E.</ce:indexed-name>
+                                    <ce:surname>Kyriakides</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Polycarpou M.</ce:indexed-name>
+                                    <ce:surname>Polycarpou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Trends Neural Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="391" last="418"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Kyriakides, and M. Polycarpou Short term electric load forecasting a tutorial Trends Neural Comput. 2007 391 418</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Contact personalization using a score understanding method</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56349095888</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Lemaire V.</ce:indexed-name>
+                                    <ce:surname>Lemaire</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Feraud R.</ce:indexed-name>
+                                    <ce:surname>Féraud</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Voisine N.</ce:indexed-name>
+                                    <ce:surname>Voisine</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Joint Conference on Neural Networks (IJCNN)</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                        </ref-info>
+                        <ref-fulltext>Lemaire, V.; Féraud, R.; Voisine, N.; 2008. Contact personalization using a score understanding method. In: International Joint Conference on Neural Networks (IJCNN).</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Open set face recognition using transduction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">28044457202</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Li F.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wechsler H.</ce:indexed-name>
+                                    <ce:surname>Wechsler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="1686" last="1697"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Li, and H. Wechsler Open set face recognition using transduction IEEE Trans. Pattern Anal. Mach. Intell. 27 2005 1686 1697</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nomograms for visualization of naive bayesian classifier</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750710231</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kattan M.</ce:indexed-name>
+                                    <ce:surname>Kattan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PKDD '04: Proceedings of the 8th European Conference on Principles and Practice of Knowledge Discovery in Databases</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="337" last="348"/>
+                            </ref-volisspag>
+                            <ref-text>Springer-Verlag New York, Inc.; New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Možina, M.; Demšar, J.; Kattan, M.; Zupan, B.; 2004. Nomograms for visualization of naive bayesian classifier. In: PKDD '04: Proceedings of the 8th European Conference on Principles and Practice of Knowledge Discovery in Databases, Springer-Verlag New York, Inc.; New York, NY, USA, pp. 337-348.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ridge regression confidence machine</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003273622</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Nouretdinov I.</ce:indexed-name>
+                                    <ce:surname>Nouretdinov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Melluish T.</ce:indexed-name>
+                                    <ce:surname>Melluish</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vovk V.</ce:indexed-name>
+                                    <ce:surname>Vovk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of 18th International Conference on Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="385" last="392"/>
+                            </ref-volisspag>
+                            <ref-text>Morgan Kaufmann, San Francisco, CA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Nouretdinov, I.; Melluish, T.; Vovk, V.; 2001. Ridge regression confidence machine. In: Proceedings of 18th International Conference on Machine Learning. Morgan Kaufmann, San Francisco, CA, pp. 385-392.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904154964</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>New York Independent System Operator</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.nyiso.com/public/markets_operations/market_data/load_data/ index.jsp</ce:e-address>
+                            </ref-website>
+                            <ref-text>NYISO</ref-text>
+                        </ref-info>
+                        <ref-fulltext>NYISO, 2012. New York Independent System Operator. Load Data. URL http://www.nyiso.com/public/markets-operations/market-data/load-data/index.jsp .</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SVM and graphical algorithms: A cooperative approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">19544386607</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Poulet F.</ce:indexed-name>
+                                    <ce:surname>Poulet</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of Fourth IEEE International Conference on Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="499" last="502"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Poulet, F.; 2004. SVM and graphical algorithms: a cooperative approach. In: Proceedings of Fourth IEEE International Conference on Data Mining, pp. 499-502.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining classifications for individual instances</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949101606</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik-Šikonja</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Knowl. Data Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="20"/>
+                                <pagerange first="589" last="600"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Robnik-Šikonja, and I. Kononenko Explaining classifications for individual instances IEEE Trans. Knowl. Data Eng. 20 2008 589 600</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online reliability estimates for individual predictions in data streams</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62449145679</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Rodrigues P.</ce:indexed-name>
+                                    <ce:surname>Rodrigues</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICDM Workshops 2008: Proceedings</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="36" last="45"/>
+                            </ref-volisspag>
+                            <ref-text>Bonchi, F. (Ed.) Pisa, Italy</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Rodrigues, P.; Bosnić, Z.; Gama, J.; 2008. Online reliability estimates for individual predictions in data streams. In: Bonchi, F. (Ed.), ICDM Workshops 2008: Proceedings, Pisa, Italy. pp. 36-45.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A system for analysis and prediction of electricity load streams</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62449130659</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Rodrigues P.</ce:indexed-name>
+                                    <ce:surname>Rodrigues</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Intell. Data Anal.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="477" last="496"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Rodrigues, and J. Gama A system for analysis and prediction of electricity load streams Intell. Data Anal. 13 2009 477 496</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Memoryless fading windows in ubiquitous settings</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904195779</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Rodrigues P.</ce:indexed-name>
+                                    <ce:surname>Rodrigues</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sebastiao R.</ce:indexed-name>
+                                    <ce:surname>Sebastiao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of Ubiquitous Data Mining (UDM) Workshop in Conjunction with the 19th ECAI 2010</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="27" last="32"/>
+                            </ref-volisspag>
+                            <ref-text>Lisbon</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Rodrigues, P.; Gama, J.; Sebastiao, R.; 2010. Memoryless fading windows in ubiquitous settings. In: Proceedings of Ubiquitous Data Mining (UDM) Workshop in Conjunction with the 19th ECAI 2010, Lisbon, pp. 27-32.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Strategies for improving the modeling and interpretability of bayesian networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34250310031</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>De Santana A.L.</ce:indexed-name>
+                                    <ce:surname>De Santana</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Frances C.</ce:indexed-name>
+                                    <ce:surname>Frances</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Rocha C.A.</ce:indexed-name>
+                                    <ce:surname>Rocha</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.V.</ce:initials>
+                                    <ce:indexed-name>Carvalho S.V.</ce:indexed-name>
+                                    <ce:surname>Carvalho</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.L.</ce:initials>
+                                    <ce:indexed-name>Vijaykumar N.L.</ce:indexed-name>
+                                    <ce:surname>Vijaykumar</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.P.</ce:initials>
+                                    <ce:indexed-name>Rego L.P.</ce:indexed-name>
+                                    <ce:surname>Rego</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.C.</ce:initials>
+                                    <ce:indexed-name>Costa J.C.</ce:indexed-name>
+                                    <ce:surname>Costa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Knowl. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="63"/>
+                                <pagerange first="91" last="107"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A.L. de Santana, C. Frances, C.A. Rocha, S.V. Carvalho, N.L. Vijaykumar, L.P. Rego, and J.C. Costa Strategies for improving the modeling and interpretability of bayesian networks Data Knowl. Eng. 63 2007 91 107</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Transduction with confidence and credibility</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84880657197</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Saunders C.</ce:indexed-name>
+                                    <ce:surname>Saunders</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gammerman A.</ce:indexed-name>
+                                    <ce:surname>Gammerman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vovk V.</ce:indexed-name>
+                                    <ce:surname>Vovk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of IJCAI'99</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="722" last="726"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Saunders, C.; Gammerman, A.; Vovk, V.; 1999. Transduction with confidence and credibility. In: Proceedings of IJCAI'99, pp. 722-726.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A study on change detection methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84894144376</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sebastiao R.</ce:indexed-name>
+                                    <ce:surname>Sebastião</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Progress in Artificial Intelligence, 14th Portuguese Conference on Artificial Intelligence, EPIA 2009</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="353" last="264"/>
+                            </ref-volisspag>
+                            <ref-text>Lopes, L.S.; Lau, N.; Mariano, P.; Rocha, L.M. (Eds.) Aveiro, Portugal, October 12-15, 2009. Proceedings, Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Sebastião, R.; Gama, J.; 2009. A study on change detection methods. In: Lopes, L.S.; Lau, N.; Mariano, P.; Rocha, L.M. (Eds.), Progress in Artificial Intelligence, 14th Portuguese Conference on Artificial Intelligence, EPIA 2009, Aveiro, Portugal, October 12-15, 2009. Proceedings, Springer, pp. 353-264.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A streaming ensemble algorithm (sea) for large-scale classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035788947</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.N.</ce:initials>
+                                    <ce:indexed-name>Street W.N.</ce:indexed-name>
+                                    <ce:surname>Street</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Kim Y.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="377" last="382"/>
+                            </ref-volisspag>
+                            <ref-text>ACM, New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Street, W.N.; Kim, Y.; 2001. A streaming ensemble algorithm (sea) for large-scale classification. In: Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, New York, NY, USA, pp. 377-382.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Extracting refined rules from knowledge-based neural networks, machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027678679</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Towell G.</ce:indexed-name>
+                                    <ce:surname>Towell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Shavlik J.W.</ce:indexed-name>
+                                    <ce:surname>Shavlik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mach. Learn.</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="71" last="101"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>G. Towell, and J.W. Shavlik Extracting refined rules from knowledge-based neural networks, machine learning Mach. Learn. 13 1993 71 101</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explanation and reliability of prediction models the case of breast cancer recurrence</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954953206</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zakotnik B.</ce:indexed-name>
+                                    <ce:surname>Zakotnik</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Grasic-Kuhar C.</ce:indexed-name>
+                                    <ce:surname>Grašič-Kuhar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl. Inf. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="9"/>
+                                <pagerange first="305" last="324"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Štrumbelj, Z. Bosnić, I. Kononenko, B. Zakotnik, and C. Grašič-Kuhar Explanation and reliability of prediction models the case of breast cancer recurrence Knowl. Inf. Syst. 9 2010 305 324</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An efficient explanation of individual classifications using game theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">76749170318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Mach. Learn. Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1" last="18"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Štrumbelj, and I. Kononenko An efficient explanation of individual classifications using game theory J. Mach. Learn. Res. 11 2010 1 18</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining instance classifications with interactions of subsets of feature values</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">69249209926</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Knowl. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="68"/>
+                                <pagerange first="886" last="904"/>
+                            </ref-volisspag>
+                            <ref-text>Robnik Šikonja</ref-text>
+                        </ref-info>
+                        <ref-fulltext>E. Štrumbelj, I. Kononenko Robnik Šikonja Explaining instance classifications with interactions of subsets of feature values Data Knowl. Eng. 68 2009 886 904</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predictions with confidence intervals (local error bars)</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001810656</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Weigend A.</ce:indexed-name>
+                                    <ce:surname>Weigend</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Nix D.</ce:indexed-name>
+                                    <ce:surname>Nix</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Neural Information Processing (ICONIP'94)</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <pagerange first="847" last="852"/>
+                            </ref-volisspag>
+                            <ref-text>Seoul, Korea</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Weigend, A.; Nix, D.; 1994. Predictions with confidence intervals (local error bars). In: Proceedings of the International Conference on Neural Information Processing (ICONIP'94). Seoul, Korea, pp. 847-852.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,1122 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85052705123</prism:url><dc:identifier>SCOPUS_ID:85052705123</dc:identifier><eid>2-s2.0-85052705123</eid><prism:doi>10.3390/a11080118</prism:doi><article-number>118</article-number><dc:title>Sliding suffix tree</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Algorithms</prism:publicationName><dc:publisher>
+                        MDPI AG
+                        
+                            Postfach
+                            Basel
+                            CH-4005
+                        
+                        indexing@mdpi.com
+                    </dc:publisher><source-id>21100199795</source-id><prism:issn>19994893</prism:issn><prism:volume>11</prism:volume><prism:issueIdentifier>8</prism:issueIdentifier><prism:coverDate>2018-08-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="6603461888"><ce:initials>A.</ce:initials><ce:indexed-name>Brodnik A.</ce:indexed-name><ce:surname>Brodnik</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Brodnik A.</ce:indexed-name><ce:surname>Brodnik</ce:surname><ce:given-name>Andrej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603461888</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 by the authors.</publishercopyright>
+                        <ce:para>We consider a sliding windowW over a stream of characters from some alphabet of constant size. We want to look up a pattern in the current sliding window content and obtain all positions of the matches. We present an indexed version of the sliding window, based on a suffix tree. The data structure of size Θ(|W|) has optimal time queries Θ(m + occ) and amortized constant time updates, where m is the length of the query string and occ is its number of occurrences.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85052705123" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85052705123&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85052705123&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"><affilname>University of Primorska</affilname><affiliation-city>Koper</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6603461888"><ce:initials>A.</ce:initials><ce:indexed-name>Brodnik A.</ce:indexed-name><ce:surname>Brodnik</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Brodnik A.</ce:indexed-name><ce:surname>Brodnik</ce:surname><ce:given-name>Andrej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603461888</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"/></author><author seq="2" auid="56331014400"><ce:initials>M.</ce:initials><ce:indexed-name>Jekovec M.</ce:indexed-name><ce:surname>Jekovec</ce:surname><ce:given-name>Matevž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Jekovec M.</ce:indexed-name><ce:surname>Jekovec</ce:surname><ce:given-name>Matevž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56331014400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Online pattern matching</author-keyword><author-keyword>Sliding window</author-keyword><author-keyword>Suffix tree</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">All positions</mainterm><mainterm weight="b" candidate="n">Constant sizes</mainterm><mainterm weight="b" candidate="n">Constant time</mainterm><mainterm weight="b" candidate="n">Optimal time</mainterm><mainterm weight="b" candidate="n">Query string</mainterm><mainterm weight="b" candidate="n">Sliding Window</mainterm><mainterm weight="b" candidate="n">Suffix-trees</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="2612" abbrev="MATH">Numerical Analysis</subject-area><subject-area code="1703" abbrev="COMP">Computational Theory and Mathematics</subject-area><subject-area code="2605" abbrev="MATH">Computational Mathematics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-31T03:08:47Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>core</xocs:funding-agency-matched-string><xocs:funding-agency>Center for Outcomes Research and Evaluation, Yale School of Medicine</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100006441</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>Funding: The work is partially supported by the Slovenian Research Agency (research core funding No. P2-0359 and N2-0053).</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="16" month="11" timestamp="2018-11-16T00:15:31.000031-05:00" year="2018"/><ait:date-sort day="01" month="08" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.3390/a11080118</ce:doi>
+                    <itemid idtype="PUI">623755831</itemid>
+                    <itemid idtype="CAR-ID">912536944</itemid>
+                    <itemid idtype="CPX">20183605785443</itemid>
+                    <itemid idtype="SCOPUS">20182654200</itemid>
+                    <itemid idtype="SCP">85052705123</itemid>
+                    <itemid idtype="SGR">85052705123</itemid>
+                </itemidlist><history>
+                    <date-created day="07" month="09" timestamp="BST 12:15:56" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Online pattern matching</author-keyword>
+                        <author-keyword xml:lang="eng">Sliding window</author-keyword>
+                        <author-keyword xml:lang="eng">Suffix tree</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Sliding suffix tree</titletext></citation-title><author-group><author auid="6603461888" seq="1" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Brodnik A.</ce:indexed-name><ce:surname>Brodnik</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Brodnik A.</ce:indexed-name>
+                            <ce:surname>Brodnik</ce:surname>
+                            <ce:given-name>Andrej</ce:given-name>
+                        </preferred-name></author><author auid="56331014400" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Jekovec M.</ce:indexed-name><ce:surname>Jekovec</ce:surname><ce:given-name>Matevž</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Jekovec M.</ce:indexed-name>
+                            <ce:surname>Jekovec</ce:surname>
+                            <ce:given-name>Matevž</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6603461888" seq="1" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Brodnik A.</ce:indexed-name><ce:surname>Brodnik</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Brodnik A.</ce:indexed-name>
+                            <ce:surname>Brodnik</ce:surname>
+                            <ce:given-name>Andrej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60006286" country="svn" dptid="104943018"><organization>Faculty of Mathematics</organization><organization>Natural Sciences and Information Technologies</organization><organization>University of Primorska</organization><city>Koper-Capodistria</city><postal-code>6000</postal-code><affiliation-id afid="60006286" dptid="104943018"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Jekovec M.</ce:indexed-name>
+                        <ce:surname>Jekovec</ce:surname>
+                        <ce:given-name>Matevž</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><grantlist complete="y"><grant-text xml:lang="eng">We would like to thank anonymous reviewers of Combinatorial Pattern Matching 2018 for valuable references to the related work and their ideas for simplifying the queries without using the lowest common ancestor auxiliary data structures used in the previous version of this paper [34]. The work is partially supported by the Slovenian Research Agency (research core funding No. P2-0359 and N2-0053).</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 by the authors.</publishercopyright>
+                        <ce:para>We consider a sliding windowW over a stream of characters from some alphabet of constant size. We want to look up a pattern in the current sliding window content and obtain all positions of the matches. We present an indexed version of the sliding window, based on a suffix tree. The data structure of size Θ(|W|) has optimal time queries Θ(m + occ) and amortized constant time updates, where m is the length of the query string and occ is its number of occurrences.</ce:para>
+                    </abstract></abstracts><source country="che" srcid="21100199795" type="j"><sourcetitle>Algorithms</sourcetitle><sourcetitle-abbrev>Algorithms</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Algorithms</translated-sourcetitle><issn type="electronic">19994893</issn><volisspag>
+                        <voliss issue="8" volume="11"/>
+                    </volisspag><article-number>118</article-number><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>08</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 August 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">https://res.mdpi.com/algorithms/algorithms-11-00118/article_deploy/algorithms-11-00118.pdf?filename=&amp;attachment=1</ce:e-address>
+                    </website><publisher>
+                        <publishername>MDPI AG</publishername>
+                        <affiliation country="che">
+                            <address-part>Postfach</address-part>
+                            <city>Basel</city>
+                            <postal-code>CH-4005</postal-code>
+                        </affiliation>
+                        <ce:e-address type="email">indexing@mdpi.com</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>2612</classification>
+                            <classification>1703</classification>
+                            <classification>2605</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="34">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Compressed full-text indexes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34147186297</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Navarro G.</ce:indexed-name>
+                                    <ce:surname>Navarro</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Makinen V.</ce:indexed-name>
+                                    <ce:surname>Mäkinen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Comput. Surv</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="39"/>
+                                <pagerange first="2"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Navarro, G.; Mäkinen, V. Compressed full-text indexes. ACM Comput. Surv. 2007, 39, 2</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Replacing suffix trees with enhanced suffix arrays</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3242889975</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.I.</ce:initials>
+                                    <ce:indexed-name>Abouelhoda M.I.</ce:indexed-name>
+                                    <ce:surname>Abouelhoda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kurtz S.</ce:indexed-name>
+                                    <ce:surname>Kurtz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Ohlebusch E.</ce:indexed-name>
+                                    <ce:surname>Ohlebusch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Discrete Algorithms</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="53" last="86"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Abouelhoda, M.I.; Kurtz, S.; Ohlebusch, E. Replacing suffix trees with enhanced suffix arrays. J. Discrete Algorithms 2004, 2, 53-86</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>High-Order Entropy-Compressed Text Indexes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037739870</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Grossi R.</ce:indexed-name>
+                                    <ce:surname>Grossi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gupta A.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.S.</ce:initials>
+                                    <ce:indexed-name>Vitter J.S.</ce:indexed-name>
+                                    <ce:surname>Vitter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Proceedings of the 14th Annual ACM-SIAM Symposium on Discrete Algorithms</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="2068"/>
+                                <pagerange first="841" last="850"/>
+                            </ref-volisspag>
+                            <ref-text>Baltimore, MD, USA, 12-14 January</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Grossi, R.; Gupta, A.; Vitter, J.S. High-Order Entropy-Compressed Text Indexes. In Proceedings of the 14th Annual ACM-SIAM Symposium on Discrete Algorithms, Baltimore, MD, USA, 12-14 January 2003; Volume 2068, pp. 841-850</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast Pattern Matching in Strings</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000904908</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Knuth D.</ce:indexed-name>
+                                    <ce:surname>Knuth</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Morris J.</ce:indexed-name>
+                                    <ce:surname>Morris</ce:surname>
+                                    <ce:suffix>Jr.</ce:suffix>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Pratt V.</ce:indexed-name>
+                                    <ce:surname>Pratt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SIAM J. Comput</ref-sourcetitle>
+                            <ref-publicationyear first="1977"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="323" last="350"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Knuth, D.; Morris, J., Jr.; Pratt, V. Fast Pattern Matching in Strings. SIAM J. Comput. 1977, 6, 323-350</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A fast string searching algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0017547820</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.S.</ce:initials>
+                                    <ce:indexed-name>Boyer R.S.</ce:indexed-name>
+                                    <ce:surname>Boyer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.S.</ce:initials>
+                                    <ce:indexed-name>Moore J.S.</ce:indexed-name>
+                                    <ce:surname>Moore</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Commun. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1977"/>
+                            <ref-volisspag>
+                                <voliss volume="20"/>
+                                <pagerange first="762" last="772"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Boyer, R.S.; Moore, J.S. A fast string searching algorithm. Commun. ACM 1977, 20, 762-772</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Efficient randomized pattern-matching algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0022030599</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.M.</ce:initials>
+                                    <ce:indexed-name>Karp R.M.</ce:indexed-name>
+                                    <ce:surname>Karp</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.O.</ce:initials>
+                                    <ce:indexed-name>Rabin M.O.</ce:indexed-name>
+                                    <ce:surname>Rabin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IBM J. Res. Dev</ref-sourcetitle>
+                            <ref-publicationyear first="1987"/>
+                            <ref-volisspag>
+                                <voliss volume="31"/>
+                                <pagerange first="249" last="260"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Karp, R.M.; Rabin, M.O. Efficient randomized pattern-matching algorithms. IBM J. Res. Dev. 1987, 31, 249-260</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Periodicity in Streams Approximation, Randomization, and Combinatorial Optimization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78149318342</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Ergun F.</ce:indexed-name>
+                                    <ce:surname>Ergun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Jowhari H.</ce:indexed-name>
+                                    <ce:surname>Jowhari</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Saglam M.</ce:indexed-name>
+                                    <ce:surname>Sağlam</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Algorithms and Techniques</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="545" last="559"/>
+                            </ref-volisspag>
+                            <ref-text>Serna, M., Shaltiel, R., Jansen, K., Rolim, J., Eds.; Springer: Berlin/Heidelberg, Germany</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ergun, F.; Jowhari, H.; Sağlam, M. Periodicity in Streams. In Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques; Serna, M., Shaltiel, R., Jansen, K., Rolim, J., Eds.; Springer: Berlin/Heidelberg, Germany, 2010; pp. 545-559</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-Time Streaming String-Matching</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960098557</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Breslauer D.</ce:indexed-name>
+                                    <ce:surname>Breslauer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Galil Z.</ce:indexed-name>
+                                    <ce:surname>Galil</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Combinatorial Pattern Matching</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="162" last="172"/>
+                            </ref-volisspag>
+                            <ref-text>Giancarlo, R., Manzini, G., Eds.; Springer: Berlin/Heidelberg, Germany</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Breslauer, D.; Galil, Z. Real-Time Streaming String-Matching. In Combinatorial Pattern Matching; Giancarlo, R., Manzini, G., Eds.; Springer: Berlin/Heidelberg, Germany, 2011; pp. 162-172</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80051610523</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Casey E.</ce:indexed-name>
+                                    <ce:surname>Casey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Handbook of Digital Forensics and Investigation</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-text>2nd ed Elsevier Academic Press: Burlington, MA, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Casey, E. Handbook of Digital Forensics and Investigation, 2nd ed.; Elsevier Academic Press: Burlington, MA, USA, 2009</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79952513397</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Cox R.</ce:indexed-name>
+                                    <ce:surname>Cox</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Regular Expression Matching: the Virtual Machine Approach</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://swtch.com/rsc/regexp/</ce:e-address>
+                            </ref-website>
+                            <ref-text>(accessed on 2nd August 2018)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Cox, R. Regular Expression Matching: the Virtual Machine Approach, 2009. Available online: https: //swtch.com/rsc/regexp/ (accessed on 2nd August 2018)</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Searching Massive Data Streams Using Multipattern Regular Expressions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84881277395</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Stewart J.</ce:indexed-name>
+                                    <ce:surname>Stewart</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Uckelman J.</ce:indexed-name>
+                                    <ce:surname>Uckelman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advances in Digital Forensics VII</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="49" last="63"/>
+                            </ref-volisspag>
+                            <ref-text>Peterson, G., Shenoi, S., Eds.; Springer: Berlin/Heidelberg, Germany</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Stewart, J.; Uckelman, J. Searching Massive Data Streams Using Multipattern Regular Expressions. In Advances in Digital Forensics VII; Peterson, G., Shenoi, S., Eds.; Springer: Berlin/Heidelberg, Germany, 2011; pp. 49-63</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Modified Ant Miner for Intrusion Detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953058211</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Agravat D.</ce:indexed-name>
+                                    <ce:surname>Agravat</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Vaishnav U.</ce:indexed-name>
+                                    <ce:surname>Vaishnav</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.B.</ce:initials>
+                                    <ce:indexed-name>Swadas P.B.</ce:indexed-name>
+                                    <ce:surname>Swadas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2010 Second International Conference on Machine Learning and Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="228" last="232"/>
+                            </ref-volisspag>
+                            <ref-text>Bangalore, India, 9-11 Febuary</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Agravat, D.; Vaishnav, U.; Swadas, P.B. Modified Ant Miner for Intrusion Detection. In Proceedings of the 2010 Second International Conference on Machine Learning and Computing, Bangalore, India, 9-11 Febuary 2010; pp. 228-232</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis of neural networks usage for detection of a new attack in IDS</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84909587455</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kukielka P.</ce:indexed-name>
+                                    <ce:surname>Kukielka</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kotulski Z.</ce:indexed-name>
+                                    <ce:surname>Kotulski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ann. UMCS Inform</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="51" last="59"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kukielka, P.; Kotulski, Z. Analysis of neural networks usage for detection of a new attack in IDS. Ann. UMCS Inform. 2010, 10, 51-59</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Data compression with finite windows</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0024640034</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.R.</ce:initials>
+                                    <ce:indexed-name>Fiala E.R.</ce:indexed-name>
+                                    <ce:surname>Fiala</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.H.</ce:initials>
+                                    <ce:indexed-name>Greene D.H.</ce:indexed-name>
+                                    <ce:surname>Greene</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Commun. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <voliss volume="32"/>
+                                <pagerange first="490" last="505"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Fiala, E.R.; Greene, D.H. Data compression with finite windows. Commun. ACM 1989, 32, 490-505</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A Space-Economical Suffix Tree Construction Algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0016942292</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.M.</ce:initials>
+                                    <ce:indexed-name>McCreight E.M.</ce:indexed-name>
+                                    <ce:surname>McCreight</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1976"/>
+                            <ref-volisspag>
+                                <voliss volume="23"/>
+                                <pagerange first="262" last="272"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>McCreight, E.M. A Space-Economical Suffix Tree Construction Algorithm. J. ACM 1976, 23, 262-272</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004106701</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.J.</ce:initials>
+                                    <ce:indexed-name>Larsson N.J.</ce:indexed-name>
+                                    <ce:surname>Larsson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Structures of String Matching and Data Compression</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>Ph.D. Thesis, Lund University, Lund, Sweden</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Larsson, N.J. Structures of String Matching and Data Compression. Ph.D. Thesis, Lund University, Lund, Sweden, 1999</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On-Line Construction of Suffix Trees</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001704377</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Ukkonen E.</ce:indexed-name>
+                                    <ce:surname>Ukkonen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Algorithmica</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="249" last="260"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ukkonen, E. On-Line Construction of Suffix Trees. Algorithmica 1995, 14, 249-260</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Suffix tree for a sliding window: An overview</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">48649105343</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Senft M.</ce:indexed-name>
+                                    <ce:surname>Senft</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Week of Doctoral Students</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="41" last="46"/>
+                            </ref-volisspag>
+                            <ref-text>Šafránková, J., Ed.; Matfyzpress: Prague, Czech Republic</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Senft, M. Suffix tree for a sliding window: An overview. In Week of Doctoral Students; Šafránková, J., Ed.; Matfyzpress: Prague, Czech Republic, 2005; pp. 41-46</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Complete Inverted Files for Efficient Text Retrieval and Analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0023383102</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Blumer A.</ce:indexed-name>
+                                    <ce:surname>Blumer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Blumer J.</ce:indexed-name>
+                                    <ce:surname>Blumer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Haussler D.</ce:indexed-name>
+                                    <ce:surname>Haussler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>McConnell R.</ce:indexed-name>
+                                    <ce:surname>McConnell</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ehrenfeucht A.</ce:indexed-name>
+                                    <ce:surname>Ehrenfeucht</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1987"/>
+                            <ref-volisspag>
+                                <voliss volume="34"/>
+                                <pagerange first="578" last="595"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Blumer, A.; Blumer, J.; Haussler, D.; McConnell, R.; Ehrenfeucht, A. Complete Inverted Files for Efficient Text Retrieval and Analysis. J. ACM 1987, 34, 578-595</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On-line construction of compact directed acyclic word graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">11844280287</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Inenaga S.</ce:indexed-name>
+                                    <ce:surname>Inenaga</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Hoshino H.</ce:indexed-name>
+                                    <ce:surname>Hoshino</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Shinohara A.</ce:indexed-name>
+                                    <ce:surname>Shinohara</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Takeda M.</ce:indexed-name>
+                                    <ce:surname>Takeda</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Arikawa S.</ce:indexed-name>
+                                    <ce:surname>Arikawa</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Mauri G.</ce:indexed-name>
+                                    <ce:surname>Mauri</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Pavesi G.</ce:indexed-name>
+                                    <ce:surname>Pavesi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Discrete Appl. Math</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="146"/>
+                                <pagerange first="156" last="179"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Inenaga, S.; Hoshino, H.; Shinohara, A.; Takeda, M.; Arikawa, S.; Mauri, G.; Pavesi, G. On-line construction of compact directed acyclic word graphs. Discrete Appl. Math. 2005, 146, 156-179</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Compact directed acyclic word graphs for a sliding window</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">10644222716</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Inenaga S.</ce:indexed-name>
+                                    <ce:surname>Inenaga</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Shinohara A.</ce:indexed-name>
+                                    <ce:surname>Shinohara</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Takeda M.</ce:indexed-name>
+                                    <ce:surname>Takeda</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Arikawa S.</ce:indexed-name>
+                                    <ce:surname>Arikawa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Discrete Algorithms</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="33" last="51"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Inenaga, S.; Shinohara, A.; Takeda, M.; Arikawa, S. Compact directed acyclic word graphs for a sliding window. J. Discrete Algorithms 2004, 2, 33-51</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On the Use of Suffix Arrays for Memory-Efficient Lempel-Ziv Data Compression</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">67650671580</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ferreira A.</ce:indexed-name>
+                                    <ce:surname>Ferreira</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Oliveira A.</ce:indexed-name>
+                                    <ce:surname>Oliveira</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Figueiredo M.</ce:indexed-name>
+                                    <ce:surname>Figueiredo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Proceedings of the 2009 Data Compression Conference</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="444"/>
+                            </ref-volisspag>
+                            <ref-text>Snowbird, UT, USA, 16-18 March</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ferreira, A.; Oliveira, A.; Figueiredo, M. On the Use of Suffix Arrays for Memory-Efficient Lempel-Ziv Data Compression. In Proceedings of the 2009 Data Compression Conference, Snowbird, UT, USA, 16-18 March 2009; p. 444</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sliding Window Update Using Suffix Arrays</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79955740041</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ferreira A.</ce:indexed-name>
+                                    <ce:surname>Ferreira</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Oliveira A.</ce:indexed-name>
+                                    <ce:surname>Oliveira</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Figueiredo M.</ce:indexed-name>
+                                    <ce:surname>Figueiredo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Proceedings of the 2011 Data Compression Conference</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="456"/>
+                            </ref-volisspag>
+                            <ref-text>Snowbird, UT, USA, 29-31 March</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ferreira, A.; Oliveira, A.; Figueiredo, M. Sliding Window Update Using Suffix Arrays. In Proceedings of the 2011 Data Compression Conference, Snowbird, UT, USA, 29-31 March 2011; p. 456</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A four-stage algorithm for updating a Burrows-Wheeler transform</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">69849101769</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Salson M.</ce:indexed-name>
+                                    <ce:surname>Salson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Lecroq T.</ce:indexed-name>
+                                    <ce:surname>Lecroq</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Leonard M.</ce:indexed-name>
+                                    <ce:surname>Léonard</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Mouchard L.</ce:indexed-name>
+                                    <ce:surname>Mouchard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Theor. Comput. Sci</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="410"/>
+                                <pagerange first="4350" last="4359"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Salson, M.; Lecroq, T.; Léonard, M.; Mouchard, L. A four-stage algorithm for updating a Burrows-Wheeler transform. Theor. Comput. Sci. 2009, 410, 4350-4359</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On the sorting-complexity of suffix tree construction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037624231</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Farach-Colton M.</ce:indexed-name>
+                                    <ce:surname>Farach-Colton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ferragina P.</ce:indexed-name>
+                                    <ce:surname>Ferragina</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Muthukrishnan S.</ce:indexed-name>
+                                    <ce:surname>Muthukrishnan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="47"/>
+                                <pagerange first="987" last="1011"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Farach-Colton, M.; Ferragina, P.; Muthukrishnan, S. On the sorting-complexity of suffix tree construction. J. ACM 2000, 47, 987-1011</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Suffix trees for very large genomic sequences</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">74549136259</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Barsky M.</ce:indexed-name>
+                                    <ce:surname>Barsky</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Stege U.</ce:indexed-name>
+                                    <ce:surname>Stege</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Thomo A.</ce:indexed-name>
+                                    <ce:surname>Thomo</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Upton C.</ce:indexed-name>
+                                    <ce:surname>Upton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceeding of the 18th ACM conference on Information and knowledge management-CIKM '09</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="1417"/>
+                            </ref-volisspag>
+                            <ref-text>Hong Kong, China, 2-6 November 2009 ACM Press: New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Barsky, M.; Stege, U.; Thomo, A.; Upton, C. Suffix trees for very large genomic sequences. In Proceeding of the 18th ACM conference on Information and knowledge management-CIKM '09, Hong Kong, China, 2-6 November 2009; ACM Press: New York, NY, USA, 2009; p. 1417</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ERA: Efficient serial and parallel suffix tree construction for very long strings</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84863749939</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Mansour E.</ce:indexed-name>
+                                    <ce:surname>Mansour</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Allam A.</ce:indexed-name>
+                                    <ce:surname>Allam</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Skiadopoulos S.</ce:indexed-name>
+                                    <ce:surname>Skiadopoulos</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kalnis P.</ce:indexed-name>
+                                    <ce:surname>Kalnis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. VLDB Endow</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="5"/>
+                                <pagerange first="49" last="60"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mansour, E.; Allam, A.; Skiadopoulos, S.; Kalnis, P. ERA: Efficient serial and parallel suffix tree construction for very long strings. Proc. VLDB Endow. 2011, 5, 49-60</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Efficient parallel construction of suffix trees for genomes larger than main memory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84886301221</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Comin M.</ce:indexed-name>
+                                    <ce:surname>Comin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Farreras M.</ce:indexed-name>
+                                    <ce:surname>Farreras</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Proceedings of the 20th European MPI Users' Group Meeting on EuroMPI '13</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="211"/>
+                            </ref-volisspag>
+                            <ref-text>Madrid, Spain, 15-18 September 2013 ACM Press: New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Comin, M.; Farreras, M. Efficient parallel construction of suffix trees for genomes larger than main memory. In Proceedings of the 20th European MPI Users' Group Meeting on EuroMPI '13, Madrid, Spain, 15-18 September 2013; ACM Press: New York, NY, USA, 2013; p. 211</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A simple parallel cartesian tree algorithm and its application to parallel suffix tree construction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85032167254</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Shun J.</ce:indexed-name>
+                                    <ce:surname>Shun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.E.</ce:initials>
+                                    <ce:indexed-name>Blelloch G.E.</ce:indexed-name>
+                                    <ce:surname>Blelloch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans. Parallel Comput</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="1" last="20"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shun, J.; Blelloch, G.E. A simple parallel cartesian tree algorithm and its application to parallel suffix tree construction. ACM Trans. Parallel Comput. 2014, 1, 1-20</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84989905623</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Jekovec M.</ce:indexed-name>
+                                    <ce:surname>Jekovec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Brodnik A.</ce:indexed-name>
+                                    <ce:surname>Brodnik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Parallel Query in the Suffix Tree</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-text>Technical Report; University of Ljubljana, Faculty of Computer and Information Science: Ljubljana, Slovenia</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jekovec, M.; Brodnik, A. Parallel Query in the Suffix Tree; Technical Report; University of Ljubljana, Faculty of Computer and Information Science: Ljubljana, Slovenia, 2015</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Parallel Lookups in String Indexes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84989826820</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.R.</ce:initials>
+                                    <ce:indexed-name>Christiansen A.R.</ce:indexed-name>
+                                    <ce:surname>Christiansen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Farach-Colton M.</ce:indexed-name>
+                                    <ce:surname>Farach-Colton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the String Processing and Information Retrieval: 23rd International Symposium</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="61" last="67"/>
+                            </ref-volisspag>
+                            <ref-text>SPIRE 2016;Beppu:Japan, 18-20 October 2016 Inenaga, S., Sadakane, K., Sakai, T., Eds.; Springer International Publishing: Cham, Switzerland</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Christiansen, A.R.; Farach-Colton, M. Parallel Lookups in String Indexes. In Proceedings of the String Processing and Information Retrieval: 23rd International Symposium, SPIRE 2016, Beppu, Japan, 18-20 October 2016; Inenaga, S., Sadakane, K., Sakai, T., Eds.; Springer International Publishing: Cham, Switzerland, 2016; pp. 61-67</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Compressed Suffix Trees with Full Functionality</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34250183733</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Sadakane K.</ce:indexed-name>
+                                    <ce:surname>Sadakane</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Theory Comput. Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="41"/>
+                                <pagerange first="589" last="607"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sadakane, K. Compressed Suffix Trees with Full Functionality. Theory Comput. Syst. 2007, 41, 589-607</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cache-oblivious string dictionaries</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33244460885</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.S.</ce:initials>
+                                    <ce:indexed-name>Brodal G.S.</ce:indexed-name>
+                                    <ce:surname>Brodal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Fagerberg R.</ce:indexed-name>
+                                    <ce:surname>Fagerberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 17th annual ACM-SIAM symposium on Discrete algorithm, SODA '06</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="581" last="590"/>
+                            </ref-volisspag>
+                            <ref-text>Miami, Florida, 22-26 January 2006 ACM Press: New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Brodal, G.S.; Fagerberg, R. Cache-oblivious string dictionaries. In Proceedings of the 17th annual ACM-SIAM symposium on Discrete algorithm, SODA '06, Miami, Florida, 22-26 January 2006; ACM Press: New York, NY, USA, 2006; pp. 581-590</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85052714386</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Brodnik A.</ce:indexed-name>
+                                    <ce:surname>Brodnik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Jekovec M.</ce:indexed-name>
+                                    <ce:surname>Jekovec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sliding Suffix Tree</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-text>Technical Report; University of Ljubljana, Faculty of Computer and Information Science: Ljubljana, Slovenia</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Brodnik, A.; Jekovec, M. Sliding Suffix Tree; Technical Report; University of Ljubljana, Faculty of Computer and Information Science: Ljubljana, Slovenia, 2018</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,2071 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/78149393552</prism:url><dc:identifier>SCOPUS_ID:78149393552</dc:identifier><eid>2-s2.0-78149393552</eid><pubmed-id>21048981</pubmed-id><prism:doi>10.1371/journal.pbio.1000530</prism:doi><article-number>e1000530</article-number><dc:title>iCLIP predicts the dual splicing effects of TIA-RNA interactions</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>140</citedby-count><prism:publicationName>PLoS Biology</prism:publicationName><dc:publisher>
+                        Public Library of Science
+                        plos@plos.org
+                    </dc:publisher><source-id>12977</source-id><prism:issn>15457885 15449173</prism:issn><prism:volume>8</prism:volume><prism:issueIdentifier>10</prism:issueIdentifier><prism:coverDate>2010-01-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="57204150692"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204150692</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The regulation of alternative splicing involves interactions between RNA-binding proteins and pre-mRNA positions close to the splice sites. T-cell intracellular antigen 1 (TIA1) and TIA1-like 1 (TIAL1) locally enhance exon inclusion by recruiting U1 snRNP to 5′ splice sites. However, effects of TIA proteins on splicing of distal exons have not yet been explored. We used UV-crosslinking and immunoprecipitation (iCLIP) to find that TIA1 and TIAL1 bind at the same positions on human RNAs. Binding downstream of 5′ splice sites was used to predict the effects of TIA proteins in enhancing inclusion of proximal exons and silencing inclusion of distal exons. The predictions were validated in an unbiased manner using splice-junction microarrays, RT-PCR, and minigene constructs, which showed that TIA proteins maintain splicing fidelity and regulate alternative splicing by binding exclusively downstream of 5′ splice sites. Surprisingly, TIA binding at 5′ splice sites silenced distal cassette and variable-length exons without binding in proximity to the regulated alternative 39 splice sites. Using transcriptome-wide high-resolution mapping of TIA-RNA interactions we evaluated the distal splicing effects of TIA proteins. These data are consistent with a model where TIA proteins shorten the time available for definition of an alternative exon by enhancing recognition of the preceding 5′ splice site. Thus, our findings indicate that changes in splicing kinetics could mediate the distal regulation of alternative splicing. © 2010 Wang et al.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/78149393552" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=78149393552&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=78149393552&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60022106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60022106"><affilname>Wellcome Trust</affilname><affiliation-city>London</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"><affilname>The Medical Research Council Laboratory of Molecular Biology</affilname><affiliation-city>Cambridge</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"><affilname>European Molecular Biology Laboratory Heidelberg</affilname><affiliation-city>Heidelberg</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><authors><author seq="1" auid="57204150692"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204150692</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/></author><author seq="2" auid="35212012100"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35212012100</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/></author><author seq="3" auid="23094181200"><ce:initials>M.</ce:initials><ce:indexed-name>Kayikci M.</ce:indexed-name><ce:surname>Kayikci</ce:surname><ce:given-name>Melis</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Kayikci M.</ce:indexed-name><ce:surname>Kayikci</ce:surname><ce:given-name>Melis</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23094181200</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/></author><author seq="4" auid="6603576460"><ce:initials>M.</ce:initials><ce:indexed-name>Briese M.</ce:indexed-name><ce:surname>Briese</ce:surname><ce:given-name>Michael</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Briese M.</ce:indexed-name><ce:surname>Briese</ce:surname><ce:given-name>Michael</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603576460</author-url><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/></author><author seq="5" auid="14828354300"><ce:initials>K.</ce:initials><ce:indexed-name>Zarnack K.</ce:indexed-name><ce:surname>Zarnack</ce:surname><ce:given-name>Kathi</ce:given-name><preferred-name><ce:initials>K.</ce:initials><ce:indexed-name>Zarnack K.</ce:indexed-name><ce:surname>Zarnack</ce:surname><ce:given-name>Kathi</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14828354300</author-url><affiliation id="60022106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60022106"/></author><author seq="6" auid="6701608432"><ce:initials>N.M.</ce:initials><ce:indexed-name>Luscombe N.M.</ce:indexed-name><ce:surname>Luscombe</ce:surname><ce:given-name>Nicholas M.</ce:given-name><preferred-name><ce:initials>N.M.</ce:initials><ce:indexed-name>Luscombe N.</ce:indexed-name><ce:surname>Luscombe</ce:surname><ce:given-name>Nicholas M.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6701608432</author-url><affiliation id="60022106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60022106"/><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"/></author><author seq="7" auid="34875482800"><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/34875482800</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="8" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaž</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="9" auid="6506958162"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506958162</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms/><subject-areas><subject-area code="2800" abbrev="NEUR">Neuroscience (all)</subject-area><subject-area code="1300" abbrev="BIOC">Biochemistry, Genetics and Molecular Biology (all)</subject-area><subject-area code="2400" abbrev="IMMU">Immunology and Microbiology (all)</subject-area><subject-area code="1100" abbrev="AGRI">Agricultural and Biological Sciences (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="19" month="10" timestamp="2018-10-19T11:27:17.000017-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2010"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1371/journal.pbio.1000530</ce:doi>
+                    <itemid idtype="PUI">359922511</itemid>
+                    <itemid idtype="CABS">2010334488</itemid>
+                    <itemid idtype="CAR-ID">258307672</itemid>
+                    <itemid idtype="EMBASE">2010614369</itemid>
+                    <itemid idtype="EMBIO">2010379580</itemid>
+                    <itemid idtype="MEDL">21048981</itemid>
+                    <itemid idtype="SCP">78149393552</itemid>
+                    <itemid idtype="SGR">78149393552</itemid>
+                    <itemid idtype="PUIsecondary">360269367</itemid>
+                </itemidlist><history>
+                    <date-created day="13" month="04" timestamp="BST 09:25:53" year="2018"/>
+                </history><dbcollection>CABS</dbcollection><dbcollection>EMBASE</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">iCLIP predicts the dual splicing effects of TIA-RNA interactions</titletext></citation-title><author-group><author auid="57204150692" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Ule J.</ce:indexed-name>
+                            <ce:surname>Ule</ce:surname>
+                            <ce:given-name>Jernej</ce:given-name>
+                        </preferred-name></author><author auid="35212012100" seq="2" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Wang Z.</ce:indexed-name>
+                            <ce:surname>Wang</ce:surname>
+                            <ce:given-name>Zhen</ce:given-name>
+                        </preferred-name></author><author auid="23094181200" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Kayikci M.</ce:indexed-name><ce:surname>Kayikci</ce:surname><ce:given-name>Melis</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                            <ce:surname>Kayikci</ce:surname>
+                            <ce:given-name>Melis</ce:given-name>
+                        </preferred-name></author><author auid="6603576460" seq="4" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Briese M.</ce:indexed-name><ce:surname>Briese</ce:surname><ce:given-name>Michael</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Briese M.</ce:indexed-name>
+                            <ce:surname>Briese</ce:surname>
+                            <ce:given-name>Michael</ce:given-name>
+                        </preferred-name></author><affiliation afid="60010269" country="gbr"><organization>Medical Research Council (MRC)</organization><organization>Laboratory of Molecular Biology</organization><address-part>Hills Road</address-part><city-group>Cambridge</city-group><affiliation-id afid="60010269"/><affiliation-id afid="60015879"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="14828354300" seq="5" type="auth"><ce:initials>K.</ce:initials><ce:indexed-name>Zarnack K.</ce:indexed-name><ce:surname>Zarnack</ce:surname><ce:given-name>Kathi</ce:given-name><preferred-name>
+                            <ce:initials>K.</ce:initials>
+                            <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                            <ce:surname>Zarnack</ce:surname>
+                            <ce:given-name>Kathi</ce:given-name>
+                        </preferred-name></author><author auid="6701608432" seq="6" type="auth"><ce:initials>N.M.</ce:initials><ce:indexed-name>Luscombe N.M.</ce:indexed-name><ce:surname>Luscombe</ce:surname><ce:given-name>Nicholas M.</ce:given-name><preferred-name>
+                            <ce:initials>N.M.</ce:initials>
+                            <ce:indexed-name>Luscombe N.</ce:indexed-name>
+                            <ce:surname>Luscombe</ce:surname>
+                            <ce:given-name>Nicholas M.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60022106" country="gbr"><organization>European Molecular Biology Laboratory (EMBL)</organization><organization>European Bioinformatics Institute</organization><organization>Wellcome Trust Genome Campus</organization><city-group>Hinxton</city-group><affiliation-id afid="60022106"/><affiliation-id afid="60026124"/><affiliation-id afid="60008380"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="6701608432" seq="6" type="auth"><ce:initials>N.M.</ce:initials><ce:indexed-name>Luscombe N.M.</ce:indexed-name><ce:surname>Luscombe</ce:surname><ce:given-name>Nicholas M.</ce:given-name><preferred-name>
+                            <ce:initials>N.M.</ce:initials>
+                            <ce:indexed-name>Luscombe N.</ce:indexed-name>
+                            <ce:surname>Luscombe</ce:surname>
+                            <ce:given-name>Nicholas M.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60007257" country="deu" dptid="107145811"><organization>EMBL</organization><organization>Genome Biology Unit</organization><city-group>Heidelberg</city-group><affiliation-id afid="60007257" dptid="107145811"/><country>Germany</country></affiliation></author-group><author-group><author auid="34875482800" seq="7" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Rot G.</ce:indexed-name><ce:surname>Rot</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Rot G.</ce:indexed-name>
+                            <ce:surname>Rot</ce:surname>
+                            <ce:given-name>Gregor</ce:given-name>
+                        </preferred-name></author><author auid="7003934784" seq="8" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaž</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Zupan B.</ce:indexed-name>
+                            <ce:surname>Zupan</ce:surname>
+                            <ce:given-name>Blaž</ce:given-name>
+                        </preferred-name></author><author auid="6506958162" date-locked="2018-10-19T10:07:04.263" seq="9" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Curk T.</ce:indexed-name>
+                            <ce:surname>Curk</ce:surname>
+                            <ce:given-name>Tomaž</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>J.</ce:initials>
+                        <ce:indexed-name>Ule J.</ce:indexed-name>
+                        <ce:surname>Ule</ce:surname>
+                    </person><affiliation country="gbr"><organization>Medical Research Council (MRC)</organization><organization>Laboratory of Molecular Biology</organization><address-part>Hills Road</address-part><city-group>Cambridge</city-group><country>United Kingdom</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The regulation of alternative splicing involves interactions between RNA-binding proteins and pre-mRNA positions close to the splice sites. T-cell intracellular antigen 1 (TIA1) and TIA1-like 1 (TIAL1) locally enhance exon inclusion by recruiting U1 snRNP to 5′ splice sites. However, effects of TIA proteins on splicing of distal exons have not yet been explored. We used UV-crosslinking and immunoprecipitation (iCLIP) to find that TIA1 and TIAL1 bind at the same positions on human RNAs. Binding downstream of 5′ splice sites was used to predict the effects of TIA proteins in enhancing inclusion of proximal exons and silencing inclusion of distal exons. The predictions were validated in an unbiased manner using splice-junction microarrays, RT-PCR, and minigene constructs, which showed that TIA proteins maintain splicing fidelity and regulate alternative splicing by binding exclusively downstream of 5′ splice sites. Surprisingly, TIA binding at 5′ splice sites silenced distal cassette and variable-length exons without binding in proximity to the regulated alternative 39 splice sites. Using transcriptome-wide high-resolution mapping of TIA-RNA interactions we evaluated the distal splicing effects of TIA proteins. These data are consistent with a model where TIA proteins shorten the time available for definition of an alternative exon by enhancing recognition of the preceding 5′ splice site. Thus, our findings indicate that changes in splicing kinetics could mediate the distal regulation of alternative splicing. © 2010 Wang et al.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="12977" type="j"><sourcetitle>PLoS Biology</sourcetitle><sourcetitle-abbrev>PloS Biol.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">PLoS Biology</translated-sourcetitle><issn type="electronic">15457885</issn><issn type="print">15449173</issn><codencode>PBLIB</codencode><volisspag>
+                        <voliss issue="10" volume="8"/>
+                    </volisspag><article-number>e1000530</article-number><publicationyear first="2010"/><publicationdate>
+                        <year>2010</year>
+                        <date-text>October 2010</date-text>
+                    </publicationdate><website>
+                        <ce:e-address type="email">http://www.plosbiology.org/article/fetchObjectAttachment.action?uri=info%3Adoi%2F10.1371%2Fjournal.pbio.1000530&amp;representation=PDF</ce:e-address>
+                    </website><publisher>
+                        <publishername>Public Library of Science</publishername>
+                        <ce:e-address type="email">plos@plos.org</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CABSCLASS">
+                            <classification>
+                                <classification-code>84.1.9.5</classification-code>
+                                <classification-description>GENETICS AND MOLECULAR BIOLOGY; MOLECULAR GENETICS; Gene Expression in Eukaryotes; mRNA processing</classification-description>
+                            </classification>
+                        </classifications><classifications type="EMCLASS">
+                            <classification>
+                                <classification-code>22</classification-code>
+                                <classification-description>Human Genetics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>29</classification-code>
+                                <classification-description>Clinical and Experimental Biochemistry</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2800</classification>
+                            <classification>1300</classification>
+                            <classification>2400</classification>
+                            <classification>1100</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>NEUR</classification><classification>BIOC</classification><classification>IMMU</classification><classification>AGRI</classification></classifications></classificationgroup><chemicalgroup>
+                        <chemicals source="esbd">
+                            <chemical>
+                                <chemical-name>RNA</chemical-name>
+                                <cas-registry-number>63231-63-0</cas-registry-number>
+                            </chemical>
+                        </chemicals>
+                        <chemicals source="nlm">
+                            <chemical>
+                                <chemical-name>Poly(A)-Binding Proteins</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA</chemical-name>
+                                <cas-registry-number>63231-63-0</cas-registry-number>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA Splice Sites</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA, Small Interfering</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA-Binding Proteins</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>TIA1 protein, human</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>TIAL1 protein, human</chemical-name>
+                                <cas-registry-number>148592-68-1</cas-registry-number>
+                            </chemical>
+                        </chemicals>
+                    </chemicalgroup></enhancement></head><tail><bibliography refcount="48">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mechanisms of fidelity in pre-mRNA splicing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034069505</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Reed R.</ce:indexed-name>
+                                    <ce:surname>Reed</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Curr Opin Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="12"/>
+                                <pagerange first="340" last="345"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Reed R (2000) Mechanisms of fidelity in pre-mRNA splicing. Curr Opin Cell Biol 12: 340-345.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A computational analysis of sequence features involved in recognition of short introns</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035949674</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.P.</ce:initials>
+                                    <ce:indexed-name>Lim L.P.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.B.</ce:initials>
+                                    <ce:indexed-name>Burge C.B.</ce:indexed-name>
+                                    <ce:surname>Burge</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc Natl Acad Sci U S A</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="98"/>
+                                <pagerange first="11193" last="11198"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lim LP, Burge CB (2001) A computational analysis of sequence features involved in recognition of short introns. Proc Natl Acad Sci U S A 98: 11193-11198.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Alternative splicing: New insights from global analyses</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745899048</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.J.</ce:initials>
+                                    <ce:indexed-name>Blencowe B.J.</ce:indexed-name>
+                                    <ce:surname>Blencowe</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="126"/>
+                                <pagerange first="37" last="47"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Blencowe BJ (2006) Alternative splicing: new insights from global analyses. Cell 126: 37-47.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An RNA map predicting Nova-dependent splicing regulation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33749056769</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Stefani G.</ce:indexed-name>
+                                    <ce:surname>Stefani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ruggiu M.</ce:indexed-name>
+                                    <ce:surname>Ruggiu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wang X.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="444"/>
+                                <pagerange first="580" last="586"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ule J, Stefani G, Mele A, Ruggiu M, Wang X, et al. (2006) An RNA map predicting Nova-dependent splicing regulation. Nature 444: 580-586.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A polyadenylate binding protein localized to the granules of cytolytic lymphocytes induces DNA fragmentation in target cells</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026091180</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Tian Q.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Streuli M.</ce:indexed-name>
+                                    <ce:surname>Streuli</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Saito H.</ce:indexed-name>
+                                    <ce:surname>Saito</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.F.</ce:initials>
+                                    <ce:indexed-name>Schlossman S.F.</ce:indexed-name>
+                                    <ce:surname>Schlossman</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Anderson P.</ce:indexed-name>
+                                    <ce:surname>Anderson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <voliss volume="67"/>
+                                <pagerange first="629" last="639"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tian Q, Streuli M, Saito H, Schlossman SF, Anderson P (1991) A polyadenylate binding protein localized to the granules of cytolytic lymphocytes induces DNA fragmentation in target cells. Cell 67: 629-639.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Identification and functional characterization of a TIA-1-related nucleolysin</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026662543</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kawakami A.</ce:indexed-name>
+                                    <ce:surname>Kawakami</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Tian Q.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Duan X.</ce:indexed-name>
+                                    <ce:surname>Duan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Streuli M.</ce:indexed-name>
+                                    <ce:surname>Streuli</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.F.</ce:initials>
+                                    <ce:indexed-name>Schlossman S.F.</ce:indexed-name>
+                                    <ce:surname>Schlossman</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc Natl Acad Sci U S A</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss volume="89"/>
+                                <pagerange first="8681" last="8685"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kawakami A, Tian Q, Duan X, Streuli M, Schlossman SF, et al. (1992) Identification and functional characterization of a TIA-1-related nucleolysin. Proc Natl Acad Sci U S A 89: 8681-8685.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Individual RNA recognition motifs of TIA-1 and TIAR have different RNA binding specificities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030027575</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.M.</ce:initials>
+                                    <ce:indexed-name>Dember L.M.</ce:indexed-name>
+                                    <ce:surname>Dember</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.D.</ce:initials>
+                                    <ce:indexed-name>Kim N.D.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.Q.</ce:initials>
+                                    <ce:indexed-name>Liu K.Q.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Anderson P.</ce:indexed-name>
+                                    <ce:surname>Anderson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Biol Chem</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="271"/>
+                                <pagerange first="2783" last="2788"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dember LM, Kim ND, Liu KQ, Anderson P (1996) Individual RNA recognition motifs of TIA-1 and TIAR have different RNA binding specificities. J Biol Chem 271: 2783-2788.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The RNA-binding protein TIA-1 is a novel mammalian splicing regulator acting through intron sequences adjacent to a 5′ splice site</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033838148</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>del Gatto-Konczak F.</ce:indexed-name>
+                                    <ce:surname>del Gatto-Konczak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.F.</ce:initials>
+                                    <ce:indexed-name>Bourgeois C.F.</ce:indexed-name>
+                                    <ce:surname>Bourgeois</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.C.</ce:initials>
+                                    <ce:indexed-name>Le G.C.</ce:indexed-name>
+                                    <ce:surname>Le</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Kister L.</ce:indexed-name>
+                                    <ce:surname>Kister</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.C.</ce:initials>
+                                    <ce:indexed-name>Gesnel M.C.</ce:indexed-name>
+                                    <ce:surname>Gesnel</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="20"/>
+                                <pagerange first="6287" last="6299"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Del Gatto-Konczak F, Bourgeois CF, Le Guiner C, Kister L, Gesnel MC, et al. (2000) The RNA-binding protein TIA-1 is a novel mammalian splicing regulator acting through intron sequences adjacent to a 5′ splice site. Mol Cell Biol 20: 6287-6299.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cooperative binding of TIA-1 and U1 snRNP in K-SAM exon splicing activation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34249710868</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.C.</ce:initials>
+                                    <ce:indexed-name>Gesnel M.C.</ce:indexed-name>
+                                    <ce:surname>Gesnel</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Theoleyre S.</ce:indexed-name>
+                                    <ce:surname>Theoleyre</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>del Gatto-Konczak F.</ce:indexed-name>
+                                    <ce:surname>del Gatto-Konczak</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Breathnach R.</ce:indexed-name>
+                                    <ce:surname>Breathnach</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biochem Biophys Res Commun</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="358"/>
+                                <pagerange first="1065" last="1070"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gesnel MC, Theoleyre S, Del Gatto-Konczak F, Breathnach R (2007) Cooperative binding of TIA-1 and U1 snRNP in K-SAM exon splicing activation. Biochem Biophys Res Commun 358: 1065-1070.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The splicing regulator TIA-1 interacts with U1-C to promote U1 snRNP recruitment to 5′ splice sites</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037121924</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Forch P.</ce:indexed-name>
+                                    <ce:surname>Forch</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Puig O.</ce:indexed-name>
+                                    <ce:surname>Puig</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Martinez C.</ce:indexed-name>
+                                    <ce:surname>Martinez</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Seraphin B.</ce:indexed-name>
+                                    <ce:surname>Seraphin</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Valcarcel J.</ce:indexed-name>
+                                    <ce:surname>Valcarcel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>EMBO J</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="21"/>
+                                <pagerange first="6882" last="6892"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Forch P, Puig O, Martinez C, Seraphin B, Valcarcel J (2002) The splicing regulator TIA-1 interacts with U1-C to promote U1 snRNP recruitment to 5′ splice sites. EMBO J 21: 6882-6892.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>U1 snRNP-dependent function of TIAR in the regulation of alternative RNA processing of the human calcitonin/CGRP pre-mRNA</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0042971860</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zhu H.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Hasman R.A.</ce:indexed-name>
+                                    <ce:surname>Hasman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.M.</ce:initials>
+                                    <ce:indexed-name>Young K.M.</ce:indexed-name>
+                                    <ce:surname>Young</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.L.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.L.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lou H.</ce:indexed-name>
+                                    <ce:surname>Lou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="23"/>
+                                <pagerange first="5959" last="5971"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhu H, Hasman RA, Young KM, Kedersha NL, Lou H (2003) U1 snRNP-dependent function of TIAR in the regulation of alternative RNA processing of the human calcitonin/CGRP pre-mRNA. Mol Cell Biol 23: 5959-5971.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dynamic shuttling of TIA-1 accompanies the recruitment of mRNA to mammalian stress granules</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034638837</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Cho M.R.</ce:indexed-name>
+                                    <ce:surname>Cho</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Li W.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.W.</ce:initials>
+                                    <ce:indexed-name>Yacono P.W.</ce:indexed-name>
+                                    <ce:surname>Yacono</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chen S.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>J Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="151"/>
+                                <pagerange first="1257" last="1268"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kedersha N, Cho MR, Li W, Yacono PW, Chen S, et al. (2000) Dynamic shuttling of TIA-1 accompanies the recruitment of mRNA to mammalian stress granules. J Cell Biol 151: 1257-1268.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Identification of the sequence determinants mediating the nucleo-cytoplasmic shuttling of TIAR and TIA-1 RNA-binding proteins</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">30544447679</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhang T.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Delestienne N.</ce:indexed-name>
+                                    <ce:surname>Delestienne</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Huez G.</ce:indexed-name>
+                                    <ce:surname>Huez</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Kruys V.</ce:indexed-name>
+                                    <ce:surname>Kruys</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Gueydan C.</ce:indexed-name>
+                                    <ce:surname>Gueydan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Cell Sci</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="118"/>
+                                <pagerange first="5453" last="5463"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhang T, Delestienne N, Huez G, Kruys V, Gueydan C (2005) Identification of the sequence determinants mediating the nucleo-cytoplasmic shuttling of TIAR and TIA-1 RNA-binding proteins. J Cell Sci 118: 5453-5463.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The apoptosis-promoting factor TIA-1 is a regulator of alternative pre-mRNA splicing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033636996</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Forch P.</ce:indexed-name>
+                                    <ce:surname>Forch</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Puig O.</ce:indexed-name>
+                                    <ce:surname>Puig</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Martinez C.</ce:indexed-name>
+                                    <ce:surname>Martinez</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Granneman S.</ce:indexed-name>
+                                    <ce:surname>Granneman</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="1089" last="1098"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Forch P, Puig O, Kedersha N, Martinez C, Granneman S, et al. (2000) The apoptosis-promoting factor TIA-1 is a regulator of alternative pre-mRNA splicing. Mol Cell 6: 1089-1098.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A systematic analysis of intronic sequences downstream of 5′ splice sites reveals a widespread role for U-rich motifs and TIA1/TIAL1 proteins in alternative splicing regulation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">48949103996</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Aznarez I.</ce:indexed-name>
+                                    <ce:surname>Aznarez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Barash Y.</ce:indexed-name>
+                                    <ce:surname>Barash</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Shai O.</ce:indexed-name>
+                                    <ce:surname>Shai</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>He D.</ce:indexed-name>
+                                    <ce:surname>He</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zielenski J.</ce:indexed-name>
+                                    <ce:surname>Zielenski</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Res</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="1247" last="1258"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Aznarez I, Barash Y, Shai O, He D, Zielenski J, et al. (2008) A systematic analysis of intronic sequences downstream of 5′ splice sites reveals a widespread role for U-rich motifs and TIA1/TIAL1 proteins in alternative splicing regulation. Genome Res 18: 1247-1258.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Two isoforms of the T-cell intracellular antigen 1 (TIA-1) splicing factor display distinct splicing regulation activities. Control of TIA-1 isoform ratio by TIA-1-related protein</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34547111077</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Izquierdo J.M.</ce:indexed-name>
+                                    <ce:surname>Izquierdo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Valcarcel J.</ce:indexed-name>
+                                    <ce:surname>Valcarcel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Biol Chem</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="282"/>
+                                <pagerange first="19410" last="19417"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Izquierdo JM, Valcarcel J (2007) Two isoforms of the T-cell intracellular antigen 1 (TIA-1) splicing factor display distinct splicing regulation activities. Control of TIA-1 isoform ratio by TIA-1-related protein. J Biol Chem 282: 19410-19417.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>TIA-1 and TIAR activate splicing of alternative exons with weak 5′ splice sites followed by a U-rich stretch on their own pre-mRNAs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035798601</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.C.</ce:initials>
+                                    <ce:indexed-name>Le G.C.</ce:indexed-name>
+                                    <ce:surname>Le</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Lejeune F.</ce:indexed-name>
+                                    <ce:surname>Lejeune</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Galiana D.</ce:indexed-name>
+                                    <ce:surname>Galiana</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Kister L.</ce:indexed-name>
+                                    <ce:surname>Kister</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Breathnach R.</ce:indexed-name>
+                                    <ce:surname>Breathnach</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>J Biol Chem</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="276"/>
+                                <pagerange first="40638" last="40646"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Le Guiner C, Lejeune F, Galiana D, Kister L, Breathnach R, et al. (2001) TIA-1 and TIAR activate splicing of alternative exons with weak 5′ splice sites followed by a U-rich stretch on their own pre-mRNAs. J Biol Chem 276: 40638-40646.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>TIA-1 is a translational silencer that selectively regulates the expression of TNF-alpha</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034254553</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Piecyk M.</ce:indexed-name>
+                                    <ce:surname>Piecyk</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Wax S.</ce:indexed-name>
+                                    <ce:surname>Wax</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.R.</ce:initials>
+                                    <ce:indexed-name>Beck A.R.</ce:indexed-name>
+                                    <ce:surname>Beck</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gupta M.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>EMBO J</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="4154" last="4163"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Piecyk M, Wax S, Beck AR, Kedersha N, Gupta M, et al. (2000) TIA-1 is a translational silencer that selectively regulates the expression of TNF-alpha. EMBO J 19: 4154-4163.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Identification of TIAR as a protein binding to the translational regulatory AU-rich element of tumor necrosis factor alpha mRNA</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033593448</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Gueydan C.</ce:indexed-name>
+                                    <ce:surname>Gueydan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Droogmans L.</ce:indexed-name>
+                                    <ce:surname>Droogmans</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Chalon P.</ce:indexed-name>
+                                    <ce:surname>Chalon</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Huez G.</ce:indexed-name>
+                                    <ce:surname>Huez</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Caput D.</ce:indexed-name>
+                                    <ce:surname>Caput</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>J Biol Chem</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="274"/>
+                                <pagerange first="2322" last="2326"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gueydan C, Droogmans L, Chalon P, Huez G, Caput D, et al. (1999) Identification of TIAR as a protein binding to the translational regulatory AU-rich element of tumor necrosis factor alpha mRNA. J Biol Chem 274: 2322-2326.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Stress granule assembly is mediated by prion-like aggregation of TIA-1</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">9444279617</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Gilks N.</ce:indexed-name>
+                                    <ce:surname>Gilks</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ayodele M.</ce:indexed-name>
+                                    <ce:surname>Ayodele</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Shen L.</ce:indexed-name>
+                                    <ce:surname>Shen</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Stoecklin G.</ce:indexed-name>
+                                    <ce:surname>Stoecklin</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Biol Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="15"/>
+                                <pagerange first="5383" last="5398"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gilks N, Kedersha N, Ayodele M, Shen L, Stoecklin G, et al. (2004) Stress granule assembly is mediated by prion-like aggregation of TIA-1. Mol Biol Cell 15: 5383-5398.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The RNA-binding protein TIAR is translocated from the nucleus to the cytoplasm during Fas-mediated apoptotic cell death</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028928016</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Taupin J.L.</ce:indexed-name>
+                                    <ce:surname>Taupin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Tian Q.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robertson M.</ce:indexed-name>
+                                    <ce:surname>Robertson</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Anderson P.</ce:indexed-name>
+                                    <ce:surname>Anderson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc Natl Acad Sci U S A</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss volume="92"/>
+                                <pagerange first="1629" last="1633"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Taupin JL, Tian Q, Kedersha N, Robertson M, Anderson P (1995) The RNA-binding protein TIAR is translocated from the nucleus to the cytoplasm during Fas-mediated apoptotic cell death. Proc Natl Acad Sci U S A 92: 1629-1633.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Depletion of T-cell intracellular antigen proteins promotes cell proliferation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">70350010120</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Reyes R.</ce:indexed-name>
+                                    <ce:surname>Reyes</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Alcalde J.</ce:indexed-name>
+                                    <ce:surname>Alcalde</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Izquierdo J.M.</ce:indexed-name>
+                                    <ce:surname>Izquierdo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pages>R87</pages>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Reyes R, Alcalde J, Izquierdo JM (2009) Depletion of T-cell intracellular antigen proteins promotes cell proliferation. Genome Biol 10: R87.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Genome-wide analysis of PTB-RNA interactions reveals a strategy used by the general splicing repressor to modulate exon inclusion or skipping</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">72149117411</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Xue Y.</ce:indexed-name>
+                                    <ce:surname>Xue</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhou Y.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Wu T.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhu T.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Ji X.</ce:indexed-name>
+                                    <ce:surname>Ji</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="36"/>
+                                <pagerange first="996" last="1006"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Xue Y, Zhou Y, Wu T, Zhu T, Ji X, et al. (2009) Genome-wide analysis of PTB-RNA interactions reveals a strategy used by the general splicing repressor to modulate exon inclusion or skipping. Mol Cell 36: 996-1006.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>HITS-CLIP yields genome-wide insights into brain alternative RNA processing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56549105330</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.D.</ce:initials>
+                                    <ce:indexed-name>Licatalosi D.D.</ce:indexed-name>
+                                    <ce:surname>Licatalosi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Fak J.J.</ce:indexed-name>
+                                    <ce:surname>Fak</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="456"/>
+                                <pagerange first="464" last="469"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Licatalosi DD, Mele A, Fak JJ, Ule J, Kayikci M, et al. (2008) HITS-CLIP yields genome-wide insights into brain alternative RNA processing. Nature 456: 464-469.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Functional and mechanistic insights from genome-wide studies of splicing regulation in the brain</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">42449124187</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Darnell R.B.</ce:indexed-name>
+                                    <ce:surname>Darnell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Adv Exp Med Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="623"/>
+                                <pagerange first="148" last="160"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ule J, Darnell RB (2007) Functional and mechanistic insights from genome-wide studies of splicing regulation in the brain. Adv Exp Med Biol 623: 148-160.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CLIP identifies Nova-regulated RNA networks in the brain</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0242497663</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.B.</ce:initials>
+                                    <ce:indexed-name>Jensen K.B.</ce:indexed-name>
+                                    <ce:surname>Jensen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ruggiu M.</ce:indexed-name>
+                                    <ce:surname>Ruggiu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ule A.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="302"/>
+                                <pagerange first="1212" last="1215"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ule J, Jensen KB, Ruggiu M, Mele A, Ule A, et al. (2003) CLIP identifies Nova-regulated RNA networks in the brain. Science 302: 1212-1215.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A two-tracked approach to analyze RNA-protein crosslinking sites in native, nonlabeled small nuclear ribonucleo-protein particles</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036354777</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Urlaub H.</ce:indexed-name>
+                                    <ce:surname>Urlaub</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Hartmuth K.</ce:indexed-name>
+                                    <ce:surname>Hartmuth</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Luhrmann R.</ce:indexed-name>
+                                    <ce:surname>Luhrmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="26"/>
+                                <pagerange first="170" last="181"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Urlaub H, Hartmuth K, Luhrmann R (2002) A two-tracked approach to analyze RNA-protein crosslinking sites in native, nonlabeled small nuclear ribonucleo-protein particles. Methods 26: 170-181.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ICLIP reveals the function of hnRNP particles in splicing at individual nucleotide resolution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954387023</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Konig J.</ce:indexed-name>
+                                    <ce:surname>Konig</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                                    <ce:surname>Zarnack</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Rot G.</ce:indexed-name>
+                                    <ce:surname>Rot</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Struct Mol Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="17"/>
+                                <pagerange first="909" last="915"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Konig J, Zarnack K, Rot G, Curk T, Kayikci M, et al. (2010) ICLIP reveals the function of hnRNP particles in splicing at individual nucleotide resolution. Nat Struct Mol Biol 17: 909-915.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>RNA-binding proteins TIA-1 and TIAR link the phosphorylation of eIF-2 alpha to the assembly of mammalian stress granules</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033611157</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.L.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.L.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gupta M.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Li W.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Miller I.</ce:indexed-name>
+                                    <ce:surname>Miller</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Anderson P.</ce:indexed-name>
+                                    <ce:surname>Anderson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="147"/>
+                                <pagerange first="1431" last="1442"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kedersha NL, Gupta M, Li W, Miller I, Anderson P (1999) RNA-binding proteins TIA-1 and TIAR link the phosphorylation of eIF-2 alpha to the assembly of mammalian stress granules. J Cell Biol 147: 1431-1442.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Translational repression by RNA-binding protein TIAR</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645228527</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mazan-Mamczarz K.</ce:indexed-name>
+                                    <ce:surname>Mazan-Mamczarz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Lal A.</ce:indexed-name>
+                                    <ce:surname>Lal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Martindale J.L.</ce:indexed-name>
+                                    <ce:surname>Martindale</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Kawai T.</ce:indexed-name>
+                                    <ce:surname>Kawai</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gorospe M.</ce:indexed-name>
+                                    <ce:surname>Gorospe</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="26"/>
+                                <pagerange first="2716" last="2727"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mazan-Mamczarz K, Lal A, Martindale JL, Kawai T, Gorospe M (2006) Translational repression by RNA-binding protein TIAR. Mol Cell Biol 26: 2716-2727.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Identification and functional outcome of mRNAs associated with RNA-binding protein TIA-1</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">27144434377</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.I.</ce:initials>
+                                    <ce:indexed-name>de Silanes L.I.</ce:indexed-name>
+                                    <ce:surname>de Silanes</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Galban S.</ce:indexed-name>
+                                    <ce:surname>Galban</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Martindale J.L.</ce:indexed-name>
+                                    <ce:surname>Martindale</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Yang X.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mazan-Mamczarz K.</ce:indexed-name>
+                                    <ce:surname>Mazan-Mamczarz</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="25"/>
+                                <pagerange first="9520" last="9531"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lopez de Silanes I, Galban S, Martindale JL, Yang X, Mazan-Mamczarz K, et al. (2005) Identification and functional outcome of mRNAs associated with RNA-binding protein TIA-1. Mol Cell Biol 25: 9520-9531.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Competition of PTB with TIA proteins for binding to a U-rich cis-element determines tissue-specific splicing of the myosin phosphatase targeting subunit 1</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">27144550122</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Shukla S.</ce:indexed-name>
+                                    <ce:surname>Shukla</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>del Gatto-Konczak F.</ce:indexed-name>
+                                    <ce:surname>del Gatto-Konczak</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Breathnach R.</ce:indexed-name>
+                                    <ce:surname>Breathnach</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Fisher S.A.</ce:indexed-name>
+                                    <ce:surname>Fisher</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>RNA</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1725" last="1736"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shukla S, Del Gatto-Konczak F, Breathnach R, Fisher SA (2005) Competition of PTB with TIA proteins for binding to a U-rich cis-element determines tissue-specific splicing of the myosin phosphatase targeting subunit 1. RNA 11: 1725-1736.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Regulation of Fas alternative splicing by antagonistic effects of TIA-1 and PTB on exon definition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">23744492690</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Izquierdo J.M.</ce:indexed-name>
+                                    <ce:surname>Izquierdo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Majos N.</ce:indexed-name>
+                                    <ce:surname>Majos</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bonnal S.</ce:indexed-name>
+                                    <ce:surname>Bonnal</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Martinez C.</ce:indexed-name>
+                                    <ce:surname>Martinez</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Castelo R.</ce:indexed-name>
+                                    <ce:surname>Castelo</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="475" last="484"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Izquierdo JM, Majos N, Bonnal S, Martinez C, Castelo R, et al. (2005) Regulation of Fas alternative splicing by antagonistic effects of TIA-1 and PTB on exon definition. Mol Cell 19: 475-484.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Elucidation of a C-rich signature motif in target mRNAs of RNA-binding protein TIAR</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34748820470</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.S.</ce:initials>
+                                    <ce:indexed-name>Kim H.S.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Kuwano Y.</ce:indexed-name>
+                                    <ce:surname>Kuwano</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zhan M.</ce:indexed-name>
+                                    <ce:surname>Zhan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pullmann Jr. R.</ce:indexed-name>
+                                    <ce:surname>Pullmann Jr.</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mazan-Mamczarz K.</ce:indexed-name>
+                                    <ce:surname>Mazan-Mamczarz</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="6806" last="6817"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kim HS, Kuwano Y, Zhan M, Pullmann R, Jr., Mazan-Mamczarz K, et al. (2007) Elucidation of a C-rich signature motif in target mRNAs of RNA-binding protein TIAR. Mol Cell Biol 27: 6806-6817.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Competitive binding of AUF1 and TIAR to MYC mRNA controls its translation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34249875986</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Liao B.</ce:indexed-name>
+                                    <ce:surname>Liao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Hu Y.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Brewer G.</ce:indexed-name>
+                                    <ce:surname>Brewer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Struct Mol Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="511" last="518"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liao B, Hu Y, Brewer G (2007) Competitive binding of AUF1 and TIAR to MYC mRNA controls its translation. Nat Struct Mol Biol 14: 511-518.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Regulation of neuron-specific alternative splicing of neurofibromatosis type 1 pre-mRNA</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">38949098620</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zhu H.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.N.</ce:initials>
+                                    <ce:indexed-name>Hinman M.N.</ce:indexed-name>
+                                    <ce:surname>Hinman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Hasman R.A.</ce:indexed-name>
+                                    <ce:surname>Hasman</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Mehta P.</ce:indexed-name>
+                                    <ce:surname>Mehta</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lou H.</ce:indexed-name>
+                                    <ce:surname>Lou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="28"/>
+                                <pagerange first="1240" last="1251"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhu H, Hinman MN, Hasman RA, Mehta P, Lou H (2008) Regulation of neuron-specific alternative splicing of neurofibromatosis type 1 pre-mRNA. Mol Cell Biol 28: 1240-1251.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Modulation of msl-2 5′ splice site recognition by Sex-lethal</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034853637</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Forch P.</ce:indexed-name>
+                                    <ce:surname>Forch</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Merendino L.</ce:indexed-name>
+                                    <ce:surname>Merendino</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Martinez C.</ce:indexed-name>
+                                    <ce:surname>Martinez</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Valcarcel J.</ce:indexed-name>
+                                    <ce:surname>Valcarcel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>RNA</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="1185" last="1191"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Forch P, Merendino L, Martinez C, Valcarcel J (2001) Modulation of msl-2 5′ splice site recognition by Sex-lethal. RNA 7: 1185-1191.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The pivotal roles of TIA proteins in 5′ splice-site selection of alu exons and across evolution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">73649116681</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Gal-Mark N.</ce:indexed-name>
+                                    <ce:surname>Gal-Mark</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Schwartz S.</ce:indexed-name>
+                                    <ce:surname>Schwartz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Ram O.</ce:indexed-name>
+                                    <ce:surname>Ram</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Eyras E.</ce:indexed-name>
+                                    <ce:surname>Eyras</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Ast G.</ce:indexed-name>
+                                    <ce:surname>Ast</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS Genet</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="5"/>
+                                <pages>e1000717</pages>
+                            </ref-volisspag>
+                            <ref-text>doi:10.1371/journal.pgen.1000717</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Gal-Mark N, Schwartz S, Ram O, Eyras E, Ast G (2009) The pivotal roles of TIA proteins in 5′ splice-site selection of alu exons and across evolution. PLoS Genet 5: e1000717. doi:10.1371/journal.pgen.1000717.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Stress granules: Sites of mRNA triage that regulate mRNA stability and translatability</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036863320</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Anderson P.</ce:indexed-name>
+                                    <ce:surname>Anderson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biochem Soc Trans</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="30"/>
+                                <pagerange first="963" last="969"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kedersha N, Anderson P (2002) Stress granules: sites of mRNA triage that regulate mRNA stability and translatability. Biochem Soc Trans 30: 963-969.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evidence that ternary complex (eIF2-GTP-tRNA(i)(Met))-deficient preinitiation complexes are core constituents of mammalian stress granules</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036154218</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kedersha N.</ce:indexed-name>
+                                    <ce:surname>Kedersha</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chen S.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Gilks N.</ce:indexed-name>
+                                    <ce:surname>Gilks</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Li W.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.J.</ce:initials>
+                                    <ce:indexed-name>Miller I.J.</ce:indexed-name>
+                                    <ce:surname>Miller</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Biol Cell</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="195" last="210"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kedersha N, Chen S, Gilks N, Li W, Miller IJ, et al. (2002) Evidence that ternary complex (eIF2-GTP-tRNA(i)(Met))-deficient preinitiation complexes are core constituents of mammalian stress granules. Mol Biol Cell 13: 195-210.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Expansion of the eukaryotic proteome by alternative splicing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">75849145292</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.W.</ce:initials>
+                                    <ce:indexed-name>Nilsen T.W.</ce:indexed-name>
+                                    <ce:surname>Nilsen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.R.</ce:initials>
+                                    <ce:indexed-name>Graveley B.R.</ce:indexed-name>
+                                    <ce:surname>Graveley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="463"/>
+                                <pagerange first="457" last="463"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nilsen TW, Graveley BR (2010) Expansion of the eukaryotic proteome by alternative splicing. Nature 463: 457-463.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An RNA code for the FOX2 splicing regulator revealed by mapping RNA-protein interactions in stem cells</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">59649107040</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.W.</ce:initials>
+                                    <ce:indexed-name>Yeo G.W.</ce:indexed-name>
+                                    <ce:surname>Yeo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.G.</ce:initials>
+                                    <ce:indexed-name>Coufal N.G.</ce:indexed-name>
+                                    <ce:surname>Coufal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.Y.</ce:initials>
+                                    <ce:indexed-name>Liang T.Y.</ce:indexed-name>
+                                    <ce:surname>Liang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.E.</ce:initials>
+                                    <ce:indexed-name>Peng G.E.</ce:indexed-name>
+                                    <ce:surname>Peng</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>X.D.</ce:initials>
+                                    <ce:indexed-name>Fu X.D.</ce:indexed-name>
+                                    <ce:surname>Fu</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Struct Mol Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="16"/>
+                                <pagerange first="130" last="137"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yeo GW, Coufal NG, Liang TY, Peng GE, Fu XD, et al. (2009) An RNA code for the FOX2 splicing regulator revealed by mapping RNA-protein interactions in stem cells. Nat Struct Mol Biol 16: 130-137.</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comprehensive computational characterization of conserved mammalian intronic sequences reveals conserved motifs associated with constitutive and alternative splicing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34347379534</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Voelker R.B.</ce:indexed-name>
+                                    <ce:surname>Voelker</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Berglund J.A.</ce:indexed-name>
+                                    <ce:surname>Berglund</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Res</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="17"/>
+                                <pagerange first="1023" last="1033"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Voelker RB, Berglund JA (2007) A comprehensive computational characterization of conserved mammalian intronic sequences reveals conserved motifs associated with constitutive and alternative splicing. Genome Res 17: 1023-1033.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comprehensive biochemical and genetic analysis of the yeast U1 snRNP reveals five novel proteins</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031899237</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gottschalk A.</ce:indexed-name>
+                                    <ce:surname>Gottschalk</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Tang J.</ce:indexed-name>
+                                    <ce:surname>Tang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Puig O.</ce:indexed-name>
+                                    <ce:surname>Puig</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Salgado J.</ce:indexed-name>
+                                    <ce:surname>Salgado</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Neubauer G.</ce:indexed-name>
+                                    <ce:surname>Neubauer</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>RNA</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="374" last="393"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gottschalk A, Tang J, Puig O, Salgado J, Neubauer G, et al. (1998) A comprehensive biochemical and genetic analysis of the yeast U1 snRNP reveals five novel proteins. RNA 4: 374-393.</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interaction of the U1 snRNP with nonconserved intronic sequences affects 5′ splice site selection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033105003</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Puig O.</ce:indexed-name>
+                                    <ce:surname>Puig</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gottschalk A.</ce:indexed-name>
+                                    <ce:surname>Gottschalk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Fabrizio P.</ce:indexed-name>
+                                    <ce:surname>Fabrizio</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Seraphin B.</ce:indexed-name>
+                                    <ce:surname>Seraphin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genes Dev</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="569" last="580"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Puig O, Gottschalk A, Fabrizio P, Seraphin B (1999) Interaction of the U1 snRNP with nonconserved intronic sequences affects 5′ splice site selection. Genes Dev 13: 569-580.</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Identification of eight proteins that cross-link to pre-mRNA in the yeast commitment complex</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033106323</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zhang D.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Rosbash M.</ce:indexed-name>
+                                    <ce:surname>Rosbash</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genes Dev</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="581" last="592"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhang D, Rosbash M (1999) Identification of eight proteins that cross-link to pre-mRNA in the yeast commitment complex. Genes Dev 13: 581-592.</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Serine/ arginine-rich protein-dependent suppression of exon skipping by exonic splicing enhancers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">17044427579</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.C.</ce:initials>
+                                    <ce:indexed-name>Ibrahim E.C.</ce:indexed-name>
+                                    <ce:surname>Ibrahim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.D.</ce:initials>
+                                    <ce:indexed-name>Schaal T.D.</ce:indexed-name>
+                                    <ce:surname>Schaal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.J.</ce:initials>
+                                    <ce:indexed-name>Hertel K.J.</ce:indexed-name>
+                                    <ce:surname>Hertel</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Reed R.</ce:indexed-name>
+                                    <ce:surname>Reed</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Maniatis T.</ce:indexed-name>
+                                    <ce:surname>Maniatis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc Natl Acad Sci U S A</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="102"/>
+                                <pagerange first="5002" last="5007"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ibrahim EC, Schaal TD, Hertel KJ, Reed R, Maniatis T (2005) Serine/ arginine-rich protein-dependent suppression of exon skipping by exonic splicing enhancers. Proc Natl Acad Sci U S A 102: 5002-5007.</ref-fulltext>
+                    </reference>
+                    <reference id="48">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Coupling of transcription with alternative splicing: RNA pol II promoters modulate SF2/ ASF and 9G8 effects on an exonic splicing enhancer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033180615</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Cramer P.</ce:indexed-name>
+                                    <ce:surname>Cramer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.F.</ce:initials>
+                                    <ce:indexed-name>Caceres J.F.</ce:indexed-name>
+                                    <ce:surname>Caceres</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Cazalla D.</ce:indexed-name>
+                                    <ce:surname>Cazalla</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kadener S.</ce:indexed-name>
+                                    <ce:surname>Kadener</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.F.</ce:initials>
+                                    <ce:indexed-name>Muro A.F.</ce:indexed-name>
+                                    <ce:surname>Muro</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol Cell</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="251" last="258"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cramer P, Caceres JF, Cazalla D, Kadener S, Muro AF, et al. (1999) Coupling of transcription with alternative splicing: RNA pol II promoters modulate SF2/ ASF and 9G8 effects on an exonic splicing enhancer. Mol Cell 4: 251-258.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

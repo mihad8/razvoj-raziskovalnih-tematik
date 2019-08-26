@@ -1,0 +1,1006 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85050962059</prism:url><dc:identifier>SCOPUS_ID:85050962059</dc:identifier><eid>2-s2.0-85050962059</eid><prism:doi>10.1109/WACV.2018.00150</prism:doi><dc:title>A Compact Convolutional Neural Network for Textured Surface Anomaly Detection</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>5</citedby-count><prism:publicationName>Proceedings - 2018 IEEE Winter Conference on Applications of Computer Vision, WACV 2018</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>21100871261</source-id><prism:isbn>9781538648865</prism:isbn><prism:volume>2018-January</prism:volume><prism:startingPage>1331</prism:startingPage><prism:endingPage>1339</prism:endingPage><prism:pageRange>1331-1339</prism:pageRange><prism:coverDate>2018-05-03</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57203221683"><ce:initials>D.</ce:initials><ce:indexed-name>Racki D.</ce:indexed-name><ce:surname>Racki</ce:surname><ce:given-name>Domen</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Racki D.</ce:indexed-name><ce:surname>Racki</ce:surname><ce:given-name>Domen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57203221683</author-url><affiliation id="110135622" href="https://api.elsevier.com/content/affiliation/affiliation_id/110135622"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>Convolutional neural methods have proven to outperform other approaches in various computer vision tasks. In this paper we apply the deep learning technique to the domain of automated visual surface inspection. We design a unified CNN-based framework for segmentation and detection of surface anomalies. We investigate whether a compact CNN architecture, which exhibit fewer parameters that need to be learned, can be used, while retaining high classification accuracy. We propose and evaluate a compact CNN architecture on a dataset consisting of diverse textured surfaces with variously-shaped weakly-labeled anomalies. The proposed approach achieves state-of-the-art results in terms of anomaly segmentation as well as classification.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85050962059" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85050962059&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85050962059&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="110135622" href="https://api.elsevier.com/content/affiliation/affiliation_id/110135622"><affilname>Computer Vision Systems</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57203221683"><ce:initials>D.</ce:initials><ce:indexed-name>Racki D.</ce:indexed-name><ce:surname>Racki</ce:surname><ce:given-name>Domen</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Racki D.</ce:indexed-name><ce:surname>Racki</ce:surname><ce:given-name>Domen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57203221683</author-url><affiliation id="110135622" href="https://api.elsevier.com/content/affiliation/affiliation_id/110135622"/></author><author seq="2" auid="6603377655"><ce:initials>D.</ce:initials><ce:indexed-name>Tomazevic D.</ce:indexed-name><ce:surname>Tomazevic</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Tomazevic D.</ce:indexed-name><ce:surname>Tomazevic</ce:surname><ce:given-name>Dejan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603377655</author-url><affiliation id="110135622" href="https://api.elsevier.com/content/affiliation/affiliation_id/110135622"/><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6508184644"><ce:initials>D.</ce:initials><ce:indexed-name>Skocaj D.</ce:indexed-name><ce:surname>Skocaj</ce:surname><ce:given-name>Danijel</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Skocaj D.</ce:indexed-name><ce:surname>Skocaj</ce:surname><ce:given-name>Danijel</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6508184644</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Classification accuracy</mainterm><mainterm weight="b" candidate="n">Convolutional neural network</mainterm><mainterm weight="b" candidate="n">Learning techniques</mainterm><mainterm weight="b" candidate="n">State of the art</mainterm><mainterm weight="b" candidate="n">Surface anomalies</mainterm><mainterm weight="b" candidate="n">Surface inspection</mainterm><mainterm weight="b" candidate="n">Textured surface</mainterm></idxterms><subject-areas><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-08-20T14:01:50.319Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="16" month="09" timestamp="2018-09-16T22:23:51.000051-04:00" year="2018"/><ait:date-sort day="03" month="05" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/WACV.2018.00150</ce:doi>
+                    <itemid idtype="PUI">623231101</itemid>
+                    <itemid idtype="CAR-ID">911933050</itemid>
+                    <itemid idtype="CPX">20183205661920</itemid>
+                    <itemid idtype="SCP">85050962059</itemid>
+                    <itemid idtype="SGR">85050962059</itemid>
+                </itemidlist><history>
+                    <date-created day="08" month="08" timestamp="BST 09:01:30" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">A Compact Convolutional Neural Network for Textured Surface Anomaly Detection</titletext></citation-title><author-group><author auid="57203221683" seq="1" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Racki D.</ce:indexed-name><ce:surname>Racki</ce:surname><ce:given-name>Domen</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Racki D.</ce:indexed-name>
+                            <ce:surname>Racki</ce:surname>
+                            <ce:given-name>Domen</ce:given-name>
+                        </preferred-name></author><author auid="6603377655" seq="2" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Tomazevic D.</ce:indexed-name><ce:surname>Tomazevic</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Tomazevic D.</ce:indexed-name>
+                            <ce:surname>Tomazevic</ce:surname>
+                            <ce:given-name>Dejan</ce:given-name>
+                        </preferred-name></author><affiliation afid="110135622" country="svn" dptid="121037850"><organization>Sensum</organization><organization>Computer Vision Systems</organization><affiliation-id afid="110135622" dptid="121037850"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6603377655" seq="2" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Tomazevic D.</ce:indexed-name><ce:surname>Tomazevic</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Tomazevic D.</ce:indexed-name>
+                            <ce:surname>Tomazevic</ce:surname>
+                            <ce:given-name>Dejan</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="112085966"><organization>University of Ljubljana</organization><organization>Faculty of Electrical Engineering</organization><affiliation-id afid="60031106" dptid="112085966"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6508184644" seq="3" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Skocaj D.</ce:indexed-name><ce:surname>Skocaj</ce:surname><ce:given-name>Danijel</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Skocaj D.</ce:indexed-name>
+                            <ce:surname>Skocaj</ce:surname>
+                            <ce:given-name>Danijel</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580834"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><affiliation-id afid="60031106" dptid="104580834"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>Convolutional neural methods have proven to outperform other approaches in various computer vision tasks. In this paper we apply the deep learning technique to the domain of automated visual surface inspection. We design a unified CNN-based framework for segmentation and detection of surface anomalies. We investigate whether a compact CNN architecture, which exhibit fewer parameters that need to be learned, can be used, while retaining high classification accuracy. We propose and evaluate a compact CNN architecture on a dataset consisting of diverse textured surfaces with variously-shaped weakly-labeled anomalies. The proposed approach achieves state-of-the-art results in terms of anomaly segmentation as well as classification.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100871261" type="p"><sourcetitle>Proceedings - 2018 IEEE Winter Conference on Applications of Computer Vision, WACV 2018</sourcetitle><sourcetitle-abbrev>Proc. - IEEE Winter Conf. Appl. Comput. Vis., WACV</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Proceedings - 2018 IEEE Winter Conference on Applications of Computer Vision, WACV 2018</translated-sourcetitle><issuetitle>Proceedings - 2018 IEEE Winter Conference on Applications of Computer Vision, WACV 2018</issuetitle><isbn length="13" level="volume" type="electronic">9781538648865</isbn><volisspag>
+                        <voliss volume="2018-January"/>
+                        <pagerange first="1331" last="1339"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>05</month>
+                        <day>03</day>
+                    <date-text xfab-added="true">3 May 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8345804</ce:e-address>
+                    </website><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>18th IEEE Winter Conference on Applications of Computer Vision, WACV 2018</confname>
+                                <confnumber>18</confnumber>
+                                <confseriestitle>IEEE Winter Conference on Applications of Computer Vision</confseriestitle>
+                                <conflocation country="usa">
+                                    <city>Lake Tahoe</city>
+                                    <state>NV</state>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="12" month="03" year="2018"/>
+                                    <enddate day="15" month="03" year="2018"/>
+                                </confdate>
+                                <confcatnumber>E6408</confcatnumber>
+                                <confcode>136280</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor>Cognex</confsponsor>
+                                    <confsponsor>et al.</confsponsor>
+                                    <confsponsor>Google</confsponsor>
+                                    <confsponsor>Honeywell</confsponsor>
+                                    <confsponsor>IEEE Biometrics Council</confsponsor>
+                                    <confsponsor>IEEE Computer Society</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1707</classification>
+                            <classification>1706</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>716.1</classification-code>
+                                <classification-description>Information and Communication Theory</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.5</classification-code>
+                                <classification-description>Computer Applications</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="28">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection of fabric defects by auto-regressive spectral analysis and support vector data description</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77950989562</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.-G.</ce:initials>
+                                    <ce:indexed-name>Bu H.-G.</ce:indexed-name>
+                                    <ce:surname>Bu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>X.-B.</ce:initials>
+                                    <ce:indexed-name>Huang X.-B.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wang J.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Chen X.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Textile Research Journal</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="80"/>
+                                <pagerange first="579" last="589"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H.-G. Bu, X.-B. Huang, J. Wang, and X. Chen. Detection of fabric defects by auto-regressive spectral analysis and support vector data description. Textile Research Journal, 80(7):579-589, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Study of fabric defects detection through gabor filter based on scale transformation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954344077</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chen S.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Feng J.</ce:indexed-name>
+                                    <ce:surname>Feng</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zou L.</ce:indexed-name>
+                                    <ce:surname>Zou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Analysis and Signal Processing (IASP), 2010 International Conference on</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="97" last="99"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Chen, J. Feng, and L. Zou. Study of fabric defects detection through gabor filter based on scale transformation. In Image Analysis and Signal Processing (IASP), 2010 International Conference on, pages 97-99. IEEE, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep convolutional neural networks for detection of rail surface defects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85007275325</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Faghih-Roohi S.</ce:indexed-name>
+                                    <ce:surname>Faghih-Roohi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hajizadeh S.</ce:indexed-name>
+                                    <ce:surname>Hajizadeh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Nunez A.</ce:indexed-name>
+                                    <ce:surname>Nuñez</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Babuska R.</ce:indexed-name>
+                                    <ce:surname>Babuska</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>De Schutter B.</ce:indexed-name>
+                                    <ce:surname>De Schutter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks (IJCNN), 2016 International Joint Conference on</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="2584" last="2589"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Faghih-Roohi, S. Hajizadeh, A. Nuñez, R. Babuska, and B. De Schutter. Deep convolutional neural networks for detection of rail surface defects. In Neural Networks (IJCNN), 2016 International Joint Conference on, pages 2584-2589. IEEE, 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Defect detection of tiles using 2d-wavelet transform and statistical features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78651580717</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ghazvini M.</ce:indexed-name>
+                                    <ce:surname>Ghazvini</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Monadjemi S.</ce:indexed-name>
+                                    <ce:surname>Monadjemi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Movahhedinia N.</ce:indexed-name>
+                                    <ce:surname>Movahhedinia</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Jamshidi K.</ce:indexed-name>
+                                    <ce:surname>Jamshidi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>World Academy of Science, Engineering and Technology</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="49"/>
+                                <pagerange first="901" last="904"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Ghazvini, S. Monadjemi, N. Movahhedinia, and K. Jamshidi. Defect detection of tiles using 2d-wavelet transform and statistical features. World Academy of Science, Engineering and Technology, 49:901-904, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Textural features for image classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0015680481</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.M.</ce:initials>
+                                    <ce:indexed-name>Haralick R.M.</ce:indexed-name>
+                                    <ce:surname>Haralick</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Shanmugam K.</ce:indexed-name>
+                                    <ce:surname>Shanmugam</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Systems, Man, and Cybernetics</ref-sourcetitle>
+                            <ref-publicationyear first="1973"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="3"/>
+                                <pagerange first="610" last="621"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. M. Haralick, K. Shanmugam, et al. Textural features for image classification. IEEE Transactions on systems, man, and cybernetics, 3(6):610-621, 1973.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Delving deep into rectifiers: Surpassing human-level performance on imagenet classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84973911419</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>He K.</ce:indexed-name>
+                                    <ce:surname>He</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Zhang X.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ren S.</ce:indexed-name>
+                                    <ce:surname>Ren</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Sun J.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the IEEE International Conference on Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1026" last="1034"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. He, X. Zhang, S. Ren, and J. Sun. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In Proceedings of the IEEE international conference on computer vision, pages 1026-1034, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fabric defect detection using auto-correlation function</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84979764557</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Hoseini E.</ce:indexed-name>
+                                    <ce:surname>Hoseini</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Farhadi F.</ce:indexed-name>
+                                    <ce:surname>Farhadi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Tajeripour F.</ce:indexed-name>
+                                    <ce:surname>Tajeripour</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Computer Theory and Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="5"/>
+                                <pagerange first="114"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Hoseini, F. Farhadi, and F. Tajeripour. Fabric defect detection using auto-correlation function. International Journal of Computer Theory and Engineering, 5(1):114, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Imagenet classification with deep convolutional neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84876231242</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Krizhevsky A.</ce:indexed-name>
+                                    <ce:surname>Krizhevsky</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Sutskever I.</ce:indexed-name>
+                                    <ce:surname>Sutskever</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.E.</ce:initials>
+                                    <ce:indexed-name>Hinton G.E.</ce:indexed-name>
+                                    <ce:surname>Hinton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 25th International Conference on Neural Information Processing Systems-Volume 1, NIPS'12</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1097" last="1105"/>
+                            </ref-volisspag>
+                            <ref-text>USA,. Curran Associates Inc</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Krizhevsky, I. Sutskever, and G. E. Hinton. Imagenet classification with deep convolutional neural networks. In Proceedings of the 25th International Conference on Neural Information Processing Systems-Volume 1, NIPS'12, pages 1097-1105, USA, 2012. Curran Associates Inc.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computer-vision-based fabric defect detection: A survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">38349079017</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kumar A.</ce:indexed-name>
+                                    <ce:surname>Kumar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Industrial Electronics</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="55"/>
+                                <pagerange first="348" last="363"/>
+                            </ref-volisspag>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Kumar. Computer-vision-based fabric defect detection: A survey. IEEE Transactions on Industrial Electronics, 55(1):348-363, Jan 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84930630277</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Lecun Y.</ce:indexed-name>
+                                    <ce:surname>Lecun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Bengio Y.</ce:indexed-name>
+                                    <ce:surname>Bengio</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hinton G.</ce:indexed-name>
+                                    <ce:surname>Hinton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="7553" volume="521"/>
+                                <pagerange first="436" last="444"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Y. LeCun, Y. Bengio, and G. Hinton. Deep learning. Nature, 521(7553):436-444, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fully convolutional networks for semantic segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84959205572</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Long J.</ce:indexed-name>
+                                    <ce:surname>Long</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Shelhamer E.</ce:indexed-name>
+                                    <ce:surname>Shelhamer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Darrell T.</ce:indexed-name>
+                                    <ce:surname>Darrell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="3431" last="3440"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Long, E. Shelhamer, and T. Darrell. Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431-3440, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic detection of surface defects on rolled steel using computer vision and artificial neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78751533642</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.M.</ce:initials>
+                                    <ce:indexed-name>Luiz A.M.</ce:indexed-name>
+                                    <ce:surname>Luiz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.P.</ce:initials>
+                                    <ce:indexed-name>Flavio L.P.</ce:indexed-name>
+                                    <ce:surname>Flávio</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.A.</ce:initials>
+                                    <ce:indexed-name>Paulo E.A.</ce:indexed-name>
+                                    <ce:surname>Paulo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IECon 2010-36th Annual Conference on IEEE Industrial Electronics Society</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="1081" last="1086"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. M. Luiz, L. P. Flávio, and E. A. Paulo. Automatic detection of surface defects on rolled steel using computer vision and artificial neural networks. In IECON 2010-36th Annual Conference on IEEE Industrial Electronics Society, pages 1081-1086. IEEE, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fabric defect detection using morphological filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">67349127629</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.-L.</ce:initials>
+                                    <ce:indexed-name>Mak K.-L.</ce:indexed-name>
+                                    <ce:surname>Mak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peng P.</ce:indexed-name>
+                                    <ce:surname>Peng</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Yiu K.</ce:indexed-name>
+                                    <ce:surname>Yiu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image and Vision Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="27"/>
+                                <pagerange first="1585" last="1592"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K.-L. Mak, P. Peng, and K. Yiu. Fabric defect detection using morphological filters. Image and Vision Computing, 27(10):1585-1592, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Steel defect classification with max-pooling convolutional neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84865073494</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Masci J.</ce:indexed-name>
+                                    <ce:surname>Masci</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Meier U.</ce:indexed-name>
+                                    <ce:surname>Meier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Ciresan D.</ce:indexed-name>
+                                    <ce:surname>Ciresan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Schmidhuber J.</ce:indexed-name>
+                                    <ce:surname>Schmidhuber</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Fricout G.</ce:indexed-name>
+                                    <ce:surname>Fricout</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The 2012 International Joint Conference on Neural Networks (IJCNN)</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Masci, U. Meier, D. Ciresan, J. Schmidhuber, and G. Fricout. Steel defect classification with max-pooling convolutional neural networks. In The 2012 International Joint Conference on Neural Networks (IJCNN), pages 1-6. IEEE, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic visual inspection: An approach with multi-instance learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84991281656</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Mera C.</ce:indexed-name>
+                                    <ce:surname>Mera</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Orozco-Alzate M.</ce:indexed-name>
+                                    <ce:surname>Orozco-Alzate</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Branch J.</ce:indexed-name>
+                                    <ce:surname>Branch</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Mery D.</ce:indexed-name>
+                                    <ce:surname>Mery</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computers in Industry</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="83"/>
+                                <pagerange first="46" last="54"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C. Mera, M. Orozco-Alzate, J. Branch, and D. Mery. Automatic visual inspection: An approach with multi-instance learning. Computers in Industry, 83:46-54, 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic defect recognition in xray testing using computer vision</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85020181039</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Mery D.</ce:indexed-name>
+                                    <ce:surname>Mery</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Arteta C.</ce:indexed-name>
+                                    <ce:surname>Arteta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2017 IEEEWinter Conference on Applications of Computer Vision (WACV)</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="1026" last="1035"/>
+                            </ref-volisspag>
+                            <ref-text>March</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Mery and C. Arteta. Automatic defect recognition in xray testing using computer vision. In 2017 IEEEWinter Conference on Applications of Computer Vision (WACV), pages 1026-1035, March 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An object-based coding scheme for frontal surface of defective fluted ingot</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">31644440875</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mukherjee A.</ce:indexed-name>
+                                    <ce:surname>Mukherjee</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chaudhuri S.</ce:indexed-name>
+                                    <ce:surname>Chaudhuri</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.K.</ce:initials>
+                                    <ce:indexed-name>Dutta P.K.</ce:indexed-name>
+                                    <ce:surname>Dutta</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sen S.</ce:indexed-name>
+                                    <ce:surname>Sen</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Patra A.</ce:indexed-name>
+                                    <ce:surname>Patra</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ISA Transactions</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="45"/>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Mukherjee, S. Chaudhuri, P. K. Dutta, S. Sen, and A. Patra. An object-based coding scheme for frontal surface of defective fluted ingot. ISA transactions, 45(1):1-8, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Corner defect detection based on dot product in ceramic tile images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79957453693</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Najafabadi F.S.</ce:indexed-name>
+                                    <ce:surname>Najafabadi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Pourghassem H.</ce:indexed-name>
+                                    <ce:surname>Pourghassem</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Signal Processing and Its Applications (CSPA), 2011 IEEE 7th International Colloquium on</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="293" last="297"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>F. S. Najafabadi and H. Pourghassem. Corner defect detection based on dot product in ceramic tile images. In Signal Processing and its Applications (CSPA), 2011 IEEE 7th International Colloquium on, pages 293-297. IEEE, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Defect detection on wooden surface using gabor filters with evolutionary algorithm design</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034878475</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Polzleitner W.</ce:indexed-name>
+                                    <ce:surname>Polzleitner</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks, 2001. Proceedings. IJCNN'01. International Joint Conference On, Volume 1</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="750" last="755"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W. Polzleitner. Defect detection on wooden surface using gabor filters with evolutionary algorithm design. In Neural Networks, 2001. Proceedings. IJCNN'01. International Joint Conference on, volume 1, pages 750-755. IEEE, 2001.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automated surface inspection of cold-formed micro-parts</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861620817</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Scholz-Reiter B.</ce:indexed-name>
+                                    <ce:surname>Scholz-Reiter</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Weimer D.</ce:indexed-name>
+                                    <ce:surname>Weimer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Thamer H.</ce:indexed-name>
+                                    <ce:surname>Thamer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CIRP Annals</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="61"/>
+                                <pagerange first="531" last="534"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>B. Scholz-Reiter, D. Weimer, and H. Thamer. Automated surface inspection of cold-formed micro-parts. CIRP Annals, 61(1):531-534, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84925410541</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Simonyan K.</ce:indexed-name>
+                                    <ce:surname>Simonyan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zisserman A.</ce:indexed-name>
+                                    <ce:surname>Zisserman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Very Deep Convolutional Networks for Large-scale Image Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>arXiv preprint arXiv:1409.1556</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Convolutional neural networks for steel surface defect detection from photometric stereo images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84916608443</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Soukup D.</ce:indexed-name>
+                                    <ce:surname>Soukup</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Huber-Mork R.</ce:indexed-name>
+                                    <ce:surname>Huber-Mörk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Symposium on Visual Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="668" last="677"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Soukup and R. Huber-Mörk. Convolutional neural networks for steel surface defect detection from photometric stereo images. In International Symposium on Visual Computing, pages 668-677. Springer, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Non-parametric texture defect detection using weibull features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79953135882</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Timm F.</ce:indexed-name>
+                                    <ce:surname>Timm</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Barth E.</ce:indexed-name>
+                                    <ce:surname>Barth</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IS&amp;T SPIE Electronic Imaging. International Society for Optics and Photonics</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                        </ref-info>
+                        <ref-fulltext>F. Timm and E. Barth. Non-parametric texture defect detection using weibull features. IS&amp;T SPIE Electronic Imaging. International Society for Optics and Photonics, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050966924</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Weimer D.</ce:indexed-name>
+                                    <ce:surname>Weimer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Scholz-Reiter B.</ce:indexed-name>
+                                    <ce:surname>Scholz-Reiter</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Shpitalni M.</ce:indexed-name>
+                                    <ce:surname>Shpitalni</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Design of Deep Convolutional Neural Network Architectures for Automated Feature Extraction in Industrial Inspection</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>CIRP Annals-Manufacturing Technology</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Weimer, B. Scholz-Reiter, and M. Shpitalni. Design of deep convolutional neural network architectures for automated feature extraction in industrial inspection. CIRP Annals-Manufacturing Technology, 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning defect classifiers for textured surfaces using neural networks and statistical feature representations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84883877802</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Weimer D.</ce:indexed-name>
+                                    <ce:surname>Weimer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Thamer H.</ce:indexed-name>
+                                    <ce:surname>Thamer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Scholz-Reiter B.</ce:indexed-name>
+                                    <ce:surname>Scholz-Reiter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Procedia CIRP</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="347" last="352"/>
+                            </ref-volisspag>
+                            <ref-text>Forty Sixth CIRP Conference on Manufacturing Systems 2013</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Weimer, H. Thamer, and B. Scholz-Reiter. Learning defect classifiers for textured surfaces using neural networks and statistical feature representations. Procedia CIRP, 7(Supplement C):347-352, 2013. Forty Sixth CIRP Conference on Manufacturing Systems 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A review of recent advances in surface defect detection using texture analysis techniques</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62949147809</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Xie X.</ce:indexed-name>
+                                    <ce:surname>Xie</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ELCVIA Electronic Letters on Computer Vision and Image Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="7"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>X. Xie. A review of recent advances in surface defect detection using texture analysis techniques. ELCVIA Electronic Letters on Computer Vision and Image Analysis, 7(3), 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84969736572</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.D.</ce:initials>
+                                    <ce:indexed-name>Zeiler M.D.</ce:indexed-name>
+                                    <ce:surname>Zeiler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Adadelta: An Adaptive Learning Rate Method</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-text>arXiv preprint arXiv:1212.5701</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. D. Zeiler. Adadelta: an adaptive learning rate method. arXiv preprint arXiv:1212.5701, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic inspection of metallic surface defects using genetic algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037047855</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zheng H.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.X.</ce:initials>
+                                    <ce:indexed-name>Kong L.X.</ce:indexed-name>
+                                    <ce:surname>Kong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Nahavandi S.</ce:indexed-name>
+                                    <ce:surname>Nahavandi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Materials Processing Technology</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="125"/>
+                                <pagerange first="427" last="433"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Zheng, L. X. Kong, and S. Nahavandi. Automatic inspection of metallic surface defects using genetic algorithms. Journal of materials processing technology, 125:427-433, 2002.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

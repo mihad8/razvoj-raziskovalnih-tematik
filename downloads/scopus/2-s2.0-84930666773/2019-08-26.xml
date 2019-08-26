@@ -1,0 +1,1810 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84930666773</prism:url><dc:identifier>SCOPUS_ID:84930666773</dc:identifier><eid>2-s2.0-84930666773</eid><pubmed-id>25984946</pubmed-id><prism:doi>10.1371/journal.pone.0127390</prism:doi><article-number>e0127390</article-number><dc:title>Quantifying the consistency of scientific databases</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>6</citedby-count><prism:publicationName>PLoS ONE</prism:publicationName><dc:publisher>
+                        Public Library of Science
+                        plos@plos.org
+                    </dc:publisher><source-id>10600153309</source-id><prism:issn>19326203</prism:issn><prism:volume>10</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:coverDate>2015-05-18</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="36451276700"><ce:initials>L.</ce:initials><ce:indexed-name>Subelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Šubelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36451276700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2015 Šubelj et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</publishercopyright>
+                        <ce:para>Science is a social process with far-reaching impact on our modern society. In recent years, for the first time we are able to scientifically study the science itself. This is enabled by massive amounts of data on scientific publications that is increasingly becoming available. The data is contained in several databases such as Web of Science or PubMed, maintained by various public and private entities. Unfortunately, these databases are not always consistent, which considerably hinders this study. Relying on the powerful framework of complex networks, we conduct a systematic analysis of the consistency among six major scientific databases. We found that identifying a single "best" database is far from easy. Nevertheless, our results indicate appreciable differences in mutual consistency of different databases, which we interpret as recipes for future bibliometric studies.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84930666773" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84930666773&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84930666773&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="112642938" href="https://api.elsevier.com/content/affiliation/affiliation_id/112642938"><affilname>Faculty of Information Studies</affilname><affiliation-city>Novo Mesto</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="36451276700"><ce:initials>L.</ce:initials><ce:indexed-name>Subelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Šubelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36451276700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6506526259"><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506526259</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="23486205500"><ce:initials>B.M.</ce:initials><ce:indexed-name>Boshkoska B.M.</ce:indexed-name><ce:surname>Boshkoska</ce:surname><ce:given-name>Biljana Mileva</ce:given-name><preferred-name><ce:initials>B.M.</ce:initials><ce:indexed-name>Boshkoska B.</ce:indexed-name><ce:surname>Boshkoska</ce:surname><ce:given-name>Biljana Mileva</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23486205500</author-url><affiliation id="112642938" href="https://api.elsevier.com/content/affiliation/affiliation_id/112642938"/></author><author seq="4" auid="16052944100"><ce:initials>A.</ce:initials><ce:indexed-name>Kastrin A.</ce:indexed-name><ce:surname>Kastrin</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Kastrin A.</ce:indexed-name><ce:surname>Kastrin</ce:surname><ce:given-name>Andrej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/16052944100</author-url><affiliation id="112642938" href="https://api.elsevier.com/content/affiliation/affiliation_id/112642938"/></author><author seq="5" auid="23397132000"><ce:initials>Z.</ce:initials><ce:indexed-name>Levnajic Z.</ce:indexed-name><ce:surname>Levnajić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Levnajić Z.</ce:indexed-name><ce:surname>Levnajić</ce:surname><ce:given-name>Zoran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23397132000</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="112642938" href="https://api.elsevier.com/content/affiliation/affiliation_id/112642938"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Algorithms</mainterm><mainterm weight="b" candidate="n">Cluster Analysis</mainterm><mainterm weight="a" candidate="n">Databases, Bibliographic</mainterm><mainterm weight="b" candidate="n">Humans</mainterm><mainterm weight="b" candidate="n">Internet</mainterm><mainterm weight="a" candidate="n">Science</mainterm></idxterms><subject-areas><subject-area code="1300" abbrev="BIOC">Biochemistry, Genetics and Molecular Biology (all)</subject-area><subject-area code="1100" abbrev="AGRI">Agricultural and Biological Sciences (all)</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-02-23T05:44:34Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/car</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>American Physical Society</xocs:funding-agency-matched-string><xocs:funding-agency-acronym>APS</xocs:funding-agency-acronym><xocs:funding-agency>American Physical Society</xocs:funding-agency></xocs:funding></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="17" month="11" timestamp="2018-11-17T00:48:35.000035-05:00" year="2018"/><ait:date-sort day="18" month="05" year="2015"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1371/journal.pone.0127390</ce:doi>
+                    <itemid idtype="PUI">604612025</itemid>
+                    <itemid idtype="CAR-ID">636487158</itemid>
+                    <itemid idtype="EMBASE">2015093063</itemid>
+                    <itemid idtype="EMBIO">2015910891</itemid>
+                    <itemid idtype="NURSNG">2015805936</itemid>
+                    <itemid idtype="REAXYS">2015370989</itemid>
+                    <itemid idtype="SCP">84930666773</itemid>
+                    <itemid idtype="SGR">84930666773</itemid>
+                    <itemid idtype="PUIsecondary">615659662</itemid>
+                    <itemid idtype="MEDL">25984946</itemid>
+                </itemidlist><history>
+                    <date-created day="07" month="06" year="2015"/>
+                </history><dbcollection>EMBASE</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>NURSNG</dbcollection><dbcollection>REAXYS</dbcollection><dbcollection>Scopusbase</dbcollection><dbcollection>MEDL</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Quantifying the consistency of scientific databases</titletext></citation-title><author-group><author auid="36451276700" seq="1" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Subelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Šubelj L.</ce:indexed-name>
+                            <ce:surname>Šubelj</ce:surname>
+                            <ce:given-name>Lovro</ce:given-name>
+                        </preferred-name></author><author auid="6506526259" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Bajec M.</ce:indexed-name>
+                            <ce:surname>Bajec</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><author auid="23397132000" seq="5" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Levnajic Z.</ce:indexed-name><ce:surname>Levnajić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Levnajić Z.</ce:indexed-name>
+                            <ce:surname>Levnajić</ce:surname>
+                            <ce:given-name>Zoran</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science, University of Ljubljana</organization><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="23486205500" seq="3" type="auth"><ce:initials>B.M.</ce:initials><ce:indexed-name>Boshkoska B.M.</ce:indexed-name><ce:surname>Boshkoska</ce:surname><ce:given-name>Biljana Mileva</ce:given-name><preferred-name>
+                            <ce:initials>B.M.</ce:initials>
+                            <ce:indexed-name>Boshkoska B.</ce:indexed-name>
+                            <ce:surname>Boshkoska</ce:surname>
+                            <ce:given-name>Biljana Mileva</ce:given-name>
+                        </preferred-name></author><author auid="16052944100" seq="4" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Kastrin A.</ce:indexed-name><ce:surname>Kastrin</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Kastrin A.</ce:indexed-name>
+                            <ce:surname>Kastrin</ce:surname>
+                            <ce:given-name>Andrej</ce:given-name>
+                        </preferred-name></author><author auid="23397132000" seq="5" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Levnajic Z.</ce:indexed-name><ce:surname>Levnajić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Levnajić Z.</ce:indexed-name>
+                            <ce:surname>Levnajić</ce:surname>
+                            <ce:given-name>Zoran</ce:given-name>
+                        </preferred-name></author><affiliation afid="112642938" country="svn"><organization>Faculty of Information Studies in Novo Mesto, Novo Mesto</organization><affiliation-id afid="112642938"/><country>Slovenia</country></affiliation></author-group><grantlist complete="y"><grant>
+                        <grant-acronym>APS</grant-acronym>
+                        <grant-agency>American Physical Society</grant-agency>
+                    </grant></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2015 Šubelj et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</publishercopyright>
+                        <ce:para>Science is a social process with far-reaching impact on our modern society. In recent years, for the first time we are able to scientifically study the science itself. This is enabled by massive amounts of data on scientific publications that is increasingly becoming available. The data is contained in several databases such as Web of Science or PubMed, maintained by various public and private entities. Unfortunately, these databases are not always consistent, which considerably hinders this study. Relying on the powerful framework of complex networks, we conduct a systematic analysis of the consistency among six major scientific databases. We found that identifying a single "best" database is far from easy. Nevertheless, our results indicate appreciable differences in mutual consistency of different databases, which we interpret as recipes for future bibliometric studies.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="10600153309" type="j"><sourcetitle>PLoS ONE</sourcetitle><sourcetitle-abbrev>PLoS ONE</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">PLoS ONE</translated-sourcetitle><issn type="electronic">19326203</issn><codencode>POLNC</codencode><volisspag>
+                        <voliss issue="5" volume="10"/>
+                    </volisspag><article-number>e0127390</article-number><publicationyear first="2015"/><publicationdate>
+                        <year>2015</year>
+                        <month>05</month>
+                        <day>18</day>
+                    <date-text xfab-added="true">18 May 2015</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0127390&amp;representation=PDF</ce:e-address>
+                    </website><publisher>
+                        <publishername>Public Library of Science</publishername>
+                        <ce:e-address type="email">plos@plos.org</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="EMCLASS">
+                            <classification>
+                                <classification-code>17</classification-code>
+                                <classification-description>Public Health, Social Medicine and Epidemiology</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1300</classification>
+                            <classification>1100</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>BIOC</classification><classification>AGRI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="57">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84930662052</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Ding Y.</ce:indexed-name>
+                                    <ce:surname>Ding</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Rousseau R.</ce:indexed-name>
+                                    <ce:surname>Rousseau</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Wolfram D.</ce:indexed-name>
+                                    <ce:surname>Wolfram</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Measuring Scholarly Impact: Methods and Practice</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>Berlin: Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ding Y, Rousseau R, Wolfram D. Measuring Scholarly Impact: Methods and Practice. Berlin: Springer; 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Team Assembly Mechanisms Determine Collaboration Network Structure and Team Performance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">17844408432</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Guimera R.</ce:indexed-name>
+                                    <ce:surname>Guimera</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Uzzi B.</ce:indexed-name>
+                                    <ce:surname>Uzzi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Spiro J.</ce:indexed-name>
+                                    <ce:surname>Spiro</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.N.</ce:initials>
+                                    <ce:indexed-name>Amaral L.N.</ce:indexed-name>
+                                    <ce:surname>Amaral</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="308"/>
+                                <pagerange first="697" last="702"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 15860629</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Guimera R, Uzzi B, Spiro J, Amaral LN. Team Assembly Mechanisms Determine Collaboration Network Structure and Team Performance. Science. 2005; 308:697-702. doi: 10.1126/science.1106340 PMID: 15860629</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Author Impact Factor: Tracking the dynamics of individual scientific impact</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84900435121</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.K.</ce:initials>
+                                    <ce:indexed-name>Pan R.K.</ce:indexed-name>
+                                    <ce:surname>Pan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Fortunato S.</ce:indexed-name>
+                                    <ce:surname>Fortunato</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientific Reports</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="4880"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 24814674</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Pan RK, Fortunato S. Author Impact Factor: Tracking the dynamics of individual scientific impact. Scientific Reports. 2014; 4:4880. doi: 10.1038/srep04880 PMID: 24814674</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Atypical Combinations and Scientific Impact</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84886264828</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Uzzi B.</ce:indexed-name>
+                                    <ce:surname>Uzzi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Mukherjee S.</ce:indexed-name>
+                                    <ce:surname>Mukherjee</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Stringer M.</ce:indexed-name>
+                                    <ce:surname>Stringer</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Jones B.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="342"/>
+                                <pagerange first="468" last="472"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 24159044</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Uzzi B, Mukherjee S, Stringer M, Jones B. Atypical Combinations and Scientific Impact. Science. 2013; 342:468-472. doi: 10.1126/science.1240474 PMID: 24159044</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The Increasing Dominance of Teams in Production of Knowledge</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34249309179</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Wuchty S.</ce:indexed-name>
+                                    <ce:surname>Wuchty</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.F.</ce:initials>
+                                    <ce:indexed-name>Jones B.F.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Uzzi B.</ce:indexed-name>
+                                    <ce:surname>Uzzi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="316"/>
+                                <pagerange first="1036" last="1039"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 17431139</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Wuchty S, Jones BF, Uzzi B. The Increasing Dominance of Teams in Production of Knowledge. Science. 2007; 316:1036-1039. doi: 10.1126/science.1136099 PMID: 17431139</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Principles of scientific researchand evolution team formation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84896511026</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Milojevic S.</ce:indexed-name>
+                                    <ce:surname>Milojević</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>P Natl Acad Sci USA</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="111"/>
+                                <pagerange first="3984" last="3989"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Milojević S. Principles of scientific researchand evolution team formation. P Natl Acad Sci USA. 2014; 111:3984-3989. doi: 10.1073/pnas.1309723111</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Reputation and impact in academic careers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84908431076</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.M.</ce:initials>
+                                    <ce:indexed-name>Petersen A.M.</ce:indexed-name>
+                                    <ce:surname>Petersen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Fortunato S.</ce:indexed-name>
+                                    <ce:surname>Fortunato</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.K.</ce:initials>
+                                    <ce:indexed-name>Pan R.K.</ce:indexed-name>
+                                    <ce:surname>Pan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Kaski K.</ce:indexed-name>
+                                    <ce:surname>Kaski</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Penner O.</ce:indexed-name>
+                                    <ce:surname>Penner</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rungi A.</ce:indexed-name>
+                                    <ce:surname>Rungi</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>P Natl Acad Sci USA</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="111"/>
+                                <pagerange first="15316" last="15321"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Petersen AM, Fortunato S, Pan RK, Kaski K, Penner O, Rungi A, et al. Reputation and impact in academic careers. P Natl Acad Sci USA. 2014; 111:15316-15321. doi: 10.1073/pnas.1323111111</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ranking scientific publications: The effect of nonlinearity</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84919895101</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Yao L.</ce:indexed-name>
+                                    <ce:surname>Yao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Wei T.</ce:indexed-name>
+                                    <ce:surname>Wei</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zeng A.</ce:indexed-name>
+                                    <ce:surname>Zeng</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Fan Y.</ce:indexed-name>
+                                    <ce:surname>Fan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Di Z.</ce:indexed-name>
+                                    <ce:surname>Di</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientific Reports</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="6663"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 25322852</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Yao L, Wei T, Zeng A, Fan Y, Di Z. Ranking scientific publications: The effect of nonlinearity. Scientific Reports. 2014; 4:6663. doi: 10.1038/srep06663 PMID: 25322852</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Collective credit allocation in science</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84906674341</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.W.</ce:initials>
+                                    <ce:indexed-name>Shena H.W.</ce:indexed-name>
+                                    <ce:surname>Shena</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Barabasi A.L.</ce:indexed-name>
+                                    <ce:surname>Barabasi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>P Natl Acad Sci USA</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="111"/>
+                                <pagerange first="12325" last="12330"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shena HW, Barabasi AL. Collective credit allocation in science. P Natl Acad Sci USA. 2014; 111:12325-12330. doi: 10.1073/pnas.1401992111</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84930652070</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>Science of science policy</websitename>
+                                <ce:e-address type="email">http://www.scienceofsciencepolicy.net/</ce:e-address>
+                            </ref-website>
+                            <ref-text>Date of access: 11/01/2015</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Science of science policy, http://www.scienceofsciencepolicy.net/. Date of access: 11/01/2015;.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The structure of scientific collaboration networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035895239</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.E.J.</ce:initials>
+                                    <ce:indexed-name>Newman M.E.J.</ce:indexed-name>
+                                    <ce:surname>Newman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>P Natl Acad Sci USA</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="98"/>
+                                <pagerange first="404" last="409"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Newman MEJ. The structure of scientific collaboration networks. P Natl Acad Sci USA. 2001; 98(2):404-409. doi: 10.1073/pnas.98.2.404</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Model of complex networks based on citation dynamics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84893078868</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Subelj L.</ce:indexed-name>
+                                    <ce:surname>Šubelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bajec M.</ce:indexed-name>
+                                    <ce:surname>Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the WWW Workshop on Large Scale Network Analysis. Rio de Janeiro, Brazil; 2013</ref-sourcetitle>
+                            <ref-volisspag>
+                                <pagerange first="527" last="530"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Šubelj L, Bajec M. Model of complex networks based on citation dynamics. In: Proceedings of the WWW Workshop on Large Scale Network Analysis. Rio de Janeiro, Brazil; 2013. p. 527-530.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Network analysis of temporal trends in scholarly research productivity</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">83755172662</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Kim H.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Yoon J.W.</ce:indexed-name>
+                                    <ce:surname>Yoon</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Crowcroft J.</ce:indexed-name>
+                                    <ce:surname>Crowcroft</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Infometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="6"/>
+                                <pagerange first="97" last="110"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kim H, Yoon JW, Crowcroft J. Network analysis of temporal trends in scholarly research productivity. J Infometrics. 2012; 6(1):97-110. doi: 10.1016/j.joi.2011.05.006</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantifying long-term scientific impact</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84885660552</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Wang D.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Song C.</ce:indexed-name>
+                                    <ce:surname>Song</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Barabasi A.L.</ce:indexed-name>
+                                    <ce:surname>Barabási</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="6154" volume="342"/>
+                                <pagerange first="127" last="132"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 24092745</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Wang D, Song C, Barabási AL. Quantifying long-term scientific impact. Science. 2013; 342(6154):127-132. doi: 10.1126/science.1237825 PMID: 24092745</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Characterizing interdisciplinarity of researchers and research topics using web search engines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84862235368</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Sayama H.</ce:indexed-name>
+                                    <ce:surname>Sayama</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Akaishi J.</ce:indexed-name>
+                                    <ce:surname>Akaishi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS ONE</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="e38747"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 22719935</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Sayama H, Akaishi J. Characterizing interdisciplinarity of researchers and research topics using web search engines. PLoS ONE. 2012; 7:e38747. doi: 10.1371/journal.pone.0038747 PMID: 22719935</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84924517160</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Barrat A.</ce:indexed-name>
+                                    <ce:surname>Barrat</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Barthelemy M.</ce:indexed-name>
+                                    <ce:surname>Barthélemy</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vespignani A.</ce:indexed-name>
+                                    <ce:surname>Vespignani</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Dynamical Processes on Complex Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-text>Cambridge: Cambridge University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Barrat A, Barthélemy M, Vespignani A. Dynamical Processes on Complex Networks. Cambridge: Cambridge University Press; 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954826067</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Newman M.</ce:indexed-name>
+                                    <ce:surname>Newman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Networks: An Introduction</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Oxford: Oxford University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Newman M. Networks: An Introduction. Oxford: Oxford University Press; 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954812738</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Easley D.</ce:indexed-name>
+                                    <ce:surname>Easley</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kleinberg J.</ce:indexed-name>
+                                    <ce:surname>Kleinberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Networks, Crowds, and Markets: Reasoning about a Highly Connected World</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Cambridge: Cambridge University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Easley D, Kleinberg J. Networks, Crowds, and Markets: Reasoning About a Highly Connected World. Cambridge: Cambridge University Press; 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An expert system for detecting automobile insurance fraud using social network analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77956610365</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Subelj L.</ce:indexed-name>
+                                    <ce:surname>Šubelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Š.</ce:initials>
+                                    <ce:indexed-name>Furlan S.</ce:indexed-name>
+                                    <ce:surname>Furlan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bajec M.</ce:indexed-name>
+                                    <ce:surname>Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Expert Syst Appl</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="38"/>
+                                <pagerange first="1039" last="1052"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Šubelj L, Furlan Š, Bajec M. An expert system for detecting automobile insurance fraud using social network analysis. Expert Syst Appl. 2011; 38(1):1039-1052. doi: 10.1016/j.eswa.2010.07.143</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Growth and structure of Slovenia's scientific collaboration network</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77956482402</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Perc M.</ce:indexed-name>
+                                    <ce:surname>Perc</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Infometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="4"/>
+                                <pagerange first="475" last="482"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Perc M. Growth and structure of Slovenia's scientific collaboration network. J Infometrics. 2010; 4(4):475-482. doi: 10.1016/j.joi.2010.04.003</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Community Structure and the Evolution of Interdisciplinarity in Slovenia's Scientific Collaboration Network</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84899651784</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Levnajic Z.</ce:indexed-name>
+                                    <ce:surname>Levnajić</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Luzar B.</ce:indexed-name>
+                                    <ce:surname>Lužar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Povh J.</ce:indexed-name>
+                                    <ce:surname>Povh</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Perc M.</ce:indexed-name>
+                                    <ce:surname>Perc</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS ONE</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="9"/>
+                                <pagerange first="e94429"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 24728345</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Levnajić Z, Lužar B, Povh J, Perc M. Community Structure and the Evolution of Interdisciplinarity in Slovenia's Scientific Collaboration Network. PLoS ONE. 2014; 9:e94429. doi: 10.1371/journal.pone.0094429 PMID: 24728345</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Motifs in co-authorship networks and their relation to the impact of scientific publications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84855348859</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Krumov L.</ce:indexed-name>
+                                    <ce:surname>Krumov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Fretter C.</ce:indexed-name>
+                                    <ce:surname>Fretter</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Muller-Hannemann M.</ce:indexed-name>
+                                    <ce:surname>Müller-Hannemann</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Weihe K.</ce:indexed-name>
+                                    <ce:surname>Weihe</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Hutt M.T.</ce:indexed-name>
+                                    <ce:surname>Hütt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Eur Phys J B</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="84"/>
+                                <pagerange first="535" last="540"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Krumov L, Fretter C, Müller-Hannemann M, Weihe K, Hütt MT. Motifs in co-authorship networks and their relation to the impact of scientific publications. Eur Phys J B. 2011; 84:535-540. doi: 10.1140/epjb/e2011-10746-5</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Communities and patterns of scientific collaboration</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052636586</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.S.</ce:initials>
+                                    <ce:indexed-name>Evans T.S.</ce:indexed-name>
+                                    <ce:surname>Evans</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Lambiotte R.</ce:indexed-name>
+                                    <ce:surname>Lambiotte</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Panzarasa P.</ce:indexed-name>
+                                    <ce:surname>Panzarasa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="89"/>
+                                <pagerange first="381" last="396"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Evans TS, Lambiotte R, Panzarasa P. Communities and patterns of scientific collaboration. Scientometrics. 2011; 89(1):381-396. doi: 10.1007/s11192-011-0439-1</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The strength of strong ties in scientific collaboration networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84855524855</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.K.</ce:initials>
+                                    <ce:indexed-name>Pan R.K.</ce:indexed-name>
+                                    <ce:surname>Pan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Saramaki J.</ce:indexed-name>
+                                    <ce:surname>Saramäki</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Europhys Lett</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="97"/>
+                                <pagerange first="18007"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pan RK, Saramäki J. The strength of strong ties in scientific collaboration networks. Europhys Lett. 2012; 97(1):18007. doi: 10.1209/0295-5075/97/18007</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Characterizing and modeling citation dynamics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80053064709</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.H.</ce:initials>
+                                    <ce:indexed-name>Eom Y.H.</ce:indexed-name>
+                                    <ce:surname>Eom</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Fortunato S.</ce:indexed-name>
+                                    <ce:surname>Fortunato</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS ONE</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="6"/>
+                                <pagerange first="e24926"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 21966387</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Eom YH, Fortunato S. Characterizing and modeling citation dynamics. PLoS ONE. 2011; 6(9):e24926. doi: 10.1371/journal.pone.0024926 PMID: 21966387</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Betweenness centrality as a driver of preferential attachment in the evolution of research collaboration networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84860538143</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Abbasi A.</ce:indexed-name>
+                                    <ce:surname>Abbasi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Hossain L.</ce:indexed-name>
+                                    <ce:surname>Hossain</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Leydesdorff L.</ce:indexed-name>
+                                    <ce:surname>Leydesdorff</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Infometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="6"/>
+                                <pagerange first="403" last="412"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Abbasi A, Hossain L, Leydesdorff L. Betweenness centrality as a driver of preferential attachment in the evolution of research collaboration networks. J Infometrics. 2012; 6(3):403-412. doi: 10.1016/j.joi.2012.01.002</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Network-based statistical comparison of citation topology of bibliographic databases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84923266132</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Subelj L.</ce:indexed-name>
+                                    <ce:surname>Šubelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Fiala D.</ce:indexed-name>
+                                    <ce:surname>Fiala</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bajec M.</ce:indexed-name>
+                                    <ce:surname>Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientific Reports</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="6496"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 25263231</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Šubelj L, Fiala D, Bajec M. Network-based statistical comparison of citation topology of bibliographic databases. Scientific Reports. 2014; 4:6496. doi: 10.1038/srep06496 PMID: 25263231</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling from Large Graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33749581229</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Faloutsos C.</ce:indexed-name>
+                                    <ce:surname>Faloutsos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="631" last="636"/>
+                            </ref-volisspag>
+                            <ref-text>New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Leskovec J, Faloutsos C. Sampling from Large Graphs. In: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York, NY, USA; 2006. p. 631-636.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873627033</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Ahmed N.</ce:indexed-name>
+                                    <ce:surname>Ahmed</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Neville J.</ce:indexed-name>
+                                    <ce:surname>Neville</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kompella R.</ce:indexed-name>
+                                    <ce:surname>Kompella</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Network Sampling via Edge-Based Node Selection with Graph Induction</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-text>Purdue University; Technical Report 11-016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ahmed N, Neville J, Kompella R. Network Sampling via Edge-based Node Selection with Graph Induction. Purdue University; 2011. Technical Report 11-016.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003825410</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.F.</ce:initials>
+                                    <ce:indexed-name>Cox T.F.</ce:indexed-name>
+                                    <ce:surname>Cox</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.A.A.</ce:initials>
+                                    <ce:indexed-name>Cox M.A.A.</ce:indexed-name>
+                                    <ce:surname>Cox</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Multidimensional Scaling</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Florida: CRC Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Cox TF, Cox MAA. Multidimensional Scaling. Florida: CRC Press; 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84938711223</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.L.</ce:initials>
+                                    <ce:indexed-name>Martinez W.L.</ce:indexed-name>
+                                    <ce:surname>Martinez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.R.</ce:initials>
+                                    <ce:indexed-name>Martinez A.R.</ce:indexed-name>
+                                    <ce:surname>Martinez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Exploratory Data Analysis with MATLAB</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-text>Abingdon: Chapman and Hall</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Martinez WL, Martinez AR. Exploratory Data Analysis with MATLAB. Abingdon: Chapman and Hall; 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Collective dynamics of 'small-world' networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032482432</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Watts D.J.</ce:indexed-name>
+                                    <ce:surname>Watts</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Strogatz S.H.</ce:indexed-name>
+                                    <ce:surname>Strogatz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="6684" volume="393"/>
+                                <pagerange first="440" last="442"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 9623998</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Watts DJ, Strogatz SH. Collective dynamics of 'small-world' networks. Nature. 1998; 393(6684):440-442. doi: 10.1038/30918 PMID: 9623998</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Network clustering coefficient without degree-correlation biases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">26944456272</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.N.</ce:initials>
+                                    <ce:indexed-name>Soffer S.N.</ce:indexed-name>
+                                    <ce:surname>Soffer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vazquez A.</ce:indexed-name>
+                                    <ce:surname>Vázquez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys Rev E</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="71"/>
+                                <pagerange first="057101"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Soffer SN, Vázquez A. Network clustering coefficient without degree-correlation biases. Phys Rev E. 2005; 71(5):057101. doi: 10.1103/PhysRevE.71.057101</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Comparison of PubMed, Scopus, Web of Science, and Google Scholar: Strengths and weaknesses</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">38949137710</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.E.</ce:initials>
+                                    <ce:indexed-name>Falagas M.E.</ce:indexed-name>
+                                    <ce:surname>Falagas</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.I.</ce:initials>
+                                    <ce:indexed-name>Pitsouni E.I.</ce:indexed-name>
+                                    <ce:surname>Pitsouni</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.A.</ce:initials>
+                                    <ce:indexed-name>Malietzis G.A.</ce:indexed-name>
+                                    <ce:surname>Malietzis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Pappas G.</ce:indexed-name>
+                                    <ce:surname>Pappas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>FASEB J</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="22"/>
+                                <pagerange first="338" last="342"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 17884971</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Falagas ME, Pitsouni EI, Malietzis GA, Pappas G. Comparison of PubMed, Scopus, Web of Science, and Google Scholar: Strengths and weaknesses. FASEB J. 2008; 22(2):338-342. doi: 10.1096/fj.07-9492LSF PMID: 17884971</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mining citation information from CiteSeer data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79251596639</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Fiala D.</ce:indexed-name>
+                                    <ce:surname>Fiala</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="86"/>
+                                <pagerange first="553" last="562"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Fiala D. Mining citation information from CiteSeer data. Scientometrics. 2011; 86(3):553-562. doi: 10.1007/s11192-010-0326-1</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Large-Scale Structure of a Network of Co-Occurring MeSH Terms: Statistical Analysis of Macroscopic Properties</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904002421</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kastrin A.</ce:indexed-name>
+                                    <ce:surname>Kastrin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.C.</ce:initials>
+                                    <ce:indexed-name>Rindflesch T.C.</ce:indexed-name>
+                                    <ce:surname>Rindflesch</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Hristovski D.</ce:indexed-name>
+                                    <ce:surname>Hristovski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS ONE</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="9"/>
+                                <pagerange first="e102188"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 25006672</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kastrin A, Rindflesch TC, Hristovski D. Large-Scale Structure of a Network of Co-Occurring MeSH Terms: Statistical Analysis of Macroscopic Properties. PLoS ONE. 2014; 9:e102188. doi: 10.1371/journal.pone.0102188 PMID: 25006672</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Revealing the Hidden Language of Complex Networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897401644</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.N.</ce:initials>
+                                    <ce:indexed-name>Yaveroglu O.N.</ce:indexed-name>
+                                    <ce:surname>Yaveroglu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Malod-Dognin N.</ce:indexed-name>
+                                    <ce:surname>Malod-Dognin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Davis D.</ce:indexed-name>
+                                    <ce:surname>Davis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Levnajic Z.</ce:indexed-name>
+                                    <ce:surname>Levnajic</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Janjic V.</ce:indexed-name>
+                                    <ce:surname>Janjic</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Karapandza R.</ce:indexed-name>
+                                    <ce:surname>Karapandza</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientific Reports</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="4547"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 24686408</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Yaveroglu ON, Malod-Dognin N, Davis D, Levnajic Z, Janjic V, Karapandza R, et al. Revealing the Hidden Language of Complex Networks. Scientific Reports. 2014; 4:4547. doi: 10.1038/srep04547 PMID: 24686408</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">41349110694</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.T.</ce:initials>
+                                    <ce:indexed-name>Ziliak S.T.</ce:indexed-name>
+                                    <ce:surname>Ziliak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.N.</ce:initials>
+                                    <ce:indexed-name>McCloskey D.N.</ce:indexed-name>
+                                    <ce:surname>McCloskey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Cult of Statistical Significance: How the Standard Error Costs Us Jobs, Justice, and Lives</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-text>The University of Michigan Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ziliak ST, McCloskey DN. The Cult of Statistical Significance: How the Standard Error Costs Us Jobs, Justice, and Lives. The University of Michigan Press; 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Citation indexes for science: A new dimension in documentation through association of ideas</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">37049230834</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Garfield E.</ce:indexed-name>
+                                    <ce:surname>Garfield</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="1955"/>
+                            <ref-volisspag>
+                                <voliss issue="3159" volume="122"/>
+                                <pagerange first="108" last="111"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 14385826</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Garfield E. Citation indexes for science: A new dimension in documentation through association of ideas. Science. 1955; 122(3159):108-111. doi: 10.1126/science.122.3159.108 PMID: 14385826</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Networks of scientific papers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000432228</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>De Solla Price D.J.</ce:indexed-name>
+                                    <ce:surname>De Solla Price</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="1965"/>
+                            <ref-volisspag>
+                                <voliss volume="149"/>
+                                <pagerange first="510" last="515"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 14325149</ref-text>
+                        </ref-info>
+                        <ref-fulltext>de Solla Price DJ. Networks of scientific papers. Science. 1965; 149:510-515. doi: 10.1126/science.149.3683.510 PMID: 14325149</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The DBLP computer science bibliography: Evolution, research issues, perspectives</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84958743540</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ley M.</ce:indexed-name>
+                                    <ce:surname>Ley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Symposium on String Processing and Information Retrieval. London, UK; 2002</ref-sourcetitle>
+                            <ref-volisspag>
+                                <pagerange first="1" last="10"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ley M. The DBLP computer science bibliography: Evolution, research issues, perspectives. In: Proceedings of the International Symposium on String Processing and Information Retrieval. London, UK; 2002. p. 1-10.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automating the construction of Internet portals with machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000806922</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.K.</ce:initials>
+                                    <ce:indexed-name>McCallum A.K.</ce:indexed-name>
+                                    <ce:surname>McCallum</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Nigam K.</ce:indexed-name>
+                                    <ce:surname>Nigam</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Rennie J.</ce:indexed-name>
+                                    <ce:surname>Rennie</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Seymore K.</ce:indexed-name>
+                                    <ce:surname>Seymore</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Inform Retrieval</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="3"/>
+                                <pagerange first="127" last="163"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>McCallum AK, Nigam K, Rennie J, Seymore K. Automating the construction of Internet portals with machine learning. Inform Retrieval. 2000; 3(2):127-163. doi: 10.1023/A:1009953814988</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80051687400</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ginsparg P.</ce:indexed-name>
+                                    <ce:surname>Ginsparg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="7359" volume="476"/>
+                                <pagerange first="145" last="147"/>
+                            </ref-volisspag>
+                            <ref-text>ArXiv at 20. PMID: 21833066</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ginsparg P. ArXiv at 20. Nature. 2011; 476(7359):145-147. doi: 10.1038/476145a PMID: 21833066</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Improving the Accuracy of Network Sampling with Subgraph Induction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84930677663</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Blagus N.</ce:indexed-name>
+                                    <ce:surname>Blagus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Subelj L.</ce:indexed-name>
+                                    <ce:surname>Šubelj</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bajec M.</ce:indexed-name>
+                                    <ce:surname>Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Physica A</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="17"/>
+                            </ref-volisspag>
+                            <ref-text>submitted to</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Blagus N, Šubelj L, Bajec M. Improving the accuracy of network sampling with subgraph induction. submitted to Physica A. 2014;p. 17.</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dynamical and correlation properties of the Internet</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">25944437904</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pastor-Satorras R.</ce:indexed-name>
+                                    <ce:surname>Pastor-Satorras</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vazquez A.</ce:indexed-name>
+                                    <ce:surname>Vázquez</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vespignani A.</ce:indexed-name>
+                                    <ce:surname>Vespignani</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys Rev Lett</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="25" volume="87"/>
+                                <pagerange first="258701"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 11736611</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Pastor-Satorras R, Vázquez A, Vespignani A. Dynamical and correlation properties of the Internet. Phys Rev Lett. 2001; 87(25):258701. doi: 10.1103/PhysRevLett.87.258701 PMID: 11736611</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Edge direction and the structure of networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954637799</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.G.</ce:initials>
+                                    <ce:indexed-name>Foster J.G.</ce:indexed-name>
+                                    <ce:surname>Foster</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.V.</ce:initials>
+                                    <ce:indexed-name>Foster D.V.</ce:indexed-name>
+                                    <ce:surname>Foster</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Grassberger P.</ce:indexed-name>
+                                    <ce:surname>Grassberger</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Paczuski M.</ce:indexed-name>
+                                    <ce:surname>Paczuski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>P Natl Acad Sci USA</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="24" volume="107"/>
+                                <pagerange first="10815" last="10820"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Foster JG, Foster DV, Grassberger P, Paczuski M. Edge direction and the structure of networks. P Natl Acad Sci USA. 2010; 107(24):10815-10820. doi: 10.1073/pnas.0912671107</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mixing patterns in networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038752085</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.E.J.</ce:initials>
+                                    <ce:indexed-name>Newman M.E.J.</ce:indexed-name>
+                                    <ce:surname>Newman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys Rev E</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="67"/>
+                                <pagerange first="026126"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Newman MEJ. Mixing patterns in networks. Phys Rev E. 2003; 67(2):026126. doi: 10.1103/PhysRevE.67.026126</ref-fulltext>
+                    </reference>
+                    <reference id="48">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Hierarchical organization of modularity in metabolic networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037199968</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Ravasz E.</ce:indexed-name>
+                                    <ce:surname>Ravasz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Somera A.L.</ce:indexed-name>
+                                    <ce:surname>Somera</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Mongru D.A.</ce:indexed-name>
+                                    <ce:surname>Mongru</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.N.</ce:initials>
+                                    <ce:indexed-name>Oltvai Z.N.</ce:indexed-name>
+                                    <ce:surname>Oltvai</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Barabasi A.L.</ce:indexed-name>
+                                    <ce:surname>Barabási</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss issue="5586" volume="297"/>
+                                <pagerange first="1551" last="1555"/>
+                            </ref-volisspag>
+                            <ref-text>PMID: 12202830</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ravasz E, Somera AL, Mongru DA, Oltvai ZN, Barabási AL. Hierarchical organization of modularity in metabolic networks. Science. 2002; 297(5586):1551-1555. doi: 10.1126/science.1073374 PMID: 12202830</ref-fulltext>
+                    </reference>
+                    <reference id="49">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0346407047</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>De Nooy W.</ce:indexed-name>
+                                    <ce:surname>De Nooy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mrvar A.</ce:indexed-name>
+                                    <ce:surname>Mrvar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Batagelj V.</ce:indexed-name>
+                                    <ce:surname>Batagelj</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Exploratory Social Network Analysis with Pajek</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>Cambridge: Cambridge University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>de Nooy W, Mrvar A, Batagelj V. Exploratory Social Network Analysis with Pajek. Cambridge: Cambridge University Press; 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="50">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Graph evolution: Densification and shrinking diameters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34248205060</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kleinberg J.</ce:indexed-name>
+                                    <ce:surname>Kleinberg</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Faloutsos C.</ce:indexed-name>
+                                    <ce:surname>Faloutsos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans Knowl Discov Data</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="1"/>
+                                <pagerange first="1" last="41"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Leskovec J, Kleinberg J, Faloutsos C. Graph evolution: Densification and shrinking diameters. ACM Trans Knowl Discov Data. 2007; 1(1):1-41. doi: 10.1145/1217299.1217301</ref-fulltext>
+                    </reference>
+                    <reference id="51">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ANF: A fast and scalable tool for data mining in massive graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0242625288</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.R.</ce:initials>
+                                    <ce:indexed-name>Palmer C.R.</ce:indexed-name>
+                                    <ce:surname>Palmer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.B.</ce:initials>
+                                    <ce:indexed-name>Gibbons P.B.</ce:indexed-name>
+                                    <ce:surname>Gibbons</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Faloutsos C.</ce:indexed-name>
+                                    <ce:surname>Faloutsos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York, NY, USA; 2002</ref-sourcetitle>
+                            <ref-volisspag>
+                                <pagerange first="81" last="90"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Palmer CR, Gibbons PB, Faloutsos C. ANF: A fast and scalable tool for data mining in massive graphs. In: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York, NY, USA; 2002. p. 81-90.</ref-fulltext>
+                    </reference>
+                    <reference id="52">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004225682</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.D.</ce:initials>
+                                    <ce:indexed-name>Cook R.D.</ce:indexed-name>
+                                    <ce:surname>Cook</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Weisberg S.</ce:indexed-name>
+                                    <ce:surname>Weisberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Residuals and Influence in Regression</ref-sourcetitle>
+                            <ref-publicationyear first="1982"/>
+                            <ref-text>New York: Chapman and Hall</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Cook RD, Weisberg S. Residuals and Influence in Regression. New York: Chapman and Hall; 1982.</ref-fulltext>
+                    </reference>
+                    <reference id="53">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Frequency distribution of the values of the correlation coefficient in samples from an indefinitely large population</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001165055</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Fisher R.A.</ce:indexed-name>
+                                    <ce:surname>Fisher</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biometrika</ref-sourcetitle>
+                            <ref-publicationyear first="1915"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="10"/>
+                                <pagerange first="507"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Fisher RA. Frequency distribution of the values of the correlation coefficient in samples from an indefinitely large population. Biometrika. 1915; 10(4):507. doi: 10.2307/2331838</ref-fulltext>
+                    </reference>
+                    <reference id="54">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The use of ranks to avoid the assumption of normality implicit in the analysis of variance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84944811700</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Friedman M.</ce:indexed-name>
+                                    <ce:surname>Friedman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Am Stat Assoc</ref-sourcetitle>
+                            <ref-publicationyear first="1937"/>
+                            <ref-volisspag>
+                                <voliss issue="200" volume="32"/>
+                                <pagerange first="675" last="701"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Friedman M. The use of ranks to avoid the assumption of normality implicit in the analysis of variance. J Am Stat Assoc. 1937; 32(200):675-701. doi: 10.1080/01621459.1937.10503522</ref-fulltext>
+                    </reference>
+                    <reference id="55">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Statistical comparisons of classifiers over multiple data sets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">29644438050</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Mach Learn Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="1" last="30"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Demšar J. Statistical comparisons of classifiers over multiple data sets. J Mach Learn Res. 2006; 7:1-30.</ref-fulltext>
+                    </reference>
+                    <reference id="56">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comparison of alternative tests of significance for the problem of m rankings</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001837148</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Friedman M.</ce:indexed-name>
+                                    <ce:surname>Friedman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ann Math Stat</ref-sourcetitle>
+                            <ref-publicationyear first="1940"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="11"/>
+                                <pagerange first="86" last="92"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Friedman M. A comparison of alternative tests of significance for the problem of m rankings. Ann Math Stat. 1940; 11(1):86-92. doi: 10.1214/aoms/1177731944</ref-fulltext>
+                    </reference>
+                    <reference id="57">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003653217</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.B.</ce:initials>
+                                    <ce:indexed-name>Nemenyi P.B.</ce:indexed-name>
+                                    <ce:surname>Nemenyi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Distribution-Free Multiple Comparisons</ref-sourcetitle>
+                            <ref-publicationyear first="1963"/>
+                            <ref-text>[PhD thesis]. Princeton University</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Nemenyi PB. Distribution-free Multiple Comparisons [PhD thesis]. Princeton University; 1963.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

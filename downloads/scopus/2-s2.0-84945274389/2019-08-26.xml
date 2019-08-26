@@ -1,0 +1,258 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84945274389</prism:url><dc:identifier>SCOPUS_ID:84945274389</dc:identifier><eid>2-s2.0-84945274389</eid><prism:doi>10.1109/EURCON.2003.1248151</prism:doi><article-number>1248151</article-number><dc:title>Using smart cards as a secure storage for digitally signed documents</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>IEEE Region 8 EUROCON 2003: Computer as a Tool - Proceedings</prism:publicationName><dc:publisher>
+Institute of Electrical and Electronics Engineers Inc.
+</dc:publisher><source-id>21100420312</source-id><prism:isbn>078037763X</prism:isbn><prism:isbn>9780780377639</prism:isbn><prism:volume>B</prism:volume><prism:startingPage>74</prism:startingPage><prism:endingPage>78</prism:endingPage><prism:pageRange>74-78</prism:pageRange><prism:coverDate>2003-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="55976544700"><ce:initials>M.</ce:initials><ce:indexed-name>Trampus M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Trampuš M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55976544700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<publishercopyright>© 2003 IEEE.</publishercopyright>
+<ce:para>The paper presents an open application framework for secure storage and management of digitally signed documents on Java Cards. Its purpose is to encourage similar solutions in other target environments.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84945274389" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84945274389&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84945274389&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55976544700"><ce:initials>M.</ce:initials><ce:indexed-name>Trampus M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Trampuš M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55976544700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6506259692"><ce:initials>M.</ce:initials><ce:indexed-name>Ciglaric M.</ce:indexed-name><ce:surname>Ciglarič</ce:surname><ce:given-name>Mojca</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Ciglarič M.</ce:indexed-name><ce:surname>Ciglarič</ce:surname><ce:given-name>Mojca</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506259692</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6505935502"><ce:initials>M.</ce:initials><ce:indexed-name>Pancur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pančur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505935502</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="56269151700"><ce:initials>T.</ce:initials><ce:indexed-name>Vidmar T.</ce:indexed-name><ce:surname>Vidmar</ce:surname><ce:given-name>Tone</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Vidmar T.</ce:indexed-name><ce:surname>Vidmar</ce:surname><ce:given-name>Tone</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56269151700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="15923176300"><ce:initials>A.</ce:initials><ce:indexed-name>Krevl A.</ce:indexed-name><ce:surname>Krevl</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Krevl A.</ce:indexed-name><ce:surname>Krevl</ce:surname><ce:given-name>Andrej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/15923176300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="6" auid="56925198100"><ce:initials>P.</ce:initials><ce:indexed-name>Rome P.</ce:indexed-name><ce:surname>Rome</ce:surname><ce:given-name>Primož</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Rome P.</ce:indexed-name><ce:surname>Rome</ce:surname><ce:given-name>Primož</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56925198100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="7" auid="56925383500"><ce:initials>Z.</ce:initials><ce:indexed-name>Aksentic Z.</ce:indexed-name><ce:surname>Aksentić</ce:surname><ce:given-name>Željko</ce:given-name><preferred-name><ce:initials>Ž.</ce:initials><ce:indexed-name>Aksentić Ž.</ce:indexed-name><ce:surname>Aksentić</ce:surname><ce:given-name>Željko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56925383500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="8" auid="14035299400"><ce:initials>G.</ce:initials><ce:indexed-name>Berginc G.</ce:indexed-name><ce:surname>Berginc</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Berginc G.</ce:indexed-name><ce:surname>Berginc</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14035299400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Digital signature</author-keyword><author-keyword>Java Card</author-keyword><author-keyword>Security</author-keyword><author-keyword>Smart card</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Application frameworks</mainterm><mainterm weight="b" candidate="n">Digitally signed documents</mainterm><mainterm weight="b" candidate="n">JAVA card</mainterm><mainterm weight="b" candidate="n">Secure storage</mainterm><mainterm weight="b" candidate="n">Security</mainterm><mainterm weight="b" candidate="n">Similar solution</mainterm></idxterms><subject-areas><subject-area code="1705" abbrev="COMP">Computer Networks and Communications</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area><subject-area code="1708" abbrev="COMP">Hardware and Architecture</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="16" month="11" timestamp="2015-11-16T16:28:41.000041+00:00" year="2015"/><ait:date-sort day="01" month="01" year="2003"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1109/EURCON.2003.1248151</ce:doi>
+<itemid idtype="PUI">606640304</itemid>
+<itemid idtype="CAR-ID">641433325</itemid>
+<itemid idtype="CPX">20154401468282</itemid>
+<itemid idtype="SCP">84945274389</itemid>
+<itemid idtype="SGR">84945274389</itemid>
+</itemidlist><history>
+<date-created day="01" month="11" timestamp="BST 05:59:21" year="2015"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Digital signature</author-keyword>
+<author-keyword>Java Card</author-keyword>
+<author-keyword>Security</author-keyword>
+<author-keyword>Smart card</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Using smart cards as a secure storage for digitally signed documents</titletext></citation-title><author-group><author auid="55976544700" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Trampus M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Trampuš M.</ce:indexed-name>
+<ce:surname>Trampuš</ce:surname>
+<ce:given-name>Matej</ce:given-name>
+</preferred-name></author><author auid="6506259692" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Ciglaric M.</ce:indexed-name><ce:surname>Ciglarič</ce:surname><ce:given-name>Mojca</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ciglarič M.</ce:indexed-name>
+<ce:surname>Ciglarič</ce:surname>
+<ce:given-name>Mojca</ce:given-name>
+</preferred-name></author><author auid="6505935502" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Pancur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Pančur M.</ce:indexed-name>
+<ce:surname>Pančur</ce:surname>
+<ce:given-name>Matjaž</ce:given-name>
+</preferred-name></author><author auid="56269151700" seq="4" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Vidmar T.</ce:indexed-name><ce:surname>Vidmar</ce:surname><ce:given-name>Tone</ce:given-name><preferred-name>
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Vidmar T.</ce:indexed-name>
+<ce:surname>Vidmar</ce:surname>
+<ce:given-name>Tone</ce:given-name>
+</preferred-name></author><author auid="15923176300" seq="5" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Krevl A.</ce:indexed-name><ce:surname>Krevl</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Krevl A.</ce:indexed-name>
+<ce:surname>Krevl</ce:surname>
+<ce:given-name>Andrej</ce:given-name>
+</preferred-name></author><author auid="56925198100" seq="6" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Rome P.</ce:indexed-name><ce:surname>Rome</ce:surname><ce:given-name>Primož</ce:given-name><preferred-name>
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Rome P.</ce:indexed-name>
+<ce:surname>Rome</ce:surname>
+<ce:given-name>Primož</ce:given-name>
+</preferred-name></author><author auid="56925383500" seq="7" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Aksentic Z.</ce:indexed-name><ce:surname>Aksentić</ce:surname><ce:given-name>Željko</ce:given-name><preferred-name>
+<ce:initials>Ž.</ce:initials>
+<ce:indexed-name>Aksentić Ž.</ce:indexed-name>
+<ce:surname>Aksentić</ce:surname>
+<ce:given-name>Željko</ce:given-name>
+</preferred-name></author><author auid="14035299400" seq="8" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Berginc G.</ce:indexed-name><ce:surname>Berginc</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Berginc G.</ce:indexed-name>
+<ce:surname>Berginc</ce:surname>
+<ce:given-name>Gregor</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><address-part>Tržaška 25</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+<publishercopyright>© 2003 IEEE.</publishercopyright>
+<ce:para>The paper presents an open application framework for secure storage and management of digitally signed documents on Java Cards. Its purpose is to encourage similar solutions in other target environments.</ce:para>
+</abstract></abstracts><source country="usa" srcid="21100420312" type="p"><sourcetitle>IEEE Region 8 EUROCON 2003: Computer as a Tool - Proceedings</sourcetitle><sourcetitle-abbrev>IEEE Reg. EUROCON: Comput. Tool - Proc.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">IEEE Region 8 EUROCON 2003: Computer as a Tool - Proceedings</translated-sourcetitle><issuetitle>IEEE Region 8 EUROCON 2003: Computer as a Tool - Proceedings</issuetitle><isbn length="10" level="volume" type="electronic">078037763X</isbn><isbn length="13" level="volume" type="electronic">9780780377639</isbn><volisspag>
+<voliss volume="B"/>
+<pagerange first="74" last="78"/>
+</volisspag><article-number>1248151</article-number><publicationyear first="2003"/><publicationdate>
+<year>2003</year>
+<date-text xfab-added="true">2003</date-text></publicationdate><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zajc B.</ce:indexed-name>
+<ce:surname>Zajc</ce:surname>
+<ce:given-name>Baldomir</ce:given-name>
+<ce:e-address type="email">baldomir.zajc@fe.uni-lj.si</ce:e-address>
+</contributor>
+</contributor-group><contributor-group>
+<affiliation country="svn">
+<organization>University of Ljubljana, Faculty of Electrical Engineering</organization>
+<address-part>Trzaska 25</address-part>
+<city>Ljubljana</city>
+</affiliation>
+</contributor-group><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Tkalcic M.</ce:indexed-name>
+<ce:surname>Tkalcic</ce:surname>
+<ce:given-name>Marko</ce:given-name>
+</contributor>
+</contributor-group><publisher>
+<publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+</publisher><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>2nd IEEE Region 8 EUROCON 2003</confname>
+<confnumber>2</confnumber>
+<conftheme>Computer as a Tool</conftheme>
+<confseriestitle>IEEE Region 8 EUROCON 2003</confseriestitle>
+<conflocation country="svn">
+<venue>Faculty of Electrical Engineering, University of Ljubljana</venue>
+<city>Ljubljana</city>
+</conflocation>
+<confdate>
+<startdate day="22" month="09" year="2003"/>
+<enddate day="24" month="09" year="2003"/>
+</confdate>
+<confcatnumber>03EX655</confcatnumber>
+<confcode>114212</confcode>
+<confsponsors complete="n">
+<confsponsor>Electrotechnical Association of Slovenia</confsponsor>
+<confsponsor>et al.</confsponsor>
+<confsponsor>IEEE Region 8</confsponsor>
+<confsponsor>IEEE Slovenia Section</confsponsor>
+<confsponsor>Ministry of Education, Science and Sport of the Republic of Slovenia</confsponsor>
+<confsponsor>University of Ljubljana</confsponsor>
+</confsponsors>
+</confevent>
+<confpublication>
+<procpartno>2 of 2</procpartno>
+</confpublication>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1705</classification>
+<classification>2208</classification>
+<classification>1708</classification>
+</classifications><classifications type="CPXCLASS">
+<classification> <classification-code>722.4</classification-code> <classification-description>Digital Computers and Systems</classification-description> </classification>
+<classification> <classification-code>723.1.1</classification-code> <classification-description>Computer Programming Languages</classification-description> </classification>
+<classification> <classification-code>723.5</classification-code> <classification-description>Computer Applications</classification-description> </classification>
+</classifications><classifications type="FLXCLASS">
+<classification> <classification-code>902</classification-code> <classification-description>FLUIDEX; Related Topics</classification-description> </classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="8">
+<reference id="1">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84945271730</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Java CardTM Technology</ref-sourcetitle>
+<ref-website>
+<ce:e-address type="email">http://java.sun.com/products/javacard</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Java CardTM Technology, http://java.sun. com/products/javacard</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0005362390</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Java 2 Platform</ref-sourcetitle>
+<ref-website>
+<ce:e-address type="email">http://java.sun.com/docs</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Java 2 Platform, http://java.sun. com/docs</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84866580706</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Public-key Cryptography Standards</ref-sourcetitle>
+<ref-website>
+<ce:e-address type="email">http://www.rsaseairity.com/rsaiabs/pkcs/index.htm#docs</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Public-Key Cryptography Standards. http://www.rsaseairity.com/rsaiabs/pkcs/index.htm#docs</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">33749573349</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Extensible Markup Language (XML)</ref-sourcetitle>
+<ref-website>
+<ce:e-address type="email">http://wvAV.w3.org/XML</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Extensible Markup Language (XML), http://wvAV.w3.org/XML</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0043026142</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Bartcl M.</ce:indexed-name>
+<ce:surname>Bartcl</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>XML-signature Syntax and Processing</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-text>W3C</ref-text>
+</ref-info>
+<ref-fulltext>Mark Bartcl et al, XML-Signature Syntax and Processing, W3C 2002</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">14944366040</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Timothy M.</ce:indexed-name>
+<ce:surname>Timothy</ce:surname>
+</author>
+<author seq="2">
+<ce:indexed-name>Jurgensen</ce:indexed-name>
+<ce:surname>Jurgensen</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Smart Cards: The Developer's Toolkit</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-text>Prentice Hall PTR</ref-text>
+</ref-info>
+<ref-fulltext>Timothy M, Jurgensen et, al., Smart Cards: The Developer's Toolkit, Prentice Hall PTR, 2002, ISBN 0130937304</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003848372</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>Z.</ce:initials>
+<ce:indexed-name>Chen Z.</ce:indexed-name>
+<ce:surname>Chen</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Java Card (tm) Technology for Smart Cards: Architecture and Programmer's (The Java Series)</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-text>Addison-Wesley Pub Co</ref-text>
+</ref-info>
+<ref-fulltext>Zhiqun Chen, Java Card (tm) Technology for Smart Cards: Architecture and Programmer's (The Java Series), Addison-Wesley Pub Co 2002, ISBN 0201703297</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004251281</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Hansmann U.</ce:indexed-name>
+<ce:surname>Hansmann</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Smart Card Application Development Using Java</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-text>Springer Verlag</ref-text>
+</ref-info>
+<ref-fulltext>Uwe Hansmann, Smart Card Application Development Using Java, Springer Verlag 2002, ISBN 3540432027</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

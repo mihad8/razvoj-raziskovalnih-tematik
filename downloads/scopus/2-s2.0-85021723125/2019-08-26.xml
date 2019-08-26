@@ -1,0 +1,825 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85021723125</prism:url><dc:identifier>SCOPUS_ID:85021723125</dc:identifier><eid>2-s2.0-85021723125</eid><prism:doi>10.1002/cpe.4220</prism:doi><article-number>e4220</article-number><dc:title>Distributed environment for efficient virtual machine image management in federated Cloud architectures</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Concurrency Computation </prism:publicationName><dc:publisher>
+                        John Wiley and Sons Ltd
+                        
+                            Southern Gate
+                            Chichester, West Sussex
+                            PO19 8SQ
+                        
+                        vgorayska@wiley.com
+                    </dc:publisher><source-id>27871</source-id><prism:issn>15320634 15320626</prism:issn><prism:volume>30</prism:volume><prism:issueIdentifier>20</prism:issueIdentifier><prism:coverDate>2018-10-25</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="55364582500"><ce:initials>D.</ce:initials><ce:indexed-name>Kimovski D.</ce:indexed-name><ce:surname>Kimovski</ce:surname><ce:given-name>Dragi</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Kimovski D.</ce:indexed-name><ce:surname>Kimovski</ce:surname><ce:given-name>Dragi</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55364582500</author-url><affiliation id="60009999" href="https://api.elsevier.com/content/affiliation/affiliation_id/60009999"/><affiliation id="60105969" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105969"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>Copyright © 2017 John Wiley &amp; Sons, Ltd.</publishercopyright>
+                        <ce:para>The use of virtual machines (VMs) in Cloud computing provides various benefits in the overall software engineering lifecycle. These include efficient elasticity mechanisms resulting in higher resource utilization and lower operational costs. The VMs as software artifacts are created using provider-specific templates, called virtual machine images (VMI), and are stored in proprietary or public repositories for further use. However, some technology-specific choices can limit the interoperability among various Cloud providers and bundle the VMIs with nonessential or redundant software packages, leading to increased storage size, prolonged VMI delivery, stagnant VMI instantiation, and ultimately vendor lock-in. To address these challenges, we present a set of novel functionalities and design approaches for efficient operation of distributed VMI repositories, specifically tailored for enabling (1) simplified creation of lightweight and size optimized VMIs tuned for specific application requirements; (2) multi-objective VMI repository optimization; and (3) efficient reasoning mechanism to help optimizing complex VMI operations. The evaluation results confirm that the presented approaches can enable VMI size reduction by up to 55%, while trimming the image creation time by 66%. Furthermore, the repository optimization algorithms can reduce the VMI delivery time by up to 51% and cut down the storage expenses by 3%. Moreover, by implementing replication strategies, the optimization algorithms can increase the system reliability by 74%.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85021723125" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85021723125&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85021723125&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60105969" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105969"><affilname>University of Information Science and Technology "St. Paul The Apostle"-Ohrid</affilname><affiliation-city>Ohrid</affiliation-city><affiliation-country>Macedonia</affiliation-country></affiliation><affiliation id="60028355" href="https://api.elsevier.com/content/affiliation/affiliation_id/60028355"><affilname>Liverpool John Moores University</affilname><affiliation-city>Liverpool</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60027811" href="https://api.elsevier.com/content/affiliation/affiliation_id/60027811"><affilname>Magyar Tudomanyos Akademia</affilname><affiliation-city>Budapest</affiliation-city><affiliation-country>Hungary</affiliation-country></affiliation><affiliation id="60009999" href="https://api.elsevier.com/content/affiliation/affiliation_id/60009999"><affilname>University of Innsbruck</affilname><affiliation-city>Innsbruck</affiliation-city><affiliation-country>Austria</affiliation-country></affiliation><authors><author seq="1" auid="55364582500"><ce:initials>D.</ce:initials><ce:indexed-name>Kimovski D.</ce:indexed-name><ce:surname>Kimovski</ce:surname><ce:given-name>Dragi</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Kimovski D.</ce:indexed-name><ce:surname>Kimovski</ce:surname><ce:given-name>Dragi</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55364582500</author-url><affiliation id="60009999" href="https://api.elsevier.com/content/affiliation/affiliation_id/60009999"/><affiliation id="60105969" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105969"/></author><author seq="2" auid="55664653500"><ce:initials>A.</ce:initials><ce:indexed-name>Marosi A.</ce:indexed-name><ce:surname>Marosi</ce:surname><ce:given-name>Attila</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Marosi A.</ce:indexed-name><ce:surname>Marosi</ce:surname><ce:given-name>Attila</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55664653500</author-url><affiliation id="60027811" href="https://api.elsevier.com/content/affiliation/affiliation_id/60027811"/></author><author seq="3" auid="57193084755"><ce:initials>S.</ce:initials><ce:indexed-name>Gec S.</ce:indexed-name><ce:surname>Gec</ce:surname><ce:given-name>Sandi</ce:given-name><preferred-name><ce:initials>S.</ce:initials><ce:indexed-name>Gec S.</ce:indexed-name><ce:surname>Gec</ce:surname><ce:given-name>Sandi</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57193084755</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="57188686819"><ce:initials>N.</ce:initials><ce:indexed-name>Saurabh N.</ce:indexed-name><ce:surname>Saurabh</ce:surname><ce:given-name>Nishant</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Saurabh N.</ce:indexed-name><ce:surname>Saurabh</ce:surname><ce:given-name>Nishant</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188686819</author-url><affiliation id="60009999" href="https://api.elsevier.com/content/affiliation/affiliation_id/60009999"/></author><author seq="5" auid="23392379200"><ce:initials>A.</ce:initials><ce:indexed-name>Kertesz A.</ce:indexed-name><ce:surname>Kertesz</ce:surname><ce:given-name>Attila</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Kertesz A.</ce:indexed-name><ce:surname>Kertesz</ce:surname><ce:given-name>Attila</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23392379200</author-url><affiliation id="60027811" href="https://api.elsevier.com/content/affiliation/affiliation_id/60027811"/></author><author seq="6" auid="24437837200"><ce:initials>G.</ce:initials><ce:indexed-name>Kecskemeti G.</ce:indexed-name><ce:surname>Kecskemeti</ce:surname><ce:given-name>Gabor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Kecskemeti G.</ce:indexed-name><ce:surname>Kecskemeti</ce:surname><ce:given-name>Gabor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24437837200</author-url><affiliation id="60028355" href="https://api.elsevier.com/content/affiliation/affiliation_id/60028355"/></author><author seq="7" auid="6603094693"><ce:initials>V.</ce:initials><ce:indexed-name>Stankovski V.</ce:indexed-name><ce:surname>Stankovski</ce:surname><ce:given-name>Vlado</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Stankovski V.</ce:indexed-name><ce:surname>Stankovski</ce:surname><ce:given-name>Vlado</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603094693</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="8" auid="8858675500"><ce:initials>R.</ce:initials><ce:indexed-name>Prodan R.</ce:indexed-name><ce:surname>Prodan</ce:surname><ce:given-name>Radu</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Prodan R.</ce:indexed-name><ce:surname>Prodan</ce:surname><ce:given-name>Radu</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8858675500</author-url><affiliation id="60009999" href="https://api.elsevier.com/content/affiliation/affiliation_id/60009999"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Cloud federation</author-keyword><author-keyword>distributed VMI repositories</author-keyword><author-keyword>virtual machine images</author-keyword><author-keyword>VMI redistribution</author-keyword><author-keyword>VMI size optimization</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Application requirements</mainterm><mainterm weight="b" candidate="n">Cloud federations</mainterm><mainterm weight="b" candidate="n">Distributed environments</mainterm><mainterm weight="b" candidate="n">Distributed VMI repositories</mainterm><mainterm weight="b" candidate="n">Optimization algorithms</mainterm><mainterm weight="b" candidate="n">Size optimization</mainterm><mainterm weight="b" candidate="n">Software engineering life-cycle</mainterm><mainterm weight="b" candidate="n">VMI redistribution</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1705" abbrev="COMP">Computer Networks and Communications</subject-area><subject-area code="1703" abbrev="COMP">Computational Theory and Mathematics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-04-17T16:06:32Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp-car</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>European Union's Horizon 2020</xocs:funding-agency-matched-string><xocs:funding-id>644179</xocs:funding-id></xocs:funding><xocs:funding-text>This project has received funding from the European Union's Horizon 2020 Research and Innovation Programme under Grant Agreement No 644179 (ENTICE project: dEcentralised repositories for traNsparent and efficienT vIrtual maChine opErations).</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="25" month="09" timestamp="2018-09-25T21:55:41.000041-04:00" year="2018"/><ait:date-sort day="25" month="10" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1002/cpe.4220</ce:doi>
+                    <itemid idtype="PUI">617136382</itemid>
+                    <itemid idtype="CAR-ID">666473710</itemid>
+                    <itemid idtype="CPX">20172703889508</itemid>
+                    <itemid idtype="REAXYSCAR">20171179396</itemid>
+                    <itemid idtype="SCP">85021723125</itemid>
+                    <itemid idtype="SGR">85021723125</itemid>
+                </itemidlist><history>
+                    <date-created day="25" month="09" timestamp="BST 14:01:17" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Cloud federation</author-keyword>
+                        <author-keyword xml:lang="eng">distributed VMI repositories</author-keyword>
+                        <author-keyword xml:lang="eng">virtual machine images</author-keyword>
+                        <author-keyword xml:lang="eng">VMI redistribution</author-keyword>
+                        <author-keyword xml:lang="eng">VMI size optimization</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Distributed environment for efficient virtual machine image management in federated Cloud architectures</titletext></citation-title><author-group><author auid="55364582500" orcid="0000-0001-5933-3246" seq="1" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Kimovski D.</ce:indexed-name><ce:surname>Kimovski</ce:surname><ce:given-name>Dragi</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Kimovski D.</ce:indexed-name>
+                            <ce:surname>Kimovski</ce:surname>
+                            <ce:given-name>Dragi</ce:given-name>
+                        </preferred-name></author><author auid="57188686819" seq="4" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Saurabh N.</ce:indexed-name><ce:surname>Saurabh</ce:surname><ce:given-name>Nishant</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Saurabh N.</ce:indexed-name>
+                            <ce:surname>Saurabh</ce:surname>
+                            <ce:given-name>Nishant</ce:given-name>
+                        </preferred-name></author><author auid="8858675500" seq="8" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Prodan R.</ce:indexed-name><ce:surname>Prodan</ce:surname><ce:given-name>Radu</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Prodan R.</ce:indexed-name>
+                            <ce:surname>Prodan</ce:surname>
+                            <ce:given-name>Radu</ce:given-name>
+                        </preferred-name></author><affiliation afid="60009999" country="aut" dptid="103547130"><organization>Distributed and Parallel Systems Group</organization><organization>University of Innsbruck</organization><city>Innsbruck</city><affiliation-id afid="60009999" dptid="103547130"/><country>Austria</country></affiliation></author-group><author-group><author auid="55664653500" seq="2" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Marosi A.</ce:indexed-name><ce:surname>Marosi</ce:surname><ce:given-name>Attila</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Marosi A.</ce:indexed-name>
+                            <ce:surname>Marosi</ce:surname>
+                            <ce:given-name>Attila</ce:given-name>
+                        </preferred-name></author><author auid="23392379200" seq="5" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Kertesz A.</ce:indexed-name><ce:surname>Kertesz</ce:surname><ce:given-name>Attila</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Kertesz A.</ce:indexed-name>
+                            <ce:surname>Kertesz</ce:surname>
+                            <ce:given-name>Attila</ce:given-name>
+                        </preferred-name></author><affiliation afid="60027811" country="hun"><organization>Hungarian Academy of Science</organization><city>Budapest</city><affiliation-id afid="60027811"/><country>Hungary</country></affiliation></author-group><author-group><author auid="57193084755" seq="3" type="auth"><ce:initials>S.</ce:initials><ce:indexed-name>Gec S.</ce:indexed-name><ce:surname>Gec</ce:surname><ce:given-name>Sandi</ce:given-name><preferred-name>
+                            <ce:initials>S.</ce:initials>
+                            <ce:indexed-name>Gec S.</ce:indexed-name>
+                            <ce:surname>Gec</ce:surname>
+                            <ce:given-name>Sandi</ce:given-name>
+                        </preferred-name></author><author auid="6603094693" seq="7" type="auth"><ce:initials>V.</ce:initials><ce:indexed-name>Stankovski V.</ce:indexed-name><ce:surname>Stankovski</ce:surname><ce:given-name>Vlado</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                            <ce:surname>Stankovski</ce:surname>
+                            <ce:given-name>Vlado</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580806"><organization>Faculty of Civil and Geodetic Engineering</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106" dptid="104580806"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="57193084755" seq="3" type="auth"><ce:initials>S.</ce:initials><ce:indexed-name>Gec S.</ce:indexed-name><ce:surname>Gec</ce:surname><ce:given-name>Sandi</ce:given-name><preferred-name>
+                            <ce:initials>S.</ce:initials>
+                            <ce:indexed-name>Gec S.</ce:indexed-name>
+                            <ce:surname>Gec</ce:surname>
+                            <ce:given-name>Sandi</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="24437837200" seq="6" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Kecskemeti G.</ce:indexed-name><ce:surname>Kecskemeti</ce:surname><ce:given-name>Gabor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Kecskemeti G.</ce:indexed-name>
+                            <ce:surname>Kecskemeti</ce:surname>
+                            <ce:given-name>Gabor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60028355" country="gbr"><organization>Liverpool John Moores University</organization><city>Liverpool</city><affiliation-id afid="60028355"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="55364582500" seq="1" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Kimovski D.</ce:indexed-name><ce:surname>Kimovski</ce:surname><ce:given-name>Dragi</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Kimovski D.</ce:indexed-name>
+                            <ce:surname>Kimovski</ce:surname>
+                            <ce:given-name>Dragi</ce:given-name>
+                        </preferred-name></author><affiliation afid="60105969" country="mkd"><organization>University of Information Science and Technology</organization><city>Ohrid</city><affiliation-id afid="60105969"/><country>Macedonia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>D.</ce:initials>
+                        <ce:indexed-name>Kimovski D.</ce:indexed-name>
+                        <ce:surname>Kimovski</ce:surname>
+                        <ce:given-name>Dragi</ce:given-name>
+                    </person><affiliation country="aut"><organization>Distributed and Parallel Systems Group</organization><organization>University of Innsbruck</organization><city>Innsbruck</city><country>Austria</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>Copyright © 2017 John Wiley &amp; Sons, Ltd.</publishercopyright>
+                        <ce:para>The use of virtual machines (VMs) in Cloud computing provides various benefits in the overall software engineering lifecycle. These include efficient elasticity mechanisms resulting in higher resource utilization and lower operational costs. The VMs as software artifacts are created using provider-specific templates, called virtual machine images (VMI), and are stored in proprietary or public repositories for further use. However, some technology-specific choices can limit the interoperability among various Cloud providers and bundle the VMIs with nonessential or redundant software packages, leading to increased storage size, prolonged VMI delivery, stagnant VMI instantiation, and ultimately vendor lock-in. To address these challenges, we present a set of novel functionalities and design approaches for efficient operation of distributed VMI repositories, specifically tailored for enabling (1) simplified creation of lightweight and size optimized VMIs tuned for specific application requirements; (2) multi-objective VMI repository optimization; and (3) efficient reasoning mechanism to help optimizing complex VMI operations. The evaluation results confirm that the presented approaches can enable VMI size reduction by up to 55%, while trimming the image creation time by 66%. Furthermore, the repository optimization algorithms can reduce the VMI delivery time by up to 51% and cut down the storage expenses by 3%. Moreover, by implementing replication strategies, the optimization algorithms can increase the system reliability by 74%.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="27871" type="j"><sourcetitle>Concurrency Computation </sourcetitle><sourcetitle-abbrev>Concurr. Comput. </sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Concurrency Computation Practice and Experience</translated-sourcetitle><issn type="electronic">15320634</issn><issn type="print">15320626</issn><codencode>CCPEB</codencode><volisspag>
+                        <voliss issue="20" volume="30"/>
+                    </volisspag><article-number>e4220</article-number><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>10</month>
+                        <day>25</day>
+                    <date-text xfab-added="true">25 October 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-0634</ce:e-address>
+                    </website><publisher>
+                        <publishername>John Wiley and Sons Ltd</publishername>
+                        <affiliation country="gbr">
+                            <address-part>Southern Gate</address-part>
+                            <city>Chichester, West Sussex</city>
+                            <postal-code>PO19 8SQ</postal-code>
+                        </affiliation>
+                        <ce:e-address type="email">vgorayska@wiley.com</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>2614</classification>
+                            <classification>1706</classification>
+                            <classification>1705</classification>
+                            <classification>1703</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="25">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Performance analysis of cloud computing services for many-tasks scientific computing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0001</itemid>
+                                <itemid idtype="SGR">85027938495</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Alexandru I.</ce:indexed-name>
+                                    <ce:surname>Alexandru</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ostermann S.</ce:indexed-name>
+                                    <ce:surname>Ostermann</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Nezih Yigitbasi M.</ce:indexed-name>
+                                    <ce:surname>Nezih Yigitbasi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Prodan R.</ce:indexed-name>
+                                    <ce:surname>Prodan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Fahringer T.</ce:indexed-name>
+                                    <ce:surname>Fahringer</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Epema D.</ce:indexed-name>
+                                    <ce:surname>Epema</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans Parallel Distrib Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="22"/>
+                                <pagerange first="931" last="945"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Alexandru I, Ostermann S, Nezih Yigitbasi M, Prodan R, Fahringer T, Epema D. Performance analysis of cloud computing services for many-tasks scientific computing. IEEE Trans Parallel Distrib Syst. 2011;22(6):931-945</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0002</itemid>
+                                <itemid idtype="SGR">84861091778</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.C.</ce:initials>
+                                    <ce:indexed-name>Brebner P.C.</ce:indexed-name>
+                                    <ce:surname>Brebner</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Is your cloud elastic enough?: Performance modelling the elasticity of infrastructure as a service (iaas) cloud applications</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="263" last="266"/>
+                            </ref-volisspag>
+                            <ref-text>In Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering, ICPE,, Boston, Massachusetts, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Brebner PC. Is your cloud elastic enough?: Performance modelling the elasticity of infrastructure as a service (iaas) cloud applications. In: Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering, ICPE, Boston, Massachusetts, USA; 22-25 April 2012: 263-266</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0003</itemid>
+                                <itemid idtype="SGR">77957962863</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Goiri I.</ce:indexed-name>
+                                    <ce:surname>Goiri</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Guitart J.</ce:indexed-name>
+                                    <ce:surname>Guitart</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Torres J.</ce:indexed-name>
+                                    <ce:surname>Torres</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Characterizing cloud federation for enhancing providers' profit</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="123" last="130"/>
+                            </ref-volisspag>
+                            <ref-text>In IEEE 3rd International Conference on Cloud Computing (CLOUD),, Miami, FL, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Goiri I, Guitart J, Torres J. Characterizing cloud federation for enhancing providers' profit. In: IEEE 3rd International Conference on Cloud Computing (CLOUD), Miami, FL, USA; 5-10 July 2010: 123-130</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>How to enhance cloud architectures to enable cross-federation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0004</itemid>
+                                <itemid idtype="SGR">77957951132</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Celesti A.</ce:indexed-name>
+                                    <ce:surname>Celesti</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Tusa F.</ce:indexed-name>
+                                    <ce:surname>Tusa</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Villari M.</ce:indexed-name>
+                                    <ce:surname>Villari</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Puliafito A.</ce:indexed-name>
+                                    <ce:surname>Puliafito</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE CLOUD</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="337" last="345"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Celesti A, Tusa F, Villari M, Puliafito A. How to enhance cloud architectures to enable cross-federation. IEEE CLOUD. 2010:337-345</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0005</itemid>
+                                <itemid idtype="SGR">85053602140</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kimovski D.</ce:indexed-name>
+                                    <ce:surname>Kimovski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Saurabh N.</ce:indexed-name>
+                                    <ce:surname>Saurabh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gec S.</ce:indexed-name>
+                                    <ce:surname>Gec</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Towards an environment for efficient and transparent virtual machine operations: The ENTICE approach</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-text>In IEEE 4th International Conference on Cloud Networking (CloudNet);, Pisa, Italy</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kimovski D, Saurabh N, Gec S, et al. Towards an environment for efficient and transparent virtual machine operations: The ENTICE approach. In: IEEE 4th International Conference on Cloud Networking (CloudNet); 2015; Pisa, Italy</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0006</itemid>
+                                <itemid idtype="SGR">85053597679</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>VMWAre</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.vmware.com/appliances</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>VMWAre. http://www.vmware.com/appliances</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0007</itemid>
+                                <itemid idtype="SGR">84988907732</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Science cloud</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">http://scienceclouds.org/marketplace</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Science cloud. http://scienceclouds.org/marketplace</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0008</itemid>
+                                <itemid idtype="SGR">84863131245</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Diaz J.</ce:indexed-name>
+                                    <ce:surname>Diaz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>von Laszewski G.</ce:indexed-name>
+                                    <ce:surname>von Laszewski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Wang F.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Younge A.</ce:indexed-name>
+                                    <ce:surname>Younge</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Fox G.</ce:indexed-name>
+                                    <ce:surname>Fox</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Futuregrid image repository: A generic catalog and storage system for heterogenous virtual machine images</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="560" last="564"/>
+                            </ref-volisspag>
+                            <ref-text>In Third IEEE International Conference on Coud Computing Technology and Science (CloudCom2011),, Athens, Greece</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Diaz J, von Laszewski G, Wang F, Younge A, Fox G. Futuregrid image repository: A generic catalog and storage system for heterogenous virtual machine images. In: Third IEEE International Conference on Coud Computing Technology and Science (CloudCom2011), Athens, Greece; 29 Nov.-1 Dec. 2011:560-564</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0009</itemid>
+                                <itemid idtype="SGR">85053592035</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.V.</ce:initials>
+                                    <ce:indexed-name>Carrion J.V.</ce:indexed-name>
+                                    <ce:surname>Carrión</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Molto G.</ce:indexed-name>
+                                    <ce:surname>Moltó</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>De Alfonso C.</ce:indexed-name>
+                                    <ce:surname>De Alfonso</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Caballer M.</ce:indexed-name>
+                                    <ce:surname>Caballer</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Hernandez V.</ce:indexed-name>
+                                    <ce:surname>Hernández</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>A generic catalog and repository service for virtual machine images</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>In 2nd International ICST Conference on Cloud Computing (CloudComp),, Barcelona Spain</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Carrión JV, Moltó G, De Alfonso C, Caballer M, Hernández V. A generic catalog and repository service for virtual machine images. In: 2nd International ICST Conference on Cloud Computing (CloudComp), Barcelona Spain; 2010</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0010</itemid>
+                                <itemid idtype="SGR">85053633407</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Amazon image service</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Amazon image service. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0011</itemid>
+                                <itemid idtype="SGR">85053604581</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Razavi K.</ce:indexed-name>
+                                    <ce:surname>Razavi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.M.</ce:initials>
+                                    <ce:indexed-name>Razorea L.M.</ce:indexed-name>
+                                    <ce:surname>Razorea</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Kielmann T.</ce:indexed-name>
+                                    <ce:surname>Kielmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Reducing VM startup time and storage costs by VM image content consolidation</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="75" last="84"/>
+                            </ref-volisspag>
+                            <ref-text>In 1st Workshop on Dependability and Interoperability in Heterogeneous Clouds, Euro-Par 2013 Parallel Processing Workshops,, Aachen, Germany</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Razavi K, Razorea LM, Kielmann T. Reducing VM startup time and storage costs by VM image content consolidation. In: 1st Workshop on Dependability and Interoperability in Heterogeneous Clouds, Euro-Par 2013: Parallel Processing Workshops, Aachen, Germany; August 26-27 2013:75-84</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0012</itemid>
+                                <itemid idtype="SGR">84874252173</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Wu D.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zeng Y.</ce:indexed-name>
+                                    <ce:surname>Zeng</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>He J.</ce:indexed-name>
+                                    <ce:surname>He</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Liang Y.</ce:indexed-name>
+                                    <ce:surname>Liang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wen Y.</ce:indexed-name>
+                                    <ce:surname>Wen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>On p2p mechanisms for vm image distribution in cloud data centers: modeling, analysis and improvement</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="50" last="57"/>
+                            </ref-volisspag>
+                            <ref-text>In CloudCom 2012., IEEE Computer Society, Taipei, Taiwan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Wu D, Zeng Y, He J, Liang Y, Wen Y. On p2p mechanisms for vm image distribution in cloud data centers: modeling, analysis and improvement. In: CloudCom 2012. IEEE Computer Society, Taipei, Taiwan; 3-6 Dec. 2012: 50-57</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0013</itemid>
+                                <itemid idtype="SGR">85053607465</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Schmidt M.</ce:indexed-name>
+                                    <ce:surname>Schmidt</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Fallenbeck N.</ce:indexed-name>
+                                    <ce:surname>Fallenbeck</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Smith M.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Freisleben B.</ce:indexed-name>
+                                    <ce:surname>Freisleben</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Efficient distribution of virtual machines for cloud computing</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>In Proceedings of the 2010 18th Euromicro Conference on Parallel, Distributed and Network-Based Processing, PDP'10., IEEE Computer Society, Washington, DC, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Schmidt M, Fallenbeck N, Smith M, Freisleben B. Efficient distribution of virtual machines for cloud computing. In: Proceedings of the 2010 18th Euromicro Conference on Parallel, Distributed and Network-Based Processing, PDP'10. IEEE Computer Society; 2010; Washington, DC, USA</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0014</itemid>
+                                <itemid idtype="SGR">84991684013</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Kecskemeti G.</ce:indexed-name>
+                                    <ce:surname>Kecskemeti</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Marosi A.</ce:indexed-name>
+                                    <ce:surname>Marosi</ce:surname>
+                                    <ce:given-name>ACs</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kertesz A.</ce:indexed-name>
+                                    <ce:surname>Kertesz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The ENTICE approach to decompose monolithic services into microservices</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="591" last="596"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1109/HPCSim.2016.7568389</ce:e-address>
+                            </ref-website>
+                            <ref-text>In IEEE High Performance Computing &amp; Simulation (HPCS). Innsbruck, Austria, IEEE;</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kecskemeti G, Marosi ACs, Kertesz A. The ENTICE approach to decompose monolithic services into microservices. In: IEEE High Performance Computing &amp; Simulation (HPCS). Innsbruck, Austria, IEEE; July 18-22, 2016: 591-596. https://doi.org/10.1109/HPCSim.2016.7568389</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0015</itemid>
+                                <itemid idtype="SGR">85053633453</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Packer</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.packer.io/</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Packer. https://www.packer.io/</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0016</itemid>
+                                <itemid idtype="SGR">84991663936</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Image factory</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">http://imgfac.org/</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Image factory. http://imgfac.org/</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0017</itemid>
+                                <itemid idtype="SGR">85053598702</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kimovski D.</ce:indexed-name>
+                                    <ce:surname>Kimovski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Saurabh N.</ce:indexed-name>
+                                    <ce:surname>Saurabh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gec S.</ce:indexed-name>
+                                    <ce:surname>Gec</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Prodan R.</ce:indexed-name>
+                                    <ce:surname>Prodan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Multi-objective optimization framework for VMI distribution in federated cloud repositories</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>In Large Scale Distributed Virtual Environments, LSDVE 2016 in Conjunction of Euro-Par;, Grenoble France</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kimovski D, Saurabh N, Gec S, Stankovski V, Prodan R. Multi-objective optimization framework for VMI distribution in federated cloud repositories. In: Large Scale Distributed Virtual Environments, LSDVE 2016 in Conjunction of Euro-Par; 2016; Grenoble France</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A fast and elitist multiobjective genetic algorithm: NSGA-II evolutionary computation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0018</itemid>
+                                <itemid idtype="SGR">0036530772</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Deb K.</ce:indexed-name>
+                                    <ce:surname>Deb</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pratap A.</ce:indexed-name>
+                                    <ce:surname>Pratap</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Agarwal S.</ce:indexed-name>
+                                    <ce:surname>Agarwal</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Meyarivan T.</ce:indexed-name>
+                                    <ce:surname>Meyarivan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans Evol Comput</ref-sourcetitle>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="6"/>
+                                <pagerange first="182" last="197"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Deb K, Pratap A, Agarwal S, Meyarivan T. A fast and elitist multiobjective genetic algorithm: NSGA-II evolutionary computation. IEEE Trans Evol Comput; 6(2):182-197</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0019</itemid>
+                                <itemid idtype="SGR">35248851524</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Li X.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>A non-dominated sorting particle swarm optimizer for multiobjective optimization</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-text>In Genetic and Evolutionary Computation—GECCO., Springer, Berlin/Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Li X. A non-dominated sorting particle swarm optimizer for multiobjective optimization. In: Genetic and Evolutionary Computation—GECCO. Springer; 2003; Berlin/Heidelberg</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Understanding series and parallel systems reliability</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0020</itemid>
+                                <itemid idtype="SGR">84931834211</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Jorge R.</ce:indexed-name>
+                                    <ce:surname>Jorge</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sel Top Assur Relat Technol</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="11"/>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jorge R. Understanding series and parallel systems reliability. Sel Top Assur Relat Technol. 2014;11(5)1-8</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0021</itemid>
+                                <itemid idtype="SGR">85053613537</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gec S.</ce:indexed-name>
+                                    <ce:surname>Gec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kimovski D.</ce:indexed-name>
+                                    <ce:surname>Kimovski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Prodan R.</ce:indexed-name>
+                                    <ce:surname>Prodan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Using constraint-based reasoning for multi-objective optimisation of the ENTICE environment</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>In The 12th Semantics, Knowledge and Grids on Big Data (SKG2016)., IEEE, Beijing China</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Gec S, Kimovski D, Prodan R, Stankovski V. Using constraint-based reasoning for multi-objective optimisation of the ENTICE environment. In: The 12th Semantics, Knowledge and Grids on Big Data (SKG2016). IEEE; 2016; Beijing China</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0022</itemid>
+                                <itemid idtype="SGR">85053603827</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>GeoNames</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.geonames.org/</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>GeoNames. http://www.geonames.org/</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0023</itemid>
+                                <itemid idtype="SGR">84944453690</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Jersey - RESTful web services in java</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">https://jersey.java.net/</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Jersey - RESTful web services in java. https://jersey.java.net/</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0024</itemid>
+                                <itemid idtype="SGR">85053623075</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Zitzler E.</ce:indexed-name>
+                                    <ce:surname>Zitzler</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Brockhoff D.</ce:indexed-name>
+                                    <ce:surname>Brockhoff</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Thiele L.</ce:indexed-name>
+                                    <ce:surname>Thiele</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The hypervolume indicator revisited: on the design of pareto-compliant indicators via weighted integration</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-text>In International Conference on Evolutionary Multi-Criterion Optimization., Springer, Berlin Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zitzler E, Brockhoff D, Thiele L. The hypervolume indicator revisited: on the design of pareto-compliant indicators via weighted integration. In: International Conference on Evolutionary Multi-Criterion Optimization. Springer; 2007; Berlin Heidelberg</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">cpe4220-cit-0025</itemid>
+                                <itemid idtype="SGR">33746919081</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.C.</ce:initials>
+                                    <ce:indexed-name>Feng W.C.</ce:indexed-name>
+                                    <ce:surname>Feng</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Balaji P.</ce:indexed-name>
+                                    <ce:surname>Balaji</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Baron C.</ce:indexed-name>
+                                    <ce:surname>Baron</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.N.</ce:initials>
+                                    <ce:indexed-name>Bhuyan L.N.</ce:indexed-name>
+                                    <ce:surname>Bhuyan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.K.</ce:initials>
+                                    <ce:indexed-name>Panda D.K.</ce:indexed-name>
+                                    <ce:surname>Panda</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Performance characterization of a 10-gigabit ethernet TOE</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="58" last="63"/>
+                            </ref-volisspag>
+                            <ref-text>In Proceedings of the 13th Symposium on High Performance Interconnects., Washington, DC, USA, IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Feng WC, Balaji P, Baron C, Bhuyan LN, Panda DK. Performance characterization of a 10-gigabit ethernet TOE. In: Proceedings of the 13th Symposium on High Performance Interconnects. Washington, DC, USA:IEEE; 17-19 August, 2005:58-63</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

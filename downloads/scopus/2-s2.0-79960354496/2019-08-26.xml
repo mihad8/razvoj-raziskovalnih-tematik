@@ -1,0 +1,920 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/79960354496</prism:url><dc:identifier>SCOPUS_ID:79960354496</dc:identifier><eid>2-s2.0-79960354496</eid><prism:doi>10.1007/978-3-642-22170-5_21</prism:doi><dc:title>Rapid development of executable ontology for financial instruments and trading strategies</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Communications in Computer and Information Science</prism:publicationName><source-id>17700155007</source-id><prism:isbn>9783642221699</prism:isbn><prism:issn>18650929</prism:issn><prism:volume>179 CCIS</prism:volume><prism:issueIdentifier>PART 1</prism:issueIdentifier><prism:startingPage>232</prism:startingPage><prism:endingPage>243</prism:endingPage><prism:pageRange>232-243</prism:pageRange><prism:coverDate>2011-07-20</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="15769554200"><ce:initials>D.</ce:initials><ce:indexed-name>Lavbic D.</ce:indexed-name><ce:surname>Lavbič</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Lavbič D.</ce:indexed-name><ce:surname>Lavbič</ce:surname><ce:given-name>Dejan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/15769554200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>In this paper we employ Rapid Ontology Development approach (ROD) with constant evaluation of steps in the process of ontology construction for development of Financial Instruments and Trading Strategies (FITS) ontology. We show that ontology development process does not conclude with successful definition of schematic part of ontology but we continue with post development activities where additional axiomatic information and instances with dynamic imports from various sources are defined. The result is executable ontology as part of Semantic Web application that uses data from several semi structured sources. The overall process of construction is suitable for users without extensive technical and programming skills and those users are rather experts in the problem domain. © 2011 Springer-Verlag.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/79960354496" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=79960354496&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=79960354496&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="15769554200"><ce:initials>D.</ce:initials><ce:indexed-name>Lavbic D.</ce:indexed-name><ce:surname>Lavbič</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Lavbič D.</ce:indexed-name><ce:surname>Lavbič</ce:surname><ce:given-name>Dejan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/15769554200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6506526259"><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506526259</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>financial instruments</author-keyword><author-keyword>ontology</author-keyword><author-keyword>rapid ontology development</author-keyword><author-keyword>semantic web</author-keyword><author-keyword>trading strategies</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">financial instruments</mainterm><mainterm weight="a" candidate="n">Ontology construction</mainterm><mainterm weight="a" candidate="n">Ontology development</mainterm><mainterm weight="a" candidate="n">Post-development</mainterm><mainterm weight="a" candidate="n">Problem domain</mainterm><mainterm weight="a" candidate="n">Programming skills</mainterm><mainterm weight="a" candidate="n">Rapid development</mainterm><mainterm weight="a" candidate="n">rapid ontology development</mainterm><mainterm weight="a" candidate="n">Semantic web applications</mainterm><mainterm weight="a" candidate="n">Semi-structured sources</mainterm><mainterm weight="a" candidate="n">Trading strategies</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area><subject-area code="2600" abbrev="MATH">Mathematics (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="22" month="03" timestamp="2019-03-22T02:11:14.000014-04:00" year="2019"/><ait:date-sort day="20" month="07" year="2011"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2011 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-642-22170-5_21</ce:doi>
+                    <itemid idtype="PUI">362143367</itemid>
+                    <itemid idtype="CPX">20112914158081</itemid>
+                    <itemid idtype="SCP">79960354496</itemid>
+                    <itemid idtype="SGR">79960354496</itemid>
+                </itemidlist><history>
+                    <date-created day="20" month="07" year="2011"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">financial instruments</author-keyword>
+                        <author-keyword xml:lang="eng">ontology</author-keyword>
+                        <author-keyword xml:lang="eng">rapid ontology development</author-keyword>
+                        <author-keyword xml:lang="eng">semantic web</author-keyword>
+                        <author-keyword xml:lang="eng">trading strategies</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Rapid development of executable ontology for financial instruments and trading strategies</titletext></citation-title><author-group><author auid="15769554200" seq="1"><ce:initials>D.</ce:initials><ce:indexed-name>Lavbic D.</ce:indexed-name><ce:surname>Lavbič</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Lavbič D.</ce:indexed-name>
+                            <ce:surname>Lavbič</ce:surname>
+                            <ce:given-name>Dejan</ce:given-name>
+                        </preferred-name></author><author auid="6506526259" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Bajec M.</ce:indexed-name>
+                            <ce:surname>Bajec</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>Ljubljana 1000</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>D.</ce:initials>
+                        <ce:indexed-name>Lavbic D.</ce:indexed-name>
+                        <ce:surname>Lavbič</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>Ljubljana 1000</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>In this paper we employ Rapid Ontology Development approach (ROD) with constant evaluation of steps in the process of ontology construction for development of Financial Instruments and Trading Strategies (FITS) ontology. We show that ontology development process does not conclude with successful definition of schematic part of ontology but we continue with post development activities where additional axiomatic information and instances with dynamic imports from various sources are defined. The result is executable ontology as part of Semantic Web application that uses data from several semi structured sources. The overall process of construction is suitable for users without extensive technical and programming skills and those users are rather experts in the problem domain. © 2011 Springer-Verlag.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="17700155007" type="k"><sourcetitle>Communications in Computer and Information Science</sourcetitle><sourcetitle-abbrev>Commun. Comput. Info. Sci.</sourcetitle-abbrev><issuetitle>Software Engineering and Computer Systems - Second International Conference, ICSECS 2011, Proceedings</issuetitle><issn type="print">18650929</issn><isbn length="13" level="volume">9783642221699</isbn><volisspag>
+                        <voliss issue="PART 1" volume="179 CCIS"/>
+                        <pagerange first="232" last="243"/>
+                    </volisspag><publicationyear first="2011"/><publicationdate>
+                        <year>2011</year>
+                    <date-text xfab-added="true">2011</date-text></publicationdate><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>2nd International Conference on Software Engineering and Computer Systems, ICSECS 2011</confname>
+                                <conflocation country="mys">
+                                    <city-group>Kuantan</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="27" month="06" year="2011"/>
+                                    <enddate day="29" month="06" year="2011"/>
+                                </confdate>
+                                <confcode>85603</confcode>
+                                <confsponsors complete="y">
+                                    <confsponsor>Springer</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 3</procpartno>
+                                <procpagerange>var.pagings</procpagerange>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>943</classification-code>
+                                 
+                                <classification-description>Mechanical and Miscellaneous Measuring Instruments</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>942</classification-code>
+                                 
+                                <classification-description>Electric and Electronic Measuring Instruments</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>941</classification-code>
+                                 
+                                <classification-description>Acoustical and Optical Measuring Instruments</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>903.2</classification-code>
+                                 
+                                <classification-description>Information Dissemination</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>944</classification-code>
+                                 
+                                <classification-description>Moisture, Pressure and Temperature; Radiation Measuring Instruments</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>903</classification-code>
+                                 
+                                <classification-description>Information Science</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>723.1</classification-code>
+                                 
+                                <classification-description>Computer Programming</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>723</classification-code>
+                                 
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>722.2</classification-code>
+                                 
+                                <classification-description>Computer Peripheral Equipment</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>902.3</classification-code>
+                                 
+                                <classification-description>Legal Aspects</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="GEOCLASS">
+                            <classification>
+                                 
+                                <classification-code>Related Topics</classification-code>
+                                 
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1700</classification>
+                            <classification>2600</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="23">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A system for facilitating and enhancing web search</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79551664869</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Staab S.</ce:indexed-name>
+                                    <ce:surname>Staab</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Braun C.</ce:indexed-name>
+                                    <ce:surname>Braun</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bruder I.</ce:indexed-name>
+                                    <ce:surname>Bruder</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Duesterhoeft A.</ce:indexed-name>
+                                    <ce:surname>Duesterhoeft</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Heuer A.</ce:indexed-name>
+                                    <ce:surname>Heuer</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Klettke M.</ce:indexed-name>
+                                    <ce:surname>Klettke</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Neumann G.</ce:indexed-name>
+                                    <ce:surname>Neumann</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Prager B.</ce:indexed-name>
+                                    <ce:surname>Prager</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pretzel J.</ce:indexed-name>
+                                    <ce:surname>Pretzel</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>H.P.</ce:initials>
+                                    <ce:indexed-name>Schnurr H.P.</ce:indexed-name>
+                                    <ce:surname>Schnurr</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Studer R.</ce:indexed-name>
+                                    <ce:surname>Studer</ce:surname>
+                                </author>
+                                <author seq="12">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Uszkoreit H.</ce:indexed-name>
+                                    <ce:surname>Uszkoreit</ce:surname>
+                                </author>
+                                <author seq="13">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Wrenger B.</ce:indexed-name>
+                                    <ce:surname>Wrenger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Working Conference on Artificial and Natural Neural Networks: Engineering Applications of Bio-Inspired Artificial Neural Networks, IWANN 1999</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>Staab, S., Braun, C., Bruder, I., Duesterhoeft, A., Heuer, A., Klettke, M., Neumann, G., Prager, B., Pretzel, J., Schnurr, H.P., Studer, R., Uszkoreit, H., Wrenger, B. (eds.)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Staab, S., Braun, C., Bruder, I., Duesterhoeft, A., Heuer, A., Klettke, M., Neumann, G., Prager, B., Pretzel, J., Schnurr, H.P., Studer, R., Uszkoreit, H., Wrenger, B.: A system for facilitating and enhancing web search. In: Staab, S., Braun, C., Bruder, I., Duesterhoeft, A., Heuer, A., Klettke, M., Neumann, G., Prager, B., Pretzel, J., Schnurr, H.P., Studer, R., Uszkoreit, H., Wrenger, B. (eds.) International Working Conference on Artificial and Natural Neural Networks: Engineering Applications of Bio-Inspired Artificial Neural Networks, IWANN 1999 (1999)</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84889468312</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Davies J.</ce:indexed-name>
+                                    <ce:surname>Davies</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Studer R.</ce:indexed-name>
+                                    <ce:surname>Studer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Warren P.</ce:indexed-name>
+                                    <ce:surname>Warren</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Semantic Web Technologies - Trends and Research in Ontology-based Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>John Wiley &amp; Sons, Chichester</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Davies, J., Studer, R., Warren, P.: Semantic Web technologies - trends and research in ontology-based systems. John Wiley &amp; Sons, Chichester (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mediators in the architecture of future information systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026836188</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Wiederhold G.</ce:indexed-name>
+                                    <ce:surname>Wiederhold</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Computer</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss volume="25"/>
+                                <pagerange first="38" last="49"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wiederhold, G.: Mediators in the architecture of future information systems. IEEE Computer 25, 38-49 (1992)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Searching the web with SHOE</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002739539</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Heflin J.</ce:indexed-name>
+                                    <ce:surname>Heflin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hendler J.</ce:indexed-name>
+                                    <ce:surname>Hendler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence for Web Search</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="36" last="40"/>
+                            </ref-volisspag>
+                            <ref-text>AAAI Press, Menlo Park</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Heflin, J., Hendler, J.: Searching the web with SHOE. In: Artificial Intelligence for Web Search, pp. 36-40. AAAI Press, Menlo Park (2000)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Reusing ontological knowledge about business process in IS engineering: Process configuration problem</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">37549001780</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Ciuksys D.</ce:indexed-name>
+                                    <ce:surname>Ciuksys</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Caplinskas A.</ce:indexed-name>
+                                    <ce:surname>Caplinskas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Informatica</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="585" last="602"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ciuksys, D., Caplinskas, A.: Reusing ontological knowledge about business process in IS engineering: process configuration problem. Informatica 18, 585-602 (2007)</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003540407</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Schreiber G.</ce:indexed-name>
+                                    <ce:surname>Schreiber</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Akkermans H.</ce:indexed-name>
+                                    <ce:surname>Akkermans</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Anjewierden A.</ce:indexed-name>
+                                    <ce:surname>Anjewierden</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>De Hoog R.</ce:indexed-name>
+                                    <ce:surname>De Hoog</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Shadbolt N.</ce:indexed-name>
+                                    <ce:surname>Shadbolt</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Van De Velde W.</ce:indexed-name>
+                                    <ce:surname>Van De Velde</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Wielinga B.</ce:indexed-name>
+                                    <ce:surname>Wielinga</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge Engineering and Management - The CommonKADS Methodology</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>The MIT Press, Cambridge</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Schreiber, G., Akkermans, H., Anjewierden, A., de Hoog, R., Shadbolt, N., van de Velde, W., Wielinga, B.: Knowledge engineering and management - The CommonKADS methodology. The MIT Press, Cambridge (1999)</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards a methodology for building ontologies</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038635074</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Uschold M.</ce:indexed-name>
+                                    <ce:surname>Uschold</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>King M.</ce:indexed-name>
+                                    <ce:surname>King</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Workshop on Basic Ontological Issues in Knowledge Sharing (IJCAI 1995), Montreal, Canada (1995)</ref-sourcetitle>
+                        </ref-info>
+                        <ref-fulltext>Uschold, M., King, M.: Towards a methodology for building ontologies. In: Workshop on Basic Ontological Issues in Knowledge Sharing (IJCAI 1995), Montreal, Canada (1995)</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Building a chemical ontology using methontology and the ontology design environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032715478</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Fernandez-Lopez M.</ce:indexed-name>
+                                    <ce:surname>Fernandez-Lopez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gomez-Perez A.</ce:indexed-name>
+                                    <ce:surname>Gomez-Perez</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.P.</ce:initials>
+                                    <ce:indexed-name>Sierra J.P.</ce:indexed-name>
+                                    <ce:surname>Sierra</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.P.</ce:initials>
+                                    <ce:indexed-name>Sierra A.P.</ce:indexed-name>
+                                    <ce:surname>Sierra</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Intelligent Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Fernandez-Lopez, M., Gomez-Perez, A., Sierra, J.P., Sierra, A.P.: Building a chemical ontology using methontology and the ontology design environment. Intelligent Systems 14 (1999)</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ontologies: Principles, methods and applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030166318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Uschold M.</ce:indexed-name>
+                                    <ce:surname>Uschold</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grueninger M.</ce:indexed-name>
+                                    <ce:surname>Grueninger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge Sharing and Review</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Uschold, M., Grueninger, M.: Ontologies: principles, methods and applications. Knowledge Sharing and Review 11 (1996)</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Human centered ontology management with HCONE</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960374001</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Kotis K.</ce:indexed-name>
+                                    <ce:surname>Kotis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Vouros G.</ce:indexed-name>
+                                    <ce:surname>Vouros</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IJCAI 2003 Workshop on Ontologies and Distributed Systems (2003)</ref-sourcetitle>
+                        </ref-info>
+                        <ref-fulltext>Kotis, K., Vouros, G.: Human centered ontology management with HCONE. In: IJCAI 2003 Workshop on Ontologies and Distributed Systems (2003)</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Methodology, Tools &amp; Case Studies for Ontology based Knowledge Management</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">12444307636</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Sure Y.</ce:indexed-name>
+                                    <ce:surname>Sure</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Institute AIFB</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="332"/>
+                            </ref-volisspag>
+                            <ref-text>PhD. University of Karlsruhe</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Sure, Y.: Methodology, Tools &amp; Case Studies for Ontology based Knowledge Management. In: Institute AIFB, vol. 332, PhD. University of Karlsruhe (2003)</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Building an eProcurement ontology with UPON methodology</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960369482</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.D.</ce:initials>
+                                    <ce:indexed-name>Nicola A.D.</ce:indexed-name>
+                                    <ce:surname>Nicola</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Navigli R.</ce:indexed-name>
+                                    <ce:surname>Navigli</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Missikoff M.</ce:indexed-name>
+                                    <ce:surname>Missikoff</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>15th E-Challenges Conference, Ljubljana, Slovenia (2005)</ref-sourcetitle>
+                        </ref-info>
+                        <ref-fulltext>Nicola, A.D., Navigli, R., Missikoff, M.: Building an eProcurement ontology with UPON methodology. In: 15th e-Challenges Conference, Ljubljana, Slovenia (2005)</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960370863</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Vanderlinden E.</ce:indexed-name>
+                                    <ce:surname>Vanderlinden</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Finance Ontology</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                        </ref-info>
+                        <ref-fulltext>Vanderlinden, E.: Finance ontology (2011)</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A Common ontology for linguistic concepts</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960374430</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Farrar S.</ce:indexed-name>
+                                    <ce:surname>Farrar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Lewis W.</ce:indexed-name>
+                                    <ce:surname>Lewis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Langendoen T.</ce:indexed-name>
+                                    <ce:surname>Langendoen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge Technologies Conference, USA, Seattle (2002)</ref-sourcetitle>
+                        </ref-info>
+                        <ref-fulltext>Farrar, S., Lewis, W., Langendoen, T.: A Common ontology for linguistic concepts. In: Knowledge Technologies Conference, USA, Seattle (2002)</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Building an Ontology for Financial Investment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84944039869</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhang Z.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Zhang C.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.S.</ce:initials>
+                                    <ce:indexed-name>Ong S.S.</ce:indexed-name>
+                                    <ce:surname>Ong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>LNCS</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="1983"/>
+                                <pagerange first="308" last="313"/>
+                            </ref-volisspag>
+                            <ref-text>Leung, K.-S., Chan, L., Meng, H. (eds.) IDEAL 2000. Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zhang, Z., Zhang, C., Ong, S.S.: Building an Ontology for Financial Investment. In: Leung, K.-S., Chan, L., Meng, H. (eds.) IDEAL 2000. LNCS, vol. 1983, pp. 308-313. Springer, Heidelberg (2000)</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An ontology for representing financial headline news</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955203847</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Mellouli S.</ce:indexed-name>
+                                    <ce:surname>Mellouli</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Bouslama F.</ce:indexed-name>
+                                    <ce:surname>Bouslama</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Akande A.</ce:indexed-name>
+                                    <ce:surname>Akande</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Web Semantics</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="8"/>
+                                <pagerange first="203" last="208"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mellouli, S., Bouslama, F., Akande, A.: An ontology for representing financial headline news. Journal of Web Semantics 8, 203-208 (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Vocabulary use in XML standards in the financial market domain</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77952623523</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Qin H.</ce:indexed-name>
+                                    <ce:surname>Qin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.D.</ce:initials>
+                                    <ce:indexed-name>Taffet M.D.</ce:indexed-name>
+                                    <ce:surname>Taffet</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge and Information Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="269" last="289"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Qin, H., Taffet, M.D.: Vocabulary use in XML standards in the financial market domain. Knowledge and Information Systems 6, 269-289 (2004)</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ontology-supported web service composition: An approach to service-oriented knowledge management in corporate financial services</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645509664</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Chen Y.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zhou L.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.S.</ce:initials>
+                                    <ce:indexed-name>Zhang D.S.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Database Management</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="17"/>
+                                <pagerange first="67" last="84"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chen, Y., Zhou, L., Zhang, D.S.: Ontology-supported web service composition: An approach to service-oriented knowledge management in corporate financial services. Journal of Database Management 17, 67-84 (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An ontology-based business intelligence application in a financial knowledge management system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56349149882</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Cheng H.</ce:indexed-name>
+                                    <ce:surname>Cheng</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.C.</ce:initials>
+                                    <ce:indexed-name>Lu Y.C.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Sheu C.</ce:indexed-name>
+                                    <ce:surname>Sheu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Expert Systems with Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="36"/>
+                                <pagerange first="3614" last="3622"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cheng, H., Lu, Y.C., Sheu, C.: An ontology-based business intelligence application in a financial knowledge management system. Expert Systems with Applications 36, 3614-3622 (2009)</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Semantic web technologies for economic and financial information management</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35048827840</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Castells P.</ce:indexed-name>
+                                    <ce:surname>Castells</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Foncillas B.</ce:indexed-name>
+                                    <ce:surname>Foncillas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Lara R.</ce:indexed-name>
+                                    <ce:surname>Lara</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Rico M.</ce:indexed-name>
+                                    <ce:surname>Rico</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Alonso J.L.</ce:indexed-name>
+                                    <ce:surname>Alonso</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>LNCS</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="3053"/>
+                                <pagerange first="473" last="487"/>
+                            </ref-volisspag>
+                            <ref-text>Bussler, C.J., Davies, J., Fensel, D., Studer, R. (eds.) ESWS 2004. Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Castells, P., Foncillas, B., Lara, R., Rico, M., Alonso, J.L.: Semantic web technologies for economic and financial information management. In: Bussler, C.J., Davies, J., Fensel, D., Studer, R. (eds.) ESWS 2004. LNCS, vol. 3053, pp. 473-487. Springer, Heidelberg (2004)</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Design and Development of Financial applications using ontology-based Multi-Agent Systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">74049093217</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Ying W.</ce:indexed-name>
+                                    <ce:surname>Ying</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sujanani A.</ce:indexed-name>
+                                    <ce:surname>Sujanani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ray P.</ce:indexed-name>
+                                    <ce:surname>Ray</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Paramesh N.</ce:indexed-name>
+                                    <ce:surname>Paramesh</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Lee D.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Bhar R.</ce:indexed-name>
+                                    <ce:surname>Bhar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computing and Informatics</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="28"/>
+                                <pagerange first="635" last="654"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ying, W., Sujanani, A., Ray, P., Paramesh, N., Lee, D., Bhar, R.: Design and Development of Financial applications using ontology-based Multi-Agent Systems. Computing and Informatics 28, 635-654 (2009)</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Facilitating Ontology development with continuous evaluation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79551680224</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Lavbic D.</ce:indexed-name>
+                                    <ce:surname>Lavbič</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Krisper M.</ce:indexed-name>
+                                    <ce:surname>Krisper</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Informatica</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="21"/>
+                                <pagerange first="533" last="552"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lavbič, D., Krisper, M.: Facilitating Ontology development with continuous evaluation. Informatica 21, 533-552 (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>OWL rules: A proposal and prototype implementation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">21244467061</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Horrocks I.</ce:indexed-name>
+                                    <ce:surname>Horrocks</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.F.</ce:initials>
+                                    <ce:indexed-name>Patel-Schneider P.F.</ce:indexed-name>
+                                    <ce:surname>Patel-Schneider</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bechhofer S.</ce:indexed-name>
+                                    <ce:surname>Bechhofer</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Tsarkov D.</ce:indexed-name>
+                                    <ce:surname>Tsarkov</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Web Semantics</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="23" last="40"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Horrocks, I., Patel-Schneider, P.F., Bechhofer, S., Tsarkov, D.: OWL rules: A proposal and prototype implementation. Journal of Web Semantics 3, 23-40 (2005)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

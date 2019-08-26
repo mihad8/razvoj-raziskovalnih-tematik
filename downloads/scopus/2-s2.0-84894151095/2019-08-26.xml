@@ -1,0 +1,224 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84894151095</prism:url><dc:identifier>SCOPUS_ID:84894151095</dc:identifier><eid>2-s2.0-84894151095</eid><prism:doi>10.3233/978-1-58603-891-5-897</prism:doi><dc:title>LRTA* works much better with pessimistic heuristics</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>Frontiers in Artificial Intelligence and Applications</prism:publicationName><dc:publisher>
+                        IOS Press
+                        
+                            Nieuwe Hemweg 6B
+                            Amsterdam
+                            1013 BG
+                        
+                    </dc:publisher><source-id>19500157321</source-id><prism:isbn>978158603891</prism:isbn><prism:issn>09226389</prism:issn><prism:volume>178</prism:volume><prism:startingPage>897</prism:startingPage><prism:endingPage>898</prism:endingPage><prism:pageRange>897-898</prism:pageRange><prism:coverDate>2008-06-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="55883901600"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55883901600</author-url></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2008 The authors and IOS Press. All rights reserved.</publishercopyright>
+                        <ce:para>Recently we showed that under very reasonable conditions, incomplete, real-time search methods like RTA* work better with pessimistic heuristic functions than with optimistic, admissible heuristic functions of equal quality. The use of pessimistic heuristic functions results in higher percentage of correct decisions and in shorter solution lengths. We extend this result to learning RTA* (LRTA*) and demonstrate that the use of pessimistic instead of optimistic (or mixed) heuristic functions of equal quality results in much faster learning process at the cost of just marginally worse quality of converged solutions.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84894151095" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84894151095&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84894151095&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55883901600"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55883901600</author-url></author><author seq="2" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Heuristic functions</mainterm><mainterm weight="b" candidate="n">Learning process</mainterm><mainterm weight="b" candidate="n">Real-time searches</mainterm></idxterms><subject-areas><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-30T23:32:51Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>ARRS</xocs:funding-agency-matched-string><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This work was partly funded by ARRS, Slovenian Research Agency.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="12" month="10" timestamp="2018-10-12T03:29:58.000058-04:00" year="2018"/><ait:date-sort day="01" month="06" year="2008"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.3233/978-1-58603-891-5-897</ce:doi>
+                    <itemid idtype="PUI">623567628</itemid>
+                    <itemid idtype="CAR-ID">912322942</itemid>
+                    <itemid idtype="CPX">20183505743936</itemid>
+                    <itemid idtype="SCOPUS">20182539636</itemid>
+                    <itemid idtype="SCP">84894151095</itemid>
+                    <itemid idtype="SGR">84894151095</itemid>
+                </itemidlist><history>
+                    <date-created day="10" month="10" timestamp="BST 13:54:47" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">LRTA* works much better with pessimistic heuristics</titletext></citation-title><author-group><author auid="7003286588" seq="2" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Bratko I.</ce:indexed-name>
+                            <ce:surname>Bratko</ce:surname>
+                            <ce:given-name>Ivan</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580932"><organization>Artificial Intelligence Laboratory</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106" dptid="104580932"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55883901600" seq="1" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                            <ce:surname>Sadikov</ce:surname>
+                            <ce:given-name>Aleksander</ce:given-name>
+                        </preferred-name></author></author-group><grantlist complete="y"><grant>
+                        <grant-acronym>ARRS</grant-acronym>
+                        <grant-agency iso-code="svn">Javna Agencija za Raziskovalno Dejavnost RS</grant-agency>
+                        <grant-agency-id>501100004329</grant-agency-id>
+                    </grant><grant-text xml:lang="eng">This work was partly funded by ARRS, Slovenian Research Agency.</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2008 The authors and IOS Press. All rights reserved.</publishercopyright>
+                        <ce:para>Recently we showed that under very reasonable conditions, incomplete, real-time search methods like RTA* work better with pessimistic heuristic functions than with optimistic, admissible heuristic functions of equal quality. The use of pessimistic heuristic functions results in higher percentage of correct decisions and in shorter solution lengths. We extend this result to learning RTA* (LRTA*) and demonstrate that the use of pessimistic instead of optimistic (or mixed) heuristic functions of equal quality results in much faster learning process at the cost of just marginally worse quality of converged solutions.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="19500157321" type="k"><sourcetitle>Frontiers in Artificial Intelligence and Applications</sourcetitle><sourcetitle-abbrev>Front. Artif. Intell. Appl.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Frontiers in Artificial Intelligence and Applications</translated-sourcetitle><issn type="print">09226389</issn><isbn length="13" level="volume" type="print">978158603891</isbn><volisspag>
+                        <voliss volume="178"/>
+                        <pagerange first="897" last="898"/>
+                    </volisspag><publicationyear first="2008"/><publicationdate>
+                        <year>2008</year>
+                        <month>06</month>
+                        <day>01</day>
+                        <date-text>June 2008</date-text>
+                    </publicationdate><website>
+                        <ce:e-address type="email">http://www.iospress.nl/loadtop/load.php?isbn=19057415</ce:e-address>
+                    </website><publisher>
+                        <publishername>IOS Press</publishername>
+                        <affiliation country="nld">
+                            <address-part>Nieuwe Hemweg 6B</address-part>
+                            <city>Amsterdam</city>
+                            <postal-code>1013 BG</postal-code>
+                        </affiliation>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>18th European Conference on Artificial Intelligence, ECAI 2008</confname>
+                                <confseriestitle>European Conference on Artificial Intelligence</confseriestitle>
+                                <conflocation country="grc">
+                                    <city>Patras</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="21" month="07" year="2008"/>
+                                    <enddate day="25" month="07" year="2008"/>
+                                </confdate>
+                                <confcode>139245</confcode>
+                                <confsponsors complete="y">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723.1</classification-code>
+                                <classification-description>Computer Programming</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921.5</classification-code>
+                                <classification-description>Optimization Techniques</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="5">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Speeding up the convergence of real-time search</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003038009</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Furcy D.</ce:indexed-name>
+                                    <ce:surname>Furcy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Koenig S.</ce:indexed-name>
+                                    <ce:surname>Koenig</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The Seventeenth National Conference on Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="891" last="897"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>David Furcy and Sven Koenig, ‘Speeding up the convergence of real-time search’, in Proceedings of the Seventeenth National Conference on Artificial Intelligence, pp. 891–897, (2000).</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Depth-first iterative deepening: An optimal admissible tree search</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0022129301</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.E.</ce:initials>
+                                    <ce:indexed-name>Korf R.E.</ce:indexed-name>
+                                    <ce:surname>Korf</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1985"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="27"/>
+                                <pagerange first="97" last="109"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Richard E. Korf, ‘Depth-first iterative deepening: An optimal admissible tree search’, Artificial Intelligence, 27(1), 97–109, (1985).</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time heuristic search</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025400088</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.E.</ce:initials>
+                                    <ce:indexed-name>Korf R.E.</ce:indexed-name>
+                                    <ce:surname>Korf</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss issue="2-3" volume="42"/>
+                                <pagerange first="189" last="211"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Richard E. Korf, ‘Real-time heuristic search’, Artificial Intelligence, 42(2-3), 189–211, (1990).</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Pessimistic heuristics beat optimistic ones in real-time search</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84886007854</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The Seventeenth European Conference on Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="148" last="152"/>
+                            </ref-volisspag>
+                            <ref-text>Gerhard Brewka,. Riva di Garda, Italy, August</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Aleksander Sadikov and Ivan Bratko, ‘Pessimistic heuristics beat optimistic ones in real-time search’, in Proceedings of the Seventeenth European Conference on Artificial Intelligence, ed., Gerhard Brewka, pp. 148–152, Riva di Garda, Italy, (August 2006).</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Controlling the learning process of real-time heuristic search</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037405586</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Shimbo M.</ce:indexed-name>
+                                    <ce:surname>Shimbo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ishida T.</ce:indexed-name>
+                                    <ce:surname>Ishida</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="146"/>
+                                <pagerange first="1" last="41"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Masashi Shimbo and Toru Ishida, ‘Controlling the learning process of real-time heuristic search’, Artificial Intelligence, 146(1), 1–41, (2003).</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,457 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84920544177</prism:url><dc:identifier>SCOPUS_ID:84920544177</dc:identifier><eid>2-s2.0-84920544177</eid><dc:title>Visualization and concept drift detection using explanations of incremental models</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Informatica (Slovenia)</prism:publicationName><dc:publisher>
+                        Slovene Society Informatika
+                        
+                            Jamova 39
+                            Ljubljana
+                            61000
+                        
+                    </dc:publisher><source-id>25507</source-id><prism:issn>03505596</prism:issn><prism:volume>38</prism:volume><prism:issueIdentifier>4</prism:issueIdentifier><prism:startingPage>321</prism:startingPage><prism:endingPage>328</prism:endingPage><prism:pageRange>321-328</prism:pageRange><prism:coverDate>2014-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The temporal dimension that is ever more prevalent in data makes data stream mining (incremental learning) an important field of machine learning. In addition to accurate predictions, explanations of the models and examples are a crucial component as they provide insight into model's decision and lessen its black box nature, thus increasing the user's trust. Proper visual representation of data is also very relevant to user's understanding - visualization is often utilised in machine learning since it shifts the balance between perception and cognition to take fuller advantage of the brain's abilities. In this paper we review visualisation in incremental setting and devise an improved version of an existing visualisation of explanations of incremental models. Additionally, we discuss the detection of concept drift in data streams and experiment with a novel detection method that uses the stream of model's explanations to determine the places of change in the data domain.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84920544177" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84920544177&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84920544177&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="23566763400"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnić Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23566763400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="57188535146"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188535146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Concept drift detection</author-keyword><author-keyword>Data stream mining</author-keyword><author-keyword>Visual perception</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Accurate prediction</mainterm><mainterm weight="b" candidate="n">Concept drifts</mainterm><mainterm weight="b" candidate="n">Data stream mining</mainterm><mainterm weight="b" candidate="n">Incremental learning</mainterm><mainterm weight="b" candidate="n">Perception and cognition</mainterm><mainterm weight="b" candidate="n">Temporal dimensions</mainterm><mainterm weight="b" candidate="n">Visual perception</mainterm><mainterm weight="b" candidate="n">Visual representations</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="19" month="10" timestamp="2018-10-19T08:47:22.000022-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">601152884</itemid>
+                    <itemid idtype="CAR-ID">631228561</itemid>
+                    <itemid idtype="CPX">20150200413346</itemid>
+                    <itemid idtype="SCP">84920544177</itemid>
+                    <itemid idtype="SGR">84920544177</itemid>
+                </itemidlist><history>
+                    <date-created day="13" month="01" year="2015"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Concept drift detection</author-keyword>
+                        <author-keyword xml:lang="eng">Data stream mining</author-keyword>
+                        <author-keyword xml:lang="eng">Visual perception</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Visualization and concept drift detection using explanations of incremental models</titletext></citation-title><author-group><author auid="55075851300" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Demšar J.</ce:indexed-name>
+                            <ce:surname>Demšar</ce:surname>
+                            <ce:given-name>Jaka</ce:given-name>
+                        </preferred-name></author><author auid="23566763400" seq="2" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Bosnić Z.</ce:indexed-name>
+                            <ce:surname>Bosnić</ce:surname>
+                            <ce:given-name>Zoran</ce:given-name>
+                        </preferred-name></author><author auid="57188535146" seq="3" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                            <ce:surname>Kononenko</ce:surname>
+                            <ce:given-name>Igor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>J.</ce:initials>
+                        <ce:indexed-name>Demsar J.</ce:indexed-name>
+                        <ce:surname>Demšar</ce:surname>
+                        <ce:given-name>Jaka</ce:given-name>
+                    </person><affiliation country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The temporal dimension that is ever more prevalent in data makes data stream mining (incremental learning) an important field of machine learning. In addition to accurate predictions, explanations of the models and examples are a crucial component as they provide insight into model's decision and lessen its black box nature, thus increasing the user's trust. Proper visual representation of data is also very relevant to user's understanding - visualization is often utilised in machine learning since it shifts the balance between perception and cognition to take fuller advantage of the brain's abilities. In this paper we review visualisation in incremental setting and devise an improved version of an existing visualisation of explanations of incremental models. Additionally, we discuss the detection of concept drift in data streams and experiment with a novel detection method that uses the stream of model's explanations to determine the places of change in the data domain.</ce:para>
+                    </abstract></abstracts><source country="svn" srcid="25507" type="j"><sourcetitle>Informatica (Slovenia)</sourcetitle><sourcetitle-abbrev>Informatica</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Informatica (Ljubljana)</translated-sourcetitle><issn type="print">03505596</issn><codencode>INFOF</codencode><volisspag>
+                        <voliss issue="4" volume="38"/>
+                        <pagerange first="321" last="328"/>
+                    </volisspag><publicationyear first="2014"/><publicationdate>
+                        <year>2014</year>
+                    <date-text xfab-added="true">2014</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.informatica.si/PDF/38-4/12_Demsar%20-%20Visualization%20and%20concept%20drift%20detection%20using%20explanations%20of%20incremental%20models.pdf</ce:e-address>
+                    </website><publisher>
+                        <publishername>Slovene Society Informatika</publishername>
+                        <affiliation country="svn">
+                            <address-part>Jamova 39</address-part>
+                            <city>Ljubljana</city>
+                            <postal-code>61000</postal-code>
+                        </affiliation>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>716</classification-code>
+                                <classification-description>Electronic Equipment, Radar, Radio and Television</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>717</classification-code>
+                                <classification-description>Electro-Optical Communication</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>718</classification-code>
+                                <classification-description>Telephone and Other Line Communications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>902.1</classification-code>
+                                <classification-description>Engineering Graphics</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>2614</classification>
+                            <classification>1706</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="13">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84856426258</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Bifet A.</ce:indexed-name>
+                                    <ce:surname>Bifet</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Holmes G.</ce:indexed-name>
+                                    <ce:surname>Holmes</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kirkby R.</ce:indexed-name>
+                                    <ce:surname>Kirkby</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Pfahringer B.</ce:indexed-name>
+                                    <ce:surname>Pfahringer</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Braun M.</ce:indexed-name>
+                                    <ce:surname>Braun</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Moa: Massive Online Analysis</ref-sourcetitle>
+                        </ref-info>
+                        <ref-fulltext>A. Bifet, G. Holmes, R. Kirkby, B. Pfahringer, and Braun M. Moa: Massive online analysis.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84920523043</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Explanation of Predictive Models and Individual Predictions in Incremental Learning (in Slovene)</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-text>B.S. Thesis, Univerza v Ljubljani</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Demšar. Explanation of predictive models and individual predictions in incremental learning (in slovene). B.S. Thesis, Univerza v Ljubljani, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955027735</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Few S.</ce:indexed-name>
+                                    <ce:surname>Few</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Now You See It: Simple Visualization Techniques for Quantitative Analysis</ref-sourcetitle>
+                            <ref-text>Analytics Press, USA, 1st edition, 2009</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Few. Now You See It: Simple Visualization Techniques for Quantitative Analysis. Analytics Press, USA, 1st edition, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85020715458</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge Discovery from Data Streams</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Chapman &amp; Hall/CRC, 1st edition</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Gama. Knowledge Discovery from Data Streams. Chapman &amp; Hall/CRC, 1st edition, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">29344431628</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Haussler D.</ce:indexed-name>
+                                    <ce:surname>Haussler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Overview of the Probably Approximately Correct (Pac) Learning Framework</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                        </ref-info>
+                        <ref-fulltext>D. Haussler. Overview of the probably approximately correct (pac) learning framework, 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Themeriver: Visualizing theme changes over time</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034505662</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Havre S.</ce:indexed-name>
+                                    <ce:surname>Havre</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Hetzler B.</ce:indexed-name>
+                                    <ce:surname>Hetzler</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Nowell L.</ce:indexed-name>
+                                    <ce:surname>Nowell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE Symposium on Information Visualization</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="115" last="123"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Havre, B. Hetzler, and L. Nowell. Themeriver: Visualizing theme changes over time. In Proc. IEEE Symposium on Information Visualization, pages 115- 123, 2000.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Change blindness in information visualization: A case study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035197753</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Nowell L.</ce:indexed-name>
+                                    <ce:surname>Nowell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Hetzler E.</ce:indexed-name>
+                                    <ce:surname>Hetzler</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Tanasse T.</ce:indexed-name>
+                                    <ce:surname>Tanasse</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Information Visualization, 2001. INFOVIS 2001. IEEE Symposium on</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="15" last="22"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. Nowell, E. Hetzler, and T. Tanasse. Change blindness in information visualization: a case study. In Information Visualization, 2001. INFOVIS 2001. IEEE Symposium on, pages 15-22, 2001.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Continuous inspection schemes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002916530</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.S.</ce:initials>
+                                    <ce:indexed-name>Page E.S.</ce:indexed-name>
+                                    <ce:surname>Page</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biometrika</ref-sourcetitle>
+                            <ref-publicationyear first="1954"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="41"/>
+                                <pagerange first="100" last="115"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. S. Page. Continuous inspection schemes. Biometrika, 41(1):100-115, 1954.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mining time series data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052682880</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Gunopulos D.</ce:indexed-name>
+                                    <ce:surname>Gunopulos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Keogh E.</ce:indexed-name>
+                                    <ce:surname>Keogh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Vlachos M.</ce:indexed-name>
+                                    <ce:surname>Vlachos</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Das G.</ce:indexed-name>
+                                    <ce:surname>Das</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Ratanamahatana C.A.</ce:indexed-name>
+                                    <ce:surname>Ratanamahatana</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lin J.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Mining and Knowledge Discovery Handbook</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="1049" last="1077"/>
+                            </ref-volisspag>
+                            <ref-text>Springer US</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Gunopulos D. Keogh E. Vlachos M. Das G. Ratanamahatana C.A., Lin J. Mining time series data. In Data Mining and Knowledge Discovery Handbook, pages 1049-1077. Springer US, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A study on change detection methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84894144376</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sebastiao R.</ce:indexed-name>
+                                    <ce:surname>Sebastião</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Progress in Artificial Intelligence, 14th Portuguese Conference on Artificial Intelligence, EPIA 2009</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="353" last="264"/>
+                            </ref-volisspag>
+                            <ref-text>Aveiro, Portugal, October 12-15, 2009. Proceedings, Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Sebastião and J. Gama. A study on change detection methods. In Progress in Artificial Intelligence, 14th Portuguese Conference on Artificial Intelligence, EPIA 2009, Aveiro, Portugal, October 12-15, 2009. Proceedings, pages 353-264. Springer, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A streaming ensemble algorithm (sea) for large-scale classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035788947</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Nick Street W.</ce:indexed-name>
+                                    <ce:surname>Nick Street</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Kim Y.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD '01</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="377" last="382"/>
+                            </ref-volisspag>
+                            <ref-text>New York, NY, USA, ACM.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W. Nick Street and Y. Kim. A streaming ensemble algorithm (sea) for large-scale classification. In Proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining, KDD '01, pages 377-382, New York, NY, USA, 2001. ACM.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An efficient explanation of individual classifications using game theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">76749170318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1" last="18"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Štrumbelj and I. Kononenko. An efficient explanation of individual classifications using game theory. The Journal of Machine Learning Research, 11:1-18, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining instance classifications with interactions of subsets of feature values</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">69249209926</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik Šikonja</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Knowl. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="68"/>
+                                <pagerange first="886" last="904"/>
+                            </ref-volisspag>
+                            <ref-text>October</ref-text>
+                        </ref-info>
+                        <ref-fulltext>E. Štrumbelj, I. Kononenko, and M. Robnik Šikonja. Explaining instance classifications with interactions of subsets of feature values. Data Knowl. Eng., 68(10):886-904, October 2009.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

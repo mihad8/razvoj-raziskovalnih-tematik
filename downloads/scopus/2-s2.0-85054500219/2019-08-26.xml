@@ -1,0 +1,1327 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85054500219</prism:url><dc:identifier>SCOPUS_ID:85054500219</dc:identifier><eid>2-s2.0-85054500219</eid><prism:doi>10.1109/IWOBI.2018.8464214</prism:doi><article-number>8464214</article-number><dc:title>Selective Face Deidentification with End-to-End Perceptual Loss Learning</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>2018 IEEE International Work Conference on Bioinspired Intelligence, IWOBI 2018 - Proceedings</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>21100880176</source-id><prism:isbn>9781538675069</prism:isbn><prism:coverDate>2018-09-12</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57204111492"><ce:initials>B.</ce:initials><ce:indexed-name>Medcn B.</ce:indexed-name><ce:surname>Medcn</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Medcn B.</ce:indexed-name><ce:surname>Medcn</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204111492</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>Privacy is a highly debatable topic in the modern technological era. With the advent of massive video and image data (which in a lot of cases contains personal information on the recorded subjects), there is an imminent need for efficient privacy protection mechanisms. To this end, we develop in this work a novel Face Deidentification Network (FaDeNet) that is able to alter the input faces in such a way that automated recognition fail to recognize the subjects in the images, while this is still possible for human observers. FaDeNet is based an encoder-decoder architecture that is trained to auto-encode the input image, while (at the same time) minimizing the recognition performance of a secondary network that is used as an socalled identity critic in FaDeNet. We present experiments on the Radbound Faces Dataset and observe encouraging results.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85054500219" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85054500219&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85054500219&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57204111492"><ce:initials>B.</ce:initials><ce:indexed-name>Medcn B.</ce:indexed-name><ce:surname>Medcn</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Medcn B.</ce:indexed-name><ce:surname>Medcn</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204111492</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003277146"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003277146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="17347474600"><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Struc</ce:surname><ce:given-name>Vitomir</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Struc</ce:surname><ce:given-name>Vitomir</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/17347474600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Automated recognition</mainterm><mainterm weight="b" candidate="n">De-identification</mainterm><mainterm weight="b" candidate="n">Encoder-decoder architecture</mainterm><mainterm weight="b" candidate="n">Human observers</mainterm><mainterm weight="b" candidate="n">Input image</mainterm><mainterm weight="b" candidate="n">Personal information</mainterm><mainterm weight="b" candidate="n">Privacy protection</mainterm><mainterm weight="b" candidate="n">Secondary networks</mainterm></idxterms><subject-areas><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="2701" abbrev="MEDI">Medicine (miscellaneous)</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-04-01T01:39:25Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>NVIDIA Corporation</xocs:funding-agency-matched-string><xocs:funding-agency>Nvidia</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100007065</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>EU-ESRR</xocs:funding-agency-matched-string></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-id>P2-0250</xocs:funding-id><xocs:funding-id>P2-0214</xocs:funding-id><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>ARRS</xocs:funding-agency-matched-string><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>ACKNOWLEDGEMENTS This research was supported in parts by the ARRS (Slovenian Research Agency) Research Program P2-0250 (B) Metrology and Biometric Systems, the ARRS Research Program P2-0214 (A) Computer Vision, and the RS-MIZSˇ and EU-ESRR funded GOSTOP. We also gratefully acknowledge the support of NVIDIA Corporation with the donation of the Titan Xp GPU used for this research.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="13" month="10" timestamp="2018-10-13T12:02:06.000006-04:00" year="2018"/><ait:date-sort day="12" month="09" year="2018"/><ait:status stage="S300" state="new" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/IWOBI.2018.8464214</ce:doi>
+                    <itemid idtype="PUI">624217881</itemid>
+                    <itemid idtype="CAR-ID">913088171</itemid>
+                    <itemid idtype="CPX">20184105923107</itemid>
+                    <itemid idtype="SCP">85054500219</itemid>
+                    <itemid idtype="SGR">85054500219</itemid>
+                </itemidlist><history>
+                    <date-created day="11" month="10" timestamp="BST 03:15:51" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Selective Face Deidentification with End-to-End Perceptual Loss Learning</titletext></citation-title><author-group><author auid="57204111492" seq="1" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Medcn B.</ce:indexed-name><ce:surname>Medcn</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Medcn B.</ce:indexed-name>
+                            <ce:surname>Medcn</ce:surname>
+                            <ce:given-name>Blaz</ce:given-name>
+                        </preferred-name></author><author auid="7003277146" seq="2" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Peer P.</ce:indexed-name>
+                            <ce:surname>Peer</ce:surname>
+                            <ce:given-name>Peter</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580834"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><affiliation-id afid="60031106" dptid="104580834"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="17347474600" seq="3" type="auth"><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Struc</ce:surname><ce:given-name>Vitomir</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Struc V.</ce:indexed-name>
+                            <ce:surname>Struc</ce:surname>
+                            <ce:given-name>Vitomir</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="112085966"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><affiliation-id afid="60031106" dptid="112085966"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>Privacy is a highly debatable topic in the modern technological era. With the advent of massive video and image data (which in a lot of cases contains personal information on the recorded subjects), there is an imminent need for efficient privacy protection mechanisms. To this end, we develop in this work a novel Face Deidentification Network (FaDeNet) that is able to alter the input faces in such a way that automated recognition fail to recognize the subjects in the images, while this is still possible for human observers. FaDeNet is based an encoder-decoder architecture that is trained to auto-encode the input image, while (at the same time) minimizing the recognition performance of a secondary network that is used as an socalled identity critic in FaDeNet. We present experiments on the Radbound Faces Dataset and observe encouraging results.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100880176" type="p"><sourcetitle>2018 IEEE International Work Conference on Bioinspired Intelligence, IWOBI 2018 - Proceedings</sourcetitle><sourcetitle-abbrev>IEEE Int. Work Conf. Bioinspired Intell., IWOBI - Proc.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">2018 IEEE International Work Conference on Bioinspired Intelligence, IWOBI 2018 - Proceedings</translated-sourcetitle><issuetitle>2018 IEEE International Work Conference on Bioinspired Intelligence, IWOBI 2018 - Proceedings</issuetitle><isbn length="13" level="volume" type="print">9781538675069</isbn><article-number>8464214</article-number><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>09</month>
+                        <day>12</day>
+                    <date-text xfab-added="true">12 September 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8451008</ce:e-address>
+                    </website><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>2018 IEEE International Work Conference on Bioinspired Intelligence, IWOBI 2018</confname>
+                                <confseriestitle>IEEE International Work Conference on Bioinspired Intelligence</confseriestitle>
+                                <conflocation country="cri">
+                                    <venue>Instituto Tecnologico de Costa Rica</venue>
+                                    <city>San Carlos</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="18" month="07" year="2018"/>
+                                    <enddate day="20" month="07" year="2018"/>
+                                </confdate>
+                                <confcatnumber>CFP1899Z-ART</confcatnumber>
+                                <confcode>139802</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor>IEEE Costa Rica Section</confsponsor>
+                                    <confsponsor>The Institute of Electrical and Electronics Engineers</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1706</classification>
+                            <classification>2701</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MEDI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="31">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>U-net: Convolutional networks for biomedical image segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85028749445</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Ronneberger O.</ce:indexed-name>
+                                    <ce:surname>Ronneberger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Fischer P.</ce:indexed-name>
+                                    <ce:surname>Fischer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Brox T.</ce:indexed-name>
+                                    <ce:surname>Brox</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CoRR</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1505.04597</ce:e-address>
+                            </ref-website>
+                            <ref-text>abs/1505. 04597</ref-text>
+                        </ref-info>
+                        <ref-fulltext>O. Ronneberger, P. Fischer, and T. Brox, "U-net: Convolutional networks for biomedical image segmentation, " CoRR, vol. abs/1505. 04597, 2015. [Online]. Available: http://arxiv. org/abs/1505. 04597</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sserbc 2017: Sclera segmentation and eye recognition benchmarking competition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85046248048</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Das A.</ce:indexed-name>
+                                    <ce:surname>Das</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Pal U.</ce:indexed-name>
+                                    <ce:surname>Pal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.A.</ce:initials>
+                                    <ce:indexed-name>Ferrer M.A.</ce:indexed-name>
+                                    <ce:surname>Ferrer</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Blumenstein M.</ce:indexed-name>
+                                    <ce:surname>Blumenstein</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Stepec D.</ce:indexed-name>
+                                    <ce:surname>Stepec</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Rot P.</ce:indexed-name>
+                                    <ce:surname>Rot</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersic Z.</ce:indexed-name>
+                                    <ce:surname>Emeršic</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>S.V.A.</ce:initials>
+                                    <ce:indexed-name>Kumar S.V.A.</ce:indexed-name>
+                                    <ce:surname>Kumar</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>B.S.</ce:initials>
+                                    <ce:indexed-name>Harish B.S.</ce:indexed-name>
+                                    <ce:surname>Harish</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2017 IEEE International Joint Conference on Biometrics (IJCB)</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="742" last="747"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Das, U. Pal, M. A. Ferrer, M. Blumenstein, D. Stepec, P. Rot, Z. Emeršic, P. Peer, V. Struc, S. V. A. Kumar, and B. S. Harish, "Sserbc 2017: Sclera segmentation and eye recognition benchmarking competition, " in 2017 IEEE International Joint Conference on Biometrics (IJCB), Oct 2017, pp. 742-747.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Convolutional encoderdecoder networks for pixel-wise ear detection and segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85045624452</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersic Z.</ce:indexed-name>
+                                    <ce:surname>Emersic</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.L.</ce:initials>
+                                    <ce:indexed-name>Gabriel L.L.</ce:indexed-name>
+                                    <ce:surname>Gabriel</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IET Biometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="7"/>
+                                <pagerange first="175" last="184"/>
+                            </ref-volisspag>
+                            <ref-text>4</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Z. Emersic, L. L. Gabriel, V. Struc, and P. Peer, "Convolutional encoderdecoder networks for pixel-wise ear detection and segmentation, " IET Biometrics, vol. 7, no. 3, pp. 175-184, 4 2018.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rethinking the inception architecture for computer vision</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84986296808</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Szegedy C.</ce:indexed-name>
+                                    <ce:surname>Szegedy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vanhoucke V.</ce:indexed-name>
+                                    <ce:surname>Vanhoucke</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ioffe S.</ce:indexed-name>
+                                    <ce:surname>Ioffe</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Shlens J.</ce:indexed-name>
+                                    <ce:surname>Shlens</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Wojna Z.</ce:indexed-name>
+                                    <ce:surname>Wojna</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="2818" last="2826"/>
+                            </ref-volisspag>
+                            <ref-text>June</ref-text>
+                        </ref-info>
+                        <ref-fulltext>C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens, and Z. Wojna, "Rethinking the inception architecture for computer vision, " in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2016, pp. 2818-2826.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>De-identification for privacy protection in multimedia content: A survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84974716062</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ribaric S.</ce:indexed-name>
+                                    <ce:surname>Ribaric</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ariyaeeinia A.</ce:indexed-name>
+                                    <ce:surname>Ariyaeeinia</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Pavesic N.</ce:indexed-name>
+                                    <ce:surname>Pavesic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Signal Processing: Image Communication</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="47"/>
+                                <pagerange first="131" last="151"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.sciencedirect.com/science/article/pii/S0923596516300856</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>S. Ribaric, A. Ariyaeeinia, and N. Pavesic, "De-identification for privacy protection in multimedia content: A survey, " Signal Processing: Image Communication, vol. 47, pp. 131-151, 2016. [Online]. Available: http://www. sciencedirect. com/science/article/pii/S0923596516300856</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The effects of filtered video on awareness and privacy</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034448411</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Boyle M.</ce:indexed-name>
+                                    <ce:surname>Boyle</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Edwards C.</ce:indexed-name>
+                                    <ce:surname>Edwards</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Greenberg S.</ce:indexed-name>
+                                    <ce:surname>Greenberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2000 ACM Conference on Computer Supported Cooperative Work. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="10"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Boyle, C. Edwards, and S. Greenberg, "The effects of filtered video on awareness and privacy, " in Proceedings of the 2000 ACM conference on Computer supported cooperative work. ACM, 2000, pp. 1-10.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Blur filtration fails to preserve privacy for home-based video conferencing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33746062776</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Neustaedter C.</ce:indexed-name>
+                                    <ce:surname>Neustaedter</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Greenberg S.</ce:indexed-name>
+                                    <ce:surname>Greenberg</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Boyle M.</ce:indexed-name>
+                                    <ce:surname>Boyle</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Transactions on Computer-Human Interaction (TOCHI)</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="13"/>
+                                <pagerange first="1" last="36"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C. Neustaedter, S. Greenberg, and M. Boyle, "Blur filtration fails to preserve privacy for home-based video conferencing, " ACM Transactions on Computer-Human Interaction (TOCHI), vol. 13, no. 1, pp. 1-36, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Face de-identification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84892312834</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Gross R.</ce:indexed-name>
+                                    <ce:surname>Gross</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sweeney L.</ce:indexed-name>
+                                    <ce:surname>Sweeney</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Cohn J.</ce:indexed-name>
+                                    <ce:surname>Cohn</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>De La Torre F.</ce:indexed-name>
+                                    <ce:surname>De La Torre</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Baker S.</ce:indexed-name>
+                                    <ce:surname>Baker</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Protecting Privacy in Video Surveillance</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="129" last="146"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Gross, L. Sweeney, J. Cohn, F. De la Torre, and S. Baker, "Face de-identification, " in Protecting privacy in video surveillance. Springer, 2009, pp. 129-146.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Preserving privacy by deidentifying face images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">14644429006</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.M.</ce:initials>
+                                    <ce:indexed-name>Newton E.M.</ce:indexed-name>
+                                    <ce:surname>Newton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sweeney L.</ce:indexed-name>
+                                    <ce:surname>Sweeney</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Malin B.</ce:indexed-name>
+                                    <ce:surname>Malin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Knowledge and Data Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="17"/>
+                                <pagerange first="232" last="243"/>
+                            </ref-volisspag>
+                            <ref-text>Feb</ref-text>
+                        </ref-info>
+                        <ref-fulltext>E. M. Newton, L. Sweeney, and B. Malin, "Preserving privacy by deidentifying face images, " IEEE Transactions on Knowledge and Data Engineering, vol. 17, no. 2, pp. 232-243, Feb 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards real-world face de-identification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">48649099022</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Gross R.</ce:indexed-name>
+                                    <ce:surname>Gross</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sweeney L.</ce:indexed-name>
+                                    <ce:surname>Sweeney</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biometrics: Theory, Applications, and Systems, 2007. BTAS 2007. First IEEE International Conference On. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. Gross and L. Sweeney, "Towards real-world face de-identification, " in Biometrics: Theory, Applications, and Systems, 2007. BTAS 2007. First IEEE International Conference on. IEEE, 2007, pp. 1-8.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Model-based face de-identification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33845527694</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Gross R.</ce:indexed-name>
+                                    <ce:surname>Gross</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sweeney L.</ce:indexed-name>
+                                    <ce:surname>Sweeney</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>De La Torre F.</ce:indexed-name>
+                                    <ce:surname>De La Torre</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Baker S.</ce:indexed-name>
+                                    <ce:surname>Baker</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2006 Conference on Computer Vision and Pattern Recognition Workshop (CVPRW'06)</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="161" last="161"/>
+                            </ref-volisspag>
+                            <ref-text>June</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Gross, L. Sweeney, F. de la Torre, and S. Baker, "Model-based face de-identification, " in 2006 Conference on Computer Vision and Pattern Recognition Workshop (CVPRW'06), June 2006, pp. 161-161.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Integrating utility into face de-identification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33746083254</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Gross R.</ce:indexed-name>
+                                    <ce:surname>Gross</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Airoldi E.</ce:indexed-name>
+                                    <ce:surname>Airoldi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Malin B.</ce:indexed-name>
+                                    <ce:surname>Malin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sweeney L.</ce:indexed-name>
+                                    <ce:surname>Sweeney</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 5th International Conference on Privacy Enhancing Technologies, Ser. PET'05</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="227" last="242"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1007/1176783115</ce:e-address>
+                            </ref-website>
+                            <ref-text>Berlin, Heidelberg: Springer-Verlag</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Gross, E. Airoldi, B. Malin, and L. Sweeney, "Integrating utility into face de-identification, " in Proceedings of the 5th International Conference on Privacy Enhancing Technologies, ser. PET'05. Berlin, Heidelberg: Springer-Verlag, 2006, pp. 227-242. [Online]. Available: http://dx. doi. org/10. 1007/11767831 15</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Distinguishable de-identified faces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84983603162</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Sun Z.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Meng L.</ce:indexed-name>
+                                    <ce:surname>Meng</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ariyaeeinia A.</ce:indexed-name>
+                                    <ce:surname>Ariyaeeinia</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2015 11th IEEE International Conference and Workshops on Automatic Face and Gesture Recognition (FG)</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>May</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Z. Sun, L. Meng, and A. Ariyaeeinia, "Distinguishable de-identified faces, " in 2015 11th IEEE International Conference and Workshops on Automatic Face and Gesture Recognition (FG), vol. 04, May 2015, pp. 1-6.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>K-same-net: K-anonymity with generative deep neural networks for face deidentification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85040617560</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Meden B.</ce:indexed-name>
+                                    <ce:surname>Meden</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersic Z.</ce:indexed-name>
+                                    <ce:surname>Emeršic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Entropy</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="20"/>
+                                <pagerange first="60"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>B. Meden, Z. Emeršic, V. Struc, and P. Peer, "k-same-net: k-anonymity with generative deep neural networks for face deidentification, " Entropy, vol. 20, no. 1, p. 60, 2018.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>De-identifying facial images using singular value decomposition and projections</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84994275781</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Chriskos P.</ce:indexed-name>
+                                    <ce:surname>Chriskos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Zoidi O.</ce:indexed-name>
+                                    <ce:surname>Zoidi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Tefas A.</ce:indexed-name>
+                                    <ce:surname>Tefas</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Pitas I.</ce:indexed-name>
+                                    <ce:surname>Pitas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Multimedia Tools Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="76"/>
+                                <pagerange first="3435" last="3468"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/s11042-016-4069-8</ce:e-address>
+                            </ref-website>
+                            <ref-text>Feb.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. Chriskos, O. Zoidi, A. Tefas, and I. Pitas, "De-identifying facial images using singular value decomposition and projections, " Multimedia Tools Appl., vol. 76, no. 3, pp. 3435-3468, Feb. 2017. [Online]. Available: https://doi. org/10. 1007/s11042-016-4069-8</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Privacy of facial soft biometrics: Suppressing gender but retaining identity</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84928781423</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Othman A.</ce:indexed-name>
+                                    <ce:surname>Othman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ross A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Vision-ECCV 2014 Workshops</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="682" last="696"/>
+                            </ref-volisspag>
+                            <ref-text>L. Agapito, M. M. Bronstein, and C. Rother, Eds. Cham: Springer International Publishing</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Othman and A. Ross, "Privacy of facial soft biometrics: Suppressing gender but retaining identity, " in Computer Vision-ECCV 2014 Workshops, L. Agapito, M. M. Bronstein, and C. Rother, Eds. Cham: Springer International Publishing, 2015, pp. 682-696.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Soft biometric privacy: Retaining biometric utility of face images while perturbing gender</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85046288640</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Mirjalili V.</ce:indexed-name>
+                                    <ce:surname>Mirjalili</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ross A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2017 IEEE International Joint Conference on Biometrics (IJCB)</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="564" last="573"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>V. Mirjalili and A. Ross, "Soft biometric privacy: Retaining biometric utility of face images while perturbing gender, " 2017 IEEE International Joint Conference on Biometrics (IJCB), pp. 564-573, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep pair-wise similarity learning for face recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84965128134</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Grm K.</ce:indexed-name>
+                                    <ce:surname>Grm</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Dobrisek S.</ce:indexed-name>
+                                    <ce:surname>Dobrisek</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2016 4th International Conference on Biometrics and Forensics (IWBF)</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>March</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Grm, S. Dobrisek, and V. Struc, "Deep pair-wise similarity learning for face recognition, " in 2016 4th International Conference on Biometrics and Forensics (IWBF), March 2016, pp. 1-6.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Strengths and weaknesses of deep learning models for face recognition against image degradations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85040245215</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Grm K.</ce:indexed-name>
+                                    <ce:surname>Grm</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Artiges A.</ce:indexed-name>
+                                    <ce:surname>Artiges</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Caron M.</ce:indexed-name>
+                                    <ce:surname>Caron</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.K.</ce:initials>
+                                    <ce:indexed-name>Ekenel H.K.</ce:indexed-name>
+                                    <ce:surname>Ekenel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IET Biometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="7"/>
+                                <pagerange first="81" last="89"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Grm, V. Struc, A. Artiges, M. Caron, and H. K. Ekenel, "Strengths and weaknesses of deep learning models for face recognition against image degradations, " IET Biometrics, vol. 7, no. 1, pp. 81-89, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Face deidentification with generative deep neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85028560748</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Meden B.</ce:indexed-name>
+                                    <ce:surname>Meden</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.C.</ce:initials>
+                                    <ce:indexed-name>Mall R.C.</ce:indexed-name>
+                                    <ce:surname>Mall</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Fabijan S.</ce:indexed-name>
+                                    <ce:surname>Fabijan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.K.</ce:initials>
+                                    <ce:indexed-name>Ekenel H.K.</ce:indexed-name>
+                                    <ce:surname>Ekenel</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IET Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="11"/>
+                                <pagerange first="1046" last="1054"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>B. Meden, R. C. Mall?, S. Fabijan, H. K. Ekenel, V. Struc, and P. Peer, "Face deidentification with generative deep neural networks, " IET Signal Processing, vol. 11, no. 9, pp. 1046-1054, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Face de-identification using facial identity preserving features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84964770547</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Chi H.</ce:indexed-name>
+                                    <ce:surname>Chi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.H.</ce:initials>
+                                    <ce:indexed-name>Hu Y.H.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2015 IEEE Global Conference on Signal and Information Processing (GlobalSIP)</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="586" last="590"/>
+                            </ref-volisspag>
+                            <ref-text>Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Chi and Y. H. Hu, "Face de-identification using facial identity preserving features, " in 2015 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Dec 2015, pp. 586-590.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Face, hairstyle and clothing colour de-identification in video sequences</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85040002445</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Brkic K.</ce:indexed-name>
+                                    <ce:surname>Brkíc</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Hrkac T.</ce:indexed-name>
+                                    <ce:surname>Hrkác</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kalafatic Z.</ce:indexed-name>
+                                    <ce:surname>Kalafatíc</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Sikiric I.</ce:indexed-name>
+                                    <ce:surname>Sikiríc</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IET Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://digital-library.theiet.org/content/journals/10.1049/iet-spr.2017.0048</ce:e-address>
+                            </ref-website>
+                            <ref-text>July</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Brkíc, T. Hrkác, Z. Kalafatíc, and I. Sikiríc, "Face, hairstyle and clothing colour de-identification in video sequences, " IET Signal Processing, July 2017. [Online]. Available: http://digital-library. theiet. org/content/journals/10. 1049/iet-spr. 2017. 0048</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Semiadversarial networks: Convolutional autoencoders for imparting privacy to face images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050968728</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Mirjalili V.</ce:indexed-name>
+                                    <ce:surname>Mirjalili</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Raschka S.</ce:indexed-name>
+                                    <ce:surname>Raschka</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.M.</ce:initials>
+                                    <ce:indexed-name>Namboodiri A.M.</ce:indexed-name>
+                                    <ce:surname>Namboodiri</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ross A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. of 11th IAPR International Conference on Biometrics (ICB 2018)</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-text>February</ref-text>
+                        </ref-info>
+                        <ref-fulltext>V. Mirjalili, S. Raschka, A. M. Namboodiri, and A. Ross, "Semiadversarial networks: Convolutional autoencoders for imparting privacy to face images, " in Proc. of 11th IAPR International Conference on Biometrics (ICB 2018), February 2018.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Perceptual losses for real-time style transfer and super-resolution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84990854047</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Johnson J.</ce:indexed-name>
+                                    <ce:surname>Johnson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Alahi A.</ce:indexed-name>
+                                    <ce:surname>Alahi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Fei-Fei L.</ce:indexed-name>
+                                    <ce:surname>Fei-Fei</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Vision-ECCV 2016</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="694" last="711"/>
+                            </ref-volisspag>
+                            <ref-text>B. Leibe, J. Matas, N. Sebe, and M. Welling, Eds. Cham: Springer International Publishing</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Johnson, A. Alahi, and L. Fei-Fei, "Perceptual losses for real-time style transfer and super-resolution, " in Computer Vision-ECCV 2016, B. Leibe, J. Matas, N. Sebe, and M. Welling, Eds. Cham: Springer International Publishing, 2016, pp. 694-711.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep perceptual mapping for thermal to visible face recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84979268283</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Sarfraz M.S.</ce:indexed-name>
+                                    <ce:surname>Sarfraz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stiefelhagen R.</ce:indexed-name>
+                                    <ce:surname>Stiefelhagen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="122"/>
+                                <pagerange first="426" last="438"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. S. Sarfraz and R. Stiefelhagen, "Deep perceptual mapping for thermal to visible face recognition, " International Journal of Computer Vision, vol. 122, no. 3, pp. 426-438, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84946206172</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Nguyen A.</ce:indexed-name>
+                                    <ce:surname>Nguyen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Yosinski J.</ce:indexed-name>
+                                    <ce:surname>Yosinski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Clune J.</ce:indexed-name>
+                                    <ce:surname>Clune</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Deep Neural Networks Are Easily Fooled: High Confidence Predictions for Unrecognizable Images</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                        </ref-info>
+                        <ref-fulltext>A. Nguyen, J. Yosinski, and J. Clune, "Deep neural networks are easily fooled: High confidence predictions for unrecognizable images, " 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>One pixel attack for fooling deep neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85054547485</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Su J.</ce:indexed-name>
+                                    <ce:surname>Su</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.V.</ce:initials>
+                                    <ce:indexed-name>Vargas D.V.</ce:indexed-name>
+                                    <ce:surname>Vargas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Sakurai K.</ce:indexed-name>
+                                    <ce:surname>Sakurai</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CoRR</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1710.08864</ce:e-address>
+                            </ref-website>
+                            <ref-text>abs/1710. 08864</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Su, D. V. Vargas, and K. Sakurai, "One pixel attack for fooling deep neural networks, " CoRR, vol. abs/1710. 08864, 2017. [Online]. Available: http://arxiv. org/abs/1710. 08864</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adversarial examples in the physical world</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85027699421</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kurakin A.</ce:indexed-name>
+                                    <ce:surname>Kurakin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.J.</ce:initials>
+                                    <ce:indexed-name>Goodfellow I.J.</ce:indexed-name>
+                                    <ce:surname>Goodfellow</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bengio S.</ce:indexed-name>
+                                    <ce:surname>Bengio</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CoRR</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1607.02533</ce:e-address>
+                            </ref-website>
+                            <ref-text>abs/1607. 02533</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Kurakin, I. J. Goodfellow, and S. Bengio, "Adversarial examples in the physical world, " CoRR, vol. abs/1607. 02533, 2016. [Online]. Available: http://arxiv. org/abs/1607. 02533</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep face recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84978681252</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Parkhi O.</ce:indexed-name>
+                                    <ce:surname>Parkhi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vedaldi A.</ce:indexed-name>
+                                    <ce:surname>Vedaldi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zisserman A.</ce:indexed-name>
+                                    <ce:surname>Zisserman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BMVC</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="1"/>
+                                <pagerange first="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>O. Parkhi, A. Vedaldi, and A. Zisserman, "Deep face recognition, " in BMVC, vol. 1, no. 3, 2015, p. 6.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Face verification competition on the xm2vts database</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35248827701</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Messer K.</ce:indexed-name>
+                                    <ce:surname>Messer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kittler J.</ce:indexed-name>
+                                    <ce:surname>Kittler</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sadeghi M.</ce:indexed-name>
+                                    <ce:surname>Sadeghi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Marcel S.</ce:indexed-name>
+                                    <ce:surname>Marcel</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Marcel C.</ce:indexed-name>
+                                    <ce:surname>Marcel</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bengio S.</ce:indexed-name>
+                                    <ce:surname>Bengio</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Cardinaux F.</ce:indexed-name>
+                                    <ce:surname>Cardinaux</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Sanderson C.</ce:indexed-name>
+                                    <ce:surname>Sanderson</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Czyz J.</ce:indexed-name>
+                                    <ce:surname>Czyz</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Vandendorpe L.</ce:indexed-name>
+                                    <ce:surname>Vandendorpe</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Srisuk S.</ce:indexed-name>
+                                    <ce:surname>Srisuk</ce:surname>
+                                </author>
+                                <author seq="12">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Petrou M.</ce:indexed-name>
+                                    <ce:surname>Petrou</ce:surname>
+                                </author>
+                                <author seq="13">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Kurutach W.</ce:indexed-name>
+                                    <ce:surname>Kurutach</ce:surname>
+                                </author>
+                                <author seq="14">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kadyrov A.</ce:indexed-name>
+                                    <ce:surname>Kadyrov</ce:surname>
+                                </author>
+                                <author seq="15">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Paredes R.</ce:indexed-name>
+                                    <ce:surname>Paredes</ce:surname>
+                                </author>
+                                <author seq="16">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Kepenekci B.</ce:indexed-name>
+                                    <ce:surname>Kepenekci</ce:surname>
+                                </author>
+                                <author seq="17">
+                                    <ce:initials>F.B.</ce:initials>
+                                    <ce:indexed-name>Tek F.B.</ce:indexed-name>
+                                    <ce:surname>Tek</ce:surname>
+                                </author>
+                                <author seq="18">
+                                    <ce:initials>G.B.</ce:initials>
+                                    <ce:indexed-name>Akar G.B.</ce:indexed-name>
+                                    <ce:surname>Akar</ce:surname>
+                                </author>
+                                <author seq="19">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Deravi F.</ce:indexed-name>
+                                    <ce:surname>Deravi</ce:surname>
+                                </author>
+                                <author seq="20">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Mavity N.</ce:indexed-name>
+                                    <ce:surname>Mavity</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 4th International Conference on Audio-and Video-based Biometric Person Authentication, Ser. AVBPA'03</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <pagerange first="964" last="974"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dl.acm.org/citation.cfm?id=1762222.1762347</ce:e-address>
+                            </ref-website>
+                            <ref-text>Berlin, Heidelberg: Springer-Verlag</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Messer, J. Kittler, M. Sadeghi, S. Marcel, C. Marcel, S. Bengio, F. Cardinaux, C. Sanderson, J. Czyz, L. Vandendorpe, S. Srisuk, M. Petrou, W. Kurutach, A. Kadyrov, R. Paredes, B. Kepenekci, F. B. Tek, G. B. Akar, F. Deravi, and N. Mavity, "Face verification competition on the xm2vts database, " in Proceedings of the 4th International Conference on Audio-and Video-based Biometric Person Authentication, ser. AVBPA'03. Berlin, Heidelberg: Springer-Verlag, 2003, pp. 964-974. [Online]. Available: http://dl. acm. org/citation. cfm?id=1762222. 1762347</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Presentation and validation of the radboud faces database</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649717207</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Langner O.</ce:indexed-name>
+                                    <ce:surname>Langner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Dotsch R.</ce:indexed-name>
+                                    <ce:surname>Dotsch</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Bijlstra G.</ce:indexed-name>
+                                    <ce:surname>Bijlstra</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Wigboldus D.</ce:indexed-name>
+                                    <ce:surname>Wigboldus</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hawk S.</ce:indexed-name>
+                                    <ce:surname>Hawk</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Van Knippenberg A.</ce:indexed-name>
+                                    <ce:surname>Van Knippenberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cognition&amp;Emotion</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="24"/>
+                                <pagerange first="1377" last="1388"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>O. Langner, R. Dotsch, G. Bijlstra, D. Wigboldus, S. Hawk, and A. van Knippenberg, "Presentation and validation of the radboud faces database, " Cognition&amp;Emotion, vol. 24, no. 8, pp. 1377-1388, 2010.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

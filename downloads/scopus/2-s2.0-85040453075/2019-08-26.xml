@@ -1,0 +1,1125 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85040453075</prism:url><dc:identifier>SCOPUS_ID:85040453075</dc:identifier><eid>2-s2.0-85040453075</eid><pubmed-id>29323142</pubmed-id><prism:doi>10.1038/s41598-017-18564-8</prism:doi><article-number>411</article-number><dc:title>An application of machine learning to haematological diagnosis</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>8</citedby-count><prism:publicationName>Scientific Reports</prism:publicationName><dc:publisher>
+                        Nature Publishing Group
+                        
+                            Houndmills
+                            Basingstoke, Hampshire
+                            RG21 6XS
+                        
+                    </dc:publisher><source-id>21100200805</source-id><prism:issn>20452322</prism:issn><prism:volume>8</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:coverDate>2018-12-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="6506215180"><ce:initials>G.</ce:initials><ce:indexed-name>Guncar G.</ce:indexed-name><ce:surname>Gunčar</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Gunčar G.</ce:indexed-name><ce:surname>Gunčar</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506215180</author-url><affiliation id="120075541" href="https://api.elsevier.com/content/affiliation/affiliation_id/120075541"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 The Author(s).</publishercopyright>
+                        <ce:para>Quick and accurate medical diagnoses are crucial for the successful treatment of diseases. Using machine learning algorithms and based on laboratory blood test results, we have built two models to predict a haematologic disease. One predictive model used all the available blood test parameters and the other used only a reduced set that is usually measured upon patient admittance. Both models produced good results, obtaining prediction accuracies of 0.88 and 0.86 when considering the list of five most likely diseases and 0.59 and 0.57 when considering only the most likely disease. The models did not differ significantly, which indicates that a reduced set of parameters can represent a relevant "fingerprint" of a disease. This knowledge expands the model's utility for use by general practitioners and indicates that blood test results contain more information than physicians generally recognize. A clinical test showed that the accuracy of our predictive models was on par with that of haematology specialists. Our study is the first to show that a machine learning predictive model based on blood tests alone can be successfully applied to predict haematologic diseases. This result and could open up unprecedented possibilities for medical diagnosis.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85040453075" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85040453075&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85040453075&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"><affilname>Univerzitetni Klinični Center Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="120075541" href="https://api.elsevier.com/content/affiliation/affiliation_id/120075541"><affilname>Smart Blood Analytics Swiss SA</affilname><affiliation-city>Chur</affiliation-city><affiliation-country>Switzerland</affiliation-country></affiliation><authors><author seq="1" auid="6506215180"><ce:initials>G.</ce:initials><ce:indexed-name>Guncar G.</ce:indexed-name><ce:surname>Gunčar</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Gunčar G.</ce:indexed-name><ce:surname>Gunčar</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506215180</author-url><affiliation id="120075541" href="https://api.elsevier.com/content/affiliation/affiliation_id/120075541"/></author><author seq="2" auid="6603021463"><ce:initials>M.</ce:initials><ce:indexed-name>Kukar M.</ce:indexed-name><ce:surname>Kukar</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Kukar M.</ce:indexed-name><ce:surname>Kukar</ce:surname><ce:given-name>Matjaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603021463</author-url><affiliation id="120075541" href="https://api.elsevier.com/content/affiliation/affiliation_id/120075541"/></author><author seq="3" auid="57200242478"><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Mateja</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Mateja</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57200242478</author-url><affiliation id="120075541" href="https://api.elsevier.com/content/affiliation/affiliation_id/120075541"/></author><author seq="4" auid="6506782781"><ce:initials>M.</ce:initials><ce:indexed-name>Brvar M.</ce:indexed-name><ce:surname>Brvar</ce:surname><ce:given-name>Miran</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Brvar M.</ce:indexed-name><ce:surname>Brvar</ce:surname><ce:given-name>Miran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506782781</author-url><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"/></author><author seq="5" auid="6701677979"><ce:initials>P.</ce:initials><ce:indexed-name>Cernelc P.</ce:indexed-name><ce:surname>Černelč</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Černelč P.</ce:indexed-name><ce:surname>Černelč</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6701677979</author-url><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"/></author><author seq="6" auid="57200242477"><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Manca</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Manca</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57200242477</author-url><affiliation id="120075541" href="https://api.elsevier.com/content/affiliation/affiliation_id/120075541"/></author><author seq="7" auid="57200242476"><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57200242476</author-url><affiliation id="120075541" href="https://api.elsevier.com/content/affiliation/affiliation_id/120075541"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Adult</mainterm><mainterm weight="b" candidate="n">Bayes Theorem</mainterm><mainterm weight="b" candidate="n">Hematologic Diseases</mainterm><mainterm weight="b" candidate="n">Humans</mainterm><mainterm weight="b" candidate="n">Machine Learning</mainterm><mainterm weight="b" candidate="n">Models, Theoretical</mainterm></idxterms><subject-areas><subject-area code="1000" abbrev="MULT">Multidisciplinary</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-23T01:04:14Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian National Medical Ethics Committee</xocs:funding-agency-matched-string><xocs:funding-id>103/11/15</xocs:funding-id></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Smart Blood Analytics Swiss SA</xocs:funding-agency-matched-string></xocs:funding><xocs:funding-text>Data availability. Both the predictive models are available at www.smartbloodanalytics.com upon registration. The twenty clinical test cases with all the data and predicted results can be found in Supplementary S2 Data. The study was approved by the Slovenian National Medical Ethics Committee (No. 103/11/15).</xocs:funding-text><xocs:funding-text>Competing Interests: Smart Blood Analytics Swiss SA (SBA) fully funded this research. Mar. N. is SBA CEO, M.K., Mat. N. and G.G. are SBA advisors.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="09" month="01" timestamp="2019-01-09T08:01:08.000008-05:00" year="2019"/><ait:date-sort day="01" month="12" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1038/s41598-017-18564-8</ce:doi>
+                    <itemid idtype="PUI">620189009</itemid>
+                    <itemid idtype="CAR-ID">904961905</itemid>
+                    <itemid idtype="NURSNG">2018014177</itemid>
+                    <itemid idtype="REAXYSCAR">20180077096</itemid>
+                    <itemid idtype="SCOPUS">20180101919</itemid>
+                    <itemid idtype="SNSOC">2018003814</itemid>
+                    <itemid idtype="SCP">85040453075</itemid>
+                    <itemid idtype="SGR">85040453075</itemid>
+                    <itemid idtype="PUIsecondary">624242111</itemid>
+                    <itemid idtype="MEDL">29323142</itemid>
+                </itemidlist><history>
+                    <date-created day="17" month="01" timestamp="BST 15:36:13" year="2018"/>
+                </history><dbcollection>NURSNG</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>SNSOC</dbcollection><dbcollection>Scopusbase</dbcollection><dbcollection>MEDL</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">An application of machine learning to haematological diagnosis</titletext></citation-title><author-group><author auid="6506215180" seq="1" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Guncar G.</ce:indexed-name><ce:surname>Gunčar</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Gunčar G.</ce:indexed-name>
+                            <ce:surname>Gunčar</ce:surname>
+                            <ce:given-name>Gregor</ce:given-name>
+                        </preferred-name></author><author auid="6603021463" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Kukar M.</ce:indexed-name><ce:surname>Kukar</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Kukar M.</ce:indexed-name>
+                            <ce:surname>Kukar</ce:surname>
+                            <ce:given-name>Matjaž</ce:given-name>
+                        </preferred-name></author><author auid="57200242478" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Mateja</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Notar M.</ce:indexed-name>
+                            <ce:surname>Notar</ce:surname>
+                            <ce:given-name>Mateja</ce:given-name>
+                        </preferred-name></author><author auid="57200242477" seq="6" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Manca</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Notar M.</ce:indexed-name>
+                            <ce:surname>Notar</ce:surname>
+                            <ce:given-name>Manca</ce:given-name>
+                        </preferred-name></author><author auid="57200242476" seq="7" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Notar M.</ce:indexed-name><ce:surname>Notar</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Notar M.</ce:indexed-name>
+                            <ce:surname>Notar</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><affiliation afid="120075541" country="che"><organization>Smart Blood Analytics Swiss SA</organization><city>Chur</city><postal-code>CH-7000</postal-code><affiliation-id afid="120075541"/><country>Switzerland</country></affiliation></author-group><author-group><author auid="6506782781" seq="4" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Brvar M.</ce:indexed-name><ce:surname>Brvar</ce:surname><ce:given-name>Miran</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Brvar M.</ce:indexed-name>
+                            <ce:surname>Brvar</ce:surname>
+                            <ce:given-name>Miran</ce:given-name>
+                        </preferred-name></author><affiliation afid="60021479" country="svn" dptid="117222517"><organization>Centre for Clinical Toxicology and Pharmacology</organization><organization>Division of Internal Medicine</organization><organization>University Medical Centre Ljubljana</organization><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60021479" dptid="117222517"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6701677979" seq="5" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Cernelc P.</ce:indexed-name><ce:surname>Černelč</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Černelč P.</ce:indexed-name>
+                            <ce:surname>Černelč</ce:surname>
+                            <ce:given-name>Peter</ce:given-name>
+                        </preferred-name></author><affiliation afid="60021479" country="svn" dptid="100280465"><organization>Department of Haematology</organization><organization>Division of Internal Medicine</organization><organization>University Medical Centre Ljubljana</organization><city>Slovenia</city><postal-code>SI-1000</postal-code><affiliation-id afid="60021479" dptid="100280465"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Notar M.</ce:indexed-name>
+                        <ce:surname>Notar</ce:surname>
+                        <ce:given-name>Marko</ce:given-name>
+                    </person><affiliation country="che"><organization>Smart Blood Analytics Swiss SA</organization><city>Chur</city><postal-code>CH-7000</postal-code><country>Switzerland</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 The Author(s).</publishercopyright>
+                        <ce:para>Quick and accurate medical diagnoses are crucial for the successful treatment of diseases. Using machine learning algorithms and based on laboratory blood test results, we have built two models to predict a haematologic disease. One predictive model used all the available blood test parameters and the other used only a reduced set that is usually measured upon patient admittance. Both models produced good results, obtaining prediction accuracies of 0.88 and 0.86 when considering the list of five most likely diseases and 0.59 and 0.57 when considering only the most likely disease. The models did not differ significantly, which indicates that a reduced set of parameters can represent a relevant "fingerprint" of a disease. This knowledge expands the model's utility for use by general practitioners and indicates that blood test results contain more information than physicians generally recognize. A clinical test showed that the accuracy of our predictive models was on par with that of haematology specialists. Our study is the first to show that a machine learning predictive model based on blood tests alone can be successfully applied to predict haematologic diseases. This result and could open up unprecedented possibilities for medical diagnosis.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="21100200805" type="j"><sourcetitle>Scientific Reports</sourcetitle><sourcetitle-abbrev>Sci. Rep.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Scientific Reports</translated-sourcetitle><issn type="electronic">20452322</issn><volisspag>
+                        <voliss issue="1" volume="8"/>
+                    </volisspag><article-number>411</article-number><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>12</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 December 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">www.nature.com/srep/index.html</ce:e-address>
+                    </website><publisher>
+                        <publishername>Nature Publishing Group</publishername>
+                        <affiliation country="gbr">
+                            <address-part>Houndmills</address-part>
+                            <city>Basingstoke, Hampshire</city>
+                            <postal-code>RG21 6XS</postal-code>
+                        </affiliation>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1000</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MULT</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="34">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Machine learning: Trends, perspectives, and prospects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84937801713</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.I.</ce:initials>
+                                    <ce:indexed-name>Jordan M.I.</ce:indexed-name>
+                                    <ce:surname>Jordan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.M.</ce:initials>
+                                    <ce:indexed-name>Mitchell T.M.</ce:indexed-name>
+                                    <ce:surname>Mitchell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="349"/>
+                                <pagerange first="255" last="260"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1126/science.aaa8415</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Jordan, M. I. &amp; Mitchell, T. M. Machine learning: Trends, perspectives, and prospects. Science 349, 255-260, https://doi.org/10.1126/science.aaa8415 (2015).</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fifty years of computer analysis in chest imaging: Rule-based, machine learning, deep learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85013130699</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Van Ginneken B.</ce:indexed-name>
+                                    <ce:surname>Van Ginneken</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Radiological Physics and Technology</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="23" last="32"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/s12194-017-0394-5</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>van Ginneken, B. Fifty years of computer analysis in chest imaging: rule-based, machine learning, deep learning. Radiological Physics and Technology 10, 23-32, https://doi.org/10.1007/s12194-017-0394-5 (2017).</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Machine learning approaches in medical image analysis: From detection to diagnosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84982105864</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>De Bruijne M.</ce:indexed-name>
+                                    <ce:surname>De Bruijne</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Med Image Anal</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="33"/>
+                                <pagerange first="94" last="97"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1016/j.media.2016.06.032</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>de Bruijne, M. Machine learning approaches in medical image analysis: From detection to diagnosis. Med Image Anal 33, 94-97, https://doi.org/10.1016/j.media.2016.06.032 (2016).</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The future of medical diagnostics: Large digitized databases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873438126</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.T.</ce:initials>
+                                    <ce:indexed-name>Kerr W.T.</ce:indexed-name>
+                                    <ce:surname>Kerr</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.P.</ce:initials>
+                                    <ce:indexed-name>Lau E.P.</ce:indexed-name>
+                                    <ce:surname>Lau</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.E.</ce:initials>
+                                    <ce:indexed-name>Owens G.E.</ce:indexed-name>
+                                    <ce:surname>Owens</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Trefler A.</ce:indexed-name>
+                                    <ce:surname>Trefler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Yale J Biol Med</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="85"/>
+                                <pagerange first="363" last="377"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kerr, W. T., Lau, E. P., Owens, G. E. &amp; Trefler, A. The future of medical diagnostics: large digitized databases. Yale J Biol Med 85, 363-377 (2012).</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Modern parameterization and explanation techniques in diagnostic decision support system: A case study in diagnostics of coronary artery disease</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79959744776</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kukar M.</ce:indexed-name>
+                                    <ce:surname>Kukar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Groselj C.</ce:indexed-name>
+                                    <ce:surname>Grošelj</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence in Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="52"/>
+                                <pagerange first="77" last="90"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kukar, M., Kononenko, I. &amp; Grošelj, C. Modern parameterization and explanation techniques in diagnostic decision support system: A case study in diagnostics of coronary artery disease. Artificial intelligence in medicine 52, 77-90 (2011).</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Image processing and machine learning for fully automated probabilistic evaluation of medical images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80053074478</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sajn L.</ce:indexed-name>
+                                    <ce:surname>Šajn</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kukar M.</ce:indexed-name>
+                                    <ce:surname>Kukar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Methods and Programs in Biomedicine</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="104"/>
+                                <pagerange first="e75" last="e86"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Šajn, L. &amp; Kukar, M. Image processing and machine learning for fully automated probabilistic evaluation of medical images. Computer methods and programs in biomedicine 104, e75-e86 (2011).</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dermatologist-level classification of skin cancer with deep neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85016143105</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Esteva A.</ce:indexed-name>
+                                    <ce:surname>Esteva</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="542"/>
+                                <pagerange first="115" last="118"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1038/nature21056</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Esteva, A. et al. Dermatologist-level classification of skin cancer with deep neural networks. Nature 542, 115-118, https://doi.org/10.1038/nature21056 (2017).</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantitative diagnosis of breast tumors by morphometric classification of microenvironmental myoepithelial cells using a machine learning approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85038821166</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Yamamoto Y.</ce:indexed-name>
+                                    <ce:surname>Yamamoto</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientific Reports</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="46732"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1038/srep46732</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Yamamoto, Y. et al. Quantitative diagnosis of breast tumors by morphometric classification of microenvironmental myoepithelial cells using a machine learning approach. Scientific Reports 7, 46732, https://doi.org/10.1038/srep46732 (2017).</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evidence-based laboratory medicine</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84902197284</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Badrick T.</ce:indexed-name>
+                                    <ce:surname>Badrick</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Clinical Biochemist Reviews</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="34"/>
+                                <pagerange first="43"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Badrick, T. Evidence-based laboratory medicine. The Clinical Biochemist Reviews 34, 43 (2013).</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Using Machine Learning to Predict Laboratory Test Results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85013740060</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Luo Y.</ce:indexed-name>
+                                    <ce:surname>Luo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Szolovits P.</ce:indexed-name>
+                                    <ce:surname>Szolovits</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.S.</ce:initials>
+                                    <ce:indexed-name>Dighe A.S.</ce:indexed-name>
+                                    <ce:surname>Dighe</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Baron J.M.</ce:indexed-name>
+                                    <ce:surname>Baron</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>American Journal of Clinical Pathology</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="145"/>
+                                <pagerange first="778" last="788"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1093/ajcp/aqw064</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Luo, Y., Szolovits, P., Dighe, A. S. &amp; Baron, J. M. Using Machine Learning to Predict Laboratory Test Results. American journal of clinical pathology 145, 778-788, https://doi.org/10.1093/ajcp/aqw064 (2016).</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003450542</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vapnik V.</ce:indexed-name>
+                                    <ce:surname>Vapnik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Nature of Statistical Learning [M</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-text>Berlin: Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Vapnik, V. The nature of statistical learning [M]. Berlin: Springer (1995).</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>LIBSVM: A library for support vector machines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79955702502</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.-C.</ce:initials>
+                                    <ce:indexed-name>Chang C.-C.</ce:indexed-name>
+                                    <ce:surname>Chang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.-J.</ce:initials>
+                                    <ce:indexed-name>Lin C.-J.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Transactions on Intelligent Systems and Technology (TIST)</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="27"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chang, C.-C. &amp; Lin, C.-J. LIBSVM: a library for support vector machines. ACM transactions on intelligent systems and technology (TIST) 2, 27 (2011).</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">26644444473</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 4th European Working Session on Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <pagerange first="91" last="98"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kononenko, I. In Proc. 4th European Working Session on Learning. 91-98 (1989).</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035478854</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Breiman L.</ce:indexed-name>
+                                    <ce:surname>Breiman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Random Forests in Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="45"/>
+                                <pagerange first="5" last="32"/>
+                            </ref-volisspag>
+                            <ref-text>Kluwer Academic Publishers</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Breiman, L. Random forests in Machine Learning Vol. 45, 5-32 (Kluwer Academic Publishers, 2001).</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80053403826</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.G.</ce:initials>
+                                    <ce:indexed-name>Dietterich T.G.</ce:indexed-name>
+                                    <ce:surname>Dietterich</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ensemble Methods in Machine Learning in Multiple Classifier Systems Lecture Notes in Computer Science</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="1857"/>
+                                <pagerange first="1" last="15"/>
+                            </ref-volisspag>
+                            <ref-text>Springer, Berlin, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Dietterich, T. G. Ensemble Methods in Machine Learning in Multiple Classifier Systems Lecture Notes in Computer ScienceVol. 1857, 1-15 (Springer, Berlin, Heidelberg, 2000).</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ensemble clustering in medical diagnostics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/CBMS.2004.1311777</itemid>
+                                <itemid idtype="SGR">4544340355</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Greene D.</ce:indexed-name>
+                                    <ce:surname>Greene</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Tsymbal A.</ce:indexed-name>
+                                    <ce:surname>Tsymbal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Bolshakova N.</ce:indexed-name>
+                                    <ce:surname>Bolshakova</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Cunningham P.</ce:indexed-name>
+                                    <ce:surname>Cunningham</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings. 17th IEEE Symposium on Computer-Based Medical Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="576" last="581"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Greene, D., Tsymbal, a., Bolshakova, N. &amp; Cunningham, P. Ensemble clustering in medical diagnostics. Proceedings. 17th IEEE Symposium on Computer-Based Medical Systems, 576-581, doi:10.1109/CBMS.2004.1311777 (2004).</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Overview of random forest methodology and practical guidance with emphasis on computational biology and bioinformatics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873187093</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Boulesteix A.L.</ce:indexed-name>
+                                    <ce:surname>Boulesteix</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Janitza S.</ce:indexed-name>
+                                    <ce:surname>Janitza</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kruppa J.</ce:indexed-name>
+                                    <ce:surname>Kruppa</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.R.</ce:initials>
+                                    <ce:indexed-name>Konig I.R.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="493" last="507"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1002/widm.1072</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Boulesteix, A. L., Janitza, S., Kruppa, J. &amp; König, I. R. Overview of random forest methodology and practical guidance with emphasis on computational biology and bioinformatics. Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 2, 493-507, https://doi.org/10.1002/widm.1072 (2012).</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Using random forest for reliable classification and cost-sensitive learning for medical diagnosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">60849085435</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Yang F.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wang H.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Mi H.</ce:indexed-name>
+                                    <ce:surname>Mi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Lin C.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Cai W.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BMC Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="S22"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1186/1471-2105-10-S1-S22</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Yang, F., Wang, H., Mi, H., Lin, C. &amp; Cai, W. Using random forest for reliable classification and cost-sensitive learning for medical diagnosis. BMC Bioinformatics 10, S22, https://doi.org/10.1186/1471-2105-10-S1-S22 (2009).</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Random forests ensemble classifier trained with data resampling strategy to improve cardiac arrhythmia diagnosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79954993709</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ozcift A.</ce:indexed-name>
+                                    <ce:surname>Ozcift</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computers in Biology and Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="41"/>
+                                <pagerange first="265" last="271"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1016/j.compbiomed.2011.03.001</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Ozcift, A. Random forests ensemble classifier trained with data resampling strategy to improve cardiac arrhythmia diagnosis. Computers in biology and medicine 41, 265-271, https://doi.org/10.1016/j.compbiomed.2011.03.001 (2011).</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84919773193</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Fernandez-Delgado M.</ce:indexed-name>
+                                    <ce:surname>Fernández-Delgado</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Cernadas E.</ce:indexed-name>
+                                    <ce:surname>Cernadas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Barro S.</ce:indexed-name>
+                                    <ce:surname>Barro</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Amorim D.</ce:indexed-name>
+                                    <ce:surname>Amorim</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Amorim Fernandez-Delgado D.</ce:indexed-name>
+                                    <ce:surname>Amorim Fernández-Delgado</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="15"/>
+                                <pagerange first="3133" last="3181"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1016/j.csda.2008.10.033</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Fernández-Delgado, M., Cernadas, E., Barro, S., Amorim, D. &amp; Amorim Fernández-Delgado, D. Do we Need Hundreds of Classifiers to Solve Real World Classification Problems? Journal of Machine Learning Research 15, 3133-3181, https://doi.org/10.1016/j.csda.2008.10.033 (2014).</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multiple imputation of discrete and continuous data by fully conditional specification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34347407592</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Van Buuren S.</ce:indexed-name>
+                                    <ce:surname>Van Buuren</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Statistical Methods in Medical Research</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="16"/>
+                                <pagerange first="219" last="242"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Van Buuren, S. Multiple imputation of discrete and continuous data by fully conditional specification. Statistical methods in medical research 16, 219-242 (2007).</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A practical approach to feature selection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003075638</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Kira K.</ce:indexed-name>
+                                    <ce:surname>Kira</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.A.</ce:initials>
+                                    <ce:indexed-name>Rendell L.A.</ce:indexed-name>
+                                    <ce:surname>Rendell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Ninth International Workshop on Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <pagerange first="249" last="256"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kira, K. &amp; Rendell, L. A. A practical approach to feature selection. Proceedings of the ninth international workshop on Machine learning, 249-256 (1992).</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimating attributes: Analysis and extensions of RELIEF</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84992726552</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>European Conference on Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <pagerange first="171" last="182"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kononenko, I. Estimating attributes: analysis and extensions of RELIEF. European conference on machine learning, 171-182 (1994).</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The case against accuracy estimation for comparing induction algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002900357</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Provost F.</ce:indexed-name>
+                                    <ce:surname>Provost</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Fawcett T.</ce:indexed-name>
+                                    <ce:surname>Fawcett</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kohavi R.</ce:indexed-name>
+                                    <ce:surname>Kohavi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Fifteenth International Conference on Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <pagerange first="445" last="453"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Provost, F., Fawcett, T. &amp; Kohavi, R. The Case Against Accuracy Estimation for Comparing Induction Algorithms. Proceedings of the Fifteenth International Conference on Machine Learning, 445-453 (1997).</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An introduction to ROC analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33646023117</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Fawcett T.</ce:indexed-name>
+                                    <ce:surname>Fawcett</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognition Letters</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="861" last="874"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1016/j.patrec.2005.10.010</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Fawcett, T. An introduction to ROC analysis. Pattern Recognition Letters 27, 861-874, https://doi.org/10.1016/j.patrec.2005.10.010 (2006).</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A systematic analysis of performance measures for classification tasks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">65649138430</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sokolova M.</ce:indexed-name>
+                                    <ce:surname>Sokolova</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Lapalme G.</ce:indexed-name>
+                                    <ce:surname>Lapalme</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Inf. Process. Manage.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="45"/>
+                                <pagerange first="427" last="437"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1016/j.ipm.2009.03.002</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Sokolova, M. &amp; Lapalme, G. A Systematic Analysis of Performance Measures for Classification Tasks. Inf. Process. Manage. 45, 427-437, https://doi.org/10.1016/j.ipm.2009.03.002 (2009).</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Relative Entropy as a Measure of Diagnostic Information</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033054335</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.A.</ce:initials>
+                                    <ce:indexed-name>Benish W.A.</ce:indexed-name>
+                                    <ce:surname>Benish</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Medical Decision Making</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="202" last="206"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1177/0272989X9901900211</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Benish, W. A. Relative Entropy as a Measure of Diagnostic Information. Medical Decision Making 19, 202-206, https://doi.org/10.1177/0272989X9901900211 (1999).</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evaluation and comparison of diagnostic test performance based on information theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85040463542</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Ö.</ce:initials>
+                                    <ce:indexed-name>Oruc O.</ce:indexed-name>
+                                    <ce:surname>Oruç</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kanca A.</ce:indexed-name>
+                                    <ce:surname>Kanca</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Statistics and Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="10" last="13"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Oruç, Ö. E. &amp; Kanca, A. Evaluation and Comparison of Diagnostic Test Performance Based on Information Theory. International Journal of Statistics and Applications 1, 10-13 (2011).</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SMOTE: Synthetic minority over-sampling technique</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0346586663</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.V.</ce:initials>
+                                    <ce:indexed-name>Chawla N.V.</ce:indexed-name>
+                                    <ce:surname>Chawla</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.W.</ce:initials>
+                                    <ce:indexed-name>Bowyer K.W.</ce:indexed-name>
+                                    <ce:surname>Bowyer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.O.</ce:initials>
+                                    <ce:indexed-name>Hall L.O.</ce:indexed-name>
+                                    <ce:surname>Hall</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.P.</ce:initials>
+                                    <ce:indexed-name>Kegelmeyer W.P.</ce:indexed-name>
+                                    <ce:surname>Kegelmeyer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Artificial Intelligence Research</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="16"/>
+                                <pagerange first="321" last="357"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chawla, N. V., Bowyer, K. W., Hall, L. O. &amp; Kegelmeyer, W. P. SMOTE: synthetic minority over-sampling technique. Journal of artificial intelligence research 16, 321-357 (2002).</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adasyn: Adaptive synthetic sampling approach for imbalanced learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56349089205</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>He H.</ce:indexed-name>
+                                    <ce:surname>He</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Bai Y.</ce:indexed-name>
+                                    <ce:surname>Bai</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.A.</ce:initials>
+                                    <ce:indexed-name>Garcia E.A.</ce:indexed-name>
+                                    <ce:surname>Garcia</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Li S.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks, 2008. IJCNN 2008.(IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1322" last="1328"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>He, H., Bai, Y., Garcia, E. A. &amp; Li, S. ADASYN: Adaptive synthetic sampling approach for imbalanced learning. Neural Networks, 2008. IJCNN 2008.(IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on, 1322-1328 (2008).</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0010596510</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Conover W.</ce:indexed-name>
+                                    <ce:surname>Conover</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Statistics of the Kolmogorov-Smirnov Type in Practical Nonparametric Statistics</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="428" last="473"/>
+                            </ref-volisspag>
+                            <ref-text>John Wiley &amp; Sons</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Conover, W. Statistics of the Kolmogorov-Smirnov type in Practical nonparametric statistics, 428-473 (John Wiley &amp; Sons, 1999).</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84886567160</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Lichman M.</ce:indexed-name>
+                                    <ce:surname>Lichman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>UCI Machine Learning Repository</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://archive.ics.uci.edu/ml</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Lichman, M. UCI machine learning repository, http://archive.ics.uci.edu/ml/ (2013).</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Contributions of the history, physical examination, and laboratory investigation in making medical diagnoses</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026736099</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.C.</ce:initials>
+                                    <ce:indexed-name>Peterson M.C.</ce:indexed-name>
+                                    <ce:surname>Peterson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.H.</ce:initials>
+                                    <ce:indexed-name>Holbrook J.H.</ce:indexed-name>
+                                    <ce:surname>Holbrook</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Von Hales D.</ce:indexed-name>
+                                    <ce:surname>Von Hales</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.L.</ce:initials>
+                                    <ce:indexed-name>Smith N.L.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.V.</ce:initials>
+                                    <ce:indexed-name>Staker L.V.</ce:indexed-name>
+                                    <ce:surname>Staker</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Western Journal of Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss volume="156"/>
+                                <pagerange first="163" last="165"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1097/00006254-199210000-00013</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Peterson, M. C., Holbrook, J. H., Von Hales, D., Smith, N. L. &amp; Staker, L. V. Contributions of the history, physical examination, and laboratory investigation in making medical diagnoses. The Western journal of medicine 156, 163-165, https://doi.org/10.1097/00006254-199210000-00013 (1992).</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Primary care physicians' challenges in ordering clinical laboratory tests and interpreting results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84896776484</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hickner J.</ce:indexed-name>
+                                    <ce:surname>Hickner</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>The Journal of the American Board of Family Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="268" last="274"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.3122/jabfm.2014.02.130104</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Hickner, J. et al. Primary Care Physicians' Challenges in Ordering Clinical Laboratory Tests and Interpreting Results. The Journal of the American Board of Family Medicine 27, 268-274, https://doi.org/10.3122/jabfm.2014.02.130104 (2014).</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

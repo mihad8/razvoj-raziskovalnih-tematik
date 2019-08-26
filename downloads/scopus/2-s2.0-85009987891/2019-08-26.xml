@@ -1,0 +1,1732 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85009987891</prism:url><dc:identifier>SCOPUS_ID:85009987891</dc:identifier><eid>2-s2.0-85009987891</eid><pubmed-id>28093074</pubmed-id><prism:doi>10.1186/s13059-016-1130-x</prism:doi><article-number>7</article-number><dc:title>Insights into the design and interpretation of iCLIP experiments</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>23</citedby-count><prism:publicationName>Genome Biology</prism:publicationName><dc:publisher>
+                        BioMed Central Ltd.
+                        info@biomedcentral.com
+                    </dc:publisher><source-id>40944</source-id><prism:issn>1474760X 14747596</prism:issn><prism:volume>18</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:coverDate>2017-01-16</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="55356372800"><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55356372800</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 The Author(s).</publishercopyright>
+                        <ce:para>Background: Ultraviolet (UV) crosslinking and immunoprecipitation (CLIP) identifies the sites on RNAs that are in direct contact with RNA-binding proteins (RBPs). Several variants of CLIP exist, which require different computational approaches for analysis. This variety of approaches can create challenges for a novice user and can hamper insights from multi-study comparisons. Here, we produce data with multiple variants of CLIP and evaluate the data with various computational methods to better understand their suitability. Results: We perform experiments for PTBP1 and eIF4A3 using individual-nucleotide resolution CLIP (iCLIP), employing either UV-C or photoactivatable 4-thiouridine (4SU) combined with UV-A crosslinking and compare the results with published data. As previously noted, the positions of complementary DNA (cDNA)-starts depend on cDNA length in several iCLIP experiments and we now find that this is caused by constrained cDNA-ends, which can result from the sequence and structure constraints of RNA fragmentation. These constraints are overcome when fragmentation by RNase I is efficient and when a broad cDNA size range is obtained. Our study also shows that if RNase does not efficiently cut within the binding sites, the original CLIP method is less capable of identifying the longer binding sites of RBPs. In contrast, we show that a broad size range of cDNAs in iCLIP allows the cDNA-starts to efficiently delineate the complete RNA-binding sites. Conclusions: We demonstrate the advantage of iCLIP and related methods that can amplify cDNAs that truncate at crosslink sites and we show that computational analyses based on cDNAs-starts are appropriate for such methods.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85009987891" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85009987891&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85009987891&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60105781" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105781"><affilname>Institut de Biologie de l'École Normale Supérieure</affilname><affiliation-city>Paris</affiliation-city><affiliation-country>France</affiliation-country></affiliation><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"><affilname>The Francis Crick Institute</affilname><affiliation-city>London</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"><affilname>UCL Institute of Neurology</affilname><affiliation-city>London</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60015150" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015150"><affilname>Imperial College London</affilname><affiliation-city>London</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"><affilname>The Medical Research Council Laboratory of Molecular Biology</affilname><affiliation-city>Cambridge</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><affiliation id="60007762" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007762"><affilname>Goethe-Universität Frankfurt am Main</affilname><affiliation-city>Frankfurt am Main</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"><affilname>European Molecular Biology Laboratory Heidelberg</affilname><affiliation-city>Heidelberg</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><affiliation id="112648326" href="https://api.elsevier.com/content/affiliation/affiliation_id/112648326"><affilname>Institute of Molecular Biology (IMB)</affilname><affiliation-city>Mainz</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><affiliation id="112596404" href="https://api.elsevier.com/content/affiliation/affiliation_id/112596404"><affilname>Molecular Medicine Partnership Unit (MMPU)</affilname><affiliation-city>Heidelberg</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><affiliation id="109268180" href="https://api.elsevier.com/content/affiliation/affiliation_id/109268180"><affilname>University of Heidelberg</affilname><affiliation-city>Heidelberg</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><authors><author seq="1" auid="55356372800"><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55356372800</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"/></author><author seq="2" auid="55928963700"><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55928963700</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60010269" href="https://api.elsevier.com/content/affiliation/affiliation_id/60010269"/><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"/></author><author seq="3" auid="54406528900"><ce:initials>J.</ce:initials><ce:indexed-name>Attig J.</ce:indexed-name><ce:surname>Attig</ce:surname><ce:given-name>Jan</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Attig J.</ce:indexed-name><ce:surname>Attig</ce:surname><ce:given-name>Jan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54406528900</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"/></author><author seq="4" auid="15754355700"><ce:initials>J.</ce:initials><ce:indexed-name>Konig J.</ce:indexed-name><ce:surname>König</ce:surname><ce:given-name>Julian</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>König J.</ce:indexed-name><ce:surname>König</ce:surname><ce:given-name>Julian</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/15754355700</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="112648326" href="https://api.elsevier.com/content/affiliation/affiliation_id/112648326"/></author><author seq="5" auid="35212012100"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35212012100</author-url><affiliation id="60105781" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105781"/><affiliation id="60105781" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105781"/></author><author seq="6" auid="56428809200"><ce:initials>C.</ce:initials><ce:indexed-name>Hauer C.</ce:indexed-name><ce:surname>Hauer</ce:surname><ce:given-name>Christian</ce:given-name><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>Hauer C.</ce:indexed-name><ce:surname>Hauer</ce:surname><ce:given-name>Christian</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56428809200</author-url><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"/><affiliation id="112596404" href="https://api.elsevier.com/content/affiliation/affiliation_id/112596404"/><affiliation id="109268180" href="https://api.elsevier.com/content/affiliation/affiliation_id/109268180"/></author><author seq="7" auid="7007053212"><ce:initials>M.W.</ce:initials><ce:indexed-name>Hentze M.W.</ce:indexed-name><ce:surname>Hentze</ce:surname><ce:given-name>Matthias W.</ce:given-name><preferred-name><ce:initials>M.W.</ce:initials><ce:indexed-name>Hentze M.</ce:indexed-name><ce:surname>Hentze</ce:surname><ce:given-name>Matthias W.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7007053212</author-url><affiliation id="60007257" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007257"/><affiliation id="112596404" href="https://api.elsevier.com/content/affiliation/affiliation_id/112596404"/></author><author seq="8" auid="7004450282"><ce:initials>A.E.</ce:initials><ce:indexed-name>Kulozik A.E.</ce:indexed-name><ce:surname>Kulozik</ce:surname><ce:given-name>Andreas E.</ce:given-name><preferred-name><ce:initials>A.E.</ce:initials><ce:indexed-name>Kulozik A.</ce:indexed-name><ce:surname>Kulozik</ce:surname><ce:given-name>Andreas E.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7004450282</author-url><affiliation id="112596404" href="https://api.elsevier.com/content/affiliation/affiliation_id/112596404"/><affiliation id="109268180" href="https://api.elsevier.com/content/affiliation/affiliation_id/109268180"/></author><author seq="9" auid="6603004659"><ce:initials>H.</ce:initials><ce:indexed-name>Le Hir H.</ce:indexed-name><ce:surname>Le Hir</ce:surname><ce:given-name>Hervé</ce:given-name><preferred-name><ce:initials>H.</ce:initials><ce:indexed-name>Le Hir H.</ce:indexed-name><ce:surname>Le Hir</ce:surname><ce:given-name>Hervé</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603004659</author-url><affiliation id="60105781" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105781"/><affiliation id="60105781" href="https://api.elsevier.com/content/affiliation/affiliation_id/60105781"/></author><author seq="10" auid="6506958162"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506958162</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="11" auid="39863466300"><ce:initials>C.R.</ce:initials><ce:indexed-name>Sibley C.R.</ce:indexed-name><ce:surname>Sibley</ce:surname><ce:given-name>Christopher R.</ce:given-name><preferred-name><ce:initials>C.R.</ce:initials><ce:indexed-name>Sibley C.</ce:indexed-name><ce:surname>Sibley</ce:surname><ce:given-name>Christopher R.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/39863466300</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60015150" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015150"/></author><author seq="12" auid="14828354300"><ce:initials>K.</ce:initials><ce:indexed-name>Zarnack K.</ce:indexed-name><ce:surname>Zarnack</ce:surname><ce:given-name>Kathi</ce:given-name><preferred-name><ce:initials>K.</ce:initials><ce:indexed-name>Zarnack K.</ce:indexed-name><ce:surname>Zarnack</ce:surname><ce:given-name>Kathi</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14828354300</author-url><affiliation id="60007762" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007762"/></author><author seq="13" auid="57204150692"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204150692</author-url><affiliation id="60019953" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019953"/><affiliation id="60107285" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107285"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Binding site assignment</author-keyword><author-keyword>ECLIP</author-keyword><author-keyword>Eukaryotic initiation factor 4A-III (eIF4A3)</author-keyword><author-keyword>Exon-junction complex</author-keyword><author-keyword>High-throughput sequencing</author-keyword><author-keyword>ICLIP</author-keyword><author-keyword>IrCLIP</author-keyword><author-keyword>Polypyrimidine tract binding protein 1 (PTBP1)</author-keyword><author-keyword>Protein-RNA interactions</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Binding Sites</mainterm><mainterm weight="b" candidate="n">Computational Biology</mainterm><mainterm weight="b" candidate="n">DNA, Complementary</mainterm><mainterm weight="b" candidate="n">Exons</mainterm><mainterm weight="b" candidate="n">Heterogeneous-Nuclear Ribonucleoproteins</mainterm><mainterm weight="b" candidate="n">Humans</mainterm><mainterm weight="a" candidate="n">Immunoprecipitation</mainterm><mainterm weight="b" candidate="n">Introns</mainterm><mainterm weight="b" candidate="n">Nucleotide Motifs</mainterm><mainterm weight="b" candidate="n">Protein Binding</mainterm><mainterm weight="b" candidate="n">Ribonuclease, Pancreatic</mainterm><mainterm weight="b" candidate="n">RNA</mainterm><mainterm weight="b" candidate="n">RNA-Binding Proteins</mainterm><mainterm weight="b" candidate="n">Ultraviolet Rays</mainterm></idxterms><subject-areas><subject-area code="1105" abbrev="AGRI">Ecology, Evolution, Behavior and Systematics</subject-area><subject-area code="1311" abbrev="BIOC">Genetics</subject-area><subject-area code="1307" abbrev="BIOC">Cell Biology</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-12T04:58:37Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>core</xocs:funding-agency-matched-string><xocs:funding-agency>Center for Outcomes Research and Evaluation, Yale School of Medicine</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100006441</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>European Research Council</xocs:funding-agency-matched-string><xocs:funding-id>617837-Translate</xocs:funding-id><xocs:funding-agency>European Research Council</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000781</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Cancer Research UK</xocs:funding-agency-matched-string><xocs:funding-id>FC001002</xocs:funding-id><xocs:funding-agency>Cancer Research UK</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000289</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2635167/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Wellcome Trust</xocs:funding-agency-matched-string><xocs:funding-id>103760/Z/14/Z</xocs:funding-id><xocs:funding-agency>Wellcome Trust</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100010269</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2635167/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>German Research Foundation</xocs:funding-agency-matched-string><xocs:funding-id>FOR2333</xocs:funding-id><xocs:funding-agency>Deutsche Forschungsgemeinschaft</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001659</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2921044/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>UK Medical Research Council</xocs:funding-agency-matched-string><xocs:funding-agency>Research Councils UK</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000690</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2635167/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This work was supported by the European Research Council (617837-Translate to JU), the Wellcome Trust (103760/Z/14/Z to JU), the German Research Foundation (FOR2333 to KZ) and by the Francis Crick Institute, which receives its core funding from Cancer Research UK (FC001002), the UK Medical Research Council (FC001002) and the Wellcome Trust (FC001002).</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="15" month="12" timestamp="2018-12-15T02:14:05.000005-05:00" year="2018"/><ait:date-sort day="16" month="01" year="2017"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1186/s13059-016-1130-x</ce:doi>
+                    <itemid idtype="PUI">614123027</itemid>
+                    <itemid idtype="CABS">2017027863</itemid>
+                    <itemid idtype="CAR-ID">660190035</itemid>
+                    <itemid idtype="EMBASE">20170066100</itemid>
+                    <itemid idtype="EMBIO">2016841105</itemid>
+                    <itemid idtype="MEDL">28093074</itemid>
+                    <itemid idtype="REAXYSCAR">20170154512</itemid>
+                    <itemid idtype="RMC">2017026172</itemid>
+                    <itemid idtype="SCP">85009987891</itemid>
+                    <itemid idtype="SGR">85009987891</itemid>
+                    <itemid idtype="PUIsecondary">617208438</itemid>
+                </itemidlist><history>
+                    <date-created day="14" month="12" timestamp="BST 10:37:24" year="2018"/>
+                </history><dbcollection>CABS</dbcollection><dbcollection>EMBASE</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>RMC</dbcollection><dbcollection>Scopusbase</dbcollection><external-source>MEDLINE</external-source></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Binding site assignment</author-keyword>
+                        <author-keyword xml:lang="eng">ECLIP</author-keyword>
+                        <author-keyword xml:lang="eng">Eukaryotic initiation factor 4A-III (eIF4A3)</author-keyword>
+                        <author-keyword xml:lang="eng">Exon-junction complex</author-keyword>
+                        <author-keyword xml:lang="eng">High-throughput sequencing</author-keyword>
+                        <author-keyword xml:lang="eng">ICLIP</author-keyword>
+                        <author-keyword xml:lang="eng">IrCLIP</author-keyword>
+                        <author-keyword xml:lang="eng">Polypyrimidine tract binding protein 1 (PTBP1)</author-keyword>
+                        <author-keyword xml:lang="eng">Protein-RNA interactions</author-keyword>
+                    </author-keywords></citation-info><related-item type="erratum"><ce:doi>10.1186/s13059-017-1294-z</ce:doi><itemid idtype="erratumPUI">617923429</itemid><citation-info>
+                        <citation-type code="er"/>
+                        <citation-language xml:lang="eng" language="English"/>
+                        <abstract-language xml:lang="eng" language="English"/>
+                    </citation-info><citation-title>
+                        <titletext original="y" xml:lang="eng" language="English">Erratum: Insights into the design and interpretation of iCLIP experiments [Genome Biol., 18, 1, (2017) (7)] DOI: 10.1186/s13059-016-1130-x</titletext>
+                    </citation-title><source country="gbr" type="j">
+                        <sourcetitle>Genome Biology</sourcetitle>
+                        <sourcetitle-abbrev>Genome Biol.</sourcetitle-abbrev>
+                        <translated-sourcetitle xml:lang="eng">Genome Biology</translated-sourcetitle>
+                        <issn type="print">14747596</issn>
+                        <issn type="electronic">1474760X</issn>
+                        <codencode>GNBLF</codencode>
+                        <volisspag>
+                            <voliss issue="1" volume="18"/>
+                        </volisspag>
+                        <article-number>154</article-number>
+                        <publicationyear first="2017"/>
+                        <publicationdate>
+                            <year>2017</year>
+                            <month>08</month>
+                            <day>15</day>
+                        </publicationdate>
+                        <website>
+                            <ce:e-address type="email">http://genomebiology.com/</ce:e-address>
+                        </website>
+                        <publisher>
+                            <publishername>BioMed Central Ltd.</publishername>
+                            <ce:e-address type="email">info@biomedcentral.com</ce:e-address>
+                        </publisher>
+                    </source></related-item><citation-title><titletext original="y" xml:lang="eng" language="English">Insights into the design and interpretation of iCLIP experiments</titletext></citation-title><author-group><author auid="55356372800" seq="1" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Haberman N.</ce:indexed-name>
+                            <ce:surname>Haberman</ce:surname>
+                            <ce:given-name>Nejc</ce:given-name>
+                        </preferred-name></author><author auid="55928963700" seq="2" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Huppertz I.</ce:indexed-name>
+                            <ce:surname>Huppertz</ce:surname>
+                            <ce:given-name>Ina</ce:given-name>
+                        </preferred-name></author><author auid="54406528900" seq="3" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Attig J.</ce:indexed-name><ce:surname>Attig</ce:surname><ce:given-name>Jan</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Attig J.</ce:indexed-name>
+                            <ce:surname>Attig</ce:surname>
+                            <ce:given-name>Jan</ce:given-name>
+                        </preferred-name></author><author auid="15754355700" seq="4" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Konig J.</ce:indexed-name><ce:surname>König</ce:surname><ce:given-name>Julian</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>König J.</ce:indexed-name>
+                            <ce:surname>König</ce:surname>
+                            <ce:given-name>Julian</ce:given-name>
+                        </preferred-name></author><author auid="39863466300" seq="11" type="auth"><ce:initials>C.R.</ce:initials><ce:indexed-name>Sibley C.R.</ce:indexed-name><ce:surname>Sibley</ce:surname><ce:given-name>Christopher R.</ce:given-name><preferred-name>
+                            <ce:initials>C.R.</ce:initials>
+                            <ce:indexed-name>Sibley C.</ce:indexed-name>
+                            <ce:surname>Sibley</ce:surname>
+                            <ce:given-name>Christopher R.</ce:given-name>
+                        </preferred-name></author><author auid="57204150692" seq="13" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Ule J.</ce:indexed-name>
+                            <ce:surname>Ule</ce:surname>
+                            <ce:given-name>Jernej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60019953" country="gbr" dptid="107165838"><organization>UCL Institute of Neurology</organization><organization>Department of Molecular Neuroscience</organization><address-part>Queen Square</address-part><city>London</city><postal-code>WC1N 3BG</postal-code><affiliation-id afid="60019953" dptid="107165838"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="55356372800" seq="1" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Haberman N.</ce:indexed-name><ce:surname>Haberman</ce:surname><ce:given-name>Nejc</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Haberman N.</ce:indexed-name>
+                            <ce:surname>Haberman</ce:surname>
+                            <ce:given-name>Nejc</ce:given-name>
+                        </preferred-name></author><author auid="54406528900" seq="3" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Attig J.</ce:indexed-name><ce:surname>Attig</ce:surname><ce:given-name>Jan</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Attig J.</ce:indexed-name>
+                            <ce:surname>Attig</ce:surname>
+                            <ce:given-name>Jan</ce:given-name>
+                        </preferred-name></author><author auid="57204150692" seq="13" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Ule J.</ce:indexed-name><ce:surname>Ule</ce:surname><ce:given-name>Jernej</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Ule J.</ce:indexed-name>
+                            <ce:surname>Ule</ce:surname>
+                            <ce:given-name>Jernej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60107285" country="gbr"><organization>The Crick Institute</organization><address-part>1 Midland Road</address-part><city>London</city><postal-code>NW1 1AT</postal-code><affiliation-id afid="60107285"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="55928963700" seq="2" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Huppertz I.</ce:indexed-name>
+                            <ce:surname>Huppertz</ce:surname>
+                            <ce:given-name>Ina</ce:given-name>
+                        </preferred-name></author><affiliation afid="60010269" country="gbr"><organization>MRC Laboratory of Molecular Biology</organization><address-part>Francis Crick Avenue</address-part><city>Cambridge</city><postal-code>CB2 0QH</postal-code><affiliation-id afid="60010269"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="55928963700" seq="2" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Huppertz I.</ce:indexed-name><ce:surname>Huppertz</ce:surname><ce:given-name>Ina</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Huppertz I.</ce:indexed-name>
+                            <ce:surname>Huppertz</ce:surname>
+                            <ce:given-name>Ina</ce:given-name>
+                        </preferred-name></author><author auid="56428809200" seq="6" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>Hauer C.</ce:indexed-name><ce:surname>Hauer</ce:surname><ce:given-name>Christian</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Hauer C.</ce:indexed-name>
+                            <ce:surname>Hauer</ce:surname>
+                            <ce:given-name>Christian</ce:given-name>
+                        </preferred-name></author><author auid="7007053212" seq="7" type="auth"><ce:initials>M.W.</ce:initials><ce:indexed-name>Hentze M.W.</ce:indexed-name><ce:surname>Hentze</ce:surname><ce:given-name>Matthias W.</ce:given-name><preferred-name>
+                            <ce:initials>M.W.</ce:initials>
+                            <ce:indexed-name>Hentze M.</ce:indexed-name>
+                            <ce:surname>Hentze</ce:surname>
+                            <ce:given-name>Matthias W.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60007257" country="deu"><organization>European Molecular Biology Laboratory (EMBL)</organization><address-part>Meyerhofstrasse 1</address-part><city>Heidelberg</city><postal-code>69117</postal-code><affiliation-id afid="60007257"/><country>Germany</country></affiliation></author-group><author-group><author auid="15754355700" seq="4" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Konig J.</ce:indexed-name><ce:surname>König</ce:surname><ce:given-name>Julian</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>König J.</ce:indexed-name>
+                            <ce:surname>König</ce:surname>
+                            <ce:given-name>Julian</ce:given-name>
+                        </preferred-name></author><affiliation afid="112648326" country="deu"><organization>Institute of Molecular Biology (IMB)</organization><address-part>Ackermannweg 4</address-part><city>Mainz</city><postal-code>55128</postal-code><affiliation-id afid="112648326"/><country>Germany</country></affiliation></author-group><author-group><author auid="35212012100" seq="5" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Wang Z.</ce:indexed-name>
+                            <ce:surname>Wang</ce:surname>
+                            <ce:given-name>Zhen</ce:given-name>
+                        </preferred-name></author><author auid="6603004659" seq="9" type="auth"><ce:initials>H.</ce:initials><ce:indexed-name>Le Hir H.</ce:indexed-name><ce:surname>Le Hir</ce:surname><ce:given-name>Hervé</ce:given-name><preferred-name>
+                            <ce:initials>H.</ce:initials>
+                            <ce:indexed-name>Le Hir H.</ce:indexed-name>
+                            <ce:surname>Le Hir</ce:surname>
+                            <ce:given-name>Hervé</ce:given-name>
+                        </preferred-name></author><affiliation afid="60105781" country="fra"><organization>Institut de Biologie de l'ENS (IBENS)</organization><address-part>46 rue d'Ulm</address-part><city>Paris</city><postal-code>F-75005</postal-code><affiliation-id afid="60105781"/><country>France</country></affiliation></author-group><author-group><author auid="35212012100" seq="5" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Wang Z.</ce:indexed-name><ce:surname>Wang</ce:surname><ce:given-name>Zhen</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Wang Z.</ce:indexed-name>
+                            <ce:surname>Wang</ce:surname>
+                            <ce:given-name>Zhen</ce:given-name>
+                        </preferred-name></author><author auid="6603004659" seq="9" type="auth"><ce:initials>H.</ce:initials><ce:indexed-name>Le Hir H.</ce:indexed-name><ce:surname>Le Hir</ce:surname><ce:given-name>Hervé</ce:given-name><preferred-name>
+                            <ce:initials>H.</ce:initials>
+                            <ce:indexed-name>Le Hir H.</ce:indexed-name>
+                            <ce:surname>Le Hir</ce:surname>
+                            <ce:given-name>Hervé</ce:given-name>
+                        </preferred-name></author><affiliation afid="60105781" country="fra"><organization>CNRS UMR 8197</organization><city>Paris Cedex 05</city><postal-code>75230</postal-code><affiliation-id afid="60105781"/><country>France</country></affiliation></author-group><author-group><author auid="56428809200" seq="6" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>Hauer C.</ce:indexed-name><ce:surname>Hauer</ce:surname><ce:given-name>Christian</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Hauer C.</ce:indexed-name>
+                            <ce:surname>Hauer</ce:surname>
+                            <ce:given-name>Christian</ce:given-name>
+                        </preferred-name></author><author auid="7007053212" seq="7" type="auth"><ce:initials>M.W.</ce:initials><ce:indexed-name>Hentze M.W.</ce:indexed-name><ce:surname>Hentze</ce:surname><ce:given-name>Matthias W.</ce:given-name><preferred-name>
+                            <ce:initials>M.W.</ce:initials>
+                            <ce:indexed-name>Hentze M.</ce:indexed-name>
+                            <ce:surname>Hentze</ce:surname>
+                            <ce:given-name>Matthias W.</ce:given-name>
+                        </preferred-name></author><author auid="7004450282" seq="8" type="auth"><ce:initials>A.E.</ce:initials><ce:indexed-name>Kulozik A.E.</ce:indexed-name><ce:surname>Kulozik</ce:surname><ce:given-name>Andreas E.</ce:given-name><preferred-name>
+                            <ce:initials>A.E.</ce:initials>
+                            <ce:indexed-name>Kulozik A.</ce:indexed-name>
+                            <ce:surname>Kulozik</ce:surname>
+                            <ce:given-name>Andreas E.</ce:given-name>
+                        </preferred-name></author><affiliation afid="112596404" country="deu"><organization>Molecular Medicine Partnership Unit (MMPU)</organization><address-part>Im Neuenheimer Feld 350</address-part><city>Heidelberg</city><postal-code>69120</postal-code><affiliation-id afid="112596404"/><country>Germany</country></affiliation></author-group><author-group><author auid="56428809200" seq="6" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>Hauer C.</ce:indexed-name><ce:surname>Hauer</ce:surname><ce:given-name>Christian</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Hauer C.</ce:indexed-name>
+                            <ce:surname>Hauer</ce:surname>
+                            <ce:given-name>Christian</ce:given-name>
+                        </preferred-name></author><author auid="7004450282" seq="8" type="auth"><ce:initials>A.E.</ce:initials><ce:indexed-name>Kulozik A.E.</ce:indexed-name><ce:surname>Kulozik</ce:surname><ce:given-name>Andreas E.</ce:given-name><preferred-name>
+                            <ce:initials>A.E.</ce:initials>
+                            <ce:indexed-name>Kulozik A.</ce:indexed-name>
+                            <ce:surname>Kulozik</ce:surname>
+                            <ce:given-name>Andreas E.</ce:given-name>
+                        </preferred-name></author><affiliation afid="109268180" country="deu" dptid="121792787"><organization>Hematology and Immunology</organization><organization>University of Heidelberg</organization><organization>Department of Pediatric Oncology</organization><address-part>Im Neuenheimer Feld 430</address-part><city>Heidelberg</city><postal-code>69120</postal-code><affiliation-id afid="109268180" dptid="121792787"/><country>Germany</country></affiliation></author-group><author-group><author auid="6506958162" date-locked="2018-10-19T10:07:04.263" seq="10" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Curk T.</ce:indexed-name>
+                            <ce:surname>Curk</ce:surname>
+                            <ce:given-name>Tomaž</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Tržaška cesta 25</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="39863466300" seq="11" type="auth"><ce:initials>C.R.</ce:initials><ce:indexed-name>Sibley C.R.</ce:indexed-name><ce:surname>Sibley</ce:surname><ce:given-name>Christopher R.</ce:given-name><preferred-name>
+                            <ce:initials>C.R.</ce:initials>
+                            <ce:indexed-name>Sibley C.</ce:indexed-name>
+                            <ce:surname>Sibley</ce:surname>
+                            <ce:given-name>Christopher R.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60015150" country="gbr" dptid="113750122"><organization>Imperial College London</organization><organization>Division of Brain Sciences</organization><organization>Department of Medicine</organization><city>London</city><affiliation-id afid="60015150" dptid="113750122"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="14828354300" seq="12" type="auth"><ce:initials>K.</ce:initials><ce:indexed-name>Zarnack K.</ce:indexed-name><ce:surname>Zarnack</ce:surname><ce:given-name>Kathi</ce:given-name><preferred-name>
+                            <ce:initials>K.</ce:initials>
+                            <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                            <ce:surname>Zarnack</ce:surname>
+                            <ce:given-name>Kathi</ce:given-name>
+                        </preferred-name></author><affiliation afid="60007762" country="deu" dptid="113361681"><organization>Goethe University Frankfurt</organization><organization>Buchmann Institute for Molecular Life Sciences (BMLS)</organization><address-part>Max-von-Laue-Str. 15</address-part><city>Frankfurt am Main</city><postal-code>60438</postal-code><affiliation-id afid="60007762" dptid="113361681"/><country>Germany</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>K.</ce:initials>
+                        <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                        <ce:surname>Zarnack</ce:surname>
+                        <ce:given-name>Kathi</ce:given-name>
+                    </person><affiliation country="gbr"><organization>UCL Institute of Neurology</organization><organization>Department of Molecular Neuroscience</organization><address-part>Queen Square</address-part><city>London</city><postal-code>WC1N 3BG</postal-code><country>United Kingdom</country></affiliation></correspondence><grantlist complete="y"><grant>
+                        <grant-id>617837</grant-id>
+                        <grant-acronym>ERC</grant-acronym>
+                        <grant-agency iso-code="bel">European Research Council</grant-agency>
+                    </grant><grant>
+                        <grant-id>FC001002</grant-id>
+                        <grant-acronym>CRUK</grant-acronym>
+                        <grant-agency iso-code="gbr">Cancer Research UK</grant-agency>
+                    </grant><grant>
+                        <grant-id>FC001002</grant-id>
+                        <grant-acronym>MRC</grant-acronym>
+                        <grant-agency iso-code="dnk">Medical Research Council</grant-agency>
+                    </grant><grant>
+                        <grant-id>FOR2333</grant-id>
+                        <grant-acronym>DFG</grant-acronym>
+                        <grant-agency iso-code="deu">Deutsche Forschungsgemeinschaft</grant-agency>
+                    </grant><grant-text xml:lang="eng">This work was supported by the European Research Council (617837-Translate to JU), the Wellcome Trust (103760/Z/14/Z to JU), the German Research Foundation (FOR2333 to KZ) and by the Francis Crick Institute, which receives its core funding from Cancer Research UK (FC001002), the UK Medical Research Council (FC001002) and the Wellcome Trust (FC001002).</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 The Author(s).</publishercopyright>
+                        <ce:para>Background: Ultraviolet (UV) crosslinking and immunoprecipitation (CLIP) identifies the sites on RNAs that are in direct contact with RNA-binding proteins (RBPs). Several variants of CLIP exist, which require different computational approaches for analysis. This variety of approaches can create challenges for a novice user and can hamper insights from multi-study comparisons. Here, we produce data with multiple variants of CLIP and evaluate the data with various computational methods to better understand their suitability. Results: We perform experiments for PTBP1 and eIF4A3 using individual-nucleotide resolution CLIP (iCLIP), employing either UV-C or photoactivatable 4-thiouridine (4SU) combined with UV-A crosslinking and compare the results with published data. As previously noted, the positions of complementary DNA (cDNA)-starts depend on cDNA length in several iCLIP experiments and we now find that this is caused by constrained cDNA-ends, which can result from the sequence and structure constraints of RNA fragmentation. These constraints are overcome when fragmentation by RNase I is efficient and when a broad cDNA size range is obtained. Our study also shows that if RNase does not efficiently cut within the binding sites, the original CLIP method is less capable of identifying the longer binding sites of RBPs. In contrast, we show that a broad size range of cDNAs in iCLIP allows the cDNA-starts to efficiently delineate the complete RNA-binding sites. Conclusions: We demonstrate the advantage of iCLIP and related methods that can amplify cDNAs that truncate at crosslink sites and we show that computational analyses based on cDNAs-starts are appropriate for such methods.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="40944" type="j"><sourcetitle>Genome Biology</sourcetitle><sourcetitle-abbrev>Genome Biol.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Genome Biology</translated-sourcetitle><issn type="electronic">1474760X</issn><issn type="print">14747596</issn><codencode>GNBLF</codencode><volisspag>
+                        <voliss issue="1" volume="18"/>
+                    </volisspag><article-number>7</article-number><publicationyear first="2017"/><publicationdate>
+                        <year>2017</year>
+                        <month>01</month>
+                        <day>16</day>
+                    <date-text xfab-added="true">16 January 2017</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://genomebiology.com/</ce:e-address>
+                    </website><publisher>
+                        <publishername>BioMed Central Ltd.</publishername>
+                        <ce:e-address type="email">info@biomedcentral.com</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CABSCLASS">
+                            <classification>
+                                <classification-code>84.1.13</classification-code>
+                                <classification-description>GENETICS AND MOLECULAR BIOLOGY; MOLECULAR GENETICS; Molecular Biology Techniques</classification-description>
+                            </classification>
+                        </classifications><classifications type="EMCLASS">
+                            <classification>
+                                <classification-code>22</classification-code>
+                                <classification-description>Human Genetics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>29</classification-code>
+                                <classification-description>Clinical and Experimental Biochemistry</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1105</classification>
+                            <classification>1311</classification>
+                            <classification>1307</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>AGRI</classification><classification>BIOC</classification></classifications></classificationgroup><chemicalgroup>
+                        <chemicals source="esbd">
+                            <chemical>
+                                <chemical-name>pancreatic ribonuclease</chemical-name>
+                                <cas-registry-number>12585-08-9</cas-registry-number>
+                                <enzyme-commission-number>EC 3.1.27.5</enzyme-commission-number>
+                                <enzyme-commission-number>EC 3.1.4.22</enzyme-commission-number>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA</chemical-name>
+                                <cas-registry-number>63231-63-0</cas-registry-number>
+                            </chemical>
+                        </chemicals>
+                        <chemicals source="nlm">
+                            <chemical>
+                                <chemical-name>DNA, Complementary</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>Heterogeneous-Nuclear Ribonucleoproteins</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>Ribonuclease, Pancreatic</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA</chemical-name>
+                            </chemical>
+                            <chemical>
+                                <chemical-name>RNA-Binding Proteins</chemical-name>
+                            </chemical>
+                        </chemicals>
+                    </chemicalgroup></enhancement></head><tail><bibliography refcount="32">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CLIP identifies Nova-regulated RNA networks in the brain</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0242497663</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.B.</ce:initials>
+                                    <ce:indexed-name>Jensen K.B.</ce:indexed-name>
+                                    <ce:surname>Jensen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ruggiu M.</ce:indexed-name>
+                                    <ce:surname>Ruggiu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ule A.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Darnell R.B.</ce:indexed-name>
+                                    <ce:surname>Darnell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="302"/>
+                                <pagerange first="1212" last="1215"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ule J, Jensen KB, Ruggiu M, Mele A, Ule A, Darnell RB. CLIP identifies Nova-regulated RNA networks in the brain. Science. 2003;302:1212-5.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Protein-RNA interactions: new genomic technologies and perspectives</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84855916545</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Konig J.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                                    <ce:surname>Zarnack</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.M.</ce:initials>
+                                    <ce:indexed-name>Luscombe N.M.</ce:indexed-name>
+                                    <ce:surname>Luscombe</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Rev Genet.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="77" last="83"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>König J, Zarnack K, Luscombe NM, Ule J. Protein-RNA interactions: new genomic technologies and perspectives. Nat Rev Genet. 2012;13:77-83.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>iCLIP reveals the function of hnRNP particles in splicing at individual nucleotide resolution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954387023</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Konig J.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                                    <ce:surname>Zarnack</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Rot G.</ce:indexed-name>
+                                    <ce:surname>Rot</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Struct Mol Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="17"/>
+                                <pagerange first="909" last="915"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>König J, Zarnack K, Rot G, Curk T, Kayikci M, Zupan B, et al. iCLIP reveals the function of hnRNP particles in splicing at individual nucleotide resolution. Nat Struct Mol Biol. 2010;17:909-15.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis of CLIP and iCLIP methods for nucleotide-resolution studies of protein-RNA interactions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84936744064</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Sugimoto Y.</ce:indexed-name>
+                                    <ce:surname>Sugimoto</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Konig J.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hussain S.</ce:indexed-name>
+                                    <ce:surname>Hussain</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Frye M.</ce:indexed-name>
+                                    <ce:surname>Frye</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="R67"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sugimoto Y, König J, Hussain S, Zupan B, Curk T, Frye M, et al. Analysis of CLIP and iCLIP methods for nucleotide-resolution studies of protein-RNA interactions. Genome Biol. 2012;13:R67.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>HITS-CLIP and integrative modeling define the Rbfox splicing-regulatory network linked to brain development and autism</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897051164</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.M.</ce:initials>
+                                    <ce:indexed-name>Weyn-Vanhentenryck S.M.</ce:indexed-name>
+                                    <ce:surname>Weyn-Vanhentenryck</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Yan Q.</ce:indexed-name>
+                                    <ce:surname>Yan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sun S.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Farny N.</ce:indexed-name>
+                                    <ce:surname>Farny</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhang Z.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell Rep.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="1139" last="1152"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Weyn-Vanhentenryck SM, Mele A, Yan Q, Sun S, Farny N, Zhang Z, et al. HITS-CLIP and integrative modeling define the Rbfox splicing-regulatory network linked to brain development and autism. Cell Rep. 2014;6:1139-52.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust transcriptome-wide discovery of RNA-binding protein binding sites with enhanced CLIP (eCLIP)</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84961683881</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.L.</ce:initials>
+                                    <ce:indexed-name>Nostrand E.L.</ce:indexed-name>
+                                    <ce:surname>Nostrand</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.A.</ce:initials>
+                                    <ce:indexed-name>Pratt G.A.</ce:indexed-name>
+                                    <ce:surname>Pratt</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.A.</ce:initials>
+                                    <ce:indexed-name>Shishkin A.A.</ce:indexed-name>
+                                    <ce:surname>Shishkin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Gelboin-Burkhart C.</ce:indexed-name>
+                                    <ce:surname>Gelboin-Burkhart</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.Y.</ce:initials>
+                                    <ce:indexed-name>Fang M.Y.</ce:indexed-name>
+                                    <ce:surname>Fang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Sundararaman B.</ce:indexed-name>
+                                    <ce:surname>Sundararaman</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Methods.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="508" last="514"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Van Nostrand EL, Pratt GA, Shishkin AA, Gelboin-Burkhart C, Fang MY, Sundararaman B, et al. Robust transcriptome-wide discovery of RNA-binding protein binding sites with enhanced CLIP (eCLIP). Nat Methods. 2016;13:508-14.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>irCLIP platform for efficient characterization of protein-RNA interactions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84964296256</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.J.</ce:initials>
+                                    <ce:indexed-name>Zarnegar B.J.</ce:indexed-name>
+                                    <ce:surname>Zarnegar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Flynn R.A.</ce:indexed-name>
+                                    <ce:surname>Flynn</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Shen Y.</ce:indexed-name>
+                                    <ce:surname>Shen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.T.</ce:initials>
+                                    <ce:indexed-name>Do B.T.</ce:indexed-name>
+                                    <ce:surname>Do</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.Y.</ce:initials>
+                                    <ce:indexed-name>Chang H.Y.</ce:indexed-name>
+                                    <ce:surname>Chang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.A.</ce:initials>
+                                    <ce:indexed-name>Khavari P.A.</ce:indexed-name>
+                                    <ce:surname>Khavari</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="489" last="492"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zarnegar BJ, Flynn RA, Shen Y, Do BT, Chang HY, Khavari PA. irCLIP platform for efficient characterization of protein-RNA interactions. Nat Methods. 2016;13:489-92.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Improved binding site assignment by high-resolution mapping of RNA-protein interactions using iCLIP</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84939155584</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hauer C.</ce:indexed-name>
+                                    <ce:surname>Hauer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Anders S.</ce:indexed-name>
+                                    <ce:surname>Anders</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Schwarzl T.</ce:indexed-name>
+                                    <ce:surname>Schwarzl</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.M.</ce:initials>
+                                    <ce:indexed-name>Alleaume A.M.</ce:indexed-name>
+                                    <ce:surname>Alleaume</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Sieber J.</ce:indexed-name>
+                                    <ce:surname>Sieber</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Commun.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="7921"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hauer C, Curk T, Anders S, Schwarzl T, Alleaume AM, Sieber J, et al. Improved binding site assignment by high-resolution mapping of RNA-protein interactions using iCLIP. Nat Commun. 2015;6:7921.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The spliceosome deposits multiple proteins 20-24 nucleotides upstream of mRNA exon-exon junctions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034672093</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Hir H.</ce:indexed-name>
+                                    <ce:surname>Hir</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Izaurralde E.</ce:indexed-name>
+                                    <ce:surname>Izaurralde</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.E.</ce:initials>
+                                    <ce:indexed-name>Maquat L.E.</ce:indexed-name>
+                                    <ce:surname>Maquat</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Moore M.J.</ce:indexed-name>
+                                    <ce:surname>Moore</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>EMBO J.</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="6860" last="6869"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Le Hir H, Izaurralde E, Maquat LE, Moore MJ. The spliceosome deposits multiple proteins 20-24 nucleotides upstream of mRNA exon-exon junctions. EMBO J. 2000;19:6860-9.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Flexibility in the site of exon junction complex deposition revealed by functional group and RNA secondary structure alterations in the splicing substrate</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">57049145820</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Mishler D.M.</ce:indexed-name>
+                                    <ce:surname>Mishler</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.B.</ce:initials>
+                                    <ce:indexed-name>Christ A.B.</ce:indexed-name>
+                                    <ce:surname>Christ</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Steitz J.A.</ce:indexed-name>
+                                    <ce:surname>Steitz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>RNA.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="2657" last="2670"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mishler DM, Christ AB, Steitz JA. Flexibility in the site of exon junction complex deposition revealed by functional group and RNA secondary structure alterations in the splicing substrate. RNA. 2008;14:2657-70.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CLIP-seq of eIF4AIII reveals transcriptome-wide mapping of the human exon junction complex</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84869087484</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Sauliere J.</ce:indexed-name>
+                                    <ce:surname>Sauliere</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Murigneux V.</ce:indexed-name>
+                                    <ce:surname>Murigneux</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Wang Z.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Marquenet E.</ce:indexed-name>
+                                    <ce:surname>Marquenet</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Barbosa I.</ce:indexed-name>
+                                    <ce:surname>Barbosa</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Tonqueze O.</ce:indexed-name>
+                                    <ce:surname>Tonqueze</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Struct Mol Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="1124" last="1131"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sauliere J, Murigneux V, Wang Z, Marquenet E, Barbosa I, Le Tonqueze O, et al. CLIP-seq of eIF4AIII reveals transcriptome-wide mapping of the human exon junction complex. Nat Struct Mol Biol. 2012;19:1124-31.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nuclear matrix protein Matrin3 regulates alternative splicing and forms overlapping regulatory networks with PTB</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84924036454</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Coelho M.B.</ce:indexed-name>
+                                    <ce:surname>Coelho</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Attig J.</ce:indexed-name>
+                                    <ce:surname>Attig</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Bellora N.</ce:indexed-name>
+                                    <ce:surname>Bellora</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Konig J.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hallegger M.</ce:indexed-name>
+                                    <ce:surname>Hallegger</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>EMBO J.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="34"/>
+                                <pagerange first="653" last="668"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Coelho MB, Attig J, Bellora N, König J, Hallegger M, Kayikci M, et al. Nuclear matrix protein Matrin3 regulates alternative splicing and forms overlapping regulatory networks with PTB. EMBO J. 2015;34:653-68.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Direct conversion of fibroblasts to neurons by reprogramming PTB-regulated microRNA circuits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84872601985</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Xue Y.</ce:indexed-name>
+                                    <ce:surname>Xue</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Ouyang K.</ce:indexed-name>
+                                    <ce:surname>Ouyang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huang J.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhou Y.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ouyang H.</ce:indexed-name>
+                                    <ce:surname>Ouyang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Li H.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="152"/>
+                                <pagerange first="82" last="96"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Xue Y, Ouyang K, Huang J, Zhou Y, Ouyang H, Li H, et al. Direct conversion of fibroblasts to neurons by reprogramming PTB-regulated microRNA circuits. Cell. 2013;152:82-96.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mechanisms for U2AF to define 3' splice sites and regulate alternative splicing in the human genome</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84908879645</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Shao C.</ce:indexed-name>
+                                    <ce:surname>Shao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Yang B.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Wu T.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huang J.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Tang P.</ce:indexed-name>
+                                    <ce:surname>Tang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhou Y.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Struct Mol Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="21"/>
+                                <pagerange first="997" last="1005"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shao C, Yang B, Wu T, Huang J, Tang P, Zhou Y, et al. Mechanisms for U2AF to define 3' splice sites and regulate alternative splicing in the human genome. Nat Struct Mol Biol. 2014;21:997-1005.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Direct competition between hnRNP C and U2AF65 protects the transcriptome from the exonization of Alu elements</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873323035</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                                    <ce:surname>Zarnack</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Konig J.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Tajnik M.</ce:indexed-name>
+                                    <ce:surname>Tajnik</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Martincorena I.</ce:indexed-name>
+                                    <ce:surname>Martincorena</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Eustermann S.</ce:indexed-name>
+                                    <ce:surname>Eustermann</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Stevant I.</ce:indexed-name>
+                                    <ce:surname>Stevant</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="152"/>
+                                <pagerange first="453" last="466"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zarnack K, König J, Tajnik M, Martincorena I, Eustermann S, Stevant I, et al. Direct competition between hnRNP C and U2AF65 protects the transcriptome from the exonization of Alu elements. Cell. 2013;152:453-66.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mapping in vivo protein-RNA interactions at single-nucleotide resolution from HITS-CLIP data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960230895</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Zhang C.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Darnell R.B.</ce:indexed-name>
+                                    <ce:surname>Darnell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Biotech.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="607" last="614"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhang C, Darnell RB. Mapping in vivo protein-RNA interactions at single-nucleotide resolution from HITS-CLIP data. Nat Biotech. 2011;29:607-14.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>iCLIP: protein-RNA interactions at nucleotide resolution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84894233636</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Huppertz I.</ce:indexed-name>
+                                    <ce:surname>Huppertz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Attig J.</ce:indexed-name>
+                                    <ce:surname>Attig</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>D'Ambrogio A.</ce:indexed-name>
+                                    <ce:surname>D'Ambrogio</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.E.</ce:initials>
+                                    <ce:indexed-name>Easton L.E.</ce:indexed-name>
+                                    <ce:surname>Easton</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.R.</ce:initials>
+                                    <ce:indexed-name>Sibley C.R.</ce:indexed-name>
+                                    <ce:surname>Sibley</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Sugimoto Y.</ce:indexed-name>
+                                    <ce:surname>Sugimoto</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Methods.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="65"/>
+                                <pagerange first="274" last="287"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Huppertz I, Attig J, D'Ambrogio A, Easton LE, Sibley CR, Sugimoto Y, et al. iCLIP: protein-RNA interactions at nucleotide resolution. Methods. 2014;65:274-87.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Novel modes of splicing repression by PTB</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">32344437827</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Spellman R.</ce:indexed-name>
+                                    <ce:surname>Spellman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.W.</ce:initials>
+                                    <ce:indexed-name>Smith C.W.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Trends Biochem Sci.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="31"/>
+                                <pagerange first="73" last="76"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Spellman R, Smith CW. Novel modes of splicing repression by PTB. Trends Biochem Sci. 2006;31:73-6.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The cellular EJC interactome reveals higher-order mRNP structure and an EJC-SR protein nexus</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84869090905</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Singh G.</ce:indexed-name>
+                                    <ce:surname>Singh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kucukural A.</ce:indexed-name>
+                                    <ce:surname>Kucukural</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Cenik C.</ce:indexed-name>
+                                    <ce:surname>Cenik</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.D.</ce:initials>
+                                    <ce:indexed-name>Leszyk J.D.</ce:indexed-name>
+                                    <ce:surname>Leszyk</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Shaffer S.A.</ce:indexed-name>
+                                    <ce:surname>Shaffer</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Weng Z.</ce:indexed-name>
+                                    <ce:surname>Weng</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="151"/>
+                                <pagerange first="750" last="764"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Singh G, Kucukural A, Cenik C, Leszyk JD, Shaffer SA, Weng Z, et al. The cellular EJC interactome reveals higher-order mRNP structure and an EJC-SR protein nexus. Cell. 2012;151:750-64.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The DEAD-box protein family of RNA helicases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33344473656</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Cordin O.</ce:indexed-name>
+                                    <ce:surname>Cordin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Banroques J.</ce:indexed-name>
+                                    <ce:surname>Banroques</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.K.</ce:initials>
+                                    <ce:indexed-name>Tanner N.K.</ce:indexed-name>
+                                    <ce:surname>Tanner</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Linder P.</ce:indexed-name>
+                                    <ce:surname>Linder</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Gene.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="367"/>
+                                <pagerange first="17" last="37"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cordin O, Banroques J, Tanner NK, Linder P. The DEAD-box protein family of RNA helicases. Gene. 2006;367:17-37.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Transcriptome-wide identification of RNA-binding protein and microRNA target sites by PAR-CLIP</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77950920903</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hafner M.</ce:indexed-name>
+                                    <ce:surname>Hafner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Landthaler M.</ce:indexed-name>
+                                    <ce:surname>Landthaler</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Burger L.</ce:indexed-name>
+                                    <ce:surname>Burger</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Khorshid M.</ce:indexed-name>
+                                    <ce:surname>Khorshid</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hausser J.</ce:indexed-name>
+                                    <ce:surname>Hausser</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Berninger P.</ce:indexed-name>
+                                    <ce:surname>Berninger</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Cell.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="141"/>
+                                <pagerange first="129" last="141"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hafner M, Landthaler M, Burger L, Khorshid M, Hausser J, Berninger P, et al. Transcriptome-wide identification of RNA-binding protein and microRNA target sites by PAR-CLIP. Cell. 2010;141:129-41.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Human spliceosomal protein CWC22 plays a role in coupling splicing to exon junction complex deposition and nonsense-mediated decay</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84871825274</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Alexandrov A.</ce:indexed-name>
+                                    <ce:surname>Alexandrov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Colognori D.</ce:indexed-name>
+                                    <ce:surname>Colognori</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.D.</ce:initials>
+                                    <ce:indexed-name>Shu M.D.</ce:indexed-name>
+                                    <ce:surname>Shu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Steitz J.A.</ce:indexed-name>
+                                    <ce:surname>Steitz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc Natl Acad Sci U S A.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="109"/>
+                                <pagerange first="21313" last="21318"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Alexandrov A, Colognori D, Shu MD, Steitz JA. Human spliceosomal protein CWC22 plays a role in coupling splicing to exon junction complex deposition and nonsense-mediated decay. Proc Natl Acad Sci U S A. 2012;109:21313-8.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Human CWC22 escorts the helicase eIF4AIII to spliceosomes and promotes exon junction complex assembly</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84867232894</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Barbosa I.</ce:indexed-name>
+                                    <ce:surname>Barbosa</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Haque N.</ce:indexed-name>
+                                    <ce:surname>Haque</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Fiorini F.</ce:indexed-name>
+                                    <ce:surname>Fiorini</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Barrandon C.</ce:indexed-name>
+                                    <ce:surname>Barrandon</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Tomasetto C.</ce:indexed-name>
+                                    <ce:surname>Tomasetto</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Blanchette M.</ce:indexed-name>
+                                    <ce:surname>Blanchette</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat Struct Mol Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="983" last="990"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Barbosa I, Haque N, Fiorini F, Barrandon C, Tomasetto C, Blanchette M, et al. Human CWC22 escorts the helicase eIF4AIII to spliceosomes and promotes exon junction complex assembly. Nat Struct Mol Biol. 2012;19:983-90.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CWC22-dependent pre-mRNA splicing and eIF4A3 binding enables global deposition of exon junction complexes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84930276132</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Steckelberg A.L.</ce:indexed-name>
+                                    <ce:surname>Steckelberg</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Altmueller J.</ce:indexed-name>
+                                    <ce:surname>Altmueller</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Dieterich C.</ce:indexed-name>
+                                    <ce:surname>Dieterich</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.H.</ce:initials>
+                                    <ce:indexed-name>Gehring N.H.</ce:indexed-name>
+                                    <ce:surname>Gehring</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="43"/>
+                                <pagerange first="4687" last="4700"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Steckelberg AL, Altmueller J, Dieterich C, Gehring NH. CWC22-dependent pre-mRNA splicing and eIF4A3 binding enables global deposition of exon junction complexes. Nucleic Acids Res. 2015;43:4687-700.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CPSF30 and Wdr33 directly bind to AAUAAA in mammalian mRNA 3' processing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84922392412</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.L.</ce:initials>
+                                    <ce:indexed-name>Chan S.L.</ce:indexed-name>
+                                    <ce:surname>Chan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Huppertz I.</ce:indexed-name>
+                                    <ce:surname>Huppertz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Yao C.</ce:indexed-name>
+                                    <ce:surname>Yao</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Weng L.</ce:indexed-name>
+                                    <ce:surname>Weng</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Moresco J.J.</ce:indexed-name>
+                                    <ce:surname>Moresco</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Yates J.R.</ce:indexed-name>
+                                    <ce:surname>Yates</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Genes Dev.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="28"/>
+                                <pagerange first="2370" last="2380"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chan SL, Huppertz I, Yao C, Weng L, Moresco JJ, Yates 3rd JR, et al. CPSF30 and Wdr33 directly bind to AAUAAA in mammalian mRNA 3' processing. Genes Dev. 2014;28:2370-80.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sequence biases in CLIP experimental data are incorporated in protein RNA-binding models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85009938583</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Orenstein Y.</ce:indexed-name>
+                                    <ce:surname>Orenstein</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Hosur R.</ce:indexed-name>
+                                    <ce:surname>Hosur</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Simmons S.</ce:indexed-name>
+                                    <ce:surname>Simmons</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Bienkoswka J.</ce:indexed-name>
+                                    <ce:surname>Bienkoswka</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Berger B.</ce:indexed-name>
+                                    <ce:surname>Berger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>bioRxiv</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Orenstein Y, Hosur R, Simmons S, Bienkoswka J, Berger B. Sequence biases in CLIP experimental data are incorporated in protein RNA-binding models. bioRxiv. 2016. doi: 10.1101/075259</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CLIP: A method for identifying protein-RNA interaction sites in living cells</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">27944508215</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ule J.</ce:indexed-name>
+                                    <ce:surname>Ule</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Jensen K.</ce:indexed-name>
+                                    <ce:surname>Jensen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mele A.</ce:indexed-name>
+                                    <ce:surname>Mele</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Darnell R.B.</ce:indexed-name>
+                                    <ce:surname>Darnell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Methods.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="37"/>
+                                <pagerange first="376" last="386"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ule J, Jensen K, Mele A, Darnell RB. CLIP: A method for identifying protein-RNA interaction sites in living cells. Methods. 2005;37:376-86.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>RNA-ligase-dependent biases in miRNA representation in deep-sequenced small RNA cDNA libraries</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84860389888</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hafner M.</ce:indexed-name>
+                                    <ce:surname>Hafner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Renwick N.</ce:indexed-name>
+                                    <ce:surname>Renwick</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Brown M.</ce:indexed-name>
+                                    <ce:surname>Brown</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mihailovic A.</ce:indexed-name>
+                                    <ce:surname>Mihailovic</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Holoch D.</ce:indexed-name>
+                                    <ce:surname>Holoch</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Lin C.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>RNA.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="17"/>
+                                <pagerange first="1697" last="1712"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hafner M, Renwick N, Brown M, Mihailovic A, Holoch D, Lin C, et al. RNA-ligase-dependent biases in miRNA representation in deep-sequenced small RNA cDNA libraries. RNA. 2011;17:1697-712.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Structural bias in T4 RNA ligase-mediated 3'-adapter ligation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84860198538</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Zhuang F.</ce:indexed-name>
+                                    <ce:surname>Zhuang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.T.</ce:initials>
+                                    <ce:indexed-name>Fuchs R.T.</ce:indexed-name>
+                                    <ce:surname>Fuchs</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Sun Z.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zheng Y.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.B.</ce:initials>
+                                    <ce:indexed-name>Robb G.B.</ce:indexed-name>
+                                    <ce:surname>Robb</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="40"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhuang F, Fuchs RT, Sun Z, Zheng Y, Robb GB. Structural bias in T4 RNA ligase-mediated 3'-adapter ligation. Nucleic Acids Res. 2012;40, e54.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>iCLIP predicts the dual splicing effects of TIA-RNA interactions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78149393552</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Wang Z.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kayikci M.</ce:indexed-name>
+                                    <ce:surname>Kayikci</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Briese M.</ce:indexed-name>
+                                    <ce:surname>Briese</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zarnack K.</ce:indexed-name>
+                                    <ce:surname>Zarnack</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.M.</ce:initials>
+                                    <ce:indexed-name>Luscombe N.M.</ce:indexed-name>
+                                    <ce:surname>Luscombe</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Rot G.</ce:indexed-name>
+                                    <ce:surname>Rot</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wang Z, Kayikci M, Briese M, Zarnack K, Luscombe NM, Rot G, et al. iCLIP predicts the dual splicing effects of TIA-RNA interactions. PLoS Biol. 2010;8, e1000530.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Structure of PTB bound to RNA: specific binding and implications for splicing regulation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">25444486174</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.C.</ce:initials>
+                                    <ce:indexed-name>Oberstrass F.C.</ce:indexed-name>
+                                    <ce:surname>Oberstrass</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.D.</ce:initials>
+                                    <ce:indexed-name>Auweter S.D.</ce:indexed-name>
+                                    <ce:surname>Auweter</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Erat M.</ce:indexed-name>
+                                    <ce:surname>Erat</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Hargous Y.</ce:indexed-name>
+                                    <ce:surname>Hargous</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Henning A.</ce:indexed-name>
+                                    <ce:surname>Henning</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Wenter P.</ce:indexed-name>
+                                    <ce:surname>Wenter</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Science.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="309"/>
+                                <pagerange first="2054" last="2057"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Oberstrass FC, Auweter SD, Erat M, Hargous Y, Henning A, Wenter P, et al. Structure of PTB bound to RNA: specific binding and implications for splicing regulation. Science. 2005;309:2054-7.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ViennaRNA Package 2.0.</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">82055164092</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Lorenz R.</ce:indexed-name>
+                                    <ce:surname>Lorenz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Bernhart S.H.</ce:indexed-name>
+                                    <ce:surname>Bernhart</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Honer Zu Siederdissen C.</ce:indexed-name>
+                                    <ce:surname>Honer Zu Siederdissen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Tafer H.</ce:indexed-name>
+                                    <ce:surname>Tafer</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Flamm C.</ce:indexed-name>
+                                    <ce:surname>Flamm</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.F.</ce:initials>
+                                    <ce:indexed-name>Stadler P.F.</ce:indexed-name>
+                                    <ce:surname>Stadler</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Algorithms Mol Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="26"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lorenz R, Bernhart SH, Honer Zu Siederdissen C, Tafer H, Flamm C, Stadler PF, et al. ViennaRNA Package 2.0. Algorithms Mol Biol. 2011;6:26.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

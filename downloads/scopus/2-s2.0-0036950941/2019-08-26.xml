@@ -1,0 +1,234 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0036950941</prism:url><dc:identifier>SCOPUS_ID:0036950941</dc:identifier><eid>2-s2.0-0036950941</eid><dc:title>Advanced detection of ST segment episodes in 24-hour ambulatory ECG data by automated tracking of transient ST segment reference level</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>4</citedby-count><prism:publicationName>Computers in Cardiology</prism:publicationName><source-id>23618</source-id><prism:issn>02766574</prism:issn><prism:volume>29</prism:volume><prism:startingPage>325</prism:startingPage><prism:endingPage>328</prism:endingPage><prism:pageRange>325-328</prism:pageRange><prism:coverDate>2002-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6603254309"><ce:initials>A.</ce:initials><ce:indexed-name>Smrdel A.</ce:indexed-name><ce:surname>Smrdel</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Smrdel A.</ce:indexed-name><ce:surname>Smrdel</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603254309</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Using the Long-Term ST Database, we developed and evaluated an advanced algorithm for automated detection of transient ST segment episodes in "real-world" 24-hour ambulatory data. To successfully detect transient ST change episodes, the algorithm automatically tracks the time-varying ST segment reference level due to clinically not important non-ischemic causes and subtracts it from the ST segment level. Evaluating of the algorithm using reference annotations of the protocol B of the database yielded gross ST episode detection sensitivity and positive predictivity of approximately 75%.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0036950941" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0036950941&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0036950941&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6603254309"><ce:initials>A.</ce:initials><ce:indexed-name>Smrdel A.</ce:indexed-name><ce:surname>Smrdel</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Smrdel A.</ce:indexed-name><ce:surname>Smrdel</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603254309</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="35616708300"><ce:initials>F.</ce:initials><ce:indexed-name>Jager F.</ce:indexed-name><ce:surname>Jager</ce:surname><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Jager F.</ce:indexed-name><ce:surname>Jager</ce:surname><ce:given-name>F.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35616708300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Ambulatory data</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="2705" abbrev="MEDI">Cardiology and Cardiovascular Medicine</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="11" month="04" timestamp="2013-04-11T03:18:27.000027+01:00" year="2013"/><ait:date-sort day="01" month="12" year="2002"/><ait:status state="update" type="core" stage="S300"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2004 Elsevier Science B.V., Amsterdam. All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">36354931</itemid>
+<itemid idtype="CPX">2003147424187</itemid>
+<itemid idtype="SCP">0036950941</itemid>
+<itemid idtype="SGR">0036950941</itemid>
+</itemidlist><history>
+<date-created day="01" month="04" year="2003"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Advanced detection of ST segment episodes in 24-hour ambulatory ECG data by automated tracking of transient ST segment reference level</titletext></citation-title><author-group><author auid="6603254309" seq="1"><ce:initials>A.</ce:initials><ce:indexed-name>Smrdel A.</ce:indexed-name><ce:surname>Smrdel</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Smrdel A.</ce:indexed-name>
+<ce:surname>Smrdel</ce:surname>
+<ce:given-name>Aleš</ce:given-name>
+</preferred-name></author><author auid="35616708300" seq="2"><ce:initials>F.</ce:initials><ce:indexed-name>Jager F.</ce:indexed-name><ce:surname>Jager</ce:surname><preferred-name>
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Jager F.</ce:indexed-name>
+<ce:surname>Jager</ce:surname>
+<ce:given-name>F.</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Fac. of Comp./Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="6603254309" seq="1"><ce:initials>A.</ce:initials><ce:indexed-name>Smrdel A.</ce:indexed-name><ce:surname>Smrdel</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Smrdel A.</ce:indexed-name>
+<ce:surname>Smrdel</ce:surname>
+<ce:given-name>Aleš</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Fac. of Comp./Information Science</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Smrdel A.</ce:indexed-name>
+<ce:surname>Smrdel</ce:surname>
+</person><affiliation country="svn"><organization>Fac. of Comp./Information Science</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Using the Long-Term ST Database, we developed and evaluated an advanced algorithm for automated detection of transient ST segment episodes in "real-world" 24-hour ambulatory data. To successfully detect transient ST change episodes, the algorithm automatically tracks the time-varying ST segment reference level due to clinically not important non-ischemic causes and subtracts it from the ST segment level. Evaluating of the algorithm using reference annotations of the protocol B of the database yielded gross ST episode detection sensitivity and positive predictivity of approximately 75%.</ce:para>
+</abstract></abstracts><source country="usa" srcid="23618" type="p"><sourcetitle>Computers in Cardiology</sourcetitle><sourcetitle-abbrev>Comput Cardiol</sourcetitle-abbrev><issn>02766574</issn><codencode>COCAD</codencode><volisspag>
+<voliss volume="29"/>
+<pagerange first="325" last="328"/>
+</volisspag><publicationyear first="2002"/><publicationdate>
+<year>2002</year>
+<date-text xfab-added="true">2002</date-text></publicationdate><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>Computers in Cardiology 2002</confname>
+<conflocation country="usa">
+<city-group>Memphis, TN</city-group>
+</conflocation>
+<confdate>
+<startdate day="22" month="09" year="2002"/>
+<enddate day="25" month="09" year="2002"/>
+</confdate>
+<confcatnumber>02CH37421</confcatnumber>
+<confcode>60850</confcode>
+<confsponsors complete="y">
+<confsponsor>European Society of Cardiology</confsponsor>
+<confsponsor>The Whitaker Foundation</confsponsor>
+<confsponsor>National Science Foundation</confsponsor>
+<confsponsor>The University of Memphis</confsponsor>
+<confsponsor>Department of Biomedical Engineering</confsponsor>
+</confsponsors>
+</confevent>
+<confpublication>
+<confeditors>
+<editors complete="y">
+<editor>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Murray A.</ce:indexed-name>
+<ce:degrees>PhD</ce:degrees>
+<ce:surname>Murray</ce:surname>
+</editor>
+</editors>
+</confeditors>
+<procpagecount>738</procpagecount>
+</confpublication>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1712</classification>
+<classification>2705</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MEDI</classification></classifications>
+<classifications type="CPXCLASS">
+<classification>461.6</classification>
+<classification>701.1</classification>
+<classification>723.2</classification>
+<classification>723.3</classification>
+<classification>731</classification>
+</classifications>
+<classifications type="SUBJECT">
+<classification>Engineering and Technology</classification>
+</classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="3">
+<reference id="57752274">
+<ref-info>
+<ref-title>
+<ref-titletext>The long-term ST database: A research resource for algorithm development and physiologic studies of transient myocardial ischemia</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034483860</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Jager F.</ce:indexed-name>
+<ce:surname>Jager</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Taddei A.</ce:indexed-name>
+<ce:surname>Taddei</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Emdin M.</ce:indexed-name>
+<ce:surname>Emdin</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Antolic G.</ce:indexed-name>
+<ce:surname>Antolič</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>G.B.</ce:initials>
+<ce:indexed-name>Moody G.B.</ce:indexed-name>
+<ce:surname>Moody</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Glavic B.</ce:indexed-name>
+<ce:surname>Glavič</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Smrdel A.</ce:indexed-name>
+<ce:surname>Smrdel</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Varanini M.</ce:indexed-name>
+<ce:surname>Varanini</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Zabukovec M.</ce:indexed-name>
+<ce:surname>Zabukovec</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Bordigiago S.</ce:indexed-name>
+<ce:surname>Bordigiago</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Marchesi C.</ce:indexed-name>
+<ce:surname>Marchesi</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>R.G.</ce:initials>
+<ce:indexed-name>Mark R.G.</ce:indexed-name>
+<ce:surname>Mark</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computers in Cardiology 2000</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<pagerange first="841" last="844"/>
+</ref-volisspag>
+<ref-text>IEEE Society Press</ref-text>
+</ref-info>
+<ref-fulltext>Jager F, Taddei A, Emdin M, Antolič G, Moody GB, Glavič B, Smrdel A, Varanini M, Zabukovec M, Bordigiago S, Marchesi C, Mark RG. The Long-Term ST Database: A research resource for algorithm development and physiologic studies of transient myocardial ischemia. In Computers in Cardiology 2000. IEEE Society Press, 2000; 841-844.</ref-fulltext>
+</reference>
+<reference id="57752275">
+<ref-info>
+<ref-title>
+<ref-titletext>Development and evaluation of a 2-lead ECG analysis program</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0020948396</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.B.</ce:initials>
+<ce:indexed-name>Moody G.B.</ce:indexed-name>
+<ce:surname>Moody</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.G.</ce:initials>
+<ce:indexed-name>Mark R.G.</ce:indexed-name>
+<ce:surname>Mark</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computers in Cardiology 1982</ref-sourcetitle>
+<ref-publicationyear first="1982"/>
+<ref-volisspag>
+<pagerange first="39" last="44"/>
+</ref-volisspag>
+<ref-text>IEEE Society Press</ref-text>
+</ref-info>
+<ref-fulltext>Moody GB, Mark RG. Development and evaluation of a 2-lead ECG analysis program. In Computers in Cardiology 1982. IEEE Society Press, 1982; 39-44.</ref-fulltext>
+</reference>
+<reference id="57752276">
+<ref-info>
+<ref-title>
+<ref-titletext>Performance measures for algorithms to detect transient ischemic ST segment changes</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0026634381</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Jager F.</ce:indexed-name>
+<ce:surname>Jager</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.B.</ce:initials>
+<ce:indexed-name>Moody G.B.</ce:indexed-name>
+<ce:surname>Moody</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Taddei A.</ce:indexed-name>
+<ce:surname>Taddei</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>R.G.</ce:initials>
+<ce:indexed-name>Mark R.G.</ce:indexed-name>
+<ce:surname>Mark</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computers in Cardiology 1991</ref-sourcetitle>
+<ref-publicationyear first="1991"/>
+<ref-volisspag>
+<pagerange first="369" last="372"/>
+</ref-volisspag>
+<ref-text>IEEE Society Press</ref-text>
+</ref-info>
+<ref-fulltext>Jager F, Moody GB, Taddei A, Mark RG. Performance measures for algorithms to detect transient ischemic ST segment changes. In Computers in Cardiology 1991. IEEE Society Press, 1991; 369-372.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

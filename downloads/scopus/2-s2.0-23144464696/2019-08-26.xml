@@ -1,0 +1,323 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/23144464696</prism:url><dc:identifier>SCOPUS_ID:23144464696</dc:identifier><eid>2-s2.0-23144464696</eid><pubmed-id>15980576</pubmed-id><prism:doi>10.1093/nar/gki426</prism:doi><dc:title>GenePath: From mutations to genetic networks and back</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>12</citedby-count><prism:publicationName>Nucleic Acids Research</prism:publicationName><source-id>14204</source-id><prism:issn>03051048 13624962</prism:issn><prism:volume>33</prism:volume><prism:issueIdentifier>SUPPL. 2</prism:issueIdentifier><prism:coverDate>2005-07-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="6507897381"><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507897381</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>GenePath is a web-based application for the analysis of mutant-based experiments and synthesis of genetic networks. Here, we introduce GenePath and describe a number of new approaches, including conflict resolution, handling cyclic pathways, confidence level assignment, what-if analysis and new experiment proposal. We illustrate the key concepts using data from a study of adhesion genes in Dictyostelium discoideum and show that GenePath discovered genetic interactions that were ignored in the original publication. GenePath is available at http://www.genepath.org/genepath2. © 2005 Oxford University Press.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/23144464696" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=23144464696&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=23144464696&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"><affilname>Baylor College of Medicine</affilname><affiliation-city>Houston</affiliation-city><affiliation-country>United States</affiliation-country></affiliation><authors><author seq="1" auid="6507897381"><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507897381</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7003920656"><ce:initials>G.</ce:initials><ce:indexed-name>Shaulsky G.</ce:indexed-name><ce:surname>Shaulsky</ce:surname><ce:given-name>Gad</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Shaulsky G.</ce:indexed-name><ce:surname>Shaulsky</ce:surname><ce:given-name>Gad</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003920656</author-url><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author><author seq="4" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms/><subject-areas><subject-area code="1311" abbrev="BIOC">Genetics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-08T12:48:33Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>National Institute of Child Health and Human Developement</xocs:funding-agency-matched-string></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovene Ministry of Education, Science and Sports</xocs:funding-agency-matched-string><xocs:funding-agency>Ministry of Education, Culture, Sports, Science and Technology</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001700</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1861060/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>National Institute of Child Health and Human Development</xocs:funding-agency-matched-string><xocs:funding-id>P01 HD39691</xocs:funding-id><xocs:funding-agency-acronym>NICHD</xocs:funding-agency-acronym><xocs:funding-agency>National Institute of Child Health and Human Development</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100000071</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This work was supported in part by a grant from the Slovene Ministry of Education, Science and Sports and by a grant from the National Institute of Child Health and Human Development, P01 HD39691. Funding to pay the Open Access publication charges for this article was provided by a grant from the National Institute of Child Health and Human Developement, P01 HD39691.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="04" month="02" timestamp="2019-02-04T02:41:21.000021-05:00" year="2019"/><ait:date-sort day="01" month="07" year="2005"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1093/nar/gki426</ce:doi>
+<itemid idtype="PUI">43437002</itemid>
+<itemid idtype="EMBASE">2006141179</itemid>
+<itemid idtype="CABS">2006081991</itemid>
+<itemid idtype="SCP">23144464696</itemid>
+<itemid idtype="SGR">23144464696</itemid>
+<itemid idtype="PUIsecondary">41077755</itemid>
+<itemid idtype="MEDL">15980576</itemid>
+<itemid idtype="PUIsecondary">44530022</itemid>
+<itemid idtype="EMBIO">2006268852</itemid>
+</itemidlist><history>
+<date-created day="29" month="03" year="2006"/>
+</history><dbcollection>EMBASE</dbcollection><dbcollection>CABS</dbcollection><dbcollection>Scopusbase</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>MEDL</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">GenePath: From mutations to genetic networks and back</titletext></citation-title><author-group><author auid="6507897381" seq="1"><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name>
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Juvan P.</ce:indexed-name>
+<ce:surname>Juvan</ce:surname>
+<ce:given-name>Peter</ce:given-name>
+</preferred-name></author><author auid="55075851300" seq="2"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+<ce:given-name>Janez</ce:given-name>
+</preferred-name></author><author auid="7003934784" seq="4"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+<ce:given-name>Blaz</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="7003920656" seq="3"><ce:initials>G.</ce:initials><ce:indexed-name>Shaulsky G.</ce:indexed-name><ce:surname>Shaulsky</ce:surname><ce:given-name>Gad</ce:given-name><preferred-name>
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+<ce:given-name>Gad</ce:given-name>
+</preferred-name></author><author auid="7003934784" seq="4"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+<ce:given-name>Blaz</ce:given-name>
+</preferred-name></author><affiliation afid="60002441" country="usa" dptid="100255583"><organization>Department of Molecular and Human Genetics</organization><organization>Baylor College of Medicine</organization><city-group>Houston, TX</city-group><affiliation-id afid="60002441" dptid="100255583"/><country>United States</country></affiliation></author-group><correspondence><person>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+</person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>GenePath is a web-based application for the analysis of mutant-based experiments and synthesis of genetic networks. Here, we introduce GenePath and describe a number of new approaches, including conflict resolution, handling cyclic pathways, confidence level assignment, what-if analysis and new experiment proposal. We illustrate the key concepts using data from a study of adhesion genes in Dictyostelium discoideum and show that GenePath discovered genetic interactions that were ignored in the original publication. GenePath is available at http://www.genepath.org/genepath2. © 2005 Oxford University Press.</ce:para>
+</abstract></abstracts><source country="gbr" srcid="14204" type="j"><sourcetitle>Nucleic Acids Research</sourcetitle><sourcetitle-abbrev>Nucleic Acids Res.</sourcetitle-abbrev><issn type="print">03051048</issn><issn type="electronic">13624962</issn><codencode>NARHA</codencode><volisspag>
+<voliss issue="SUPPL. 2" volume="33"/>
+<pages>W749-W752</pages>
+</volisspag><publicationyear first="2005"/><publicationdate>
+<year>2005</year>
+<month>07</month>
+<date-text xfab-added="true">July 2005</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CABSCLASS">
+<classification>84.1.13.12</classification>
+<classification>84.5.11.3</classification>
+<classification> <classification-code>84.1.13.12</classification-code> <classification-description>GENETICS AND MOLECULAR BIOLOGY; MOLECULAR GENETICS; Molecular Biology Techniques; Computer and mathematical applications</classification-description> </classification>
+</classifications><classifications type="EMCLASS">
+<classification>27.5.2</classification>
+<classification>29.2.1</classification>
+<classification>29.4</classification>
+<classification> <classification-code>27.5.2</classification-code> <classification-description>Biophysics, Bioengineering and Medical Instrumentation; COMPUTERS AND AUTOMATION; Software</classification-description> </classification>
+<classification> <classification-code>4.2</classification-code> <classification-description>Microbiology: Bacteriology, Mycology, Parasitology and Virology; BIOCHEMISTRY, MOLECULAR BIOLOGY AND BIOTECHNOLOGY</classification-description> </classification>
+<classification> <classification-code>4.8.2</classification-code> <classification-description>Microbiology: Bacteriology, Mycology, Parasitology and Virology; PARASITOLOGY; Protozoa</classification-description> </classification>
+</classifications><classifications type="ASJC">
+<classification>1311</classification>
+</classifications><classifications type="SUBJABBR"><classification>BIOC</classification></classifications></classificationgroup><tradenamegroup>
+<tradenames type="TNV">
+<trademanuitem>
+<tradename>GenePath</tradename>
+</trademanuitem>
+</tradenames>
+</tradenamegroup></enhancement></head><tail><bibliography refcount="5">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Ordering gene function: The interpretation of epistasis in regulatory hierarchies</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0026666791</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Avery L.</ce:indexed-name>
+<ce:surname>Avery</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Wasserman S.</ce:indexed-name>
+<ce:surname>Wasserman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Trends Genet.</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="312" last="316"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Avery,L. and Wasserman,S. (1992) Ordering gene function: The interpretation of epistasis in regulatory hierarchies. Trends Genet., 8, 312-316.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>GenePath: A system for automated construction of genetic networks from mutant data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0037433043</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Juvan P.</ce:indexed-name>
+<ce:surname>Juvan</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Halter J.A.</ce:indexed-name>
+<ce:surname>Halter</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss volume="19"/>
+<pagerange first="383" last="389"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Zupan,B., Demsar,J., Bratko,I., Juvan,P., Halter,J.A., Kuspa,A. and Shaulsky,G. (2003) GenePath: A system for automated construction of genetic networks from mutant data. Bioinformatics, 19, 383-389.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>GenePath: A computer program for genetic pathway discovery from mutant data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84888018625</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Halter J.A.</ce:indexed-name>
+<ce:surname>Halter</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>R.J.</ce:initials>
+<ce:indexed-name>Beck R.J.</ce:indexed-name>
+<ce:surname>Beck</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 10th World Congress on Medical Informatics</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<pagerange first="956" last="959"/>
+</ref-volisspag>
+<ref-text>Patel,L., Rogers,R. and Haux,R. (eds), London, UK, Medinfo 2001. IOS Press, Amsterdam</ref-text>
+</ref-info>
+<ref-fulltext>Demsar,J., Zupan,B., Bratko,I., Kuspa,A., Halter,J.A., Beck,R.J. and Shaulsky,G. (2001) GenePath: A computer program for genetic pathway discovery from mutant data. In Patel,L., Rogers,R. and Haux,R. (eds), Proceedings of the 10th World Congress on Medical Informatics, London, UK, Medinfo 2001. IOS Press, Amsterdam, pp. 956-959.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>GenePath: A system for inference of genetic networks and proposal of genetic experiments</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">10744225909</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Juvan P.</ce:indexed-name>
+<ce:surname>Juvan</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Curk T.</ce:indexed-name>
+<ce:surname>Curk</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Borstnik U.</ce:indexed-name>
+<ce:surname>Borstnik</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>J.R.</ce:initials>
+<ce:indexed-name>Beck J.R.</ce:indexed-name>
+<ce:surname>Beck</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Halter J.</ce:indexed-name>
+<ce:surname>Halter</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artif. Intell. Med.</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss volume="29"/>
+<pagerange first="107" last="130"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Zupan,B., Bratko,I., Demsar,J., Juvan,P., Curk,T., Borstnik,U., Beck,J.R., Halter,J., Kuspa,A. and Shaulsky,G. (2003) GenePath: A system for inference of genetic networks and proposal of genetic experiments. Artif. Intell. Med., 29, 107-130.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>A cell-adhesion pathway regulates intercellular communication during Dictyostelium development</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0344925819</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Kibler K.</ce:indexed-name>
+<ce:surname>Kibler</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Svetz J.</ce:indexed-name>
+<ce:surname>Svetz</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>T.L.</ce:initials>
+<ce:indexed-name>Nguyen T.L.</ce:indexed-name>
+<ce:surname>Nguyen</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Shaw C.</ce:indexed-name>
+<ce:surname>Shaw</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Dev. Biol.</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss volume="264"/>
+<pagerange first="506" last="521"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Kibler,K., Svetz,J., Nguyen,T.L., Shaw,C. and Shaulsky,G. (2003) A cell-adhesion pathway regulates intercellular communication during Dictyostelium development. Dev. Biol., 264, 506-521.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

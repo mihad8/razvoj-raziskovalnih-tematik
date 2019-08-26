@@ -1,0 +1,65 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0029487550</prism:url><dc:identifier>SCOPUS_ID:0029487550</dc:identifier><eid>2-s2.0-0029487550</eid><dc:title>Figure-ground segmentation using Tabu search</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Proceedings of the IEEE International Conference on Computer Vision</prism:publicationName><dc:publisher>
+                        IEEE
+                        Piscataway, NJ, United States
+                    </dc:publisher><source-id>110561</source-id><prism:startingPage>605</prism:startingPage><prism:endingPage>610</prism:endingPage><prism:pageRange>605-610</prism:pageRange><prism:coverDate>1995-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="7102157919"><ce:initials>Markus</ce:initials><ce:indexed-name>Stricker Markus</ce:indexed-name><ce:surname>Stricker</ce:surname><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Stricker M.</ce:indexed-name><ce:surname>Stricker</ce:surname><ce:given-name>Markus</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7102157919</author-url><affiliation id="60025858" href="https://api.elsevier.com/content/affiliation/affiliation_id/60025858"/></author></dc:creator><dc:description><abstract xmlns="" original="y" perspective="CPXAUTHOR" xml:lang="eng">
+                        <ce:para>Many computer vision problems, such as figure-ground segmentation, simultaneous fitting of curves, selection of an optimal set of geometric primitives, can be formulated naturally as discrete optimization problems. The statement of these problems is relatively easy, but to find techniques that efficiently solve them constitutes a major challenge. In this paper we focus on figure-ground segmentation. We present a Tabu search strategy which is able to solve the discrete optimization problem associated with figure-ground segmentation in a very efficient way. The resulting deterministic algorithm outperforms the currently fastest known algorithm to solve this problem (mean field annealing) by two orders of magnitude in speed and in addition it consistently finds better optima.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0029487550" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0029487550&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0029487550&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60025858" href="https://api.elsevier.com/content/affiliation/affiliation_id/60025858"><affilname>ETH Zürich</affilname><affiliation-city>Zurich ZH,</affiliation-city><affiliation-country>Switzerland</affiliation-country></affiliation><authors><author seq="1" auid="7102157919"><ce:initials>Markus</ce:initials><ce:indexed-name>Stricker Markus</ce:indexed-name><ce:surname>Stricker</ce:surname><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Stricker M.</ce:indexed-name><ce:surname>Stricker</ce:surname><ce:given-name>Markus</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7102157919</author-url><affiliation id="60025858" href="https://api.elsevier.com/content/affiliation/affiliation_id/60025858"/></author><author seq="2" auid="7003317327"><ce:initials>Ales</ce:initials><ce:indexed-name>Leonardis Ales</ce:indexed-name><ce:surname>Leonardis</ce:surname><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Ales</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60025858" href="https://api.elsevier.com/content/affiliation/affiliation_id/60025858"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Deterministic algorithm</mainterm><mainterm weight="a" candidate="n">Figure ground segmentation</mainterm><mainterm weight="a" candidate="n">Tabu search</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="23" month="11" timestamp="2018-11-23T11:16:59.000059-05:00" year="2018"/><ait:date-sort day="01" month="12" year="1995"/><ait:status state="update" type="core" stage="S300"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2004 Elsevier Science B.V., Amsterdam. All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">26685644</itemid>
+                    <itemid idtype="CPX">1996193103248</itemid>
+                    <itemid idtype="SCP">0029487550</itemid>
+                    <itemid idtype="SGR">0029487550</itemid>
+                </itemidlist><history>
+                    <date-created day="01" month="01" year="1996"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Figure-ground segmentation using Tabu search</titletext></citation-title><author-group><author auid="7102157919" seq="1"><ce:initials>Markus</ce:initials><ce:indexed-name>Stricker Markus</ce:indexed-name><ce:surname>Stricker</ce:surname><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Stricker M.</ce:indexed-name>
+                            <ce:surname>Stricker</ce:surname>
+                            <ce:given-name>Markus</ce:given-name>
+                        </preferred-name></author><author auid="7003317327" seq="2"><ce:initials>Ales</ce:initials><ce:indexed-name>Leonardis Ales</ce:indexed-name><ce:surname>Leonardis</ce:surname><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                            <ce:surname>Leonardis</ce:surname>
+                            <ce:given-name>Ales</ce:given-name>
+                        </preferred-name></author><affiliation afid="60025858" country="che"><organization>Swiss Federal Inst of Technology ETH</organization><city-group>Zurich</city-group><affiliation-id afid="60025858"/><country>Switzerland</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>Markus</ce:initials>
+                        <ce:indexed-name>Stricker Markus</ce:indexed-name>
+                        <ce:surname>Stricker</ce:surname>
+                    </person><affiliation country="che"><organization>Swiss Federal Inst of Technology ETH</organization><city-group>Zurich</city-group><country>Switzerland</country></affiliation></correspondence><abstracts><abstract original="y" perspective="CPXAUTHOR" xml:lang="eng">
+                        <ce:para>Many computer vision problems, such as figure-ground segmentation, simultaneous fitting of curves, selection of an optimal set of geometric primitives, can be formulated naturally as discrete optimization problems. The statement of these problems is relatively easy, but to find techniques that efficiently solve them constitutes a major challenge. In this paper we focus on figure-ground segmentation. We present a Tabu search strategy which is able to solve the discrete optimization problem associated with figure-ground segmentation in a very efficient way. The resulting deterministic algorithm outperforms the currently fastest known algorithm to solve this problem (mean field annealing) by two orders of magnitude in speed and in addition it consistently finds better optima.</ce:para>
+                    </abstract></abstracts><source srcid="110561" type="p"><sourcetitle>Proceedings of the IEEE International Conference on Computer Vision</sourcetitle><sourcetitle-abbrev>Proc IEEE Int Conf Comput Vision</sourcetitle-abbrev><codencode>PICVE</codencode><volisspag>
+                        <pagerange first="605" last="610"/>
+                    </volisspag><publicationyear first="1995"/><publicationdate>
+                        <year>1995</year>
+                    <date-text xfab-added="true">1995</date-text></publicationdate><publisher>
+                        <publishername>IEEE</publishername>
+                        <publisheraddress>Piscataway, NJ, United States</publisheraddress>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>International Symposium on Computer Vision, ISCV'95, Proceedings</confname>
+                                <conflocation>
+                                    <city-group>Coral Gables, FL, USA</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="21" month="11" year="1995"/>
+                                    <enddate day="23" month="11" year="1995"/>
+                                </confdate>
+                                <confcode>44401</confcode>
+                                <confsponsors complete="y">
+                                    <confsponsor>IEEE</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>723.2</classification>
+                            <classification>723.5</classification>
+                            <classification>741.2</classification>
+                            <classification>921.4</classification>
+                            <classification>921.5</classification>
+                            <classification>921.6</classification>
+                        </classifications><classifications type="SUBJECT">
+                            <classification>Engineering and Technology</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1707</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="9"/></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,1869 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84903891030</prism:url><dc:identifier>SCOPUS_ID:84903891030</dc:identifier><eid>2-s2.0-84903891030</eid><pubmed-id>24752995</pubmed-id><prism:doi>10.1002/yea.3016</prism:doi><dc:title>Computational models reveal genotype-phenotype associations in Saccharomyces cerevisiae</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>8</citedby-count><prism:publicationName>Yeast</prism:publicationName><dc:publisher>
+John Wiley and Sons Ltd
+
+Southern Gate
+Chichester, West Sussex
+PO19 8SQ
+
+</dc:publisher><source-id>17905</source-id><prism:issn>10970061 0749503X</prism:issn><prism:volume>31</prism:volume><prism:issueIdentifier>7</prism:issueIdentifier><prism:startingPage>265</prism:startingPage><prism:endingPage>277</prism:endingPage><prism:pageRange>265-277</prism:pageRange><prism:coverDate>2014-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="16028614100"><ce:initials>R.</ce:initials><ce:indexed-name>Franco-Duarte R.</ce:indexed-name><ce:surname>Franco-Duarte</ce:surname><ce:given-name>Ricardo</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Franco-Duarte R.</ce:indexed-name><ce:surname>Franco-Duarte</ce:surname><ce:given-name>Ricardo</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/16028614100</author-url><affiliation id="60020475" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020475"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Genome sequencing is essential to understand individual variation and to study the mechanisms that explain relations between genotype and phenotype. The accumulated knowledge from large-scale genome sequencing projects of Saccharomyces cerevisiae isolates is being used to study the mechanisms that explain such relations. Our objective was to undertake genetic characterization of 172 S. cerevisiae strains from different geographical origins and technological groups, using 11 polymorphic microsatellites, and computationally relate these data with the results of 30 phenotypic tests. Genetic characterization revealed 280 alleles, with the microsatellite ScAAT1 contributing most to intrastrain variability, together with alleles 20, 9 and 16 from the microsatellites ScAAT4, ScAAT5 and ScAAT6. These microsatellite allelic profiles are characteristic for both the phenotype and origin of yeast strains. We confirm the strength of these associations by construction and cross-validation of computational models that can predict the technological application and origin of a strain from the microsatellite allelic profile. Associations between microsatellites and specific phenotypes were scored using information gain ratios, and significant findings were confirmed by permutation tests and estimation of false discovery rates. The phenotypes associated with higher number of alleles were the capacity to resist to sulphur dioxide (tested by the capacity to grow in the presence of potassium bisulphite) and the presence of galactosidase activity. Our study demonstrates the utility of computational modelling to estimate a strain technological group and phenotype from microsatellite allelic combinations as tools for preliminary yeast strain selection. © 2014 John Wiley &amp; Sons, Ltd.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84903891030" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84903891030&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84903891030&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60032971" href="https://api.elsevier.com/content/affiliation/affiliation_id/60032971"><affilname>Universidade dos Açores</affilname><affiliation-city>Ponta Delgada</affiliation-city><affiliation-country>Portugal</affiliation-country></affiliation><affiliation id="60020475" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020475"><affilname>Universidade do Minho</affilname><affiliation-city>Braga</affiliation-city><affiliation-country>Portugal</affiliation-country></affiliation><authors><author seq="1" auid="16028614100"><ce:initials>R.</ce:initials><ce:indexed-name>Franco-Duarte R.</ce:indexed-name><ce:surname>Franco-Duarte</ce:surname><ce:given-name>Ricardo</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Franco-Duarte R.</ce:indexed-name><ce:surname>Franco-Duarte</ce:surname><ce:given-name>Ricardo</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/16028614100</author-url><affiliation id="60020475" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020475"/></author><author seq="2" auid="55937242800"><ce:initials>I.</ce:initials><ce:indexed-name>Mendes I.</ce:indexed-name><ce:surname>Mendes</ce:surname><ce:given-name>Inês</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Mendes I.</ce:indexed-name><ce:surname>Mendes</ce:surname><ce:given-name>Inês</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55937242800</author-url><affiliation id="60020475" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020475"/></author><author seq="3" auid="36936810300"><ce:initials>L.</ce:initials><ce:indexed-name>Umek L.</ce:indexed-name><ce:surname>Umek</ce:surname><ce:given-name>Lan</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Umek L.</ce:indexed-name><ce:surname>Umek</ce:surname><ce:given-name>Lan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36936810300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="55669540300"><ce:initials>J.</ce:initials><ce:indexed-name>Drumonde-Neves J.</ce:indexed-name><ce:surname>Drumonde-Neves</ce:surname><ce:given-name>João</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Drumonde-Neves J.</ce:indexed-name><ce:surname>Drumonde-Neves</ce:surname><ce:given-name>João</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55669540300</author-url><affiliation id="60020475" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020475"/><affiliation id="60032971" href="https://api.elsevier.com/content/affiliation/affiliation_id/60032971"/></author><author seq="5" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="6" auid="56207730300"><ce:initials>D.</ce:initials><ce:indexed-name>Schuller D.</ce:indexed-name><ce:surname>Schuller</ce:surname><ce:given-name>Dorit</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Schuller D.</ce:indexed-name><ce:surname>Schuller</ce:surname><ce:given-name>Dorit</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56207730300</author-url><affiliation id="60020475" href="https://api.elsevier.com/content/affiliation/affiliation_id/60020475"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Data mining</author-keyword><author-keyword>Microsatellite</author-keyword><author-keyword>Nearest-neighbour classifier</author-keyword><author-keyword>Phenotypic characterization</author-keyword><author-keyword>Saccharomyces cerevisiae</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Alleles</mainterm><mainterm weight="b" candidate="n">Computer Simulation</mainterm><mainterm weight="b" candidate="n">DNA, Fungal</mainterm><mainterm weight="a" candidate="n">Genetic Variation</mainterm><mainterm weight="b" candidate="n">Genotype</mainterm><mainterm weight="b" candidate="n">Microsatellite Repeats</mainterm><mainterm weight="a" candidate="n">Models, Genetic</mainterm><mainterm weight="b" candidate="n">Phenotype</mainterm><mainterm weight="b" candidate="n">Principal Component Analysis</mainterm><mainterm weight="b" candidate="n">Saccharomyces cerevisiae</mainterm></idxterms><subject-areas><subject-area code="1303" abbrev="BIOC">Biochemistry</subject-area><subject-area code="1305" abbrev="BIOC">Biotechnology</subject-area><subject-area code="1311" abbrev="BIOC">Genetics</subject-area><subject-area code="1502" abbrev="CENG">Bioengineering</subject-area><subject-area code="2402" abbrev="IMMU">Applied Microbiology and Biotechnology</subject-area><subject-area code="2700" abbrev="MEDI">Medicine (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="04" month="04" timestamp="2015-04-04T02:46:41.000041+01:00" year="2015"/><ait:date-sort day="01" month="01" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1002/yea.3016</ce:doi>
+<itemid idtype="PUI">373475099</itemid>
+<itemid idtype="CABS">2014211838</itemid>
+<itemid idtype="CAR-ID">353355936</itemid>
+<itemid idtype="EMBASE">2014457950</itemid>
+<itemid idtype="EMBIO">2014289826</itemid>
+<itemid idtype="MEDL">24752995</itemid>
+<itemid idtype="SCP">84903891030</itemid>
+<itemid idtype="SGR">84903891030</itemid>
+<itemid idtype="PUIsecondary">603327836</itemid></itemidlist><history>
+<date-created day="11" month="07" year="2014"/>
+</history><dbcollection>CABS</dbcollection><dbcollection>EMBASE</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Data mining</author-keyword>
+<author-keyword>Microsatellite</author-keyword>
+<author-keyword>Nearest-neighbour classifier</author-keyword>
+<author-keyword>Phenotypic characterization</author-keyword>
+<author-keyword>Saccharomyces cerevisiae</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Computational models reveal genotype-phenotype associations in Saccharomyces cerevisiae</titletext></citation-title><author-group><author auid="16028614100" seq="1" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Franco-Duarte R.</ce:indexed-name><ce:surname>Franco-Duarte</ce:surname><ce:given-name>Ricardo</ce:given-name><preferred-name>
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Franco-Duarte R.</ce:indexed-name>
+<ce:surname>Franco-Duarte</ce:surname>
+<ce:given-name>Ricardo</ce:given-name>
+</preferred-name></author><author auid="55937242800" seq="2" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Mendes I.</ce:indexed-name><ce:surname>Mendes</ce:surname><ce:given-name>Inês</ce:given-name><preferred-name>
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Mendes I.</ce:indexed-name>
+<ce:surname>Mendes</ce:surname>
+<ce:given-name>Inês</ce:given-name>
+</preferred-name></author><author auid="55669540300" seq="4" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Drumonde-Neves J.</ce:indexed-name><ce:surname>Drumonde-Neves</ce:surname><ce:given-name>João</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Drumonde-Neves J.</ce:indexed-name>
+<ce:surname>Drumonde-Neves</ce:surname>
+<ce:given-name>João</ce:given-name>
+</preferred-name></author><author auid="56207730300" seq="6" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Schuller D.</ce:indexed-name><ce:surname>Schuller</ce:surname><ce:given-name>Dorit</ce:given-name><preferred-name>
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Schuller D.</ce:indexed-name>
+<ce:surname>Schuller</ce:surname>
+<ce:given-name>Dorit</ce:given-name>
+</preferred-name></author><affiliation afid="60020475" country="prt" dptid="112589048"><organization>Centre of Molecular and Environmental Biology (CBMA), Department of Biology, University of Minho</organization><city-group>Braga</city-group><country>Portugal</country></affiliation></author-group><author-group><author auid="36936810300" seq="3" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Umek L.</ce:indexed-name><ce:surname>Umek</ce:surname><ce:given-name>Lan</ce:given-name><preferred-name>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Umek L.</ce:indexed-name>
+<ce:surname>Umek</ce:surname>
+<ce:given-name>Lan</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580857"><organization>Faculty of Administration, University of Ljubljana</organization><country>Slovenia</country></affiliation></author-group><author-group><author auid="36936810300" seq="3" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Umek L.</ce:indexed-name><ce:surname>Umek</ce:surname><ce:given-name>Lan</ce:given-name><preferred-name>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Umek L.</ce:indexed-name>
+<ce:surname>Umek</ce:surname>
+<ce:given-name>Lan</ce:given-name>
+</preferred-name></author><author auid="7003934784" seq="5" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+<ce:given-name>Blaz</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science, University of Ljubljana</organization><country>Slovenia</country></affiliation></author-group><author-group><author auid="55669540300" seq="4" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Drumonde-Neves J.</ce:indexed-name><ce:surname>Drumonde-Neves</ce:surname><ce:given-name>João</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Drumonde-Neves J.</ce:indexed-name>
+<ce:surname>Drumonde-Neves</ce:surname>
+<ce:given-name>João</ce:given-name>
+</preferred-name></author><affiliation afid="60032971" country="prt" dptid="107934324"><organization>Research Centre for Agricultural Technology, Department of Agricultural Sciences, University of Azores</organization><city-group>Angra do Heroísmo</city-group><country>Portugal</country></affiliation></author-group><correspondence><person>
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Schuller D.</ce:indexed-name>
+<ce:surname>Schuller</ce:surname>
+</person><affiliation country="prt"><organization>Centre of Molecular and Environmental Biology (CBMA), Department of Biology, University of Minho</organization><city-group>Braga</city-group><country>Portugal</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Genome sequencing is essential to understand individual variation and to study the mechanisms that explain relations between genotype and phenotype. The accumulated knowledge from large-scale genome sequencing projects of Saccharomyces cerevisiae isolates is being used to study the mechanisms that explain such relations. Our objective was to undertake genetic characterization of 172 S. cerevisiae strains from different geographical origins and technological groups, using 11 polymorphic microsatellites, and computationally relate these data with the results of 30 phenotypic tests. Genetic characterization revealed 280 alleles, with the microsatellite ScAAT1 contributing most to intrastrain variability, together with alleles 20, 9 and 16 from the microsatellites ScAAT4, ScAAT5 and ScAAT6. These microsatellite allelic profiles are characteristic for both the phenotype and origin of yeast strains. We confirm the strength of these associations by construction and cross-validation of computational models that can predict the technological application and origin of a strain from the microsatellite allelic profile. Associations between microsatellites and specific phenotypes were scored using information gain ratios, and significant findings were confirmed by permutation tests and estimation of false discovery rates. The phenotypes associated with higher number of alleles were the capacity to resist to sulphur dioxide (tested by the capacity to grow in the presence of potassium bisulphite) and the presence of galactosidase activity. Our study demonstrates the utility of computational modelling to estimate a strain technological group and phenotype from microsatellite allelic combinations as tools for preliminary yeast strain selection. © 2014 John Wiley &amp; Sons, Ltd.</ce:para>
+</abstract></abstracts><source country="gbr" srcid="17905" type="j"><sourcetitle>Yeast</sourcetitle><sourcetitle-abbrev>Yeast</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Yeast</translated-sourcetitle><issn type="electronic">10970061</issn><issn type="print">0749503X</issn><codencode>YESTE</codencode><volisspag>
+<voliss issue="7" volume="31"/>
+<pagerange first="265" last="277"/>
+</volisspag><publicationyear first="2014"/><publicationdate>
+<year>2014</year>
+<date-text>July 2014</date-text>
+</publicationdate><website>
+<ce:e-address type="email">www.interscience.wiley.com/jpages/0749-503X</ce:e-address>
+</website><publisher>
+<publishername>John Wiley and Sons Ltd</publishername>
+<affiliation country="gbr">
+<address-part>Southern Gate</address-part>
+<city>Chichester, West Sussex</city>
+<postal-code>PO19 8SQ</postal-code>
+</affiliation>
+</publisher></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1303</classification>
+<classification>1305</classification>
+<classification>1311</classification>
+<classification>1502</classification>
+<classification>2402</classification>
+<classification>2700</classification>
+</classifications><classifications type="SUBJABBR"><classification>BIOC</classification><classification>CENG</classification><classification>IMMU</classification><classification>MEDI</classification></classifications>
+<classifications type="CABSCLASS">
+<classification> <classification-code>84.1.13.9</classification-code> <classification-description>GENETICS AND MOLECULAR BIOLOGY; MOLECULAR GENETICS; Molecular Biology Techniques; Sequencing</classification-description> </classification>
+<classification> <classification-code>84.5.21</classification-code> <classification-description>GENETICS AND MOLECULAR BIOLOGY; EUKARYOTIC GENETICS; Theoretical and Quantitative Genetics</classification-description> </classification>
+<classification> <classification-code>84.5.24</classification-code> <classification-description>GENETICS AND MOLECULAR BIOLOGY; EUKARYOTIC GENETICS; Myxomycete and Fungal Genetics</classification-description> </classification>
+</classifications>
+<classifications type="EMCLASS">
+<classification> <classification-code>4</classification-code> <classification-description>Microbiology: Bacteriology, Mycology, Parasitology and Virology</classification-description> </classification>
+</classifications>
+</classificationgroup><chemicalgroup>
+<chemicals source="esbd">
+<chemical>
+<chemical-name>bisulfite</chemical-name>
+<cas-registry-number>15181-46-1</cas-registry-number>
+<cas-registry-number>7631-90-5</cas-registry-number>
+<cas-registry-number>7773-03-7</cas-registry-number>
+</chemical>
+<chemical>
+<chemical-name>galactosidase</chemical-name>
+<cas-registry-number>9001-34-7</cas-registry-number>
+</chemical>
+<chemical>
+<chemical-name>sulfur dioxide</chemical-name>
+<cas-registry-number>7446-09-5</cas-registry-number>
+</chemical>
+</chemicals>
+<chemicals source="nlm">
+<chemical>
+<chemical-name>DNA, Fungal</chemical-name>
+</chemical>
+</chemicals>
+</chemicalgroup></enhancement></head><tail><bibliography refcount="53">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Genetic and phenotypic diversity of autochthonous Saccharomyces spp. strains associated to natural fermentation of 'Malvasia delle Lipari'</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">36348929916</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Agnolucci M.</ce:indexed-name>
+<ce:surname>Agnolucci</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Scarano S.</ce:indexed-name>
+<ce:surname>Scarano</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Santoro S.</ce:indexed-name>
+<ce:surname>Santoro</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Lett Appl Microbiol</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="45"/>
+<pagerange first="657" last="662"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Agnolucci M, Scarano S, Santoro S, et al. 2007. Genetic and phenotypic diversity of autochthonous Saccharomyces spp. strains associated to natural fermentation of 'Malvasia delle Lipari'. Lett Appl Microbiol 45: 657-662.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Deciphering the molecular basis of wine yeast fermentation traits using a combined genetic and genomic approach</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84865592644</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Ambroset C.</ce:indexed-name>
+<ce:surname>Ambroset</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Petit C.</ce:indexed-name>
+<ce:surname>Petit</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Brion C.</ce:indexed-name>
+<ce:surname>Brion</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>G3 (Bethesda)</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="263" last="281"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ambroset C, Petit C, Brion C, et al. 2011. Deciphering the molecular basis of wine yeast fermentation traits using a combined genetic and genomic approach. G3 (Bethesda) 1: 263-281.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Action antimicrobienne de l'anhydride sulfureux</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000734203</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Beech W.</ce:indexed-name>
+<ce:surname>Beech</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Thomas S.</ce:indexed-name>
+<ce:surname>Thomas</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bull l'OIV</ref-sourcetitle>
+<ref-publicationyear first="1985"/>
+<ref-volisspag>
+<voliss volume="58"/>
+<pagerange first="564" last="581"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Beech W, Thomas S. 1985. Action antimicrobienne de l'anhydride sulfureux. Bull l'OIV 58: 564-581.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Controlling the false discovery rate: a practical and powerful approach to multiple testing</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0001677717</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Benjamini Y.</ce:indexed-name>
+<ce:surname>Benjamini</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Hochberg Y.</ce:indexed-name>
+<ce:surname>Hochberg</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J R Stat Soc B</ref-sourcetitle>
+<ref-publicationyear first="1995"/>
+<ref-volisspag>
+<voliss volume="57"/>
+<pagerange first="289" last="300"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Benjamini Y, Hochberg Y. 1995. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc B 57: 289-300.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Comparative genomics: a revolutionary tool for wine yeast strain development</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84874990532</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.R.</ce:initials>
+<ce:indexed-name>Borneman A.R.</ce:indexed-name>
+<ce:surname>Borneman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>I.S.</ce:initials>
+<ce:indexed-name>Pretorius I.S.</ce:indexed-name>
+<ce:surname>Pretorius</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.J.</ce:initials>
+<ce:indexed-name>Chambers P.J.</ce:indexed-name>
+<ce:surname>Chambers</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Curr Opin Biotechnol</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss volume="24"/>
+<pagerange first="1" last="8"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Borneman AR, Pretorius IS, Chambers PJ. 2013. Comparative genomics: a revolutionary tool for wine yeast strain development. Curr Opin Biotechnol 24: 1-8.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Saccharomyces cerevisiae wine strains differing in copper resistance exhibit different capability to reduce copper content in wine</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0036333318</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Brandolini V.</ce:indexed-name>
+<ce:surname>Brandolini</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Tedeschi P.</ce:indexed-name>
+<ce:surname>Tedeschi</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Capece A.</ce:indexed-name>
+<ce:surname>Capece</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>World J Microbiol Biotechnol</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="18"/>
+<pagerange first="499" last="503"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Brandolini V, Tedeschi P, Capece A, et al. 2002. Saccharomyces cerevisiae wine strains differing in copper resistance exhibit different capability to reduce copper content in wine. World J Microbiol Biotechnol 18: 499-503.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Phenotypic landscape of Saccharomyces cerevisiae during wine fermentation: evidence for origin-dependent metabolic traits</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">80052842089</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Camarasa C.</ce:indexed-name>
+<ce:surname>Camarasa</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Sanchez I.</ce:indexed-name>
+<ce:surname>Sanchez</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Brial P.</ce:indexed-name>
+<ce:surname>Brial</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>PLoS One</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="6"/>
+<pages>e25147</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Camarasa C, Sanchez I, Brial P, et al. 2011. Phenotypic landscape of Saccharomyces cerevisiae during wine fermentation: evidence for origin-dependent metabolic traits. PLoS One 6: e25147.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Comparative genomics of wild type yeast strains unveils important genome diversity</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">57049101718</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Carreto L.</ce:indexed-name>
+<ce:surname>Carreto</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.F.</ce:initials>
+<ce:indexed-name>Eiriz M.F.</ce:indexed-name>
+<ce:surname>Eiriz</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.C.</ce:initials>
+<ce:indexed-name>Gomes A.C.</ce:indexed-name>
+<ce:surname>Gomes</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>BMC Genom</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss volume="9"/>
+<pagerange first="524"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Carreto L, Eiriz MF, Gomes AC, et al. 2008. Comparative genomics of wild type yeast strains unveils important genome diversity. BMC Genom 9: 524.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Orange: data mining toolbox in Python</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84885599052</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Curk T.</ce:indexed-name>
+<ce:surname>Curk</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Erjave A.</ce:indexed-name>
+<ce:surname>Erjave</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>J Mach Learn Res</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss volume="14"/>
+<pagerange first="2349" last="2353"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Demsar J, Curk T, Erjave A, et al. 2013. Orange: data mining toolbox in Python. J Mach Learn Res 14: 2349-2353.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>The genomes of fermentative Saccharomyces</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79961170850</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Dequin S.</ce:indexed-name>
+<ce:surname>Dequin</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Casaregola S.</ce:indexed-name>
+<ce:surname>Casaregola</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>C R Biol</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="334"/>
+<pagerange first="687" last="693"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Dequin S, Casaregola S. 2011. The genomes of fermentative Saccharomyces. C R Biol 334: 687-693.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Saccharomyces cerevisiae: population divergence and resistance to oxidative stress in clinical, domesticated and wild isolates</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">65449179200</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Diezmann S.</ce:indexed-name>
+<ce:surname>Diezmann</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.S.</ce:initials>
+<ce:indexed-name>Dietrich F.S.</ce:indexed-name>
+<ce:surname>Dietrich</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>PLoS One</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="4"/>
+<pages>e5317</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Diezmann S, Dietrich FS. 2009. Saccharomyces cerevisiae: population divergence and resistance to oxidative stress in clinical, domesticated and wild isolates. PLoS One 4: e5317.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Analysis of the Saccharomyces cerevisiae pan-genome reveals a pool of copy number variants distributed in diverse yeast strains from differing industrial environments</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84860591356</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Dunn B.</ce:indexed-name>
+<ce:surname>Dunn</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Richter C.</ce:indexed-name>
+<ce:surname>Richter</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.J.</ce:initials>
+<ce:indexed-name>Kvitek D.J.</ce:indexed-name>
+<ce:surname>Kvitek</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Genome Res</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="22"/>
+<pagerange first="908" last="924"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Dunn B, Richter C, Kvitek DJ, et al. 2012. Analysis of the Saccharomyces cerevisiae pan-genome reveals a pool of copy number variants distributed in diverse yeast strains from differing industrial environments. Genome Res 22: 908-924.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Evidence for domesticated and wild populations of Saccharomyces cerevisiae</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33645096818</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.C.</ce:initials>
+<ce:indexed-name>Fay J.C.</ce:indexed-name>
+<ce:surname>Fay</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Benavides J.A.</ce:indexed-name>
+<ce:surname>Benavides</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>PLoS Genet</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="66" last="71"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Fay JC, Benavides JA. 2005. Evidence for domesticated and wild populations of Saccharomyces cerevisiae. PLoS Genet 1: 66-71.</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Abundant microsatellite polymorphism in Saccharomyces cerevisiae, and the different distributions of microsatellites in eight prokaryotes and S. cerevisiae, result from strong mutation pressures and a variety of selective forces</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0032539711</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Field D.</ce:indexed-name>
+<ce:surname>Field</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Wills C.</ce:indexed-name>
+<ce:surname>Wills</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc Natl Acad Sci U S A</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="95"/>
+<pagerange first="1647" last="1652"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Field D, Wills C. 1998. Abundant microsatellite polymorphism in Saccharomyces cerevisiae, and the different distributions of microsatellites in eight prokaryotes and S. cerevisiae, result from strong mutation pressures and a variety of selective forces. Proc Natl Acad Sci U S A 95: 1647-1652.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>Computational approaches for the genetic and phenotypic characterization of a Saccharomyces cerevisiae wine yeast collection</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">73649090813</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Franco-Duarte R.</ce:indexed-name>
+<ce:surname>Franco-Duarte</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Umek L.</ce:indexed-name>
+<ce:surname>Umek</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Yeast</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="26"/>
+<pagerange first="675" last="692"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Franco-Duarte R, Umek L, Zupan B, et al. 2009. Computational approaches for the genetic and phenotypic characterization of a Saccharomyces cerevisiae wine yeast collection. Yeast 26: 675-692.</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<ref-title>
+<ref-titletext>A distinct population of Saccharomyces cerevisiae in New Zealand: evidence for local dispersal by insects and human-aided global dispersal in oak barrels</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">73349121287</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.R.</ce:initials>
+<ce:indexed-name>Goddard M.R.</ce:indexed-name>
+<ce:surname>Goddard</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Anfang N.</ce:indexed-name>
+<ce:surname>Anfang</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Tang R.</ce:indexed-name>
+<ce:surname>Tang</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Env Microbiol</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="12"/>
+<pagerange first="63" last="73"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Goddard MR, Anfang N, Tang R, et al. 2010. A distinct population of Saccharomyces cerevisiae in New Zealand: evidence for local dispersal by insects and human-aided global dispersal in oak barrels. Env Microbiol 12: 63-73.</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<ref-title>
+<ref-titletext>The meaning and use of the area under a receiver operating characteristic (ROC) curve</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0020083498</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Hanley J.A.</ce:indexed-name>
+<ce:surname>Hanley</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.J.</ce:initials>
+<ce:indexed-name>McNeil B.J.</ce:indexed-name>
+<ce:surname>McNeil</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Radiology</ref-sourcetitle>
+<ref-publicationyear first="1982"/>
+<ref-volisspag>
+<voliss volume="143"/>
+<pagerange first="29" last="36"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Hanley JA, McNeil BJ. 1982. The meaning and use of the area under a receiver operating characteristic (ROC) curve. Radiology 143: 29-36.</ref-fulltext>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>The chemical genomic portrait of yeast: uncovering a phenotype for all genes</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">42349100173</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.E.</ce:initials>
+<ce:indexed-name>Hillenmeyer M.E.</ce:indexed-name>
+<ce:surname>Hillenmeyer</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Fung E.</ce:indexed-name>
+<ce:surname>Fung</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Wildenhaim J.</ce:indexed-name>
+<ce:surname>Wildenhaim</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Science</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss volume="320"/>
+<pagerange first="362" last="365"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Hillenmeyer ME, Fung E, Wildenhaim J, et al. 2008. The chemical genomic portrait of yeast: uncovering a phenotype for all genes. Science 320: 362-365.</ref-fulltext>
+</reference>
+<reference id="19">
+<ref-info>
+<ref-title>
+<ref-titletext>Validation of bismuth-containing indicator media for predicting H<inf>2</inf>S-producing potential of Saccharomyces cerevisiae wine yeasts under enological conditions</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0028812141</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Jiranek V.</ce:indexed-name>
+<ce:surname>Jiranek</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Langridge P.</ce:indexed-name>
+<ce:surname>Langridge</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.A.</ce:initials>
+<ce:indexed-name>Henschke P.A.</ce:indexed-name>
+<ce:surname>Henschke</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Am J Enol Vitic</ref-sourcetitle>
+<ref-publicationyear first="1995"/>
+<ref-volisspag>
+<voliss volume="46"/>
+<pagerange first="269" last="273"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Jiranek V, Langridge P, Henschke PA. 1995. Validation of bismuth-containing indicator media for predicting H<inf>2</inf>S-producing potential of Saccharomyces cerevisiae wine yeasts under enological conditions. Am J Enol Vitic 46: 269-273.</ref-fulltext>
+</reference>
+<reference id="20">
+<ref-info>
+<ref-title>
+<ref-titletext>QTL mapping of sake brewing characteristics of yeast</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">62949089816</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Katou T.</ce:indexed-name>
+<ce:surname>Katou</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Namise M.</ce:indexed-name>
+<ce:surname>Namise</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Kitagaki H.</ce:indexed-name>
+<ce:surname>Kitagaki</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>J Biosci Bioeng</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="107"/>
+<pagerange first="383" last="393"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Katou T, Namise M, Kitagaki H, et al. 2009. QTL mapping of sake brewing characteristics of yeast. J Biosci Bioeng 107: 383-393.</ref-fulltext>
+</reference>
+<reference id="21">
+<ref-info>
+<ref-title>
+<ref-titletext>Variations in stress sensitivity and genomic expression in diverse Saccharomyces cerevisiae isolates</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">55449107183</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.J.</ce:initials>
+<ce:indexed-name>Kvitek D.J.</ce:indexed-name>
+<ce:surname>Kvitek</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.L.</ce:initials>
+<ce:indexed-name>Will J.L.</ce:indexed-name>
+<ce:surname>Will</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.P.</ce:initials>
+<ce:indexed-name>Gasch A.P.</ce:indexed-name>
+<ce:surname>Gasch</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>PLoS Genet</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss volume="4"/>
+<pagerange first="31" last="35"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Kvitek DJ, Will JL, Gasch AP. 2008. Variations in stress sensitivity and genomic expression in diverse Saccharomyces cerevisiae isolates. PLoS Genet 4: 31-35.</ref-fulltext>
+</reference>
+<reference id="22">
+<ref-info>
+<ref-title>
+<ref-titletext>Bread, beer and wine: Saccharomyces cerevisiae diversity reflects human history</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">34248192358</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.L.</ce:initials>
+<ce:indexed-name>Legras J.L.</ce:indexed-name>
+<ce:surname>Legras</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Merdinoglu D.</ce:indexed-name>
+<ce:surname>Merdinoglu</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Cornuet J.M.</ce:indexed-name>
+<ce:surname>Cornuet</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Mol Ecol</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="16"/>
+<pagerange first="2091" last="2102"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Legras JL, Merdinoglu D, Cornuet JM, et al. 2007. Bread, beer and wine: Saccharomyces cerevisiae diversity reflects human history. Mol Ecol 16: 2091-2102.</ref-fulltext>
+</reference>
+<reference id="23">
+<ref-info>
+<ref-title>
+<ref-titletext>Selection of hypervariable microsatellite loci for the characterization of Saccharomyces cerevisiae strains</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">19944415015</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.L.</ce:initials>
+<ce:indexed-name>Legras J.L.</ce:indexed-name>
+<ce:surname>Legras</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>O.</ce:initials>
+<ce:indexed-name>Ruh O.</ce:indexed-name>
+<ce:surname>Ruh</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Merdinoglu D.</ce:indexed-name>
+<ce:surname>Merdinoglu</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Int J Food Microbiol</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss volume="102"/>
+<pagerange first="73" last="83"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Legras JL, Ruh O, Merdinoglu D, et al. 2005. Selection of hypervariable microsatellite loci for the characterization of Saccharomyces cerevisiae strains. Int J Food Microbiol 102: 73-83.</ref-fulltext>
+</reference>
+<reference id="24">
+<ref-info>
+<ref-title>
+<ref-titletext>Population genomics of domestic and wild yeasts</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">62649089109</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Liti G.</ce:indexed-name>
+<ce:surname>Liti</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.M.</ce:initials>
+<ce:indexed-name>Carter D.M.</ce:indexed-name>
+<ce:surname>Carter</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.M.</ce:initials>
+<ce:indexed-name>Moses A.M.</ce:indexed-name>
+<ce:surname>Moses</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Nature</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="458"/>
+<pagerange first="337" last="341"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Liti G, Carter DM, Moses AM, et al. 2009. Population genomics of domestic and wild yeasts. Nature 458: 337-341.</ref-fulltext>
+</reference>
+<reference id="25">
+<ref-info>
+<ref-title>
+<ref-titletext>Advances in quantitative trait analysis in yeast</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84866170772</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Liti G.</ce:indexed-name>
+<ce:surname>Liti</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.J.</ce:initials>
+<ce:indexed-name>Louis E.J.</ce:indexed-name>
+<ce:surname>Louis</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>PLoS Genet</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pages>e1002912</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Liti G, Louis EJ. 2012. Advances in quantitative trait analysis in yeast. PLoS Genet 8: e1002912.</ref-fulltext>
+</reference>
+<reference id="26">
+<ref-info>
+<ref-title>
+<ref-titletext>The rise of yeast population genomics</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79961167522</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Liti G.</ce:indexed-name>
+<ce:surname>Liti</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Schacherer J.</ce:indexed-name>
+<ce:surname>Schacherer</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>C R Biol</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="334"/>
+<pagerange first="612" last="619"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Liti G, Schacherer J. 2011. The rise of yeast population genomics. C R Biol 334: 612-619.</ref-fulltext>
+</reference>
+<reference id="27">
+<ref-info>
+<ref-title>
+<ref-titletext>Efficient learning of microbial genotype-phenotype association rules</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">77955033518</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.J.</ce:initials>
+<ce:indexed-name>MacDonald N.J.</ce:indexed-name>
+<ce:surname>MacDonald</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.G.</ce:initials>
+<ce:indexed-name>Beiko R.G.</ce:indexed-name>
+<ce:surname>Beiko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="26"/>
+<pagerange first="1834" last="1840"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>MacDonald NJ, Beiko RG. 2010. Efficient learning of microbial genotype-phenotype association rules. Bioinformatics 26: 1834-1840.</ref-fulltext>
+</reference>
+<reference id="28">
+<ref-info>
+<ref-title>
+<ref-titletext>Strategies and criteria for the isolation and selection of autochthonous starter</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0042645590</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Mannazzu I.</ce:indexed-name>
+<ce:surname>Mannazzu</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Clementi F.</ce:indexed-name>
+<ce:surname>Clementi</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ciani M.</ce:indexed-name>
+<ce:surname>Ciani</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Biodiversity and Biotechnology of Wine Yeasts</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<pagerange first="19" last="35"/>
+</ref-volisspag>
+<ref-text>In, Ciani M (ed.). Research Signpost: Trivandrum</ref-text>
+</ref-info>
+<ref-fulltext>Mannazzu I, Clementi F, Ciani M. 2002. Strategies and criteria for the isolation and selection of autochthonous starter. In Biodiversity and Biotechnology of Wine Yeasts, Ciani M (ed.). Research Signpost: Trivandrum; 19-35.</ref-fulltext>
+</reference>
+<reference id="29">
+<ref-info>
+<ref-title>
+<ref-titletext>Mining for genotype-phenotype relations in Saccharomyces using partial least squares</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79960985399</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Mehmood T.</ce:indexed-name>
+<ce:surname>Mehmood</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Martens H.</ce:indexed-name>
+<ce:surname>Martens</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Saebo S.</ce:indexed-name>
+<ce:surname>Saebø</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>BMC Bioinformat</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="12"/>
+<pagerange first="318"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mehmood T, Martens H, Saebø S, et al. 2011. Mining for genotype-phenotype relations in Saccharomyces using partial least squares. BMC Bioinformat 12: 318.</ref-fulltext>
+</reference>
+<reference id="30">
+<ref-info>
+<ref-title>
+<ref-titletext>Computational models for prediction of yeast strain potential for winemaking from phenotypic profiles, Schacherer J (ed)</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84880483639</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Mendes I.</ce:indexed-name>
+<ce:surname>Mendes</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Franco-Duarte R.</ce:indexed-name>
+<ce:surname>Franco-Duarte</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Umek L.</ce:indexed-name>
+<ce:surname>Umek</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>PLoS One</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pages>e66523</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mendes I, Franco-Duarte R, Umek L, et al. 2013. Computational models for prediction of yeast strain potential for winemaking from phenotypic profiles, Schacherer J (ed). PLoS One 8: e66523.</ref-fulltext>
+</reference>
+<reference id="31">
+<ref-info>
+<ref-title>
+<ref-titletext>Nomograms for visualization of naive Bayesian classifier</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33750710231</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Mozina M.</ce:indexed-name>
+<ce:surname>Mozina</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Kattan M.</ce:indexed-name>
+<ce:surname>Kattan</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Lect Notes Comput Sci</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="3202"/>
+<pagerange first="337" last="348"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mozina M, Demsar J, Kattan M, et al. 2004. Nomograms for visualization of naive Bayesian classifier. Lect Notes Comput Sci 3202: 337-348.</ref-fulltext>
+</reference>
+<reference id="32">
+<ref-info>
+<ref-title>
+<ref-titletext>Microsatellite analysis of genetic diversity among clinical and nonclinical Saccharomyces cerevisiae isolates suggests heterozygote advantage in clinical environments</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">67649836352</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.L.H.</ce:initials>
+<ce:indexed-name>Muller L.L.H.</ce:indexed-name>
+<ce:surname>Muller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.H.J.</ce:initials>
+<ce:indexed-name>McCusker J.H.J.</ce:indexed-name>
+<ce:surname>McCusker</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Mol Ecol</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="18"/>
+<pagerange first="2779" last="2786"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Muller LLH, McCusker JHJ. 2009. Microsatellite analysis of genetic diversity among clinical and nonclinical Saccharomyces cerevisiae isolates suggests heterozygote advantage in clinical environments. Mol Ecol 18: 2779-2786.</ref-fulltext>
+</reference>
+<reference id="33">
+<ref-info>
+<ref-title>
+<ref-titletext>Genotype-phenotype associations: substitution models to detect evolutionary associations between phenotypic variables and genotypic evolutionary rate</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">66349111794</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.D.</ce:initials>
+<ce:indexed-name>O'Connor T.D.</ce:indexed-name>
+<ce:surname>O'Connor</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.I.</ce:initials>
+<ce:indexed-name>Mundy N.I.</ce:indexed-name>
+<ce:surname>Mundy</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="94" last="100"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>O'Connor TD, Mundy NI. 2009. Genotype-phenotype associations: substitution models to detect evolutionary associations between phenotypic variables and genotypic evolutionary rate. Bioinformatics 25: 94-100.</ref-fulltext>
+</reference>
+<reference id="34">
+<ref-info>
+<ref-title>
+<ref-titletext>Population structure in a comprehensive genomic data set on human microsatellite variation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84883206578</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.J.</ce:initials>
+<ce:indexed-name>Pemberton T.J.</ce:indexed-name>
+<ce:surname>Pemberton</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>DeGiorgio M.</ce:indexed-name>
+<ce:surname>DeGiorgio</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>N.A.</ce:initials>
+<ce:indexed-name>Rosenberg N.A.</ce:indexed-name>
+<ce:surname>Rosenberg</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>G3 Genet</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss volume="3"/>
+<pagerange first="891" last="907"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Pemberton TJ, DeGiorgio M, Rosenberg NA. 2013. Population structure in a comprehensive genomic data set on human microsatellite variation. G3 Genet 3: 891-907.</ref-fulltext>
+</reference>
+<reference id="35">
+<ref-info>
+<ref-title>
+<ref-titletext>Detection, distribution and selection of microsatellites (SSRs) in the genome of the yeast Saccharomyces cerevisiae as molecular markers</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0035161278</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.A.</ce:initials>
+<ce:indexed-name>Perez M.A.</ce:indexed-name>
+<ce:surname>Perez</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.J.</ce:initials>
+<ce:indexed-name>Gallego F.J.</ce:indexed-name>
+<ce:surname>Gallego</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Martinez I.</ce:indexed-name>
+<ce:surname>Martinez</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Lett Appl Microbiol</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="33"/>
+<pagerange first="461" last="466"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Perez MA, Gallego FJ, Martinez I, et al. 2001. Detection, distribution and selection of microsatellites (SSRs) in the genome of the yeast Saccharomyces cerevisiae as molecular markers. Lett Appl Microbiol 33: 461-466.</ref-fulltext>
+</reference>
+<reference id="36">
+<ref-info>
+<ref-title>
+<ref-titletext>Induction of decision trees</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33744584654</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Quinlan J.</ce:indexed-name>
+<ce:surname>Quinlan</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Mach Learn</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="81" last="106"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Quinlan J. 1986. Induction of decision trees. Mach Learn 1: 81-106.</ref-fulltext>
+</reference>
+<reference id="37">
+<ref-info>
+<ref-title>
+<ref-titletext>A database of microsatellite genotypes for Saccharomyces cerevisiae</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">69249213727</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.D.</ce:initials>
+<ce:indexed-name>Richards K.D.</ce:indexed-name>
+<ce:surname>Richards</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.R.</ce:initials>
+<ce:indexed-name>Goddard M.R.</ce:indexed-name>
+<ce:surname>Goddard</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.C.</ce:initials>
+<ce:indexed-name>Gardner R.C.</ce:indexed-name>
+<ce:surname>Gardner</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Antonie Van Leeuwenhoek</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="96"/>
+<pagerange first="355" last="359"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Richards KD, Goddard MR, Gardner RC. 2009. A database of microsatellite genotypes for Saccharomyces cerevisiae. Antonie Van Leeuwenhoek 96: 355-359.</ref-fulltext>
+</reference>
+<reference id="38">
+<ref-info>
+<ref-title>
+<ref-titletext>The yin and yang of yeast: biodiversity research and systems biology as complementary forces driving innovation in biotechnology</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79951770518</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.N.</ce:initials>
+<ce:indexed-name>Roberts I.N.</ce:indexed-name>
+<ce:surname>Roberts</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.G.</ce:initials>
+<ce:indexed-name>Oliver S.G.</ce:indexed-name>
+<ce:surname>Oliver</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Biotechnol Lett</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="33"/>
+<pagerange first="477" last="487"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Roberts IN, Oliver SG. 2011. The yin and yang of yeast: biodiversity research and systems biology as complementary forces driving innovation in biotechnology. Biotechnol Lett 33: 477-487.</ref-fulltext>
+</reference>
+<reference id="39">
+<ref-info>
+<ref-title>
+<ref-titletext>The genetic basis of natural variation in oenological traits in Saccharomyces cerevisiae</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84869745575</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Salinas F.</ce:indexed-name>
+<ce:surname>Salinas</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Cubillos F.</ce:indexed-name>
+<ce:surname>Cubillos</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Soto D.</ce:indexed-name>
+<ce:surname>Soto</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>PLoS One</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pages>e49640</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Salinas F, Cubillos F, Soto D, et al. 2012. The genetic basis of natural variation in oenological traits in Saccharomyces cerevisiae. PLoS One 7: e49640.</ref-fulltext>
+</reference>
+<reference id="40">
+<ref-info>
+<ref-title>
+<ref-titletext>Genomic and phenotypic comparison between similar wine yeast strains of Saccharomyces cerevisiae from different geographic origins</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">77950638591</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Salinas F.</ce:indexed-name>
+<ce:surname>Salinas</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Mandakovic D.</ce:indexed-name>
+<ce:surname>Mandakovic</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Urzua U.</ce:indexed-name>
+<ce:surname>Urzua</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>J Appl Microbiol</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="108"/>
+<pagerange first="1850" last="1858"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Salinas F, Mandakovic D, Urzua U, et al. 2010. Genomic and phenotypic comparison between similar wine yeast strains of Saccharomyces cerevisiae from different geographic origins. J Appl Microbiol 108: 1850-1858.</ref-fulltext>
+</reference>
+<reference id="41">
+<ref-info>
+<ref-title>
+<ref-titletext>Genome-wide analysis of nucleotide-level variation in commonly used Saccharomyces cerevisiae strains</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">38649129819</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Schacherer J.</ce:indexed-name>
+<ce:surname>Schacherer</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.M.</ce:initials>
+<ce:indexed-name>Ruderfer D.M.</ce:indexed-name>
+<ce:surname>Ruderfer</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Gresham D.</ce:indexed-name>
+<ce:surname>Gresham</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>PLoS One</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="2"/>
+<pages>e322</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Schacherer J, Ruderfer DM, Gresham D, et al. 2007. Genome-wide analysis of nucleotide-level variation in commonly used Saccharomyces cerevisiae strains. PLoS One 2: e322.</ref-fulltext>
+</reference>
+<reference id="42">
+<ref-info>
+<ref-title>
+<ref-titletext>Comprehensive polymorphism survey elucidates population structure of Saccharomyces cerevisiae</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">62649126517</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Schacherer J.</ce:indexed-name>
+<ce:surname>Schacherer</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Shapiro J.A.</ce:indexed-name>
+<ce:surname>Shapiro</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.M.</ce:initials>
+<ce:indexed-name>Ruderfer D.M.</ce:indexed-name>
+<ce:surname>Ruderfer</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Nature</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="458"/>
+<pagerange first="342" last="345"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Schacherer J, Shapiro JA, Ruderfer DM, et al. 2009. Comprehensive polymorphism survey elucidates population structure of Saccharomyces cerevisiae. Nature 458: 342-345.</ref-fulltext>
+</reference>
+<reference id="43">
+<ref-info>
+<ref-title>
+<ref-titletext>Genetic diversity and population structure of Saccharomyces cerevisiae strains isolated from different grape varieties and winemaking regions</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84857676912</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Schuller D.</ce:indexed-name>
+<ce:surname>Schuller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Cardoso F.</ce:indexed-name>
+<ce:surname>Cardoso</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Sousa S.</ce:indexed-name>
+<ce:surname>Sousa</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>PLoS One</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pages>e32507</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Schuller D, Cardoso F, Sousa S, et al. 2012. Genetic diversity and population structure of Saccharomyces cerevisiae strains isolated from different grape varieties and winemaking regions. PLoS One 7: e32507.</ref-fulltext>
+</reference>
+<reference id="44">
+<ref-info>
+<ref-title>
+<ref-titletext>The genetic structure of fermentative vineyard-associated Saccharomyces cerevisiae populations revealed by microsatellite analysis</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33847050594</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Schuller D.</ce:indexed-name>
+<ce:surname>Schuller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Casal M.</ce:indexed-name>
+<ce:surname>Casal</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Antonie Van Leeuwenhoek</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="91"/>
+<pagerange first="137" last="150"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Schuller D, Casal M. 2007. The genetic structure of fermentative vineyard-associated Saccharomyces cerevisiae populations revealed by microsatellite analysis. Antonie Van Leeuwenhoek 91: 137-150.</ref-fulltext>
+</reference>
+<reference id="45">
+<ref-info>
+<ref-title>
+<ref-titletext>Genetic characterization of commercial Saccharomyces cerevisiae isolates recovered from vineyard environments</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">34548224178</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Schuller D.</ce:indexed-name>
+<ce:surname>Schuller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Pereira L.</ce:indexed-name>
+<ce:surname>Pereira</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Alves H.</ce:indexed-name>
+<ce:surname>Alves</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Yeast</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="24"/>
+<pagerange first="625" last="636"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Schuller D, Pereira L, Alves H, et al. 2007. Genetic characterization of commercial Saccharomyces cerevisiae isolates recovered from vineyard environments. Yeast 24: 625-636.</ref-fulltext>
+</reference>
+<reference id="46">
+<ref-info>
+<ref-title>
+<ref-titletext>Survey of molecular methods for the typing of wine yeast strains</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0842265911</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Schuller D.</ce:indexed-name>
+<ce:surname>Schuller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Valero E.</ce:indexed-name>
+<ce:surname>Valero</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Dequin S.</ce:indexed-name>
+<ce:surname>Dequin</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>FEMS Microbiol Lett</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="231"/>
+<pagerange first="19" last="26"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Schuller D, Valero E, Dequin S, et al. 2004. Survey of molecular methods for the typing of wine yeast strains. FEMS Microbiol Lett 231: 19-26.</ref-fulltext>
+</reference>
+<reference id="47">
+<ref-info>
+<ref-title>
+<ref-titletext>Bread, beer and wine: yeast domestication in the Saccharomyces sensu stricto complex</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79952420028</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Sicard D.</ce:indexed-name>
+<ce:surname>Sicard</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.L.</ce:initials>
+<ce:indexed-name>Legras J.L.</ce:indexed-name>
+<ce:surname>Legras</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>C R Biol</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="334"/>
+<pagerange first="229" last="236"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Sicard D, Legras JL. 2011. Bread, beer and wine: yeast domestication in the Saccharomyces sensu stricto complex. C R Biol 334: 229-236.</ref-fulltext>
+</reference>
+<reference id="48">
+<ref-info>
+<ref-title>
+<ref-titletext>QTL mapping of the production of wine aroma compounds by yeast</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84867900218</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Steyer D.</ce:indexed-name>
+<ce:surname>Steyer</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Ambroset C.</ce:indexed-name>
+<ce:surname>Ambroset</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Brion C.</ce:indexed-name>
+<ce:surname>Brion</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>BMC Genom</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="13"/>
+<pagerange first="573"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Steyer D, Ambroset C, Brion C, et al. 2012. QTL mapping of the production of wine aroma compounds by yeast. BMC Genom 13: 573.</ref-fulltext>
+</reference>
+<reference id="49">
+<ref-info>
+<ref-title>
+<ref-titletext>Genetic mapping of quantitative phenotypic traits in Saccharomyces cerevisiae</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84857050299</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Swinnen S.</ce:indexed-name>
+<ce:surname>Swinnen</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Thevelein J.M.</ce:indexed-name>
+<ce:surname>Thevelein</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Nevoigt E.</ce:indexed-name>
+<ce:surname>Nevoigt</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>FEMS Yeast Res</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss volume="12"/>
+<pagerange first="215" last="227"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Swinnen S, Thevelein JM, Nevoigt E. 2012. Genetic mapping of quantitative phenotypic traits in Saccharomyces cerevisiae. FEMS Yeast Res 12: 215-227.</ref-fulltext>
+</reference>
+<reference id="50">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">25144439604</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Tan P.</ce:indexed-name>
+<ce:surname>Tan</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Steinbach M.</ce:indexed-name>
+<ce:surname>Steinbach</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Kumar V.</ce:indexed-name>
+<ce:surname>Kumar</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Introduction to Data Mining</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-text>Pearson Addison Wesley: Boston, MA.</ref-text>
+</ref-info>
+<ref-fulltext>Tan P, Steinbach M, Kumar V. 2006. Introduction to Data Mining. Pearson Addison Wesley: Boston, MA.</ref-fulltext>
+</reference>
+<reference id="51">
+<ref-info>
+<ref-title>
+<ref-titletext>Differentiation of industrial wine yeast strains using microsatellite markers</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034940835</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.G.</ce:initials>
+<ce:indexed-name>Techera A.G.</ce:indexed-name>
+<ce:surname>Techera</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Jubany S.</ce:indexed-name>
+<ce:surname>Jubany</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.M.</ce:initials>
+<ce:indexed-name>Carrau F.M.</ce:indexed-name>
+<ce:surname>Carrau</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Lett Appl Microbiol</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="33"/>
+<pagerange first="71" last="75"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Techera AG, Jubany S, Carrau FM, et al. 2001. Differentiation of industrial wine yeast strains using microsatellite markers. Lett Appl Microbiol 33: 71-75.</ref-fulltext>
+</reference>
+<reference id="52">
+<ref-info>
+<ref-title>
+<ref-titletext>Trait variation in yeast is defined by population history</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79959847334</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Warringer J.</ce:indexed-name>
+<ce:surname>Warringer</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Zorgo E.</ce:indexed-name>
+<ce:surname>Zorgo</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Cubillos F.</ce:indexed-name>
+<ce:surname>Cubillos</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>PLoS Genet</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pages>e1002111</pages>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Warringer J, Zorgo E, Cubillos F, et al. 2011. Trait variation in yeast is defined by population history. PLoS Genet 7: e1002111.</ref-fulltext>
+</reference>
+<reference id="53">
+<ref-info>
+<ref-title>
+<ref-titletext>Genetic diversity in yeast assessed with whole-genome oligonucleotide arrays</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0037277240</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.A.</ce:initials>
+<ce:indexed-name>Winzeler E.A.</ce:indexed-name>
+<ce:surname>Winzeler</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.I.</ce:initials>
+<ce:indexed-name>Castillo-Davis C.I.</ce:indexed-name>
+<ce:surname>Castillo-Davis</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Oshiro G.</ce:indexed-name>
+<ce:surname>Oshiro</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Genetics</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss volume="163"/>
+<pagerange first="79" last="89"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Winzeler EA, Castillo-Davis CI, Oshiro G, et al. 2003. Genetic diversity in yeast assessed with whole-genome oligonucleotide arrays. Genetics 163: 79-89.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

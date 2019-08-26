@@ -1,0 +1,898 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84889088401</prism:url><dc:identifier>SCOPUS_ID:84889088401</dc:identifier><eid>2-s2.0-84889088401</eid><prism:doi>10.1002/met.1305</prism:doi><dc:title>Statistical approach for forecasting road surface temperature</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>10</citedby-count><prism:publicationName>Meteorological Applications</prism:publicationName><source-id>13445</source-id><prism:issn>13504827 14698080</prism:issn><prism:volume>20</prism:volume><prism:issueIdentifier>4</prism:issueIdentifier><prism:startingPage>439</prism:startingPage><prism:endingPage>446</prism:endingPage><prism:pageRange>439-446</prism:pageRange><prism:coverDate>2013-12-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="55949955600"><ce:initials>R.</ce:initials><ce:indexed-name>Krsmanc R.</ce:indexed-name><ce:surname>Kršmanc</ce:surname><ce:given-name>Rok</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Kršmanc R.</ce:indexed-name><ce:surname>Kršmanc</ce:surname><ce:given-name>Rok</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55949955600</author-url><affiliation id="101641215" href="https://api.elsevier.com/content/affiliation/affiliation_id/101641215"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Snow and ice make road conditions and use difficult and represent a major challenge for the winter road maintenance service. Optimizing winter maintenance service and safety thus requires accurate short-term forecasts of the meteorological state of the roads. The most common approach to forecasting road conditions is an energy balance model based on a one-dimensional diffusion equation. Physical models can predict the road surface temperature, which is the most important parameter for determining the road surface condition (e.g. dry, wet, ice, snow). However, such models can show a large degree of error at sites where physical processes are too complex to be simulated correctly. To solve this problem, physical models are often combined with statistical approaches. This paper proposes a purely statistical method for forecasting road surface temperature based on stepwise linear regression analysis with appropriate selection of the input parameters and separate models for different time intervals. The method is tested on data from several Slovenian road weather stations. Its accuracy is comparable to or better than that of physical models. © 2012 Royal Meteorological Society.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84889088401" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84889088401&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84889088401&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="101641215" href="https://api.elsevier.com/content/affiliation/affiliation_id/101641215"><affilname>CGS plus d.o.o.</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55949955600"><ce:initials>R.</ce:initials><ce:indexed-name>Krsmanc R.</ce:indexed-name><ce:surname>Kršmanc</ce:surname><ce:given-name>Rok</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Kršmanc R.</ce:indexed-name><ce:surname>Kršmanc</ce:surname><ce:given-name>Rok</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55949955600</author-url><affiliation id="101641215" href="https://api.elsevier.com/content/affiliation/affiliation_id/101641215"/></author><author seq="2" auid="23480352100"><ce:initials>A.S.</ce:initials><ce:indexed-name>Slak A.S.</ce:indexed-name><ce:surname>Slak</ce:surname><ce:given-name>Alenka Šajn</ce:given-name><preferred-name><ce:initials>A.S.</ce:initials><ce:indexed-name>Slak A.</ce:indexed-name><ce:surname>Slak</ce:surname><ce:given-name>Alenka Šajn</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23480352100</author-url><affiliation id="101641215" href="https://api.elsevier.com/content/affiliation/affiliation_id/101641215"/></author><author seq="3" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Prediction models</author-keyword><author-keyword>Road weather information systems (RWIS)</author-keyword><author-keyword>Road weather station (RWS)</author-keyword><author-keyword>Stepwise linear regression</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="1902" abbrev="EART">Atmospheric Science</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="20" month="07" timestamp="2014-07-20T00:25:18.000018+01:00" year="2014"/><ait:date-sort day="01" month="12" year="2013"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1002/met.1305</ce:doi>
+<itemid idtype="PUI">51913829</itemid>
+<itemid idtype="SNGEO">2013015974</itemid>
+<itemid idtype="SCP">84889088401</itemid>
+<itemid idtype="SGR">84889088401</itemid>
+</itemidlist><history>
+<date-created day="15" month="03" year="2012"/>
+</history><dbcollection>SNGEO</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Prediction models</author-keyword>
+<author-keyword>Road weather information systems (RWIS)</author-keyword>
+<author-keyword>Road weather station (RWS)</author-keyword>
+<author-keyword>Stepwise linear regression</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Statistical approach for forecasting road surface temperature</titletext></citation-title><author-group><author auid="55949955600" seq="1"><ce:initials>R.</ce:initials><ce:indexed-name>Krsmanc R.</ce:indexed-name><ce:surname>Kršmanc</ce:surname><ce:given-name>Rok</ce:given-name><preferred-name>
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Kršmanc R.</ce:indexed-name>
+<ce:surname>Kršmanc</ce:surname>
+<ce:given-name>Rok</ce:given-name>
+</preferred-name></author><author auid="23480352100" seq="2"><ce:initials>A.S.</ce:initials><ce:indexed-name>Slak A.S.</ce:indexed-name><ce:surname>Slak</ce:surname><ce:given-name>Alenka Šajn</ce:given-name><preferred-name>
+<ce:initials>A.S.</ce:initials>
+<ce:indexed-name>Slak A.</ce:indexed-name>
+<ce:surname>Slak</ce:surname>
+<ce:given-name>Alenka Šajn</ce:given-name>
+</preferred-name></author><affiliation afid="101641215" country="svn"><organization>CGS plus d.o.o.</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="55075851300" seq="3"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demšar J.</ce:indexed-name>
+<ce:surname>Demšar</ce:surname>
+<ce:given-name>Janez</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Krsmanc R.</ce:indexed-name>
+<ce:surname>Kršmanc</ce:surname>
+</person><affiliation country="svn"><address-part>CGS plus d.o.o.</address-part><city-group>SI-1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Snow and ice make road conditions and use difficult and represent a major challenge for the winter road maintenance service. Optimizing winter maintenance service and safety thus requires accurate short-term forecasts of the meteorological state of the roads. The most common approach to forecasting road conditions is an energy balance model based on a one-dimensional diffusion equation. Physical models can predict the road surface temperature, which is the most important parameter for determining the road surface condition (e.g. dry, wet, ice, snow). However, such models can show a large degree of error at sites where physical processes are too complex to be simulated correctly. To solve this problem, physical models are often combined with statistical approaches. This paper proposes a purely statistical method for forecasting road surface temperature based on stepwise linear regression analysis with appropriate selection of the input parameters and separate models for different time intervals. The method is tested on data from several Slovenian road weather stations. Its accuracy is comparable to or better than that of physical models. © 2012 Royal Meteorological Society.</ce:para>
+</abstract></abstracts><source country="gbr" srcid="13445" type="j"><sourcetitle>Meteorological Applications</sourcetitle><sourcetitle-abbrev>Meteorol. Appl.</sourcetitle-abbrev><issn type="print">13504827</issn><issn type="electronic">14698080</issn><volisspag>
+<voliss issue="4" volume="20"/>
+<pagerange first="439" last="446"/>
+</volisspag><publicationyear first="2013"/><publicationdate>
+<year>2013</year>
+<month>12</month>
+<date-text xfab-added="true">December 2013</date-text></publicationdate></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1902</classification>
+</classifications><classifications type="SUBJABBR"><classification>EART</classification></classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="28">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>A new look at the statistical model identification</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0016355478</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Akaike H.</ce:indexed-name>
+<ce:surname>Akaike</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Autom. Control</ref-sourcetitle>
+<ref-publicationyear first="1974"/>
+<ref-volisspag>
+<voliss volume="19"/>
+<pagerange first="716" last="723"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Akaike H. 1974. A new look at the statistical model identification. IEEE Trans. Autom. Control 19: 716-723.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Probabilistic weather forecasting for winter road maintenance</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">78649406551</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.J.</ce:initials>
+<ce:indexed-name>Berrocal V.J.</ce:indexed-name>
+<ce:surname>Berrocal</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.E.</ce:initials>
+<ce:indexed-name>Raftery A.E.</ce:indexed-name>
+<ce:surname>Raftery</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Gneiting T.</ce:indexed-name>
+<ce:surname>Gneiting</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>R.C.</ce:initials>
+<ce:indexed-name>Steed R.C.</ce:indexed-name>
+<ce:surname>Steed</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Am. Stat. Assoc.</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="105"/>
+<pagerange first="522" last="537"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Berrocal VJ, Raftery AE, Gneiting T, Steed RC. 2010. Probabilistic weather forecasting for winter road maintenance. J. Am. Stat. Assoc. 105: 522-537.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84889086098</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Chapman L.</ce:indexed-name>
+<ce:surname>Chapman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Thornes J.E.</ce:indexed-name>
+<ce:surname>Thornes</ce:surname>
+</author>
+</ref-authors>
+<ref-publicationyear first="2008"/>
+<ref-text>Small-scale road surface temperature and condition variations across a road profile. Paper Presented at 14th International Road Weather Conference (SIRWEC 2008), Prague, Czech Republic.</ref-text>
+</ref-info>
+<ref-fulltext>Chapman L, Thornes JE. 2008. Small-scale road surface temperature and condition variations across a road profile. Paper Presented at 14th International Road Weather Conference (SIRWEC 2008), Prague, Czech Republic.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>What spatial resolution do we need for a route-based weather decision support system?</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79957533843</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Chapman L.</ce:indexed-name>
+<ce:surname>Chapman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Thornes J.E.</ce:indexed-name>
+<ce:surname>Thornes</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Theor. Appl. Climatol.</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="104"/>
+<pagerange first="551" last="559"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Chapman L, Thornes JE. 2011. What spatial resolution do we need for a route-based weather decision support system? Theor. Appl. Climatol. 104: 551-559.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Modelling of road surface temperature from a geographical parameter database. Part 1: statistical</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0042964910</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Chapman L.</ce:indexed-name>
+<ce:surname>Chapman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Thornes J.E.</ce:indexed-name>
+<ce:surname>Thornes</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.V.</ce:initials>
+<ce:indexed-name>Bradley A.V.</ce:indexed-name>
+<ce:surname>Bradley</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Meteorol. Appl.</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="409" last="419"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Chapman L, Thornes JE, Bradley AV. 2001a. Modelling of road surface temperature from a geographical parameter database. Part 1: statistical. Meteorol. Appl. 8: 409-419.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Modelling of road surface temperature from a geographical parameter database. Part 2: numerical</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0041368565</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Chapman L.</ce:indexed-name>
+<ce:surname>Chapman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Thornes J.E.</ce:indexed-name>
+<ce:surname>Thornes</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.V.</ce:initials>
+<ce:indexed-name>Bradley A.V.</ce:indexed-name>
+<ce:surname>Bradley</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Meteorol. Appl.</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="421" last="436"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Chapman L, Thornes JE, Bradley AV. 2001b. Modelling of road surface temperature from a geographical parameter database. Part 2: numerical. Meteorol. Appl. 8: 421-436.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>METRo: a new model for road-condition forecasting in Canada</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0035508972</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.P.</ce:initials>
+<ce:indexed-name>Crevier L.P.</ce:indexed-name>
+<ce:surname>Crevier</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Delage Y.</ce:indexed-name>
+<ce:surname>Delage</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Appl. Meteorol.</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="40"/>
+<pagerange first="2026" last="2037"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Crevier LP, Delage Y. 2001. METRo: a new model for road-condition forecasting in Canada. J. Appl. Meteorol. 40: 2026-2037.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Measuring the contribution of randomness, exposure, weather, and daylight to the variation in road accident counts</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0029251408</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Fridstrom L.</ce:indexed-name>
+<ce:surname>Fridstrøm</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Ifver J.</ce:indexed-name>
+<ce:surname>Ifver</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Ingebrigtsen S.</ce:indexed-name>
+<ce:surname>Ingebrigtsen</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Kulmala R.</ce:indexed-name>
+<ce:surname>Kulmala</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>L.K.</ce:initials>
+<ce:indexed-name>Thomsen L.K.</ce:indexed-name>
+<ce:surname>Thomsen</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Accid. Anal. Prev.</ref-sourcetitle>
+<ref-publicationyear first="1995"/>
+<ref-volisspag>
+<voliss volume="27"/>
+<pagerange first="1" last="20"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Fridstrøm L, Ifver J, Ingebrigtsen S, Kulmala R, Thomsen LK. 1995. Measuring the contribution of randomness, exposure, weather, and daylight to the variation in road accident counts. Accid. Anal. Prev. 27: 1-20.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>The integrated nowcasting through comprehensive analysis (INCA) system and its validation over the eastern Alpine region</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79956303228</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Haiden T.</ce:indexed-name>
+<ce:surname>Haiden</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kann A.</ce:indexed-name>
+<ce:surname>Kann</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Wittmann C.</ce:indexed-name>
+<ce:surname>Wittmann</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Pistotnik G.</ce:indexed-name>
+<ce:surname>Pistotnik</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Bica B.</ce:indexed-name>
+<ce:surname>Bica</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Gruber C.</ce:indexed-name>
+<ce:surname>Gruber</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Weather Forecast.</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="26"/>
+<pagerange first="166" last="183"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Haiden T, Kann A, Wittmann C, Pistotnik G, Bica B, Gruber C. 2011. The integrated nowcasting through comprehensive analysis (INCA) system and its validation over the eastern Alpine region. Weather Forecast. 26: 166-183.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>Relations between surface temperature and air temperature on a local scale during winter nights</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033729489</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kawashima S.</ce:indexed-name>
+<ce:surname>Kawashima</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Ishida T.</ce:indexed-name>
+<ce:surname>Ishida</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Minomura M.</ce:indexed-name>
+<ce:surname>Minomura</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Miwa T.</ce:indexed-name>
+<ce:surname>Miwa</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Appl. Meteorol.</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="39"/>
+<pagerange first="1570" last="1579"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Kawashima S, Ishida T, Minomura M, Miwa T. 2000. Relations between surface temperature and air temperature on a local scale during winter nights. J. Appl. Meteorol. 39: 1570-1579.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>An automated system for prediction of icing on the road</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">77953032506</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Korotenko K.</ce:indexed-name>
+<ce:surname>Korotenko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Lect. Notes Comput. Sci.</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="2331"/>
+<pagerange first="1193" last="1200"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Korotenko K. 2002. An automated system for prediction of icing on the road. Lect. Notes Comput. Sci. 2331: 1193-1200.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84889082013</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.K.</ce:initials>
+<ce:indexed-name>Linden S.K.</ce:indexed-name>
+<ce:surname>Linden</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.D.</ce:initials>
+<ce:indexed-name>Drobot S.D.</ce:indexed-name>
+<ce:surname>Drobot</ce:surname>
+</author>
+</ref-authors>
+<ref-publicationyear first="2010"/>
+<ref-text>The Evolution of METRo in a Roadway DSS. Paper Presented at 15<sup>th</sup> International Road Weather Conference (SIRWEC 2010), Quebec, Canada.</ref-text>
+</ref-info>
+<ref-fulltext>Linden SK, Drobot SD. 2010. The Evolution of METRo in a Roadway DSS. Paper Presented at 15<sup>th</sup> International Road Weather Conference (SIRWEC 2010), Quebec, Canada.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84889101262</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>McClellan T.</ce:indexed-name>
+<ce:surname>McClellan</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Boone P.</ce:indexed-name>
+<ce:surname>Boone</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.A.</ce:initials>
+<ce:indexed-name>Coleman M.A.</ce:indexed-name>
+<ce:surname>Coleman</ce:surname>
+</author>
+</ref-authors>
+<ref-publicationyear first="2009"/>
+<ref-website>
+<ce:e-address type="url">http://www.in.gov/indot/files/MDSSReportWinter08-09.pdf</ce:e-address>
+</ref-website>
+<ref-text>Maintenance decision support system (MDSS). Final report. Indiana Department of Transportation: Indianapolis, IN</ref-text>
+</ref-info>
+<ref-fulltext>McClellan T, Boone P, Coleman MA. 2009. Maintenance decision support system (MDSS). Final report. Indiana Department of Transportation: Indianapolis, IN. http://www.in.gov/indot/files/MDSSReport Winter08-09.pdf.</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Relationships between road slipperiness, traffic accident risk and winter road maintenance activity</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034609306</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Norrman J.</ce:indexed-name>
+<ce:surname>Norrman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Eriksson M.</ce:indexed-name>
+<ce:surname>Eriksson</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Lindqvist S.</ce:indexed-name>
+<ce:surname>Lindqvist</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Clim. Res.</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="15"/>
+<pagerange first="185" last="193"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Norrman J, Eriksson M, Lindqvist S. 2000. Relationships between road slipperiness, traffic accident risk and winter road maintenance activity. Clim. Res. 15: 185-193.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>Learning and data driver methods for short term meteo forecast</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33745775881</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Pasero E.</ce:indexed-name>
+<ce:surname>Pasero</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Moniaci W.</ce:indexed-name>
+<ce:surname>Moniaci</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Lect. Notes Comput. Sci.</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="3931"/>
+<pagerange first="105" last="112"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Pasero E, Moniaci W. 2006. Learning and data driver methods for short term meteo forecast. Lect. Notes Comput. Sci. 3931: 105-112.</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<ref-title>
+<ref-titletext>Environmental impact of chemical deicers-a review</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">24644478552</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.M.</ce:initials>
+<ce:indexed-name>Ramakrishna D.M.</ce:indexed-name>
+<ce:surname>Ramakrishna</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Viraraghavan T.</ce:indexed-name>
+<ce:surname>Viraraghavan</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Water Air Soil Pollut.</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss volume="166"/>
+<pagerange first="49" last="63"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ramakrishna DM, Viraraghavan T. 2005. Environmental impact of chemical deicers-a review. Water Air Soil Pollut. 166: 49-63.</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<ref-title>
+<ref-titletext>A numerical model for prediction of road temperature and ice</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000465716</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.H.</ce:initials>
+<ce:indexed-name>Sass B.H.</ce:indexed-name>
+<ce:surname>Sass</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Appl. Meteorol.</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-volisspag>
+<voliss volume="31"/>
+<pagerange first="1499" last="1506"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Sass BH. 1992. A numerical model for prediction of road temperature and ice. J. Appl. Meteorol. 31: 1499-1506.</ref-fulltext>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>A numerical forecasting system for the prediction of slippery roads</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031399181</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.H.</ce:initials>
+<ce:indexed-name>Sass B.H.</ce:indexed-name>
+<ce:surname>Sass</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.J.</ce:initials>
+<ce:indexed-name>Lister P.J.</ce:indexed-name>
+<ce:surname>Lister</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Appl. Meteorol.</ref-sourcetitle>
+<ref-publicationyear first="1997"/>
+<ref-volisspag>
+<voliss volume="36"/>
+<pagerange first="801" last="817"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Sass BH, Lister PJ. 1997. A numerical forecasting system for the prediction of slippery roads. J. Appl. Meteorol. 36: 801-817.</ref-fulltext>
+</reference>
+<reference id="19">
+<ref-info>
+<ref-title>
+<ref-titletext>Improving nowcasts of road surface temperature by a backpropagation neural network</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031927875</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Shao J.</ce:indexed-name>
+<ce:surname>Shao</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Weather Forecast.</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="13"/>
+<pagerange first="164" last="171"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Shao J. 1998. Improving nowcasts of road surface temperature by a backpropagation neural network. Weather Forecast. 13: 164-171.</ref-fulltext>
+</reference>
+<reference id="20">
+<ref-info>
+<ref-title>
+<ref-titletext>The prediction of road surface-state and simulations of the shading effect</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0029529833</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Shao J.</ce:indexed-name>
+<ce:surname>Shao</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.J.</ce:initials>
+<ce:indexed-name>Lister P.J.</ce:indexed-name>
+<ce:surname>Lister</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Boundary-Layer Meteorol.</ref-sourcetitle>
+<ref-publicationyear first="1995"/>
+<ref-volisspag>
+<voliss volume="73"/>
+<pagerange first="411" last="419"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Shao J, Lister PJ. 1995. The prediction of road surface-state and simulations of the shading effect. Boundary-Layer Meteorol. 73: 411-419.</ref-fulltext>
+</reference>
+<reference id="21">
+<ref-info>
+<ref-title>
+<ref-titletext>An automated nowcasting model of road surface temperature and state for winter road maintenance</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0030438179</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Shao J.</ce:indexed-name>
+<ce:surname>Shao</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.J.</ce:initials>
+<ce:indexed-name>Lister P.J.</ce:indexed-name>
+<ce:surname>Lister</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Appl. Meteorol.</ref-sourcetitle>
+<ref-publicationyear first="1996"/>
+<ref-volisspag>
+<voliss volume="35"/>
+<pagerange first="1352" last="1361"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Shao J, Lister PJ. 1996. An automated nowcasting model of road surface temperature and state for winter road maintenance. J. Appl. Meteorol. 35: 1352-1361.</ref-fulltext>
+</reference>
+<reference id="22">
+<ref-info>
+<ref-title>
+<ref-titletext>Modelling pavement temperature for winter maintenance operations</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">3042841611</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Sherif A.</ce:indexed-name>
+<ce:surname>Sherif</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Hassan Y.</ce:indexed-name>
+<ce:surname>Hassan</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Can. J. Civil Eng.</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="31"/>
+<pagerange first="369" last="378"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Sherif A, Hassan Y. 2004. Modelling pavement temperature for winter maintenance operations. Can. J. Civil Eng. 31: 369-378.</ref-fulltext>
+</reference>
+<reference id="23">
+<ref-info>
+<ref-title>
+<ref-titletext>Developing a method to predict road surface temperatures-applying heat balance model considering traffic volume</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84889087654</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Takahashi N.</ce:indexed-name>
+<ce:surname>Takahashi</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.A.</ce:initials>
+<ce:indexed-name>Tokunaga R.A.</ce:indexed-name>
+<ce:surname>Tokunaga</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Asano M.</ce:indexed-name>
+<ce:surname>Asano</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Ishikawa N.</ce:indexed-name>
+<ce:surname>Ishikawa</ce:surname>
+</author>
+</ref-authors>
+<ref-publicationyear first="2006"/>
+<ref-text>Paper Presented at 13th International Road Weather Conference (SIRWEC 2006), Turin, Italy.</ref-text>
+</ref-info>
+<ref-fulltext>Takahashi N, Tokunaga RA, Asano M, Ishikawa N. 2006. Developing a method to predict road surface temperatures-applying heat balance model considering traffic volume. Paper Presented at 13th International Road Weather Conference (SIRWEC 2006), Turin, Italy.</ref-fulltext>
+</reference>
+<reference id="24">
+<ref-info>
+<ref-title>
+<ref-titletext>Thermal mapping and road-weather information systems for highway engineers</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0006516597</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Thornes J.E.</ce:indexed-name>
+<ce:surname>Thornes</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Physical and Dynamical Meteorology</ref-sourcetitle>
+<ref-publicationyear first="1991"/>
+<ref-volisspag>
+<pagerange first="39" last="67"/>
+</ref-volisspag>
+<ref-text>In, Perry AH, Symons LJ (eds). Taylor and Francis: London;</ref-text>
+</ref-info>
+<ref-fulltext>Thornes JE. 1991. Thermal mapping and road-weather information systems for highway engineers. In Physical and Dynamical Meteorology, Perry AH, Symons LJ (eds). Taylor and Francis: London; 39-67.</ref-fulltext>
+</reference>
+<reference id="25">
+<ref-info>
+<ref-title>
+<ref-titletext>XRWIS: the use of geomatics to predict winter road surface temperatures in Poland</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">18744407268</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Thornes J.E.</ce:indexed-name>
+<ce:surname>Thornes</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Cavan G.</ce:indexed-name>
+<ce:surname>Cavan</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Chapman L.</ce:indexed-name>
+<ce:surname>Chapman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Meteorol. Appl.</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss volume="12"/>
+<pagerange first="83" last="90"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Thornes JE, Cavan G, Chapman L. 2005. XRWIS: the use of geomatics to predict winter road surface temperatures in Poland. Meteorol. Appl. 12: 83-90.</ref-fulltext>
+</reference>
+<reference id="26">
+<ref-info>
+<ref-title>
+<ref-titletext>An investigation of winter nocturnal air and road surface temperature variation in the West Midlands, UK under different synoptic conditions</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0041368558</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Weller J.</ce:indexed-name>
+<ce:surname>Weller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Thornes J.E.</ce:indexed-name>
+<ce:surname>Thornes</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Meteorol. Appl.</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="461" last="474"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Weller J, Thornes JE. 2001. An investigation of winter nocturnal air and road surface temperature variation in the West Midlands, UK under different synoptic conditions. Meteorol. Appl. 8: 461-474.</ref-fulltext>
+</reference>
+<reference id="27">
+<ref-info>
+<ref-title>
+<ref-titletext>Individual comparisons by ranking methods</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0001884644</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Wilcoxon F.</ce:indexed-name>
+<ce:surname>Wilcoxon</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Biometrics Bull.</ref-sourcetitle>
+<ref-publicationyear first="1945"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="80" last="83"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Wilcoxon F. 1945. Individual comparisons by ranking methods. Biometrics Bull. 1: 80-83.</ref-fulltext>
+</reference>
+<reference id="28">
+<ref-info>
+<ref-title>
+<ref-titletext>The history of the cluster heat map</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">67449163824</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Wilkinson L.</ce:indexed-name>
+<ce:surname>Wilkinson</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Friendly M.</ce:indexed-name>
+<ce:surname>Friendly</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Am. Stat.</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="63"/>
+<pagerange first="179" last="184"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Wilkinson L, Friendly M. 2009. The history of the cluster heat map. Am. Stat. 63: 179-184.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

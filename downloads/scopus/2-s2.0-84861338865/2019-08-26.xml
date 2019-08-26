@@ -1,0 +1,1600 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84861338865</prism:url><dc:identifier>SCOPUS_ID:84861338865</dc:identifier><eid>2-s2.0-84861338865</eid><pii>S0026269212000717</pii><prism:doi>10.1016/j.mejo.2012.03.007</prism:doi><dc:title>Layout design of manufacturable quantum-dot cellular automata</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>37</citedby-count><prism:publicationName>Microelectronics Journal</prism:publicationName><source-id>9500153939</source-id><prism:issn>00262692</prism:issn><prism:volume>43</prism:volume><prism:issueIdentifier>7</prism:issueIdentifier><prism:startingPage>501</prism:startingPage><prism:endingPage>513</prism:endingPage><prism:pageRange>501-513</prism:pageRange><prism:coverDate>2012-07-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="24469886100"><ce:initials>M.</ce:initials><ce:indexed-name>Janez M.</ce:indexed-name><ce:surname>Janez</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Janez M.</ce:indexed-name><ce:surname>Janez</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24469886100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Quantum-dot cellular automaton (QCA) is an emergent technology that is not hindered by quantum effects that limit the scaling of CMOS technology, but instead employs them to perform computation. However, this brings its own impediments, such as the influence of the thermodynamic effects. Beside that, QCA has to be coupled with CMOS circuitry of different size features to enable clocking. We discussed all these facts and devised a floorplan which would facilitate manufacturability. Based on it we developed the process of QCA layout design and defined the design rules that must be considered in order to ensure correct operation. These instructions enable the automatization of designing a QCA circuit layout. © 2012 Elsevier Ltd.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84861338865" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84861338865&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84861338865&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="24469886100"><ce:initials>M.</ce:initials><ce:indexed-name>Janez M.</ce:indexed-name><ce:surname>Janez</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Janez M.</ce:indexed-name><ce:surname>Janez</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24469886100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="25925313600"><ce:initials>P.</ce:initials><ce:indexed-name>Pecar P.</ce:indexed-name><ce:surname>Pecar</ce:surname><ce:given-name>Primoz</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Pecar P.</ce:indexed-name><ce:surname>Pecar</ce:surname><ce:given-name>Primoz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/25925313600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7007175863"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7007175863</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Design rules</author-keyword><author-keyword>Emergent technology</author-keyword><author-keyword>Layout design</author-keyword><author-keyword>Quantum-dot cellular automata</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">CMOS technology</mainterm><mainterm weight="a" candidate="n">Design rules</mainterm><mainterm weight="a" candidate="n">Different sizes</mainterm><mainterm weight="a" candidate="n">Floorplans</mainterm><mainterm weight="a" candidate="n">Layout designs</mainterm><mainterm weight="a" candidate="n">Manufacturability</mainterm><mainterm weight="a" candidate="n">Quantum dot cellular automata</mainterm><mainterm weight="a" candidate="n">Quantum effects</mainterm><mainterm weight="a" candidate="n">Thermodynamic effect</mainterm></idxterms><subject-areas><subject-area code="2504" abbrev="MATE">Electronic, Optical and Magnetic Materials</subject-area><subject-area code="3107" abbrev="PHYS">Atomic and Molecular Physics, and Optics</subject-area><subject-area code="3104" abbrev="PHYS">Condensed Matter Physics</subject-area><subject-area code="2508" abbrev="MATE">Surfaces, Coatings and Films</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-22T08:09:03.358Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="17" month="05" timestamp="2019-05-17T20:30:36.000036-04:00" year="2019"/><ait:date-sort day="01" month="07" year="2012"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2012 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0026269212000717</ce:pii>
+                    <ce:doi>10.1016/j.mejo.2012.03.007</ce:doi>
+                    <itemid idtype="PUI">51936053</itemid>
+                    <itemid idtype="CPX">20122215063544</itemid>
+                    <itemid idtype="SCP">84861338865</itemid>
+                    <itemid idtype="SGR">84861338865</itemid>
+                </itemidlist><history>
+                    <date-created day="29" month="03" year="2012"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Design rules</author-keyword>
+                        <author-keyword xml:lang="eng">Emergent technology</author-keyword>
+                        <author-keyword xml:lang="eng">Layout design</author-keyword>
+                        <author-keyword xml:lang="eng">Quantum-dot cellular automata</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Layout design of manufacturable quantum-dot cellular automata</titletext></citation-title><author-group><author auid="24469886100" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Janez M.</ce:indexed-name><ce:surname>Janez</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Janez M.</ce:indexed-name>
+                            <ce:surname>Janez</ce:surname>
+                            <ce:given-name>Miha</ce:given-name>
+                        </preferred-name></author><author auid="25925313600" seq="2"><ce:initials>P.</ce:initials><ce:indexed-name>Pecar P.</ce:indexed-name><ce:surname>Pecar</ce:surname><ce:given-name>Primoz</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Pecar P.</ce:indexed-name>
+                            <ce:surname>Pecar</ce:surname>
+                            <ce:given-name>Primoz</ce:given-name>
+                        </preferred-name></author><author auid="7007175863" seq="3"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Mraz M.</ce:indexed-name>
+                            <ce:surname>Mraz</ce:surname>
+                            <ce:given-name>Miha</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Trzaska cesta 25</address-part><city-group>Ljubljana, SI-1001</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Janez M.</ce:indexed-name>
+                        <ce:surname>Janez</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Trzaska cesta 25</address-part><city-group>Ljubljana, SI-1001</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Quantum-dot cellular automaton (QCA) is an emergent technology that is not hindered by quantum effects that limit the scaling of CMOS technology, but instead employs them to perform computation. However, this brings its own impediments, such as the influence of the thermodynamic effects. Beside that, QCA has to be coupled with CMOS circuitry of different size features to enable clocking. We discussed all these facts and devised a floorplan which would facilitate manufacturability. Based on it we developed the process of QCA layout design and defined the design rules that must be considered in order to ensure correct operation. These instructions enable the automatization of designing a QCA circuit layout. © 2012 Elsevier Ltd.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="9500153939" type="j"><sourcetitle>Microelectronics Journal</sourcetitle><sourcetitle-abbrev>Microelectron J</sourcetitle-abbrev><issn type="print">00262692</issn><codencode>MICEB</codencode><volisspag>
+                        <voliss issue="7" volume="43"/>
+                        <pagerange first="501" last="513"/>
+                    </volisspag><publicationyear first="2012"/><publicationdate>
+                        <year>2012</year>
+                        <month>07</month>
+                    <date-text xfab-added="true">July 2012</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>408</classification-code>
+                                 
+                                <classification-description>Structural Design</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>714.2</classification-code>
+                                 
+                                <classification-description>Semiconductor Devices and Integrated Circuits</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>721.1</classification-code>
+                                 
+                                <classification-description>Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>744</classification-code>
+                                 
+                                <classification-description>Lasers</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="GEOCLASS">
+                            <classification>
+                                 
+                                <classification-code>Related Topics</classification-code>
+                                 
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2504</classification>
+                            <classification>3107</classification>
+                            <classification>3104</classification>
+                            <classification>2508</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATE</classification><classification>PHYS</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="42">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027266749</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nanotechnology</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="4"/>
+                                <pagerange first="49" last="57"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C.S. Lent, P.D. Tougaw, W. Porod, and G.H. Bernstein Quantum cellular automata Nanotechnology 4 1 1993 49 57</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Logical devices implemented using quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36449009014</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="75"/>
+                                <pagerange first="1818" last="1825"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P.D. Tougaw, and C.S. Lent Logical devices implemented using quantum cellular automata J. Appl. Phys. 75 3 1994 1818 1825</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A device architecture for computing with quantum dots</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031123840</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="85"/>
+                                <pagerange first="541" last="557"/>
+                            </ref-volisspag>
+                            <ref-text>PII S001892199702731X</ref-text>
+                        </ref-info>
+                        <ref-fulltext>C.S. Lent, and P. Tougaw A device architecture for computing with quantum dots Proc. IEEE 85 4 1997 541 557 (Pubitemid 127745576)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Memory design in QCAs using the SQUARES formalism</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033361573</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Berzon D.</ce:indexed-name>
+                                    <ce:surname>Berzon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.J.</ce:initials>
+                                    <ce:indexed-name>Fountain T.J.</ce:indexed-name>
+                                    <ce:surname>Fountain</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the IEEE Great Lakes Symposium on VLSI</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="166" last="169"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. Berzon, T.J. Fountain, A memory design in QCAs using the SQUARES formalism, in: Proceedings of the Ninth Great Lakes Symposium on VLSI, 1999, pp. 166-169. (Pubitemid 30529607)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Problems in designing with QCAs: Layout=timing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034766466</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Niemier M.T.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kogge P.</ce:indexed-name>
+                                    <ce:surname>Kogge</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Circuit Theory Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="29"/>
+                                <pagerange first="49" last="62"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M.T. Niemier, and P. Kogge Problems in designing with QCAs: layout=timing Int. J. Circuit Theory Appl. 29 1 2001 49 62</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Incorporating standard CMOS design process methodologies into the QCA logic design process</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">2342652909</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.C.</ce:initials>
+                                    <ce:indexed-name>Henderson S.C.</ce:indexed-name>
+                                    <ce:surname>Henderson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.W.</ce:initials>
+                                    <ce:indexed-name>Johnson E.W.</ce:indexed-name>
+                                    <ce:surname>Johnson</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Janulis J.R.</ce:indexed-name>
+                                    <ce:surname>Janulis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Nanotechnol.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="3"/>
+                                <pagerange first="2" last="9"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S.C. Henderson, E.W. Johnson, J.R. Janulis, and P.D. Tougaw Incorporating standard CMOS design process methodologies into the QCA logic design process IEEE Trans. Nanotechnol. 3 1 2004 2 9</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum-dot cellular automata (QCA) circuit partitioning: Problem modeling and solutions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">4444308859</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Antonelli D.A.</ce:indexed-name>
+                                    <ce:surname>Antonelli</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.Z.</ce:initials>
+                                    <ce:indexed-name>Chen D.Z.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.J.</ce:initials>
+                                    <ce:indexed-name>Dysart T.J.</ce:indexed-name>
+                                    <ce:surname>Dysart</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.S.</ce:initials>
+                                    <ce:indexed-name>Hu X.S.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.B.</ce:initials>
+                                    <ce:indexed-name>Kahng A.B.</ce:indexed-name>
+                                    <ce:surname>Kahng</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.M.</ce:initials>
+                                    <ce:indexed-name>Kogge P.M.</ce:indexed-name>
+                                    <ce:surname>Kogge</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>R.C.</ce:initials>
+                                    <ce:indexed-name>Murphy R.C.</ce:indexed-name>
+                                    <ce:surname>Murphy</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Niemier M.T.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 41st Annual Design Automation Conference</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="363" last="368"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D.A. Antonelli, D.Z. Chen, T.J. Dysart, X.S. Hu, A.B. Kahng, P.M. Kogge, R.C. Murphy, M.T. Niemier, Quantum-dot cellular automata (QCA) circuit partitioning: problem modeling and solutions, in: Proceedings of the 41st Annual Design Automation Conference, 2004, pp. 363-368.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic cell placement for quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">10444252760</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ravichandran R.</ce:indexed-name>
+                                    <ce:surname>Ravichandran</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Lim S.K.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Niemier M.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Integration VLSI J.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="38"/>
+                                <pagerange first="541" last="548"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. Ravichandran, S.K. Lim, and M. Niemier Automatic cell placement for quantum-dot cellular automata Integration VLSI J. 38 3 2005 541 548</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Partitioning and placement for buildable QCA circuits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750483353</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Lim S.K.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ravichandran R.</ce:indexed-name>
+                                    <ce:surname>Ravichandran</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Niemier M.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM J. Emerg. Technol. Comput. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="1"/>
+                                <pagerange first="50" last="72"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S.K. Lim, R. Ravichandran, and M. Niemier Partitioning and placement for buildable QCA circuits ACM J. Emerg. Technol. Comput. Syst. 1 1 2005 50 72</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Design of sequential circuits by quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34249290029</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huang J.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Momenzadeh M.</ce:indexed-name>
+                                    <ce:surname>Momenzadeh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Lombardi F.</ce:indexed-name>
+                                    <ce:surname>Lombardi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Microelectronics Journal</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="4-5" volume="38"/>
+                                <pagerange first="525" last="537"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1016/j.mejo.2007.03.013, PII S0026269207000572</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Huang, M. Momenzadeh, and F. Lombardi Design of sequential circuits by quantum-dot cellular automata Microelectron. J. 38 4-5 2007 525 537 (Pubitemid 46818340)</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>QCA-LG: A tool for the automatic layout generation of QCA combinational circuits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">50249146216</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Teodosio T.</ce:indexed-name>
+                                    <ce:surname>Teodosio</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sousa L.</ce:indexed-name>
+                                    <ce:surname>Sousa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>25th IEEE Norchip Conference</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="5"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>T. Teodosio, L. Sousa, QCA-LG: a tool for the automatic layout generation of QCA combinational circuits, in: 25th IEEE Norchip Conference, 2007, pp. 1-5.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Two-dimensional schemes for clocking/timing of QCA circuits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">37249000398</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vankamamidi V.</ce:indexed-name>
+                                    <ce:surname>Vankamamidi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ottavi M.</ce:indexed-name>
+                                    <ce:surname>Ottavi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Lombardi F.</ce:indexed-name>
+                                    <ce:surname>Lombardi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="27"/>
+                                <pagerange first="34" last="44"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1109/TCAD.2007.907020</ref-text>
+                        </ref-info>
+                        <ref-fulltext>V. Vankamamidi, M. Ottavi, and F. Lombardi Two-dimensional schemes for clocking/timing of QCA circuits IEEE Trans. Comput. Aided Des. Integrated Circuits Syst. 27 1 2008 34 44 (Pubitemid 350281165)</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A layout-aware physical design method for constructing feasible QCA circuits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56749083210</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bubna M.</ce:indexed-name>
+                                    <ce:surname>Bubna</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Roy S.</ce:indexed-name>
+                                    <ce:surname>Roy</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Shenoy N.</ce:indexed-name>
+                                    <ce:surname>Shenoy</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Mazumdar S.</ce:indexed-name>
+                                    <ce:surname>Mazumdar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 18th ACM Great Lakes Symposium on VLSI</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="243" last="248"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Bubna, S. Roy, N. Shenoy, S. Mazumdar, A layout-aware physical design method for constructing feasible QCA circuits, in: Proceedings of the 18th ACM Great Lakes Symposium on VLSI, 2008, pp. 243-248.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adder designs and analyses for quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34248647305</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Cho H.</ce:indexed-name>
+                                    <ce:surname>Cho</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.E.</ce:initials>
+                                    <ce:indexed-name>Swartzlander Jr. E.E.</ce:indexed-name>
+                                    <ce:surname>Swartzlander Jr.</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Nanotechnology</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="6"/>
+                                <pagerange first="374" last="383"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1109/TNANO.2007.894839</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Cho, and E.E. Swartzlander Adder designs and analyses for quantum-dot cellular automata IEEE Trans. Nanotechnol. 6 3 2007 374 383 (Pubitemid 46776293)</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Design and simulation of sequential circuits in quantum-dot cellular automata: Falling edge-triggered flip-flop and counter study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">75149184432</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Yang X.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cai L.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Zhao X.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Zhang N.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Microelectron. J.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="41"/>
+                                <pagerange first="56" last="63"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>X. Yang, L. Cai, X. Zhao, and N. Zhang Design and simulation of sequential circuits in quantum-dot cellular automata: falling edge-triggered flip-flop and counter study Microelectron. J. 41 1 2010 56 63</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>
+                                    Design and simulation of modular 2 
+                                    <sup>n</sup>
+                                     to 1 quantum-dot cellular automata (QCA) multiplexers
+                                </ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649978409</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.A.</ce:initials>
+                                    <ce:indexed-name>Mardiris V.A.</ce:indexed-name>
+                                    <ce:surname>Mardiris</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.G.</ce:initials>
+                                    <ce:indexed-name>Karafyllidis I.G.</ce:indexed-name>
+                                    <ce:surname>Karafyllidis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Circuit Theory Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="38"/>
+                                <pagerange first="771" last="785"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>
+                            V.A. Mardiris, and I.G. Karafyllidis Design and simulation of modular 2 
+                            <sup>n</sup>
+                             to 1 quantum-dot cellular automata (QCA) multiplexers Int. J. Circuit Theory Appl. 38 8 2010 771 785
+                        </ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A new quantum-dot cellular automata full-adder</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649330632</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Navi K.</ce:indexed-name>
+                                    <ce:surname>Navi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Farazkish R.</ce:indexed-name>
+                                    <ce:surname>Farazkish</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sayedsalehi S.</ce:indexed-name>
+                                    <ce:surname>Sayedsalehi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Rahimi Azghadi M.</ce:indexed-name>
+                                    <ce:surname>Rahimi Azghadi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Microelectron. J.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="41"/>
+                                <pagerange first="820" last="826"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Navi, R. Farazkish, S. Sayedsalehi, and M. Rahimi Azghadi A new quantum-dot cellular automata full-adder Microelectron. J. 41 12 2010 820 826</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comparative analysis and design of quantum-dot cellular automata memory cell architecture</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84862908744</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Yang X.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cai L.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Huang H.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Zhao X.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Circuit Theory Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="40"/>
+                                <pagerange first="93" last="103"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>X. Yang, L. Cai, H. Huang, and X. Zhao A comparative analysis and design of quantum-dot cellular automata memory cell architecture Int. J. Circuit Theory Appl. 40 1 2012 93 103</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Memory in motion: A study of storage structures in QCA</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">6344227728</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Frost S.</ce:indexed-name>
+                                    <ce:surname>Frost</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rodrigues A.</ce:indexed-name>
+                                    <ce:surname>Rodrigues</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Janiszewski A.</ce:indexed-name>
+                                    <ce:surname>Janiszewski</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Rausch R.</ce:indexed-name>
+                                    <ce:surname>Rausch</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kogge P.</ce:indexed-name>
+                                    <ce:surname>Kogge</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>First Workshop on Non-Silicon Computation (NSC-1)</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="30" last="37"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Frost, A. Rodrigues, A. Janiszewski, R. Rausch, P. Kogge, Memory in motion: a study of storage structures in QCA, in: First Workshop on Non-Silicon Computation (NSC-1), 2002, pp. 30-37.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum-dot Cellular Automata design guideline</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745586739</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Kim K.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Wu K.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Karri R.</ce:indexed-name>
+                                    <ce:surname>Karri</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="E89-A"/>
+                                <pagerange first="1607" last="1614"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1093/ietfec/e89-a.6.1607</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Kim, K. Wu, and R. Karri Quantum-dot cellular automata design guideline IEICE Trans. Fundam. Electron. Commun. Comput. Sci. E-89A 6 2006 1607 1614 (Pubitemid 43992361)</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Design rules for quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960858726</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Liu W.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lu L.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Oneill M.</ce:indexed-name>
+                                    <ce:surname>Oneill</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.E.</ce:initials>
+                                    <ce:indexed-name>Swartzlander Jr. E.E.</ce:indexed-name>
+                                    <ce:surname>Swartzlander Jr.</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ISCAS</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="2361" last="2364"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>W. Liu, L. Lu, M. ONeill, E.E. Swartzlander Jr., Design rules for quantum-dot cellular automata, in: ISCAS, 2011, pp. 2361-2364.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861341657</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>International Technology Roadmap for Semiconductors, Interconnect, Technical Report</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-text>Semiconductor Industry Association</ref-text>
+                        </ref-info>
+                        <ref-fulltext>International Technology Roadmap for Semiconductors, Interconnect, Technical Report, Semiconductor Industry Association, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>QCADesigner: A rapid design and simulation tool for quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">2342457054</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Walus K.</ce:indexed-name>
+                                    <ce:surname>Walus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.J.</ce:initials>
+                                    <ce:indexed-name>Dysart T.J.</ce:indexed-name>
+                                    <ce:surname>Dysart</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.A.</ce:initials>
+                                    <ce:indexed-name>Jullien G.A.</ce:indexed-name>
+                                    <ce:surname>Jullien</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Budiman R.A.</ce:indexed-name>
+                                    <ce:surname>Budiman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Nanotechnol.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="3"/>
+                                <pagerange first="26" last="31"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Walus, T.J. Dysart, G.A. Jullien, and R.A. Budiman QCADesigner: a rapid design and simulation tool for quantum-dot cellular automata IEEE Trans. Nanotechnol. 3 1 2004 26 31</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Design tools for an emerging SoC technology: Quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33947422063</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Walus K.</ce:indexed-name>
+                                    <ce:surname>Walus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Jullien G.</ce:indexed-name>
+                                    <ce:surname>Jullien</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="94"/>
+                                <pagerange first="1225" last="1244"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Walus, and G. Jullien Design tools for an emerging SoC technology: quantum-dot cellular automata Proc. IEEE 94 6 2006 1225 1244</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dynamic behavior of quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000115540</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Applied Physics</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="80"/>
+                                <pagerange first="4722" last="4736"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Tougaw, and C.S. Lent Dynamic behavior of quantum cellular automata J. Appl. Phys. 80 8 1996 4722 4736 (Pubitemid 126556255)</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034903331</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Cole T.</ce:indexed-name>
+                                    <ce:surname>Cole</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.C.</ce:initials>
+                                    <ce:indexed-name>Lusth J.C.</ce:indexed-name>
+                                    <ce:surname>Lusth</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Progress in Quantum Electronics</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="25"/>
+                                <pagerange first="165" last="189"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1016/S0079-6727(01)00007-6, PII S0079672701000076</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T. Cole, and J.C. Lusth Quantum-dot cellular automata Prog. Quantum Electron. 25 4 2001 165 189 (Pubitemid 32724608)</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum cellular automata: The physics of computing with arrays of quantum dot molecules</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78349298198</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Lent C.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PhysComp 94: Proceedings of the Workshop on Physics and Computation</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <pagerange first="5" last="13"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C. Lent, P. Tougaw, W. Porod, Quantum cellular automata: the physics of computing with arrays of quantum dot molecules, in: PhysComp 94: Proceedings of the Workshop on Physics and Computation, 1994, pp. 5-13.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evidence for transfer of polarization in a quantum dot cellular automata cell consisting of semiconductor quantum dots</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037437956</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gardelis S.</ce:indexed-name>
+                                    <ce:surname>Gardelis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.G.</ce:initials>
+                                    <ce:indexed-name>Smith C.G.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Cooper J.</ce:indexed-name>
+                                    <ce:surname>Cooper</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Ritchie D.A.</ce:indexed-name>
+                                    <ce:surname>Ritchie</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>E.H.</ce:initials>
+                                    <ce:indexed-name>Linfield E.H.</ce:indexed-name>
+                                    <ce:surname>Linfield</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Jin Y.</ce:indexed-name>
+                                    <ce:surname>Jin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys. Rev. B</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="67"/>
+                                <pagerange first="0333021" last="0333024"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Gardelis, C.G. Smith, J. Cooper, D.A. Ritchie, E.H. Linfield, and Y. Jin Evidence for transfer of polarization in a quantum dot cellular automata cell consisting of semiconductor quantum dots Phys. Rev. B 67 3 2003 033302-1 033302-4</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bistable saturation due to single electron charging in rings of tunnel junctions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36449001159</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="75"/>
+                                <pagerange first="4077" last="4080"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C.S. Lent, and P.D. Tougaw Bistable saturation due to single electron charging in rings of tunnel junctions J. Appl. Phys. 75 8 1994 4077 4080</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Realization of a functional cell for quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030879276</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.O.</ce:initials>
+                                    <ce:indexed-name>Orlov A.O.</ce:indexed-name>
+                                    <ce:surname>Orlov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Amlani I.</ce:indexed-name>
+                                    <ce:surname>Amlani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.L.</ce:initials>
+                                    <ce:indexed-name>Snider G.L.</ce:indexed-name>
+                                    <ce:surname>Snider</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="5328" volume="277"/>
+                                <pagerange first="928" last="930"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1126/science.277.5328.928</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A.O. Orlov, I. Amlani, G.H. Bernstein, C.S. Lent, and G.L. Snider Realization of a functional cell for quantum-dot cellular automata Science 277 5328 1997 928 930 (Pubitemid 27366672)</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Molecular quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037471662</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Isaksen B.</ce:indexed-name>
+                                    <ce:surname>Isaksen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Lieberman M.</ce:indexed-name>
+                                    <ce:surname>Lieberman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of the American Chemical Society</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="125"/>
+                                <pagerange first="1056" last="1063"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1021/ja026856g</ref-text>
+                        </ref-info>
+                        <ref-fulltext>C.S. Lent, B. Isaksen, and M. Lieberman Molecular quantum-dot cellular automata J. Am. Chem. Soc. 125 4 2003 1056 1063 (Pubitemid 36152657)</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Room temperature magnetic quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034712032</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.P.</ce:initials>
+                                    <ce:indexed-name>Cowburn R.P.</ce:indexed-name>
+                                    <ce:surname>Cowburn</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.E.</ce:initials>
+                                    <ce:indexed-name>Welland M.E.</ce:indexed-name>
+                                    <ce:surname>Welland</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="5457" volume="287"/>
+                                <pagerange first="1466" last="1468"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1126/science.287.5457.1466</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R.P. Cowburn, and M.E. Welland Room temperature magnetic quantum cellular automata Science 287 5457 2000 1466 1468 (Pubitemid 30127135)</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Magnetic QCA systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">22144471930</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Imre A.</ce:indexed-name>
+                                    <ce:surname>Imre</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Metlushko V.</ce:indexed-name>
+                                    <ce:surname>Metlushko</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Orlov A.</ce:indexed-name>
+                                    <ce:surname>Orlov</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zhou L.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Ji L.</ce:indexed-name>
+                                    <ce:surname>Ji</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Csaba G.</ce:indexed-name>
+                                    <ce:surname>Csaba</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Microelectronics Journal</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="36"/>
+                                <pagerange first="619" last="624"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1016/j.mejo.2004.12.002, PII S002626920500176X</ref-text>
+                        </ref-info>
+                        <ref-fulltext>G. Bernstein, A. Imre, V. Metlushko, A. Orlov, L. Zhou, L. Ji, G. Csaba, and W. Porod Magnetic QCA systems Microelectron. J. 36 7 2005 619 624 (Pubitemid 40973300)</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Clocking of molecular quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035441521</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Hennessy K.</ce:indexed-name>
+                                    <ce:surname>Hennessy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Vacuum Science and Technology B: Microelectronics and Nanometer Structures</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="19"/>
+                                <pagerange first="1752" last="1755"/>
+                            </ref-volisspag>
+                            <ref-text>DOI 10.1116/1.1394729</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Hennessy, and C.S. Lent Clocking of molecular quantum-dot cellular automata J. Vac. Sci. Technol. B: Microelectron. Nanometer Struct. 19 5 2001 1752 1755 (Pubitemid 33008420)</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On-chip clocking for nanomagnet logic devices</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77952634071</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Alam M.</ce:indexed-name>
+                                    <ce:surname>Alam</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Siddiq M.</ce:indexed-name>
+                                    <ce:surname>Siddiq</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Niemier M.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Hu X.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Nanotechnol.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="9"/>
+                                <pagerange first="348" last="351"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Alam, M. Siddiq, G. Bernstein, M. Niemier, W. Porod, and X. Hu On-chip clocking for nanomagnet logic devices IEEE Trans. Nanotechnol. 9 3 2010 348 351</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">2342493062</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Niemier M.T.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Effects of A New Technology on the Design, Organization, and Architectures of Computing Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-text>Ph.D. Thesis, Graduate Program in Computer Science and Engineering Notre Dame, Indiana</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M.T. Niemier, The Effects of a New Technology on the Design, Organization, and Architectures of Computing Systems, Ph.D. Thesis, Graduate Program in Computer Science and Engineering Notre Dame, Indiana, 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fabricatable interconnect and molecular QCA circuits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62249092999</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Chaudhary A.</ce:indexed-name>
+                                    <ce:surname>Chaudhary</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.Z.</ce:initials>
+                                    <ce:indexed-name>Chen D.Z.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.S.</ce:initials>
+                                    <ce:indexed-name>Hu X.S.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Niemier M.T.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ravichandran R.</ce:indexed-name>
+                                    <ce:surname>Ravichandran</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Whitton K.</ce:indexed-name>
+                                    <ce:surname>Whitton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Comput. Aided Des. Integrated Circuits Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="11" volume="26"/>
+                                <pagerange first="1978" last="1991"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Chaudhary, D.Z. Chen, X.S. Hu, M.T. Niemier, R. Ravichandran, and K. Whitton Fabricatable interconnect and molecular QCA circuits IEEE Trans. Comput. Aided Des. Integrated Circuits Syst. 26 11 2007 1978 1991</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Alternative geometry for quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032607018</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:indexed-name>Gin Aaron</ce:indexed-name>
+                                    <ce:surname>Gin Aaron</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:indexed-name>Tougaw P.Douglas</ce:indexed-name>
+                                    <ce:surname>Tougaw P.Douglas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:indexed-name>Williams Sara</ce:indexed-name>
+                                    <ce:surname>Williams Sara</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Applied Physics</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="85"/>
+                                <pagerange first="8281" last="8286"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Gin, P.D. Tougaw, and S. Williams An alternative geometry for quantum-dot cellular automata J. Appl. Phys. 85 12 1999 8281 8286 (Pubitemid 129306643)</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Clocking-based coplanar wire crossing scheme for QCA</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77949977561</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Devadoss R.</ce:indexed-name>
+                                    <ce:surname>Devadoss</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Paul K.</ce:indexed-name>
+                                    <ce:surname>Paul</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Balakrishnan M.</ce:indexed-name>
+                                    <ce:surname>Balakrishnan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2010 23rd International Conference on VLSI Design</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="339" last="344"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. Devadoss, K. Paul, M. Balakrishnan, Clocking-based coplanar wire crossing scheme for QCA, in: Proceedings of the 2010 23rd International Conference on VLSI Design, 2010, pp. 339-344.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dataflow in Molecular QCA: Logic Can Sprint, but the Memory Wall Can Still Be a Hurdle</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861348346</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Niemier M.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kogge P.</ce:indexed-name>
+                                    <ce:surname>Kogge</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Murphy R.</ce:indexed-name>
+                                    <ce:surname>Murphy</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rodrigues A.</ce:indexed-name>
+                                    <ce:surname>Rodrigues</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Dysart T.</ce:indexed-name>
+                                    <ce:surname>Dysart</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Frost S.</ce:indexed-name>
+                                    <ce:surname>Frost</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Technical Report</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>Department of Computer Science and Engineering, University of Notre Dame</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Niemier, P. Kogge, R. Murphy, A. Rodrigues, T. Dysart, S. Frost, Dataflow in Molecular QCA: Logic Can Sprint, but the Memory Wall Can Still Be a Hurdle, Technical Report, Department of Computer Science and Engineering, University of Notre Dame, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Simulation of random cell displacements in QCA</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34247507594</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Schulhof G.</ce:indexed-name>
+                                    <ce:surname>Schulhof</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Walus K.</ce:indexed-name>
+                                    <ce:surname>Walus</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.A.</ce:initials>
+                                    <ce:indexed-name>Jullien G.A.</ce:indexed-name>
+                                    <ce:surname>Jullien</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM J. Emerg. Technol. Comput. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="3"/>
+                                <pagerange first="21" last="214"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>G. Schulhof, K. Walus, and G.A. Jullien Simulation of random cell displacements in QCA ACM J. Emerg. Technol. Comput. Syst. 3 1 2007 2:1 2:14</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum-dot cellular automata: Computing with coupled quantum dots</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032682754</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.O.</ce:initials>
+                                    <ce:indexed-name>Orlov A.O.</ce:indexed-name>
+                                    <ce:surname>Orlov</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Amlani I.</ce:indexed-name>
+                                    <ce:surname>Amlani</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.L.</ce:initials>
+                                    <ce:indexed-name>Snider G.L.</ce:indexed-name>
+                                    <ce:surname>Snider</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Merz J.L.</ce:indexed-name>
+                                    <ce:surname>Merz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Electron.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="86"/>
+                                <pagerange first="549" last="590"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>W. Porod, C.S. Lent, G.H. Bernstein, A.O. Orlov, I. Amlani, G.L. Snider, and J.L. Merz Quantum-dot cellular automata: computing with coupled quantum dots Int. J. Electron. 86 5 1999 549 590</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

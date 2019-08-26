@@ -1,0 +1,368 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84902179115</prism:url><dc:identifier>SCOPUS_ID:84902179115</dc:identifier><eid>2-s2.0-84902179115</eid><dc:title>Attributed context-sensitive graph grammars</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Elektrotehniski Vestnik/Electrotechnical Review</prism:publicationName><dc:publisher>
+                        Electrotechnical Society of Slovenia
+                    </dc:publisher><source-id>16651</source-id><prism:issn>22323228 00135852</prism:issn><prism:volume>81</prism:volume><prism:issueIdentifier>1-2</prism:issueIdentifier><prism:startingPage>27</prism:startingPage><prism:endingPage>32</prism:endingPage><prism:pageRange>27-32</prism:pageRange><prism:coverDate>2014-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The paper introduces a concept of attributed context-sensitive graph grammars. The graph grammars are a graphical generalization of the textual grammars and can thus be used to specify the syntax of graphical programming or modeling languages. The attributed graph grammars extend the basic graph grammars with definitions of attributes and the associated attribute evaluation rules. By analogy to the attributed textual grammars, the purpose of the attributes and the rules is to define the semantic elements of a graphical language. The introduced concept is illustrated by an example of a grammar-driven conversion of flowcharts to the equivalent C code. The presented example might find its use in introductory programming courses.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84902179115" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84902179115&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84902179115&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Attributed grammar</author-keyword><author-keyword>Graph grammar</author-keyword><author-keyword>Graphical language</author-keyword><author-keyword>Semantics</author-keyword><author-keyword>Visual language</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Attribute evaluation</mainterm><mainterm weight="b" candidate="n">Attributed grammars</mainterm><mainterm weight="b" candidate="n">Context-sensitive graph grammar</mainterm><mainterm weight="b" candidate="n">Graph grammar</mainterm><mainterm weight="b" candidate="n">Graphical languages</mainterm><mainterm weight="b" candidate="n">Graphical programming</mainterm><mainterm weight="b" candidate="n">Introductory programming course</mainterm><mainterm weight="b" candidate="n">Presented examples</mainterm></idxterms><subject-areas><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="29" month="03" timestamp="2019-03-29T23:17:40.000040-04:00" year="2019"/><ait:date-sort day="01" month="01" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2014 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">373267637</itemid>
+                    <itemid idtype="CAR-ID">351754024</itemid>
+                    <itemid idtype="CPX">20142517829294</itemid>
+                    <itemid idtype="SCP">84902179115</itemid>
+                    <itemid idtype="SGR">84902179115</itemid>
+                </itemidlist><history>
+                    <date-created day="17" month="06" year="2014"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><abstract-language xml:lang="slo" language="Slovak"/><author-keywords>
+                        <author-keyword xml:lang="eng">Attributed grammar</author-keyword>
+                        <author-keyword xml:lang="eng">Graph grammar</author-keyword>
+                        <author-keyword xml:lang="eng">Graphical language</author-keyword>
+                        <author-keyword xml:lang="eng">Semantics</author-keyword>
+                        <author-keyword xml:lang="eng">Visual language</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Attributed context-sensitive graph grammars</titletext></citation-title><author-group><author auid="24329188700" seq="1" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Fürst L.</ce:indexed-name>
+                            <ce:surname>Fürst</ce:surname>
+                            <ce:given-name>Luka</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><address-part>Tržaška cesta 25</address-part><city-group>SI-1000 Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>L.</ce:initials>
+                        <ce:indexed-name>Furst L.</ce:indexed-name>
+                        <ce:surname>Fürst</ce:surname>
+                    </person><affiliation country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><address-part>Tržaška cesta 25</address-part><city-group>SI-1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The paper introduces a concept of attributed context-sensitive graph grammars. The graph grammars are a graphical generalization of the textual grammars and can thus be used to specify the syntax of graphical programming or modeling languages. The attributed graph grammars extend the basic graph grammars with definitions of attributes and the associated attribute evaluation rules. By analogy to the attributed textual grammars, the purpose of the attributes and the rules is to define the semantic elements of a graphical language. The introduced concept is illustrated by an example of a grammar-driven conversion of flowcharts to the equivalent C code. The presented example might find its use in introductory programming courses.</ce:para>
+                    </abstract></abstracts><source country="svn" srcid="16651" type="j"><sourcetitle>Elektrotehniski Vestnik/Electrotechnical Review</sourcetitle><sourcetitle-abbrev>Elektroteh Vestn Electrotech Rev</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Elektrotehniski Vestnik/Electrotechnical Review</translated-sourcetitle><issn type="electronic">22323228</issn><issn type="print">00135852</issn><codencode>ELVEA</codencode><volisspag>
+                        <voliss issue="1-2" volume="81"/>
+                        <pagerange first="27" last="32"/>
+                    </volisspag><publicationyear first="2014"/><publicationdate>
+                        <year>2014</year>
+                        <date-text>2014</date-text>
+                    </publicationdate><website>
+                        <ce:e-address type="email">http://ev.fe.uni-lj.si/1-2-2014/Fuerst.pdf</ce:e-address>
+                    </website><publisher>
+                        <publishername>Electrotechnical Society of Slovenia</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>721.1</classification-code>
+                                 
+                                <classification-description>Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>723.1.1</classification-code>
+                                 
+                                <classification-description>Computer Programming Languages</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>903.2</classification-code>
+                                 
+                                <classification-description>Information Dissemination</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>921.4</classification-code>
+                                 
+                                <classification-description>Combinatorial Mathematics, Includes Graph Theory, Set Theory</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                 
+                                <classification-code>902</classification-code>
+                                 
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="10">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Semantics of context-free languages</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001538613</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.E.</ce:initials>
+                                    <ce:indexed-name>Knuth D.E.</ce:indexed-name>
+                                    <ce:surname>Knuth</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mathematical Systems Theory</ref-sourcetitle>
+                            <ref-publicationyear first="1968"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="2"/>
+                                <pagerange first="127" last="145"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. E. Knuth. Semantics of context-free languages. Mathematical Systems Theory, 2(2):127-145, 1968.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Attribute grammar paradigms-A high-level methodology in language implementation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84976834682</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Paakki J.</ce:indexed-name>
+                                    <ce:surname>Paakki</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Computing Surveys</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="27"/>
+                                <pagerange first="196" last="255"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Paakki. Attribute grammar paradigms-a high-level methodology in language implementation. ACM Computing Surveys, 27(2):196-255, 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004063990</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ehrig H.</ce:indexed-name>
+                                    <ce:surname>Ehrig</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Engels G.</ce:indexed-name>
+                                    <ce:surname>Engels</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.-J.</ce:initials>
+                                    <ce:indexed-name>Kreowski H.-J.</ce:indexed-name>
+                                    <ce:surname>Kreowski</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Rozenberg G.</ce:indexed-name>
+                                    <ce:surname>Rozenberg</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Montanari U.</ce:indexed-name>
+                                    <ce:surname>Montanari</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Handbook of Graph Grammars and Computing by Graph Transformation</ref-sourcetitle>
+                            <ref-publicationyear first="1997" last="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="1-3"/>
+                            </ref-volisspag>
+                            <ref-text>World Scientific</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Ehrig, G. Engels, H.-J. Kreowski, G. Rozenberg, and U. Montanari, editors. Handbook of graph grammars and computing by graph transformation (Vols. 1.-3.). World Scientific, 1997-1999.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Defining and parsing visual languages with layered graph grammars</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031066425</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Rekers J.</ce:indexed-name>
+                                    <ce:surname>Rekers</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Schurr A.</ce:indexed-name>
+                                    <ce:surname>Schürr</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Visual Languages and Computing</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="8"/>
+                                <pagerange first="27" last="55"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Rekers and A. Schürr. Defining and parsing visual languages with Layered Graph Grammars. Journal of Visual Languages and Computing, 8(1):27-55, 1997.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bottom-up/top-down image parsing with attribute grammar</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">57149136618</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Han F.</ce:indexed-name>
+                                    <ce:surname>Han</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chun Zhu S.</ce:indexed-name>
+                                    <ce:surname>Chun Zhu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="31"/>
+                                <pagerange first="59" last="73"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Han and S. Chun Zhu. Bottom-up/top-down image parsing with attribute grammar. IEEE Trans. Pattern Anal. Mach. Intell., 31(1):59-73, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A simplified attributed graph grammar for highlevel music recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000375788</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Baumann S.</ce:indexed-name>
+                                    <ce:surname>Baumann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Intl. Conf. on Document Analysis and Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="1080" last="1083"/>
+                            </ref-volisspag>
+                            <ref-text>Montreal, Canada, IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Baumann. A simplified attributed graph grammar for highlevel music recognition. In Intl. Conf. on Document Analysis and Recognition, Montreal, Canada, pages 1080-1083. IEEE, 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Drawing graphs with attribute graph grammars</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84902193153</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Zinssmeister G.</ce:indexed-name>
+                                    <ce:surname>Zinßmeister</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>McCreary C.</ce:indexed-name>
+                                    <ce:surname>McCreary</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Graph Grammars and Their Applications to Computer Science</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <pagerange first="443" last="453"/>
+                            </ref-volisspag>
+                            <ref-text>Williamsburg, VA, USA, Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>G. Zinßmeister and C. McCreary. Drawing graphs with attribute graph grammars. In Graph Grammars and Their Applications to Computer Science, Williamsburg, VA, USA, pages 443-453. Springer, 1994.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Converting metamodels to graph grammars: Doing without advanced graph grammar features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84940961312</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Furst L.</ce:indexed-name>
+                                    <ce:surname>Fürst</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mernik M.</ce:indexed-name>
+                                    <ce:surname>Mernik</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Mahnic V.</ce:indexed-name>
+                                    <ce:surname>Mahnič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Software and Systems Modeling</ref-sourcetitle>
+                            <ref-text>(to be published; DOI: 10.1007/s10270-013-0380-2)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>L. Fürst, M. Mernik, and V. Mahnič. Converting metamodels to graph grammars: doing without advanced graph grammar features. Software and Systems Modeling. (to be published; DOI: 10.1007/s10270-013-0380-2).</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Improving the graph grammar parser of Rekers and Schürr</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79959871011</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Furst L.</ce:indexed-name>
+                                    <ce:surname>Fürst</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mernik M.</ce:indexed-name>
+                                    <ce:surname>Mernik</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Mahnic V.</ce:indexed-name>
+                                    <ce:surname>Mahnič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IET Software</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="5"/>
+                                <pagerange first="246" last="261"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. Fürst, M. Mernik, and V. Mahnič. Improving the graph grammar parser of Rekers and Schürr. IET Software, 5(2):246- 261, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Letters to the editor: Go to statement considered harmful</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84945709727</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.W.</ce:initials>
+                                    <ce:indexed-name>Dijkstra E.W.</ce:indexed-name>
+                                    <ce:surname>Dijkstra</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Commun. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1968"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="11"/>
+                                <pagerange first="147" last="148"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. W. Dijkstra. Letters to the editor: go to statement considered harmful. Commun. ACM, 11(3):147-148, 1968.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

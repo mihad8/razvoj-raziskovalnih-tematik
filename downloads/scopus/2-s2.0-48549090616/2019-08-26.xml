@@ -1,0 +1,304 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/48549090616</prism:url><dc:identifier>SCOPUS_ID:48549090616</dc:identifier><eid>2-s2.0-48549090616</eid><pii>S157106530800070X</pii><prism:doi>10.1016/j.endm.2008.06.013</prism:doi><dc:title>Minimum Degree and Graph Minors</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>Electronic Notes in Discrete Mathematics</prism:publicationName><source-id>4700152427</source-id><prism:issn>15710653 15710653</prism:issn><prism:volume>31</prism:volume><prism:issueIdentifier>C</prism:issueIdentifier><prism:startingPage>79</prism:startingPage><prism:endingPage>83</prism:endingPage><prism:pageRange>79-83</prism:pageRange><prism:coverDate>2008-08-20</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="6602928784"><ce:initials>G.</ce:initials><ce:indexed-name>Fijavz G.</ce:indexed-name><ce:surname>Fijavž</ce:surname><ce:given-name>Gašper</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Fijavž G.</ce:indexed-name><ce:surname>Fijavž</ce:surname><ce:given-name>Gašper</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602928784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                    <ce:para>A graph G is a minor minimal minimum degree graph (MMMD) if δ (H) &lt; δ (G) for every proper minor H of G. We (i) determine all complete multipartite MMMD graphs and show that (ii) every small k-regular graph is a MMMD graph. Intuitively it seems that MMMD graphs are highly connected. Countering that (iii) we show that MMMD graphs may have a rich block-structure. © 2008 Elsevier B.V. All rights reserved.</ce:para>
+                </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/48549090616" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=48549090616&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=48549090616&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60007592" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007592"><affilname>Universitat Politècnica de Catalunya</affilname><affiliation-city>Barcelona</affiliation-city><affiliation-country>Spain</affiliation-country></affiliation><authors><author seq="1" auid="6602928784"><ce:initials>G.</ce:initials><ce:indexed-name>Fijavz G.</ce:indexed-name><ce:surname>Fijavž</ce:surname><ce:given-name>Gašper</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Fijavž G.</ce:indexed-name><ce:surname>Fijavž</ce:surname><ce:given-name>Gašper</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602928784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55468916100"><ce:initials>D.R.</ce:initials><ce:indexed-name>Wood D.R.</ce:indexed-name><ce:surname>Wood</ce:surname><ce:given-name>David R.</ce:given-name><preferred-name><ce:initials>D.R.</ce:initials><ce:indexed-name>Wood D.</ce:indexed-name><ce:surname>Wood</ce:surname><ce:given-name>David R.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55468916100</author-url><affiliation id="60007592" href="https://api.elsevier.com/content/affiliation/affiliation_id/60007592"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>forbidden minors</author-keyword><author-keyword>graph minors</author-keyword><author-keyword>minimum degree</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="2607" abbrev="MATH">Discrete Mathematics and Combinatorics</subject-area><subject-area code="2604" abbrev="MATH">Applied Mathematics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-source-document source-document-type="pii">S157106530800070X</xocs:funding-source-document><xocs:funding-addon-generated-timestamp>2019-03-24T14:43:54Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Ministry of Higher Education, Science and Technology of Slovenia</xocs:funding-agency-matched-string><xocs:funding-id>P1-0297</xocs:funding-id><xocs:funding-agency-acronym>MEST</xocs:funding-agency-acronym><xocs:funding-agency>Ministry of Education, Science and Technology</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004085</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1835841/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>European Commission</xocs:funding-agency-matched-string><xocs:funding-id>DURSI 2005SGR00692</xocs:funding-id><xocs:funding-id>MEIF-CT-2006-023865</xocs:funding-id><xocs:funding-id>MEC MTM2006-01267</xocs:funding-id><xocs:funding-agency>European Commission</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000780</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>1 Supported in part by the Ministry of Higher Education, Science and Technology of Slovenia, Research Program P1-0297. 2 Email:gasper.fijavz@fri.uni-lj.si 3 Supported by a Marie Curie Fellowship from the European Commission under contract MEIF-CT-2006-023865, and by the projects MEC MTM2006-01267 and DURSI 2005SGR00692. 4 Email:david.wood@upc.edu</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered year="2012" month="11" day="20" timestamp="2012-11-20T12:55:07.000007+00:00"/><ait:date-sort year="2008" month="08" day="20"/><ait:status type="core" state="update" stage="S300"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                <ce:pii>S157106530800070X</ce:pii>
+                <ce:doi>10.1016/j.endm.2008.06.013</ce:doi>
+                <itemid idtype="PUI">352098900</itemid>
+                <itemid idtype="SNMATH">2008015073</itemid>
+                <itemid idtype="SCP">48549090616</itemid>
+                <itemid idtype="SGR">48549090616</itemid>
+            </itemidlist><history>
+                <date-created year="2008" month="08" day="07"/>
+            </history><dbcollection>SNMATH</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                    <author-keyword>forbidden minors</author-keyword>
+                    <author-keyword>graph minors</author-keyword>
+                    <author-keyword>minimum degree</author-keyword>
+                </author-keywords></citation-info><citation-title><titletext xml:lang="eng" original="y" language="English">Minimum Degree and Graph Minors</titletext></citation-title><author-group><author auid="6602928784" seq="1"><ce:initials>G.</ce:initials><ce:indexed-name>Fijavz G.</ce:indexed-name><ce:surname>Fijavž</ce:surname><ce:given-name>Gašper</ce:given-name><preferred-name>
+                        <ce:initials>G.</ce:initials>
+                        <ce:indexed-name>Fijavž G.</ce:indexed-name>
+                        <ce:surname>Fijavž</ce:surname>
+                        <ce:given-name>Gašper</ce:given-name>
+                    </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="55468916100" seq="2"><ce:initials>D.R.</ce:initials><ce:indexed-name>Wood D.R.</ce:indexed-name><ce:surname>Wood</ce:surname><ce:given-name>David R.</ce:given-name><preferred-name>
+                        <ce:initials>D.R.</ce:initials>
+                        <ce:indexed-name>Wood D.</ce:indexed-name>
+                        <ce:surname>Wood</ce:surname>
+                        <ce:given-name>David R.</ce:given-name>
+                    </preferred-name></author><affiliation afid="60007592" dptid="103418347" country="esp"><organization>Departament de Matemática Aplicada II</organization><organization>Universitat Politècnica de Catalunya</organization><city-group>Barcelona</city-group><country>Spain</country></affiliation></author-group><correspondence><person>
+                    <ce:initials>G.</ce:initials>
+                    <ce:indexed-name>Fijavz G.</ce:indexed-name>
+                    <ce:surname>Fijavž</ce:surname>
+                </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                    <ce:para>A graph G is a minor minimal minimum degree graph (MMMD) if δ (H) &lt; δ (G) for every proper minor H of G. We (i) determine all complete multipartite MMMD graphs and show that (ii) every small k-regular graph is a MMMD graph. Intuitively it seems that MMMD graphs are highly connected. Countering that (iii) we show that MMMD graphs may have a rich block-structure. © 2008 Elsevier B.V. All rights reserved.</ce:para>
+                </abstract></abstracts><source srcid="4700152427" type="j" country="nld"><sourcetitle>Electronic Notes in Discrete Mathematics</sourcetitle><sourcetitle-abbrev>Electron. Notes Discrete Math.</sourcetitle-abbrev><issn type="print">15710653</issn><issn type="electronic">15710653</issn><volisspag>
+                    <voliss volume="31" issue="C"/>
+                    <pagerange first="79" last="83"/>
+                </volisspag><publicationyear first="2008"/><publicationdate>
+                    <year>2008</year>
+                    <month>08</month>
+                    <day>20</day>
+                <date-text xfab-added="true">20 August 2008</date-text></publicationdate></source><enhancement><classificationgroup>
+                    <classifications type="ASJC">
+                        <classification>2607</classification>
+                        <classification>2604</classification>
+                    </classifications><classifications type="SUBJABBR"><classification>MATH</classification></classifications>
+                </classificationgroup></enhancement></head><tail><bibliography refcount="11">
+                <reference id="1">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>The minor crossing number</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">33847292626</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>D.</ce:initials>
+                                <ce:indexed-name>Bokal D.</ce:indexed-name>
+                                <ce:surname>Bokal</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>G.</ce:initials>
+                                <ce:indexed-name>Fijavz G.</ce:indexed-name>
+                                <ce:surname>Fijavž</ce:surname>
+                            </author>
+                            <author seq="3">
+                                <ce:initials>B.</ce:initials>
+                                <ce:indexed-name>Mohar B.</ce:indexed-name>
+                                <ce:surname>Mohar</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>SIAM J. Discrete Math.</ref-sourcetitle>
+                        <ref-publicationyear first="2006"/>
+                        <ref-volisspag>
+                            <voliss volume="20"/>
+                            <pagerange first="344" last="356"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Bokal D., Fijavž G., and Mohar B. The minor crossing number. SIAM J. Discrete Math. 20 (2006) 344-356</ref-fulltext>
+                </reference>
+                <reference id="2">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>The Minor Crossing Number of Graphs with an Excluded Minor</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">37749028289</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>D.</ce:initials>
+                                <ce:indexed-name>Bokal D.</ce:indexed-name>
+                                <ce:surname>Bokal</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>G.</ce:initials>
+                                <ce:indexed-name>Fijavz G.</ce:indexed-name>
+                                <ce:surname>Fijavž</ce:surname>
+                            </author>
+                            <author seq="3">
+                                <ce:initials>D.R.</ce:initials>
+                                <ce:indexed-name>Wood D.R.</ce:indexed-name>
+                                <ce:surname>Wood</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Electron. J. Combin.</ref-sourcetitle>
+                        <ref-publicationyear first="2008"/>
+                        <ref-volisspag>
+                            <voliss volume="15" issue="R4"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Bokal D., Fijavž G., and Wood D.R. The Minor Crossing Number of Graphs with an Excluded Minor. Electron. J. Combin. 15 R4 (2008)</ref-fulltext>
+                </reference>
+                <reference id="3">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Sur un nouvel invariant des graphes et un critère de planarité</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">38249016397</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>Y.</ce:initials>
+                                <ce:indexed-name>Colin de Verdiere Y.</ce:indexed-name>
+                                <ce:surname>Colin de Verdière</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>J. Combin. Theory Ser. B</ref-sourcetitle>
+                        <ref-publicationyear first="1990"/>
+                        <ref-volisspag>
+                            <voliss volume="50"/>
+                            <pagerange first="11" last="21"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Colin de Verdière Y. Sur un nouvel invariant des graphes et un critère de planarité. J. Combin. Theory Ser. B 50 (1990) 11-21</ref-fulltext>
+                </reference>
+                <reference id="4">
+                    <ref-info>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">48549098987</itemid>
+                        </refd-itemidlist>
+                        <ref-text>Fijavž, G., "Graph minors and connectivity," Ph.D. thesis, University of Ljubljana, 2001 (in Slovene)</ref-text>
+                    </ref-info>
+                    <ref-fulltext>Fijavž, G., "Graph minors and connectivity," Ph.D. thesis, University of Ljubljana, 2001 (in Slovene)</ref-fulltext>
+                </reference>
+                <reference id="5">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Minor-minimal 6-regular graphs in the Klein bottle</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">4043169246</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>G.</ce:initials>
+                                <ce:indexed-name>Fijavz G.</ce:indexed-name>
+                                <ce:surname>Fijavž</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>European J. Combin.</ref-sourcetitle>
+                        <ref-publicationyear first="2004"/>
+                        <ref-volisspag>
+                            <voliss volume="25"/>
+                            <pagerange first="893" last="898"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Fijavž G. Minor-minimal 6-regular graphs in the Klein bottle. European J. Combin. 25 (2004) 893-898</ref-fulltext>
+                </reference>
+                <reference id="6">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Contractions of 6-connected toroidal graphs</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">34248160563</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>G.</ce:initials>
+                                <ce:indexed-name>Fijavz G.</ce:indexed-name>
+                                <ce:surname>Fijavž</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>J. Combin. Theory Ser. B</ref-sourcetitle>
+                        <ref-publicationyear first="2007"/>
+                        <ref-volisspag>
+                            <voliss volume="97"/>
+                            <pagerange first="553" last="570"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Fijavž G. Contractions of 6-connected toroidal graphs. J. Combin. Theory Ser. B 97 (2007) 553-570</ref-fulltext>
+                </reference>
+                <reference id="7">
+                    <ref-info>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">48549087837</itemid>
+                        </refd-itemidlist>
+                        <ref-text>Fijavž, G., Minor-minimal 5-connected projective-planar graphs, submitted</ref-text>
+                    </ref-info>
+                    <ref-fulltext>Fijavž, G., Minor-minimal 5-connected projective-planar graphs, submitted</ref-fulltext>
+                </reference>
+                <reference id="8">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Über Minimalstrukturen von Graphen, insbesondere von n-fach zusammenhängenden Graphen</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">0009782507</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>R.</ce:initials>
+                                <ce:indexed-name>Halin R.</ce:indexed-name>
+                                <ce:surname>Halin</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>H.A.</ce:initials>
+                                <ce:indexed-name>Jung H.A.</ce:indexed-name>
+                                <ce:surname>Jung</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Math. Ann.</ref-sourcetitle>
+                        <ref-publicationyear first="1963"/>
+                        <ref-volisspag>
+                            <voliss volume="152"/>
+                            <pagerange first="75" last="94"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Halin R., and Jung H.A. Über Minimalstrukturen von Graphen, insbesondere von n-fach zusammenhängenden Graphen. Math. Ann. 152 (1963) 75-94</ref-fulltext>
+                </reference>
+                <reference id="9">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Homomorphiesätze für Graphen</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">0007411716</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>W.</ce:initials>
+                                <ce:indexed-name>Mader W.</ce:indexed-name>
+                                <ce:surname>Mader</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Math. Ann.</ref-sourcetitle>
+                        <ref-publicationyear first="1968"/>
+                        <ref-volisspag>
+                            <voliss volume="178"/>
+                            <pagerange first="154" last="168"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Mader W. Homomorphiesätze für Graphen. Math. Ann. 178 (1968) 154-168</ref-fulltext>
+                </reference>
+                <reference id="10">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Graph minors I-XX</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">48549084806</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>N.</ce:initials>
+                                <ce:indexed-name>Robertson N.</ce:indexed-name>
+                                <ce:surname>Robertson</ce:surname>
+                            </author>
+                            <author seq="2">
+                                <ce:initials>P.D.</ce:initials>
+                                <ce:indexed-name>Seymour P.D.</ce:indexed-name>
+                                <ce:surname>Seymour</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>J. Combin. Theory Ser. B</ref-sourcetitle>
+                        <ref-publicationyear first="1983"/>
+                    </ref-info>
+                    <ref-fulltext>Robertson N., and Seymour P.D. Graph minors I-XX. J. Combin. Theory Ser. B (1983-2004)</ref-fulltext>
+                </reference>
+                <reference id="11">
+                    <ref-info>
+                        <ref-title>
+                            <ref-titletext>Über eine Eigenschaft der ebene Komplexe</ref-titletext>
+                        </ref-title>
+                        <refd-itemidlist>
+                            <itemid idtype="SGR">33845337775</itemid>
+                        </refd-itemidlist>
+                        <ref-authors>
+                            <author seq="1">
+                                <ce:initials>K.</ce:initials>
+                                <ce:indexed-name>Wagner K.</ce:indexed-name>
+                                <ce:surname>Wagner</ce:surname>
+                            </author>
+                        </ref-authors>
+                        <ref-sourcetitle>Math. Ann.</ref-sourcetitle>
+                        <ref-publicationyear first="1937"/>
+                        <ref-volisspag>
+                            <voliss volume="114"/>
+                            <pagerange first="570" last="590"/>
+                        </ref-volisspag>
+                    </ref-info>
+                    <ref-fulltext>Wagner K. Über eine Eigenschaft der ebene Komplexe. Math. Ann. 114 (1937) 570-590</ref-fulltext>
+                </reference>
+            </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

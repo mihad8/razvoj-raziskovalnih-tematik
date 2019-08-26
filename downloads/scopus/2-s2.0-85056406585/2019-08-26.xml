@@ -1,0 +1,1313 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85056406585</prism:url><dc:identifier>SCOPUS_ID:85056406585</dc:identifier><eid>2-s2.0-85056406585</eid><pubmed-id>30413035</pubmed-id><prism:doi>10.3390/s18113825</prism:doi><article-number>3825</article-number><dc:title>V-RBNN based small drone detection in augmented datasets for 3D LADAR system</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>4</citedby-count><prism:publicationName>Sensors (Switzerland)</prism:publicationName><dc:publisher>
+                        MDPI AG
+                        
+                            Postfach
+                            Basel
+                            CH-4005
+                        
+                        indexing@mdpi.com
+                    </dc:publisher><source-id>130124</source-id><prism:issn>14248220</prism:issn><prism:volume>18</prism:volume><prism:issueIdentifier>11</prism:issueIdentifier><prism:coverDate>2018-11-08</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="56406686400"><ce:initials>B.H.</ce:initials><ce:indexed-name>Kim B.H.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Byeong Hak</ce:given-name><preferred-name><ce:initials>B.H.</ce:initials><ce:indexed-name>Kim B.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Byeong Hak</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56406686400</author-url><affiliation id="60012704" href="https://api.elsevier.com/content/affiliation/affiliation_id/60012704"/><affiliation id="60107890" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107890"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 by the authors. Licensee MDPI, Basel, Switzerland.</publishercopyright>
+                        <ce:para>A common countermeasure to detect threatening drones is the electro-optical infrared (EO/IR) system. However, its performance is drastically reduced in conditions of complex background, saturation and light reflection. 3D laser sensor LiDAR is used to overcome the problems of 2D sensors like EO/IR, but it is not enough to detect small drones at a very long distance because of low laser energy and resolution. To solve this problem, A 3D LADAR sensor is under development. In this work, we study the detection methodology adequate to the LADAR sensor which can detect small drones at up to 2 km. First, a data augmentation method is proposed to generate a virtual target considering the laser beam and scanning characteristics, and to augment it with the actual LADAR sensor data for various kinds of tests before full hardware system developed. Second, a detection algorithm is proposed to detect drones using voxel-based background subtraction and variable radially bounded nearest neighbor (V-RBNN) method. The results show that 0.2 m L2 distance and 60% expected average overlap (EAO) indexes are satisfied for the required specification to detect 0.3 m size of small drones.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85056406585" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85056406585&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85056406585&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60012704" href="https://api.elsevier.com/content/affiliation/affiliation_id/60012704"><affilname>Kyungpook National University</affilname><affiliation-city>Daegu</affiliation-city><affiliation-country>South Korea</affiliation-country></affiliation><affiliation id="60107890" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107890"><affilname>Hanwha Systems</affilname><affiliation-city>Seoul</affiliation-city><affiliation-country>South Korea</affiliation-country></affiliation><affiliation id="60068694" href="https://api.elsevier.com/content/affiliation/affiliation_id/60068694"><affilname>Korean Agency for Defense Development</affilname><affiliation-city>Yusong</affiliation-city><affiliation-country>South Korea</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="56406686400"><ce:initials>B.H.</ce:initials><ce:indexed-name>Kim B.H.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Byeong Hak</ce:given-name><preferred-name><ce:initials>B.H.</ce:initials><ce:indexed-name>Kim B.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Byeong Hak</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56406686400</author-url><affiliation id="60012704" href="https://api.elsevier.com/content/affiliation/affiliation_id/60012704"/><affiliation id="60107890" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107890"/></author><author seq="2" auid="57200212320"><ce:initials>D.</ce:initials><ce:indexed-name>Khan D.</ce:indexed-name><ce:surname>Khan</ce:surname><ce:given-name>Danish</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Khan D.</ce:indexed-name><ce:surname>Khan</ce:surname><ce:given-name>Danish</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57200212320</author-url><affiliation id="60012704" href="https://api.elsevier.com/content/affiliation/affiliation_id/60012704"/></author><author seq="3" auid="55582372100"><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55582372100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="57204618109"><ce:initials>W.</ce:initials><ce:indexed-name>Choi W.</ce:indexed-name><ce:surname>Choi</ce:surname><ce:given-name>Wonju</ce:given-name><preferred-name><ce:initials>W.</ce:initials><ce:indexed-name>Choi W.</ce:indexed-name><ce:surname>Choi</ce:surname><ce:given-name>Wonju</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204618109</author-url><affiliation id="60107890" href="https://api.elsevier.com/content/affiliation/affiliation_id/60107890"/></author><author seq="5" auid="57204628689"><ce:initials>H.J.</ce:initials><ce:indexed-name>Lee H.J.</ce:indexed-name><ce:surname>Lee</ce:surname><ce:given-name>Hyun Jeong</ce:given-name><preferred-name><ce:initials>H.J.</ce:initials><ce:indexed-name>Lee H.</ce:indexed-name><ce:surname>Lee</ce:surname><ce:given-name>Hyun Jeong</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204628689</author-url><affiliation id="60068694" href="https://api.elsevier.com/content/affiliation/affiliation_id/60068694"/></author><author seq="6" auid="56739349100"><ce:initials>M.Y.</ce:initials><ce:indexed-name>Kim M.Y.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Min Young</ce:given-name><preferred-name><ce:initials>M.Y.</ce:initials><ce:indexed-name>Kim M.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Min Young</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56739349100</author-url><affiliation id="60012704" href="https://api.elsevier.com/content/affiliation/affiliation_id/60012704"/><affiliation id="60012704" href="https://api.elsevier.com/content/affiliation/affiliation_id/60012704"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>3D LADAR</author-keyword><author-keyword>3D sensor</author-keyword><author-keyword>Clustering</author-keyword><author-keyword>Drone detection</author-keyword><author-keyword>Fusion data</author-keyword><author-keyword>LiDAR</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">3-D LADAR</mainterm><mainterm weight="b" candidate="n">3D sensor</mainterm><mainterm weight="b" candidate="n">Background subtraction</mainterm><mainterm weight="b" candidate="n">Clustering</mainterm><mainterm weight="b" candidate="n">Complex background</mainterm><mainterm weight="b" candidate="n">Data augmentation</mainterm><mainterm weight="b" candidate="n">Detection algorithm</mainterm><mainterm weight="b" candidate="n">Nearest neighbors</mainterm></idxterms><subject-areas><subject-area code="1602" abbrev="CHEM">Analytical Chemistry</subject-area><subject-area code="3107" abbrev="PHYS">Atomic and Molecular Physics, and Optics</subject-area><subject-area code="1303" abbrev="BIOC">Biochemistry</subject-area><subject-area code="3105" abbrev="PHYS">Instrumentation</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="19" month="12" timestamp="2018-12-19T11:33:56.000056-05:00" year="2018"/><ait:date-sort day="08" month="11" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.3390/s18113825</ce:doi>
+                    <itemid idtype="PUI">2001258861</itemid>
+                    <itemid idtype="CAR-ID">914011790</itemid>
+                    <itemid idtype="CPX">20184706112499</itemid>
+                    <itemid idtype="REAXYSCAR">20182073042</itemid>
+                    <itemid idtype="SCOPUS">20183557837</itemid>
+                    <itemid idtype="TPA-ID">20180006438295</itemid>
+                    <itemid idtype="SCP">85056406585</itemid>
+                    <itemid idtype="SGR">85056406585</itemid>
+                    <itemid idtype="PUIsecondary">624910775</itemid>
+                    <itemid idtype="MEDL">30413035</itemid>
+                </itemidlist><history>
+                    <date-created day="21" month="11" timestamp="BST 09:32:49" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection><dbcollection>MEDL</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">3D LADAR</author-keyword>
+                        <author-keyword xml:lang="eng">3D sensor</author-keyword>
+                        <author-keyword xml:lang="eng">Clustering</author-keyword>
+                        <author-keyword xml:lang="eng">Drone detection</author-keyword>
+                        <author-keyword xml:lang="eng">Fusion data</author-keyword>
+                        <author-keyword xml:lang="eng">LiDAR</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">V-RBNN based small drone detection in augmented datasets for 3D LADAR system</titletext></citation-title><author-group><author auid="56406686400" seq="1" type="auth"><ce:initials>B.H.</ce:initials><ce:indexed-name>Kim B.H.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Byeong Hak</ce:given-name><preferred-name>
+                            <ce:initials>B.H.</ce:initials>
+                            <ce:indexed-name>Kim B.</ce:indexed-name>
+                            <ce:surname>Kim</ce:surname>
+                            <ce:given-name>Byeong Hak</ce:given-name>
+                        </preferred-name></author><author auid="57200212320" orcid="0000-0001-7121-2746" seq="2" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Khan D.</ce:indexed-name><ce:surname>Khan</ce:surname><ce:given-name>Danish</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Khan D.</ce:indexed-name>
+                            <ce:surname>Khan</ce:surname>
+                            <ce:given-name>Danish</ce:given-name>
+                        </preferred-name></author><author auid="56739349100" seq="6" type="auth"><ce:initials>M.Y.</ce:initials><ce:indexed-name>Kim M.Y.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Min Young</ce:given-name><preferred-name>
+                            <ce:initials>M.Y.</ce:initials>
+                            <ce:indexed-name>Kim M.</ce:indexed-name>
+                            <ce:surname>Kim</ce:surname>
+                            <ce:given-name>Min Young</ce:given-name>
+                        </preferred-name></author><affiliation afid="60012704" country="kor" dptid="113703896"><organization>School of Electronics Engineering</organization><organization>Kyungpook National University</organization><city>Daegu</city><postal-code>41566</postal-code><affiliation-id afid="60012704" dptid="113703896"/><country>South Korea</country></affiliation></author-group><author-group><author auid="56406686400" seq="1" type="auth"><ce:initials>B.H.</ce:initials><ce:indexed-name>Kim B.H.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Byeong Hak</ce:given-name><preferred-name>
+                            <ce:initials>B.H.</ce:initials>
+                            <ce:indexed-name>Kim B.</ce:indexed-name>
+                            <ce:surname>Kim</ce:surname>
+                            <ce:given-name>Byeong Hak</ce:given-name>
+                        </preferred-name></author><author auid="57204618109" seq="4" type="auth"><ce:initials>W.</ce:initials><ce:indexed-name>Choi W.</ce:indexed-name><ce:surname>Choi</ce:surname><ce:given-name>Wonju</ce:given-name><preferred-name>
+                            <ce:initials>W.</ce:initials>
+                            <ce:indexed-name>Choi W.</ce:indexed-name>
+                            <ce:surname>Choi</ce:surname>
+                            <ce:given-name>Wonju</ce:given-name>
+                        </preferred-name></author><affiliation afid="60107890" country="kor"><organization>Hanwha Systems Corporation</organization><organization>Optronics Team</organization><city>Gumi</city><postal-code>39376</postal-code><affiliation-id afid="60107890"/><country>South Korea</country></affiliation></author-group><author-group><author auid="55582372100" orcid="0000-0002-9015-2897" seq="3" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Bohak C.</ce:indexed-name>
+                            <ce:surname>Bohak</ce:surname>
+                            <ce:given-name>Ciril</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="57204628689" seq="5" type="auth"><ce:initials>H.J.</ce:initials><ce:indexed-name>Lee H.J.</ce:indexed-name><ce:surname>Lee</ce:surname><ce:given-name>Hyun Jeong</ce:given-name><preferred-name>
+                            <ce:initials>H.J.</ce:initials>
+                            <ce:indexed-name>Lee H.</ce:indexed-name>
+                            <ce:surname>Lee</ce:surname>
+                            <ce:given-name>Hyun Jeong</ce:given-name>
+                        </preferred-name></author><affiliation afid="60068694" country="kor"><organization>Agency for Defense Development</organization><address-part>Yuseong</address-part><city>Daejeon</city><postal-code>34186</postal-code><affiliation-id afid="60068694"/><country>South Korea</country></affiliation></author-group><author-group><author auid="56739349100" seq="6" type="auth"><ce:initials>M.Y.</ce:initials><ce:indexed-name>Kim M.Y.</ce:indexed-name><ce:surname>Kim</ce:surname><ce:given-name>Min Young</ce:given-name><preferred-name>
+                            <ce:initials>M.Y.</ce:initials>
+                            <ce:indexed-name>Kim M.</ce:indexed-name>
+                            <ce:surname>Kim</ce:surname>
+                            <ce:given-name>Min Young</ce:given-name>
+                        </preferred-name></author><affiliation afid="60012704" country="kor" dptid="114010087"><organization>Research Center for Neurosurgical Robotic System</organization><organization>Kyungpook National University</organization><city>Daegu</city><postal-code>41566</postal-code><affiliation-id afid="60012704" dptid="114010087"/><country>South Korea</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.Y.</ce:initials>
+                        <ce:indexed-name>Kim M.Y.</ce:indexed-name>
+                        <ce:surname>Kim</ce:surname>
+                        <ce:given-name>Min Young</ce:given-name>
+                    </person><affiliation country="kor"><organization>School of Electronics Engineering</organization><organization>Kyungpook National University</organization><city>Daegu</city><postal-code>41566</postal-code><country>South Korea</country></affiliation></correspondence><grantlist complete="y"><grant>
+                        <grant-id>17-ST-01</grant-id>
+                        <grant-acronym>MSIP</grant-acronym>
+                        <grant-agency iso-code="kor">Ministry of Science ICT and Future Planning</grant-agency>
+                        <grant-agency-id>501100004083</grant-agency-id>
+                    </grant><grant>
+                        <grant-id>2016-0-00564</grant-id>
+                        <grant-acronym>MSIP</grant-acronym>
+                        <grant-agency iso-code="kor">Ministry of Science ICT and Future Planning</grant-agency>
+                        <grant-agency-id>501100004083</grant-agency-id>
+                    </grant><grant>
+                        <grant-id>NRF-2016R1D1A3B03930798</grant-id>
+                        <grant-acronym>NRF</grant-acronym>
+                        <grant-agency iso-code="kor">National Research Foundation of Korea</grant-agency>
+                        <grant-agency-id>501100003725</grant-agency-id>
+                    </grant><grant-text xml:lang="eng">This research was supported by the Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education (NRF-2016R1D1A3B03930798). This work was supported by a grant-in-aid of HANWHA SYSTEMS (U-17-014). This work was supported by Institute for Information &amp; communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) (2016-0-00564, Development of Intelligent Interaction Technology Based on Context Awareness and Human Intention Understanding). This study was supported by the BK21 Plus project funded by the Ministry of Education, Korea (21A20131600011). This work was supported by the DGIST R&amp;D Program of the Ministry of Science, ICT and Future Planning(17-ST-01).</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 by the authors. Licensee MDPI, Basel, Switzerland.</publishercopyright>
+                        <ce:para>A common countermeasure to detect threatening drones is the electro-optical infrared (EO/IR) system. However, its performance is drastically reduced in conditions of complex background, saturation and light reflection. 3D laser sensor LiDAR is used to overcome the problems of 2D sensors like EO/IR, but it is not enough to detect small drones at a very long distance because of low laser energy and resolution. To solve this problem, A 3D LADAR sensor is under development. In this work, we study the detection methodology adequate to the LADAR sensor which can detect small drones at up to 2 km. First, a data augmentation method is proposed to generate a virtual target considering the laser beam and scanning characteristics, and to augment it with the actual LADAR sensor data for various kinds of tests before full hardware system developed. Second, a detection algorithm is proposed to detect drones using voxel-based background subtraction and variable radially bounded nearest neighbor (V-RBNN) method. The results show that 0.2 m L2 distance and 60% expected average overlap (EAO) indexes are satisfied for the required specification to detect 0.3 m size of small drones.</ce:para>
+                    </abstract></abstracts><source country="che" srcid="130124" type="j"><sourcetitle>Sensors (Switzerland)</sourcetitle><sourcetitle-abbrev>Sensors</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Sensors</translated-sourcetitle><issn type="print">14248220</issn><volisspag>
+                        <voliss issue="11" volume="18"/>
+                    </volisspag><article-number>3825</article-number><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>11</month>
+                        <day>08</day>
+                    <date-text xfab-added="true">8 November 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">https://www.mdpi.com/1424-8220/18/11/3825/pdf</ce:e-address>
+                    </website><publisher>
+                        <publishername>MDPI AG</publishername>
+                        <affiliation country="che">
+                            <address-part>Postfach</address-part>
+                            <city>Basel</city>
+                            <postal-code>CH-4005</postal-code>
+                        </affiliation>
+                        <ce:e-address type="email">indexing@mdpi.com</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>714</classification-code>
+                                <classification-description>Electronic Components and Tubes</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>716.2</classification-code>
+                                <classification-description>Radar Systems and Equipment</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.2</classification-code>
+                                <classification-description>Data Processing</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>741.1</classification-code>
+                                <classification-description>Light and Optics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>744.8</classification-code>
+                                <classification-description>Laser Beam Interactions</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1602</classification>
+                            <classification>3107</classification>
+                            <classification>1303</classification>
+                            <classification>3105</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>CHEM</classification><classification>PHYS</classification><classification>BIOC</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="30">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection, tracking, and interdiction for amateur drones</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85045884574</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Guvenc I.</ce:indexed-name>
+                                    <ce:surname>Guvenc</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Koohifar F.</ce:indexed-name>
+                                    <ce:surname>Koohifar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Singh S.</ce:indexed-name>
+                                    <ce:surname>Singh</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.L.</ce:initials>
+                                    <ce:indexed-name>Sichitiu M.L.</ce:indexed-name>
+                                    <ce:surname>Sichitiu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Matolak D.</ce:indexed-name>
+                                    <ce:surname>Matolak</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Commun. Mag</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss volume="56"/>
+                                <pagerange first="75" last="81"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Guvenc, I.; Koohifar, F.; Singh, S.; Sichitiu, M.L.; Matolak, D. Detection, tracking, and interdiction for amateur drones. IEEE Commun. Mag. 2018,56, 75-81.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analyzing the threat of unmanned aerial vehicles (UAV) to nuclear facilities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85018332457</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Solodov A.</ce:indexed-name>
+                                    <ce:surname>Solodov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Williams A.</ce:indexed-name>
+                                    <ce:surname>Williams</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Al Hanaei S.</ce:indexed-name>
+                                    <ce:surname>Al Hanaei</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Goddard B.</ce:indexed-name>
+                                    <ce:surname>Goddard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Secur. J</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss volume="31"/>
+                                <pagerange first="305" last="324"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Solodov, A.; Williams, A.; Al Hanaei, S.; Goddard, B. Analyzing the threat of unmanned aerial vehicles (UAV) to nuclear facilities. Secur. J. 2018, 31, 305-324.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>35 GHz FMCW drone detection system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84982806276</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Drozdowicz J.</ce:indexed-name>
+                                    <ce:surname>Drozdowicz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Wielgo M.</ce:indexed-name>
+                                    <ce:surname>Wielgo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Samczynski P.</ce:indexed-name>
+                                    <ce:surname>Samczynski</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Kulpa K.</ce:indexed-name>
+                                    <ce:surname>Kulpa</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Krzonkalla J.</ce:indexed-name>
+                                    <ce:surname>Krzonkalla</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mordzonek M.</ce:indexed-name>
+                                    <ce:surname>Mordzonek</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bryl M.</ce:indexed-name>
+                                    <ce:surname>Bryl</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Jakielaszek Z.</ce:indexed-name>
+                                    <ce:surname>Jakielaszek</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2016 17Th International Radar Symposium (IRS)</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>Krakow, Poland, 10-12</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Drozdowicz, J.; Wielgo, M.; Samczynski, P.; Kulpa, K.; Krzonkalla, J.; Mordzonek, M.; Bryl, M.; Jakielaszek, Z. 35 GHz FMCW drone detection system. In Proceedings of the 2016 17th International Radar Symposium (IRS), Krakow, Poland, 10-12 May 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust drone detection for day/night counter-UAV with static VIS and SWIR cameras</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="ARTNUM">1019018</itemid>
+                                <itemid idtype="SGR">85022188249</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Muller T.</ce:indexed-name>
+                                    <ce:surname>Müller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Ground/Air Multisensor Interoperability, Integration, and Networking for Persistent ISR VIII</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="10190"/>
+                            </ref-volisspag>
+                            <ref-text>International Society for Optics and Photonics, Anaheim, CA, USA, 10-13</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Müller, T. Robust drone detection for day/night counter-UAV with static VIS and SWIR cameras. In Proceedings of the Ground/Air Multisensor Interoperability, Integration, and Networking for Persistent ISR VIII. International Society for Optics and Photonics, Anaheim, CA, USA, 10-13 April 2017; Volume 10190, p. 1019018.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>New frontiers for applications of thermal infrared imaging devices: Computational psychopshysiology in the neurosciences</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85019074519</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Cardone D.</ce:indexed-name>
+                                    <ce:surname>Cardone</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Merla A.</ce:indexed-name>
+                                    <ce:surname>Merla</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sensors</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="17"/>
+                                <pagerange first="1042"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cardone, D.; Merla, A. New frontiers for applications of thermal infrared imaging devices: Computational psychopshysiology in the neurosciences. Sensors 2017, 17, 1042.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Pedestrian recognition and tracking using 3D LiDAR for autonomous vehicle</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85007036243</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wang H.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Wang B.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Liu B.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Meng X.</ce:indexed-name>
+                                    <ce:surname>Meng</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Yang G.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Robot. Auton. Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="88"/>
+                                <pagerange first="71" last="78"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wang, H.; Wang, B.; Liu, B.; Meng, X.; Yang, G. Pedestrian recognition and tracking using 3D LiDAR for autonomous vehicle. Robot. Auton. Syst.2017, 88, 71-78.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>LIDAR and vision-based pedestrian detection system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">70449347276</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Premebida C.</ce:indexed-name>
+                                    <ce:surname>Premebida</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Ludwig O.</ce:indexed-name>
+                                    <ce:surname>Ludwig</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Nunes U.</ce:indexed-name>
+                                    <ce:surname>Nunes</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Field Robot</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="26"/>
+                                <pagerange first="696" last="711"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Premebida, C.; Ludwig, O.; Nunes, U. LIDAR and vision-based pedestrian detection system. J. Field Robot. 2009, 26, 696-711.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Identifying and tracking pedestrians based on sensor fusion and motion stability predictions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77958040204</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Musleh B.</ce:indexed-name>
+                                    <ce:surname>Musleh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Garcia F.</ce:indexed-name>
+                                    <ce:surname>García</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Otamendi J.</ce:indexed-name>
+                                    <ce:surname>Otamendi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Armingol J.M.</ce:indexed-name>
+                                    <ce:surname>Armingol</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>De La Escalera A.</ce:indexed-name>
+                                    <ce:surname>De La Escalera</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sensors</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="8028" last="8053"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Musleh, B.; García, F.; Otamendi, J.; Armingol, J.M.; De la Escalera, A. Identifying and tracking pedestrians based on sensor fusion and motion stability predictions. Sensors 2010, 10, 8028-8053.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection, classification and tracking of moving objects in a 3D environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84865021992</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Azim A.</ce:indexed-name>
+                                    <ce:surname>Azim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Aycard O.</ce:indexed-name>
+                                    <ce:surname>Aycard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2012 IEEE Intelligent Vehicles Symposium (IV), Alcala De Henares</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="802" last="807"/>
+                            </ref-volisspag>
+                            <ref-text>Spain, 3-7</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Azim, A.; Aycard, O. Detection, classification and tracking of moving objects in a 3D environment. In Proceedings of the 2012 IEEE Intelligent Vehicles Symposium (IV), Alcala de Henares, Spain, 3-7 June 2012; pp 802-807.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast planar surface 3D SLAM using LIDAR. Robot. Auton</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85018680706</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Lenac K.</ce:indexed-name>
+                                    <ce:surname>Lenac</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kitanov A.</ce:indexed-name>
+                                    <ce:surname>Kitanov</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Cupec R.</ce:indexed-name>
+                                    <ce:surname>Cupec</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Petrovic I.</ce:indexed-name>
+                                    <ce:surname>Petrović</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="92"/>
+                                <pagerange first="197" last="220"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lenac, K.; Kitanov, A.; Cupec, R.; Petrović, I. Fast planar surface 3D SLAM using LIDAR. Robot. Auton. Syst. 2017, 92, 197-220.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ladar-based mover detection from moving vehicles</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85056648107</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.D.</ce:initials>
+                                    <ce:indexed-name>Morris D.D.</ce:indexed-name>
+                                    <ce:surname>Morris</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Colonna B.</ce:indexed-name>
+                                    <ce:surname>Colonna</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Haley P.</ce:indexed-name>
+                                    <ce:surname>Haley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Gen. Dyn. Robot. Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                        </ref-info>
+                        <ref-fulltext>Morris, D.D.; Colonna, B.; Haley, P. Ladar-based mover detection from moving vehicles. Gen. Dyn. Robot. Syst. 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast range image-based segmentation of sparse 3D laser scans for online operation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85006401174</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bogoslavskyi I.</ce:indexed-name>
+                                    <ce:surname>Bogoslavskyi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Stachniss C.</ce:indexed-name>
+                                    <ce:surname>Stachniss</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="163" last="169"/>
+                            </ref-volisspag>
+                            <ref-text>Daejeon, Korea, 9-14</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Bogoslavskyi, I.; Stachniss, C. Fast range image-based segmentation of sparse 3D laser scans for online operation. In Proceedings of the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, Korea, 9-14 October 2016; pp 163-169.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multi-sensor field trials for detection and tracking of multiple small unmanned aerial vehicles flying at low altitude</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="ARTNUM">102001</itemid>
+                                <itemid idtype="SGR">85023204614</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Laurenzis M.</ce:indexed-name>
+                                    <ce:surname>Laurenzis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hengy S.</ce:indexed-name>
+                                    <ce:surname>Hengy</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hommes A.</ce:indexed-name>
+                                    <ce:surname>Hommes</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Kloeppel F.</ce:indexed-name>
+                                    <ce:surname>Kloeppel</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Shoykhetbrod A.</ce:indexed-name>
+                                    <ce:surname>Shoykhetbrod</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Geibig T.</ce:indexed-name>
+                                    <ce:surname>Geibig</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Johannes W.</ce:indexed-name>
+                                    <ce:surname>Johannes</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Naz P.</ce:indexed-name>
+                                    <ce:surname>Naz</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Christnacher F.</ce:indexed-name>
+                                    <ce:surname>Christnacher</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Signal Processing, Sensor/Information Fusion, and Target Recognition XXVI</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="10200"/>
+                            </ref-volisspag>
+                            <ref-text>International Society for Optics and Photonics, Anaheim, CA, USA, 11-12</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Laurenzis, M.; Hengy, S.; Hommes, A.; Kloeppel, F.; Shoykhetbrod, A.; Geibig, T.; Johannes, W.; Naz, P.; Christnacher, F. Multi-sensor field trials for detection and tracking of multiple small unmanned aerial vehicles flying at low altitude. In Proceedings of the Signal Processing, Sensor/Information Fusion, and Target Recognition XXVI. International Society for Optics and Photonics, Anaheim, CA, USA, 11-12 April 2017; Volume 10200, p. 102001.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multifeature object trajectory clustering for video analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55149107386</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Anjum N.</ce:indexed-name>
+                                    <ce:surname>Anjum</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Cavallaro A.</ce:indexed-name>
+                                    <ce:surname>Cavallaro</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Circuits Syst. Video Technol</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="1555" last="1564"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Anjum, N.; Cavallaro, A. Multifeature object trajectory clustering for video analysis. IEEE Trans. Circuits Syst. Video Technol. 2008, 18, 1555-1564.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Pedestrian detection and tracking using three-dimensional ladar data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77957940520</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.E.</ce:initials>
+                                    <ce:indexed-name>Navarro-Serment L.E.</ce:indexed-name>
+                                    <ce:surname>Navarro-Serment</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Mertz C.</ce:indexed-name>
+                                    <ce:surname>Mertz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hebert M.</ce:indexed-name>
+                                    <ce:surname>Hebert</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Robot. Res</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="1516" last="1528"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Navarro-Serment, L.E.; Mertz, C.; Hebert, M. Pedestrian detection and tracking using three-dimensional ladar data. Int. J. Robot. Res. 2010, 29, 1516-1528.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ladar data generation fused with virtual targets and visualization for small drone detection system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="ARTNUM">107970</itemid>
+                                <itemid idtype="SGR">85056655170</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.H.</ce:initials>
+                                    <ce:indexed-name>Kim B.H.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Khan D.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Bohak C.</ce:indexed-name>
+                                    <ce:surname>Bohak</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.K.</ce:initials>
+                                    <ce:indexed-name>Kim J.K.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Choi W.</ce:indexed-name>
+                                    <ce:surname>Choi</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>H.J.</ce:initials>
+                                    <ce:indexed-name>Lee H.J.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.Y.</ce:initials>
+                                    <ce:indexed-name>Kim M.Y.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Technologies for Optical Countermeasures XV. International Society for Optics and Photonics</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss volume="10797"/>
+                            </ref-volisspag>
+                            <ref-text>Berlin, Germany, 10-13</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kim, B.H.; Khan, D.; Bohak, C.; Kim, J.K.; Choi, W.; Lee, H.J.; Kim, M.Y. Ladar data generation fused with virtual targets and visualization for small drone detection system. In Proceedings of the Technologies for Optical Countermeasures XV. International Society for Optics and Photonics, Berlin, Germany, 10-13 September 2018; Volume 10797, p. 107970.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Change detection on points cloud data acquired with a ground laser scanner</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85036289327</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Girardeau-Montaut D.</ce:indexed-name>
+                                    <ce:surname>Girardeau-Montaut</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Roux M.</ce:indexed-name>
+                                    <ce:surname>Roux</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Marc R.</ce:indexed-name>
+                                    <ce:surname>Marc</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Thibault G.</ce:indexed-name>
+                                    <ce:surname>Thibault</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Arch. Photogramm. Remote Sens. Spat. Inf. Sci</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="36"/>
+                                <pagerange first="19"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Girardeau-Montaut, D.; Roux, M.; Marc, R.; Thibault, G. Change detection on points cloud data acquired with a ground laser scanner. Int. Arch. Photogramm. Remote Sens. Spat. Inf. Sci. 2005, 36, W19.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A clustering method for efficient segmentation of 3D laser data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">67649427775</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Klasing K.</ce:indexed-name>
+                                    <ce:surname>Klasing</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Wollherr D.</ce:indexed-name>
+                                    <ce:surname>Wollherr</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Buss M.</ce:indexed-name>
+                                    <ce:surname>Buss</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2008 IEEE International Conference on Robotics and Automation</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="4043" last="4048"/>
+                            </ref-volisspag>
+                            <ref-text>Pasadena, CA, USA, 19-23</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Klasing, K.; Wollherr, D.; Buss, M. A clustering method for efficient segmentation of 3D laser data. In Proceedings of the 2008 IEEE International Conference on Robotics and Automation, Pasadena, CA, USA, 19-23 May 2008; pp 4043-4048.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time buried threat detection and cueing capability in VPEF environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84943424994</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Ling B.</ce:indexed-name>
+                                    <ce:surname>Ling</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Agarwal S.</ce:indexed-name>
+                                    <ce:surname>Agarwal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Olivera S.</ce:indexed-name>
+                                    <ce:surname>Olivera</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Vasilkoski Z.</ce:indexed-name>
+                                    <ce:surname>Vasilkoski</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Phan C.</ce:indexed-name>
+                                    <ce:surname>Phan</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Geyer C.</ce:indexed-name>
+                                    <ce:surname>Geyer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Detection and Sensing of Mines, Explosive Objects, and Obscured Targets XX, International Society for Optics and Photonics</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="9454"/>
+                                <pagerange first="94540"/>
+                            </ref-volisspag>
+                            <ref-text>Baltimore, MD, USA, 20-24</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ling, B.; Agarwal, S.; Olivera, S.; Vasilkoski, Z.; Phan, C.; Geyer, C. Real-time buried threat detection and cueing capability in VPEF environment. In Proceedings of the Detection and Sensing of Mines, Explosive Objects, and Obscured Targets XX, International Society for Optics and Photonics, Baltimore, MD, USA, 20-24 April 2015; Volume 9454, p. 94540.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection and tracking of drones using advanced acoustic cameras</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84961631716</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Busset J.</ce:indexed-name>
+                                    <ce:surname>Busset</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Perrodin F.</ce:indexed-name>
+                                    <ce:surname>Perrodin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Wellig P.</ce:indexed-name>
+                                    <ce:surname>Wellig</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Ott B.</ce:indexed-name>
+                                    <ce:surname>Ott</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Heutschi K.</ce:indexed-name>
+                                    <ce:surname>Heutschi</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ruhl T.</ce:indexed-name>
+                                    <ce:surname>Rühl</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Nussbaumer T.</ce:indexed-name>
+                                    <ce:surname>Nussbaumer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Unmanned/Unattended Sensors and Sensor Networks XI, and Advanced Free-Space Optical Communication Techniques and Applications International Society for Optics and Photonics</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="9647"/>
+                                <pagerange first="96470"/>
+                            </ref-volisspag>
+                            <ref-text>Toulouse, France, 23-24</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Busset, J.; Perrodin, F.; Wellig, P.; Ott, B.; Heutschi, K.; Rühl, T.; Nussbaumer, T. Detection and tracking of drones using advanced acoustic cameras. In Proceedings of the Unmanned/Unattended Sensors and Sensor Networks XI, and Advanced Free-Space Optical Communication Techniques and Applications International Society for Optics and Photonics, Toulouse, France, 23-24 September 2015; Volume 9647, p. 96470.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Drone segmentation and tracking in grounded sensor scanned LiDAR datasets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85056629493</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mirceta K.</ce:indexed-name>
+                                    <ce:surname>Mirčeta</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Bohak C.</ce:indexed-name>
+                                    <ce:surname>Bohak</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.H.</ce:initials>
+                                    <ce:indexed-name>Kim B.H.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.Y.</ce:initials>
+                                    <ce:indexed-name>Kim M.Y.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Marolt M.</ce:indexed-name>
+                                    <ce:surname>Marolt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Zbornik Sedemindvajsete Mednarodne Elektrotehniške in računalniške Konference ERK 2018</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <pagerange first="384" last="387"/>
+                            </ref-volisspag>
+                            <ref-text>Portorož, Slovenija, 17-18</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mirčeta, K.; Bohak, C.; Kim, B.H.; Kim, M.Y.; Marolt, M. Drone segmentation and tracking in grounded sensor scanned LiDAR datasets. In Proceedings of the Zbornik sedemindvajsete mednarodne Elektrotehniške in računalniške konference ERK 2018, Portorož, Slovenija, 17-18 September 2018; pp 384-387.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Extended least square unbiased FIR filter for target tracking using the constant velocity motion model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85009892078</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Pak J.M.</ce:indexed-name>
+                                    <ce:surname>Pak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.S.</ce:initials>
+                                    <ce:indexed-name>Kim P.S.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>You S.H.</ce:indexed-name>
+                                    <ce:surname>You</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.S.</ce:initials>
+                                    <ce:indexed-name>Lee S.S.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.K.</ce:initials>
+                                    <ce:indexed-name>Song M.K.</ce:indexed-name>
+                                    <ce:surname>Song</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Control Autom. Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="15"/>
+                                <pagerange first="947" last="951"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pak, J.M.; Kim, P.S.; You, S.H.; Lee, S.S.; Song, M.K. Extended least square unbiased FIR filter for target tracking using the constant velocity motion model. Int. J. Control Autom. Syst. 2017, 15, 947-951.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking people with a 360-degree lidar</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78449271090</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Shackleton J.</ce:indexed-name>
+                                    <ce:surname>Shackleton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Vanvoorst B.</ce:indexed-name>
+                                    <ce:surname>Vanvoorst</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hesch J.</ce:indexed-name>
+                                    <ce:surname>Hesch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2010 7Th IEEE International Conference on Advanced Video and Signal Based Surveillance</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="420" last="426"/>
+                            </ref-volisspag>
+                            <ref-text>Boston, MA, USA, 29 August-1</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Shackleton, J.; VanVoorst, B.; Hesch, J. Tracking people with a 360-degree lidar. In Proceedings of the 2010 7th IEEE International Conference on Advanced Video and Signal Based Surveillance, Boston, MA, USA, 29 August-1 September 2010; pp 420-426.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>OctoMap: An efficient probabilistic 3D mapping framework based on octrees</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84877874067</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hornung A.</ce:indexed-name>
+                                    <ce:surname>Hornung</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.M.</ce:initials>
+                                    <ce:indexed-name>Wurm K.M.</ce:indexed-name>
+                                    <ce:surname>Wurm</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bennewitz M.</ce:indexed-name>
+                                    <ce:surname>Bennewitz</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Stachniss C.</ce:indexed-name>
+                                    <ce:surname>Stachniss</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Burgard W.</ce:indexed-name>
+                                    <ce:surname>Burgard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Auton. Robot</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="34"/>
+                                <pagerange first="189" last="206"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hornung, A.; Wurm, K.M.; Bennewitz, M.; Stachniss, C.; Burgard, W. OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Auton. Robot. 2013, 34, 189-206.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mapping and exploration of complex environments using persistent 3D model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34548753479</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Fournier J.</ce:indexed-name>
+                                    <ce:surname>Fournier</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Ricard B.</ce:indexed-name>
+                                    <ce:surname>Ricard</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Laurendeau D.</ce:indexed-name>
+                                    <ce:surname>Laurendeau</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Fourth Canadian Conference on Computer and Robot Vision (CRV ’07)</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="403" last="410"/>
+                            </ref-volisspag>
+                            <ref-text>Montreal, QC, Canada, 28-30</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Fournier, J.; Ricard, B.; Laurendeau, D. Mapping and exploration of complex environments using persistent 3D model. In Proceedings of the Fourth Canadian Conference on Computer and Robot Vision (CRV ’07), Montreal, QC, Canada, 28-30 May 2007; pp 403-410.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Merging of octree based 3d occupancy grid maps</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84902438565</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Jessup J.</ce:indexed-name>
+                                    <ce:surname>Jessup</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.N.</ce:initials>
+                                    <ce:indexed-name>Givigi S.N.</ce:indexed-name>
+                                    <ce:surname>Givigi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Beaulieu A.</ce:indexed-name>
+                                    <ce:surname>Beaulieu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE International Systems Conference Proceedings</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="371" last="377"/>
+                            </ref-volisspag>
+                            <ref-text>Ottawa, ON, Canada, 31 March-3</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jessup, J.; Givigi, S.N.; Beaulieu, A. Merging of octree based 3d occupancy grid maps. In Proceedings of the 2014 IEEE International Systems Conference Proceedings, Ottawa, ON, Canada, 31 March-3 April 2014; pp 371-377.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Change analysis in structural laser scanning point clouds</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85007487701</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Shen Y.</ce:indexed-name>
+                                    <ce:surname>Shen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Lindenbergh R.</ce:indexed-name>
+                                    <ce:surname>Lindenbergh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wang J.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Baseline Method. Sensors</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="17"/>
+                                <pagerange first="26"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shen, Y.; Lindenbergh, R.; Wang, J. Change analysis in structural laser scanning point clouds: The baseline method. Sensors 2016, 17, 26.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Segmentation based classification of 3D urban point clouds</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84880422639</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.K.</ce:initials>
+                                    <ce:indexed-name>Aijazi A.K.</ce:indexed-name>
+                                    <ce:surname>Aijazi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Checchin P.</ce:indexed-name>
+                                    <ce:surname>Checchin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Trassoudaine L.</ce:indexed-name>
+                                    <ce:surname>Trassoudaine</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>A Super-Voxel Based Approach with Evaluation. Remote Sens.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="5"/>
+                                <pagerange first="1624" last="1650"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Aijazi, A.K.; Checchin, P.; Trassoudaine, L. Segmentation based classification of 3D urban point clouds: A super-voxel based approach with evaluation. Remote Sens. 2013, 5, 1624-1650.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning hierarchical semantic segmentations of LIDAR data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84961700355</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Dohan D.</ce:indexed-name>
+                                    <ce:surname>Dohan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Matejek B.</ce:indexed-name>
+                                    <ce:surname>Matejek</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Funkhouser T.</ce:indexed-name>
+                                    <ce:surname>Funkhouser</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2015 International Conference on 3D Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="273" last="281"/>
+                            </ref-volisspag>
+                            <ref-text>Washington, DC, USA, 19-22</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Dohan, D.; Matejek, B.; Funkhouser, T. Learning hierarchical semantic segmentations of LIDAR data. In Proceedings of the 2015 International Conference on 3D Vision, Washington, DC, USA, 19-22 October 2015; pp 273-281.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>3D terrestrial lidar data classification of complex natural scenes using a multi-scale dimensionality criterion: Applications in geomorphology</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84857315359</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Brodu N.</ce:indexed-name>
+                                    <ce:surname>Brodu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Lague D.</ce:indexed-name>
+                                    <ce:surname>Lague</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ISPRS J. Photogramm. Remote Sens</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="68"/>
+                                <pagerange first="121" last="134"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Brodu, N.; Lague, D. 3D terrestrial lidar data classification of complex natural scenes using a multi-scale dimensionality criterion: Applications in geomorphology. ISPRS J. Photogramm. Remote Sens. 2012, 68, 121-134.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,76 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0028493178</prism:url><dc:identifier>SCOPUS_ID:0028493178</dc:identifier><eid>2-s2.0-0028493178</eid><dc:title>Modeling 2D image data by robust M-estimation</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Mediterranean Electrotechnical Conference - MELECON</prism:publicationName><dc:publisher>
+IEEE
+</dc:publisher><source-id>95558</source-id><prism:volume>1</prism:volume><prism:coverDate>1994-08-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6505869986"><ce:initials>V.</ce:initials><ce:indexed-name>Filova V.</ce:indexed-name><ce:surname>Filova</ce:surname><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Filova V.</ce:indexed-name><ce:surname>Filova</ce:surname><ce:given-name>V.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505869986</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" perspective="CPXAUTHOR" xml:lang="eng">
+<ce:para>The conventional least squared distance method of fitting a model to a set of data points gives unreliable results when the amount of noise in the input is significant compared with the amount of data correlated to the model itself. The theory of robust statistics formally addresses these problems and is used in this work to develop a method of separation of the data of interest from noise. It is based on iteratively reweighted least squares algorithm where Hampel redescending function is applied for weighting data. The method has been efficiently tested in modeling synthetic and real 2D image data with second order curves.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0028493178" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0028493178&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0028493178&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6505869986"><ce:initials>V.</ce:initials><ce:indexed-name>Filova V.</ce:indexed-name><ce:surname>Filova</ce:surname><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Filova V.</ce:indexed-name><ce:surname>Filova</ce:surname><ce:given-name>V.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505869986</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6603857705"><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>F.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603857705</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="55886347300"><ce:initials>J.</ce:initials><ce:indexed-name>Lenarcic J.</ce:indexed-name><ce:surname>Lenarcic</ce:surname><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Lenarcic J.</ce:indexed-name><ce:surname>Lenarcic</ce:surname><ce:given-name>J.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55886347300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Data points</mainterm><mainterm weight="a" candidate="n">Hampel redescending function</mainterm><mainterm weight="a" candidate="n">Image data</mainterm><mainterm weight="a" candidate="n">Least squared distance</mainterm><mainterm weight="a" candidate="n">Robust estimation</mainterm></idxterms><subject-areas><subject-area code="2200" abbrev="ENGI">Engineering (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="31" month="10" timestamp="2013-10-31T01:17:41.000041+00:00" year="2013"/><ait:date-sort day="01" month="08" year="1994"/><ait:status state="update" type="core" stage="S300"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2004 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">25605530</itemid>
+<itemid idtype="CPX">1995102507154</itemid>
+<itemid idtype="SCP">0028493178</itemid>
+<itemid idtype="SGR">0028493178</itemid>
+</itemidlist><history>
+<date-created day="01" month="01" year="1995"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Modeling 2D image data by robust M-estimation</titletext></citation-title><author-group><author auid="6505869986" seq="1"><ce:initials>V.</ce:initials><ce:indexed-name>Filova V.</ce:indexed-name><ce:surname>Filova</ce:surname><preferred-name>
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Filova V.</ce:indexed-name>
+<ce:surname>Filova</ce:surname>
+<ce:given-name>V.</ce:given-name>
+</preferred-name></author><author auid="6603857705" seq="2"><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><preferred-name>
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+<ce:given-name>F.</ce:given-name>
+</preferred-name></author><author auid="55886347300" seq="3"><ce:initials>J.</ce:initials><ce:indexed-name>Lenarcic J.</ce:indexed-name><ce:surname>Lenarcic</ce:surname><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Lenarcic J.</ce:indexed-name>
+<ce:surname>Lenarcic</ce:surname>
+<ce:given-name>J.</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Univ of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Filova V.</ce:indexed-name>
+<ce:surname>Filova</ce:surname>
+</person><affiliation country="svn"><organization>Univ of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" perspective="CPXAUTHOR" xml:lang="eng">
+<ce:para>The conventional least squared distance method of fitting a model to a set of data points gives unreliable results when the amount of noise in the input is significant compared with the amount of data correlated to the model itself. The theory of robust statistics formally addresses these problems and is used in this work to develop a method of separation of the data of interest from noise. It is based on iteratively reweighted least squares algorithm where Hampel redescending function is applied for weighting data. The method has been efficiently tested in modeling synthetic and real 2D image data with second order curves.</ce:para>
+</abstract></abstracts><source srcid="95558" type="p"><sourcetitle>Mediterranean Electrotechnical Conference - MELECON</sourcetitle><sourcetitle-abbrev>Mediterranean Electrotechnical Conf - MELECON</sourcetitle-abbrev><codencode>00167</codencode><volisspag>
+<voliss volume="1"/>
+<pages>of 3/-</pages>
+</volisspag><publicationyear first="1994"/><publicationdate>
+<year>1994</year>
+<month>08</month>
+<date-text xfab-added="true">August 1994</date-text></publicationdate><publisher>
+<publishername>IEEE</publishername>
+</publisher><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>Proceedings of the 7th Mediterranean Electrotechnical Conference - MELECON. Part 1 (of 3)</confname>
+<conflocation>
+<city-group>Antalya, Turkey</city-group>
+</conflocation>
+<confdate>
+<startdate day="12" month="04" year="1994"/>
+<enddate day="14" month="04" year="1994"/>
+</confdate>
+<confcode>42119</confcode>
+<confsponsors complete="y">
+<confsponsor>IEEE</confsponsor>
+<confsponsor>Middle East Technical University</confsponsor>
+<confsponsor>Bilkent University</confsponsor>
+<confsponsor>Chamber of Electrical Engineers of Turkey</confsponsor>
+</confsponsors>
+</confevent>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>2200</classification>
+</classifications><classifications type="SUBJABBR"><classification>ENGI</classification></classifications>
+<classifications type="CPXCLASS">
+<classification>723.2</classification>
+<classification>723.5</classification>
+<classification>731.1</classification>
+<classification>921.1</classification>
+<classification>921.6</classification>
+<classification>922.2</classification>
+</classifications>
+<classifications type="SUBJECT">
+<classification>Engineering and Technology</classification>
+</classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="10"/></tail></bibrecord></item></abstracts-retrieval-response>

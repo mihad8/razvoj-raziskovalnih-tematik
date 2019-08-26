@@ -1,0 +1,1418 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84943613873</prism:url><dc:identifier>SCOPUS_ID:84943613873</dc:identifier><eid>2-s2.0-84943613873</eid><prism:doi>10.1007/978-3-319-17963-6_4</prism:doi><dc:title>Development, debugging, and assessment of parkinsoncheck attributes through visualisation</dc:title><prism:aggregationType>Book</prism:aggregationType><srctype>b</srctype><subtype>ch</subtype><subtypeDescription>Chapter</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Health Monitoring and Personalized Feedback using Multimedia Data</prism:publicationName><dc:publisher>
+                        Springer International Publishing
+                    </dc:publisher><source-id>21100415564</source-id><prism:isbn>9783319179636</prism:isbn><prism:isbn>9783319179629</prism:isbn><prism:startingPage>47</prism:startingPage><prism:endingPage>71</prism:endingPage><prism:pageRange>47-71</prism:pageRange><prism:coverDate>2015-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="52463560700"><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/52463560700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© Springer International Publishing Switzerland 2015.</publishercopyright>
+                        <ce:para>Parkinson’s disease is estimated to affect between four and six million people over the age of 50 worldwide, and that number is expected to double by the year 2030. The disease often presents itself with a Parkinsonian tremor (PT) and other movement disorders and these symptoms can be similar to those of another disease, the essential tremor (ET)–the most prevalent movement disorder. Spirography is a method involving drawing, usually of spirals, which are then analysed for various distinguishing features to detect signs of various tremors. Spiral drawing as assessment of tremor is recommended by the Movement Disorder Society. This chapter describes the inner making of ParkinsonCheck, a mobile application for self-checking for signs of PT and ET. ParkinsonCheck uses digitalised spirography on smartphones and tablets to detect the signs. The chapter focuses primarily on spirography and the knowledge extraction, formulation, debugging, and assessment for ParkinsonCheck through the use of visualisation.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84943613873" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84943613873&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84943613873&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"><affilname>Univerzitetni Klinični Center Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="52463560700"><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/52463560700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="14061424900"><ce:initials>J.</ce:initials><ce:indexed-name>Zabkar J.</ce:indexed-name><ce:surname>Žabkar</ce:surname><ce:given-name>Jure</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Žabkar J.</ce:indexed-name><ce:surname>Žabkar</ce:surname><ce:given-name>Jure</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14061424900</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="36542322400"><ce:initials>D.</ce:initials><ce:indexed-name>Georgiev D.</ce:indexed-name><ce:surname>Georgiev</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Georgiev D.</ce:indexed-name><ce:surname>Georgiev</ce:surname><ce:given-name>Dejan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36542322400</author-url><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"/></author><author seq="5" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="6" auid="55883901600"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55883901600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Essential tremor</mainterm><mainterm weight="b" candidate="n">Knowledge extraction</mainterm><mainterm weight="b" candidate="n">Mobile applications</mainterm><mainterm weight="b" candidate="n">Movement disorders</mainterm><mainterm weight="b" candidate="n">Parkinsonian tremor</mainterm><mainterm weight="b" candidate="n">Self checking</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area><subject-area code="2200" abbrev="ENGI">Engineering (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="28" month="08" timestamp="2018-08-28T16:09:22.000022-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2015"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2017 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-319-17963-6_4</ce:doi>
+                    <itemid idtype="PUI">606384308</itemid>
+                    <itemid idtype="CAR-ID">640736710</itemid>
+                    <itemid idtype="CPX">20172703884323</itemid>
+                    <itemid idtype="SNBOOK">2015796942</itemid>
+                    <itemid idtype="SCP">84943613873</itemid>
+                    <itemid idtype="SGR">84943613873</itemid>
+                </itemidlist><history>
+                    <date-created day="04" month="07" timestamp="BST 09:21:26" year="2017"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SNBOOK</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ch"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Development, debugging, and assessment of parkinsoncheck attributes through visualisation</titletext></citation-title><author-group><author auid="52463560700" seq="1" type="auth"><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Groznik V.</ce:indexed-name>
+                            <ce:surname>Groznik</ce:surname>
+                            <ce:given-name>Vida</ce:given-name>
+                        </preferred-name></author><author auid="35409925300" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Možina M.</ce:indexed-name>
+                            <ce:surname>Možina</ce:surname>
+                            <ce:given-name>Martin</ce:given-name>
+                        </preferred-name></author><author auid="14061424900" seq="3" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Zabkar J.</ce:indexed-name><ce:surname>Žabkar</ce:surname><ce:given-name>Jure</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Žabkar J.</ce:indexed-name>
+                            <ce:surname>Žabkar</ce:surname>
+                            <ce:given-name>Jure</ce:given-name>
+                        </preferred-name></author><author auid="7003286588" seq="5" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Bratko I.</ce:indexed-name>
+                            <ce:surname>Bratko</ce:surname>
+                            <ce:given-name>Ivan</ce:given-name>
+                        </preferred-name></author><author auid="55883901600" seq="6" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                            <ce:surname>Sadikov</ce:surname>
+                            <ce:given-name>Aleksander</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="36542322400" seq="4" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Georgiev D.</ce:indexed-name><ce:surname>Georgiev</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                            <ce:surname>Georgiev</ce:surname>
+                            <ce:given-name>Dejan</ce:given-name>
+                        </preferred-name></author><affiliation afid="60021479" country="svn" dptid="113072952"><organization>Department of Neurology</organization><organization>University Medical Centre Ljubljana</organization><address-part>Zaloška cesta 2</address-part><city>Ljubljana</city><affiliation-id afid="60021479" dptid="113072952"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>V.</ce:initials>
+                        <ce:indexed-name>Groznik V.</ce:indexed-name>
+                        <ce:surname>Groznik</ce:surname>
+                        <ce:given-name>Vida</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© Springer International Publishing Switzerland 2015.</publishercopyright>
+                        <ce:para>Parkinson’s disease is estimated to affect between four and six million people over the age of 50 worldwide, and that number is expected to double by the year 2030. The disease often presents itself with a Parkinsonian tremor (PT) and other movement disorders and these symptoms can be similar to those of another disease, the essential tremor (ET)–the most prevalent movement disorder. Spirography is a method involving drawing, usually of spirals, which are then analysed for various distinguishing features to detect signs of various tremors. Spiral drawing as assessment of tremor is recommended by the Movement Disorder Society. This chapter describes the inner making of ParkinsonCheck, a mobile application for self-checking for signs of PT and ET. ParkinsonCheck uses digitalised spirography on smartphones and tablets to detect the signs. The chapter focuses primarily on spirography and the knowledge extraction, formulation, debugging, and assessment for ParkinsonCheck through the use of visualisation.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="21100415564" type="b"><sourcetitle>Health Monitoring and Personalized Feedback using Multimedia Data</sourcetitle><sourcetitle-abbrev>Health Monitoring and Personalized Feedback using Multimed. Data</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng"/><isbn length="13" level="volume" type="electronic">9783319179636</isbn><isbn length="13" level="volume" type="print">9783319179629</isbn><volisspag>
+                        <pagerange first="47" last="71"/>
+                    </volisspag><publicationyear first="2015"/><publicationdate>
+                        <year>2015</year>
+                        <month>01</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 January 2015</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://dx.doi.org/10.1007/978-3-319-17963-6</ce:e-address>
+                    </website><publisher>
+                        <publishername>Springer International Publishing</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1700</classification>
+                            <classification>2200</classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="35">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Proteomics in parkinson’s disease: An unbiased approach towards peripheral biomarkers and new therapies</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">82955167905</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Alberio T.</ce:indexed-name>
+                                    <ce:surname>Alberio</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Fasano M.</ce:indexed-name>
+                                    <ce:surname>Fasano</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Biotechnology</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="156"/>
+                                <pagerange first="325" last="337"/>
+                            </ref-volisspag>
+                            <ref-text>{IBS} 2010 - Industrial Biotechnology</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Alberio, T., and Fasano, M. (2011). Proteomics in parkinson’s disease: An unbiased approach towards peripheral biomarkers and new therapies. Journal of Biotechnology,156(4), 325-337. Special issue: {IBS} 2010 - Industrial Biotechnology.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evaluation of three different ways of assessing tremor in multiple sclerosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034028257</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Alusi S.H.</ce:indexed-name>
+                                    <ce:surname>Alusi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Worthington J.</ce:indexed-name>
+                                    <ce:surname>Worthington</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Glickman S.</ce:indexed-name>
+                                    <ce:surname>Glickman</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.J.</ce:initials>
+                                    <ce:indexed-name>Findley L.J.</ce:indexed-name>
+                                    <ce:surname>Findley</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Bain P.G.</ce:indexed-name>
+                                    <ce:surname>Bain</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Neurology, Neurosurgery &amp; Psychiatry</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="68"/>
+                                <pagerange first="756" last="760"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Alusi, S. H., Worthington, J., Glickman, S., Findley, L. J., and Bain, P. G. (2000). Evaluation of three different ways of assessing tremor in multiple sclerosis. Journal of Neurology, Neurosurgery &amp; Psychiatry,68(6), 756-760.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003854185</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Bain P.G.</ce:indexed-name>
+                                    <ce:surname>Bain</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.J.</ce:initials>
+                                    <ce:indexed-name>Findley L.J.</ce:indexed-name>
+                                    <ce:surname>Findley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Assessing Tremor Severity: A Clinical Handbook</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-text>Standards in Neurology. London: Smith-Gordon</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Bain, P. G., and Findley, L. J. (1993). Assessing tremor severity: A clinical handbook.Standards in Neurology. London: Smith-Gordon.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rule induction with cn2: Some recent improvements</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85015191605</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Clark P.</ce:indexed-name>
+                                    <ce:surname>Clark</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Boswell R.</ce:indexed-name>
+                                    <ce:surname>Boswell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>EWSL</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <pagerange first="151" last="163"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Clark, P., and Boswell, R. (1991). Rule induction with CN2: Some recent improvements. Inewsl (pp. 151-163).</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Consensus statement of the movement disorder society on tremor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031740582</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Deuschl G.</ce:indexed-name>
+                                    <ce:surname>Deuschl</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Bain P.</ce:indexed-name>
+                                    <ce:surname>Bain</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Brin M.</ce:indexed-name>
+                                    <ce:surname>Brin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="13"/>
+                                <pagerange first="2" last="23"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Deuschl, G., Bain, P., and Brin, M. (1998). Consensus statement of the movement disorder society on tremor. Movement Disorders,13(3), 2-23.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Essential tremor and cerebellar dysfunction clinical and kinematic analysis of intention tremor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033909996</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Deuschl G.</ce:indexed-name>
+                                    <ce:surname>Deuschl</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Wenzelburger R.</ce:indexed-name>
+                                    <ce:surname>Wenzelburger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Loffler K.</ce:indexed-name>
+                                    <ce:surname>Loffler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Raethjen J.</ce:indexed-name>
+                                    <ce:surname>Raethjen</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Stolze H.</ce:indexed-name>
+                                    <ce:surname>Stolze</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Brain</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="123"/>
+                                <pagerange first="1568" last="1580"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Deuschl, G., Wenzelburger, R., Loffler, K., Raethjen, J., and Stolze, H. (2000). Essential tremor and cerebellar dysfunction clinical and kinematic analysis of intention tremor. Brain,123(8), 1568-1580.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantification of essential tremor in writing and drawing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030069009</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.J.</ce:initials>
+                                    <ce:indexed-name>Elble R.J.</ce:indexed-name>
+                                    <ce:surname>Elble</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Brilliant M.</ce:indexed-name>
+                                    <ce:surname>Brilliant</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Leffler K.</ce:indexed-name>
+                                    <ce:surname>Leffler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Higgins C.</ce:indexed-name>
+                                    <ce:surname>Higgins</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="11"/>
+                                <pagerange first="70" last="78"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Elble, R. J., Brilliant, M., Leffler, K., and Higgins, C. (1996). Quantification of essential tremor in writing and drawing. Movement Disorders,11(1), 70-78.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantification of tremor with a digitizing tablet</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025287654</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.J.</ce:initials>
+                                    <ce:indexed-name>Elble R.J.</ce:indexed-name>
+                                    <ce:surname>Elble</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sinha R.</ce:indexed-name>
+                                    <ce:surname>Sinha</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Higgins C.</ce:indexed-name>
+                                    <ce:surname>Higgins</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Neuroscience Methods</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="32"/>
+                                <pagerange first="193" last="198"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Elble, R. J., Sinha, R., and Higgins, C. (1990). Quantification of tremor with a digitizing tablet. Journal of Neuroscience Methods,32(3),193-198.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Digitised spirography as an evaluation tool for intention tremor in multiple sclerosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33846942639</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Feys P.</ce:indexed-name>
+                                    <ce:surname>Feys</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Helsen W.</ce:indexed-name>
+                                    <ce:surname>Helsen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Prinsmel A.</ce:indexed-name>
+                                    <ce:surname>Prinsmel</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ilsbroukx S.</ce:indexed-name>
+                                    <ce:surname>Ilsbroukx</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Wang S.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Liu X.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Neuroscience Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="160"/>
+                                <pagerange first="309" last="316"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Feys, P., Helsen, W., Prinsmel, A., Ilsbroukx, S., Wang, S., and Liu, X. (2007). Digitised spirography as an evaluation tool for intention tremor in multiple sclerosis. Journal of Neuroscience Methods,160(2), 309-316.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Terguride in parkinsonism a multicenter trial</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0023694698</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Filipova M.</ce:indexed-name>
+                                    <ce:surname>Filipova</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Filip V.</ce:indexed-name>
+                                    <ce:surname>Filip</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Macek Z.</ce:indexed-name>
+                                    <ce:surname>Macek</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Mullerova S.</ce:indexed-name>
+                                    <ce:surname>Mullerova</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Markova J.</ce:indexed-name>
+                                    <ce:surname>Markova</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kas S.</ce:indexed-name>
+                                    <ce:surname>Kas</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>European Archives of Psychiatry and Neurological Sciences</ref-sourcetitle>
+                            <ref-publicationyear first="1988"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="237"/>
+                                <pagerange first="298" last="303"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Filipova, M., Filip, V., Macek, Z., Mullerova, S., Markova, J., Kas, S., et al. (1988) Terguride in parkinsonism a multicenter trial. European Archives of Psychiatry and Neurological Sciences,237(5), 298-303.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Elicitation of neurological knowledge with argument-based machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875113924</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Groznik V.</ce:indexed-name>
+                                    <ce:surname>Groznik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guid M.</ce:indexed-name>
+                                    <ce:surname>Guid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mozina</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                                    <ce:surname>Georgiev</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Kragelj V.</ce:indexed-name>
+                                    <ce:surname>Kragelj</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence in Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="57"/>
+                                <pagerange first="133" last="144"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Groznik, V., Guid, M., Sadikov, A., Mozina, M., Georgiev, D., Kragelj, V., et al. (2013). Elicitation of neurological knowledge with argument-based machine learning. Artificial Intelligence in Medicine,57(2), 133-144.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Attribute visualisation for computer-aided diagnosis: A case study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84947927715</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Groznik V.</ce:indexed-name>
+                                    <ce:surname>Groznik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mozina</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zabkar J.</ce:indexed-name>
+                                    <ce:surname>Zabkar</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                                    <ce:surname>Georgiev</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of 2014 IEEE International Conference on Healthcare Informatics (ICHI2014)</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="294" last="299"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE Computer Society, US Conference Publishing Services</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Groznik, V., Sadikov, A., Mozina, M., Zabkar, J., Georgiev, D., and Bratko, I. (2014). Attribute visualisation for computer-aided diagnosis: A case study. In Proceedings of 2014 IEEE International Conference on Healthcare Informatics (ICHI2014) (pp. 294-299). Ieee Computer Society, US Conference Publishing Services.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cost of disorders of the brain in europe 2010</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80053496448</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gustavsson A.</ce:indexed-name>
+                                    <ce:surname>Gustavsson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Svensson M.</ce:indexed-name>
+                                    <ce:surname>Svensson</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Jacobi F.</ce:indexed-name>
+                                    <ce:surname>Jacobi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Allgulander C.</ce:indexed-name>
+                                    <ce:surname>Allgulander</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Alonso J.</ce:indexed-name>
+                                    <ce:surname>Alonso</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Beghi E.</ce:indexed-name>
+                                    <ce:surname>Beghi</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>European Neuropsychopharmacology</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="21"/>
+                                <pagerange first="718" last="779"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gustavsson, A., Svensson, M., Jacobi, F., Allgulander, C., Alonso, J., Beghi, E., et al. (2011). Cost of disorders of the brain in Europe 2010. European Neuropsychopharmacology, 21, 718-779.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep brain stimulation for essential tremor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029864252</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.P.</ce:initials>
+                                    <ce:indexed-name>Hubble J.P.</ce:indexed-name>
+                                    <ce:surname>Hubble</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.L.</ce:initials>
+                                    <ce:indexed-name>Busenbark K.L.</ce:indexed-name>
+                                    <ce:surname>Busenbark</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Wilkinson S.</ce:indexed-name>
+                                    <ce:surname>Wilkinson</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.D.</ce:initials>
+                                    <ce:indexed-name>Penn R.D.</ce:indexed-name>
+                                    <ce:surname>Penn</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Lyons K.</ce:indexed-name>
+                                    <ce:surname>Lyons</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>W.C.</ce:initials>
+                                    <ce:indexed-name>Koller W.C.</ce:indexed-name>
+                                    <ce:surname>Koller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neurology</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="46"/>
+                                <pagerange first="1150" last="1153"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hubble, J. P., Busenbark, K. L., Wilkinson, S., Penn, R. D., Lyons, K., and Koller, W. C. (1996). Deep brain stimulation for essential tremor. Neurology,46(4), 1150-1153.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Accuracy of clinical diagnosis of idiopathic parkinson’s disease: A clinico-pathological study of 100 cases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026514953</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.J.</ce:initials>
+                                    <ce:indexed-name>Hughes A.J.</ce:indexed-name>
+                                    <ce:surname>Hughes</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.E.</ce:initials>
+                                    <ce:indexed-name>Daniel S.E.</ce:indexed-name>
+                                    <ce:surname>Daniel</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Kilford L.</ce:indexed-name>
+                                    <ce:surname>Kilford</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.J.</ce:initials>
+                                    <ce:indexed-name>Lees A.J.</ce:indexed-name>
+                                    <ce:surname>Lees</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Neurology, Neurosurgery, and Psychiatry</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="55"/>
+                                <pagerange first="181" last="184"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hughes, A. J., Daniel, S. E., Kilford, L., and Lees, A. J. (1992) Accuracy of clinical diagnosis of idiopathic Parkinson’s disease: A clinico-pathological study of 100 cases. Journal of Neurology, Neurosurgery, and Psychiatry,55(3), 181-184.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A review of differences between basal ganglia and cerebellar control of movements as revealed by functional imaging studies</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031825049</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Jueptner M.</ce:indexed-name>
+                                    <ce:surname>Jueptner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Weiller C.</ce:indexed-name>
+                                    <ce:surname>Weiller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Brain</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="121"/>
+                                <pagerange first="1437" last="1449"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jueptner, M., and Weiller, C. (1998). A review of differences between basal ganglia and cerebellar control of movements as revealed by functional imaging studies. Brain,121(8), 1437-1449.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spiralometry: Computerized assessment of tremor amplitude on the basis of spiral drawing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649391712</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.H.</ce:initials>
+                                    <ce:indexed-name>Kraus P.H.</ce:indexed-name>
+                                    <ce:surname>Kraus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hoffmann A.</ce:indexed-name>
+                                    <ce:surname>Hoffmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="13" volume="25"/>
+                                <pagerange first="2164" last="2170"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kraus, P. H., and Hoffmann, A. (2010). Spiralometry: Computerized assessment of tremor amplitude on the basis of spiral drawing. Movement Disorders,25(13), 2164-2170.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantifying drug-induced dyskinesias in the arms using digitised spiral-drawing tasks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">17444419043</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Liu X.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.B.</ce:initials>
+                                    <ce:indexed-name>Carroll C.B.</ce:indexed-name>
+                                    <ce:surname>Carroll</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.-Y.</ce:initials>
+                                    <ce:indexed-name>Wang S.-Y.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zajicek J.</ce:indexed-name>
+                                    <ce:surname>Zajicek</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Bain P.G.</ce:indexed-name>
+                                    <ce:surname>Bain</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal Ofneuroscience Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="144"/>
+                                <pagerange first="47" last="52"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu, X., Carroll, C. B., Wang, S.-Y., Zajicek, J., and Bain, P. G. (2005). Quantifying drug-induced dyskinesias in the arms using digitised spiral-drawing tasks. Journal ofNeuroscience Methods, 144(1), 47-52.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spiral drawing performance as an indicator of fine motor function in people with multiple sclerosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33749840013</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.G.</ce:initials>
+                                    <ce:indexed-name>Longstaff M.G.</ce:indexed-name>
+                                    <ce:surname>Longstaff</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Heath R.A.</ce:indexed-name>
+                                    <ce:surname>Heath</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Human Movement Science</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="45" volume="25"/>
+                                <pagerange first="474" last="491"/>
+                            </ref-volisspag>
+                            <ref-text>Advances in graphonomics: Studies on fine motor control, its development and disorders</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Longstaff, M. G., and Heath, R. A. (2006). Spiral drawing performance as an indicator of fine motor function in people with multiple sclerosis. Human Movement Science,25(45), 474-491; Advances in graphonomics: Studies on fine motor control, its development and disorders.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Axis is a feature of handwritten spirals in essential tremor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33748359929</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.D.</ce:initials>
+                                    <ce:indexed-name>Louis E.D.</ce:indexed-name>
+                                    <ce:surname>Louis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Yu Q.</ce:indexed-name>
+                                    <ce:surname>Yu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.G.</ce:initials>
+                                    <ce:indexed-name>Floyd A.G.</ce:indexed-name>
+                                    <ce:surname>Floyd</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Moskowitz C.</ce:indexed-name>
+                                    <ce:surname>Moskowitz</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.L.</ce:initials>
+                                    <ce:indexed-name>Pullman S.L.</ce:indexed-name>
+                                    <ce:surname>Pullman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="21"/>
+                                <pagerange first="1294" last="1295"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Louis, E. D., Yu, Q., Floyd, A. G., Moskowitz, C, and Pullman, S. L. (2006). Axis is a feature of handwritten spirals in essential tremor. Movement Disorders, 21(8), 1294-1295.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantification of the drawing of an archimedes spiral through the analysis of its digitized picture</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33644765878</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Miralles F.</ce:indexed-name>
+                                    <ce:surname>Miralles</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Tarong S.</ce:indexed-name>
+                                    <ce:surname>Tarong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Espino A.</ce:indexed-name>
+                                    <ce:surname>Espino</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal Ofneuroscience Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="152"/>
+                                <pagerange first="18" last="31"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Miralles, F., Tarong, S., and Espino, A. (2006). Quantification of the drawing of an archimedes spiral through the analysis of its digitized picture. Journal ofNeuroscience Methods, 152(12), 18-31.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fighting knowledge acquisition bottleneck with argument based machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953737569</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mozina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guid M.</ce:indexed-name>
+                                    <ce:surname>Guid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Krivec J.</ce:indexed-name>
+                                    <ce:surname>Krivec</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2008 Conference on ECAI 2008: 18Th European Conference on Artificial Intelligence. Frontiers in Artificial Intelligence and Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="178"/>
+                                <pagerange first="234" last="238"/>
+                            </ref-volisspag>
+                            <ref-text>M. Ghallab, C. D. Spyropoulos, N. Fakotakis &amp; N. M. Avouris (Eds.), Amsterdam, The Netherlands: IOS Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mozina, M., Guid, M., Krivec, J., Sadikov, A., and Bratko, I. (2008). Fighting knowledge acquisition bottleneck with argument based machine learning. In M. Ghallab, C. D. Spyropoulos, N. Fakotakis &amp; N. M. Avouris (Eds.), Proceedings of the 2008 Conference on ECAI 2008: 18th European Conference on Artificial Intelligence. Frontiers in Artificial Intelligence and Applications (Vol. 178, pp. 234-238). Amsterdam, The Netherlands: IOS Press.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Argument based machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34548011440</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mozina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zabkar J.</ce:indexed-name>
+                                    <ce:surname>Zabkar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="10-15" volume="171"/>
+                                <pagerange first="922" last="937"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mozina, M., Zabkar, J., and Bratko, I. (2007). Argument based machine learning. Artificial Intelligence,171(10/15), 922-937.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Early treatment of parkinson’s disease: Opportunities for managed care</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874559199</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.L.</ce:initials>
+                                    <ce:indexed-name>Murman D.L.</ce:indexed-name>
+                                    <ce:surname>Murman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>American Journal of Managed Care</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="18"/>
+                                <pagerange first="183" last="188"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Murman, D. L. (2012). Early treatment of parkinson’s disease: Opportunities for managed care. American Journal of Managed Care,18(7), 183-188.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Essential tremor: Differential diagnosis and current therapy</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0042236596</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pahwa R.</ce:indexed-name>
+                                    <ce:surname>Pahwa</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.E.</ce:initials>
+                                    <ce:indexed-name>Lyons K.E.</ce:indexed-name>
+                                    <ce:surname>Lyons</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>American Journal of Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="115"/>
+                                <pagerange first="134" last="142"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pahwa, R., and Lyons, K. E. (2003). Essential tremor: Differential diagnosis and current therapy. American Journal of Medicine, 115,134-142.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spiral analysis: A new technique for measuring tremor with a digitizing tablet</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031739349</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.L.</ce:initials>
+                                    <ce:indexed-name>Pullman S.L.</ce:indexed-name>
+                                    <ce:surname>Pullman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="13"/>
+                                <pagerange first="85" last="89"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pullman, S. L. (1998). Spiral analysis: A new technique for measuring tremor with a digitizing tablet. Movement Disorders,13(3), 85-89.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tremor-some controversial aspects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79951473956</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.P.</ce:initials>
+                                    <ce:indexed-name>Quinn N.P.</ce:indexed-name>
+                                    <ce:surname>Quinn</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Schneider S.A.</ce:indexed-name>
+                                    <ce:surname>Schneider</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Schwingenschuh P.</ce:indexed-name>
+                                    <ce:surname>Schwingenschuh</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.P.</ce:initials>
+                                    <ce:indexed-name>Bhatia K.P.</ce:indexed-name>
+                                    <ce:surname>Bhatia</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="26"/>
+                                <pagerange first="18" last="23"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Quinn, N. P., Schneider, S. A., Schwingenschuh, P., and Bhatia, K. P. (2011). Tremor-some controversial aspects. Movement Disorders,26(1), 18-23.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84929204711</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zabkar J.</ce:indexed-name>
+                                    <ce:surname>Zabkar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mozina</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Groznik V.</ce:indexed-name>
+                                    <ce:surname>Groznik</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                                    <ce:surname>Georgiev</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Parkinsoncheck: A Decision Support System for Spirographic Testing</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>Technical report, University of Ljubljana, Faculty of Computer and Information Science</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Sadikov, A., Zabkar, J., Mozina, M., Groznik, V., Georgiev, D., and Bratko, I. (2014). Parkinsoncheck: A decision support system for spirographic testing.Technical report, University of Ljubljana, Faculty of Computer and Information Science.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Validity of spiral analysis in early parkinson’s disease</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">43449132215</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Saunders-Pullman R.</ce:indexed-name>
+                                    <ce:surname>Saunders-Pullman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Derby C.</ce:indexed-name>
+                                    <ce:surname>Derby</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Stanley K.</ce:indexed-name>
+                                    <ce:surname>Stanley</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Floyd A.</ce:indexed-name>
+                                    <ce:surname>Floyd</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bressman S.</ce:indexed-name>
+                                    <ce:surname>Bressman</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Lipton R.B.</ce:indexed-name>
+                                    <ce:surname>Lipton</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="23"/>
+                                <pagerange first="531" last="537"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Saunders-Pullman, R., Derby, C., Stanley, K., Floyd, A., Bressman, S., Lipton, R. B., et al. (2008). Validity of spiral analysis in early Parkinson’s disease. Movement Disorders,23(4), 531-537.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Digitized spiral analysis is a promising early motor marker for parkinson disease</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">76849117859</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Stanley K.</ce:indexed-name>
+                                    <ce:surname>Stanley</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hagenah J.</ce:indexed-name>
+                                    <ce:surname>Hagenah</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Brggemann N.</ce:indexed-name>
+                                    <ce:surname>Brggemann</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Reetz K.</ce:indexed-name>
+                                    <ce:surname>Reetz</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Severt L.</ce:indexed-name>
+                                    <ce:surname>Severt</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Klein C.</ce:indexed-name>
+                                    <ce:surname>Klein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Parkinsonism and Related Disorders</ref-sourcetitle>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="16"/>
+                                <pagerange first="233" last="234"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Stanley, K., Hagenah, J., Brggemann, N., Reetz, K., Severt, L., Klein, C., et al. Digitized spiral analysis is a promising early motor marker for parkinson disease. Parkinsonism and Related Disorders, 16(3), 233-234.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Essential tremor—the most common movement disorder in older people</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745337076</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Thanvi B.</ce:indexed-name>
+                                    <ce:surname>Thanvi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lo N.</ce:indexed-name>
+                                    <ce:surname>Lo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Robinson T.</ce:indexed-name>
+                                    <ce:surname>Robinson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Age and Ageing</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="35"/>
+                                <pagerange first="344" last="349"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Thanvi, B., Lo, N., and Robinson, T. (2006). Essential tremor—the most common movement disorder in older people. Age and Ageing, 35(4), 344-349.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The global burden of disease: 2004 update</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84943626076</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <collaboration seq="1">
+                                    <ce:indexed-name>World Health Organization</ce:indexed-name>
+                                    <ce:text>World Health Organization</ce:text>
+                                </collaboration>
+                            </ref-authors>
+                            <ref-sourcetitle>WHO Press, World Health Organization</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-text>Geneva, Switzerland</ref-text>
+                        </ref-info>
+                        <ref-fulltext>World Health Organization (2008). The global burden of disease: 2004 update. Who Press, World Health Organization, Geneva, Switzerland.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic classification of 123i-fp-cit (Datscan) spect images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960012613</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Towey D.J.</ce:indexed-name>
+                                    <ce:surname>Towey</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Bain P.G.</ce:indexed-name>
+                                    <ce:surname>Bain</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.S.</ce:initials>
+                                    <ce:indexed-name>Nijran K.S.</ce:indexed-name>
+                                    <ce:surname>Nijran</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nuclear Medicine Communications</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="32"/>
+                                <pagerange first="699" last="707"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Towey, D. J., Bain, P. G., and Nijran, K. S. (2011). Automatic classification of 123I-FP-CIT (DaTSCAN) SPECT images. Nuclear Medicine Communications, 32(8), 699-707.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spiral analysis improved clinical utility with center detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">43449109189</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wang H.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Yu Q.</ce:indexed-name>
+                                    <ce:surname>Yu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.M.</ce:initials>
+                                    <ce:indexed-name>Kurtis M.M.</ce:indexed-name>
+                                    <ce:surname>Kurtis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.G.</ce:initials>
+                                    <ce:indexed-name>Floyd A.G.</ce:indexed-name>
+                                    <ce:surname>Floyd</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.A.</ce:initials>
+                                    <ce:indexed-name>Smith W.A.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.L.</ce:initials>
+                                    <ce:indexed-name>Pullman S.L.</ce:indexed-name>
+                                    <ce:surname>Pullman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Neuroscience Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="171"/>
+                                <pagerange first="264" last="270"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wang, H., Yu, Q., Kurtis, M. M., Floyd, A. G., Smith, W. A., and Pullman, S. L.(2008). Spiral analysis improved clinical utility with center detection. Journal of Neuroscience Methods, 171(2), 264-270.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A new computer method for assessing drawing impairment in parkinson’s disease</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953725166</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Westin J.</ce:indexed-name>
+                                    <ce:surname>Westin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ghiamati S.</ce:indexed-name>
+                                    <ce:surname>Ghiamati</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Memedi M.</ce:indexed-name>
+                                    <ce:surname>Memedi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Nyholm D.</ce:indexed-name>
+                                    <ce:surname>Nyholm</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Johansson A.</ce:indexed-name>
+                                    <ce:surname>Johansson</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Dougherty M.</ce:indexed-name>
+                                    <ce:surname>Dougherty</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Neuroscience Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="190"/>
+                                <pagerange first="143" last="148"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Westin, J., Ghiamati, S., Memedi, M., Nyholm, D., Johansson, A., Dougherty, M., et al. (2010). A new computer method for assessing drawing impairment in parkinson’s disease. Journal of Neuroscience Methods,190(1), 143-148.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,555 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85008400997</prism:url><dc:identifier>SCOPUS_ID:85008400997</dc:identifier><eid>2-s2.0-85008400997</eid><prism:doi>10.2298/FIL1611123K</prism:doi><dc:title>Extremal graphs with respect to vertex betweenness centrality for certain graph families</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Filomat</prism:publicationName><dc:publisher>
+                        University of Nis
+                        filomat@pmf.ni.ac.rs
+                    </dc:publisher><source-id>19900192450</source-id><prism:issn>03545180</prism:issn><prism:volume>30</prism:volume><prism:issueIdentifier>11</prism:issueIdentifier><prism:startingPage>3123</prism:startingPage><prism:endingPage>3130</prism:endingPage><prism:pageRange>3123-3130</prism:pageRange><prism:coverDate>2016-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57192435654"><ce:initials>J.</ce:initials><ce:indexed-name>Klisara J.</ce:indexed-name><ce:surname>Klisara</ce:surname><ce:given-name>Jelena</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Klisara J.</ce:indexed-name><ce:surname>Klisara</ce:surname><ce:given-name>Jelena</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57192435654</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2016, University of Nis. All rights reserved.</publishercopyright>
+                        <ce:para>The betweenness centrality of a vertex in a graph is the sum of relative numbers of shortest paths that pass through that vertex. We study extremal values of vertex betweenness within various families of graphs. We prove that, in the family of 2-connected (resp. 3-connected) graphs on n vertices, the maximum betweenness value is reached for the maximum degree vertex of the fan graph F<inf>1,n</inf>
+                            <inf>-1</inf> (resp. the wheel graph W<inf>n</inf>); the maximum betweenness values, their realizing vertices and extremal graphs are determined also for wider families of graphs of minimum degree at least 2 or 3, respectively, and, in addition, for graphs with prescribed maximum degree or prescribed diameter at least 3.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85008400997" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85008400997&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85008400997&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"><affilname>University of Primorska</affilname><affiliation-city>Koper</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="121536647" href="https://api.elsevier.com/content/affiliation/affiliation_id/121536647"><affilname>Institute of Mathematics</affilname><affiliation-city>Kosice</affiliation-city><affiliation-country>Slovakia</affiliation-country></affiliation><affiliation id="112642938" href="https://api.elsevier.com/content/affiliation/affiliation_id/112642938"><affilname>Faculty of Information Studies</affilname><affiliation-city>Novo Mesto</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="108847956" href="https://api.elsevier.com/content/affiliation/affiliation_id/108847956"><affilname>University of Economics in Bratislava</affilname><affiliation-city>Kosice</affiliation-city><affiliation-country>Slovakia</affiliation-country></affiliation><authors><author seq="1" auid="57192435654"><ce:initials>J.</ce:initials><ce:indexed-name>Klisara J.</ce:indexed-name><ce:surname>Klisara</ce:surname><ce:given-name>Jelena</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Klisara J.</ce:indexed-name><ce:surname>Klisara</ce:surname><ce:given-name>Jelena</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57192435654</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="54881244100"><ce:initials>J.C.</ce:initials><ce:indexed-name>Hurajova J.C.</ce:indexed-name><ce:surname>Hurajová</ce:surname><ce:given-name>Jana Coroničová</ce:given-name><preferred-name><ce:initials>J.C.</ce:initials><ce:indexed-name>Hurajová J.</ce:indexed-name><ce:surname>Hurajová</ce:surname><ce:given-name>Jana Coroničová</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54881244100</author-url><affiliation id="108847956" href="https://api.elsevier.com/content/affiliation/affiliation_id/108847956"/></author><author seq="3" auid="55925523100"><ce:initials>T.</ce:initials><ce:indexed-name>Madaras T.</ce:indexed-name><ce:surname>Madaras</ce:surname><ce:given-name>Tomáš</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Madaras T.</ce:indexed-name><ce:surname>Madaras</ce:surname><ce:given-name>Tomáš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55925523100</author-url><affiliation id="121536647" href="https://api.elsevier.com/content/affiliation/affiliation_id/121536647"/></author><author seq="4" auid="6603887882"><ce:initials>R.</ce:initials><ce:indexed-name>Skrekovski R.</ce:indexed-name><ce:surname>Škrekovski</ce:surname><ce:given-name>Riste</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Škrekovski R.</ce:indexed-name><ce:surname>Škrekovski</ce:surname><ce:given-name>Riste</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603887882</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="112642938" href="https://api.elsevier.com/content/affiliation/affiliation_id/112642938"/><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Betweenness centrality</author-keyword><author-keyword>Connectivity</author-keyword><author-keyword>Degree</author-keyword><author-keyword>Diameter</author-keyword><author-keyword>Extremal value</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="2600" abbrev="MATH">Mathematics (all)</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-11T15:24:18Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovak VEGA</xocs:funding-agency-matched-string><xocs:funding-id>1/0652/12</xocs:funding-id></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Science and Technology Assistance Agency</xocs:funding-agency-matched-string><xocs:funding-id>APVV-0023-10</xocs:funding-id><xocs:funding-agency>Agency for Science, Technology and Research</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001348</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1880251/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>ARRS</xocs:funding-agency-matched-string><xocs:funding-id>P1-0383</xocs:funding-id><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>The first and forth author are supported by ARRS research program P1-0383. The second and third author are supported by Science and Technology Assistance Agency under the contract No. APVV-0023-10 and by Slovak VEGA grant No. 1/0652/12.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="07" month="11" timestamp="2018-11-07T04:06:51.000051-05:00" year="2018"/><ait:date-sort day="01" month="01" year="2016"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2017 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.2298/FIL1611123K</ce:doi>
+                    <itemid idtype="PUI">613992826</itemid>
+                    <itemid idtype="CAR-ID">659884200</itemid>
+                    <itemid idtype="SNMATH">2017001134</itemid>
+                    <itemid idtype="SCP">85008400997</itemid>
+                    <itemid idtype="SGR">85008400997</itemid>
+                </itemidlist><history>
+                    <date-created day="10" month="01" timestamp="BST 07:14:30" year="2017"/>
+                </history><dbcollection>SNMATH</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Betweenness centrality</author-keyword>
+                        <author-keyword xml:lang="eng">Connectivity</author-keyword>
+                        <author-keyword xml:lang="eng">Degree</author-keyword>
+                        <author-keyword xml:lang="eng">Diameter</author-keyword>
+                        <author-keyword xml:lang="eng">Extremal value</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Extremal graphs with respect to vertex betweenness centrality for certain graph families</titletext></citation-title><author-group><author auid="57192435654" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Klisara J.</ce:indexed-name><ce:surname>Klisara</ce:surname><ce:given-name>Jelena</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Klisara J.</ce:indexed-name>
+                            <ce:surname>Klisara</ce:surname>
+                            <ce:given-name>Jelena</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="54881244100" seq="2" type="auth"><ce:initials>J.C.</ce:initials><ce:indexed-name>Hurajova J.C.</ce:indexed-name><ce:surname>Hurajová</ce:surname><ce:given-name>Jana Coroničová</ce:given-name><preferred-name>
+                            <ce:initials>J.C.</ce:initials>
+                            <ce:indexed-name>Hurajová J.</ce:indexed-name>
+                            <ce:surname>Hurajová</ce:surname>
+                            <ce:given-name>Jana Coroničová</ce:given-name>
+                        </preferred-name></author><affiliation afid="108847956" country="svk" dptid="116795451"><organization>The Faculty of Business Economics with seat in Košice</organization><organization>The University of Economics in Bratislava</organization><address-part>Tajovského 13</address-part><city>Košice</city><postal-code>041 30</postal-code><affiliation-id afid="108847956" dptid="116795451"/><country>Slovakia</country></affiliation></author-group><author-group><author auid="55925523100" seq="3" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Madaras T.</ce:indexed-name><ce:surname>Madaras</ce:surname><ce:given-name>Tomáš</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Madaras T.</ce:indexed-name>
+                            <ce:surname>Madaras</ce:surname>
+                            <ce:given-name>Tomáš</ce:given-name>
+                        </preferred-name></author><affiliation afid="121536647" country="svk"><organization>Institute of Mathematics</organization><address-part>Jesenná 5</address-part><city>Košice</city><postal-code>04001</postal-code><affiliation-id afid="121536647"/><country>Slovakia</country></affiliation></author-group><author-group><author auid="6603887882" seq="4" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Skrekovski R.</ce:indexed-name><ce:surname>Škrekovski</ce:surname><ce:given-name>Riste</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Škrekovski R.</ce:indexed-name>
+                            <ce:surname>Škrekovski</ce:surname>
+                            <ce:given-name>Riste</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>FMF</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6603887882" seq="4" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Skrekovski R.</ce:indexed-name><ce:surname>Škrekovski</ce:surname><ce:given-name>Riste</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Škrekovski R.</ce:indexed-name>
+                            <ce:surname>Škrekovski</ce:surname>
+                            <ce:given-name>Riste</ce:given-name>
+                        </preferred-name></author><affiliation afid="112642938" country="svn"><organization>Faculty of Information Studies</organization><city>Novo mesto</city><affiliation-id afid="112642938"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6603887882" seq="4" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Skrekovski R.</ce:indexed-name><ce:surname>Škrekovski</ce:surname><ce:given-name>Riste</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Škrekovski R.</ce:indexed-name>
+                            <ce:surname>Škrekovski</ce:surname>
+                            <ce:given-name>Riste</ce:given-name>
+                        </preferred-name></author><affiliation afid="60006286" country="svn"><organization>FAMNIT</organization><organization>University of Primorska</organization><city>Koper</city><affiliation-id afid="60006286"/><country>Slovenia</country></affiliation></author-group><grantlist complete="y"><grant>
+                        <grant-id>APVV-0023-10</grant-id>
+                        <grant-acronym>VEGA</grant-acronym>
+                        <grant-agency>Vedecká Grantová Agentúra MŠVVaŠ SR a SAV</grant-agency>
+                    </grant><grant>
+                        <grant-id>P1-0383</grant-id>
+                        <grant-acronym>ARRS</grant-acronym>
+                        <grant-agency>Javna Agencija za Raziskovalno Dejavnost RS</grant-agency>
+                    </grant><grant-text xml:lang="eng">The first and forth author are supported by ARRS research program P1-0383. The second and third author are supported by Science and Technology Assistance Agency under the contract No. APVV-0023-10 and by Slovak VEGA grant No. 1/0652/12.</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2016, University of Nis. All rights reserved.</publishercopyright>
+                        <ce:para>The betweenness centrality of a vertex in a graph is the sum of relative numbers of shortest paths that pass through that vertex. We study extremal values of vertex betweenness within various families of graphs. We prove that, in the family of 2-connected (resp. 3-connected) graphs on n vertices, the maximum betweenness value is reached for the maximum degree vertex of the fan graph F<inf>1,n</inf>
+                            <inf>-1</inf> (resp. the wheel graph W<inf>n</inf>); the maximum betweenness values, their realizing vertices and extremal graphs are determined also for wider families of graphs of minimum degree at least 2 or 3, respectively, and, in addition, for graphs with prescribed maximum degree or prescribed diameter at least 3.</ce:para>
+                    </abstract></abstracts><source country="srb" srcid="19900192450" type="j"><sourcetitle>Filomat</sourcetitle><sourcetitle-abbrev>Filomat</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Filomat</translated-sourcetitle><issn type="print">03545180</issn><volisspag>
+                        <voliss issue="11" volume="30"/>
+                        <pagerange first="3123" last="3130"/>
+                    </volisspag><publicationyear first="2016"/><publicationdate>
+                        <year>2016</year>
+                    <date-text xfab-added="true">2016</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.pmf.ni.ac.rs/pmf/publikacije/filomat/2016/30-11/30-11-22-1738.pdf</ce:e-address>
+                    </website><publisher>
+                        <publishername>University of Nis</publishername>
+                        <ce:e-address type="email">filomat@pmf.ni.ac.rs</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>2600</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="18">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0007334606</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Anthonisse J.M.</ce:indexed-name>
+                                    <ce:surname>Anthonisse</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Rush in a Directed Graph</ref-sourcetitle>
+                            <ref-publicationyear first="1971"/>
+                            <ref-text>Technical Report BN 9/71, Stichting Mathematisch Centrum, 2e Boerhaavestraat 49 Amsterdam, October</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. M. Anthonisse, The rush in a directed graph, Technical Report BN 9/71, Stichting Mathematisch Centrum, 2e Boerhaavestraat 49 Amsterdam, October 1971.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">43749103863</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Bondy J.A.</ce:indexed-name>
+                                    <ce:surname>Bondy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.S.R.</ce:initials>
+                                    <ce:indexed-name>Murty U.S.R.</ce:indexed-name>
+                                    <ce:surname>Murty</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Graph Theory, Graduate Texts in Mathematics</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="244"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. A. Bondy, U. S. R. Murty, Graph Theory, Graduate Texts in Mathematics 244, Springer, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Centrality and Network Flow</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13944249973</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.P.</ce:initials>
+                                    <ce:indexed-name>Borgatti S.P.</ce:indexed-name>
+                                    <ce:surname>Borgatti</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="55" last="71"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. P. Borgatti, Centrality and Network Flow, Social Networks 27 (2005) 55–71.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A graph–theoretic perspective on centrality</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33746192198</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.P.</ce:initials>
+                                    <ce:indexed-name>Borgatti S.P.</ce:indexed-name>
+                                    <ce:surname>Borgatti</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.G.</ce:initials>
+                                    <ce:indexed-name>Everett M.G.</ce:indexed-name>
+                                    <ce:surname>Everett</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="28"/>
+                                <pagerange first="466" last="484"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. P. Borgatti, M. G. Everett, A graph–theoretic perspective on centrality, Social Networks 28 (2006) 466–484.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On Variants of Shortest–Path Betweenness Centrality and their Generic Computation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">41549097717</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Brandes U.</ce:indexed-name>
+                                    <ce:surname>Brandes</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="30"/>
+                                <pagerange first="136" last="145"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>U. Brandes, On Variants of Shortest–Path Betweenness Centrality and their Generic Computation, Social Networks 30 (2) (2008) 136–145.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Centrality Measures Based on Current Flow</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">24144445591</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Brandes U.</ce:indexed-name>
+                                    <ce:surname>Brandes</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Fleischer D.</ce:indexed-name>
+                                    <ce:surname>Fleischer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 22Nd Symp. Theoretical Aspects of Computer Science (STACS ’05)</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="3404"/>
+                                <pagerange first="533" last="544"/>
+                            </ref-volisspag>
+                            <ref-text>Springer–Verlag</ref-text>
+                        </ref-info>
+                        <ref-fulltext>U. Brandes, D. Fleischer, Centrality Measures Based on Current Flow, Proc. 22nd Symp. Theoretical Aspects of Computer Science (STACS ’05). LNCS 3404, pp. 533–544. Springer–Verlag, 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spectral bounds for the betweenness of a graph</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33947167199</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Comellas F.</ce:indexed-name>
+                                    <ce:surname>Comellas</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gago S.</ce:indexed-name>
+                                    <ce:surname>Gago</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Linear Algebra Appl</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="423"/>
+                                <pagerange first="74" last="80"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Comellas, S. Gago, Spectral bounds for the betweenness of a graph, Linear Algebra Appl. 423 (2007) 74–80.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003677229</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Diestel R.</ce:indexed-name>
+                                    <ce:surname>Diestel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Graph Theory</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-text>Springer, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Diestel, Graph Theory, Springer, New York, 1997.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Some centrality results new and old</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">8744304982</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.G.</ce:initials>
+                                    <ce:indexed-name>Everett M.G.</ce:indexed-name>
+                                    <ce:surname>Everett</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Sinclair P.</ce:indexed-name>
+                                    <ce:surname>Sinclair</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.A.</ce:initials>
+                                    <ce:indexed-name>Dankelmann P.A.</ce:indexed-name>
+                                    <ce:surname>Dankelmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Math. Sociol</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="28"/>
+                                <pagerange first="215" last="227"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. G. Everett, P. Sinclair, P. A. Dankelmann, Some centrality results new and old, J. Math. Sociol. 28 (4) (2004) 215–227.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ego network betweenness</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13944256675</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.G.</ce:initials>
+                                    <ce:indexed-name>Everett M.G.</ce:indexed-name>
+                                    <ce:surname>Everett</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.P.</ce:initials>
+                                    <ce:indexed-name>Borgatti S.P.</ce:indexed-name>
+                                    <ce:surname>Borgatti</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="31" last="38"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. G. Everett, S. P. Borgatti, Ego network betweenness, Social Networks 27 (2005) 31–38.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A set of measures of centrality based on betweenness</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84865730611</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.C.</ce:initials>
+                                    <ce:indexed-name>Freeman L.C.</ce:indexed-name>
+                                    <ce:surname>Freeman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sociometry</ref-sourcetitle>
+                            <ref-publicationyear first="1977"/>
+                            <ref-volisspag>
+                                <voliss volume="40"/>
+                                <pagerange first="35" last="41"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. C. Freeman, A set of measures of centrality based on betweenness, Sociometry 40 (1977) 35–41.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Centrality in networks: I. Conceptual clarification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750177351</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.C.</ce:initials>
+                                    <ce:indexed-name>Freeman L.C.</ce:indexed-name>
+                                    <ce:surname>Freeman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Networks</ref-sourcetitle>
+                            <ref-publicationyear first="1979"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="215" last="239"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. C. Freeman, Centrality in networks: I. Conceptual clarification, Social Networks 1 (1979) 215–239.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Centrality in valued graphs: A measure of betweenness based on network flow</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001492480</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.C.</ce:initials>
+                                    <ce:indexed-name>Freeman L.C.</ce:indexed-name>
+                                    <ce:surname>Freeman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.P.</ce:initials>
+                                    <ce:indexed-name>Borgatti S.P.</ce:indexed-name>
+                                    <ce:surname>Borgatti</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.R.</ce:initials>
+                                    <ce:indexed-name>White D.R.</ce:indexed-name>
+                                    <ce:surname>White</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Networks</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="13"/>
+                                <pagerange first="141" last="154"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. C. Freeman, S. P. Borgatti, D. R. White, Centrality in valued graphs: A measure of betweenness based on network flow, Social Networks 13 (2) (1991) 141–154.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887455173</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gago S.</ce:indexed-name>
+                                    <ce:surname>Gago</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Métodos Espectrales Y Nuevas Medidas Modelos Y parámetros En Grafos pequeño-mundo Invariantes De Escala</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>Ph.D. Thesis, Universitat Politècnica de Catalunya, (in Spanish)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Gago, Métodos espectrales y nuevas medidas modelos y parámetros en grafos pequeño-mundo invariantes de escala, Ph.D. Thesis, Universitat Politècnica de Catalunya, 2006 (in Spanish).</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Notes on the betweenness centrality of a graph</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84855264158</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gago S.</ce:indexed-name>
+                                    <ce:surname>Gago</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hurajov J.</ce:indexed-name>
+                                    <ce:surname>Hurajov</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Amadaras T.</ce:indexed-name>
+                                    <ce:surname>Ámadaras</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Math. Slovaca</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="62"/>
+                                <pagerange first="1" last="12"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Gago, J. Hurajová, T. Madaras, Notes on the betweenness centrality of a graph, Math. Slovaca 62 (1) (2012) 1–12.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On betweenness-uniform graphs, Czech</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887462887</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gago S.</ce:indexed-name>
+                                    <ce:surname>Gago</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hurajova J.</ce:indexed-name>
+                                    <ce:surname>Hurajová</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Madaras T.</ce:indexed-name>
+                                    <ce:surname>Madaras</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Math. J</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="138" volume="63"/>
+                                <pagerange first="629" last="642"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Gago, J. Hurajová, T. Madaras, On betweenness-uniform graphs, Czech. Math. J. 63 (138) (2013) 629–642.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A measure of betweenness centrality based on random walks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13944252976</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.E.J.</ce:initials>
+                                    <ce:indexed-name>Newman M.E.J.</ce:indexed-name>
+                                    <ce:surname>Newman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="39" last="54"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. E. J. Newman, A measure of betweenness centrality based on random walks, Social Networks 27 (2005) 39–54.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Betweenness centralization for bipartite graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">11844293450</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Sinclair P.</ce:indexed-name>
+                                    <ce:surname>Sinclair</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Math. Sociol</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="25" last="31"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Sinclair, Betweenness centralization for bipartite graphs, J. Math. Sociol. 29 (2005) 25–31.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

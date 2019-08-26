@@ -1,0 +1,914 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0037433043</prism:url><dc:identifier>SCOPUS_ID:0037433043</dc:identifier><eid>2-s2.0-0037433043</eid><pubmed-id>12584124</pubmed-id><prism:doi>10.1093/bioinformatics/btf871</prism:doi><dc:title>GenePath: A system for automated construction of genetic networks from mutant data</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>40</citedby-count><prism:publicationName>Bioinformatics</prism:publicationName><source-id>17945</source-id><prism:issn>13674803</prism:issn><prism:volume>19</prism:volume><prism:issueIdentifier>3</prism:issueIdentifier><prism:startingPage>383</prism:startingPage><prism:endingPage>389</prism:endingPage><prism:pageRange>383-389</prism:pageRange><prism:coverDate>2003-02-12</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Motivation: Genetic networks are often used in the analysis of biological phenomena. In classical genetics, they are constructed manually from experimental data on mutants. The field lacks formalism to guide such analysis, and accounting for all the data becomes complicated when large amounts of data are considered. Results: We have developed GenePath, an intelligent assistant that automates the analysis of genetic data. GenePath employs expert-defined patterns to uncover gene relations from the data, and uses these relations as constraints in the search for a plausible genetic network. GenePath formalizes genetic data analysis, facilitates the consideration of all the available data in a consistent manner, and the examination of the large, number of possible consequences of planned experiments. It also provides an explanation, mechanism that traces every finding to the pertinent data.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0037433043" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0037433043&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0037433043&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"><affilname>Baylor College of Medicine</affilname><affiliation-city>Houston</affiliation-city><affiliation-country>United States</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"><affilname>Jozef Stefan Institute</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author><author seq="2" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="4" auid="6507897381"><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507897381</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="7101971787"><ce:initials>J.A.</ce:initials><ce:indexed-name>Halter J.A.</ce:indexed-name><ce:surname>Halter</ce:surname><ce:given-name>John A.</ce:given-name><preferred-name><ce:initials>J.A.</ce:initials><ce:indexed-name>Halter J.</ce:indexed-name><ce:surname>Halter</ce:surname><ce:given-name>John A.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7101971787</author-url><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author><author seq="6" auid="7003321794"><ce:initials>A.</ce:initials><ce:indexed-name>Kuspa A.</ce:indexed-name><ce:surname>Kuspa</ce:surname><ce:given-name>Adam</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Kuspa A.</ce:indexed-name><ce:surname>Kuspa</ce:surname><ce:given-name>Adam</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003321794</author-url><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author><author seq="7" auid="7003920656"><ce:initials>G.</ce:initials><ce:indexed-name>Shaulsky G.</ce:indexed-name><ce:surname>Shaulsky</ce:surname><ce:given-name>Gad</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Shaulsky G.</ce:indexed-name><ce:surname>Shaulsky</ce:surname><ce:given-name>Gad</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003920656</author-url><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms/><subject-areas><subject-area code="1308" abbrev="BIOC">Clinical Biochemistry</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1703" abbrev="COMP">Computational Theory and Mathematics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-10T19:22:43Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>National Science Foundation</xocs:funding-agency-matched-string><xocs:funding-agency>National Science Foundation</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100000001</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>National Institute of Child Health and Human Development</xocs:funding-agency-matched-string><xocs:funding-id>P01 HD39691-01</xocs:funding-id><xocs:funding-agency-acronym>NICHD</xocs:funding-agency-acronym><xocs:funding-agency>National Institute of Child Health and Human Development</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100000071</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>National Academy of Sciences</xocs:funding-agency-matched-string><xocs:funding-id>INT-0002341</xocs:funding-id><xocs:funding-agency>National Academy of Sciences</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100000209</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>March of Dimes Birth Defects Foundation</xocs:funding-agency-matched-string><xocs:funding-id>5-FY99-735</xocs:funding-id><xocs:funding-agency>March of Dimes Foundation</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100000912</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovene Ministry of Education, Science and Sport</xocs:funding-agency-matched-string><xocs:funding-id>J2-3387-1539</xocs:funding-id><xocs:funding-agency>Ministry of Education, Culture, Sports, Science and Technology</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001700</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1861060/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>We thank V. Lundblad, C. Shaw and K. Kibler for critical reading of the manuscript. This work was supported by a grant from the National Institute of Child Health and Human Development (P01 HD39691-01), by a grant from The Slovene Ministry of Education, Science and Sport (J2-3387-1539) and by a travel grant from the National Academy of Sciences under the Collaboration in Basic Science and Engineering supported by Contract No. INT-0002341 from the National Science Foundation. G.S. is a recipient of the Basil O’Connor research award from the March of Dimes Birth Defects Foundation (5-FY99-735).</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="26" month="09" timestamp="2014-09-26T02:23:30.000030+01:00" year="2014"/><ait:date-sort day="12" month="02" year="2003"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><copyright type="Medline Descriptors">MEDLINE® is the source for the MeSH terms of this document.</copyright><itemidlist>
+<ce:doi>10.1093/bioinformatics/btf871</ce:doi>
+<itemid idtype="PUI">36292073</itemid>
+<itemid idtype="EMBASE">2003104427</itemid>
+<itemid idtype="MEDL">12584124</itemid>
+<itemid idtype="SCP">0037433043</itemid>
+<itemid idtype="SGR">0037433043</itemid>
+</itemidlist><history>
+<date-created day="18" month="03" year="2003"/>
+</history><dbcollection>EMBASE</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">GenePath: A system for automated construction of genetic networks from mutant data</titletext></citation-title><author-group><author auid="7003934784" seq="1"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+<ce:given-name>Blaz</ce:given-name>
+</preferred-name></author><author auid="55075851300" seq="2"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+<ce:given-name>Janez</ce:given-name>
+</preferred-name></author><author auid="7003286588" seq="3"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+<ce:given-name>Ivan</ce:given-name>
+</preferred-name></author><author auid="6507897381" seq="4"><ce:initials>P.</ce:initials><ce:indexed-name>Juvan P.</ce:indexed-name><ce:surname>Juvan</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name>
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Juvan P.</ce:indexed-name>
+<ce:surname>Juvan</ce:surname>
+<ce:given-name>Peter</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580834"><organization>University of Ljubljana</organization><organization>Fac. of Computer/Inform. Science</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="7003286588" seq="3"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+<ce:given-name>Ivan</ce:given-name>
+</preferred-name></author><affiliation afid="60023955" country="svn"><organization>Jozef Stefan Institute</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="7101971787" seq="5"><ce:initials>J.A.</ce:initials><ce:indexed-name>Halter J.A.</ce:indexed-name><ce:surname>Halter</ce:surname><ce:given-name>John A.</ce:given-name><preferred-name>
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Halter J.</ce:indexed-name>
+<ce:surname>Halter</ce:surname>
+<ce:given-name>John A.</ce:given-name>
+</preferred-name></author><affiliation afid="60002441" country="usa" dptid="103173159"><organization>Department of PM and R</organization><organization>Division of Neuroscience</organization><organization>Baylor College of Medicine</organization><city-group>Houston, TX 77030</city-group><country>United States</country></affiliation></author-group><author-group><author auid="7003321794" seq="6"><ce:initials>A.</ce:initials><ce:indexed-name>Kuspa A.</ce:indexed-name><ce:surname>Kuspa</ce:surname><ce:given-name>Adam</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+<ce:given-name>Adam</ce:given-name>
+</preferred-name></author><affiliation afid="60002441" country="usa" dptid="103172595"><organization>Dept. of Biochem./Molecular Biology</organization><organization>Baylor College of Medicine</organization><city-group>Houston, TX 77030</city-group><country>United States</country></affiliation></author-group><author-group><author auid="7003934784" seq="1"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+<ce:given-name>Blaz</ce:given-name>
+</preferred-name></author><author auid="7003321794" seq="6"><ce:initials>A.</ce:initials><ce:indexed-name>Kuspa A.</ce:indexed-name><ce:surname>Kuspa</ce:surname><ce:given-name>Adam</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+<ce:given-name>Adam</ce:given-name>
+</preferred-name></author><author auid="7003920656" seq="7"><ce:initials>G.</ce:initials><ce:indexed-name>Shaulsky G.</ce:indexed-name><ce:surname>Shaulsky</ce:surname><ce:given-name>Gad</ce:given-name><preferred-name>
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+<ce:given-name>Gad</ce:given-name>
+</preferred-name></author><affiliation afid="60002441" country="usa" dptid="103172763"><organization>Dept. of Molecular/Human Genetics</organization><organization>Baylor College of Medicine</organization><city-group>Houston, TX 77030</city-group><country>United States</country></affiliation></author-group><correspondence><person>
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+</person><affiliation country="usa"><organization>Dept. of Molecular/Human Genetics</organization><organization>Baylor College of Medicine</organization><city-group>Houston, TX 77030</city-group><country>United States</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Motivation: Genetic networks are often used in the analysis of biological phenomena. In classical genetics, they are constructed manually from experimental data on mutants. The field lacks formalism to guide such analysis, and accounting for all the data becomes complicated when large amounts of data are considered. Results: We have developed GenePath, an intelligent assistant that automates the analysis of genetic data. GenePath employs expert-defined patterns to uncover gene relations from the data, and uses these relations as constraints in the search for a plausible genetic network. GenePath formalizes genetic data analysis, facilitates the consideration of all the available data in a consistent manner, and the examination of the large, number of possible consequences of planned experiments. It also provides an explanation, mechanism that traces every finding to the pertinent data.</ce:para>
+</abstract></abstracts><source country="gbr" srcid="17945" type="j"><sourcetitle>Bioinformatics</sourcetitle><sourcetitle-abbrev>Bioinformatics</sourcetitle-abbrev><issn>13674803</issn><codencode>BOINF</codencode><volisspag>
+<voliss issue="3" volume="19"/>
+<pagerange first="383" last="389"/>
+</volisspag><publicationyear first="2003"/><publicationdate>
+<year>2003</year>
+<month>02</month>
+<day>12</day>
+<date-text xfab-added="true">12 February 2003</date-text></publicationdate></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1308</classification>
+<classification>1706</classification>
+<classification>1703</classification>
+</classifications><classifications type="SUBJABBR"><classification>BIOC</classification><classification>COMP</classification></classifications>
+<classifications type="EMCLASS">
+<classification>22.5</classification>
+<classification>22.6</classification>
+<classification>27.5.2</classification>
+<classification>29.2.1</classification>
+<classification>29.4</classification>
+</classifications>
+</classificationgroup><tradenamegroup>
+<tradenames type="TNV">
+<trademanuitem>
+<tradename>GenePath</tradename>
+</trademanuitem>
+<trademanuitem>
+<tradename>Prolog</tradename>
+</trademanuitem>
+</tradenames>
+</tradenamegroup></enhancement></head><tail><bibliography refcount="21">
+<reference id="56517939">
+<ref-info>
+<ref-title>
+<ref-titletext>Inferring qualitative relations in genetic networks and methabolic pathways</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033737840</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Akutsu T.</ce:indexed-name>
+<ce:surname>Akutsu</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Miyano S.</ce:indexed-name>
+<ce:surname>Miyano</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kuhara S.</ce:indexed-name>
+<ce:surname>Kuhara</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="16"/>
+<pagerange first="727" last="734"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Akutsu,T., Miyano,S. and Kuhara,S. (2000) Inferring qualitative relations in genetic networks and methabolic pathways. Bioinformatics, 16, 727-734.</ref-fulltext>
+</reference>
+<reference id="56517940">
+<ref-info>
+<ref-title>
+<ref-titletext>Ordering gene function: The interpretation of epistasis in regulatory hierarchies</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0026666791</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Avery L.</ce:indexed-name>
+<ce:surname>Avery</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Wasserman S.</ce:indexed-name>
+<ce:surname>Wasserman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Trends Genet.</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="312" last="316"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Avery,L. and Wasserman,S. (1992) Ordering gene function: the interpretation of epistasis in regulatory hierarchies. Trends Genet., 8, 312-316.</ref-fulltext>
+</reference>
+<reference id="56517941">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003676303</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Prolog Programming for Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-text>Addison-Wesley, Reading, MA</ref-text>
+</ref-info>
+<ref-fulltext>Bratko,I. (2001) Prolog Programming for Artificial Intelligence. Addison-Wesley, Reading, MA.</ref-fulltext>
+</reference>
+<reference id="56517942">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004280480</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>W.F.</ce:initials>
+<ce:indexed-name>Clocksin W.F.</ce:indexed-name>
+<ce:surname>Clocksin</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.S.</ce:initials>
+<ce:indexed-name>Mellish C.S.</ce:indexed-name>
+<ce:surname>Mellish</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Programming in PROLOG</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-text>Springer, New York</ref-text>
+</ref-info>
+<ref-fulltext>Clocksin,W.F. and Mellish,C.S. (1994) Programming in PROLOG. Springer, New York.</ref-fulltext>
+</reference>
+<reference id="56517943">
+<ref-info>
+<ref-title>
+<ref-titletext>Using Bayesian networks to analyze expression data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033707946</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Friedman N.</ce:indexed-name>
+<ce:surname>Friedman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Linial M.</ce:indexed-name>
+<ce:surname>Linial</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Nachman I.</ce:indexed-name>
+<ce:surname>Nachman</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Pe'er D.</ce:indexed-name>
+<ce:surname>Pe'er</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Comput. Biol.</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pagerange first="601" last="620"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Friedman,N., Linial,M., Nachman,I. and Pe'er,D. (2000) Using Bayesian networks to analyze expression data. J. Comput. Biol., 7, 601-620.</ref-fulltext>
+</reference>
+<reference id="56517944">
+<ref-info>
+<ref-title>
+<ref-titletext>The role of abduction in logic programming</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000699514</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.C.</ce:initials>
+<ce:indexed-name>Kakas A.C.</ce:indexed-name>
+<ce:surname>Kakas</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.A.</ce:initials>
+<ce:indexed-name>Kowalski R.A.</ce:indexed-name>
+<ce:surname>Kowalski</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Toni F.</ce:indexed-name>
+<ce:surname>Toni</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Handbook in Artificial Intelligence and Logic Programming</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="5"/>
+<pagerange first="235" last="324"/>
+</ref-volisspag>
+<ref-text>Robinson,J. (ed.)</ref-text>
+</ref-info>
+<ref-fulltext>Kakas,A.C., Kowalski,R.A. and Toni,F. (1998) The role of abduction in logic programming. In Robinson,J. (ed.), Handbook in Artificial Intelligence and Logic Programming. 5, pp. 235-324.</ref-fulltext>
+</reference>
+<reference id="56517945">
+<ref-info>
+<ref-title>
+<ref-titletext>The promise of a protist: The Dictyostelium genome project</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034764722</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Sucgang R.</ce:indexed-name>
+<ce:surname>Sucgang</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Functional and Integrative Genomics</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="279" last="293"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Kuspa,A., Sucgang,R. and Shaulsky,G. (2001) The promise of a protist: the Dictyostelium genome project. Functional and Integrative Genomics, 1, 279-293.</ref-fulltext>
+</reference>
+<reference id="56517946">
+<ref-info>
+<ref-title>
+<ref-titletext>Regulation of the Caenorhabditis elegans longevity protein DAF-16 by insulin/IGF-1 and germline signaling</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034967720</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Lin K.</ce:indexed-name>
+<ce:surname>Lin</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Hsin H.</ce:indexed-name>
+<ce:surname>Hsin</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Libina N.</ce:indexed-name>
+<ce:surname>Libina</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Kenyon C.</ce:indexed-name>
+<ce:surname>Kenyon</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nature Genet.</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="28"/>
+<pagerange first="139" last="145"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Lin,K., Hsin,H., Libina,N. and Kenyon,C. (2001) Regulation of the Caenorhabditis elegans longevity protein DAF-16 by insulin/IGF-1 and germline signaling. Nature Genet., 28, 139-145.</ref-fulltext>
+</reference>
+<reference id="56517947">
+<ref-info>
+<ref-title>
+<ref-titletext>Cloning and cDNA sequence of the regulatory subunit of cAMP-dependent protein kinase from Dictyostelium discoideum</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0010683306</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Mutzel R.</ce:indexed-name>
+<ce:surname>Mutzel</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.L.</ce:initials>
+<ce:indexed-name>Lacombe M.L.</ce:indexed-name>
+<ce:surname>Lacombe</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.N.</ce:initials>
+<ce:indexed-name>Simon M.N.</ce:indexed-name>
+<ce:surname>Simon</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>de Gunzburg J.</ce:indexed-name>
+<ce:surname>de Gunzburg</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Veron M.</ce:indexed-name>
+<ce:surname>Veron</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc. Natl. Acad. Sci. USA</ref-sourcetitle>
+<ref-publicationyear first="1987"/>
+<ref-volisspag>
+<voliss volume="84"/>
+<pagerange first="6" last="10"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mutzel,R., Lacombe,M.L., Simon,M.N., de Gunzburg,J. and Veron,M. (1987) Cloning and cDNA sequence of the regulatory subunit of cAMP-dependent protein kinase from Dictyostelium discoideum. Proc. Natl Acad. Sci. USA, 84, 6-10.</ref-fulltext>
+</reference>
+<reference id="56517948">
+<ref-info>
+<ref-title>
+<ref-titletext>Structurally distinct and stage-specific adenylyl cyclase genes play different roles in Dictyostelium development</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0026504354</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.S.</ce:initials>
+<ce:indexed-name>Pitt G.S.</ce:indexed-name>
+<ce:surname>Pitt</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Milona N.</ce:indexed-name>
+<ce:surname>Milona</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Borleis J.</ce:indexed-name>
+<ce:surname>Borleis</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>K.C.</ce:initials>
+<ce:indexed-name>Lin K.C.</ce:indexed-name>
+<ce:surname>Lin</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>R.R.</ce:initials>
+<ce:indexed-name>Reed R.R.</ce:indexed-name>
+<ce:surname>Reed</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>P.N.</ce:initials>
+<ce:indexed-name>Devreotes P.N.</ce:indexed-name>
+<ce:surname>Devreotes</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cell</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-volisspag>
+<voliss volume="69"/>
+<pagerange first="305" last="315"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Pitt,G.S., Milona,N., Borleis,J., Lin,K.C., Reed,R.R. and Devreotes,P.N. (1992) Structurally distinct and stage-specific adenylyl cyclase genes play different roles in Dictyostelium development. Cell, 69, 305-315.</ref-fulltext>
+</reference>
+<reference id="56517949">
+<ref-info>
+<ref-title>
+<ref-titletext>Interacting genes in nematode dauer larva formation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0019496482</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.L.</ce:initials>
+<ce:indexed-name>Riddle D.L.</ce:indexed-name>
+<ce:surname>Riddle</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.M.</ce:initials>
+<ce:indexed-name>Swanson M.M.</ce:indexed-name>
+<ce:surname>Swanson</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.S.</ce:initials>
+<ce:indexed-name>Albert P.S.</ce:indexed-name>
+<ce:surname>Albert</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nature</ref-sourcetitle>
+<ref-publicationyear first="1981"/>
+<ref-volisspag>
+<voliss volume="290"/>
+<pagerange first="668" last="671"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Riddle,D.L., Swanson,M.M. and Albert,P.S. (1981) Interacting genes in nematode dauer larva formation. Nature, 290, 668-671.</ref-fulltext>
+</reference>
+<reference id="56517950">
+<ref-info>
+<ref-title>
+<ref-titletext>Large-scale analysis of the yeast genome by transposon tagging and gene disruption</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033604566</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Ross-Macdonald P.</ce:indexed-name>
+<ce:surname>Ross-Macdonald</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.S.</ce:initials>
+<ce:indexed-name>Coelho P.S.</ce:indexed-name>
+<ce:surname>Coelho</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Roemer T.</ce:indexed-name>
+<ce:surname>Roemer</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Agarwal S.</ce:indexed-name>
+<ce:surname>Agarwal</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kumar A.</ce:indexed-name>
+<ce:surname>Kumar</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Jansen R.</ce:indexed-name>
+<ce:surname>Jansen</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>K.H.</ce:initials>
+<ce:indexed-name>Cheung K.H.</ce:indexed-name>
+<ce:surname>Cheung</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Sheehan A.</ce:indexed-name>
+<ce:surname>Sheehan</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Symoniatis D.</ce:indexed-name>
+<ce:surname>Symoniatis</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Umansky L.</ce:indexed-name>
+<ce:surname>Umansky</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Nature</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-volisspag>
+<voliss volume="402"/>
+<pagerange first="413" last="418"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ross-Macdonald,P., Coelho,P.S., Roemer,T., Agarwal,S., Kumar,A., Jansen,R., Cheung,K.H., Sheehan,A., Symoniatis,D., Umansky,L. et al. (1999) Large-scale analysis of the yeast genome by transposon tagging and gene disruption. Nature, 402, 413-418.</ref-fulltext>
+</reference>
+<reference id="56517951">
+<ref-info>
+<ref-title>
+<ref-titletext>A cAMP-phosphodiesterase controls PKA-dependent differentiation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031930885</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Shaulsky G.</ce:indexed-name>
+<ce:surname>Shaulsky</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Fuller D.</ce:indexed-name>
+<ce:surname>Fuller</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>W.F.</ce:initials>
+<ce:indexed-name>Loomis W.F.</ce:indexed-name>
+<ce:surname>Loomis</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Development</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="125"/>
+<pagerange first="691" last="699"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Shaulsky,G., Fuller,D. and Loomis,W.F. (1998) A cAMP-phosphodiesterase controls PKA-dependent differentiation. Development, 125, 691-699.</ref-fulltext>
+</reference>
+<reference id="56517952">
+<ref-info>
+<ref-title>
+<ref-titletext>Guiding revision of regulatory models with expression data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0036364830</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Shrager J.</ce:indexed-name>
+<ce:surname>Shrager</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Langley P.</ce:indexed-name>
+<ce:surname>Langley</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Pohorille A.</ce:indexed-name>
+<ce:surname>Pohorille</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc. Pac. Symp. Biocomput.</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pagerange first="486" last="497"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Shrager,J., Langley,P. and Pohorille,A. (2002) Guiding revision of regulatory models with expression data. Proc. Pac. Symp. Biocomput., 7, 486-497.</ref-fulltext>
+</reference>
+<reference id="56517953">
+<ref-info>
+<ref-title>
+<ref-titletext>YakA, a protein kinase required for the transition from growth to development in Dictyostelium</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0001019046</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.M.</ce:initials>
+<ce:indexed-name>Souza G.M.</ce:indexed-name>
+<ce:surname>Souza</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Lu S.</ce:indexed-name>
+<ce:surname>Lu</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Development</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="125"/>
+<pagerange first="2291" last="2302"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Souza,G.M., Lu,S. and Kuspa,A. (1998) YakA, a protein kinase required for the transition from growth to development in Dictyostelium. Development, 125, 2291-2302.</ref-fulltext>
+</reference>
+<reference id="56517954">
+<ref-info>
+<ref-title>
+<ref-titletext>Starvation promotes Dictyostelium development by relieving PufA inhibition of PKA translation through the YakA kinase pathway</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0032767435</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.M.</ce:initials>
+<ce:indexed-name>Souza G.M.</ce:indexed-name>
+<ce:surname>Souza</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.M.</ce:initials>
+<ce:indexed-name>da Silva A.M.</ce:indexed-name>
+<ce:surname>da Silva</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kuspa A.</ce:indexed-name>
+<ce:surname>Kuspa</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Development</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-volisspag>
+<voliss volume="126"/>
+<pagerange first="3263" last="3274"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Souza,G.M., da Silva,A.M. and Kuspa,A. (1999) Starvation promotes Dictyostelium development by relieving PufA inhibition of PKA translation through the YakA kinase pathway. Development, 126, 3263-3274.</ref-fulltext>
+</reference>
+<reference id="56517955">
+<ref-info>
+<ref-title>
+<ref-titletext>Planning with constraints (MOLGEN: Part1)</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0019563065</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Stefik M.</ce:indexed-name>
+<ce:surname>Stefik</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1981"/>
+<ref-volisspag>
+<voliss volume="16"/>
+<pagerange first="111" last="140"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Stefik,M. (1981) Planning with constraints (MOLGEN: Part1). Artificial Intelligence, 16, 111-140.</ref-fulltext>
+</reference>
+<reference id="56517956">
+<ref-info>
+<ref-title>
+<ref-titletext>cAMP-dependent protein kinase: Framework for a diverse family of regulatory enzymes</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0025330489</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.S.</ce:initials>
+<ce:indexed-name>Taylor S.S.</ce:indexed-name>
+<ce:surname>Taylor</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Buechler J.A.</ce:indexed-name>
+<ce:surname>Buechler</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Yonemoto W.</ce:indexed-name>
+<ce:surname>Yonemoto</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Annu. Rev. Biochem.</ref-sourcetitle>
+<ref-publicationyear first="1990"/>
+<ref-volisspag>
+<voliss volume="9"/>
+<pagerange first="971" last="1005"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Taylor,S.S., Buechler,J.A. and Yonemoto,W. (1990) cAMP-dependent protein kinase: framework for a diverse family of regulatory enzymes. Annu. Rev. Biochem., 9, 971-1005.</ref-fulltext>
+</reference>
+<reference id="56517957">
+<ref-info>
+<ref-title>
+<ref-titletext>Evidence for parallel processing of sensory information controlling dauer formation in Caenorhabditis elegans</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0027268170</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.H.</ce:initials>
+<ce:indexed-name>Thomas J.H.</ce:indexed-name>
+<ce:surname>Thomas</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.A.</ce:initials>
+<ce:indexed-name>Birnby D.A.</ce:indexed-name>
+<ce:surname>Birnby</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.J.</ce:initials>
+<ce:indexed-name>Vowels J.J.</ce:indexed-name>
+<ce:surname>Vowels</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Genetics</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-volisspag>
+<voliss volume="134"/>
+<pagerange first="1105" last="1117"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Thomas,J.H., Birnby,D.A. and Vowels,J.J. (1993) Evidence for parallel processing of sensory information controlling dauer formation in Caenorhabditis elegans. Genetics, 134, 1105-1117.</ref-fulltext>
+</reference>
+<reference id="56517958">
+<ref-info>
+<ref-title>
+<ref-titletext>Systematic genetic analysis with ordered arrays of yeast deletion mutants</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0035861532</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.H.</ce:initials>
+<ce:indexed-name>Tong A.H.</ce:indexed-name>
+<ce:surname>Tong</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Evangelista M.</ce:indexed-name>
+<ce:surname>Evangelista</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.B.</ce:initials>
+<ce:indexed-name>Parsons A.B.</ce:indexed-name>
+<ce:surname>Parsons</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Xu H.</ce:indexed-name>
+<ce:surname>Xu</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>G.D.</ce:initials>
+<ce:indexed-name>Bader G.D.</ce:indexed-name>
+<ce:surname>Bader</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Page N.</ce:indexed-name>
+<ce:surname>Page</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Robinson M.</ce:indexed-name>
+<ce:surname>Robinson</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Raghibizadeh S.</ce:indexed-name>
+<ce:surname>Raghibizadeh</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>C.W.</ce:initials>
+<ce:indexed-name>Hogue C.W.</ce:indexed-name>
+<ce:surname>Hogue</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Bussey H.</ce:indexed-name>
+<ce:surname>Bussey</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Science</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="294"/>
+<pagerange first="2364" last="2368"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Tong,A.H., Evangelista,M., Parsons,A.B., Xu,H., Bader,G.D., Page,N., Robinson,M., Raghibizadeh,S., Hogue,C.W., Bussey,H. et al. (2001) Systematic genetic analysis with ordered arrays of yeast deletion mutants. Science, 294, 2364-2368.</ref-fulltext>
+</reference>
+<reference id="56517959">
+<ref-info>
+<ref-title>
+<ref-titletext>Functional characterization of the S. cerevisiae genome by gene deletion and parallel analysis</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033529707</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.A.</ce:initials>
+<ce:indexed-name>Winzeler E.A.</ce:indexed-name>
+<ce:surname>Winzeler</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.D.</ce:initials>
+<ce:indexed-name>Shoemaker D.D.</ce:indexed-name>
+<ce:surname>Shoemaker</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Astromoff A.</ce:indexed-name>
+<ce:surname>Astromoff</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Liang H.</ce:indexed-name>
+<ce:surname>Liang</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Anderson K.</ce:indexed-name>
+<ce:surname>Anderson</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Andre B.</ce:indexed-name>
+<ce:surname>Andre</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Bangham R.</ce:indexed-name>
+<ce:surname>Bangham</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Benito R.</ce:indexed-name>
+<ce:surname>Benito</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>J.D.</ce:initials>
+<ce:indexed-name>Boeke J.D.</ce:indexed-name>
+<ce:surname>Boeke</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Bussey H.</ce:indexed-name>
+<ce:surname>Bussey</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Science</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-volisspag>
+<voliss volume="285"/>
+<pagerange first="901" last="906"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Winzeler,E.A., Shoemaker,D.D., Astromoff,A., Liang,H., Anderson,K., Andre,B., Bangham,R., Benito,R., Boeke,J.D., Bussey,H. et al. (1999) Functional characterization of the S. cerevisiae genome by gene deletion and parallel analysis. Science, 285, 901-906.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

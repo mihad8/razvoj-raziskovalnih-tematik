@@ -1,0 +1,927 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84995615081</prism:url><dc:identifier>SCOPUS_ID:84995615081</dc:identifier><eid>2-s2.0-84995615081</eid><prism:doi>10.1080/14626268.2016.1258422</prism:doi><dc:title>Light fountain–a virtually enhanced stone sculpture</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>Digital Creativity</prism:publicationName><dc:publisher>
+                        Routledge
+                        info@tandf.co.uk
+                    </dc:publisher><source-id>144891</source-id><prism:issn>17443806 14626268</prism:issn><prism:volume>28</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>89</prism:startingPage><prism:endingPage>102</prism:endingPage><prism:pageRange>89-102</prism:pageRange><prism:coverDate>2017-04-03</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="6603857705"><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603857705</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2016 Informa UK Limited, trading as Taylor &amp; Francis Group.</publishercopyright>
+                        <ce:para>The article describes the making of an art piece combining stone sculpture and virtual water. The motivation for this art piece was to enrich the usual static format of a stone sculpture with a dynamic dimension. The dynamic dimension is attained with virtual water droplets running over the stone surface which behave as real water droplets. The 3-D surface of a specially carved stone sculpture is during an exhibition continuously captured by the Kinect sensor. Each water drop out of many thousands, which are introduced into the installation as evenly distributed rain drops, falling over the sculpture, are simulated individually to run over the stone surface following the largest slope. These simulated water drops are projected with a video projector as light points on the surface of the sculpture. An observer can enjoy simultaneously the haptic experience of touching the stone and observing a digitally generated but physically grounded animation.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84995615081" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84995615081&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84995615081&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6603857705"><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603857705</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="57191976811"><ce:initials>B.</ce:initials><ce:indexed-name>Meden B.</ce:indexed-name><ce:surname>Meden</ce:surname><ce:given-name>Blaž</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Meden B.</ce:indexed-name><ce:surname>Meden</ce:surname><ce:given-name>Blaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57191976811</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>3-D surface model</author-keyword><author-keyword>art installation</author-keyword><author-keyword>int art</author-keyword><author-keyword>Kinect</author-keyword><author-keyword>OpenFrameworks</author-keyword><author-keyword>range image</author-keyword><author-keyword>simulation of running water</author-keyword><author-keyword>Stone sculpture</author-keyword><author-keyword>water drops</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Art installation</mainterm><mainterm weight="b" candidate="n">int art</mainterm><mainterm weight="b" candidate="n">Kinect</mainterm><mainterm weight="b" candidate="n">OpenFrameworks</mainterm><mainterm weight="b" candidate="n">Range images</mainterm><mainterm weight="b" candidate="n">Running waters</mainterm><mainterm weight="b" candidate="n">Stone sculpture</mainterm><mainterm weight="b" candidate="n">Surface modeling</mainterm><mainterm weight="b" candidate="n">Water drop</mainterm></idxterms><subject-areas><subject-area code="1201" abbrev="ARTS">Arts and Humanities (miscellaneous)</subject-area><subject-area code="1709" abbrev="COMP">Human-Computer Interaction</subject-area><subject-area code="1704" abbrev="COMP">Computer Graphics and Computer-Aided Design</subject-area><subject-area code="1703" abbrev="COMP">Computational Theory and Mathematics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-11-16T12:02:41.990Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="25" month="07" timestamp="2018-07-25T12:02:54.000054-04:00" year="2018"/><ait:date-sort day="03" month="04" year="2017"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2017 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1080/14626268.2016.1258422</ce:doi>
+                    <itemid idtype="PUI">613296622</itemid>
+                    <itemid idtype="CAR-ID">658284173</itemid>
+                    <itemid idtype="CPX">20164703041741</itemid>
+                    <itemid idtype="SCP">84995615081</itemid>
+                    <itemid idtype="SGR">84995615081</itemid>
+                </itemidlist><history>
+                    <date-created day="09" month="06" timestamp="BST 06:31:53" year="2017"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword>3-D surface model</author-keyword>
+                        <author-keyword>art installation</author-keyword>
+                        <author-keyword>int art</author-keyword>
+                        <author-keyword>Kinect</author-keyword>
+                        <author-keyword>OpenFrameworks</author-keyword>
+                        <author-keyword>range image</author-keyword>
+                        <author-keyword>simulation of running water</author-keyword>
+                        <author-keyword>Stone sculpture</author-keyword>
+                        <author-keyword>water drops</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Light fountain–a virtually enhanced stone sculpture</titletext></citation-title><author-group><author auid="6603857705" orcid="0000-0002-9268-6825" seq="1" type="auth"><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name><preferred-name>
+                            <ce:initials>F.</ce:initials>
+                            <ce:indexed-name>Solina F.</ce:indexed-name>
+                            <ce:surname>Solina</ce:surname>
+                            <ce:given-name>Franc</ce:given-name>
+                        </preferred-name></author><author auid="57191976811" seq="2" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Meden B.</ce:indexed-name><ce:surname>Meden</ce:surname><ce:given-name>Blaž</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Meden B.</ce:indexed-name>
+                            <ce:surname>Meden</ce:surname>
+                            <ce:given-name>Blaž</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580862"><organization>Computer Vision Laboratory</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106" dptid="104580862"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>F.</ce:initials>
+                        <ce:indexed-name>Solina F.</ce:indexed-name>
+                        <ce:surname>Solina</ce:surname>
+                        <ce:given-name>Franc</ce:given-name>
+                    </person><affiliation country="svn"><organization>Computer Vision Laboratory</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2016 Informa UK Limited, trading as Taylor &amp; Francis Group.</publishercopyright>
+                        <ce:para>The article describes the making of an art piece combining stone sculpture and virtual water. The motivation for this art piece was to enrich the usual static format of a stone sculpture with a dynamic dimension. The dynamic dimension is attained with virtual water droplets running over the stone surface which behave as real water droplets. The 3-D surface of a specially carved stone sculpture is during an exhibition continuously captured by the Kinect sensor. Each water drop out of many thousands, which are introduced into the installation as evenly distributed rain drops, falling over the sculpture, are simulated individually to run over the stone surface following the largest slope. These simulated water drops are projected with a video projector as light points on the surface of the sculpture. An observer can enjoy simultaneously the haptic experience of touching the stone and observing a digitally generated but physically grounded animation.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="144891" type="j"><sourcetitle>Digital Creativity</sourcetitle><sourcetitle-abbrev>Digit. Creat.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Digital Creativity</translated-sourcetitle><issn type="electronic">17443806</issn><issn type="print">14626268</issn><codencode>DICRF</codencode><volisspag>
+                        <voliss issue="2" volume="28"/>
+                        <pagerange first="89" last="102"/>
+                    </volisspag><publicationyear first="2017"/><publicationdate>
+                        <year>2017</year>
+                        <month>04</month>
+                        <day>03</day>
+                    <date-text xfab-added="true">3 April 2017</date-text></publicationdate><website>
+                        <ce:e-address type="email">www.tandf.co.uk/journals/titles/14626268/asp</ce:e-address>
+                    </website><publisher>
+                        <publishername>Routledge</publishername>
+                        <ce:e-address type="email">info@tandf.co.uk</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1201</classification>
+                            <classification>1709</classification>
+                            <classification>1704</classification>
+                            <classification>1703</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ARTS</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="29">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Augmented Sculpture: Computer Ghosts of Physical Artifacts</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1162/002409403321921433</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0001</itemid>
+                                <itemid idtype="SGR">70449864191</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Adzhiev V.</ce:indexed-name>
+                                    <ce:surname>Adzhiev</ce:surname>
+                                    <ce:given-name>Valery</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Comninos P.</ce:indexed-name>
+                                    <ce:surname>Comninos</ce:surname>
+                                    <ce:given-name>Peter</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pasko A.</ce:indexed-name>
+                                    <ce:surname>Pasko</ce:surname>
+                                    <ce:given-name>Alexander</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Leonardo</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="36"/>
+                                <pagerange first="211" last="219"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Adzhiev, Valery, Peter, Comninos, and Alexander, Pasko. 2003. “Augmented Sculpture:Computer Ghosts of Physical Artifacts.” Leonardo 36 (3):211–219. doi:10.1162/002409403321921433</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0002</itemid>
+                                <itemid idtype="SGR">85020569860</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Andersen M.R.</ce:indexed-name>
+                                    <ce:surname>Andersen</ce:surname>
+                                    <ce:given-name>Michael Riis</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Jensen T.</ce:indexed-name>
+                                    <ce:surname>Jensen</ce:surname>
+                                    <ce:given-name>Thomas</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Lisouski P.</ce:indexed-name>
+                                    <ce:surname>Lisouski</ce:surname>
+                                    <ce:given-name>Pavel</ce:given-name>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.K.</ce:initials>
+                                    <ce:indexed-name>Mortensen A.K.</ce:indexed-name>
+                                    <ce:surname>Mortensen</ce:surname>
+                                    <ce:given-name>Anders Krogh</ce:given-name>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.K.</ce:initials>
+                                    <ce:indexed-name>Hansen M.K.</ce:indexed-name>
+                                    <ce:surname>Hansen</ce:surname>
+                                    <ce:given-name>Mikkel Kragh</ce:given-name>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Gregersen T.</ce:indexed-name>
+                                    <ce:surname>Gregersen</ce:surname>
+                                    <ce:given-name>Torben</ce:given-name>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ahrendt P.</ce:indexed-name>
+                                    <ce:surname>Ahrendt</ce:surname>
+                                    <ce:given-name>Peter</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2012"/>
+                            <ref-text>Kinect Depth Sensor Evaluation for Computer Vision Applications. Technical Report. Aarhus University, Department of Engineering</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Andersen, Michael Riis, Thomas, Jensen, Pavel, Lisouski, Anders Krogh, Mortensen, Mikkel Kragh, Hansen, Torben, Gregersen, and Peter, Ahrendt. 2012. Kinect Depth Sensor Evaluation for Computer Vision Applications. Technical Report. Aarhus University, Department of Engineering.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0003</itemid>
+                                <itemid idtype="SGR">85020559562</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <collaboration seq="1">
+                                    <ce:indexed-name>AS 2015</ce:indexed-name>
+                                    <ce:text>AS 2015</ce:text>
+                                </collaboration>
+                            </ref-authors>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://speculumartium.si</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Artium Speculum 2015.” [Online]. Trbovlje. Accessed 18 October 2015</ref-text>
+                        </ref-info>
+                        <ref-fulltext>AS 2015. 2015. “Artium Speculum 2015.” [Online]. Trbovlje. Accessed 18 October 2015. http://speculumartium.si.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interactive 3D Digitization, Retrieval, and Analysis of Ancient Sculptures, Using Infrared Depth Sensors for Mobile Devices</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0004</itemid>
+                                <itemid idtype="SGR">84947291839</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Barmpoutis A.</ce:indexed-name>
+                                    <ce:surname>Barmpoutis</ce:surname>
+                                    <ce:given-name>Angelos</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Eleni B.</ce:indexed-name>
+                                    <ce:surname>Eleni</ce:surname>
+                                    <ce:given-name>Bozia</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Daniele F.</ce:indexed-name>
+                                    <ce:surname>Daniele</ce:surname>
+                                    <ce:given-name>Fortuna.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Universal Access in Human–Computer Interaction. Access to the Human Environment and Culture</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="3" last="11"/>
+                            </ref-volisspag>
+                            <ref-text>Lecture Notes in Computer Science, Vol. 9178, edited by Antona, Margherita, Stephanidis, Constantine, Los Angeles, CA: Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Barmpoutis, Angelos, Eleni Bozia, and Daniele Fortuna., 2015. “Interactive 3D Digitization, Retrieval, and Analysis of Ancient Sculptures, Using Infrared Depth Sensors for Mobile Devices.” In Universal Access in Human–Computer Interaction. Access to the Human Environment and Culture, Lecture Notes in Computer Science, Vol. 9178, edited by Antona, Margherita, Stephanidis, Constantine, 3–11. Los Angeles, CA:Springer.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0005</itemid>
+                                <itemid idtype="SGR">85020558537</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Brockmeyer E.</ce:indexed-name>
+                                    <ce:surname>Brockmeyer</ce:surname>
+                                    <ce:given-name>Eric</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Marsico J.</ce:indexed-name>
+                                    <ce:surname>Marsico</ce:surname>
+                                    <ce:given-name>Jake</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2014"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://mti.code.arc.cmu.edu/2014/?p=4129</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Making Things Interactive: Self Organizing Still-life (SOS) by David Fried, 2007 Onwards.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Brockmeyer, Eric, and Jake, Marsico. 2014. “Making Things Interactive:Self Organizing Still-life (SOS) by David Fried, 2007 Onwards.” [Online]. Accessed 1 September 2016. http://mti.code.arc.cmu.edu/2014/?p=4129.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The Creative Process Where the Artist Is Amplified or Superseded by the Computer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.2307/1572419</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0006</itemid>
+                                <itemid idtype="SGR">12344325768</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Cornock S.</ce:indexed-name>
+                                    <ce:surname>Cornock</ce:surname>
+                                    <ce:given-name>Stroud</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Edmonds E.</ce:indexed-name>
+                                    <ce:surname>Edmonds</ce:surname>
+                                    <ce:given-name>Ernest</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Leonardo</ref-sourcetitle>
+                            <ref-publicationyear first="1973"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="6"/>
+                                <pagerange first="11" last="16"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cornock, Stroud, and Ernest, Edmonds. 1973. “The Creative Process Where the Artist Is Amplified or Superseded by the Computer.” Leonardo 6 (1):11–16. doi:10.2307/1572419</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Kinect.” [Online]</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0007</itemid>
+                                <itemid idtype="SGR">85020611255</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <collaboration seq="1">
+                                    <ce:indexed-name>&#x93;Creative Applications Network-All Posts Tagged</ce:indexed-name>
+                                    <ce:text>“Creative Applications Network–All Posts Tagged</ce:text>
+                                </collaboration>
+                            </ref-authors>
+                            <ref-sourcetitle>Accessed</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="1"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.creativeapplications.net/tag/kinect/</ce:e-address>
+                            </ref-website>
+                            <ref-text>Accessed 1 September</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Creative Applications Network–All Posts Tagged:Kinect.” [Online]. Accessed 1 September 2016. http://www.creativeapplications.net/tag/kinect/.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0008</itemid>
+                                <itemid idtype="SGR">85020604935</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.M.</ce:initials>
+                                    <ce:indexed-name>Danforth L.M.</ce:indexed-name>
+                                    <ce:surname>Danforth</ce:surname>
+                                    <ce:given-name>Loring M.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Ancient Macedonia, Alexander the Great and the Star or Sun of Vergina: National Symbols and the Conflict Between Greece and the Republic of Macedonia. Wiley Online Library</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Danforth, Loring M., 2010. Ancient Macedonia, Alexander the Great and the Star or Sun of Vergina:National Symbols and the Conflict Between Greece and the Republic of Macedonia. Wiley Online Library.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0009</itemid>
+                                <itemid idtype="SGR">85020593797</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>“Develop Kinect.” [Online]</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://developkinect.com</ce:e-address>
+                            </ref-website>
+                            <ref-text>Accessed</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Develop Kinect.” [Online]. Accessed 1 September 2016. http://developkinect.com.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Artist, Evaluator and Curator: Three Viewpoints on Interactive Art, Evaluation and Audience Experience</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1080/14626260903083579</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0010</itemid>
+                                <itemid idtype="SGR">68549122807</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Edmonds E.</ce:indexed-name>
+                                    <ce:surname>Edmonds</ce:surname>
+                                    <ce:given-name>Ernest</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bilda Z.</ce:indexed-name>
+                                    <ce:surname>Bilda</ce:surname>
+                                    <ce:given-name>Zafer</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Muller L.</ce:indexed-name>
+                                    <ce:surname>Muller</ce:surname>
+                                    <ce:given-name>Lizzie</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Digital Creativity</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="20"/>
+                                <pagerange first="141" last="151"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Edmonds, Ernest, Zafer, Bilda, and Lizzie, Muller. 2009. “Artist, Evaluator and Curator:Three Viewpoints on Interactive Art, Evaluation and Audience Experience.” Digital Creativity 20 (3):141–151. doi:10.1080/14626260903083579</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0012</itemid>
+                                <itemid idtype="SGR">85020611866</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Fried D.</ce:indexed-name>
+                                    <ce:surname>Fried</ce:surname>
+                                    <ce:given-name>David.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2011"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.davidfried.com</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Self Organizing Still-Life.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Fried, David., 2011. “Self Organizing Still-Life.” [Online]. Accessed 1 September 2016. http://www.davidfried.com.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0012a</itemid>
+                                <itemid idtype="SGR">85020611865</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Lehanneur M.</ce:indexed-name>
+                                    <ce:surname>Lehanneur</ce:surname>
+                                    <ce:given-name>Mathieu.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Liquid Marble</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.dezeen.com/2016/09/16/mathieu-lehanneur-liquid-marble-vanda-sculpture-installation-london-design-festival-2016/</ce:e-address>
+                            </ref-website>
+                            <ref-text>[Online]. Accessed 20 October 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Lehanneur, Mathieu., 2016. “Liquid Marble.” [Online]. Accessed 20 October 2016. http://www.dezeen.com/2016/09/16/mathieu-lehanneur-liquid-marble-vanda-sculpture-installation-london-design-festival-2016/.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0013</itemid>
+                                <itemid idtype="SGR">85020559497</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Meden B.</ce:indexed-name>
+                                    <ce:surname>Meden</ce:surname>
+                                    <ce:given-name>Blaž</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Jersan B.</ce:indexed-name>
+                                    <ce:surname>Jeršan</ce:surname>
+                                    <ce:given-name>Blaž</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Rajar G.</ce:indexed-name>
+                                    <ce:surname>Rajar</ce:surname>
+                                    <ce:given-name>Gorazd</ce:given-name>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Solina F.</ce:indexed-name>
+                                    <ce:surname>Solina</ce:surname>
+                                    <ce:given-name>Franc</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Virtually Enhanced Sculpture</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-text>ROSUS 2015 : računalniška obdelava slik in njena uporaba v Sloveniji, edited by Božidar Potočnik, 81–86. Maribor: Fakulteta za elektrotehniko, računalništvo in informatiko</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Meden, Blaž, Blaž, Jeršan, Gorazd, Rajar, and Franc, Solina. 2015. “Virtually Enhanced Sculpture.” ROSUS 2015:računalniška obdelava slik in njena uporaba v Sloveniji, edited by Božidar Potočnik, 81–86. Maribor:Fakulteta za elektrotehniko, računalništvo in informatiko.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0014</itemid>
+                                <itemid idtype="SGR">85020616703</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <collaboration seq="1">
+                                    <ce:indexed-name>Mimicry</ce:indexed-name>
+                                    <ce:text>Mimicry</ce:text>
+                                </collaboration>
+                            </ref-authors>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://mimicry.monobanda.nl</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Project Mimicry.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mimicry. 2015. “Project Mimicry.” [Online]. Accessed 1 September 2016. http://mimicry.monobanda.nl.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0015</itemid>
+                                <itemid idtype="SGR">85020558519</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Noguchi I.</ce:indexed-name>
+                                    <ce:surname>Noguchi</ce:surname>
+                                    <ce:given-name>Isamu.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="1986"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.metmuseum.org/art/collection/search/44520</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Water Stone.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Noguchi, Isamu., 1986. “Water Stone.” [Online]. Accessed 1 September 2016. http://www.metmuseum.org/art/collection/search/44520.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0016</itemid>
+                                <itemid idtype="SGR">85020589768</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <collaboration seq="1">
+                                    <ce:indexed-name>Obscura</ce:indexed-name>
+                                    <ce:text>Obscura</ce:text>
+                                </collaboration>
+                            </ref-authors>
+                            <ref-publicationyear first="2016"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://obscuradigital.com/work/salesforce-video-wall/</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Waterfall, Created for Salesforce Lobby, San Francisco.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Obscura. 2016. “Waterfall, Created for Salesforce Lobby, San Francisco.” [Online]. Accessed 1 September 2016. http://obscuradigital.com/work/salesforce-video-wall/.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>From Illustrations to an Interactive Art Installation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1108/JICES-02-2014-0007</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0017</itemid>
+                                <itemid idtype="SGR">84929177092</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Pavlin E.</ce:indexed-name>
+                                    <ce:surname>Pavlin</ce:surname>
+                                    <ce:given-name>Erika</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Ž.</ce:initials>
+                                    <ce:indexed-name>Elsner Z.</ce:indexed-name>
+                                    <ce:surname>Elsner</ce:surname>
+                                    <ce:given-name>Žiga</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Jagodnik T.</ce:indexed-name>
+                                    <ce:surname>Jagodnik</ce:surname>
+                                    <ce:given-name>Tadej</ce:given-name>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Batagelj B.</ce:indexed-name>
+                                    <ce:surname>Batagelj</ce:surname>
+                                    <ce:given-name>Borut</ce:given-name>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Solina F.</ce:indexed-name>
+                                    <ce:surname>Solina</ce:surname>
+                                    <ce:given-name>Franc</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Information, Communication and Ethics in Society</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="13"/>
+                                <pagerange first="130" last="145"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pavlin, Erika, Žiga, Elsner, Tadej, Jagodnik, Borut, Batagelj, and Franc, Solina. 2015. “From Illustrations to an Interactive Art Installation.” Journal of Information, Communication and Ethics in Society 13 (2):130–145. doi:10.1108/JICES-02-2014-0007</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0018</itemid>
+                                <itemid idtype="SGR">85020583770</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Penven A.</ce:indexed-name>
+                                    <ce:surname>Penven</ce:surname>
+                                    <ce:given-name>Audrey.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2011"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://coilhouse.net/2011/03/audrey-penven-dancing-with-invisible-light</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Dancing with Invisible Light.” Coilhouse. [Online]. Accessed 1 September 2016. /</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Penven, Audrey., 2011. “Dancing with Invisible Light.” Coilhouse. [Online]. Accessed 1 September 2016. http://coilhouse.net/2011/03/audrey-penven-dancing-with-invisible-light/.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A Sculptural Marble of Prime Quality in Antiquity–The Dolomitic Marble of the Sivec Mountains in Macedonia</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1111/j.1475-4754.2012.00689.x</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0019</itemid>
+                                <itemid idtype="SGR">84873747906</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Prochaska W.</ce:indexed-name>
+                                    <ce:surname>Prochaska</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Archaeometry</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="55"/>
+                                <pagerange first="179" last="197"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Prochaska, W., 2013. “A Sculptural Marble of Prime Quality in Antiquity–The Dolomitic Marble of the Sivec Mountains in Macedonia.” Archaeometry 55 (2):179–197. doi:10.1111/j.1475-4754.2012.00689.x</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interactive and Audience Adaptive Digital Signage Using Real-time Computer Vision</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.5772/55516</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0020</itemid>
+                                <itemid idtype="SGR">84876937425</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ravnik R.</ce:indexed-name>
+                                    <ce:surname>Ravnik</ce:surname>
+                                    <ce:given-name>Robert</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Solina F.</ce:indexed-name>
+                                    <ce:surname>Solina</ce:surname>
+                                    <ce:given-name>Franc</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Advanced Robotic Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="1" last="7"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ravnik, Robert, and Franc, Solina. 2013. “Interactive and Audience Adaptive Digital Signage Using Real-time Computer Vision.” International Journal of Advanced Robotic Systems 10:1–7. doi:10.5772/55516</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0021</itemid>
+                                <itemid idtype="SGR">85020568224</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.E.</ce:initials>
+                                    <ce:indexed-name>Reed S.E.</ce:indexed-name>
+                                    <ce:surname>Reed</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Kreylos O.</ce:indexed-name>
+                                    <ce:surname>Kreylos</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hsi S.</ce:indexed-name>
+                                    <ce:surname>Hsi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.H.</ce:initials>
+                                    <ce:indexed-name>Kellogg L.H.</ce:indexed-name>
+                                    <ce:surname>Kellogg</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Schladow G.</ce:indexed-name>
+                                    <ce:surname>Schladow</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Yikilmaz M.B.</ce:indexed-name>
+                                    <ce:surname>Yikilmaz</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Segale H.</ce:indexed-name>
+                                    <ce:surname>Segale</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Silverman J.</ce:indexed-name>
+                                    <ce:surname>Silverman</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Yalowitz S.</ce:indexed-name>
+                                    <ce:surname>Yalowitz</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Sato E.</ce:indexed-name>
+                                    <ce:surname>Sato</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>“Shaping Watersheds Exhibit: An Interactive, Augmented Reality Sandbox for Advancing Earth Science Education.” AGU Fall Meeting Abstracts, Vol. 101</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Reed, S. E., O., Kreylos, S., Hsi, L. H., Kellogg, G., Schladow, M. B., Yikilmaz, H., Segale, J., Silverman, S., Yalowitz, and E., Sato. 2014. “Shaping Watersheds Exhibit:An Interactive, Augmented Reality Sandbox for Advancing Earth Science Education.” AGU Fall Meeting Abstracts, Vol. 101.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0022</itemid>
+                                <itemid idtype="SGR">85020583811</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <collaboration seq="1">
+                                    <ce:indexed-name>SandyStation</ce:indexed-name>
+                                    <ce:text>SandyStation</ce:text>
+                                </collaboration>
+                            </ref-authors>
+                            <ref-publicationyear first="2014"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://en.sandystation.cz/</ce:e-address>
+                            </ref-website>
+                            <ref-text>“SandyStation The Interactive Sandbox.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>SandyStation. 2014. “SandyStation The Interactive Sandbox.” [Online]. Accessed 1 September 2016. http://en.sandystation.cz/.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>15 Seconds of Fame</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1162/0024094041139274</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0023</itemid>
+                                <itemid idtype="SGR">13444296959</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Solina F.</ce:indexed-name>
+                                    <ce:surname>Solina</ce:surname>
+                                    <ce:given-name>Franc.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Leonardo</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="37"/>
+                                <pagerange first="105" last="110"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Solina, Franc., 2004. “15 Seconds of Fame.” Leonardo 37 (2):105–110. doi:10.1162/0024094041139274</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0024</itemid>
+                                <itemid idtype="SGR">85020593827</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Solina F.</ce:indexed-name>
+                                    <ce:surname>Solina</ce:surname>
+                                    <ce:given-name>Franc.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://youtu.be/nqituTE-_SI</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Light Fountain–An Interactive Art Installation.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Solina, Franc., 2015a. “Light Fountain–An Interactive Art Installation.” [Online]. Accessed 1 September 2016. https://youtu.be/nqituTE-_SI.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0025</itemid>
+                                <itemid idtype="SGR">85020594220</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Solina F.</ce:indexed-name>
+                                    <ce:surname>Solina</ce:surname>
+                                    <ce:given-name>Franc.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://youtu.be/XOwh2ri2rbo</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Light Fountain–With an Obstacle.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Solina, Franc., 2015b. “Light Fountain–With an Obstacle.” [Online]. Accessed 1 September 2016. https://youtu.be/XOwh2ri2rbo.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CIT0026</itemid>
+                                <itemid idtype="SGR">85020561014</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>St. Jean J.</ce:indexed-name>
+                                    <ce:surname>St. Jean</ce:surname>
+                                    <ce:given-name>Jared.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2012"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://developkinect.com/news/augmented-reality/augmented-reality-evolution-timeline-using-openframeworks</ce:e-address>
+                            </ref-website>
+                            <ref-text>“Augmented Reality Evolution Timeline Using openFrameworks.” [Online]. Accessed 1 September 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>St. Jean, Jared., 2012. “Augmented Reality Evolution Timeline Using openFrameworks.” [Online]. Accessed 1 September 2016. http://developkinect.com/news/augmented-reality/augmented-reality-evolution-timeline-using-openframeworks.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>New Media Art as Research: Art-making Beyond the Autonomy of Art and Aesthetics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1386/tear.6.3.233_1</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0027</itemid>
+                                <itemid idtype="SGR">85050170914</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Strehovec J.</ce:indexed-name>
+                                    <ce:surname>Strehovec</ce:surname>
+                                    <ce:given-name>Janez.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Technoetic Arts</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="6"/>
+                                <pagerange first="233" last="250"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Strehovec, Janez., 2009. “New Media Art as Research:Art-making Beyond the Autonomy of Art and Aesthetics.” Technoetic Arts 6 (3):233–250. doi:10.1386/tear.6.3.233_1</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>FreeScup: A Novel Platform for Assisting Sculpture Pose Design</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TMM.2016.2609407</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0028</itemid>
+                                <itemid idtype="SGR">85007420627</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wu Y.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                    <ce:given-name>Yirui</ce:given-name>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Tong L.</ce:indexed-name>
+                                    <ce:surname>Tong</ce:surname>
+                                    <ce:given-name>Lu</ce:given-name>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Yuan Z.</ce:indexed-name>
+                                    <ce:surname>Yuan</ce:surname>
+                                    <ce:given-name>Zehuan</ce:given-name>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wang H.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                    <ce:given-name>Hao</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Multimedia</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>in press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Wu, Yirui, Tong Lu, Zehuan, Yuan, Hao, Wang. 2016. “FreeScup:A Novel Platform for Assisting Sculpture Pose Design.” IEEE Transactions on Multimedia, in press. doi:10.1109/TMM.2016.2609407.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Microsoft Kinect Sensor and Its Effect</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/MMUL.2012.24</itemid>
+                                <itemid idtype="FRAGMENTID">CIT0029</itemid>
+                                <itemid idtype="SGR">84860660860</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhang Z.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                    <ce:given-name>Zhengyou.</ce:given-name>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE MultiMedia</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="19"/>
+                                <pagerange first="4" last="10"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhang, Zhengyou., 2012. “Microsoft Kinect Sensor and Its Effect.” IEEE MultiMedia 19 (2):4–10. doi:10.1109/MMUL.2012.24</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

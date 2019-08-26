@@ -1,0 +1,1566 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85050871091</prism:url><dc:identifier>SCOPUS_ID:85050871091</dc:identifier><eid>2-s2.0-85050871091</eid><prism:doi>10.1109/RCIS.2018.8406662</prism:doi><dc:title>Social media comparison and analysis: The best data source for research?</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>Proceedings - International Conference on Research Challenges in Information Science</prism:publicationName><dc:publisher>
+                        IEEE Computer Society
+                        help@computer.org
+                    </dc:publisher><source-id>20300195007</source-id><prism:isbn>9781538665176</prism:isbn><prism:issn>21511357 21511349</prism:issn><prism:volume>2018-May</prism:volume><prism:startingPage>1</prism:startingPage><prism:endingPage>10</prism:endingPage><prism:pageRange>1-10</prism:pageRange><prism:coverDate>2018-07-06</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="54896373600"><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54896373600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>In the past decade, social media has become an important part of our everyday life. The employment of different social media changes the way we communicate, collaborate, gather information and consequently perceive the world around us. Thus, researchers from different fields exploit the social media to provide deeper insight into human behaviour. Each social media possesses its own privacy politics and access to publicly available data. In this paper, we present a generic framework along with the tools to analyse different social media. The analysis shows basic usage statistics, reach and engagement differences, language, sentiment and gender identification of each social network data. We compare data from Twitter, Facebook, Tumblr, Google+ and YouTube. The results reveal specifics of each social media, which to some extent also depend on the data available and the selected seed keywords. We uncover that popularity of selected topics in social media is proportional to the number of hits on Google, celebrities and politicians are the most talked topics and that behaviour of users across social media is different. For example, Twitter users prefer to post more, while Facebook and Youtube users prefer to comment. The majority of all social media posts are in English, larger number of them are negative and often written by male users. The results of the proposed framework should serve as a tool to identify the appropriate source of data for the representative analysis of social media.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85050871091" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85050871091&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85050871091&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="54896373600"><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54896373600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55386991900"><ce:initials>S.</ce:initials><ce:indexed-name>Zitnik S.</ce:indexed-name><ce:surname>Žitnik</ce:surname><ce:given-name>Slavko</ce:given-name><preferred-name><ce:initials>S.</ce:initials><ce:indexed-name>Žitnik S.</ce:indexed-name><ce:surname>Žitnik</ce:surname><ce:given-name>Slavko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55386991900</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>application programming interface (API)</author-keyword><author-keyword>Facebook</author-keyword><author-keyword>Google+</author-keyword><author-keyword>social data</author-keyword><author-keyword>social media</author-keyword><author-keyword>Tumblr</author-keyword><author-keyword>Twitter</author-keyword><author-keyword>YouTube</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Facebook</mainterm><mainterm weight="b" candidate="n">Google</mainterm><mainterm weight="b" candidate="n">Social datum</mainterm><mainterm weight="b" candidate="n">Social media</mainterm><mainterm weight="b" candidate="n">Tumblr</mainterm><mainterm weight="b" candidate="n">Twitter</mainterm><mainterm weight="b" candidate="n">YouTube</mainterm></idxterms><subject-areas><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1710" abbrev="COMP">Information Systems</subject-area><subject-area code="1712" abbrev="COMP">Software</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-08-06T21:43:03.917Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/car</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="08" month="04" timestamp="2019-04-08T20:00:02.000002-04:00" year="2019"/><ait:date-sort day="06" month="07" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/RCIS.2018.8406662</ce:doi>
+                    <itemid idtype="PUI">623326115</itemid>
+                    <itemid idtype="CAR-ID">912043196</itemid>
+                    <itemid idtype="CPX">20183205651940</itemid>
+                    <itemid idtype="REAXYSCAR">20181354712</itemid>
+                    <itemid idtype="SCOPUS">20182325664</itemid>
+                    <itemid idtype="SCP">85050871091</itemid>
+                    <itemid idtype="SGR">85050871091</itemid>
+                </itemidlist><history>
+                    <date-created day="06" month="08" timestamp="BST 08:18:48" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">application programming interface (API)</author-keyword>
+                        <author-keyword xml:lang="eng">Facebook</author-keyword>
+                        <author-keyword xml:lang="eng">Google+</author-keyword>
+                        <author-keyword xml:lang="eng">social data</author-keyword>
+                        <author-keyword xml:lang="eng">social media</author-keyword>
+                        <author-keyword xml:lang="eng">Tumblr</author-keyword>
+                        <author-keyword xml:lang="eng">Twitter</author-keyword>
+                        <author-keyword xml:lang="eng">YouTube</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Social media comparison and analysis: The best data source for research?</titletext></citation-title><author-group><author auid="54896373600" seq="1" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Blagus N.</ce:indexed-name>
+                            <ce:surname>Blagus</ce:surname>
+                            <ce:given-name>Neli</ce:given-name>
+                        </preferred-name></author><author auid="55386991900" seq="2" type="auth"><ce:initials>S.</ce:initials><ce:indexed-name>Zitnik S.</ce:indexed-name><ce:surname>Žitnik</ce:surname><ce:given-name>Slavko</ce:given-name><preferred-name>
+                            <ce:initials>S.</ce:initials>
+                            <ce:indexed-name>Žitnik S.</ce:indexed-name>
+                            <ce:surname>Žitnik</ce:surname>
+                            <ce:given-name>Slavko</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580834"><organization>University of Ljubljana</organization><organization>Faculty for Computer and Information Science</organization><city>Ljubljana</city><affiliation-id afid="60031106" dptid="104580834"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>In the past decade, social media has become an important part of our everyday life. The employment of different social media changes the way we communicate, collaborate, gather information and consequently perceive the world around us. Thus, researchers from different fields exploit the social media to provide deeper insight into human behaviour. Each social media possesses its own privacy politics and access to publicly available data. In this paper, we present a generic framework along with the tools to analyse different social media. The analysis shows basic usage statistics, reach and engagement differences, language, sentiment and gender identification of each social network data. We compare data from Twitter, Facebook, Tumblr, Google+ and YouTube. The results reveal specifics of each social media, which to some extent also depend on the data available and the selected seed keywords. We uncover that popularity of selected topics in social media is proportional to the number of hits on Google, celebrities and politicians are the most talked topics and that behaviour of users across social media is different. For example, Twitter users prefer to post more, while Facebook and Youtube users prefer to comment. The majority of all social media posts are in English, larger number of them are negative and often written by male users. The results of the proposed framework should serve as a tool to identify the appropriate source of data for the representative analysis of social media.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="20300195007" type="p"><sourcetitle>Proceedings - International Conference on Research Challenges in Information Science</sourcetitle><sourcetitle-abbrev>Proc. Int. Conf. Res. Challenges Inf. Sci.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Proceedings - International Conference on Research Challenges in Information Science</translated-sourcetitle><issuetitle>2018 12th International Conference on Research Challenges in Information Science, RCIS 2018</issuetitle><issn type="electronic">21511357</issn><issn type="print">21511349</issn><isbn length="13" level="volume" type="electronic">9781538665176</isbn><volisspag>
+                        <voliss volume="2018-May"/>
+                        <pagerange first="1" last="10"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>07</month>
+                        <day>06</day>
+                    <date-text xfab-added="true">6 July 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://ieeexplore.ieee.org/xpl/conferences.jsp</ce:e-address>
+                    </website><publisher>
+                        <publishername>IEEE Computer Society</publishername>
+                        <ce:e-address type="email">help@computer.org</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>12th International Conference on Research Challenges in Information Science, RCIS 2018</confname>
+                                <confnumber>12</confnumber>
+                                <confseriestitle>International Conference on Research Challenges in Information Science</confseriestitle>
+                                <conflocation country="fra">
+                                    <city>Nantes</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="29" month="05" year="2018"/>
+                                    <enddate day="31" month="05" year="2018"/>
+                                </confdate>
+                                <confcatnumber>CFP1840D-ART</confcatnumber>
+                                <confcode>137867</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1706</classification>
+                            <classification>1710</classification>
+                            <classification>1712</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                                                 
+                                <classification-code>723</classification-code>
+                                                                 
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                                                             
+                            </classification>
+                            <classification>
+                                                                 
+                                <classification-code>971</classification-code>
+                                                                 
+                                <classification-description>Social Sciences</classification-description>
+                                                             
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                                                 
+                                <classification-code>902</classification-code>
+                                                                 
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                                             
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="47">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Users of the world, unite the challenges and opportunities of social media</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">71149088987</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.M.</ce:initials>
+                                    <ce:indexed-name>Kaplan A.M.</ce:indexed-name>
+                                    <ce:surname>Kaplan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Haenlein M.</ce:indexed-name>
+                                    <ce:surname>Haenlein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bus. Horizons</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="53"/>
+                                <pagerange first="59" last="68"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. M. Kaplan and M. Haenlein, "Users of the world, unite the challenges and opportunities of social media, " Bus. Horizons, vol. 53, no. 1, pp. 59-68, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mining social media: A brief introduction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84888883246</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gundecha P.</ce:indexed-name>
+                                    <ce:surname>Gundecha</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Liu H.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>New Directions in Informatics, Optimization, Logistics, and Production. Informs</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="17"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Gundecha and H. Liu, "Mining social media: A brief introduction, " in New Directions in Informatics, Optimization, Logistics, and Production. Informs, 2012, pp. 1-17.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Social media analytics: A survey of techniques, tools and platforms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84922001946</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Batrinca B.</ce:indexed-name>
+                                    <ce:surname>Batrinca</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.C.</ce:initials>
+                                    <ce:indexed-name>Treleaven P.C.</ce:indexed-name>
+                                    <ce:surname>Treleaven</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>AI &amp; SOCIETY</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="30"/>
+                                <pagerange first="89" last="116"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>B. Batrinca and P. C. Treleaven, "Social media analytics: A survey of techniques, tools and platforms, " AI &amp; SOCIETY, vol. 30, no. 1, pp. 89-116, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Using APIs for data collection on social media</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904197321</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Lomborg S.</ce:indexed-name>
+                                    <ce:surname>Lomborg</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Bechmann A.</ce:indexed-name>
+                                    <ce:surname>Bechmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Inform. Soc</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="30"/>
+                                <pagerange first="256" last="265"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Lomborg and A. Bechmann, "Using APIs for data collection on social media, " Inform. Soc., vol. 30, no. 4, pp. 256-265, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Technical limitations for designing applications for social media</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84931032517</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Reuter C.</ce:indexed-name>
+                                    <ce:surname>Reuter</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Scholl S.</ce:indexed-name>
+                                    <ce:surname>Scholl</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mensch &amp; Computer Workshopband</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="131" last="139"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C. Reuter and S. Scholl, "Technical limitations for designing applications for social media. " in Mensch &amp; Computer Workshopband, 2014, pp. 131-139.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The open laboratory: Limits and possibilities of using facebook, twitter, and youtube as a research data source</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84901002362</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Giglietto F.</ce:indexed-name>
+                                    <ce:surname>Giglietto</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Rossi L.</ce:indexed-name>
+                                    <ce:surname>Rossi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Bennato D.</ce:indexed-name>
+                                    <ce:surname>Bennato</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Technol. in Hum. Serv</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="3-4" volume="30"/>
+                                <pagerange first="145" last="159"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Giglietto, L. Rossi, and D. Bennato, "The open laboratory: Limits and possibilities of using facebook, twitter, and youtube as a research data source, " J. Technol. in Hum. Serv., vol. 30, no. 3-4, pp. 145-159, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Social media for large studies of behavior</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84913573601</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Ruths D.</ce:indexed-name>
+                                    <ce:surname>Ruths</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pfeffer J.</ce:indexed-name>
+                                    <ce:surname>Pfeffer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="6213" volume="346"/>
+                                <pagerange first="1063" last="1064"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. Ruths and J. Pfeffer, "Social media for large studies of behavior, " Science, vol. 346, no. 6213, pp. 1063-1064, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050868779</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Statista: The Statistics Portal</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.statista.com/</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Statista: The statistics portal, " Jan. 2018. [Online]. Available: https: //www. statista. com/</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Big questions for social media big data: Representativeness, validity and other methodological pitfalls</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84909954481</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Tufekci Z.</ce:indexed-name>
+                                    <ce:surname>Tufekci</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICWSM</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="505" last="514"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Tufekci, "Big questions for social media big data: Representativeness, validity and other methodological pitfalls. " ICWSM, vol. 14, pp. 505-514, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Facebook, twitter and google plus for breaking news: Is there a winner</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84909979497</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Osborne M.</ce:indexed-name>
+                                    <ce:surname>Osborne</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Dredze M.</ce:indexed-name>
+                                    <ce:surname>Dredze</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the ICWSM</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>M. Osborne and M. Dredze, "Facebook, twitter and google plus for breaking news: Is there a winner" in Proceedings of the ICWSM, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Twitterstand: News in tweets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">74049120785</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Sankaranarayanan J.</ce:indexed-name>
+                                    <ce:surname>Sankaranarayanan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Samet H.</ce:indexed-name>
+                                    <ce:surname>Samet</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.E.</ce:initials>
+                                    <ce:indexed-name>Teitler B.E.</ce:indexed-name>
+                                    <ce:surname>Teitler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.D.</ce:initials>
+                                    <ce:indexed-name>Lieberman M.D.</ce:indexed-name>
+                                    <ce:surname>Lieberman</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Sperling J.</ce:indexed-name>
+                                    <ce:surname>Sperling</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 17th Acm Sigspatial International Conference on Advances in Geographic Information Systems. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="42" last="51"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Sankaranarayanan, H. Samet, B. E. Teitler, M. D. Lieberman, and J. Sperling, "Twitterstand: news in tweets, " in Proceedings of the 17th acm sigspatial international conference on advances in geographic information systems. ACM, 2009, pp. 42-51.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Can twitter replace newswire for breaking news</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898066394</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Petrovic S.</ce:indexed-name>
+                                    <ce:surname>Petrovic</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Osborne M.</ce:indexed-name>
+                                    <ce:surname>Osborne</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>McCreadie R.</ce:indexed-name>
+                                    <ce:surname>McCreadie</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>MacDonald C.</ce:indexed-name>
+                                    <ce:surname>MacDonald</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Ounis I.</ce:indexed-name>
+                                    <ce:surname>Ounis</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Shrimpton L.</ce:indexed-name>
+                                    <ce:surname>Shrimpton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICWSM</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>S. Petrovic, M. Osborne, R. McCreadie, C. MacDonald, I. Ounis, and L. Shrimpton, "Can twitter replace newswire for breaking news" in ICWSM, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Breaking news detection and tracking in twitter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649830319</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Phuvipadawat S.</ce:indexed-name>
+                                    <ce:surname>Phuvipadawat</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Murata T.</ce:indexed-name>
+                                    <ce:surname>Murata</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Web Intelligence and Intelligent Agent Technology (WIIAT), 2010 IEEE/WIC/ACM International Conference on</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="120" last="123"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Phuvipadawat and T. Murata, "Breaking news detection and tracking in twitter, " in Web Intelligence and Intelligent Agent Technology (WIIAT), 2010 IEEE/WIC/ACM International Conference on, vol. 3. IEEE, 2010, pp. 120-123.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Twitcident: Fighting fire with information from social web streams</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861035766</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Abel F.</ce:indexed-name>
+                                    <ce:surname>Abel</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hauff C.</ce:indexed-name>
+                                    <ce:surname>Hauff</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.-J.</ce:initials>
+                                    <ce:indexed-name>Houben G.-J.</ce:indexed-name>
+                                    <ce:surname>Houben</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stronkman R.</ce:indexed-name>
+                                    <ce:surname>Stronkman</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Tao K.</ce:indexed-name>
+                                    <ce:surname>Tao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 21st International Conference on World Wide Web. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="305" last="308"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Abel, C. Hauff, G.-J. Houben, R. Stronkman, and K. Tao, "Twitcident: fighting fire with information from social web streams, " in Proceedings of the 21st International Conference on World Wide Web. ACM, 2012, pp. 305-308.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Earthquake shakes twitter users: Real-time event detection by social sensors</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954571408</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Sakaki T.</ce:indexed-name>
+                                    <ce:surname>Sakaki</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Okazaki M.</ce:indexed-name>
+                                    <ce:surname>Okazaki</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Matsuo Y.</ce:indexed-name>
+                                    <ce:surname>Matsuo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 19th International Conference on World Wide Web. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="851" last="860"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>T. Sakaki, M. Okazaki, and Y. Matsuo, "Earthquake shakes twitter users: real-time event detection by social sensors, " in Proceedings of the 19th international conference on World wide web. ACM, 2010, pp. 851-860.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Personal life event detection from social media</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84978045539</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Choudhury S.</ce:indexed-name>
+                                    <ce:surname>Choudhury</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Alani H.</ce:indexed-name>
+                                    <ce:surname>Alani</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>25th ACM Hypertext and Social Media Conference. CEUR</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>S. Choudhury and H. Alani, "Personal life event detection from social media, " in 25th ACM Hypertext and Social Media Conference. CEUR, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Extracting city traffic events from social streams</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84937028264</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Anantharam P.</ce:indexed-name>
+                                    <ce:surname>Anantharam</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Barnaghi P.</ce:indexed-name>
+                                    <ce:surname>Barnaghi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Thirunarayan K.</ce:indexed-name>
+                                    <ce:surname>Thirunarayan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sheth A.</ce:indexed-name>
+                                    <ce:surname>Sheth</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM T. Intel Syst Tec</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="6"/>
+                                <pagerange first="43"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Anantharam, P. Barnaghi, K. Thirunarayan, and A. Sheth, "Extracting city traffic events from social streams, " ACM T. Intel Syst Tec., vol. 6, no. 4, p. 43, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Human rights event detection from heterogeneous social media graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84991759882</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Chen F.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.B.</ce:initials>
+                                    <ce:indexed-name>Neill D.B.</ce:indexed-name>
+                                    <ce:surname>Neill</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Big Data</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="3"/>
+                                <pagerange first="34" last="40"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Chen and D. B. Neill, "Human rights event detection from heterogeneous social media graphs, " Big Data, vol. 3, no. 1, pp. 34-40, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Twitter catches the flu: Detecting influenza epidemics using twitter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80053290412</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Aramaki E.</ce:indexed-name>
+                                    <ce:surname>Aramaki</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Maskawa S.</ce:indexed-name>
+                                    <ce:surname>Maskawa</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Morita M.</ce:indexed-name>
+                                    <ce:surname>Morita</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1568" last="1576"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Aramaki, S. Maskawa, and M. Morita, "Twitter catches the flu: detecting influenza epidemics using twitter, " in Proceedings of the conference on empirical methods in natural language processing. Association for Computational Linguistics, 2011, pp. 1568-1576.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Is it really about me: Message content in social awareness streams</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77950892859</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Naaman M.</ce:indexed-name>
+                                    <ce:surname>Naaman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Boase J.</ce:indexed-name>
+                                    <ce:surname>Boase</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.-H.</ce:initials>
+                                    <ce:indexed-name>Lai C.-H.</ce:indexed-name>
+                                    <ce:surname>Lai</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2010 ACM Conference on Computer Supported Cooperative Work. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="189" last="192"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Naaman, J. Boase, and C.-H. Lai, "Is it really about me: message content in social awareness streams, " in Proceedings of the 2010 ACM conference on Computer supported cooperative work. ACM, 2010, pp. 189-192.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The arab spring-the revolutions were tweeted: Information flows during the 2011 tunisian and egyptian revolutions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84858264441</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Lotan G.</ce:indexed-name>
+                                    <ce:surname>Lotan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Graeff E.</ce:indexed-name>
+                                    <ce:surname>Graeff</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ananny M.</ce:indexed-name>
+                                    <ce:surname>Ananny</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Gaffney D.</ce:indexed-name>
+                                    <ce:surname>Gaffney</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Pearce I.</ce:indexed-name>
+                                    <ce:surname>Pearce</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Commun-us</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="5"/>
+                                <pagerange first="31"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>G. Lotan, E. Graeff, M. Ananny, D. Gaffney, I. Pearce et al., "The arab spring-the revolutions were tweeted: Information flows during the 2011 tunisian and egyptian revolutions, " Int. J. Commun-us, vol. 5, p. 31, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Twitter for scientific communication: How can citations/references be identified and measured</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84859436561</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Weller K.</ce:indexed-name>
+                                    <ce:surname>Weller</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Puschmann C.</ce:indexed-name>
+                                    <ce:surname>Puschmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>3rd International Conference on Web Science</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="4"/>
+                            </ref-volisspag>
+                            <ref-text>Citeseer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Weller and C. Puschmann, "Twitter for scientific communication: How can citations/references be identified and measured" in 3rd International Conference on Web Science. Citeseer, 2011, pp. 1-4.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multimodal communication on tumblr: I have so many feels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904509157</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Bourlai E.</ce:indexed-name>
+                                    <ce:surname>Bourlai</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.C.</ce:initials>
+                                    <ce:indexed-name>Herring S.C.</ce:indexed-name>
+                                    <ce:surname>Herring</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2014 ACM Conference on Web Science. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="171" last="175"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Bourlai and S. C. Herring, "Multimodal communication on tumblr: i have so many feels" in Proceedings of the 2014 ACM conference on Web science. ACM, 2014, pp. 171-175.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Civil unrest prediction: A tumblr-based exploration</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84958529209</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Xu J.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.-C.</ce:initials>
+                                    <ce:indexed-name>Lu T.-C.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Compton R.</ce:indexed-name>
+                                    <ce:surname>Compton</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Allen D.</ce:indexed-name>
+                                    <ce:surname>Allen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SBP</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="403" last="411"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Xu, T.-C. Lu, R. Compton, and D. Allen, "Civil unrest prediction: A tumblr-based exploration. " in SBP. Springer, 2014, pp. 403-411.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Anorexia on tumblr: A characterization study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84945934704</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>De Choudhury M.</ce:indexed-name>
+                                    <ce:surname>De Choudhury</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 5th International Conference on Digital Health 2015. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="43" last="50"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. De Choudhury, "Anorexia on tumblr: A characterization study, " in Proceedings of the 5th International Conference on Digital Health 2015. ACM, 2015, pp. 43-50.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An analysis of depression, self-harm, and suicidal ideation content on tumblr</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85014489096</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.A.</ce:initials>
+                                    <ce:indexed-name>Cavazos-Rehg P.A.</ce:indexed-name>
+                                    <ce:surname>Cavazos-Rehg</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Krauss M.J.</ce:indexed-name>
+                                    <ce:surname>Krauss</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.J.</ce:initials>
+                                    <ce:indexed-name>Sowles S.J.</ce:indexed-name>
+                                    <ce:surname>Sowles</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Connolly S.</ce:indexed-name>
+                                    <ce:surname>Connolly</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Rosas C.</ce:indexed-name>
+                                    <ce:surname>Rosas</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bharadwaj M.</ce:indexed-name>
+                                    <ce:surname>Bharadwaj</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Grucza R.</ce:indexed-name>
+                                    <ce:surname>Grucza</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>L.J.</ce:initials>
+                                    <ce:indexed-name>Bierut L.J.</ce:indexed-name>
+                                    <ce:surname>Bierut</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Crisis</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="38"/>
+                                <pagerange first="44"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. A. Cavazos-Rehg, M. J. Krauss, S. J. Sowles, S. Connolly, C. Rosas, M. Bharadwaj, R. Grucza, and L. J. Bierut, "An analysis of depression, self-harm, and suicidal ideation content on tumblr. " Crisis, vol. 38, no. 1, p. 44, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Largescale world cup 2014 outcome prediction based on tumblr posts</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84978815616</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Radosavljevic V.</ce:indexed-name>
+                                    <ce:surname>Radosavljevic</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grbovic M.</ce:indexed-name>
+                                    <ce:surname>Grbovic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Djuric N.</ce:indexed-name>
+                                    <ce:surname>Djuric</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Bhamidipati N.</ce:indexed-name>
+                                    <ce:surname>Bhamidipati</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>KDD Workshop on Large-Scale Sports Analytics</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>V. Radosavljevic, M. Grbovic, N. Djuric, and N. Bhamidipati, "Largescale world cup 2014 outcome prediction based on tumblr posts, " in KDD Workshop on Large-Scale Sports Analytics, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The tube over time: Characterizing popularity growth of youtube videos</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79952392592</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Figueiredo F.</ce:indexed-name>
+                                    <ce:surname>Figueiredo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Benevenuto F.</ce:indexed-name>
+                                    <ce:surname>Benevenuto</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Almeida J.M.</ce:indexed-name>
+                                    <ce:surname>Almeida</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Fourth ACM International Conference on Web Search and Data Mining. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="745" last="754"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Figueiredo, F. Benevenuto, and J. M. Almeida, "The tube over time: characterizing popularity growth of youtube videos, " in Proceedings of the fourth ACM international conference on Web search and data mining. ACM, 2011, pp. 745-754.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Using early view patterns to predict the popularity of youtube videos</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874243168</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Pinto H.</ce:indexed-name>
+                                    <ce:surname>Pinto</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Almeida J.M.</ce:indexed-name>
+                                    <ce:surname>Almeida</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.A.</ce:initials>
+                                    <ce:indexed-name>Goncalves M.A.</ce:indexed-name>
+                                    <ce:surname>Gonçalves</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Sixth ACM International Conference on Web Search and Data Mining. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="365" last="374"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Pinto, J. M. Almeida, and M. A. Gonçalves, "Using early view patterns to predict the popularity of youtube videos, " in Proceedings of the sixth ACM international conference on Web search and data mining. ACM, 2013, pp. 365-374.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>How useful are your comments: Analyzing and predicting youtube comments and comment ratings</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954567494</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Siersdorfer S.</ce:indexed-name>
+                                    <ce:surname>Siersdorfer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chelaru S.</ce:indexed-name>
+                                    <ce:surname>Chelaru</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Nejdl W.</ce:indexed-name>
+                                    <ce:surname>Nejdl</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>San Pedro J.</ce:indexed-name>
+                                    <ce:surname>San Pedro</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 19th International Conference on World Wide Web. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="891" last="900"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Siersdorfer, S. Chelaru, W. Nejdl, and J. San Pedro, "How useful are your comments: Analyzing and predicting youtube comments and comment ratings, " in Proceedings of the 19th international conference on World wide web. ACM, 2010, pp. 891-900.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Commenting on youtube videos: From guatemalan rock to el big bang</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84857650076</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Thelwall M.</ce:indexed-name>
+                                    <ce:surname>Thelwall</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Sud P.</ce:indexed-name>
+                                    <ce:surname>Sud</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Vis F.</ce:indexed-name>
+                                    <ce:surname>Vis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Assoc. Inf. Sci. Tech</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="63"/>
+                                <pagerange first="616" last="629"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Thelwall, P. Sud, and F. Vis, "Commenting on youtube videos: From guatemalan rock to el big bang, " J. Assoc. Inf. Sci. Tech., vol. 63, no. 3, pp. 616-629, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Manifestations of personality in online social networks: Self-reported facebook-related behaviors and observable profile information</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80054834326</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.D.</ce:initials>
+                                    <ce:indexed-name>Gosling S.D.</ce:indexed-name>
+                                    <ce:surname>Gosling</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.A.</ce:initials>
+                                    <ce:indexed-name>Augustine A.A.</ce:indexed-name>
+                                    <ce:surname>Augustine</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Vazire S.</ce:indexed-name>
+                                    <ce:surname>Vazire</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Holtzman N.</ce:indexed-name>
+                                    <ce:surname>Holtzman</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gaddis S.</ce:indexed-name>
+                                    <ce:surname>Gaddis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cyberpsych Beh. Soc. N</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="14"/>
+                                <pagerange first="483" last="488"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. D. Gosling, A. A. Augustine, S. Vazire, N. Holtzman, and S. Gaddis, "Manifestations of personality in online social networks: Self-reported facebook-related behaviors and observable profile information, " Cyberpsych Beh. Soc. N., vol. 14, no. 9, pp. 483-488, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The influence of personality on facebook usage, wall postings, and regret</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80255126177</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Moore K.</ce:indexed-name>
+                                    <ce:surname>Moore</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.C.</ce:initials>
+                                    <ce:indexed-name>McElroy J.C.</ce:indexed-name>
+                                    <ce:surname>McElroy</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Hum. Behav</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="28"/>
+                                <pagerange first="267" last="274"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Moore and J. C. McElroy, "The influence of personality on facebook usage, wall postings, and regret, " Comput. Hum. Behav., vol. 28, no. 1, pp. 267-274, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mining facebook data for predictive personality modeling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898841321</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Markovikj D.</ce:indexed-name>
+                                    <ce:surname>Markovikj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gievska S.</ce:indexed-name>
+                                    <ce:surname>Gievska</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kosinski M.</ce:indexed-name>
+                                    <ce:surname>Kosinski</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Stillwell D.</ce:indexed-name>
+                                    <ce:surname>Stillwell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 7th International AAAI Conference on Weblogs and Social Media (ICWSM 2013)</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="23" last="26"/>
+                            </ref-volisspag>
+                            <ref-text>Boston, MA, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Markovikj, S. Gievska, M. Kosinski, and D. Stillwell, "Mining facebook data for predictive personality modeling, " in Proceedings of the 7th international AAAI conference on Weblogs and Social Media (ICWSM 2013), Boston, MA, USA, 2013, pp. 23-26.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online social networking by patients with diabetes: A qualitative evaluation ofcommunication with facebook</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79953697372</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Greene J.A.</ce:indexed-name>
+                                    <ce:surname>Greene</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.K.</ce:initials>
+                                    <ce:indexed-name>Choudhry N.K.</ce:indexed-name>
+                                    <ce:surname>Choudhry</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Kilabuk E.</ce:indexed-name>
+                                    <ce:surname>Kilabuk</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.H.</ce:initials>
+                                    <ce:indexed-name>Shrank W.H.</ce:indexed-name>
+                                    <ce:surname>Shrank</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Gen. Intern. Med</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="26"/>
+                                <pagerange first="287" last="292"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. A. Greene, N. K. Choudhry, E. Kilabuk, and W. H. Shrank, "Online social networking by patients with diabetes: A qualitative evaluation ofcommunication with facebook, " J. Gen. Intern. Med., vol. 26, no. 3, pp. 287-292, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>But the data is already public: On the ethics of research in facebook</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78149496553</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zimmer M.</ce:indexed-name>
+                                    <ce:surname>Zimmer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ethics Inf. Technol</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="12"/>
+                                <pagerange first="313" last="325"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Zimmer, "but the data is already public: on the ethics of research in facebook, " Ethics Inf. Technol., vol. 12, no. 4, pp. 313-325, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analyzing facebook privacy settings: User expectations vs. Reality</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">82955190606</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Liu Y.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.P.</ce:initials>
+                                    <ce:indexed-name>Gummadi K.P.</ce:indexed-name>
+                                    <ce:surname>Gummadi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Krishnamurthy B.</ce:indexed-name>
+                                    <ce:surname>Krishnamurthy</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mislove A.</ce:indexed-name>
+                                    <ce:surname>Mislove</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2011 ACM SIGCOMM Conference on Internet Measurement Conference. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="61" last="70"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Y. Liu, K. P. Gummadi, B. Krishnamurthy, and A. Mislove, "Analyzing facebook privacy settings: user expectations vs. reality, " in Proceedings of the 2011 ACM SIGCOMM conference on Internet measurement conference. ACM, 2011, pp. 61-70.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bridging the gap: A genre analysis of weblogs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">1142297025</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.C.</ce:initials>
+                                    <ce:indexed-name>Herring S.C.</ce:indexed-name>
+                                    <ce:surname>Herring</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.A.</ce:initials>
+                                    <ce:indexed-name>Scheidt L.A.</ce:indexed-name>
+                                    <ce:surname>Scheidt</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bonus S.</ce:indexed-name>
+                                    <ce:surname>Bonus</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Wright E.</ce:indexed-name>
+                                    <ce:surname>Wright</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>System Sciences, 2004. Proceedings of the 37th Annual Hawaii International Conference On. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                        </ref-info>
+                        <ref-fulltext>S. C. Herring, L. A. Scheidt, S. Bonus, and E. Wright, "Bridging the gap: A genre analysis of weblogs, " in System sciences, 2004. proceedings of the 37th annual Hawaii international conference on. IEEE, 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Social data APIs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050892495</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Schafer M.T.</ce:indexed-name>
+                                    <ce:surname>Schäfer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Van Es K.</ce:indexed-name>
+                                    <ce:surname>Van Es</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Datafied Society: Studying Culture Through Data</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="147" last="154"/>
+                            </ref-volisspag>
+                            <ref-text>Amsterdam University Press ch. 10</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. T. Schäfer and K. van Es, "Social data APIs, " in The datafied society: Studying culture through data. Amsterdam University Press, 2017, ch. 10, pp. 147-154.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050864591</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Facebook Api</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://developers.facebook.com/</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Facebook api, " Jan. 2018. [Online]. Available: https: //developers. facebook. com/</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050884695</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Twitter Api</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://developer.twitter.com/en/docs</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Twitter api, " Jan. 2018. [Online]. Available: https: //developer. Twitter. com/en/docs</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050851525</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Google+ Api</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://developers.google.com/+/</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Google+ api, " Jan. 2018. [Online]. Available: https: //developers. google. com/+/</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050866299</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Tumblr Api</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.tumblr.com/docs/en/api/v2</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Tumblr api, " Jan. 2018. [Online]. Available: https: //www. Tumblr. com/ docs/en/api/v2</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050872727</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Youtube Api</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://developers.google.com/youtube/</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Youtube api, " Jan. 2018. [Online]. Available: https: //developers. google. com/youtube/</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050875439</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Talkwalker Api</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.talkwalker.com/user-manual/api</ce:e-address>
+                            </ref-website>
+                            <ref-text>Apr</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Talkwalker api, " Apr. 2018. [Online]. Available: https: //www. Talkwalker. com/user-manual/api</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050861621</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Langdetect</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://pypi.python.org/pypi/langdetect</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>"Langdetect, " Jan. 2018. [Online]. Available: https: //pypi. python. org/ pypi/langdetect</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Personality, gender, and age in the language of social media: The open-vocabulary approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84884541833</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.A.</ce:initials>
+                                    <ce:indexed-name>Schwartz H.A.</ce:indexed-name>
+                                    <ce:surname>Schwartz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.C.</ce:initials>
+                                    <ce:indexed-name>Eichstaedt J.C.</ce:indexed-name>
+                                    <ce:surname>Eichstaedt</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.L.</ce:initials>
+                                    <ce:indexed-name>Kern M.L.</ce:indexed-name>
+                                    <ce:surname>Kern</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Dziurzynski L.</ce:indexed-name>
+                                    <ce:surname>Dziurzynski</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.M.</ce:initials>
+                                    <ce:indexed-name>Ramones S.M.</ce:indexed-name>
+                                    <ce:surname>Ramones</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Agrawal M.</ce:indexed-name>
+                                    <ce:surname>Agrawal</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Shah A.</ce:indexed-name>
+                                    <ce:surname>Shah</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kosinski M.</ce:indexed-name>
+                                    <ce:surname>Kosinski</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Stillwell D.</ce:indexed-name>
+                                    <ce:surname>Stillwell</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>M.E.P.</ce:initials>
+                                    <ce:indexed-name>Seligman M.E.P.</ce:indexed-name>
+                                    <ce:surname>Seligman</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>PloS One</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="8"/>
+                                <pagerange first="e73791"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. A. Schwartz, J. C. Eichstaedt, M. L. Kern, L. Dziurzynski, S. M. Ramones, M. Agrawal, A. Shah, M. Kosinski, D. Stillwell, M. E. P. Seligman et al., "Personality, gender, and age in the language of social media: The open-vocabulary approach, " PloS one, vol. 8, no. 9, p. e73791, 2013.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

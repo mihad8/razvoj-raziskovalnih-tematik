@@ -1,0 +1,1391 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85028561715</prism:url><dc:identifier>SCOPUS_ID:85028561715</dc:identifier><eid>2-s2.0-85028561715</eid><prism:doi>10.1109/IWOBI.2017.7985520</prism:doi><article-number>7985520</article-number><dc:title>Covariate analysis of descriptor-based ear recognition techniques</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>5</citedby-count><prism:publicationName>2017 International Work Conference on Bio-Inspired Intelligence: Intelligent Systems for Biodiversity Conservation, IWOBI 2017 - Proceedings</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>21100828722</source-id><prism:isbn>9781538608500</prism:isbn><prism:coverDate>2017-07-19</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="56097253100"><ce:initials>Z.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emersic</ce:surname><ce:given-name>Ziga</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emersic</ce:surname><ce:given-name>Ziga</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56097253100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 IEEE.</publishercopyright>
+                        <ce:para>Dense descriptor-based feature extraction techniques represent a popular choice for implementing biometric ear recognition system and are in general considered to be the current state-of-the-art in this area. In this paper, we study the impact of various factors (i.e., head rotation, presence of occlusions, gender and ethnicity) on the performance of 8 state-of-the-art descriptor-based ear recognition techniques. Our goal is to pinpoint weak points of the existing technology and identify open problems worth exploring in the future. We conduct our covariate analysis through identification experiments on the challenging AWE (Annotated Web Ears) dataset and report our findings. The results of our study show that high degrees of head movement and presence of accessories significantly impact the identification performance, whereas mild degrees of the listed factors and other covariates such as gender and ethnicity impact the identification performance only to a limited extent.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85028561715" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85028561715&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85028561715&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="56097253100"><ce:initials>Z.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emersic</ce:surname><ce:given-name>Ziga</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emersic</ce:surname><ce:given-name>Ziga</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56097253100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="57191976811"><ce:initials>B.</ce:initials><ce:indexed-name>Meden B.</ce:indexed-name><ce:surname>Meden</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Meden B.</ce:indexed-name><ce:surname>Meden</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57191976811</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7003277146"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003277146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="17347474600"><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Struc</ce:surname><ce:given-name>Vitornir</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Struc</ce:surname><ce:given-name>Vitornir</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/17347474600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Descriptors</mainterm><mainterm weight="b" candidate="n">Ear recognition</mainterm><mainterm weight="b" candidate="n">Ear recognition system</mainterm><mainterm weight="b" candidate="n">Feature extraction techniques</mainterm><mainterm weight="b" candidate="n">Head movements</mainterm><mainterm weight="b" candidate="n">Head rotation</mainterm><mainterm weight="b" candidate="n">State of the art</mainterm><mainterm weight="b" candidate="n">Weak points</mainterm></idxterms><subject-areas><subject-area code="2309" abbrev="ENVI">Nature and Landscape Conservation</subject-area><subject-area code="2805" abbrev="NEUR">Cognitive Neuroscience</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="2204" abbrev="ENGI">Biomedical Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-05-14T16:34:16.118Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="27" month="03" timestamp="2019-03-27T00:28:46.000046-04:00" year="2019"/><ait:date-sort day="19" month="07" year="2017"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2017 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/IWOBI.2017.7985520</ce:doi>
+                    <itemid idtype="PUI">618082322</itemid>
+                    <itemid idtype="CAR-ID">674481799</itemid>
+                    <itemid idtype="CPX">20173604112219</itemid>
+                    <itemid idtype="SCP">85028561715</itemid>
+                    <itemid idtype="SGR">85028561715</itemid>
+                </itemidlist><history>
+                    <date-created day="05" month="09" timestamp="BST 05:10:57" year="2017"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Covariate analysis of descriptor-based ear recognition techniques</titletext></citation-title><author-group><author auid="56097253100" seq="1" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emersic</ce:surname><ce:given-name>Ziga</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Emersic Z.</ce:indexed-name>
+                            <ce:surname>Emersic</ce:surname>
+                            <ce:given-name>Ziga</ce:given-name>
+                        </preferred-name></author><author auid="57191976811" seq="2" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Meden B.</ce:indexed-name><ce:surname>Meden</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Meden B.</ce:indexed-name>
+                            <ce:surname>Meden</ce:surname>
+                            <ce:given-name>Blaz</ce:given-name>
+                        </preferred-name></author><author auid="7003277146" seq="3" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Peer P.</ce:indexed-name>
+                            <ce:surname>Peer</ce:surname>
+                            <ce:given-name>Peter</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Vecna pot 113</address-part><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="17347474600" seq="4" type="auth"><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Struc</ce:surname><ce:given-name>Vitornir</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Struc V.</ce:indexed-name>
+                            <ce:surname>Struc</ce:surname>
+                            <ce:given-name>Vitornir</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><address-part>Trzaska cesta 25</address-part><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 IEEE.</publishercopyright>
+                        <ce:para>Dense descriptor-based feature extraction techniques represent a popular choice for implementing biometric ear recognition system and are in general considered to be the current state-of-the-art in this area. In this paper, we study the impact of various factors (i.e., head rotation, presence of occlusions, gender and ethnicity) on the performance of 8 state-of-the-art descriptor-based ear recognition techniques. Our goal is to pinpoint weak points of the existing technology and identify open problems worth exploring in the future. We conduct our covariate analysis through identification experiments on the challenging AWE (Annotated Web Ears) dataset and report our findings. The results of our study show that high degrees of head movement and presence of accessories significantly impact the identification performance, whereas mild degrees of the listed factors and other covariates such as gender and ethnicity impact the identification performance only to a limited extent.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100828722" type="p"><sourcetitle>2017 International Work Conference on Bio-Inspired Intelligence: Intelligent Systems for Biodiversity Conservation, IWOBI 2017 - Proceedings</sourcetitle><sourcetitle-abbrev>Int. Work Conf. Bio-Inspired Intell.: Intell. Syst. Biodivers. Conserv., IWOBI - Proc.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">2017 International Work Conference on Bio-Inspired Intelligence: Intelligent Systems for Biodiversity Conservation, IWOBI 2017 - Proceedings</translated-sourcetitle><issuetitle>2017 International Work Conference on Bio-Inspired Intelligence: Intelligent Systems for Biodiversity Conservation, IWOBI 2017 - Proceedings</issuetitle><isbn length="13" level="volume" type="electronic">9781538608500</isbn><article-number>7985520</article-number><publicationyear first="2017"/><publicationdate>
+                        <year>2017</year>
+                        <month>07</month>
+                        <day>19</day>
+                    <date-text xfab-added="true">19 July 2017</date-text></publicationdate><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>C.M.</ce:initials>
+                            <ce:indexed-name>Travieso-Gonzalez C.M.</ce:indexed-name>
+                            <ce:surname>Travieso-Gonzalez</ce:surname>
+                            <ce:given-name>Carlos Manuel</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>F.</ce:initials>
+                            <ce:indexed-name>Morgado-Dias F.</ce:indexed-name>
+                            <ce:surname>Morgado-Dias</ce:surname>
+                            <ce:given-name>Fernando</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>J.B.</ce:initials>
+                            <ce:indexed-name>Alonso-Hernandez J.B.</ce:indexed-name>
+                            <ce:surname>Alonso-Hernandez</ce:surname>
+                            <ce:given-name>Jesus B.</ce:given-name>
+                        </contributor>
+                    </contributor-group><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>5th IEEE International Work Conference on Bio-Inspired Intelligence, IWOBI 2017</confname>
+                                <conftheme>Intelligent Systems for Biodiversity Conservation</conftheme>
+                                <confseriestitle>International Work Conference on Bio-Inspired Intelligence</confseriestitle>
+                                <conflocation country="prt">
+                                    <city>Funchal</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="10" month="07" year="2017"/>
+                                    <enddate day="12" month="07" year="2017"/>
+                                </confdate>
+                                <conforganization>Madeira Interactive Technologies Institute (M-ITI) and Universidad de Madeira</conforganization>
+                                <confcatnumber>CFP1799Z-ART</confcatnumber>
+                                <confcode>129541</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>2309</classification>
+                            <classification>2805</classification>
+                            <classification>1702</classification>
+                            <classification>1706</classification>
+                            <classification>2204</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>454</classification-code>
+                                 
+                                <classification-description>Environmental Engineering</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>723.4</classification-code>
+                                 
+                                <classification-description>Artificial Intelligence</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                 
+                                <classification-code>902</classification-code>
+                                 
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ENVI</classification><classification>NEUR</classification><classification>COMP</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="41">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey on ear biometrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875180794</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Abaza A.</ce:indexed-name>
+                                    <ce:surname>Abaza</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ross A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hebert C.</ce:indexed-name>
+                                    <ce:surname>Hebert</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.A.F.</ce:initials>
+                                    <ce:indexed-name>Harrison M.A.F.</ce:indexed-name>
+                                    <ce:surname>Harrison</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Nixon M.</ce:indexed-name>
+                                    <ce:surname>Nixon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Computing Surveys</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="45"/>
+                                <pagerange first="1" last="22"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Abaza, A. Ross, C. Hebert, M. A. F. Harrison, and M. Nixon. A Survey on Ear Biometrics. ACM Computing Surveys, 45(2): 1-22, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A neural network based human identification framework using ear images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79951607119</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Alaraj M.</ce:indexed-name>
+                                    <ce:surname>Alaraj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hou J.</ce:indexed-name>
+                                    <ce:surname>Hou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Fukami T.</ce:indexed-name>
+                                    <ce:surname>Fukami</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Technical Conference of IEEE Region</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="1595" last="1600"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Alaraj, J. Hou, and T. Fukami. A neural network based human identification framework using ear images. In Proceedings of the International technical conference of IEEE Region 10, pages 1595-1600. IEEE, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust log-gabor filter for ear biometrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77957952786</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Arbab-Zavar B.</ce:indexed-name>
+                                    <ce:surname>Arbab-Zavar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Nixon M.S.</ce:indexed-name>
+                                    <ce:surname>Nixon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="4"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>B. Arbab-Zavar and M. S. Nixon. Robust log-gabor filter for ear biometrics. In Proceedings of the International Conference on Pattern Recognition, pages 1-4. IEEE, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A robust algorithm for ear recognition under partial occlusion</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84890519263</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Baoqing Z.</ce:indexed-name>
+                                    <ce:surname>Baoqing</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zhichun M.</ce:indexed-name>
+                                    <ce:surname>Zhichun</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Chen J.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Jiyuan D.</ce:indexed-name>
+                                    <ce:surname>Jiyuan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Chinese Control Conference</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="3800" last="3804"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Baoqing, M. Zhichun, J. Chen, and D. Jiyuan. A robust algorithm for ear recognition under partial occlusion. In Proceedings of the Chinese Control Conference, pages 3800-3804, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A human ear recognition method using nonlinear curvelet feature subspace</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84902505577</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Basit A.</ce:indexed-name>
+                                    <ce:surname>Basit</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Shoaib M.</ce:indexed-name>
+                                    <ce:surname>Shoaib</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Computer Mathematics</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="91"/>
+                                <pagerange first="616" last="624"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Basit and M. Shoaib. A human ear recognition method using nonlinear curvelet feature subspace. International Journal of Computer Mathematics, 91(3):616-624, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Identity recognition based on the external shape of the human ear</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84961794970</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Benzaoui A.</ce:indexed-name>
+                                    <ce:surname>Benzaoui</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Hezil N.</ce:indexed-name>
+                                    <ce:surname>Hezil</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Boukrouche A.</ce:indexed-name>
+                                    <ce:surname>Boukrouche</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Applied Research in Computer Science and Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="5"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Benzaoui, N. Hezil, and A. Boukrouche. Identity recognition based on the external shape of the human ear. In Proceedings of the International Conference on Applied Research in Computer Science and Engineering, pages 1-5. IEEE, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear description and recognition using ELBP and wavelets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84961841597</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Benzaoui A.</ce:indexed-name>
+                                    <ce:surname>Benzaoui</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kheider A.</ce:indexed-name>
+                                    <ce:surname>Kheider</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Boukrouche A.</ce:indexed-name>
+                                    <ce:surname>Boukrouche</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Applied Research in Computer Science and Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Benzaoui, A. Kheider, and A. Boukrouche. Ear description and recognition using ELBP and wavelets. In Proceedings of the International Conference on Applied Research in Computer Science and Engineering, pages 1-6, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear recognition based on Multi-bags-of-features histogram</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84960172590</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bourouba H.</ce:indexed-name>
+                                    <ce:surname>Bourouba</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Doghmane H.</ce:indexed-name>
+                                    <ce:surname>Doghmane</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Benzaoui A.</ce:indexed-name>
+                                    <ce:surname>Benzaoui</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.H.</ce:initials>
+                                    <ce:indexed-name>Boukrouche A.H.</ce:indexed-name>
+                                    <ce:surname>Boukrouche</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Control, Engineering Information Technology</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Bourouba, H. Doghmane, A. Benzaoui, and A. H. Boukrouche. Ear recognition based on Multi-bags-of-features histogram. In Proceedings of the International Conference on Control, Engineering Information Technology, pages 1-6, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Toward unconstrained ear recognition from two-dimensional images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77951207883</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.D.</ce:initials>
+                                    <ce:indexed-name>Bustard J.D.</ce:indexed-name>
+                                    <ce:surname>Bustard</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Nixon M.S.</ce:indexed-name>
+                                    <ce:surname>Nixon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Transactions on Systems, Man and Cybernetics, Part A: Systems and Humans</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="40"/>
+                                <pagerange first="486" last="494"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. D. Bustard and M. S. Nixon. Toward unconstrained ear recognition from two-dimensional images. Transactions on Systems, Man and Cybernetics, Part A: Systems and Humans, 40(3):486-494, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Reliable ear identification using 2-D quadrature filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84865590403</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.-S.</ce:initials>
+                                    <ce:indexed-name>Chan T.-S.</ce:indexed-name>
+                                    <ce:surname>Chan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kumar A.</ce:indexed-name>
+                                    <ce:surname>Kumar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognition Letters</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="14" volume="33"/>
+                                <pagerange first="1870" last="1881"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>T.-S. Chan and A. Kumar. Reliable ear identification using 2-D quadrature filters. Pattern Recognition Letters, 33(14):1870-1881, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Perspective methods of human identification: Ear biometrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">38349010529</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Choral M.</ce:indexed-name>
+                                    <ce:surname>Choral</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Opto-electronics Review</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="16"/>
+                                <pagerange first="85" last="96"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Choral Perspective methods of human identification: ear biometrics. Opto-electronics review, 16(l):85-96, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Histograms of oriented gradients for human detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645146449</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Dalai N.</ce:indexed-name>
+                                    <ce:surname>Dalai</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Triggs B.</ce:indexed-name>
+                                    <ce:surname>Triggs</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Computer Vision and Patten Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="886" last="893"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N. Dalai and B. Triggs. Histograms of oriented gradients for human detection. In Proceedings of the International Conference on Computer Vision and Patten Recognition, pages 886-893. IEEE, 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear recognition using multi-scale histogram of oriented gradients</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84867181304</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Damar N.</ce:indexed-name>
+                                    <ce:surname>Damar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Fuhrer B.</ce:indexed-name>
+                                    <ce:surname>Fuhrer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Conference on Intelligent Information Hiding and Multimedia Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="21" last="24"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>N. Damar and B. Fuhrer. Ear recognition using multi-scale histogram of oriented gradients. In Proceedings of the Conference on Intelligent Information Hiding and Multimedia Signal Processing, pages 21-24, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Uncertainty relation for resolution in space, spatial frequency, and orientation optimized by two-dimensional visual cortical niters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0022098435</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Daugman J.</ce:indexed-name>
+                                    <ce:surname>Daugman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of the Optical Society of America A</ref-sourcetitle>
+                            <ref-publicationyear first="1985"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="2"/>
+                                <pagerange first="1160" last="1169"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Daugman. Uncertainty relation for resolution in space, spatial frequency, and orientation optimized by two-dimensional visual cortical niters. Journal of the Optical Society of America A, 2(7): 1160-1169, 1985.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear photo recognition using scale invariant keypoints</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84989210479</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Dewi K.</ce:indexed-name>
+                                    <ce:surname>Dewi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Yahagi T.</ce:indexed-name>
+                                    <ce:surname>Yahagi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Computational Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="253" last="258"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Dewi and T. Yahagi. Ear photo recognition using scale invariant keypoints. In Proceedings of the Computational Intelligence, pages 253-258, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear recognition: More than a survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85017361058</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersic Z.</ce:indexed-name>
+                                    <ce:surname>Emersic</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="22"/>
+                            </ref-volisspag>
+                            <ref-text>in press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Z. Emersic, V. Struc, and P. Peer. Ear recognition: More than a survey. Neurocomputing, in press: 1-22, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear recognition using a new local matching approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">69949178844</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Guo Y.</ce:indexed-name>
+                                    <ce:surname>Guo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Xu Z.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="289" last="292"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Y. Guo and Z. Xu. Ear recognition using a new local matching approach. In Proceedings of the International Conference on Image Processing, pages 289-292. IEEE, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>BSIF: Binarized statistical image features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874563913</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kannala J.</ce:indexed-name>
+                                    <ce:surname>Kannala</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Rahtu E.</ce:indexed-name>
+                                    <ce:surname>Rahtu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1363" last="1366"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Kannala and E. Rahtu. BSIF: Binarized statistical image features. In Proceedings of the International Conference on Pattern Recognition, pages 1363-1366. IEEE, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adaptation of SIFT features for robust face recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955446350</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Krizaj J.</ce:indexed-name>
+                                    <ce:surname>Krizaj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Pavesic N.</ce:indexed-name>
+                                    <ce:surname>Pavesic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Image Analysis and Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="394" last="404"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Krizaj, V. Struc, and N. Pavesic. Adaptation of SIFT features for robust face recognition. In Proceedings of the Image Analysis and Recognition, pages 394-404. Springer, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automated human identification using ear imaging</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80054990169</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kumar A.</ce:indexed-name>
+                                    <ce:surname>Kumar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Wu C.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="45"/>
+                                <pagerange first="956" last="968"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Kumar and C. Wu. Automated human identification using ear imaging. Pattern Recognition, 45(3):956-968, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear authentication using log-gabor wavelets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35648995795</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kumar A.</ce:indexed-name>
+                                    <ce:surname>Kumar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zhang D.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Symposium OnDefense and Security</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="65390A"/>
+                            </ref-volisspag>
+                            <ref-text>International Society for Optics and Photonics</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Kumar and D. Zhang. Ear authentication using log-gabor wavelets. In Proceedings of the Symposium onDefense and Security, page 65390A. International Society for Optics and Photonics, 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Distinctive image features from scale-invariant keypoints</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3042535216</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Lowe D.</ce:indexed-name>
+                                    <ce:surname>Lowe</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="60"/>
+                                <pagerange first="91" last="110"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. Lowe. Distinctive Image Features from Scale-Invariant Keypoints. International Journal of Computer Vision, 60(2):91-110, 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An automated ear identification system using Gabor filter responses</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84945162001</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Meraoumia A.</ce:indexed-name>
+                                    <ce:surname>Meraoumia</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chitroub S.</ce:indexed-name>
+                                    <ce:surname>Chitroub</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Bouridane A.</ce:indexed-name>
+                                    <ce:surname>Bouridane</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on New Circuits and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Meraoumia, S. Chitroub, and A. Bouridane. An automated ear identification system using Gabor filter responses. In Proceedings of the International Conference on New Circuits and Systems, pages 1. IEEE, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis of local descriptors features and its robustness applied to ear recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84964236952</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Morales A.</ce:indexed-name>
+                                    <ce:surname>Morales</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ferrer M.</ce:indexed-name>
+                                    <ce:surname>Ferrer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Diaz-Cabrera M.</ce:indexed-name>
+                                    <ce:surname>Diaz-Cabrera</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Gonzalez E.</ce:indexed-name>
+                                    <ce:surname>Gonzalez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Carnahan Conference on Security Technology</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="5"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Morales, M. Ferrer, M. Diaz-Cabrera, and E. Gonzalez. Analysis of local descriptors features and its robustness applied to ear recognition. In Proceedings of the International Carnahan Conference on Security Technology, pages 1-5. IEEE, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fusion of color spaces for ear authentication</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">67349183695</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Nanni L.</ce:indexed-name>
+                                    <ce:surname>Nanni</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Lumini A.</ce:indexed-name>
+                                    <ce:surname>Lumini</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="42"/>
+                                <pagerange first="1906" last="1913"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. Nanni and A. Lumini. Fusion of color spaces for ear authentication. Pattern Recognition, 42(9):1906-1913, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Blur insensitive texture classification using local phase quantization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">49049108892</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Ojansivu V.</ce:indexed-name>
+                                    <ce:surname>Ojansivu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Heikkila J.</ce:indexed-name>
+                                    <ce:surname>Heikkila</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image and Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="236" last="243"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>V. Ojansivu and J. Heikkila. Blur insensitive texture classification using local phase quantization. In Image and signal processing, pages 236-243. Springer, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rotation invariant local phase quantization for blur insensitive texture analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77957945272</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Ojansivu V.</ce:indexed-name>
+                                    <ce:surname>Ojansivu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Rahtu E.</ce:indexed-name>
+                                    <ce:surname>Rahtu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Heikkila J.</ce:indexed-name>
+                                    <ce:surname>Heikkila</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="4"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>V. Ojansivu, E. Rahtu, and J. Heikkila. Rotation invariant local phase quantization for blur insensitive texture analysis. In Proceedings of the International Conference on Pattern Recognition, pages 1-4. IEEE, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear biometrics: A survey of detection, feature extraction and recognition methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84866878822</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pflug A.</ce:indexed-name>
+                                    <ce:surname>Pflug</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Busch C.</ce:indexed-name>
+                                    <ce:surname>Busch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="1"/>
+                                <pagerange first="114" last="129"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Pflug and C. Busch. Ear biometrics: a survey of detection, feature extraction and recognition methods. Biometrics, 1(2):114-129, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>2D ear classification based on unsupervised clustering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84921784614</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pflug A.</ce:indexed-name>
+                                    <ce:surname>Pflug</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Busch C.</ce:indexed-name>
+                                    <ce:surname>Busch</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ross A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Joint Conference on Biometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Pflug, C. Busch, and A. Ross. 2D ear classification based on unsupervised clustering. In Proceedings of the International Joint Conference on Biometrics, pages 1-8. IEEE, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comparative study on texture and surface descriptors for ear biometrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84931080922</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pflug A.</ce:indexed-name>
+                                    <ce:surname>Pflug</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.N.</ce:initials>
+                                    <ce:indexed-name>Paul P.N.</ce:indexed-name>
+                                    <ce:surname>Paul</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Busch C.</ce:indexed-name>
+                                    <ce:surname>Busch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Carnahan Conference on Security Technology</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Pflug, P. N. Paul, and C. Busch. A comparative study on texture and surface descriptors for ear biometrics. In Proceedings of the International Carnahan Conference on Security Technology, pages 1-6. IEEE, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Impact of severe signal degradation on ear recognition performance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84906898097</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pflug A.</ce:indexed-name>
+                                    <ce:surname>Pflug</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wagner J.</ce:indexed-name>
+                                    <ce:surname>Wagner</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Rathgeb C.</ce:indexed-name>
+                                    <ce:surname>Rathgeb</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Busch C.</ce:indexed-name>
+                                    <ce:surname>Busch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2014 37th International Convention on</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="1342" last="1347"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Pflug, J. Wagner, C. Rathgeb, and C. Busch. Impact of severe signal degradation on ear recognition performance. In Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2014 37th International Convention on, pages 1342-1347. IEEE, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computer vision using local binary patterns</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861827568</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pietikainen M.</ce:indexed-name>
+                                    <ce:surname>Pietikainen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hadid A.</ce:indexed-name>
+                                    <ce:surname>Hadid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Zhao G.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ahonen T.</ce:indexed-name>
+                                    <ce:surname>Ahonen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computational Imaging and Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Pietikainen, A. Hadid, G. Zhao, and T. Ahonen. Computer Vision Using Local Binary Patterns. Computational Imaging and Vision. Springer, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An efficient ear recognition technique invariant to illumination and pose</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84879794668</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Prakash S.</ce:indexed-name>
+                                    <ce:surname>Prakash</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gupta P.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Telecommunication Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="52"/>
+                                <pagerange first="1435" last="1448"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Prakash and P. Gupta. An efficient ear recognition technique invariant to illumination and pose. Telecommunication Systems, 52(3): 1435-1448, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Role of External Ear in Establishing Personal Identity - A Short Review</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85020350393</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Purkait R.</ce:indexed-name>
+                                    <ce:surname>Purkait</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Austin Journal of Forensic Science and Criminology</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="2"/>
+                                <pagerange first="1" last="5"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. Purkait. Role of External Ear in Establishing Personal Identity - A Short Review. Austin Journal of Forensic Science and Criminology, 2(2):l-5, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Principal Gabor filters for face recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">71749093287</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Gajsek R.</ce:indexed-name>
+                                    <ce:surname>Gajsek</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Pavesic N.</ce:indexed-name>
+                                    <ce:surname>Pavesic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Conference on Biometrics: Theory, Applications and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>V. Struc, R. Gajsek, and N. Pavesic. Principal Gabor filters for face recognition. In Proceedings of the Conference on Biometrics: Theory, Applications and Systems, pages 1-6. IEEE, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Gabor-based kernel partial-least-squares discrimination features for face recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62449291708</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Struc</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Pavesic N.</ce:indexed-name>
+                                    <ce:surname>Pavesic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>EURASIP Journal on Advances in Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="20"/>
+                                <pagerange first="115" last="138"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>V. Struc and N. Pavesic. Gabor-based kernel partial-least-squares discrimination features for face recognition. EURASIP Journal on Advances in Signal Processing, 20(1): 115-138, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The complete gabor-fisher classifier for robust face recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955300710</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Strac V.</ce:indexed-name>
+                                    <ce:surname>Strac</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Pavesic N.</ce:indexed-name>
+                                    <ce:surname>Pavesic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>EURASIP Journal on Advances in Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="2010"/>
+                                <pagerange first="1" last="26"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>V. Strac and N. Pavesic. The complete gabor-fisher classifier for robust face recognition. EURASIP Journal on Advances in Signal Processing, 2010:1-26, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Face recognition with patterns of oriented edge magnitudes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78149286544</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.-S.</ce:initials>
+                                    <ce:indexed-name>Vu N.-S.</ce:indexed-name>
+                                    <ce:surname>Vu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Caplier A.</ce:indexed-name>
+                                    <ce:surname>Caplier</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="313" last="326"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>N.-S. Vu and A. Caplier. Face recognition with patterns of oriented edge magnitudes. Computer Vision, pages 313-326, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Human ear recognition based on block segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">72449123175</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Xiaoyun W.</ce:indexed-name>
+                                    <ce:surname>Xiaoyun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Weiqi Y.</ce:indexed-name>
+                                    <ce:surname>Weiqi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Cyber-Enabled Distributed Computing and Knowledge Discovery</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="262" last="266"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W. Xiaoyun and Y. Weiqi. Human ear recognition based on block segmentation. In Proceedings of the International Conference on Cyber-Enabled Distributed Computing and Knowledge Discovery, pages 262-266. IEEE, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear recognition using lie and idlle algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77952606966</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Xie Z.</ce:indexed-name>
+                                    <ce:surname>Xie</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Mu Z.</ce:indexed-name>
+                                    <ce:surname>Mu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference on Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="4"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Z. Xie and Z. Mu. Ear recognition using lie and idlle algorithm. In Proceedings of the International Conference on Pattern Recognition, pages 1-4. IEEE, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multi-View ear recognition based on b-spline pose manifold construction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52149107577</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhang Z.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Liu H.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the World Congress on Intelligent Control and Automation</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                        </ref-info>
+                        <ref-fulltext>Z. Zhang and H. Liu. Multi-View ear recognition based on b-spline pose manifold construction. In Proceedings of the World Congress on Intelligent Control and Automation, 2008.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

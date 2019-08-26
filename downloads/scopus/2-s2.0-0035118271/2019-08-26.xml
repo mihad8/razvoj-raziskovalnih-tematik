@@ -1,0 +1,411 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0035118271</prism:url><dc:identifier>SCOPUS_ID:0035118271</dc:identifier><eid>2-s2.0-0035118271</eid><pubmed-id>11248602</pubmed-id><pii>S1386505600001325</pii><prism:doi>10.1016/S1386-5056(00)00132-5</prism:doi><dc:title>Slovene smart card and IP based health-care information system infrastructure</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>12</citedby-count><prism:publicationName>International Journal of Medical Informatics</prism:publicationName><dc:publisher>
+                        Elsevier Ireland Ltd
+                    </dc:publisher><source-id>23689</source-id><prism:issn>13865056</prism:issn><prism:volume>61</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>33</prism:startingPage><prism:endingPage>43</prism:endingPage><prism:pageRange>33-43</prism:pageRange><prism:coverDate>2001-01-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="55897351200"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Trček D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55897351200</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Slovenia initiated a nation-wide project to introduce smart cards in the health sector in 1995 and its full-scale deployment started in September 2000. Although the basic aim of the project was to support insurance related procedures, the system was designed in a flexible and open manner to present an infrastructure for the whole health sector. The functionality of the current system is described in this paper along with lessons learned so far. The upgrade of the system is outlined, with emphasis on technical details, the objective being to provide a real-time EDI based environment for a general set of applications in the medical sector, supported by the flexibility and security of modern smart card technologies. Integration with similar systems in other EU countries is discussed. Copyright © 2001 Elsevier Science Ireland Ltd.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0035118271" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0035118271&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0035118271&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"><affilname>Jozef Stefan Institute</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="101985094" href="https://api.elsevier.com/content/affiliation/affiliation_id/101985094"><affilname>Zavod za Zdravstveno Zavarovanje Slovenije</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55897351200"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Trček D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55897351200</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="2" auid="7202939880"><ce:initials>R.</ce:initials><ce:indexed-name>Novak R.</ce:indexed-name><ce:surname>Novak</ce:surname><ce:given-name>Roman</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Novak R.</ce:indexed-name><ce:surname>Novak</ce:surname><ce:given-name>Roman</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7202939880</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="3" auid="7003329418"><ce:initials>G.</ce:initials><ce:indexed-name>Kandus G.</ce:indexed-name><ce:surname>Kandus</ce:surname><ce:given-name>Gorazd</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Kandus G.</ce:indexed-name><ce:surname>Kandus</ce:surname><ce:given-name>Gorazd</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003329418</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="4" auid="6507462961"><ce:initials>M.</ce:initials><ce:indexed-name>Suselj M.</ce:indexed-name><ce:surname>Sušelj</ce:surname><ce:given-name>Marjan</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Sušelj M.</ce:indexed-name><ce:surname>Sušelj</ce:surname><ce:given-name>Marjan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507462961</author-url><affiliation id="101985094" href="https://api.elsevier.com/content/affiliation/affiliation_id/101985094"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>EDI</author-keyword><author-keyword>Health-care information system infrastructure</author-keyword><author-keyword>Smart cards</author-keyword><author-keyword>Web technology</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="2718" abbrev="MEDI">Health Informatics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-27T11:36:15.247Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="16" month="12" timestamp="2018-12-16T21:14:15.000015-05:00" year="2018"/><ait:date-sort day="01" month="01" year="2001"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S1386505600001325</ce:pii>
+                    <ce:doi>10.1016/S1386-5056(00)00132-5</ce:doi>
+                    <itemid idtype="PUI">32194424</itemid>
+                    <itemid idtype="CAR-ID">29305770</itemid>
+                    <itemid idtype="EMBASE">2001089902</itemid>
+                    <itemid idtype="MEDL">11248602</itemid>
+                    <itemid idtype="NURSNG">2001026225</itemid>
+                    <itemid idtype="SCP">0035118271</itemid>
+                    <itemid idtype="SGR">0035118271</itemid>
+                </itemidlist><history>
+                    <date-created day="13" month="12" timestamp="BST 07:48:46" year="2018"/>
+                </history><dbcollection>EMBASE</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>NURSNG</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">EDI</author-keyword>
+                        <author-keyword xml:lang="eng">Health-care information system infrastructure</author-keyword>
+                        <author-keyword xml:lang="eng">Smart cards</author-keyword>
+                        <author-keyword xml:lang="eng">Web technology</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Slovene smart card and IP based health-care information system infrastructure</titletext></citation-title><author-group><author auid="55897351200" seq="1" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Trček D.</ce:indexed-name>
+                            <ce:surname>Trček</ce:surname>
+                            <ce:given-name>Denis</ce:given-name>
+                        </preferred-name></author><author auid="7202939880" seq="2" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Novak R.</ce:indexed-name><ce:surname>Novak</ce:surname><ce:given-name>Roman</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Novak R.</ce:indexed-name>
+                            <ce:surname>Novak</ce:surname>
+                            <ce:given-name>Roman</ce:given-name>
+                        </preferred-name></author><author auid="7003329418" seq="3" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Kandus G.</ce:indexed-name><ce:surname>Kandus</ce:surname><ce:given-name>Gorazd</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Kandus G.</ce:indexed-name>
+                            <ce:surname>Kandus</ce:surname>
+                            <ce:given-name>Gorazd</ce:given-name>
+                        </preferred-name></author><affiliation afid="60023955" country="svn" dptid="104208727"><organization>Department of Digital Communications and Networks</organization><organization>Institut 'Jožef Stefan'</organization><organization>E6</organization><address-part>Jamova 39</address-part><city-group>1101 Ljubljana</city-group><affiliation-id afid="60023955" dptid="104208727"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6507462961" seq="4" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Suselj M.</ce:indexed-name><ce:surname>Sušelj</ce:surname><ce:given-name>Marjan</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Sušelj M.</ce:indexed-name>
+                            <ce:surname>Sušelj</ce:surname>
+                            <ce:given-name>Marjan</ce:given-name>
+                        </preferred-name></author><affiliation afid="101985094" country="svn"><organization>Zavod za Zdravstveno Zavarovanje Slovenije</organization><address-part>Miklošičeva 24</address-part><city-group>1507 Ljubljana</city-group><affiliation-id afid="101985094"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>D.</ce:initials>
+                        <ce:indexed-name>Trcek D.</ce:indexed-name>
+                        <ce:surname>Trcek</ce:surname>
+                    </person><affiliation country="svn"><organization>Dept. Digital Commun./Networks</organization><organization>Institut Jozef Stefan</organization><address-part>Jamova 39</address-part><city-group>1101 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Slovenia initiated a nation-wide project to introduce smart cards in the health sector in 1995 and its full-scale deployment started in September 2000. Although the basic aim of the project was to support insurance related procedures, the system was designed in a flexible and open manner to present an infrastructure for the whole health sector. The functionality of the current system is described in this paper along with lessons learned so far. The upgrade of the system is outlined, with emphasis on technical details, the objective being to provide a real-time EDI based environment for a general set of applications in the medical sector, supported by the flexibility and security of modern smart card technologies. Integration with similar systems in other EU countries is discussed. Copyright © 2001 Elsevier Science Ireland Ltd.</ce:para>
+                    </abstract></abstracts><source country="irl" srcid="23689" type="j"><sourcetitle>International Journal of Medical Informatics</sourcetitle><sourcetitle-abbrev>Int. J. Med. Inform.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">International Journal of Medical Informatics</translated-sourcetitle><issn type="print">13865056</issn><codencode>IJMIF</codencode><volisspag>
+                        <voliss issue="1" volume="61"/>
+                        <pagerange first="33" last="43"/>
+                    </volisspag><publicationyear first="2001"/><publicationdate>
+                        <year>2001</year>
+                    <date-text xfab-added="true">2001</date-text></publicationdate><website>
+                        <ce:e-address type="email">www.elsevier.com/inca/publications/store/5/0/6/0/4/0/</ce:e-address>
+                    </website><publisher>
+                        <publishername>Elsevier Ireland Ltd</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="EMCLASS">
+                            <classification>
+                                <classification-code>17</classification-code>
+                                <classification-description>Public Health, Social Medicine and Epidemiology</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>27</classification-code>
+                                <classification-description>Biophysics, Bioengineering and Medical Instrumentation</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>36</classification-code>
+                                <classification-description>Health Policy, Economics and Management</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2718</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MEDI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="27">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005934916</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.sesam-vitale.fr/html/projets/netlink/index.htm</websitename>
+                                <ce:e-address type="email">http://www.sesam-vitale.fr/html/projets/netlink/index.htm.</ce:e-address>
+                            </ref-website>
+                            <ref-text>Netlink Consortium, Netlink Requirements For Interoperability, WP2, H.G. Buettner, J. Sembritzki (eds.), April 1999, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005971345</itemid>
+                            </refd-itemidlist>
+                            <ref-text>ISO/IEC, IT-Identification cards-Integrated circuit cards with contacts, ISO 7816 parts 1 thru 8, Geneva, 1989.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005974880</itemid>
+                            </refd-itemidlist>
+                            <ref-text>J. Sembritzki, Standards, interoperability and medical application, Health Cards 99, Milano 1999 (slide presentation).</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005969791</itemid>
+                            </refd-itemidlist>
+                            <ref-text>ISO, Electronic data interchange for administration, commerce and transport (EDIFACT), ISO 9735 parts 1 through 8, Geneva, 1998.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005992621</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <ce:e-address type="email">http://sit.darmstadt.gmd.de/cgi-bin/sit-frame/sica?link=/SICA/workshop.html.</ce:e-address>
+                            </ref-website>
+                            <ref-text>B. Struif (editor), German Health Professional Card Specification (Physicians), GMD, July 1999, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Minimising the risk of electronic document forgery</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0346337210</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Treek D.</ce:indexed-name>
+                                    <ce:surname>Trèek</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="161" last="167"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <websitename>http://denis.ijs.si/</websitename>
+                                <ce:e-address type="email">http://denis.ijs.si/.</ce:e-address>
+                            </ref-website>
+                            <ref-text>Computer Standards and Interfaces, North Holland: Elsevier</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006014510</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.clinical-info.co.uk/euhci.htm</websitename>
+                                <ce:e-address type="email">http://www.clinical-info.co.uk/euhci.htm</ce:e-address>
+                            </ref-website>
+                            <ref-text>D. Markwell (editor), Healthcards Interoperability of Healthcard Systems, G7 Interoperability Specification, G7 GII SP6, 1996, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006010558</itemid>
+                            </refd-itemidlist>
+                            <ref-text>D. Steedman, ASN.1 - The Tutorial and Reference, Technology Appraisals, London 1990.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005936229</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.w3.org/TR/1998/REC-xml-19980210</websitename>
+                                <ce:e-address type="email">http://www.w3.org/TR/1998/REC-xml-19980210.</ce:e-address>
+                            </ref-website>
+                            <ref-text>T. Bray et al. (eds.), XML-Extensible Markup Language ver. 1.0, W3C Recommendation, February 1998, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006002881</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.sciam.com/1999/0599issue/0599bosak.html</websitename>
+                                <ce:e-address type="email">http://www.sciam.com/1999/0599issue/0599bosak.html.</ce:e-address>
+                            </ref-website>
+                            <ref-text>J. Bosak, T. Bray, XML and the Second-Generation Web, Scientific American, No. 5, May 1999, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005974881</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.hcp-protocol.de/engindex.htm</websitename>
+                                <ce:e-address type="email">http://www.hcp-protocol.de/engindex.htm</ce:e-address>
+                            </ref-website>
+                            <ref-text>Bayerische Landesarztkammer, HCP-Protokoll Specifikation v 3.0, Munchen, May 2000, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005970404</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://web.golux.com/coar/cgi/</websitename>
+                                <ce:e-address type="email">http://web.golux.com/coar/cgi/.</ce:e-address>
+                            </ref-website>
+                            <ref-text>K.A.L. Coar, D.R.T Robinson, The WWW Common Gateway Interface v 1.1, IETF, Internet draft, June 1999, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005969792</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://noc.ucsc.edu/cie/RFC/index.htm</websitename>
+                                <ce:e-address type="email">http://noc.ucsc.edu/cie/RFC/index.htm</ce:e-address>
+                            </ref-website>
+                            <ref-text>J. Case et al., Protocol Operations for version 2 of the Simple Network Management Protocol (SNMPv2), IETF RFC 1905, April 1993, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006014511</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://home.netscape.com/eng/ssl3/ssl-toc.html</websitename>
+                                <ce:e-address type="email">http://home.netscape.com/eng/ssl3/ssl-toc.html.</ce:e-address>
+                            </ref-website>
+                            <ref-text>S. Freier, Secure Sockets Layer (SSL) v 3.01, Internet Draft, Internet Engineering Task Force, January 1996, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006015022</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.cyberflex.slb.com/</websitename>
+                                <ce:e-address type="email">http://www.cyberflex.slb.com/.</ce:e-address>
+                            </ref-website>
+                            <ref-text>.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005938842</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.omg.org/</websitename>
+                                <ce:e-address type="email">http://www.omg.org/.</ce:e-address>
+                            </ref-website>
+                            <ref-text>.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005935104</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.javasoft.com/javacard</websitename>
+                                <ce:e-address type="email">http://www.javasoft.com/javacard.</ce:e-address>
+                            </ref-website>
+                            <ref-text>Sun Corp., Java Card 2.1 Platform API Specification, Final Revision 1.0, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005968432</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.imc.org/draft-ietf-pkix-roadmap</websitename>
+                                <ce:e-address type="email">http://www.imc.org/draft-ietf-pkix-roadmap.</ce:e-address>
+                            </ref-website>
+                            <ref-text>S. Turner, A. Arsenault, Internet X.509 Public Key Infrastructure PKIX Roadmap, IETF, Internet Draft, March 2000, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005992622</itemid>
+                            </refd-itemidlist>
+                            <ref-text>ISO/IEC, Draft Amendments DAM 4 to ISO/IEC 9594-2, DAM 2 to ISO/IEC 9594-6, DAM1 to ISO/IEC to 9594-8 on Certificate Extensions, JTC1/SC 21, Geneva, December 1996.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006007751</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.ietf.org/html.charters/pkix-charter.html</websitename>
+                                <ce:e-address type="email">http://www.ietf.org/html.charters/pkix-charter.html.</ce:e-address>
+                            </ref-website>
+                            <ref-text>C. Adams, S. Farrell, Internet X.509 PKI Certificate Management Protocols, IETF RFC 2510, March 1999, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005936991</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.ietf.org/html.charters/ipsec-charter.html</websitename>
+                                <ce:e-address type="email">http://www.ietf.org/html.charters/ipsec-charter.html.</ce:e-address>
+                            </ref-website>
+                            <ref-text>S. Kent, R. Atkinson, Security Architecture for the Internet Protocol, IETF RFC 2401, November 1998, .</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005964566</itemid>
+                            </refd-itemidlist>
+                            <ref-text>R. Anderson, M. Kuhn, Tamper Resistance - A Cautionary Note, The Second USENIX Workshop on Electronic Commerce Proceedings, Oakland, November 1996, pp. 1-11.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Differential Power Analysis: Leaking Secrets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84939573910</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kocher P.</ce:indexed-name>
+                                    <ce:surname>Kocher</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Jaffe J.</ce:indexed-name>
+                                    <ce:surname>Jaffe</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Jun B.</ce:indexed-name>
+                                    <ce:surname>Jun</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="388" last="397"/>
+                            </ref-volisspag>
+                            <ref-text>Proceedings of Crypto '99, Heidelberg: Springer Verlag</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005936230</itemid>
+                            </refd-itemidlist>
+                            <ref-text>J.P. Fortin et al., Evaluation Guide, Strategies and Evaluation Methodolgy WG, Netlink Consortium, December 1999.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006015023</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.M.S.J.</ce:initials>
+                                    <ce:indexed-name>Van Gennip E.M.S.J.</ce:indexed-name>
+                                    <ce:surname>Van Gennip</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Talmon J.L.</ce:indexed-name>
+                                    <ce:surname>Talmon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="1995"/>
+                            <ref-website>
+                                <websitename>http://www-vatam.unimaas.nl/atim/</websitename>
+                                <ce:e-address type="email">http://www-vatam.unimaas.nl/atim/.</ce:e-address>
+                            </ref-website>
+                            <ref-text>Assessment and Evaluation of Information Technologies in Medicine, Amsterdam: IOS Press</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005968433</itemid>
+                            </refd-itemidlist>
+                            <ref-text>ZZZS, Ovrednotenje pilotnega projekta uvajanja kartice zdravstvenega zavarovanja v posavski regiji, Čatež, June 1998.</ref-text>
+                        </ref-info>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0005968434</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <websitename>http://www.opencard.org/index-docs.shtml</websitename>
+                                <ce:e-address type="email">http://www.opencard.org/index-docs.shtml.</ce:e-address>
+                            </ref-website>
+                            <ref-text>.</ref-text>
+                        </ref-info>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

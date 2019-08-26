@@ -1,0 +1,984 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85033376973</prism:url><dc:identifier>SCOPUS_ID:85033376973</dc:identifier><eid>2-s2.0-85033376973</eid><prism:doi>10.1109/ACCESS.2017.2769063</prism:doi><article-number>8094238</article-number><dc:title>Predicting exploitations of information systems vulnerabilities through attackers’ characteristics</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>IEEE Access</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>21100374601</source-id><prism:issn>21693536</prism:issn><prism:volume>5</prism:volume><prism:startingPage>26063</prism:startingPage><prism:endingPage>26075</prism:endingPage><prism:pageRange>26063-26075</prism:pageRange><prism:coverDate>2017-11-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="56108543900"><ce:initials>A.</ce:initials><ce:indexed-name>Dobrovoljc A.</ce:indexed-name><ce:surname>Dobrovoljc</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Dobrovoljc A.</ce:indexed-name><ce:surname>Dobrovoljc</ce:surname><ce:given-name>Andrej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56108543900</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 IEEE.</publishercopyright>
+                        <ce:para>The main goal of proactive security is to prevent attacks before they happen. In modern information systems it largely depends on the vulnerability management process, where prioritization is one of the key steps. A widely used prioritization policy based only upon a common vulnerability scoring system (CVSS) score is frequently criticised for bad effectiveness. The main reason is that the CVSS score alone is not a good predictor of vulnerability exploitation in the wild. Therefore, the aim of the research in this field is to determine in what way we can improve our prediction abilities. Clearly, software vulnerabilities are commodities used by attackers. Hence, it makes sense considering their characteristics in vulnerability prioritization. In contrast, one should be able to measure and compare the effectiveness of various policies. Therefore, an important goal of this paper was to develop an evaluation model, which would allow such comparisons. For this purpose, we developed an agent-based simulation model which measures the exposure of information system to exploitable vulnerabilities. Besides, some policies which take into account human threats were defined and then compared with the most popular existing methods. Experimental results imply that the proposed policy, which is based on CVSS vectors and attacker characteristics, achieves the highest effectiveness among existing methods.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85033376973" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85033376973&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85033376973&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"><affilname>University of Primorska</affilname><affiliation-city>Koper</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="56108543900"><ce:initials>A.</ce:initials><ce:indexed-name>Dobrovoljc A.</ce:indexed-name><ce:surname>Dobrovoljc</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Dobrovoljc A.</ce:indexed-name><ce:surname>Dobrovoljc</ce:surname><ce:given-name>Andrej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56108543900</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55897351200"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Trček D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55897351200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="56227842000"><ce:initials>B.</ce:initials><ce:indexed-name>Likar B.</ce:indexed-name><ce:surname>Likar</ce:surname><ce:given-name>Borut</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Likar B.</ce:indexed-name><ce:surname>Likar</ce:surname><ce:given-name>Borut</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56227842000</author-url><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>CVSS</author-keyword><author-keyword>Prioritization policy</author-keyword><author-keyword>Security management</author-keyword><author-keyword>Threat agent</author-keyword><author-keyword>Vulnerability</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">CVSS</mainterm><mainterm weight="b" candidate="n">Prioritization</mainterm><mainterm weight="b" candidate="n">Security</mainterm><mainterm weight="b" candidate="n">Security management</mainterm><mainterm weight="b" candidate="n">Threat agents</mainterm><mainterm weight="b" candidate="n">vulnerability</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area><subject-area code="2500" abbrev="MATE">Materials Science (all)</subject-area><subject-area code="2200" abbrev="ENGI">Engineering (all)</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-24T04:46:30Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-id>N1-0057</xocs:funding-id><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>European Social Fund</xocs:funding-agency-matched-string><xocs:funding-agency-acronym>ESF</xocs:funding-agency-acronym><xocs:funding-agency>European Social Fund</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004895</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>European Union</xocs:funding-agency-matched-string><xocs:funding-agency>European Commission</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000780</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>The work of A. Dobrovoljc was supported in part by the European Union through the European Social Fund, Operational Program for Human Resources Development for the period 2007–2013 and in part by Slovenian Research Agency under Project N1-0057.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="13" month="09" timestamp="2018-09-13T05:23:15.000015-04:00" year="2018"/><ait:date-sort day="01" month="11" year="2017"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/ACCESS.2017.2769063</ce:doi>
+                    <itemid idtype="PUI">619190214</itemid>
+                    <itemid idtype="CAR-ID">792150499</itemid>
+                    <itemid idtype="CPX">20174604393328</itemid>
+                    <itemid idtype="REAXYSCAR">20171982315</itemid>
+                    <itemid idtype="SCOPUS">20170919565</itemid>
+                    <itemid idtype="SNCPX">2017133271</itemid>
+                    <itemid idtype="SCP">85033376973</itemid>
+                    <itemid idtype="SGR">85033376973</itemid>
+                </itemidlist><history>
+                    <date-created day="12" month="09" timestamp="BST 05:08:19" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>SNCPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">CVSS</author-keyword>
+                        <author-keyword xml:lang="eng">Prioritization policy</author-keyword>
+                        <author-keyword xml:lang="eng">Security management</author-keyword>
+                        <author-keyword xml:lang="eng">Threat agent</author-keyword>
+                        <author-keyword xml:lang="eng">Vulnerability</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Predicting exploitations of information systems vulnerabilities through attackers’ characteristics</titletext></citation-title><author-group><author auid="56108543900" seq="1" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Dobrovoljc A.</ce:indexed-name><ce:surname>Dobrovoljc</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Dobrovoljc A.</ce:indexed-name>
+                            <ce:surname>Dobrovoljc</ce:surname>
+                            <ce:given-name>Andrej</ce:given-name>
+                        </preferred-name></author><author auid="55897351200" seq="2" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Trček D.</ce:indexed-name>
+                            <ce:surname>Trček</ce:surname>
+                            <ce:given-name>Denis</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="56227842000" seq="3" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Likar B.</ce:indexed-name><ce:surname>Likar</ce:surname><ce:given-name>Borut</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Likar B.</ce:indexed-name>
+                            <ce:surname>Likar</ce:surname>
+                            <ce:given-name>Borut</ce:given-name>
+                        </preferred-name></author><affiliation afid="60006286" country="svn" dptid="108421594"><organization>Faculty of Management</organization><organization>University of Primorska</organization><city>Koper</city><postal-code>6000</postal-code><affiliation-id afid="60006286" dptid="108421594"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>A.</ce:initials>
+                        <ce:indexed-name>Dobrovoljc A.</ce:indexed-name>
+                        <ce:surname>Dobrovoljc</ce:surname>
+                        <ce:given-name>Andrej</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 IEEE.</publishercopyright>
+                        <ce:para>The main goal of proactive security is to prevent attacks before they happen. In modern information systems it largely depends on the vulnerability management process, where prioritization is one of the key steps. A widely used prioritization policy based only upon a common vulnerability scoring system (CVSS) score is frequently criticised for bad effectiveness. The main reason is that the CVSS score alone is not a good predictor of vulnerability exploitation in the wild. Therefore, the aim of the research in this field is to determine in what way we can improve our prediction abilities. Clearly, software vulnerabilities are commodities used by attackers. Hence, it makes sense considering their characteristics in vulnerability prioritization. In contrast, one should be able to measure and compare the effectiveness of various policies. Therefore, an important goal of this paper was to develop an evaluation model, which would allow such comparisons. For this purpose, we developed an agent-based simulation model which measures the exposure of information system to exploitable vulnerabilities. Besides, some policies which take into account human threats were defined and then compared with the most popular existing methods. Experimental results imply that the proposed policy, which is based on CVSS vectors and attacker characteristics, achieves the highest effectiveness among existing methods.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100374601" type="j"><sourcetitle>IEEE Access</sourcetitle><sourcetitle-abbrev>IEEE Access</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">IEEE Access</translated-sourcetitle><issn type="electronic">21693536</issn><volisspag>
+                        <voliss volume="5"/>
+                        <pagerange first="26063" last="26075"/>
+                    </volisspag><article-number>8094238</article-number><publicationyear first="2017"/><publicationdate>
+                        <year>2017</year>
+                        <month>11</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 November 2017</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639</ce:e-address>
+                    </website><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1700</classification>
+                            <classification>2500</classification>
+                            <classification>2200</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATE</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="28">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Vulnerability review 2017</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85052983953</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Secunia Res</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://resources.flexera.com/web/pdf/Research-SVM-Vulnerability-Review-2017.pdf</ce:e-address>
+                            </ref-website>
+                            <ref-text>Itasca, IL, USA, Tech. Rep</ref-text>
+                        </ref-info>
+                        <ref-fulltext>(2017). ‘‘Vulnerability review 2017.’’ Secunia Res., Itasca, IL, USA, Tech. Rep. [Online]. Available: https://resources.flexera.com/web/pdf/Research-SVM-Vulnerability-Review-2017.pdf</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Improving CVSS-based vulnerability prioritization and response with context information</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">72449210441</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Fruhwirth C.</ce:indexed-name>
+                                    <ce:surname>Fruhwirth</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Mannisto T.</ce:indexed-name>
+                                    <ce:surname>Männistö</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 3rd Int. Symp. Empirical Softw. Eng. Meas. (ESEM)</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="535" last="544"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C. Fruhwirth and T. Männistö, ‘‘Improving CVSS-based vulnerability prioritization and response with context information,’’ in Proc. 3rd Int. Symp. Empirical Softw. Eng. Meas. (ESEM), 2009, pp. 535–544.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Beyond heuristics: Learning to classify vulnerabilities and predict exploits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77956214438</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bozorgi M.</ce:indexed-name>
+                                    <ce:surname>Bozorgi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.K.</ce:initials>
+                                    <ce:indexed-name>Saul L.K.</ce:indexed-name>
+                                    <ce:surname>Saul</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Savage S.</ce:indexed-name>
+                                    <ce:surname>Savage</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.M.</ce:initials>
+                                    <ce:indexed-name>Voelker G.M.</ce:indexed-name>
+                                    <ce:surname>Voelker</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 16th ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining (KDD)</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="105" last="114"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dl.acm.org/citation.cfm?id=1835821</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>M. Bozorgi, L. K. Saul, S. Savage, and G. M. Voelker, ‘‘Beyond heuristics: Learning to classify vulnerabilities and predict exploits,’’ in Proc. 16th ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining (KDD), 2010, pp. 105–114. [Online]. Available: http://dl.acm.org/citation.cfm?id=1835821</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Common vulnerability scoring system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33845524230</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Mell P.</ce:indexed-name>
+                                    <ce:surname>Mell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Scarfone K.</ce:indexed-name>
+                                    <ce:surname>Scarfone</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Romanosky S.</ce:indexed-name>
+                                    <ce:surname>Romanosky</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Security Privacy</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="4"/>
+                                <pagerange first="85" last="89"/>
+                            </ref-volisspag>
+                            <ref-text>Nov./Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. Mell, K. Scarfone, and S. Romanosky, ‘‘Common vulnerability scoring system,’’ IEEE Security Privacy, vol. 4, no. 6, pp. 85–89, Nov./Dec. 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Empirical analysis of system-level vulnerability metrics through actual attacks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84866600214</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Holm H.</ce:indexed-name>
+                                    <ce:surname>Holm</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ekstedt M.</ce:indexed-name>
+                                    <ce:surname>Ekstedt</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Andersson D.</ce:indexed-name>
+                                    <ce:surname>Andersson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Dependable Secur. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="9"/>
+                                <pagerange first="825" last="837"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.scopus.com/inward/record.url?eid=2s2.0-84866600214&amp;partnerID=tZOtx3y1</ce:e-address>
+                            </ref-website>
+                            <ref-text>Nov./Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Holm, M. Ekstedt, and D. Andersson, ‘‘Empirical analysis of system-level vulnerability metrics through actual attacks,’’ IEEE Trans. Dependable Secur. Comput., vol. 9, no. 6, pp. 825–837, Nov./Dec. 2012. [Online]. Available: http://www.scopus.com/inward/record.url?eid=2s2.0-84866600214&amp;partnerID=tZOtx3y1</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Comparing vulnerability severity and exploits using case-control studies</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84906251599</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Allodi L.</ce:indexed-name>
+                                    <ce:surname>Allodi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Massacci F.</ce:indexed-name>
+                                    <ce:surname>Massacci</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans. Inf. Syst. Secur.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="17"/>
+                                <pagerange first="1" last="20"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dl.acm.org/citation.cfm?doid=2660572.2630069</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>L. Allodi and F. Massacci, ‘‘Comparing vulnerability severity and exploits using case-control studies,’’ ACM Trans. Inf. Syst. Secur., vol. 17, no. 1, pp. 1–20, 2014. [Online]. Available: http://dl.acm.org/citation.cfm?doid=2660572.2630069</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An expert-based investigation of the common vulnerability scoring system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84930653217</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Holm H.</ce:indexed-name>
+                                    <ce:surname>Holm</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Khan K.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Secur.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="53"/>
+                                <pagerange first="18" last="30"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1016/j.cose.2015.04.012</ce:e-address>
+                            </ref-website>
+                            <ref-text>Sep</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Holm and K. Khan, ‘‘An expert-based investigation of the common vulnerability scoring system,’’ Comput. Secur., vol. 53, pp. 18–30, Sep. 2015. [Online]. Available: http://dx.doi.org/10.1016/j.cose.2015.04.012</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantitative assessment of software vulnerabilities based on economic-driven security metrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84899448355</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ghani H.</ce:indexed-name>
+                                    <ce:surname>Ghani</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Luna J.</ce:indexed-name>
+                                    <ce:surname>Luna</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Suri N.</ce:indexed-name>
+                                    <ce:surname>Suri</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Risks Security Internet Syst. (CRiSIS)</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6766361</ce:e-address>
+                            </ref-website>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Ghani, J. Luna, and N. Suri, ‘‘Quantitative assessment of software vulnerabilities based on economic-driven security metrics,’’ in Proc. Int. Conf. Risks Security Internet Syst. (CRiSIS), Oct. 2013, pp. 1–8. [Online]. Available: http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6766361</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dimensions of cyber-attacks: Social, political, economic, and cultural</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79952640822</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Gandhi R.</ce:indexed-name>
+                                    <ce:surname>Gandhi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sharma A.</ce:indexed-name>
+                                    <ce:surname>Sharma</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Mahoney W.</ce:indexed-name>
+                                    <ce:surname>Mahoney</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Sousan W.</ce:indexed-name>
+                                    <ce:surname>Sousan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Zhu Q.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Laplante P.</ce:indexed-name>
+                                    <ce:surname>Laplante</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Technol. Soc. Mag.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="30"/>
+                                <pagerange first="28" last="38"/>
+                            </ref-volisspag>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Gandhi, A. Sharma, W. Mahoney, W. Sousan, Q. Zhu, and P. Laplante, ‘‘Dimensions of cyber-attacks: Social, political, economic, and cultural,’’ IEEE Technol. Soc. Mag., vol. 30, no. 1, pp. 28–38, Jan. 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Incorporating attacker capabilities in risk estimation and mitigation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84926629066</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.B.</ce:initials>
+                                    <ce:indexed-name>Othmane L.B.</ce:indexed-name>
+                                    <ce:surname>Othmane</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ranchal R.</ce:indexed-name>
+                                    <ce:surname>Ranchal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Fernando R.</ce:indexed-name>
+                                    <ce:surname>Fernando</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Bhargava B.</ce:indexed-name>
+                                    <ce:surname>Bhargava</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Bodden E.</ce:indexed-name>
+                                    <ce:surname>Bodden</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Secur.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="51"/>
+                                <pagerange first="41" last="61"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1016/j.cose.2015.03.001</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jun</ref-text>
+                        </ref-info>
+                        <ref-fulltext>L. Ben Othmane, R. Ranchal, R. Fernando, B. Bhargava, and E. Bodden, ‘‘Incorporating attacker capabilities in risk estimation and mitigation,’’ Comput. Secur., vol. 51, pp. 41–61, Jun. 2015. [Online]. Available: http://dx.doi.org/10.1016/j.cose.2015.03.001</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantifying security risk level from CVSS estimates of frequency and impact</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955425114</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Houmb S.H.</ce:indexed-name>
+                                    <ce:surname>Houmb</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.N.L.</ce:initials>
+                                    <ce:indexed-name>Franqueira V.N.L.</ce:indexed-name>
+                                    <ce:surname>Franqueira</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.A.</ce:initials>
+                                    <ce:indexed-name>Engum E.A.</ce:indexed-name>
+                                    <ce:surname>Engum</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Syst. Softw.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="83"/>
+                                <pagerange first="1622" last="1634"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1016/j.jss.2009.08.023</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>S. H. Houmb, V. N. L. Franqueira, and E. A. Engum, ‘‘Quantifying security risk level from CVSS estimates of frequency and impact,’’ J. Syst. Softw., vol. 83, no. 9, pp. 1622–1634, 2010. [Online]. Available: http://dx.doi.org/10.1016/j.jss.2009.08.023</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computationally supported quantitative risk management for information systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84976321494</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Trcek D.</ce:indexed-name>
+                                    <ce:surname>Trček</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Performance Models and Risk Management in Communications Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="46"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/978-1-4419-0534-5_3</ce:e-address>
+                            </ref-website>
+                            <ref-text>N. Gülpınar, Harrison, and B. Rüstem, Eds. New York, NY, USA: Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Trček, ‘‘Computationally supported quantitative risk management for information systems,’’ in Performance Models and Risk Management in Communications Systems, vol. 46, N. Gülpınar, P. Harrison, and B. Rüstem, Eds. New York, NY, USA: Springer, 2011. [Online]. Available: https://doi.org/10.1007/978-1-4419-0534-5_3</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Information infrastructure risk prediction through platform vulnerability analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84930801342</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Chatzipoulidis A.</ce:indexed-name>
+                                    <ce:surname>Chatzipoulidis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Michalopoulos D.</ce:indexed-name>
+                                    <ce:surname>Michalopoulos</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Mavridis I.</ce:indexed-name>
+                                    <ce:surname>Mavridis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Syst. Softw.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="106"/>
+                                <pagerange first="28" last="41"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1016/j.jss.2015.04.062</ce:e-address>
+                            </ref-website>
+                            <ref-text>Aug</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Chatzipoulidis, D. Michalopoulos, and I. Mavridis, ‘‘Information infrastructure risk prediction through platform vulnerability analysis,’’ J. Syst. Softw., vol. 106, pp. 28–41, Aug. 2015. [Online]. Available: http://dx.doi.org/10.1016/j.jss.2015.04.062</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>VRSS: A new system for rating and scoring vulnerabilities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78751641579</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Liu Q.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhang Y.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Commun.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="34"/>
+                                <pagerange first="264" last="273"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1016/j.comcom.2010.04.006</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Q. Liu and Y. Zhang, ‘‘VRSS: A new system for rating and scoring vulnerabilities,’’ Comput. Commun., vol. 34, no. 3, pp. 264–273, 2011. [Online]. Available: http://dx.doi.org/10.1016/j.comcom.2010.04.006</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Improving VRSS-based vulnerability prioritization using analytic hierarchy process</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861349128</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Liu Q.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhang Y.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Kong Y.</ce:indexed-name>
+                                    <ce:surname>Kong</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Wu Q.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Syst. Softw.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="85"/>
+                                <pagerange first="1699" last="1708"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://dx.doi.org/10.1016/j.jss.2012.03.057</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Q. Liu, Y. Zhang, Y. Kong, and Q. Wu, ‘‘Improving VRSS-based vulnerability prioritization using analytic hierarchy process,’’ J. Syst. Softw., vol. 85, no. 8, pp. 1699–1708, 2012. [Online]. Available: http://dx.doi.org/10.1016/j.jss.2012.03.057</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84906231986</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Christey S.</ce:indexed-name>
+                                    <ce:surname>Christey</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Martin B.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Buying Into The Bias: Why Vulnerability Statistics Suck</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.blackhat.com/us13/archives.html#Martin</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>S. Christey and B. Martin. (2013). Buying Into the Bias: Why Vulnerability Statistics Suck. [Online]. Available: https://www.blackhat.com/us13/archives.html#Martin</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Some vulnerabilities are different than others</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84906771411</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Nayak K.</ce:indexed-name>
+                                    <ce:surname>Nayak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Marino D.</ce:indexed-name>
+                                    <ce:surname>Marino</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Efstathopoulos P.</ce:indexed-name>
+                                    <ce:surname>Efstathopoulos</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Dumitras T.</ce:indexed-name>
+                                    <ce:surname>Dumitraş</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Research in Attacks, Intrusions and Defenses (RAID) (Lecture Notes in Computer Science)</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="8688"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/978-3-319-11379-1_21</ce:e-address>
+                            </ref-website>
+                            <ref-text>A. Stavrou, H. Bos, and G. Portokalidis, Eds. Cham, Switzerland: Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K. Nayak, D. Marino, P. Efstathopoulos, and T. Dumitraş, ‘‘Some vulnerabilities are different than others,’’ in Research in Attacks, Intrusions and Defenses (RAID) (Lecture Notes in Computer Science), vol. 8688, A. Stavrou, H. Bos, and G. Portokalidis, Eds. Cham, Switzerland: Springer, 2014. [Online]. Available: https://doi.org/10.1007/978-3-319-11379-1_21</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predicting vulnerable software components</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">67249126825</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Neuhaus S.</ce:indexed-name>
+                                    <ce:surname>Neuhaus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zimmermann T.</ce:indexed-name>
+                                    <ce:surname>Zimmermann</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Holler C.</ce:indexed-name>
+                                    <ce:surname>Holler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zeller A.</ce:indexed-name>
+                                    <ce:surname>Zeller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 14th ACM Conf. Comput. Commun. Security (CCS)</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="529" last="540"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://portal.acm.org/citation.cfm?doid=1315245.1315311</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>S. Neuhaus, T. Zimmermann, C. Holler, and A. Zeller, ‘‘Predicting vulnerable software components,’’ in Proc. 14th ACM Conf. Comput. Commun. Security (CCS), 2007, pp. 529–540. [Online]. Available: http://portal.acm.org/citation.cfm?doid=1315245.1315311</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predicting vulnerable software components with dependency graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649393441</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.H.</ce:initials>
+                                    <ce:indexed-name>Nguyen V.H.</ce:indexed-name>
+                                    <ce:surname>Nguyen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.M.S.</ce:initials>
+                                    <ce:indexed-name>Tran L.M.S.</ce:indexed-name>
+                                    <ce:surname>Tran</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 6th Int. Workshop Security Meas. Metrics-(MetriSec)</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://portal.acm.org/citation.cfm?doid=1853919.1853923</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>V. H. Nguyen and L. M. S. Tran, ‘‘Predicting vulnerable software components with dependency graphs,’’ in Proc. 6th Int. Workshop Security Meas. Metrics-(MetriSec), 2010, pp. 1–8. [Online]. Available: http://portal.acm.org/citation.cfm?doid=1853919.1853923</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Modeling vulnerability discovery process in Apache and IIS HTTP servers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79251599901</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.-W.</ce:initials>
+                                    <ce:indexed-name>Woo S.-W.</ce:indexed-name>
+                                    <ce:surname>Woo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Joh H.</ce:indexed-name>
+                                    <ce:surname>Joh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>O.H.</ce:initials>
+                                    <ce:indexed-name>Alhazmi O.H.</ce:indexed-name>
+                                    <ce:surname>Alhazmi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.K.</ce:initials>
+                                    <ce:indexed-name>Malaiya Y.K.</ce:indexed-name>
+                                    <ce:surname>Malaiya</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Secur.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="30"/>
+                                <pagerange first="50" last="62"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://linkinghub.elsevier.com/retrieve/pii/S0167404810000908</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>S.-W. Woo, H. Joh, O. H. Alhazmi, and Y. K. Malaiya, ‘‘Modeling vulnerability discovery process in Apache and IIS HTTP servers,’’ Comput. Secur., vol. 30, no. 1, pp. 50–62, 2011. http://linkinghub.elsevier.com/retrieve/pii/S0167404810000908</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARTNUM">7435</itemid>
+                                <itemid idtype="SGR">78651070465</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.M.</ce:initials>
+                                    <ce:indexed-name>Mell P.M.</ce:indexed-name>
+                                    <ce:surname>Mell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.A.</ce:initials>
+                                    <ce:indexed-name>Scarfone K.A.</ce:indexed-name>
+                                    <ce:surname>Scarfone</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Romanosky S.</ce:indexed-name>
+                                    <ce:surname>Romanosky</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Common Vulnerability Scoring System (CVSS) and Its Applicability to Federal Agency Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://csrc.nist.gov/publications/nistir/ir7435/NISTIR-7435.pdf</ce:e-address>
+                            </ref-website>
+                            <ref-text>NIST, Gaithersburg, MD, USA, Tech. Rep</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. M. Mell, K. A. Scarfone, and S. Romanosky, ‘‘The common vulnerability scoring system (CVSS) and its applicability to federal agency systems,’’ NIST, Gaithersburg, MD, USA, Tech. Rep. 7435, 2007. [Online]. Available: http://csrc.nist.gov/publications/nistir/ir7435/NISTIR-7435.pdf</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84959285621</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Common Vulnerability Scoring System V3.0: Specification Document</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <websitename>FIRST</websitename>
+                                <ce:e-address type="email">https://www.first.org/cvss/cvss-v30specification-v1.7.pdf</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>FIRST. (2015). Common Vulnerability Scoring System V3.0: Specification Document. [Online]. Available: https://www.first.org/cvss/cvss-v30specification-v1.7.pdf</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The promises and challenges of continuous monitoring and risk scoring</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873434535</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kott A.</ce:indexed-name>
+                                    <ce:surname>Kott</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Arnold C.</ce:indexed-name>
+                                    <ce:surname>Arnold</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Security Privacy</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="11"/>
+                                <pagerange first="90" last="93"/>
+                            </ref-volisspag>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Kott and C. Arnold, ‘‘The promises and challenges of continuous monitoring and risk scoring,’’ IEEE Security Privacy, vol. 11, no. 1, pp. 90–93, Jan. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Risk management</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84884113595</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Katsikas S.K.</ce:indexed-name>
+                                    <ce:surname>Katsikas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer and Information Security Handbook</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="905" last="927"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.sciencedirect.com/science/article/pii/B9780123943972000532</ce:e-address>
+                            </ref-website>
+                            <ref-text>Waltham, MA, USA: Elsevier</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. K. Katsikas, ‘‘Risk management,’’ in Computer and Information Security Handbook. Waltham, MA, USA: Elsevier, 2013, pp. 905–927. [Online]. Available: http://www.sciencedirect.com/science/article/pii/B9780123943972000532</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004198635</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.P.</ce:initials>
+                                    <ce:indexed-name>Pfleeger C.P.</ce:indexed-name>
+                                    <ce:surname>Pfleeger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.L.</ce:initials>
+                                    <ce:indexed-name>Pfleeger S.L.</ce:indexed-name>
+                                    <ce:surname>Pfleeger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Security in Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>4th ed. Upper Saddle River, NJ, USA: Prentice-Hall</ref-text>
+                        </ref-info>
+                        <ref-fulltext>C. P. Pfleeger and S. L. Pfleeger, Security in Computing, 4th ed. Upper Saddle River, NJ, USA: Prentice-Hall, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analyzing threat agents &amp; their attributes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85018934446</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Vidalis S.</ce:indexed-name>
+                                    <ce:surname>Vidalis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jones A.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 5th Eur. Conf. Inf. Warfare Secur.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="15"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.researchgate.net/publication/220947230_Analyzing_Threat_Agents_and_Their_Attributes</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>S. Vidalis and A. Jones, ‘‘Analyzing threat agents &amp; their attributes,’’ in Proc. 5th Eur. Conf. Inf. Warfare Secur., 2005, pp. 1–15. [Online]. Available: https://www.researchgate.net/publication/220947230_Analyzing_ Threat_Agents_and_Their_Attributes</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78349270446</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Casey T.</ce:indexed-name>
+                                    <ce:surname>Casey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Threat Agent Library Helps Identify Information Security Risks</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://communities.intel.com/docs/DOC-1151</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>T. Casey. (2007). Threat Agent Library Helps Identify Information Security Risks. [Online]. Available: https://communities.intel.com/docs/DOC-1151</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Complex adaptive systems modeling with repast simphony</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85020633183</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>North M.J.</ce:indexed-name>
+                                    <ce:surname>North</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Complex Adapt. Syst. Model.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="1"/>
+                                <pagerange first="1" last="26"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://link.springer.com/article/10.1186/2194-3206-1-3</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>M. J. North et al., ‘‘Complex adaptive systems modeling with repast simphony,’’ Complex Adapt. Syst. Model., vol. 1, no. 1, pp. 1–26, 2013. [Online]. Available: http://link.springer.com/article/10.1186/ 2194-3206-1-3</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

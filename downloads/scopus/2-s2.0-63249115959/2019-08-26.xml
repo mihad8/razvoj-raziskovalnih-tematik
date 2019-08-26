@@ -1,0 +1,1759 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/63249115959</prism:url><dc:identifier>SCOPUS_ID:63249115959</dc:identifier><eid>2-s2.0-63249115959</eid><pii>S1077314208000453</pii><prism:doi>10.1016/j.cviu.2008.01.009</prism:doi><dc:title>Closed-world tracking of multiple interacting targets for indoor-sports applications</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>47</citedby-count><prism:publicationName>Computer Vision and Image Understanding</prism:publicationName><source-id>24161</source-id><prism:issn>10773142 1090235X</prism:issn><prism:volume>113</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:startingPage>598</prism:startingPage><prism:endingPage>611</prism:endingPage><prism:pageRange>598-611</prism:pageRange><prism:coverDate>2009-05-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="6602219252"><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602219252</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>In this paper we present an efficient algorithm for tracking multiple players during indoor sports matches. A sports match can be considered as a semi-controlled environment for which a set of closed-world assumptions regarding the visual as well as the dynamical properties of the players and the court can be derived. These assumptions are then used in the context of particle filtering to arrive at a computationally fast, closed-world, multi-player tracker. The proposed tracker is based on multiple, single-player trackers, which are combined using a closed-world assumption about the interactions among players. With regard to the visual properties, the robustness of the tracker is achieved by deriving a novel sports-domain-specific likelihood function and employing a novel background-elimination scheme. The restrictions on the player's dynamics are enforced by employing a novel form of local smoothing. This smoothing renders the tracking more robust and reduces the computational complexity of the tracker. We evaluated the proposed closed-world, multi-player tracker on a challenging data set. In comparison with several similar trackers that did not utilize all of the closed-world assumptions, the proposed tracker produced better estimates of position and prediction as well as reducing the number of failures. © 2008 Elsevier Inc. All rights reserved.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/63249115959" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=63249115959&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=63249115959&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6602219252"><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602219252</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="8054386200"><ce:initials>J.</ce:initials><ce:indexed-name>Pers J.</ce:indexed-name><ce:surname>Perš</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Perš J.</ce:indexed-name><ce:surname>Perš</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8054386200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="14036221100"><ce:initials>M.</ce:initials><ce:indexed-name>Perse M.</ce:indexed-name><ce:surname>Perše</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Perše M.</ce:indexed-name><ce:surname>Perše</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14036221100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="7005478485"><ce:initials>S.</ce:initials><ce:indexed-name>Kovacic S.</ce:indexed-name><ce:surname>Kovačič</ce:surname><ce:given-name>Stanislav</ce:given-name><preferred-name><ce:initials>S.</ce:initials><ce:indexed-name>Kovačič S.</ce:indexed-name><ce:surname>Kovačič</ce:surname><ce:given-name>Stanislav</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7005478485</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Closed world</author-keyword><author-keyword>Color histograms</author-keyword><author-keyword>Dynamic models</author-keyword><author-keyword>Local smoothing</author-keyword><author-keyword>Multiple targets</author-keyword><author-keyword>Particle filter</author-keyword><author-keyword>Sport</author-keyword><author-keyword>Tracking</author-keyword><author-keyword>Voronoi partitioning</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Closed world</mainterm><mainterm weight="a" candidate="n">Color histograms</mainterm><mainterm weight="a" candidate="n">Local smoothing</mainterm><mainterm weight="a" candidate="n">Multiple targets</mainterm><mainterm weight="a" candidate="n">Particle filter</mainterm><mainterm weight="a" candidate="n">Sport</mainterm><mainterm weight="a" candidate="n">Tracking</mainterm><mainterm weight="a" candidate="n">Voronoi partitioning</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1711" abbrev="COMP">Signal Processing</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-09T16:01:54.179Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="09" month="04" timestamp="2019-04-09T01:13:14.000014-04:00" year="2019"/><ait:date-sort day="01" month="05" year="2009"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2009 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S1077314208000453</ce:pii>
+                    <ce:doi>10.1016/j.cviu.2008.01.009</ce:doi>
+                    <itemid idtype="PUI">50130188</itemid>
+                    <itemid idtype="CPX">20091412015505</itemid>
+                    <itemid idtype="SCP">63249115959</itemid>
+                    <itemid idtype="SGR">63249115959</itemid>
+                </itemidlist><history>
+                    <date-created day="25" month="04" year="2008"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Closed world</author-keyword>
+                        <author-keyword xml:lang="eng">Color histograms</author-keyword>
+                        <author-keyword xml:lang="eng">Dynamic models</author-keyword>
+                        <author-keyword xml:lang="eng">Local smoothing</author-keyword>
+                        <author-keyword xml:lang="eng">Multiple targets</author-keyword>
+                        <author-keyword xml:lang="eng">Particle filter</author-keyword>
+                        <author-keyword xml:lang="eng">Sport</author-keyword>
+                        <author-keyword xml:lang="eng">Tracking</author-keyword>
+                        <author-keyword xml:lang="eng">Voronoi partitioning</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Closed-world tracking of multiple interacting targets for indoor-sports applications</titletext></citation-title><author-group><author auid="6602219252" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Kristan M.</ce:indexed-name>
+                            <ce:surname>Kristan</ce:surname>
+                            <ce:given-name>Matej</ce:given-name>
+                        </preferred-name></author><author auid="8054386200" seq="2"><ce:initials>J.</ce:initials><ce:indexed-name>Pers J.</ce:indexed-name><ce:surname>Perš</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Perš J.</ce:indexed-name>
+                            <ce:surname>Perš</ce:surname>
+                            <ce:given-name>Janez</ce:given-name>
+                        </preferred-name></author><author auid="14036221100" seq="3"><ce:initials>M.</ce:initials><ce:indexed-name>Perse M.</ce:indexed-name><ce:surname>Perše</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Perše M.</ce:indexed-name>
+                            <ce:surname>Perše</ce:surname>
+                            <ce:given-name>Matej</ce:given-name>
+                        </preferred-name></author><author auid="7005478485" seq="4"><ce:initials>S.</ce:initials><ce:indexed-name>Kovacic S.</ce:indexed-name><ce:surname>Kovačič</ce:surname><ce:given-name>Stanislav</ce:given-name><preferred-name>
+                            <ce:initials>S.</ce:initials>
+                            <ce:indexed-name>Kovačič S.</ce:indexed-name>
+                            <ce:surname>Kovačič</ce:surname>
+                            <ce:given-name>Stanislav</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580649"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>1001 Ljubljana</city-group><affiliation-id afid="60031106" dptid="104580649"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Kristan M.</ce:indexed-name>
+                        <ce:surname>Kristan</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>1001 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>In this paper we present an efficient algorithm for tracking multiple players during indoor sports matches. A sports match can be considered as a semi-controlled environment for which a set of closed-world assumptions regarding the visual as well as the dynamical properties of the players and the court can be derived. These assumptions are then used in the context of particle filtering to arrive at a computationally fast, closed-world, multi-player tracker. The proposed tracker is based on multiple, single-player trackers, which are combined using a closed-world assumption about the interactions among players. With regard to the visual properties, the robustness of the tracker is achieved by deriving a novel sports-domain-specific likelihood function and employing a novel background-elimination scheme. The restrictions on the player's dynamics are enforced by employing a novel form of local smoothing. This smoothing renders the tracking more robust and reduces the computational complexity of the tracker. We evaluated the proposed closed-world, multi-player tracker on a challenging data set. In comparison with several similar trackers that did not utilize all of the closed-world assumptions, the proposed tracker produced better estimates of position and prediction as well as reducing the number of failures. © 2008 Elsevier Inc. All rights reserved.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="24161" type="j"><sourcetitle>Computer Vision and Image Understanding</sourcetitle><sourcetitle-abbrev>Comput Vision Image Understanding</sourcetitle-abbrev><issn type="print">10773142</issn><issn type="electronic">1090235X</issn><codencode>CVIUF</codencode><volisspag>
+                        <voliss issue="5" volume="113"/>
+                        <pagerange first="598" last="611"/>
+                    </volisspag><publicationyear first="2009"/><publicationdate>
+                        <year>2009</year>
+                        <month>05</month>
+                    <date-text xfab-added="true">May 2009</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>932.1.1</classification>
+                            <classification>921</classification>
+                            <classification>802.1</classification>
+                            <classification>731.1</classification>
+                            <classification>721.1</classification>
+                            <classification>716.1</classification>
+                            <classification>451.2</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1711</classification>
+                            <classification>1707</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="59">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Human motion analysis: a review</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033099637</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.K.</ce:initials>
+                                    <ce:indexed-name>Aggarwal J.K.</ce:indexed-name>
+                                    <ce:surname>Aggarwal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Cai Q.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comp. Vis. Image Und.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="73"/>
+                                <pagerange first="428" last="440"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Aggarwal J.K., and Cai Q. Human motion analysis: a review. Comp. Vis. Image Und. 73 3 (1999) 428-440</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A new look at the statistical model identification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0016355478</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Akaike H.</ce:indexed-name>
+                                    <ce:surname>Akaike</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Automat. Contr.</ref-sourcetitle>
+                            <ref-publicationyear first="1974"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="716" last="723"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Akaike H. A new look at the statistical model identification. IEEE Trans. Automat. Contr. 19 (1974) 716-723</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A computer-video aided time motion analysis technique for match analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025756811</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ali A.</ce:indexed-name>
+                                    <ce:surname>Ali</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Farrally M.</ce:indexed-name>
+                                    <ce:surname>Farrally</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Sports Med. Phys. Fit.</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <voliss volume="31"/>
+                                <pagerange first="82" last="88"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ali A., and Farrally M. A computer-video aided time motion analysis technique for match analysis. J. Sports Med. Phys. Fit. 31 (1991) 82-88</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A tutorial on particle filters for online nonlinear/non-gaussian Bayesian tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036475447</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Arulampalam M.</ce:indexed-name>
+                                    <ce:surname>Arulampalam</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Maskell S.</ce:indexed-name>
+                                    <ce:surname>Maskell</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Gordon N.</ce:indexed-name>
+                                    <ce:surname>Gordon</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Clapp T.</ce:indexed-name>
+                                    <ce:surname>Clapp</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Signal Proc.</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="50"/>
+                                <pagerange first="174" last="188"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Arulampalam M., Maskell S., Gordon N., and Clapp T. A tutorial on particle filters for online nonlinear/non-gaussian Bayesian tracking. IEEE Trans. Signal Proc. 50 2 (2002) 174-188</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The physiology of soccer: with special reference to intense intermittent exercise</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028115634</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Bangsbo J.</ce:indexed-name>
+                                    <ce:surname>Bangsbo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Acta Physiol Scand</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss volume="619"/>
+                                <pagerange first="1" last="155"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bangsbo J. The physiology of soccer: with special reference to intense intermittent exercise. Acta Physiol Scand 619 (1994) 1-155</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003826365</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Bar-Shalom Y.</ce:indexed-name>
+                                    <ce:surname>Bar-Shalom</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>X.R.</ce:initials>
+                                    <ce:indexed-name>Li X.R.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Kirubarajan T.</ce:indexed-name>
+                                    <ce:surname>Kirubarajan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Estimation with Applications to Tracking and Navigation</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-text>John Wiley &amp; Sons, Inc. Chapter 11</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Bar-Shalom Y., Li X.R., and Kirubarajan T. Estimation with Applications to Tracking and Navigation (2001), John Wiley &amp; Sons, Inc. Chapter 11</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spatiograms versus histograms for region-based tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">24644479233</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.T.</ce:initials>
+                                    <ce:indexed-name>Birchfield S.T.</ce:indexed-name>
+                                    <ce:surname>Birchfield</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Rangarajan S.</ce:indexed-name>
+                                    <ce:surname>Rangarajan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Conf. Comp. Vis. Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="1158" last="1163"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S.T. Birchfield, S. Rangarajan, Spatiograms versus histograms for region-based tracking, in: Proc. Conf. Comp. Vis. Pattern Recognition, vol. 2, 2005, pp. 1158-1163.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249109996</itemid>
+                            </refd-itemidlist>
+                            <ref-text>M. Bon, J. Perš, S. Kovačič, Computer vision system for tracking players during the handball match, in: Perspectives and Profiles, Ann. Con. European College of Sport Science, 2001, p. 549.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Bon, J. Perš, S. Kovačič, Computer vision system for tracking players during the handball match, in: Perspectives and Profiles, Ann. Con. European College of Sport Science, 2001, p. 549.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249135639</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bon M.</ce:indexed-name>
+                                    <ce:surname>Bon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pers J.</ce:indexed-name>
+                                    <ce:surname>Perš</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sibila M.</ce:indexed-name>
+                                    <ce:surname>Šibila</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kovacic S.</ce:indexed-name>
+                                    <ce:surname>Kovačič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Analiza gibanja igralca med tekmo, Faculty of Sport</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-text>University of Ljubljana</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Bon, J. Perš, M. Šibila, S. Kovačič, Analiza gibanja igralca med tekmo, Faculty of Sport, University of Ljubljana, 2001.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust visual tracking for multiple targets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745809784</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Cai Y.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>de Feritas N.</ce:indexed-name>
+                                    <ce:surname>de Feritas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Little J.J.</ce:indexed-name>
+                                    <ce:surname>Little</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. European Conf. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="107" last="118"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Y. Cai, N. de Feritas, J.J. Little, Robust visual tracking for multiple targets, in: Proc. European Conf. Computer Vision, vol. IV, 2006, pp. 107-118.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bayesian Filtering: From Kalman Filters to Particle Filters, and Beyond</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3543103331</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Chen Z.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2003"/>
+                            <ref-text>Technical Report, McMaster University, Hamilton, Ontario, Canada</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Z. Chen, Bayesian Filtering: From Kalman Filters to Particle Filters, and Beyond, Technical Report, McMaster University, Hamilton, Ontario, Canada, 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Probabilistic tracking of soccer players and ball</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249125464</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Choi K.</ce:indexed-name>
+                                    <ce:surname>Choi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.D.</ce:initials>
+                                    <ce:indexed-name>Seo Y.D.</ce:indexed-name>
+                                    <ce:surname>Seo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.W.</ce:initials>
+                                    <ce:indexed-name>Lee S.W.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Asian Conf. Comput. Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="27" last="30"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Choi K., Seo Y.D., and Lee S.W. Probabilistic tracking of soccer players and ball. Proc. Asian Conf. Comput. Vis. 1 (2004) 27-30</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Kernel-based object tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038633569</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.D.</ce:initials>
+                                    <ce:indexed-name>Comaniciu V.D.</ce:indexed-name>
+                                    <ce:surname>Comaniciu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Meer P.</ce:indexed-name>
+                                    <ce:surname>Meer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Patter. Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="25"/>
+                                <pagerange first="564" last="575"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Comaniciu V.D., and Meer P. Kernel-based object tracking. IEEE Trans. Patter. Anal. Mach. Intell. 25 5 (2003) 564-575</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A color-based particle filter for joint detection and tracking of multiple objects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33646779562</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Czyz J.</ce:indexed-name>
+                                    <ce:surname>Czyz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Ristic B.</ce:indexed-name>
+                                    <ce:surname>Ristic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Macq B.</ce:indexed-name>
+                                    <ce:surname>Macq</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Acoustics, Speech and Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>March</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Czyz, B. Ristic, B. Macq, A color-based particle filter for joint detection and tracking of multiple objects, in: Proc. Int. Conf. Acoustics, Speech and Signal Processing, March 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Histograms of oriented gradients for human detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645146449</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Dalal N.</ce:indexed-name>
+                                    <ce:surname>Dalal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Triggs B.</ce:indexed-name>
+                                    <ce:surname>Triggs</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Conf. Comp. Vis. Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="886" last="893"/>
+                            </ref-volisspag>
+                            <ref-text>June</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N. Dalal, B. Triggs, Histograms of oriented gradients for human detection, in: Proc. Conf. Comp. Vis. Pattern Recognition, vol. 1, June 2005, pp. 886-893.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003665481</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Sequential Monte Carlo Methods in Practice</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-text>Doucet A., de Freitas N., and Gordon N. (Eds), Springer-Verlag, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>In: Doucet A., de Freitas N., and Gordon N. (Eds). Sequential Monte Carlo Methods in Practice (2001), Springer-Verlag, New York</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249089144</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.O.</ce:initials>
+                                    <ce:indexed-name>Duda R.O.</ce:indexed-name>
+                                    <ce:surname>Duda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.E.</ce:initials>
+                                    <ce:indexed-name>Hart P.E.</ce:indexed-name>
+                                    <ce:surname>Hart</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.G.</ce:initials>
+                                    <ce:indexed-name>Stork D.G.</ce:indexed-name>
+                                    <ce:surname>Stork</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Classification, Nonparametric Techniques</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="177" last="178"/>
+                            </ref-volisspag>
+                            <ref-text>second ed, Wiley-Interscience Publication</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R.O. Duda, P.E. Hart, D.G. Stork, Pattern Classification, Nonparametric Techniques, second ed., Wiley-Interscience Publication, 2000, pp. 177-178</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Gathering of kinematic data of sport event by televising the whole pitch and track</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0009895131</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.S.</ce:initials>
+                                    <ce:indexed-name>Erdmann W.S.</ce:indexed-name>
+                                    <ce:surname>Erdmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <pagerange first="159" last="162"/>
+                            </ref-volisspag>
+                            <ref-text>Soc. Biomech. Sports Sympossium</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W.S. Erdmann, Gathering of kinematic data of sport event by televising the whole pitch and track, in: Proc. Int. Soc. Biomech. Sports Sympossium, 1992, pp. 159-162.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking soccer players using the graph representation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">10044237515</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.J.</ce:initials>
+                                    <ce:indexed-name>Figueroa P.J.</ce:indexed-name>
+                                    <ce:surname>Figueroa</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.J.</ce:initials>
+                                    <ce:indexed-name>Leite N.J.</ce:indexed-name>
+                                    <ce:surname>Leite</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.M.L.</ce:initials>
+                                    <ce:indexed-name>Barros R.M.L.</ce:indexed-name>
+                                    <ce:surname>Barros</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Cohen I.</ce:indexed-name>
+                                    <ce:surname>Cohen</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Medioni G.</ce:indexed-name>
+                                    <ce:surname>Medioni</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="787" last="790"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P.J. Figueroa, N.J. Leite, R.M.L. Barros, I. Cohen, G. Medioni, Tracking soccer players using the graph representation, in: Int. Conf. Pattern Recognition, vol. 4, 2004, pp. 787-790.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The state of the art in multiple object tracking under occlusion in video sequences</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33746602359</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gabriel P.</ce:indexed-name>
+                                    <ce:surname>Gabriel</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Verly J.</ce:indexed-name>
+                                    <ce:surname>Verly</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Piater J.</ce:indexed-name>
+                                    <ce:surname>Piater</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Genon A.</ce:indexed-name>
+                                    <ce:surname>Genon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Advanced Concepts for Intelligent Vision Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <pagerange first="166" last="173"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Gabriel, J. Verly, J. Piater, A Genon, The state of the art in multiple object tracking under occlusion in video sequences, in: Proc. Advanced Concepts for Intelligent Vision Systems, 2003, pp. 166-173.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual analysis of human movement: a survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032804927</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Gavrila D.M.</ce:indexed-name>
+                                    <ce:surname>Gavrila</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Vis. Image Und.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="73"/>
+                                <pagerange first="82" last="98"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gavrila D.M. The visual analysis of human movement: a survey. Comput. Vis. Image Und. 73 1 (1999) 82-98</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Novel approach to nonlinear/non-gaussian Bayesian state estimation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027580559</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.J.</ce:initials>
+                                    <ce:indexed-name>Gordon N.J.</ce:indexed-name>
+                                    <ce:surname>Gordon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Salmond D.J.</ce:indexed-name>
+                                    <ce:surname>Salmond</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.F.M.</ce:initials>
+                                    <ce:indexed-name>Smith A.F.M.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEE Proc. Radar and Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="40"/>
+                                <pagerange first="107" last="113"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>N.J. Gordon, D.J. Salmond, A.F.M. Smith, Novel approach to nonlinear/non-gaussian Bayesian state estimation, in: IEE Proc. Radar and Signal Processing, vol. 40, 1993, pp. 107-113.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249091309</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Hemlick R.</ce:indexed-name>
+                                    <ce:surname>Hemlick</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Multitarget-multisensor tracking: Applications and advances</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="175" last="178"/>
+                            </ref-volisspag>
+                            <ref-text>IMM Estimator With Nearest-Neighbour Joint Probabilistic Data Association, Artech House, Inc</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Hemlick, Multitarget-multisensor tracking: applications and advances, vol. 3, IMM Estimator With Nearest-Neighbour Joint Probabilistic Data Association, Artech House, Inc., 2000, pp. 175-178.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The physiological basis of athletic records</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0142221952</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.V.</ce:initials>
+                                    <ce:indexed-name>Hill A.V.</ce:indexed-name>
+                                    <ce:surname>Hill</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sci. Mon.</ref-sourcetitle>
+                            <ref-publicationyear first="1925"/>
+                            <ref-volisspag>
+                                <voliss volume="21"/>
+                                <pagerange first="409" last="428"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hill A.V. The physiological basis of athletic records. Sci. Mon. 21 (1925) 409-428</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A particle filter to track multiple objects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84963657147</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hue C.</ce:indexed-name>
+                                    <ce:surname>Hue</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.-P.</ce:initials>
+                                    <ce:indexed-name>Le Cadre J.-P.</ce:indexed-name>
+                                    <ce:surname>Le Cadre</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Perez P.</ce:indexed-name>
+                                    <ce:surname>Pérez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Workshop on Multi-Object Tracking</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="61" last="68"/>
+                            </ref-volisspag>
+                            <ref-text>Vancouver, Canada, July</ref-text>
+                        </ref-info>
+                        <ref-fulltext>C. Hue, J.-P. Le Cadre, P. Pérez, A particle filter to track multiple objects, in: IEEE Workshop on Multi-Object Tracking, Vancouver, Canada, July 2001, pp. 61-68.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249106024</itemid>
+                            </refd-itemidlist>
+                            <ref-text>S.S. Intille, A.F. Bobick, Visual tracking using closed-worlds, in: Proc. Int. Conf. Computer Vision, June 1995, pp. 672-678.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S.S. Intille, A.F. Bobick, Visual tracking using closed-worlds, in: Proc. Int. Conf. Computer Vision, June 1995, pp. 672-678.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Condensation-conditional density propagation for visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032136153</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Isard M.</ce:indexed-name>
+                                    <ce:surname>Isard</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Blake A.</ce:indexed-name>
+                                    <ce:surname>Blake</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="29"/>
+                                <pagerange first="5" last="28"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Isard M., and Blake A. Condensation-conditional density propagation for visual tracking. Int. J. Comput. Vis. 29 1 (1998) 5-28</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bramble: A Bayesian multiple-blob tracker</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034851441</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Isard M.</ce:indexed-name>
+                                    <ce:surname>Isard</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>MacCormick J.</ce:indexed-name>
+                                    <ce:surname>MacCormick</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="34" last="41"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Isard, J. MacCormick, Bramble: a Bayesian multiple-blob tracker, in: Proc. Int. Conf. Computer Vision, 2001, pp. 34-41.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Parallel tracking of all soccer players by integrating detected positions in multiple view images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">10044228120</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Iwase S.</ce:indexed-name>
+                                    <ce:surname>Iwase</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Saito H.</ce:indexed-name>
+                                    <ce:surname>Saito</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="751" last="754"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Iwase, H. Saito, Parallel tracking of all soccer players by integrating detected positions in multiple view images, in: Int. Conf. Pattern Recognition, vol. 4, 2004, pp. 751-754.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A new approach to linear filtering and prediction problems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85024429815</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.E.</ce:initials>
+                                    <ce:indexed-name>Kalman R.E.</ce:indexed-name>
+                                    <ce:surname>Kalman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Trans. ASME J. Basic Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="1960"/>
+                            <ref-volisspag>
+                                <voliss volume="82"/>
+                                <pagerange first="34" last="45"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kalman R.E. A new approach to linear filtering and prediction problems. Trans. ASME J. Basic Eng. 82 (1960) 34-45</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Soccer player tracking across uncalibrated camera streams</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745851548</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kang J.</ce:indexed-name>
+                                    <ce:surname>Kang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Cohen I.</ce:indexed-name>
+                                    <ce:surname>Cohen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Medioni G.</ce:indexed-name>
+                                    <ce:surname>Medioni</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Int. Workshop on Visual Surveillance and Performance Evaluation of Tracking and Surveillance in conjunction with ICCV03</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <pagerange first="172" last="179"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Kang, I. Cohen, G. Medioni, Soccer player tracking across uncalibrated camera streams, in: IEEE Int. Workshop on Visual Surveillance and Performance Evaluation of Tracking and Surveillance in conjunction with ICCV03, 2003, pp. 172-179.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Optimal velocity in a race</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000395630</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.B.</ce:initials>
+                                    <ce:indexed-name>Keller J.B.</ce:indexed-name>
+                                    <ce:surname>Keller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Am. Math. Mon.</ref-sourcetitle>
+                            <ref-publicationyear first="1974"/>
+                            <ref-volisspag>
+                                <voliss volume="81"/>
+                                <pagerange first="474" last="480"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Keller J.B. Optimal velocity in a race. Am. Math. Mon. 81 (1974) 474-480</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>MCMC-based particle filter for tracking a variable number of interacting targets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">28044451749</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Khan Z.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Balch T.</ce:indexed-name>
+                                    <ce:surname>Balch</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Dellaert F.</ce:indexed-name>
+                                    <ce:surname>Dellaert</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Patter. Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="11" volume="27"/>
+                                <pagerange first="1805" last="1819"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Khan Z., Balch T., and Dellaert F. MCMC-based particle filter for tracking a variable number of interacting targets. IEEE Trans. Patter. Anal. Mach. Intell. 27 11 (2005) 1805-1819</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Optimization of the training plan of the handball game</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249090223</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Kotzamanidis C.</ce:indexed-name>
+                                    <ce:surname>Kotzamanidis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Chatyikoloutas K.</ce:indexed-name>
+                                    <ce:surname>Chatyikoloutas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gianakos A.</ce:indexed-name>
+                                    <ce:surname>Gianakos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Handball: Periodical Coaches Referees Lecturers</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="65" last="71"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kotzamanidis C., Chatyikoloutas K., and Gianakos A. Optimization of the training plan of the handball game. Handball: Periodical Coaches Referees Lecturers 2 (1999) 65-71</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249093016</itemid>
+                            </refd-itemidlist>
+                            <ref-text>W.L. Lu, J.J. Little, Tracking and recognizing actions at a distance, in Proc. Workshop on Compter Vision Based Analisys in Sport Environments in conjunction with ECCV06, May 2006, pp. 49-60.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W.L. Lu, J.J. Little, Tracking and recognizing actions at a distance, in Proc. Workshop on Compter Vision Based Analisys in Sport Environments in conjunction with ECCV06, May 2006, pp. 49-60.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">10044297738</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.J.</ce:initials>
+                                    <ce:indexed-name>Needham C.J.</ce:indexed-name>
+                                    <ce:surname>Needham</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Tracking and Modelling of Team Game Interactions</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-text>Ph.D. Thesis, School of Computing, The University of Leeds, October</ref-text>
+                        </ref-info>
+                        <ref-fulltext>C.J. Needham, Tracking and Modelling of Team Game Interactions. Ph.D. Thesis, School of Computing, The University of Leeds, October 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Color features for tracking non-rigid objects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0042967819</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Nummiaro K.</ce:indexed-name>
+                                    <ce:surname>Nummiaro</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Koller-Meier E.</ce:indexed-name>
+                                    <ce:surname>Koller-Meier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Van Gool L.</ce:indexed-name>
+                                    <ce:surname>Van Gool</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Chinese J. Autom.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="29"/>
+                                <pagerange first="345" last="355"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nummiaro K., Koller-Meier E., and Van Gool L. Color features for tracking non-rigid objects. Chinese J. Autom. 29 3 (2003) 345-355</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multiple soccer players tracking by condensation with occlusion alarm probability</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">20444473313</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ok H.</ce:indexed-name>
+                                    <ce:surname>Ok</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Seo Y.</ce:indexed-name>
+                                    <ce:surname>Seo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Hong K.</ce:indexed-name>
+                                    <ce:surname>Hong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Workshop on Statistically Motivated Vision Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                        </ref-info>
+                        <ref-fulltext>H. Ok, Y. Seo, K. Hong. Multiple soccer players tracking by condensation with occlusion alarm probability, in: Int. Workshop on Statistically Motivated Vision Processing, 2002.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A boosted particle filter: Multitarget detection and tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35048849881</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Okuma K.</ce:indexed-name>
+                                    <ce:surname>Okuma</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Taleghani A.</ce:indexed-name>
+                                    <ce:surname>Taleghani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>De Freitas N.</ce:indexed-name>
+                                    <ce:surname>De Freitas</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Little J.J.</ce:indexed-name>
+                                    <ce:surname>Little</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.G.</ce:initials>
+                                    <ce:indexed-name>Lowe D.G.</ce:indexed-name>
+                                    <ce:surname>Lowe</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. European Conf. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="28" last="39"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Okuma, A. Taleghani, N. De Freitas, J.J. Little, D.G. Lowe, A boosted particle filter: multitarget detection and tracking, in: Proc. European Conf. Computer Vision, vol. 1, 2004, pp. 28-39.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Color-based probabilistic tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84944401145</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Perez P.</ce:indexed-name>
+                                    <ce:surname>Pérez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hue C.</ce:indexed-name>
+                                    <ce:surname>Hue</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Vermaak J.</ce:indexed-name>
+                                    <ce:surname>Vermaak</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gangnet M.</ce:indexed-name>
+                                    <ce:surname>Gangnet</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Eur. Conf. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="661" last="675"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Pérez, C. Hue, J. Vermaak, M. Gangnet, Color-based probabilistic tracking, in: Proc. Eur. Conf. Computer Vision, vol. 1, 2002, pp. 661-675.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking people in sport: Making use of partially controlled environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">23044529111</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pers J.</ce:indexed-name>
+                                    <ce:surname>Perš</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kovacic S.</ce:indexed-name>
+                                    <ce:surname>Kovačič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. Computer Analysis of Images and Patterns</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="374" last="382"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Perš, S. Kovačič, Tracking people in sport: making use of partially controlled environment, in: Int. Conf. Computer Analysis of Images and Patterns, 2001, pp. 374-382.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A low-cost real-time tracker of live sport events</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84915737110</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pers J.</ce:indexed-name>
+                                    <ce:surname>Perš</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Vuckovic G.</ce:indexed-name>
+                                    <ce:surname>Vučković</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kovacic S.</ce:indexed-name>
+                                    <ce:surname>Kovačič</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Dezman B.</ce:indexed-name>
+                                    <ce:surname>Dežman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Symp. Image and Signal Processing and Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="362" last="365"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Perš, G. Vučković, S. Kovačič, B. Dežman, A low-cost real-time tracker of live sport events, in: Proc. Int. Symp. Image and Signal Processing and Analysis, 2001, pp. 362-365.</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Off-line multiple object tracking using candidate selection and the viterbi algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33749266209</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Pitie F.</ce:indexed-name>
+                                    <ce:surname>Pitié</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Berrani S.A.</ce:indexed-name>
+                                    <ce:surname>Berrani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kokaram A.</ce:indexed-name>
+                                    <ce:surname>Kokaram</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Dahyot R.</ce:indexed-name>
+                                    <ce:surname>Dahyot</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE Int. Conf. Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="109" last="112"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Pitié, S.A. Berrani, A. Kokaram, R. Dahyot, Off-line multiple object tracking using candidate selection and the viterbi algorithm, in: Proc. IEEE Int. Conf. Image Processing, vol. 3, 2005, pp. 109-112.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Filtering via simulation: auxiliary particle filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">1542427941</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.K.</ce:initials>
+                                    <ce:indexed-name>Pitt M.K.</ce:indexed-name>
+                                    <ce:surname>Pitt</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Sheppard N.</ce:indexed-name>
+                                    <ce:surname>Sheppard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Am. Stat. Assoc.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="446" volume="94"/>
+                                <pagerange first="590" last="599"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pitt M.K., and Sheppard N. Filtering via simulation: auxiliary particle filters. J. Am. Stat. Assoc. 94 446 (1999) 590-599</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Probabilistic data association methods for tracking complex visual objects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035363738</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Rasmussen C.</ce:indexed-name>
+                                    <ce:surname>Rasmussen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.D.</ce:initials>
+                                    <ce:indexed-name>Hager G.D.</ce:indexed-name>
+                                    <ce:surname>Hager</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Patter. Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="23"/>
+                                <pagerange first="560" last="576"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rasmussen C., and Hager G.D. Probabilistic data association methods for tracking complex visual objects. IEEE Trans. Patter. Anal. Mach. Intell. 23 6 (2001) 560-576</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The measurement of human motion: a comparison of commercially available systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001746929</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.G.</ce:initials>
+                                    <ce:indexed-name>Richards J.G.</ce:indexed-name>
+                                    <ce:surname>Richards</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Hum. Movement Sci.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="589" last="602"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Richards J.G. The measurement of human motion: a comparison of commercially available systems. Hum. Movement Sci. 18 (1999) 589-602</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Survey of maneuvering target tracking: dynamic models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">1642354326</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.R.</ce:initials>
+                                    <ce:indexed-name>Li X.R.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.P.</ce:initials>
+                                    <ce:indexed-name>Jilkov V.P.</ce:indexed-name>
+                                    <ce:surname>Jilkov</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Aero. El. Sys.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="39"/>
+                                <pagerange first="1333" last="1363"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Li X.R., and Jilkov V.P. Survey of maneuvering target tracking: dynamic models. IEEE Trans. Aero. El. Sys. 39 4 (2003) 1333-1363</ref-fulltext>
+                    </reference>
+                    <reference id="48">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249091635</itemid>
+                            </refd-itemidlist>
+                            <ref-text>N. Saito, R.R. Coifman, Improved local discriminant bases using empirical probability density estimation, in: Comput. Section of American Statistical Association, 1997, pp. 312-321.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N. Saito, R.R. Coifman, Improved local discriminant bases using empirical probability density estimation, in: Comput. Section of American Statistical Association, 1997, pp. 312-321.</ref-fulltext>
+                    </reference>
+                    <reference id="49">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking multiple moving targets with a mobile robot using particle filters and statistical data association</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034860928</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Schulz D.</ce:indexed-name>
+                                    <ce:surname>Schulz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Burgard W.</ce:indexed-name>
+                                    <ce:surname>Burgard</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Fox D.</ce:indexed-name>
+                                    <ce:surname>Fox</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.B.</ce:initials>
+                                    <ce:indexed-name>Cremers A.B.</ce:indexed-name>
+                                    <ce:surname>Cremers</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE Int. Conf. Robotics and Automation</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="665" last="670"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. Schulz, W. Burgard, D. Fox, A.B. Cremers, Tracking multiple moving targets with a mobile robot using particle filters and statistical data association, in: Proc. IEEE Int. Conf. Robotics and Automation, vol. 1, 2001, pp. 665-670.</ref-fulltext>
+                    </reference>
+                    <reference id="50">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Where are the ball and players? Soccer game analysis with color based tracking and image mosaick</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84957633950</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Seo Y.</ce:indexed-name>
+                                    <ce:surname>Seo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Choi S.</ce:indexed-name>
+                                    <ce:surname>Choi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Kim H.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.S.</ce:initials>
+                                    <ce:indexed-name>Hong K.S.</ce:indexed-name>
+                                    <ce:surname>Hong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Image Analysis and Processing</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="196" last="203"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Y. Seo, S. Choi, H. Kim, K.S. Hong, Where are the ball and players? Soccer game analysis with color based tracking and image mosaick, in: Proc. Int. Conf. Image Analysis and Processing, vol. 2, 1997, pp. 196-203.</ref-fulltext>
+                    </reference>
+                    <reference id="51">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking and labelling of interacting multiple targets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745812432</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Sullivan J.</ce:indexed-name>
+                                    <ce:surname>Sullivan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Carlsson S.</ce:indexed-name>
+                                    <ce:surname>Carlsson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. European Conf. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="619" last="632"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Sullivan, S. Carlsson, Tracking and labelling of interacting multiple targets, in: Proc. European Conf. Computer Vision, vol. 3, 2006, pp. 619-632.</ref-fulltext>
+                    </reference>
+                    <reference id="52">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Colour indexing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026246210</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Swain M.J.</ce:indexed-name>
+                                    <ce:surname>Swain</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.H.</ce:initials>
+                                    <ce:indexed-name>Ballard D.H.</ce:indexed-name>
+                                    <ce:surname>Ballard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="7"/>
+                                <pagerange first="11" last="32"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Swain M.J., and Ballard D.H. Colour indexing. Int. J. Comput. Vis. 7 1 (1991) 11-32</ref-fulltext>
+                    </reference>
+                    <reference id="53">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On using likelihood-adjusted proposals in particle filtering: Local importance sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33749055381</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Torma P.</ce:indexed-name>
+                                    <ce:surname>Torma</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Szepesvari C.</ce:indexed-name>
+                                    <ce:surname>Szepesvari</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Symp. Image and Signal Processing and Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>September</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. Torma, Cs. Szepesvari, On using likelihood-adjusted proposals in particle filtering: local importance sampling, in: Proc. Int. Symp. Image and Signal Processing and Analysis, September 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="54">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Maintaining multi-modality through mixture tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0345414510</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Vermaak J.</ce:indexed-name>
+                                    <ce:surname>Vermaak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Doucet A.</ce:indexed-name>
+                                    <ce:surname>Doucet</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Perez P.</ce:indexed-name>
+                                    <ce:surname>Pérez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="110" last="116"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Vermaak, A. Doucet, P. Pérez, Maintaining multi-modality through mixture tracking, in: Proc. Int. Conf. Computer Vision, vol. 1, 2003, pp. 110-116.</ref-fulltext>
+                    </reference>
+                    <reference id="55">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63249095231</itemid>
+                            </refd-itemidlist>
+                            <ref-text>G. Vučković, B. Dežman, F. Erčulj, S. Kovačič, Perš J, Differences between the winning and the losing players in a squash game in terms of distance covered, in: Science and Racket Sports III: Int. Table Tennis Federation Sports, 2004, pp. 202-207.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>G. Vučković, B. Dežman, F. Erčulj, S. Kovačič, Perš J, Differences between the winning and the losing players in a squash game in terms of distance covered, in: Science and Racket Sports III: Int. Table Tennis Federation Sports, 2004, pp. 202-207.</ref-fulltext>
+                    </reference>
+                    <reference id="56">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Effective appearance model and similarity measure for particle filtering and visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33744961948</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wang H.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Suter D.</ce:indexed-name>
+                                    <ce:surname>Suter</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Schindler K.</ce:indexed-name>
+                                    <ce:surname>Schindler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. European Conf. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="3851"/>
+                                <pagerange first="328" last="337"/>
+                            </ref-volisspag>
+                            <ref-text>May</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Wang, D. Suter, K. Schindler, Effective appearance model and similarity measure for particle filtering and visual tracking, in: Proc. European Conf. Computer Vision, vol. 3851, pp. 328-337, May 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="57">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interacting multiple model particle filter to adaptive visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">17044371546</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wang J.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zhao D.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Gao W.</ce:indexed-name>
+                                    <ce:surname>Gao</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Shan S.</ce:indexed-name>
+                                    <ce:surname>Shan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Image and Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="568" last="571"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Wang, D. Zhao, W. Gao, S. Shan, Interacting multiple model particle filter to adaptive visual tracking, in: Proc. Int. Conf. Image and Graphics, 2004, pp. 568-571.</ref-fulltext>
+                    </reference>
+                    <reference id="58">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking football players with multiple cameras</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">20444506395</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Xu M.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Orwell J.</ce:indexed-name>
+                                    <ce:surname>Orwell</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Jones G.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE Int. Conf. Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="5"/>
+                                <pagerange first="2909" last="2912"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ming Xu, J. Orwell, G. Jones. Tracking football players with multiple cameras, in: Proc. IEEE Int. Conf. Image Processing, vol. 5, 2004, pp. 2909-2912.</ref-fulltext>
+                    </reference>
+                    <reference id="59">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking multiple humans in crowded environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">5044227162</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhao T.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Nevatia R.</ce:indexed-name>
+                                    <ce:surname>Nevatia</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Conf. Comp. Vis. Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="406" last="413"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>T. Zhao, R. Nevatia, Tracking multiple humans in crowded environment, in: Proc. Conf. Comp. Vis. Pattern Recognition, vol. 2, 2004, pp. 406-413.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

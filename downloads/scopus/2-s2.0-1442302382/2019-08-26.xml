@@ -1,0 +1,487 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/1442302382</prism:url><dc:identifier>SCOPUS_ID:1442302382</dc:identifier><eid>2-s2.0-1442302382</eid><dc:title>Comparison of frameworks and tools for test-driven development</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>IASTED International Multi-Conference on Applied Informatics</prism:publicationName><source-id>100730</source-id><prism:isbn>0889863415</prism:isbn><prism:volume>21</prism:volume><prism:startingPage>980</prism:startingPage><prism:endingPage>985</prism:endingPage><prism:pageRange>980-985</prism:pageRange><prism:coverDate>2003-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6505935502"><ce:initials>M.</ce:initials><ce:indexed-name>Pancur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pančur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505935502</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Test-Driven Development (TDD) is one of the core practices in increasingly popular agile software development methodologies (e.g. Extreme Programming - XP). In TDD, automated tests are the driving force in development and they are always written prior to the code they test. Since tests are so important, their execution must be automated and run as often as possible. In this paper, we discuss and compare different frameworks, framework extensions and tools for TDD on the rival platforms: Sun's Java and Microsoft's .NET. We look at the current Open Source and commercial integrated development environments (IDEs) for both platforms and evaluate their readiness for TDD style development. We provide recommendations and links to resources for tools and unit-testing frameworks that worked best for us, were stable and relatively bug free.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/1442302382" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=1442302382&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=1442302382&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6505935502"><ce:initials>M.</ce:initials><ce:indexed-name>Pancur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pančur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505935502</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6506259692"><ce:initials>M.</ce:initials><ce:indexed-name>Ciglaric M.</ce:indexed-name><ce:surname>Ciglarič</ce:surname><ce:given-name>Mojca</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Ciglarič M.</ce:indexed-name><ce:surname>Ciglarič</ce:surname><ce:given-name>Mojca</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506259692</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="55976544700"><ce:initials>M.</ce:initials><ce:indexed-name>Trampus M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Trampuš M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55976544700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="56269151700"><ce:initials>T.</ce:initials><ce:indexed-name>Vidmar T.</ce:indexed-name><ce:surname>Vidmar</ce:surname><ce:given-name>Tone</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Vidmar T.</ce:indexed-name><ce:surname>Vidmar</ce:surname><ce:given-name>Tone</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56269151700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Agile Methods</author-keyword><author-keyword>Software Tools</author-keyword><author-keyword>Test-Driven Development (TDD)</author-keyword><author-keyword>Unit-testing Frameworks and Extensions</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Agile methods</mainterm><mainterm weight="a" candidate="n">Test-driven development (TDD)</mainterm><mainterm weight="a" candidate="n">Unit-testing frameworks and extensions</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="26" month="07" timestamp="2014-07-26T20:39:30.000030+01:00" year="2014"/><ait:date-sort day="01" month="12" year="2003"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">38291930</itemid>
+<itemid idtype="CPX">2004128066694</itemid>
+<itemid idtype="SCP">1442302382</itemid>
+<itemid idtype="SGR">1442302382</itemid>
+</itemidlist><history>
+<date-created day="15" month="03" year="2004"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Agile Methods</author-keyword>
+<author-keyword>Software Tools</author-keyword>
+<author-keyword>Test-Driven Development (TDD)</author-keyword>
+<author-keyword>Unit-testing Frameworks and Extensions</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Comparison of frameworks and tools for test-driven development</titletext></citation-title><author-group><author auid="6505935502" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Pancur M.</ce:indexed-name><ce:surname>Pančur</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Pančur M.</ce:indexed-name>
+<ce:surname>Pančur</ce:surname>
+<ce:given-name>Matjaž</ce:given-name>
+</preferred-name></author><author auid="6506259692" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Ciglaric M.</ce:indexed-name><ce:surname>Ciglarič</ce:surname><ce:given-name>Mojca</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ciglarič M.</ce:indexed-name>
+<ce:surname>Ciglarič</ce:surname>
+<ce:given-name>Mojca</ce:given-name>
+</preferred-name></author><author auid="55976544700" seq="3"><ce:initials>M.</ce:initials><ce:indexed-name>Trampus M.</ce:indexed-name><ce:surname>Trampuš</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Trampuš M.</ce:indexed-name>
+<ce:surname>Trampuš</ce:surname>
+<ce:given-name>Matej</ce:given-name>
+</preferred-name></author><author auid="56269151700" seq="4"><ce:initials>T.</ce:initials><ce:indexed-name>Vidmar T.</ce:indexed-name><ce:surname>Vidmar</ce:surname><ce:given-name>Tone</ce:given-name><preferred-name>
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Vidmar T.</ce:indexed-name>
+<ce:surname>Vidmar</ce:surname>
+<ce:given-name>Tone</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Fac. of Comp./Information Science</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Pancur M.</ce:indexed-name>
+<ce:surname>Pančur</ce:surname>
+</person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Fac. of Comp./Information Science</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Test-Driven Development (TDD) is one of the core practices in increasingly popular agile software development methodologies (e.g. Extreme Programming - XP). In TDD, automated tests are the driving force in development and they are always written prior to the code they test. Since tests are so important, their execution must be automated and run as often as possible. In this paper, we discuss and compare different frameworks, framework extensions and tools for TDD on the rival platforms: Sun's Java and Microsoft's .NET. We look at the current Open Source and commercial integrated development environments (IDEs) for both platforms and evaluate their readiness for TDD style development. We provide recommendations and links to resources for tools and unit-testing frameworks that worked best for us, were stable and relatively bug free.</ce:para>
+</abstract></abstracts><source country="aut" srcid="100730" type="p"><sourcetitle>IASTED International Multi-Conference on Applied Informatics</sourcetitle><sourcetitle-abbrev>IASTED Internat. Multi-Conf. Appl. Inform.</sourcetitle-abbrev><issuetitle>21st IASTED International Multi-Conference on Applied Informatics</issuetitle><isbn>0889863415</isbn><volisspag>
+<voliss volume="21"/>
+<pagerange first="980" last="985"/>
+</volisspag><publicationyear first="2003"/><publicationdate>
+<year>2003</year>
+<date-text xfab-added="true">2003</date-text></publicationdate><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>21st IASTED International Multi-Conference on Applied Informatics</confname>
+<conflocation country="aut">
+<city-group>Innsbruck</city-group>
+</conflocation>
+<confdate>
+<startdate day="10" month="02" year="2003"/>
+<enddate day="13" month="02" year="2003"/>
+</confdate>
+<confcode>62395</confcode>
+<confsponsors complete="y">
+<confsponsor>International Assoc. of Sc. and Technol. for Developm. (IASTED)</confsponsor>
+</confsponsors>
+</confevent>
+<confpublication>
+<procpagecount>363</procpagecount>
+</confpublication>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1700</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications>
+<classifications type="CPXCLASS">
+<classification>902.2</classification>
+<classification>731</classification>
+<classification>723.5</classification>
+<classification>723.2</classification>
+<classification>723.1.1</classification>
+<classification>723.1</classification>
+<classification>722</classification>
+</classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="26">
+<reference id="87008580">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442343502</itemid>
+</refd-itemidlist>
+<ref-website>
+<ce:e-address type="url">http://www.agilealliance.org</ce:e-address>
+</ref-website>
+<ref-text>online</ref-text>
+</ref-info>
+<ref-fulltext>Agile Alliance, online http://www.agilealliance.org</ref-fulltext>
+</reference>
+<reference id="87008581">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003827816</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Beck K.</ce:indexed-name>
+<ce:surname>Beck</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Extreme Programming Explained: Embrace Change</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-text>Addison Wesley, Reading, Mass.</ref-text>
+</ref-info>
+<ref-fulltext>K. Beck, Extreme programming explained: Embrace change (Addison Wesley, Reading, Mass., 2000)</ref-fulltext>
+</reference>
+<reference id="87008582">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0038635256</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Beck K.</ce:indexed-name>
+<ce:surname>Beck</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Test Driven Development: By Example</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-text>Addison Wesley Professional</ref-text>
+</ref-info>
+<ref-fulltext>K. Beck, Test Driven Development: By Example (Addison Wesley Professional, 2003)</ref-fulltext>
+</reference>
+<reference id="87008583">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0038226158</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Beck K.</ce:indexed-name>
+<ce:surname>Beck</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Software</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss issue="5" volume="18"/>
+<pagerange first="87" last="89"/>
+</ref-volisspag>
+<ref-text>Aim, Fire</ref-text>
+</ref-info>
+<ref-fulltext>Kent Beck, Aim, Fire, IEEE Software 18(5), 2001, 87-89</ref-fulltext>
+</reference>
+<reference id="87008584">
+<ref-info>
+<ref-title>
+<ref-titletext>Experiment about Test-first programming</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">1442318980</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.M.</ce:initials>
+<ce:indexed-name>Mueller M.M.</ce:indexed-name>
+<ce:surname>Mueller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>O.</ce:initials>
+<ce:indexed-name>Hagner O.</ce:indexed-name>
+<ce:surname>Hagner</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc. of the Conference on Empirical Assessment in Software Engineering EASE 2002</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-text>Keele</ref-text>
+</ref-info>
+<ref-fulltext>M. M. Mueller, O. Hagner, Experiment about Test-first programming, Proc. of the Conference on Empirical Assessment in Software Engineering EASE 2002, Keele, 2002</ref-fulltext>
+</reference>
+<reference id="87008585">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442269807</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Cactus, Apache Jakarta Project</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://jakarta.apache.org/cactus/index.html</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Cactus, Apache Jakarta Project, http://jakarta.apache.org/cactus/index.html, 2002</ref-fulltext>
+</reference>
+<reference id="87008586">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442319021</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://htmlunit.sourceforge.net/</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>HTMLUnit, http://htmlunit.sourceforge.net/, 2002</ref-fulltext>
+</reference>
+<reference id="87008587">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442319019</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://httpunit.org/</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>HTTPUnit, http://httpunit.org/, 2002</ref-fulltext>
+</reference>
+<reference id="87008588">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442294409</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Java Unit Testing Framework</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.junit.org</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>JUnit - Java Unit Testing Framework, http://www.junit.org, 2002</ref-fulltext>
+</reference>
+<reference id="87008589">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442343456</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Jeffries R.</ce:indexed-name>
+<ce:surname>Jeffries</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Testing Framework (xUnit, Unit Testing) Software</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<websitename>XProgramming.com</websitename>
+<ce:e-address type="url">http://www.xprogramming.com/software.htrn</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>R. Jeffries, XProgramming.com, Testing Framework (xUnit, unit testing) software, http://www.xprogramming.com/software.htrn, 2002</ref-fulltext>
+</reference>
+<reference id="87008590">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442343501</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.junit.org/news/extension/index.htm</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>JUnit extensions, http://www.junit.org/news/extension/index.htm, 2002</ref-fulltext>
+</reference>
+<reference id="87008591">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442294408</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.dbunit.org/</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>dbunit, http://www.dbunit.org/, 2002</ref-fulltext>
+</reference>
+<reference id="87008592">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442318982</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://xmlunit.sourceforge.net/</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>XML unit, http://xmlunit.sourceforge.net/, 2002</ref-fulltext>
+</reference>
+<reference id="87008593">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442319020</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://jfcunit.sourceforge.net</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>JFCUnit, http://jfcunit.sourceforge.net, 2002</ref-fulltext>
+</reference>
+<reference id="87008594">
+<ref-info>
+<ref-title>
+<ref-titletext>Endo Testing: Unit Testing with Mock Objects</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">1442294406</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Mackinnon T.</ce:indexed-name>
+<ce:surname>Mackinnon</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Freeman S.</ce:indexed-name>
+<ce:surname>Freeman</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Craig P.</ce:indexed-name>
+<ce:surname>Craig</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Extreme Programming Examined</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<pagerange first="287" last="301"/>
+</ref-volisspag>
+<ref-text>Addison-Wesley</ref-text>
+</ref-info>
+<ref-fulltext>T. Mackinnon, S. Freeman, P. Craig: Endo Testing: Unit Testing with Mock Objects, Extreme programming Examined (Addison-Wesley, 2001), 287 - 301</ref-fulltext>
+</reference>
+<reference id="87008595">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442269858</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.mockobjects.org</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Mock Objects, http://www.mockobjects.org, 2002</ref-fulltext>
+</reference>
+<reference id="87008596">
+<ref-info>
+<ref-title>
+<ref-titletext>Making a mockery</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">1442343449</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Moore I.</ce:indexed-name>
+<ce:surname>Moore</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Palmer S.</ce:indexed-name>
+<ce:surname>Palmer</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc. of the 3<sup>rd</sup> Conference on Extreme Programming XP 2002</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<pagerange first="6" last="10"/>
+</ref-volisspag>
+<ref-text>Cagliari, Italy</ref-text>
+</ref-info>
+<ref-fulltext>I. Moore, S. Palmer, Making a mockery, Proc. of the 3<sup>rd</sup> Conference on Extreme Programming XP 2002, Cagliari, Italy, 2002, 6-10</ref-fulltext>
+</reference>
+<reference id="87008597">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442297411</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.eclipse.org</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Eclipse, http://www.eclipse.org, 2002</ref-fulltext>
+</reference>
+<reference id="87008598">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442269808</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>NUnit v2.0: .NET Unit-testing Framework</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.nunit.org</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>NUnit v2.0: .NET unit-testing framework http://www.nunit.org, 2002</ref-fulltext>
+</reference>
+<reference id="87008599">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442294462</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.csunit.org</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>csUnit, http://www.csunit.org, 2002</ref-fulltext>
+</reference>
+<reference id="87008600">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442343500</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://dotunit.sourceforge.net/</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>dotUnit, http://dotunit.sourceforge.net/, 2002</ref-fulltext>
+</reference>
+<reference id="87008601">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442343499</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://sourceforge.net/projects/dotnetunit/</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>DotNetUnit, http://sourceforge.net/projects/dotnetunit/, 2002</ref-fulltext>
+</reference>
+<reference id="87008602">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442343503</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.unitedbinary.com/Harnesslt.aspx</ce:e-address>
+</ref-website>
+<ref-text>HarnessIt</ref-text>
+</ref-info>
+<ref-fulltext>HarnessIt, http://www.unitedbinary.com/Harnesslt.aspx, 2002</ref-fulltext>
+</reference>
+<reference id="87008603">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442319018</itemid>
+</refd-itemidlist>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://sourceforge.net/projects/dotnetmock/</ce:e-address>
+</ref-website>
+<ref-text>.NET MockObjects</ref-text>
+</ref-info>
+<ref-fulltext>.NET MockObjects, http://sourceforge.net/projects/dotnetmock/, 2002</ref-fulltext>
+</reference>
+<reference id="87008604">
+<ref-info>
+<ref-title>
+<ref-titletext>NMock, a simple dynamic</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">1442319022</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>.NET Mock Objects Framework</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://cvs.sourceforge.net/cgibin/viewcvs.cgi/mockobjects/nmock/</ce:e-address>
+</ref-website>
+<ref-text>published under [mockobject] project</ref-text>
+</ref-info>
+<ref-fulltext>NMock, a simple dynamic .NET mock objects framework, published under [mockobject] project, http://cvs.sourceforge.net/cgibin/viewcvs.cgi/mockobjects/nmock/, 2002</ref-fulltext>
+</reference>
+<reference id="87008605">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">1442294405</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>SharpDevelop, Open Source IDE</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-website>
+<ce:e-address type="url">http://www.icsharpcode.net/OpenSource/SD</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>SharpDevelop, Open Source IDE, http://www.icsharpcode.net/OpenSource/SD, 2002</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,1849 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/55749085633</prism:url><dc:identifier>SCOPUS_ID:55749085633</dc:identifier><eid>2-s2.0-55749085633</eid><pii>S0045794908001910</pii><prism:doi>10.1016/j.compstruc.2008.08.003</prism:doi><dc:title>Computational complexity and parallelization of the meshless local Petrov-Galerkin method</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>39</citedby-count><prism:publicationName>Computers and Structures</prism:publicationName><source-id>18171</source-id><prism:issn>00457949</prism:issn><prism:volume>87</prism:volume><prism:issueIdentifier>1-2</prism:issueIdentifier><prism:startingPage>81</prism:startingPage><prism:endingPage>90</prism:endingPage><prism:pageRange>81-90</prism:pageRange><prism:coverDate>2009-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="7004137414"><ce:initials>R.</ce:initials><ce:indexed-name>Trobec R.</ce:indexed-name><ce:surname>Trobec</ce:surname><ce:given-name>Roman</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Trobec R.</ce:indexed-name><ce:surname>Trobec</ce:surname><ce:given-name>Roman</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7004137414</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The computational complexity of the meshless local Petrov-Galerkin method (MLPG) has been analyzed and compared with the finite difference (FDM) and finite element methods (FEM) from the user point of view. Theoretically, MLPG is the most complex of the three methods. Experimental results show that MLPG, with appropriately selected integration order and dimensions of support and quadrature domains, achieves similar accuracy to that of FEM. The measurements of parallel complexity and speed-up indicate that parallel MLPG scales well on larger systems. The normalized computational complexity makes FEM the best choice. MLPG remains competitive if human assistance is needed for meshing. © 2008 Elsevier Ltd. All rights reserved.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/55749085633" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=55749085633&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=55749085633&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"><affilname>Jozef Stefan Institute</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="7004137414"><ce:initials>R.</ce:initials><ce:indexed-name>Trobec R.</ce:indexed-name><ce:surname>Trobec</ce:surname><ce:given-name>Roman</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Trobec R.</ce:indexed-name><ce:surname>Trobec</ce:surname><ce:given-name>Roman</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7004137414</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="2" auid="9941608600"><ce:initials>M.</ce:initials><ce:indexed-name>Sterk M.</ce:indexed-name><ce:surname>Šterk</ce:surname><ce:given-name>Marjan</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Šterk M.</ce:indexed-name><ce:surname>Šterk</ce:surname><ce:given-name>Marjan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/9941608600</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="3" auid="55947972500"><ce:initials>B.</ce:initials><ce:indexed-name>Robic B.</ce:indexed-name><ce:surname>Robič</ce:surname><ce:given-name>Borut</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Robič B.</ce:indexed-name><ce:surname>Robič</ce:surname><ce:given-name>Borut</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55947972500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Computational complexity</author-keyword><author-keyword>FDM</author-keyword><author-keyword>FEM</author-keyword><author-keyword>Meshless methods</author-keyword><author-keyword>MLPG</author-keyword><author-keyword>Parallel algorithms</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Do-mains</mainterm><mainterm weight="a" candidate="n">FDM</mainterm><mainterm weight="a" candidate="n">FEM</mainterm><mainterm weight="a" candidate="n">Finite differences</mainterm><mainterm weight="a" candidate="n">Human assistances</mainterm><mainterm weight="a" candidate="n">Meshless</mainterm><mainterm weight="a" candidate="n">Meshless methods</mainterm><mainterm weight="a" candidate="n">MLPG</mainterm><mainterm weight="a" candidate="n">Parallel complexities</mainterm><mainterm weight="a" candidate="n">Parallelization</mainterm><mainterm weight="a" candidate="n">Speed-up</mainterm></idxterms><subject-areas><subject-area code="2205" abbrev="ENGI">Civil and Structural Engineering</subject-area><subject-area code="2611" abbrev="MATH">Modeling and Simulation</subject-area><subject-area code="2500" abbrev="MATE">Materials Science (all)</subject-area><subject-area code="2210" abbrev="ENGI">Mechanical Engineering</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-source-document source-document-type="pii">S0045794908001910</xocs:funding-source-document><xocs:funding-addon-generated-timestamp>2019-03-10T19:13:31Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Ministry of Higher Education, Science and Technology of Slovenia</xocs:funding-agency-matched-string><xocs:funding-agency-acronym>MEST</xocs:funding-agency-acronym><xocs:funding-agency>Ministry of Education, Science and Technology</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004085</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1835841/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This research was funded under Grant No. P2-0095 by the Ministry of Higher Education, Science and Technology of Slovenia.  </xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="21" month="11" timestamp="2018-11-21T15:59:12.000012-05:00" year="2018"/><ait:date-sort day="01" month="01" year="2009"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2011 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0045794908001910</ce:pii>
+                    <ce:doi>10.1016/j.compstruc.2008.08.003</ce:doi>
+                    <itemid idtype="PUI">50281383</itemid>
+                    <itemid idtype="CPX">20084611711424</itemid>
+                    <itemid idtype="SCP">55749085633</itemid>
+                    <itemid idtype="SGR">55749085633</itemid>
+                </itemidlist><history>
+                    <date-created day="25" month="09" year="2008"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Computational complexity</author-keyword>
+                        <author-keyword xml:lang="eng">FDM</author-keyword>
+                        <author-keyword xml:lang="eng">FEM</author-keyword>
+                        <author-keyword xml:lang="eng">Meshless methods</author-keyword>
+                        <author-keyword xml:lang="eng">MLPG</author-keyword>
+                        <author-keyword xml:lang="eng">Parallel algorithms</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Computational complexity and parallelization of the meshless local Petrov-Galerkin method</titletext></citation-title><author-group><author auid="7004137414" seq="1"><ce:initials>R.</ce:initials><ce:indexed-name>Trobec R.</ce:indexed-name><ce:surname>Trobec</ce:surname><ce:given-name>Roman</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Trobec R.</ce:indexed-name>
+                            <ce:surname>Trobec</ce:surname>
+                            <ce:given-name>Roman</ce:given-name>
+                        </preferred-name></author><author auid="9941608600" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Sterk M.</ce:indexed-name><ce:surname>Šterk</ce:surname><ce:given-name>Marjan</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Šterk M.</ce:indexed-name>
+                            <ce:surname>Šterk</ce:surname>
+                            <ce:given-name>Marjan</ce:given-name>
+                        </preferred-name></author><affiliation afid="60023955" country="svn" dptid="104208732"><organization>Jožef Stefan Institute</organization><organization>Department of Communication Systems</organization><address-part>Jamova 39</address-part><city-group>1000 Ljubljana</city-group><affiliation-id afid="60023955" dptid="104208732"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55947972500" seq="3"><ce:initials>B.</ce:initials><ce:indexed-name>Robic B.</ce:indexed-name><ce:surname>Robič</ce:surname><ce:given-name>Borut</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Robič B.</ce:indexed-name>
+                            <ce:surname>Robič</ce:surname>
+                            <ce:given-name>Borut</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>R.</ce:initials>
+                        <ce:indexed-name>Trobec R.</ce:indexed-name>
+                        <ce:surname>Trobec</ce:surname>
+                    </person><affiliation country="svn"><organization>Jožef Stefan Institute</organization><organization>Department of Communication Systems</organization><address-part>Jamova 39</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The computational complexity of the meshless local Petrov-Galerkin method (MLPG) has been analyzed and compared with the finite difference (FDM) and finite element methods (FEM) from the user point of view. Theoretically, MLPG is the most complex of the three methods. Experimental results show that MLPG, with appropriately selected integration order and dimensions of support and quadrature domains, achieves similar accuracy to that of FEM. The measurements of parallel complexity and speed-up indicate that parallel MLPG scales well on larger systems. The normalized computational complexity makes FEM the best choice. MLPG remains competitive if human assistance is needed for meshing. © 2008 Elsevier Ltd. All rights reserved.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="18171" type="j"><sourcetitle>Computers and Structures</sourcetitle><sourcetitle-abbrev>Comput Struct</sourcetitle-abbrev><issn type="print">00457949</issn><codencode>CMSTC</codencode><volisspag>
+                        <voliss issue="1-2" volume="87"/>
+                        <pagerange first="81" last="90"/>
+                    </volisspag><publicationyear first="2009"/><publicationdate>
+                        <year>2009</year>
+                        <month>01</month>
+                    <date-text xfab-added="true">January 2009</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>921.6</classification-code>
+                                <classification-description>Numerical Methods</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>721.1</classification-code>
+                                <classification-description>Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>718</classification-code>
+                                <classification-description>Telephone and Other Line Communications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>717</classification-code>
+                                <classification-description>Electro-Optical Communication</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>716</classification-code>
+                                <classification-description>Electronic Equipment, Radar, Radio and Television</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2205</classification>
+                            <classification>2611</classification>
+                            <classification>2500</classification>
+                            <classification>2210</classification>
+                            <classification>1706</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ENGI</classification><classification>MATH</classification><classification>MATE</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="62">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003914109</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Golub G.</ce:indexed-name>
+                                    <ce:surname>Golub</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Ortega J.M.</ce:indexed-name>
+                                    <ce:surname>Ortega</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientific computing - an introduction with parallel computing</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-text>Academic Press Inc., Boston</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Golub G., and Ortega J.M. Scientific computing - an introduction with parallel computing (1993), Academic Press Inc., Boston</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004146408</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Foster I.</ce:indexed-name>
+                                    <ce:surname>Foster</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Designing and building parallel programs</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-text>Addison-Wesley, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Foster I. Designing and building parallel programs (1996), Addison-Wesley, New York</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Symplectic molecular dynamics simulations on specially designed parallel computers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">29044447721</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Urban B.</ce:indexed-name>
+                                    <ce:surname>Urban</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Janezic D.</ce:indexed-name>
+                                    <ce:surname>Janezic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Chem Inform Model</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="45"/>
+                                <pagerange first="1600" last="1604"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Urban B., and Janezic D. Symplectic molecular dynamics simulations on specially designed parallel computers. J Chem Inform Model 45 (2005) 1600-1604</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Parallel performance of large scale impact simulations on linux cluster super computer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">32544444745</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Paik S.H.</ce:indexed-name>
+                                    <ce:surname>Paik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Moon J.J.</ce:indexed-name>
+                                    <ce:surname>Moon</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.J.</ce:initials>
+                                    <ce:indexed-name>Kim S.J.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Lee M.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Struct</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="84"/>
+                                <pagerange first="732" last="741"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Paik S.H., Moon J.J., Kim S.J., and Lee M. Parallel performance of large scale impact simulations on linux cluster super computer. Comput Struct 84 (2006) 732-741</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003421458</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.N.</ce:initials>
+                                    <ce:indexed-name>Ozisik M.N.</ce:indexed-name>
+                                    <ce:surname>Özisik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Finite difference methods in heat transfer</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-text>CRC Press, Boca Raton</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Özisik M.N. Finite difference methods in heat transfer (1994), CRC Press, Boca Raton</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003453202</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.C.</ce:initials>
+                                    <ce:indexed-name>Zienkiewicz O.C.</ce:indexed-name>
+                                    <ce:surname>Zienkiewicz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.L.</ce:initials>
+                                    <ce:indexed-name>Taylor R.L.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.Z.</ce:initials>
+                                    <ce:indexed-name>Zhu J.Z.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The finite element method: its basis and fundamentals</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>Elsevier Butterworth-Heinemann</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zienkiewicz O.C., Taylor R.L., and Zhu J.Z. The finite element method: its basis and fundamentals (2005), Elsevier Butterworth-Heinemann</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Finite difference method at arbitrary irregular grids and its application in applied mechanics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0018430665</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Liszka T.</ce:indexed-name>
+                                    <ce:surname>Liszka</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Orkisz J.</ce:indexed-name>
+                                    <ce:surname>Orkisz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Struct</ref-sourcetitle>
+                            <ref-publicationyear first="1979"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="83" last="95"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liszka T., and Orkisz J. Finite difference method at arbitrary irregular grids and its application in applied mechanics. Comput Struct 11 (1979) 83-95</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749104462</itemid>
+                            </refd-itemidlist>
+                            <ref-text>Owen SJ. A survey of unstructured mesh generation technology. In: Proceedings of seventh international meshing roundtable, Sandia National Laboratories; 1998. p. 239-67.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Owen SJ. A survey of unstructured mesh generation technology. In: Proceedings of seventh international meshing roundtable, Sandia National Laboratories; 1998. p. 239-67.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749095950</itemid>
+                            </refd-itemidlist>
+                            <ref-text>White DR, Leland RW, Saigal S, Owen SJ. The meshing complexity of a solid: an introduction. In: Proceedings of 10th international meshing roundtable, Sandia National Laboratories; 2001. p. 373-84.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>White DR, Leland RW, Saigal S, Owen SJ. The meshing complexity of a solid: an introduction. In: Proceedings of 10th international meshing roundtable, Sandia National Laboratories; 2001. p. 373-84.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mesh generation and optimal triangulation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001914423</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.W.</ce:initials>
+                                    <ce:indexed-name>Bern M.W.</ce:indexed-name>
+                                    <ce:surname>Bern</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Eppstein D.</ce:indexed-name>
+                                    <ce:surname>Eppstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computing in Euclidean geometry lecture notes series on computing</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="47" last="123"/>
+                            </ref-volisspag>
+                            <ref-text>Du D.Z., and Hwang F.K.M. (Eds), World Scientific</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Bern M.W., and Eppstein D. Mesh generation and optimal triangulation. In: Du D.Z., and Hwang F.K.M. (Eds). Computing in Euclidean geometry lecture notes series on computing (1995), World Scientific 47-123</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Smoothed particle hydrodynamics: theory and application to non-spherical stars</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000176789</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Gingold R.A.</ce:indexed-name>
+                                    <ce:surname>Gingold</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Monaghan J.J.</ce:indexed-name>
+                                    <ce:surname>Monaghan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mon Notices Royal Astron Soc</ref-sourcetitle>
+                            <ref-publicationyear first="1977"/>
+                            <ref-volisspag>
+                                <voliss volume="181"/>
+                                <pagerange first="375" last="389"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gingold R.A., and Monaghan J.J. Smoothed particle hydrodynamics: theory and application to non-spherical stars. Mon Notices Royal Astron Soc 181 (1977) 375-389</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Smooth particle hydrodynamics stability analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000113860</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.W.</ce:initials>
+                                    <ce:indexed-name>Swegle L.W.</ce:indexed-name>
+                                    <ce:surname>Swegle</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.L.</ce:initials>
+                                    <ce:indexed-name>Hicks D.L.</ce:indexed-name>
+                                    <ce:surname>Hicks</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.W.</ce:initials>
+                                    <ce:indexed-name>Attaway S.W.</ce:indexed-name>
+                                    <ce:surname>Attaway</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Comput Phys</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss volume="116"/>
+                                <pagerange first="123" last="134"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Swegle L.W., Hicks D.L., and Attaway S.W. Smooth particle hydrodynamics stability analysis. J Comput Phys 116 (1995) 123-134</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749086293</itemid>
+                            </refd-itemidlist>
+                            <ref-text>Dyka CT. Addressing tension instability in SPH methods. Tech. Rep. NRL/MR/6384, NRL; 1994.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Dyka CT. Addressing tension instability in SPH methods. Tech. Rep. NRL/MR/6384, NRL; 1994.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Stable particle methods based on Lagrangian kernels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">1842471032</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Rabczuk T.</ce:indexed-name>
+                                    <ce:surname>Rabczuk</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Belytschko T.</ce:indexed-name>
+                                    <ce:surname>Belytschko</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.P.</ce:initials>
+                                    <ce:indexed-name>Xiao S.P.</ce:indexed-name>
+                                    <ce:surname>Xiao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Methods Appl Mech Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="193"/>
+                                <pagerange first="1035" last="1063"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rabczuk T., Belytschko T., and Xiao S.P. Stable particle methods based on Lagrangian kernels. Comput Methods Appl Mech Eng 193 (2004) 1035-1063</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Generalizing the finite element method: diffuse approximation and diffuse elements</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027035536</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Nayroles B.</ce:indexed-name>
+                                    <ce:surname>Nayroles</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Touzot G.</ce:indexed-name>
+                                    <ce:surname>Touzot</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Villon P.</ce:indexed-name>
+                                    <ce:surname>Villon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Mech</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                                <pagerange first="307" last="318"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nayroles B., Touzot G., and Villon P. Generalizing the finite element method: diffuse approximation and diffuse elements. Comput Mech 10 (1992) 307-318</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Element-free Galerkin methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028259955</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Belytschko T.</ce:indexed-name>
+                                    <ce:surname>Belytschko</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.Y.</ce:initials>
+                                    <ce:indexed-name>Lu Y.Y.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Gu L.</ce:indexed-name>
+                                    <ce:surname>Gu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int J Numer Methods Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss volume="37"/>
+                                <pagerange first="229" last="256"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Belytschko T., Lu Y.Y., and Gu L. Element-free Galerkin methods. Int J Numer Methods Eng 37 (1994) 229-256</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Reproducing kernel and wavelet particle methods for elastic and plastic problems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027805906</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.K.</ce:initials>
+                                    <ce:indexed-name>Liu W.K.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Adee J.</ce:indexed-name>
+                                    <ce:surname>Adee</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Jun S.</ce:indexed-name>
+                                    <ce:surname>Jun</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advanced computational methods for material modeling</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <pagerange first="175" last="190"/>
+                            </ref-volisspag>
+                            <ref-text>Benson D.J. (Ed), ASME</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Liu W.K., Adee J., and Jun S. Reproducing kernel and wavelet particle methods for elastic and plastic problems. In: Benson D.J. (Ed). Advanced computational methods for material modeling (1993), ASME 175-190</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>hp-cloud - a meshless method to solve boundary-value problems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030412998</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Duarte C.A.</ce:indexed-name>
+                                    <ce:surname>Duarte</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.T.</ce:initials>
+                                    <ce:indexed-name>Oden J.T.</ce:indexed-name>
+                                    <ce:surname>Oden</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Methods Appl Mech Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="139"/>
+                                <pagerange first="237" last="262"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Duarte C.A., and Oden J.T. hp-cloud - a meshless method to solve boundary-value problems. Comput Methods Appl Mech Eng 139 (1996) 237-262</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The partition of unity method</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031076132</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Babuska I.</ce:indexed-name>
+                                    <ce:surname>Babuška</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Melenk J.</ce:indexed-name>
+                                    <ce:surname>Melenk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int J Numer Methods Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss volume="40"/>
+                                <pagerange first="727" last="758"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Babuška I., and Melenk J. The partition of unity method. Int J Numer Methods Eng 40 (1997) 727-758</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multiquadrics a scattered data approximation scheme with applications to computational fluid dynamics - II. Solutions to parabolic, hyperbolic and elliptic partial differential equations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025210711</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.J.</ce:initials>
+                                    <ce:indexed-name>Kansa E.J.</ce:indexed-name>
+                                    <ce:surname>Kansa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Math Appl</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="147" last="161"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kansa E.J. Multiquadrics a scattered data approximation scheme with applications to computational fluid dynamics - II. Solutions to parabolic, hyperbolic and elliptic partial differential equations. Comput Math Appl 19 (1990) 147-161</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Error estimate for interpolation by compactly supported radial basis functions of minimal degree</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000764217</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wendland H.</ce:indexed-name>
+                                    <ce:surname>Wendland</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Approx Theory</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss volume="93"/>
+                                <pagerange first="258" last="396"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wendland H. Error estimate for interpolation by compactly supported radial basis functions of minimal degree. J Approx Theory 93 (1998) 258-396</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A mesh free approach using radial basis functions and parallel domain decomposition for solving three-dimensional diffusion equations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3142685852</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Ingber M.S.</ce:indexed-name>
+                                    <ce:surname>Ingber</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Chen C.S.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Tanski J.A.</ce:indexed-name>
+                                    <ce:surname>Tanski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int J Numer Methods Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="60"/>
+                                <pagerange first="2183" last="2201"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ingber M.S., Chen C.S., and Tanski J.A. A mesh free approach using radial basis functions and parallel domain decomposition for solving three-dimensional diffusion equations. Int J Numer Methods Eng 60 (2004) 2183-2201</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Theory of a finite difference method on irregular networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0016047189</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Girault V.</ce:indexed-name>
+                                    <ce:surname>Girault</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SIAM J Numer Anal</ref-sourcetitle>
+                            <ref-publicationyear first="1974"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="11"/>
+                                <pagerange first="260" last="282"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Girault V. Theory of a finite difference method on irregular networks. SIAM J Numer Anal 11 2 (1974) 260-282</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The finite difference method at arbitrary irregular grids and its application in applied mechanics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0018430665</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Liszka T.</ce:indexed-name>
+                                    <ce:surname>Liszka</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Orkisz J.</ce:indexed-name>
+                                    <ce:surname>Orkisz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Struct</ref-sourcetitle>
+                            <ref-publicationyear first="1980"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="83" last="95"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liszka T., and Orkisz J. The finite difference method at arbitrary irregular grids and its application in applied mechanics. Comput Struct 11 (1980) 83-95</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A finite point method in computational mechanics applications to convective transport and fluid flow</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030294780</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Onate E.</ce:indexed-name>
+                                    <ce:surname>Oñate</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Idelsohn S.</ce:indexed-name>
+                                    <ce:surname>Idelsohn</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>O.C.</ce:initials>
+                                    <ce:indexed-name>Zienkiewicz O.C.</ce:indexed-name>
+                                    <ce:surname>Zienkiewicz</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.L.</ce:initials>
+                                    <ce:indexed-name>Taylor R.L.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int J Numer Methods Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="39"/>
+                                <pagerange first="3839" last="3866"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Oñate E., Idelsohn S., Zienkiewicz O.C., and Taylor R.L. A finite point method in computational mechanics applications to convective transport and fluid flow. Int J Numer Methods Eng 39 (1996) 3839-3866</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A stabilized finite point method for analysis of fluid mechanics problems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030441245</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Onate E.</ce:indexed-name>
+                                    <ce:surname>Oñate</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Idelsohn S.</ce:indexed-name>
+                                    <ce:surname>Idelsohn</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>O.C.</ce:initials>
+                                    <ce:indexed-name>Zienkiewicz O.C.</ce:indexed-name>
+                                    <ce:surname>Zienkiewicz</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.L.</ce:initials>
+                                    <ce:indexed-name>Taylor R.L.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Sacco C.</ce:indexed-name>
+                                    <ce:surname>Sacco</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Methods Appl Mech Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="139"/>
+                                <pagerange first="315" last="346"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Oñate E., Idelsohn S., Zienkiewicz O.C., Taylor R.L., and Sacco C. A stabilized finite point method for analysis of fluid mechanics problems. Comput Methods Appl Mech Eng 139 (1996) 315-346</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Meshless methods: an overview and recent developments</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030379279</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Belytschko T.</ce:indexed-name>
+                                    <ce:surname>Belytschko</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Krongauz Y.</ce:indexed-name>
+                                    <ce:surname>Krongauz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Organ D.</ce:indexed-name>
+                                    <ce:surname>Organ</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Fleming M.</ce:indexed-name>
+                                    <ce:surname>Fleming</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Krysl P.</ce:indexed-name>
+                                    <ce:surname>Krysl</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Methods Appl Mech Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="139"/>
+                                <pagerange first="3" last="47"/>
+                            </ref-volisspag>
+                            <ref-text>[Special issue on meshless methods]</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Belytschko T., Krongauz Y., Organ D., Fleming M., and Krysl P. Meshless methods: an overview and recent developments. Comput Methods Appl Mech Eng 139 (1996) 3-47 [Special issue on meshless methods]</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Meshless methods: A review and computer implementation aspects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55949119340</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.P.</ce:initials>
+                                    <ce:indexed-name>Nguyen V.P.</ce:indexed-name>
+                                    <ce:surname>Nguyen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Rabczuk T.</ce:indexed-name>
+                                    <ce:surname>Rabczuk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bordas S.</ce:indexed-name>
+                                    <ce:surname>Bordas</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Duflot M.</ce:indexed-name>
+                                    <ce:surname>Duflot</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mathematics and Computers in Simulation</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="79"/>
+                            </ref-volisspag>
+                            <ref-text>DOI: 10.1016/j.matcom.2008.01.003</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Nguyen V, Rabczuk T, Bordas S, Duflot M. Meshless methods: a review and computer implementation aspects, Mathematics and Computers in Simulation(2008), 79(3), page:763-813, DOI: 10.1016/j.matcom.2008.01.003</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A local boundary integral equation (LBIE) method in computational mechanics and a meshless discretization approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032047472</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhu T.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.D.</ce:initials>
+                                    <ce:indexed-name>Zhang J.D.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.N.</ce:initials>
+                                    <ce:indexed-name>Atluri S.N.</ce:indexed-name>
+                                    <ce:surname>Atluri</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Mech</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss volume="21"/>
+                                <pagerange first="223" last="235"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhu T., Zhang J.D., and Atluri S.N. A local boundary integral equation (LBIE) method in computational mechanics and a meshless discretization approach. Comput Mech 21 (1998) 223-235</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A new meshless local Petrov-Galerkin (MLPG) approach in computational mechanics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032136132</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.N.</ce:initials>
+                                    <ce:indexed-name>Atluri S.N.</ce:indexed-name>
+                                    <ce:surname>Atluri</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhu T.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Mech</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss volume="22"/>
+                                <pagerange first="117" last="127"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Atluri S.N., and Zhu T. A new meshless local Petrov-Galerkin (MLPG) approach in computational mechanics. Comput Mech 22 (1998) 117-127</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A local point interpolation method for stress analysis of two-dimensional solids</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035251898</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.R.</ce:initials>
+                                    <ce:indexed-name>Liu G.R.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.T.</ce:initials>
+                                    <ce:indexed-name>Gu Y.T.</ce:indexed-name>
+                                    <ce:surname>Gu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Struct Eng Mech</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="221" last="236"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu G.R., and Gu Y.T. A local point interpolation method for stress analysis of two-dimensional solids. Struct Eng Mech 11 (2001) 221-236</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A local radial point interpolation method (LR-PIM) for free vibration analyses of 2-D solids</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035817769</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.R.</ce:initials>
+                                    <ce:indexed-name>Liu G.R.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.T.</ce:initials>
+                                    <ce:indexed-name>Gu Y.T.</ce:indexed-name>
+                                    <ce:surname>Gu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Sound Vib</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="246"/>
+                                <pagerange first="29" last="46"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu G.R., and Gu Y.T. A local radial point interpolation method (LR-PIM) for free vibration analyses of 2-D solids. J Sound Vib 246 (2001) 29-46</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0041315110</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.N.</ce:initials>
+                                    <ce:indexed-name>Atluri S.N.</ce:indexed-name>
+                                    <ce:surname>Atluri</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Methods of computer modeling in engineering and the sciences</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>Tech Science Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Atluri S.N. Methods of computer modeling in engineering and the sciences (2005), Tech Science Press</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84895346182</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.R.</ce:initials>
+                                    <ce:indexed-name>Liu G.R.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.T.</ce:initials>
+                                    <ce:indexed-name>Gu Y.T.</ce:indexed-name>
+                                    <ce:surname>Gu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>An introduction to meshfree methods and their programming</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>Springer, Dordrecht</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Liu G.R., and Gu Y.T. An introduction to meshfree methods and their programming (2005), Springer, Dordrecht</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0011972111</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.N.</ce:initials>
+                                    <ce:indexed-name>Atluri S.N.</ce:indexed-name>
+                                    <ce:surname>Atluri</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.P.</ce:initials>
+                                    <ce:indexed-name>Shen S.P.</ce:indexed-name>
+                                    <ce:surname>Shen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The meshless local Petrov-Galerkin (MLPG) method</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-text>Tech. Science Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Atluri S.N., and Shen S.P. The meshless local Petrov-Galerkin (MLPG) method (2002), Tech. Science Press</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Performance study of the domain decomposition method with direct equation solver for parallel finite element analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030413098</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.P.</ce:initials>
+                                    <ce:indexed-name>Nikishkov G.P.</ce:indexed-name>
+                                    <ce:surname>Nikishkov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Makinouchi A.</ce:indexed-name>
+                                    <ce:surname>Makinouchi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Yagawa G.</ce:indexed-name>
+                                    <ce:surname>Yagawa</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Yoshimura S.</ce:indexed-name>
+                                    <ce:surname>Yoshimura</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Mech</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="84" last="93"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nikishkov G.P., Makinouchi A., Yagawa G., and Yoshimura S. Performance study of the domain decomposition method with direct equation solver for parallel finite element analysis. Comput Mech 19 (1996) 84-93</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Parallel implementation of the EFG method for heat transfer and fluid flow problems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">10644223528</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Singh V.</ce:indexed-name>
+                                    <ce:surname>Singh</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Mech</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="34"/>
+                                <pagerange first="453" last="463"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Singh V. Parallel implementation of the EFG method for heat transfer and fluid flow problems. Comput Mech 34 (2004) 453-463</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Free mesh method: a new meshless method</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030234048</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Yagawa G.</ce:indexed-name>
+                                    <ce:surname>Yagawa</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Yamada T.</ce:indexed-name>
+                                    <ce:surname>Yamada</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Mech</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="383" last="386"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yagawa G., and Yamada T. Free mesh method: a new meshless method. Comput Mech 18 (1996) 383-386</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Large-scale parallel flow analysis based on free mesh method: a virtually meshless method</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033602756</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Shirazaki M.</ce:indexed-name>
+                                    <ce:surname>Shirazaki</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Yagawa G.</ce:indexed-name>
+                                    <ce:surname>Yagawa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Methods Appl Mech Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="174"/>
+                                <pagerange first="419" last="431"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shirazaki M., and Yagawa G. Large-scale parallel flow analysis based on free mesh method: a virtually meshless method. Comput Methods Appl Mech Eng 174 (1999) 419-431</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A parallelized meshfree method with boundary enrichment for large-scale CFD</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036501602</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zhang L.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.J.</ce:initials>
+                                    <ce:indexed-name>Wagner G.J.</ce:indexed-name>
+                                    <ce:surname>Wagner</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.K.</ce:initials>
+                                    <ce:indexed-name>Liu W.K.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Comput Phys</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="176"/>
+                                <pagerange first="483" last="506"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhang L., Wagner G.J., and Liu W.K. A parallelized meshfree method with boundary enrichment for large-scale CFD. J Comput Phys 176 2 (2002) 483-506</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A three-dimensional meshfree method for continuous crack initiation, nucleation and propagation in statics and dynamics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34250802867</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Rabczuk T.</ce:indexed-name>
+                                    <ce:surname>Rabczuk</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bordas S.</ce:indexed-name>
+                                    <ce:surname>Bordas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Zi G.</ce:indexed-name>
+                                    <ce:surname>Zi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Mech</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="40"/>
+                                <pagerange first="473" last="495"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rabczuk T., Bordas S., and Zi G. A three-dimensional meshfree method for continuous crack initiation, nucleation and propagation in statics and dynamics. Comput Mech 40 3 (2007) 473-495</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Three-dimensional crack initiation, propagation, branching and junction in non-linear materials by an extended meshfree method without asymptotic enrichment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36849039473</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bordas S.</ce:indexed-name>
+                                    <ce:surname>Bordas</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Rabczuk T.</ce:indexed-name>
+                                    <ce:surname>Rabczuk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Zi G.</ce:indexed-name>
+                                    <ce:surname>Zi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Eng Fract Mech</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="75"/>
+                                <pagerange first="943" last="960"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bordas S., Rabczuk T., and Zi G. Three-dimensional crack initiation, propagation, branching and junction in non-linear materials by an extended meshfree method without asymptotic enrichment. Eng Fract Mech 75 5 (2007) 943-960</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84869829654</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.R.</ce:initials>
+                                    <ce:indexed-name>Liu G.R.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mesh free methods: moving beyond the finite element method</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-text>CRC Press, Boca Raton</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Liu G.R. Mesh free methods: moving beyond the finite element method (2003), CRC Press, Boca Raton</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003827507</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Heath M.T.</ce:indexed-name>
+                                    <ce:surname>Heath</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Scientific computing: an introductory survey. 2nd ed.</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-text>WCB/McGraw-Hill, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Heath M.T. Scientific computing: an introductory survey. 2nd ed. (2002), WCB/McGraw-Hill, New York</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An adaptive mesh-moving and local refinement method for time-dependent partial differential equations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025399707</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.C.</ce:initials>
+                                    <ce:indexed-name>Arney D.C.</ce:indexed-name>
+                                    <ce:surname>Arney</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.E.</ce:initials>
+                                    <ce:indexed-name>Flaherty J.E.</ce:indexed-name>
+                                    <ce:surname>Flaherty</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans Math Software</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="16"/>
+                                <pagerange first="48" last="71"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Arney D.C., and Flaherty J.E. An adaptive mesh-moving and local refinement method for time-dependent partial differential equations. ACM Trans Math Software 16 1 (1990) 48-71</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>BI-CGSTAB: a fast and smoothly converging variant of BI-CG for the solution of nonsymmetric linear systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000005482</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Van der Vorst H.</ce:indexed-name>
+                                    <ce:surname>Van der Vorst</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SIAM J Sci Statist Comput</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="631" last="644"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Van der Vorst H. BI-CGSTAB: a fast and smoothly converging variant of BI-CG for the solution of nonsymmetric linear systems. SIAM J Sci Statist Comput 13 (1992) 631-644</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Modeling and solving building physics problems with FemLab</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037290021</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.W.M.V.</ce:initials>
+                                    <ce:indexed-name>Schijndel A.W.M.V.</ce:indexed-name>
+                                    <ce:surname>Schijndel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Build Environ</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="38"/>
+                                <pagerange first="319" last="327"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Schijndel A.W.M.V. Modeling and solving building physics problems with FemLab. Build Environ 38 (2003) 319-327</ref-fulltext>
+                    </reference>
+                    <reference id="48">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The three R's of engineering analysis and error estimation and adaptivity</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025494611</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.C.</ce:initials>
+                                    <ce:indexed-name>Zienkiewicz O.C.</ce:indexed-name>
+                                    <ce:surname>Zienkiewicz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.Z.</ce:initials>
+                                    <ce:indexed-name>Zhu J.Z.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput Methods Appl Mech Eng</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss volume="82"/>
+                                <pagerange first="95" last="113"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zienkiewicz O.C., and Zhu J.Z. The three R's of engineering analysis and error estimation and adaptivity. Comput Methods Appl Mech Eng 82 (1990) 95-113</ref-fulltext>
+                    </reference>
+                    <reference id="49">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Surfaces generated by moving least squares methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84966237423</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Lancaster P.</ce:indexed-name>
+                                    <ce:surname>Lancaster</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Salkauskas K.</ce:indexed-name>
+                                    <ce:surname>Salkauskas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Math Comput</ref-sourcetitle>
+                            <ref-publicationyear first="1981"/>
+                            <ref-volisspag>
+                                <voliss volume="37"/>
+                                <pagerange first="141" last="158"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lancaster P., and Salkauskas K. Surfaces generated by moving least squares methods. Math Comput 37 (1981) 141-158</ref-fulltext>
+                    </reference>
+                    <reference id="50">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A meshless method with enriched weight functions for three-dimensional crack propagation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645307104</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Duflot M.</ce:indexed-name>
+                                    <ce:surname>Duflot</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int J Numer Methods Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="65"/>
+                                <pagerange first="1970" last="2006"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Duflot M. A meshless method with enriched weight functions for three-dimensional crack propagation. Int J Numer Methods Eng 65 (2006) 1970-2006</ref-fulltext>
+                    </reference>
+                    <reference id="51">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749105200</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Langetepe E.</ce:indexed-name>
+                                    <ce:surname>Langetepe</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Zachmann G.</ce:indexed-name>
+                                    <ce:surname>Zachmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Geometric data structures for computer graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>A.K. Peters Ltd., Wellesley</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Langetepe E., and Zachmann G. Geometric data structures for computer graphics (2006), A.K. Peters Ltd., Wellesley</ref-fulltext>
+                    </reference>
+                    <reference id="52">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749095456</itemid>
+                            </refd-itemidlist>
+                            <ref-text>Fries TP, Matthies HG. Classification and overview of meshfree methods. Tech. rep., Technische Universität Braunschweig; 2004.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Fries TP, Matthies HG. Classification and overview of meshfree methods. Tech. rep., Technische Universität Braunschweig; 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="53">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004245694</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Abramowitz M.</ce:indexed-name>
+                                    <ce:surname>Abramowitz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.A.</ce:initials>
+                                    <ce:indexed-name>Stegun I.A.</ce:indexed-name>
+                                    <ce:surname>Stegun</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Handbook of mathematical functions with formulas, graphs, and mathematical tables</ref-sourcetitle>
+                            <ref-publicationyear first="1976"/>
+                            <ref-text>National Bureau of Standards, AMS55, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Abramowitz M., and Stegun I.A. Handbook of mathematical functions with formulas, graphs, and mathematical tables (1976), National Bureau of Standards, AMS55, New York</ref-fulltext>
+                    </reference>
+                    <reference id="54">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Meshless solution of a diffusion equation with parameter optimization and error analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">44249108544</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sterk M.</ce:indexed-name>
+                                    <ce:surname>Sterk</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Trobec R.</ce:indexed-name>
+                                    <ce:surname>Trobec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Eng Anal Boundary Elem.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="32"/>
+                                <pagerange first="567" last="577"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sterk M., and Trobec R. Meshless solution of a diffusion equation with parameter optimization and error analysis. Eng Anal Boundary Elem. 32 (2008) 567-577</ref-fulltext>
+                    </reference>
+                    <reference id="55">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037864375</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Galassi M.</ce:indexed-name>
+                                    <ce:surname>Galassi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Davies J.</ce:indexed-name>
+                                    <ce:surname>Davies</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Theiler J.</ce:indexed-name>
+                                    <ce:surname>Theiler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Gough B.</ce:indexed-name>
+                                    <ce:surname>Gough</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Jungman G.</ce:indexed-name>
+                                    <ce:surname>Jungman</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Booth M.</ce:indexed-name>
+                                    <ce:surname>Booth</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>GNU scientific library reference manual - revised second edition</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>Network Theory Ltd.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Galassi M., Davies J., Theiler J., Gough B., Jungman G., Booth M., et al. GNU scientific library reference manual - revised second edition (2005), Network Theory Ltd.</ref-fulltext>
+                    </reference>
+                    <reference id="56">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003473816</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Barrett R.</ce:indexed-name>
+                                    <ce:surname>Barrett</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Berry M.</ce:indexed-name>
+                                    <ce:surname>Berry</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.F.</ce:initials>
+                                    <ce:indexed-name>Chan T.F.</ce:indexed-name>
+                                    <ce:surname>Chan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demmel J.</ce:indexed-name>
+                                    <ce:surname>Demmel</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Donato J.</ce:indexed-name>
+                                    <ce:surname>Donato</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Dongarra J.</ce:indexed-name>
+                                    <ce:surname>Dongarra</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Templates for the solution of linear systems: building blocks for iterative methods. 2nd ed.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-text>Society for Industrial and Applied Mathematics, Philadelphia</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Barrett R., Berry M., Chan T.F., Demmel J., Donato J., Dongarra J., et al. Templates for the solution of linear systems: building blocks for iterative methods. 2nd ed. (1994), Society for Industrial and Applied Mathematics, Philadelphia</ref-fulltext>
+                    </reference>
+                    <reference id="57">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Parallel incomplete Cholesky preconditioners based on the non-overlapping data distribution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032179234</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Haase G.</ce:indexed-name>
+                                    <ce:surname>Haase</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Parallel Comput</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss volume="24"/>
+                                <pagerange first="1685" last="1703"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Haase G. Parallel incomplete Cholesky preconditioners based on the non-overlapping data distribution. Parallel Comput 24 (1998) 1685-1703</ref-fulltext>
+                    </reference>
+                    <reference id="58">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Parallel performance of multigrid poisson solver</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84947909972</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sterk M.</ce:indexed-name>
+                                    <ce:surname>Šterk</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Trobec R.</ce:indexed-name>
+                                    <ce:surname>Trobec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of second international symposium on parallel and distributed computing</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <pagerange first="238" last="243"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE Computer Society, Ljubljana</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Šterk M., and Trobec R. Parallel performance of multigrid poisson solver. Proceedings of second international symposium on parallel and distributed computing (2003), IEEE Computer Society, Ljubljana 238-243</ref-fulltext>
+                    </reference>
+                    <reference id="59">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Implementation and evaluation of MPI-based parallel MD program</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034857469</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Trobec R.</ce:indexed-name>
+                                    <ce:surname>Trobec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sterk M.</ce:indexed-name>
+                                    <ce:surname>Šterk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Praprotnik M.</ce:indexed-name>
+                                    <ce:surname>Praprotnik</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Janezic D.</ce:indexed-name>
+                                    <ce:surname>Janezic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int J Quant Chem</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="84"/>
+                                <pagerange first="23" last="31"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Trobec R., Šterk M., Praprotnik M., and Janezic D. Implementation and evaluation of MPI-based parallel MD program. Int J Quant Chem 84 (2001) 23-31</ref-fulltext>
+                    </reference>
+                    <reference id="60">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003710740</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Snir M.</ce:indexed-name>
+                                    <ce:surname>Snir</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Otto S.</ce:indexed-name>
+                                    <ce:surname>Otto</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Huss-Lederman S.</ce:indexed-name>
+                                    <ce:surname>Huss-Lederman</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Walker D.</ce:indexed-name>
+                                    <ce:surname>Walker</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Dongarra J.</ce:indexed-name>
+                                    <ce:surname>Dongarra</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>MPI: the complete reference</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-text>MIT Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Snir M., Otto S., Huss-Lederman S., Walker D., and Dongarra J. MPI: the complete reference (1996), MIT Press</ref-fulltext>
+                    </reference>
+                    <reference id="61">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Parallel decomposition of unstructured FEM-meshes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031655524</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Diekmann R.</ce:indexed-name>
+                                    <ce:surname>Diekmann</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Meyer D.</ce:indexed-name>
+                                    <ce:surname>Meyer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Monien B.</ce:indexed-name>
+                                    <ce:surname>Monien</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Concurr: Pract Exp</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="10"/>
+                                <pagerange first="53" last="72"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Diekmann R., Meyer D., and Monien B. Parallel decomposition of unstructured FEM-meshes. Concurr: Pract Exp 10 1 (1998) 53-72</ref-fulltext>
+                    </reference>
+                    <reference id="62">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SuperLU_DIST: a scalable distributed-memory sparse direct solver for unsymmetric linear systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038621899</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.S.</ce:initials>
+                                    <ce:indexed-name>Li X.S.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Demmel J.W.</ce:indexed-name>
+                                    <ce:surname>Demmel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans Math Software</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="110" last="140"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Li X.S., and Demmel J.W. SuperLU_DIST: a scalable distributed-memory sparse direct solver for unsymmetric linear systems. ACM Trans Math Software 29 (2003) 110-140</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

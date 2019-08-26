@@ -1,0 +1,1199 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84875113924</prism:url><dc:identifier>SCOPUS_ID:84875113924</dc:identifier><eid>2-s2.0-84875113924</eid><pubmed-id>23063772</pubmed-id><pii>S093336571200111X</pii><prism:doi>10.1016/j.artmed.2012.08.003</prism:doi><dc:title>Elicitation of neurological knowledge with argument-based machine learning</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>14</citedby-count><prism:publicationName>Artificial Intelligence in Medicine</prism:publicationName><source-id>24140</source-id><prism:issn>09333657 18732860</prism:issn><prism:volume>57</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>133</prism:startingPage><prism:endingPage>144</prism:endingPage><prism:pageRange>133-144</prism:pageRange><prism:coverDate>2013-02-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="52463560700"><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/52463560700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Objective: The paper describes the use of expert's knowledge in practice and the efficiency of a recently developed technique called argument-based machine learning (ABML) in the knowledge elicitation process. We are developing a neurological decision support system to help the neurologists differentiate between three types of tremors: Parkinsonian, essential, and mixed tremor (comorbidity). The system is intended to act as a second opinion for the neurologists, and most importantly to help them reduce the number of patients in the " gray area" that require a very costly further examination (DaTSCAN). We strive to elicit comprehensible and medically meaningful knowledge in such a way that it does not come at the cost of diagnostic accuracy. Materials and methods: To alleviate the difficult problem of knowledge elicitation from data and domain experts, we used ABML. ABML guides the expert to explain critical special cases which cannot be handled automatically by machine learning. This very efficiently reduces the expert's workload, and combines expert's knowledge with learning data. 122 patients were enrolled into the study. Results: The classification accuracy of the final model was 91%. Equally important, the initial and the final models were also evaluated for their comprehensibility by the neurologists. All 13 rules of the final model were deemed as appropriate to be able to support its decisions with good explanations. Conclusion: The paper demonstrates ABML's advantage in combining machine learning and expert knowledge. The accuracy of the system is very high with respect to the current state-of-the-art in clinical practice, and the system's knowledge base is assessed to be very consistent from a medical point of view. This opens up the possibility to use the system also as a teaching tool. © 2012 Elsevier B.V.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84875113924" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84875113924&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84875113924&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60021802" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021802"><affilname>University of Ljubljana Faculty of Medicine</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"><affilname>Univerzitetni Klinični Center Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="52463560700"><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/52463560700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="14121297500"><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14121297500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="55883901600"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55883901600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="36542322400"><ce:initials>D.</ce:initials><ce:indexed-name>Georgiev D.</ce:indexed-name><ce:surname>Georgiev</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Georgiev D.</ce:indexed-name><ce:surname>Georgiev</ce:surname><ce:given-name>Dejan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36542322400</author-url><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"/></author><author seq="6" auid="50861672000"><ce:initials>V.</ce:initials><ce:indexed-name>Kragelj V.</ce:indexed-name><ce:surname>Kragelj</ce:surname><ce:given-name>Veronika</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Kragelj V.</ce:indexed-name><ce:surname>Kragelj</ce:surname><ce:given-name>Veronika</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/50861672000</author-url><affiliation id="60021802" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021802"/></author><author seq="7" auid="54972515600"><ce:initials>S.</ce:initials><ce:indexed-name>Ribaric S.</ce:indexed-name><ce:surname>Ribarič</ce:surname><ce:given-name>Samo</ce:given-name><preferred-name><ce:initials>S.</ce:initials><ce:indexed-name>Ribarič S.</ce:indexed-name><ce:surname>Ribarič</ce:surname><ce:given-name>Samo</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54972515600</author-url><affiliation id="60021802" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021802"/></author><author seq="8" auid="6603412901"><ce:initials>Z.</ce:initials><ce:indexed-name>Pirtosek Z.</ce:indexed-name><ce:surname>Pirtošek</ce:surname><ce:given-name>Zvezdan</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Pirtošek Z.</ce:indexed-name><ce:surname>Pirtošek</ce:surname><ce:given-name>Zvezdan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603412901</author-url><affiliation id="60021479" href="https://api.elsevier.com/content/affiliation/affiliation_id/60021479"/></author><author seq="9" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Argument-based machine learning</author-keyword><author-keyword>Decision support systems</author-keyword><author-keyword>Essential tremor</author-keyword><author-keyword>Knowledge elicitation</author-keyword><author-keyword>Parkinsonian tremor</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Argument-based machine learning</mainterm><mainterm weight="a" candidate="n">Classification accuracy</mainterm><mainterm weight="a" candidate="n">Clinical practices</mainterm><mainterm weight="a" candidate="n">Diagnostic accuracy</mainterm><mainterm weight="a" candidate="n">Essential tremor</mainterm><mainterm weight="a" candidate="n">Expert knowledge</mainterm><mainterm weight="a" candidate="n">Parkinsonian tremor</mainterm><mainterm weight="a" candidate="n">Second opinions</mainterm></idxterms><subject-areas><subject-area code="2701" abbrev="MEDI">Medicine (miscellaneous)</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-source-document source-document-type="pii">S093336571200111X</xocs:funding-source-document><xocs:funding-addon-generated-timestamp>2019-03-25T08:59:22Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-id>ARRS</xocs:funding-id><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>The work was partly funded by the Slovenian Research Agency (ARRS) .  </xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="28" month="08" timestamp="2018-08-28T16:09:22.000022-04:00" year="2018"/><ait:date-sort day="01" month="02" year="2013"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><copyright type="Medline Descriptors">MEDLINE® is the source for the MeSH terms of this document.</copyright><itemidlist>
+                    <ce:pii>S093336571200111X</ce:pii>
+                    <ce:doi>10.1016/j.artmed.2012.08.003</ce:doi>
+                    <itemid idtype="PUI">52253142</itemid>
+                    <itemid idtype="EMBASE">2013173021</itemid>
+                    <itemid idtype="CPX">20131216138757</itemid>
+                    <itemid idtype="NURSNG">2013074194</itemid>
+                    <itemid idtype="MEDL">23063772</itemid>
+                    <itemid idtype="SCP">84875113924</itemid>
+                    <itemid idtype="SGR">84875113924</itemid>
+                </itemidlist><history>
+                    <date-created day="12" month="10" year="2012"/>
+                </history><dbcollection>EMBASE</dbcollection><dbcollection>CPX</dbcollection><dbcollection>NURSNG</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Argument-based machine learning</author-keyword>
+                        <author-keyword xml:lang="eng">Decision support systems</author-keyword>
+                        <author-keyword xml:lang="eng">Essential tremor</author-keyword>
+                        <author-keyword xml:lang="eng">Knowledge elicitation</author-keyword>
+                        <author-keyword xml:lang="eng">Parkinsonian tremor</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Elicitation of neurological knowledge with argument-based machine learning</titletext></citation-title><author-group><author auid="52463560700" seq="1"><ce:initials>V.</ce:initials><ce:indexed-name>Groznik V.</ce:indexed-name><ce:surname>Groznik</ce:surname><ce:given-name>Vida</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Groznik V.</ce:indexed-name>
+                            <ce:surname>Groznik</ce:surname>
+                            <ce:given-name>Vida</ce:given-name>
+                        </preferred-name></author><author auid="14121297500" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Guid M.</ce:indexed-name>
+                            <ce:surname>Guid</ce:surname>
+                            <ce:given-name>Matej</ce:given-name>
+                        </preferred-name></author><author auid="55883901600" seq="3"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                            <ce:surname>Sadikov</ce:surname>
+                            <ce:given-name>Aleksander</ce:given-name>
+                        </preferred-name></author><author auid="35409925300" seq="4"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Možina M.</ce:indexed-name>
+                            <ce:surname>Možina</ce:surname>
+                            <ce:given-name>Martin</ce:given-name>
+                        </preferred-name></author><author auid="7003286588" seq="9"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Bratko I.</ce:indexed-name>
+                            <ce:surname>Bratko</ce:surname>
+                            <ce:given-name>Ivan</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580932"><organization>Artificial Intelligence Laboratory</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>SI-1000 Ljubljana</city-group><affiliation-id afid="60031106" dptid="104580932"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="36542322400" seq="5"><ce:initials>D.</ce:initials><ce:indexed-name>Georgiev D.</ce:indexed-name><ce:surname>Georgiev</ce:surname><ce:given-name>Dejan</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                            <ce:surname>Georgiev</ce:surname>
+                            <ce:given-name>Dejan</ce:given-name>
+                        </preferred-name></author><author auid="6603412901" seq="8"><ce:initials>Z.</ce:initials><ce:indexed-name>Pirtosek Z.</ce:indexed-name><ce:surname>Pirtošek</ce:surname><ce:given-name>Zvezdan</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Pirtošek Z.</ce:indexed-name>
+                            <ce:surname>Pirtošek</ce:surname>
+                            <ce:given-name>Zvezdan</ce:given-name>
+                        </preferred-name></author><affiliation afid="60021479" country="svn" dptid="113072952"><organization>Department of Neurology</organization><organization>University Medical Centre Ljubljana</organization><address-part>Zaloška cesta 2</address-part><city-group>SI-1000 Ljubljana</city-group><affiliation-id afid="60021479" dptid="113072952"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="50861672000" seq="6"><ce:initials>V.</ce:initials><ce:indexed-name>Kragelj V.</ce:indexed-name><ce:surname>Kragelj</ce:surname><ce:given-name>Veronika</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Kragelj V.</ce:indexed-name>
+                            <ce:surname>Kragelj</ce:surname>
+                            <ce:given-name>Veronika</ce:given-name>
+                        </preferred-name></author><author auid="54972515600" seq="7"><ce:initials>S.</ce:initials><ce:indexed-name>Ribaric S.</ce:indexed-name><ce:surname>Ribarič</ce:surname><ce:given-name>Samo</ce:given-name><preferred-name>
+                            <ce:initials>S.</ce:initials>
+                            <ce:indexed-name>Ribarič S.</ce:indexed-name>
+                            <ce:surname>Ribarič</ce:surname>
+                            <ce:given-name>Samo</ce:given-name>
+                        </preferred-name></author><affiliation afid="60021802" country="svn" dptid="104114345"><organization>Faculty of Medicine</organization><organization>University of Ljubljana</organization><address-part>Vrazov trg 2</address-part><city-group>SI-1104 Ljubljana</city-group><affiliation-id afid="60021802" dptid="104114345"/><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>V.</ce:initials>
+                        <ce:indexed-name>Groznik V.</ce:indexed-name>
+                        <ce:surname>Groznik</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>SI-1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Objective: The paper describes the use of expert's knowledge in practice and the efficiency of a recently developed technique called argument-based machine learning (ABML) in the knowledge elicitation process. We are developing a neurological decision support system to help the neurologists differentiate between three types of tremors: Parkinsonian, essential, and mixed tremor (comorbidity). The system is intended to act as a second opinion for the neurologists, and most importantly to help them reduce the number of patients in the " gray area" that require a very costly further examination (DaTSCAN). We strive to elicit comprehensible and medically meaningful knowledge in such a way that it does not come at the cost of diagnostic accuracy. Materials and methods: To alleviate the difficult problem of knowledge elicitation from data and domain experts, we used ABML. ABML guides the expert to explain critical special cases which cannot be handled automatically by machine learning. This very efficiently reduces the expert's workload, and combines expert's knowledge with learning data. 122 patients were enrolled into the study. Results: The classification accuracy of the final model was 91%. Equally important, the initial and the final models were also evaluated for their comprehensibility by the neurologists. All 13 rules of the final model were deemed as appropriate to be able to support its decisions with good explanations. Conclusion: The paper demonstrates ABML's advantage in combining machine learning and expert knowledge. The accuracy of the system is very high with respect to the current state-of-the-art in clinical practice, and the system's knowledge base is assessed to be very consistent from a medical point of view. This opens up the possibility to use the system also as a teaching tool. © 2012 Elsevier B.V.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="24140" type="j"><sourcetitle>Artificial Intelligence in Medicine</sourcetitle><sourcetitle-abbrev>Artif. Intell. Med.</sourcetitle-abbrev><issn type="print">09333657</issn><issn type="electronic">18732860</issn><codencode>AIMEE</codencode><volisspag>
+                        <voliss issue="2" volume="57"/>
+                        <pagerange first="133" last="144"/>
+                    </volisspag><publicationyear first="2013"/><publicationdate>
+                        <year>2013</year>
+                        <month>02</month>
+                    <date-text xfab-added="true">February 2013</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>461.6</classification-code>
+                                <classification-description>Medicine</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                        </classifications><classifications type="EMCLASS">
+                            <classification>
+                                <classification-code>17.3.3</classification-code>
+                                <classification-description>Public Health, Social Medicine and Epidemiology; HEALTH CARE; Medical practice</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>8.13</classification-code>
+                                <classification-description>Neurology and Neurosurgery; MUSCULAR DISEASES</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>8.16</classification-code>
+                                <classification-description>Neurology and Neurosurgery; EXTRAPYRAMIDAL DISORDERS</classification-description>
+                            </classification>
+                        </classifications><classifications type="GEOCLASS">
+                            <classification>
+                                <classification-code>Related Topics</classification-code>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2701</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MEDI</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="34">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Essential tremor and cerebellar dysfunction: clinical and kinematic analysis of intention tremor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033909996</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Deuschl G.</ce:indexed-name>
+                                    <ce:surname>Deuschl</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Wenzelburger R.</ce:indexed-name>
+                                    <ce:surname>Wenzelburger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Loeffler K.</ce:indexed-name>
+                                    <ce:surname>Loeffler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Raethjan J.</ce:indexed-name>
+                                    <ce:surname>Raethjan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Stolze H.</ce:indexed-name>
+                                    <ce:surname>Stolze</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Brain</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="123"/>
+                                <pagerange first="1568" last="1580"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Deuschl G., Wenzelburger R., Loeffler K., Raethjan J., Stolze H. Essential tremor and cerebellar dysfunction: clinical and kinematic analysis of intention tremor. Brain 2000, 123(8):1568-1580.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Essential tremor - the most common movement disorder in older people</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745337076</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Thanvi B.</ce:indexed-name>
+                                    <ce:surname>Thanvi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lo N.</ce:indexed-name>
+                                    <ce:surname>Lo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Robinson T.</ce:indexed-name>
+                                    <ce:surname>Robinson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Age and Ageing</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="35"/>
+                                <pagerange first="344" last="349"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Thanvi B., Lo N., Robinson T. Essential tremor - the most common movement disorder in older people. Age and Ageing 2006, 35(4):344-349.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tremor-some controversial aspects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79951473956</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Quinn N.</ce:indexed-name>
+                                    <ce:surname>Quinn</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Schneider S.</ce:indexed-name>
+                                    <ce:surname>Schneider</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Schwingenschuh P.</ce:indexed-name>
+                                    <ce:surname>Schwingenschuh</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Bhatia K.</ce:indexed-name>
+                                    <ce:surname>Bhatia</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="26"/>
+                                <pagerange first="18" last="23"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Quinn N., Schneider S., Schwingenschuh P., Bhatia K. Tremor-some controversial aspects. Movement Disorders 2011, 26(1):18-23.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Measurement of tremor using digitizing tablets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875097119</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.A.A.</ce:initials>
+                                    <ce:indexed-name>Miotto G.A.A.</ce:indexed-name>
+                                    <ce:surname>Miotto</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.O.</ce:initials>
+                                    <ce:indexed-name>Andrade A.O.</ce:indexed-name>
+                                    <ce:surname>Andrade</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.B.</ce:initials>
+                                    <ce:indexed-name>Soares A.B.</ce:indexed-name>
+                                    <ce:surname>Soares</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>V Conferencia de Estudos em Engenharia Eletrica (CEEL)</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                        </ref-info>
+                        <ref-fulltext>Miotto G.A.A., Andrade A.O., Soares A.B. Measurement of tremor using digitizing tablets. V Conferencia de Estudos em Engenharia Eletrica (CEEL) 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spiralometry: computerized assessment of tremor amplitude on the basis of spiral drawing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649391712</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kraus P.</ce:indexed-name>
+                                    <ce:surname>Kraus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hoffmann A.</ce:indexed-name>
+                                    <ce:surname>Hoffmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Movement Disorders</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="13" volume="25"/>
+                                <pagerange first="2164" last="2170"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kraus P., Hoffmann A. Spiralometry: computerized assessment of tremor amplitude on the basis of spiral drawing. Movement Disorders 2010, 25(13):2164-2170.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Accuracy of clinical diagnosis of idiopathic Parkinson's disease: a clinico-pathological study of 100 cases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026514953</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hughes A.</ce:indexed-name>
+                                    <ce:surname>Hughes</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Daniel S.</ce:indexed-name>
+                                    <ce:surname>Daniel</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Kilford L.</ce:indexed-name>
+                                    <ce:surname>Kilford</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Lees A.</ce:indexed-name>
+                                    <ce:surname>Lees</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Neurology, Neurosurgery and Psychiatry</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="55"/>
+                                <pagerange first="181" last="184"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hughes A., Daniel S., Kilford L., Lees A. Accuracy of clinical diagnosis of idiopathic Parkinson's disease: a clinico-pathological study of 100 cases. Journal of Neurology, Neurosurgery and Psychiatry 1992, 55(3):181-184.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Essential tremor: differential diagnosis and current therapy</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0042236596</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pahwa R.</ce:indexed-name>
+                                    <ce:surname>Pahwa</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.E.</ce:initials>
+                                    <ce:indexed-name>Lyons K.E.</ce:indexed-name>
+                                    <ce:surname>Lyons</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>American Journal of Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="115"/>
+                                <pagerange first="134" last="142"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pahwa R., Lyons K.E. Essential tremor: differential diagnosis and current therapy. American Journal of Medicine 2003, 115:134-142.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Argument based machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34548011440</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zabkar J.</ce:indexed-name>
+                                    <ce:surname>Žabkar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="10-15" volume="171"/>
+                                <pagerange first="922" last="937"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>MoŽ ina M., Žabkar J., Bratko I. Argument based machine learning. Artificial Intelligence 2007, 171(10/15):922-937.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fighting knowledge acquisition bottleneck with argument based machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953737569</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guid M.</ce:indexed-name>
+                                    <ce:surname>Guid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Krivec J.</ce:indexed-name>
+                                    <ce:surname>Krivec</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2008 conference on ECAI 2008: 18th European Conference on Artificial Intelligence, vol. 178 of Frontiers in Artificial Intelligence and Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="234" last="238"/>
+                            </ref-volisspag>
+                            <ref-text>IOS Press, Amsterdam, The Netherlands, M. Ghallab, C.D. Spyropoulos, N. Fakotakis, N.M. Avouris (Eds.)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>MoŽ ina M., Guid M., Krivec J., Sadikov A., Bratko I. Fighting knowledge acquisition bottleneck with argument based machine learning. Proceedings of the 2008 conference on ECAI 2008: 18th European Conference on Artificial Intelligence, vol. 178 of Frontiers in Artificial Intelligence and Applications 2008, 234-238. IOS Press, Amsterdam, The Netherlands. M. Ghallab, C.D. Spyropoulos, N. Fakotakis, N.M. Avouris (Eds.).</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The art of artificial intelligence: I. Themes and case studies of knowledge engineering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">2442731714</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.A.</ce:initials>
+                                    <ce:indexed-name>Feigenbaum E.A.</ce:indexed-name>
+                                    <ce:surname>Feigenbaum</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Tech. Rep.</ref-sourcetitle>
+                            <ref-publicationyear first="1977"/>
+                            <ref-text>Stanford, CA, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Feigenbaum EA. The art of artificial intelligence: I. Themes and case studies of knowledge engineering. Tech. Rep., Stanford, CA, USA; 1977.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards computer-assisted maintenance of medical knowledge bases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0343195163</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Giuse D.A.</ce:indexed-name>
+                                    <ce:surname>Giuse</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.B.</ce:initials>
+                                    <ce:indexed-name>Giuse N.B.</ce:indexed-name>
+                                    <ce:surname>Giuse</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Miller R.A.</ce:indexed-name>
+                                    <ce:surname>Miller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence in Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="2"/>
+                                <pagerange first="21" last="33"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Giuse D.A., Giuse N.B., Miller R.A. Towards computer-assisted maintenance of medical knowledge bases. Artificial Intelligence in Medicine 1990, 2(1):21-33.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Asking questions and accessing knowledge</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0009926987</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Bainbridge L.</ce:indexed-name>
+                                    <ce:surname>Bainbridge</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Future Computing Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="1"/>
+                                <pagerange first="143" last="149"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bainbridge L. Asking questions and accessing knowledge. Future Computing Systems 1986, 1(2):143-149.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>First generation expert systems: a review of knowledge acquisition methodologies</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84972090725</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.M.</ce:initials>
+                                    <ce:indexed-name>Neale I.M.</ce:indexed-name>
+                                    <ce:surname>Neale</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Knowledge Engineering Review</ref-sourcetitle>
+                            <ref-publicationyear first="1988"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="3"/>
+                                <pagerange first="105" last="145"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Neale I.M. First generation expert systems: a review of knowledge acquisition methodologies. The Knowledge Engineering Review 1988, 3(2):105-145.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey of knowledge acquisition techniques and tools</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002095733</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.H.</ce:initials>
+                                    <ce:indexed-name>Boose J.H.</ce:indexed-name>
+                                    <ce:surname>Boose</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge Acquisition</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="1"/>
+                                <pagerange first="3" last="37"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Boose J.H. A survey of knowledge acquisition techniques and tools. Knowledge Acquisition 1989, 1(1):3-37.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Varieties of knowledge elicitation techniques</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028736412</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.J.</ce:initials>
+                                    <ce:indexed-name>Cooke N.J.</ce:indexed-name>
+                                    <ce:surname>Cooke</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Human-Computer Studies</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="41"/>
+                                <pagerange first="801" last="849"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cooke N.J. Varieties of knowledge elicitation techniques. International Journal of Human-Computer Studies 1994, 41(6):801-849.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Information/knowledge acquisition methods for decision support systems and expert systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029235146</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.L.</ce:initials>
+                                    <ce:indexed-name>Yang H.L.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Information Processing &amp; Management</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="31"/>
+                                <pagerange first="47" last="58"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yang H.L. Information/knowledge acquisition methods for decision support systems and expert systems. Information Processing &amp; Management 1995, 31(1):47-58.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Some challenges and grand challenges for computational intelligence</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">4243105081</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.A.</ce:initials>
+                                    <ce:indexed-name>Feigenbaum E.A.</ce:indexed-name>
+                                    <ce:surname>Feigenbaum</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of the ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="50"/>
+                                <pagerange first="32" last="40"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Feigenbaum E.A. Some challenges and grand challenges for computational intelligence. Journal of the ACM 2003, 50:32-40.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The underlying issues in knowledge elicitation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77950188017</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.C.</ce:initials>
+                                    <ce:indexed-name>Okafor E.C.</ce:indexed-name>
+                                    <ce:surname>Okafor</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.C.</ce:initials>
+                                    <ce:indexed-name>Osuagwu C.C.</ce:indexed-name>
+                                    <ce:surname>Osuagwu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Interdisciplinary Journal of Information, Knowledge, and Management</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="95" last="107"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Okafor E.C., Osuagwu C.C. The underlying issues in knowledge elicitation. Interdisciplinary Journal of Information, Knowledge, and Management 2006, 1:95-107.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ripple down rules: turning knowledge acquisition into knowledge maintenance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027080694</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Compton P.</ce:indexed-name>
+                                    <ce:surname>Compton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Edwards G.</ce:indexed-name>
+                                    <ce:surname>Edwards</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Kang B.</ce:indexed-name>
+                                    <ce:surname>Kang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lazarus L.</ce:indexed-name>
+                                    <ce:surname>Lazarus</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Malor R.</ce:indexed-name>
+                                    <ce:surname>Malor</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Preston P.</ce:indexed-name>
+                                    <ce:surname>Preston</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence in Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="4"/>
+                                <pagerange first="463" last="475"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Compton P., Edwards G., Kang B., Lazarus L., Malor R., Preston P., et al. Ripple down rules: turning knowledge acquisition into knowledge maintenance. Artificial Intelligence in Medicine 1992, 4(6):463-475.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multiple classification ripple down rules: evaluation and possibilities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003808101</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.H.</ce:initials>
+                                    <ce:indexed-name>Kang B.H.</ce:indexed-name>
+                                    <ce:surname>Kang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Compton P.</ce:indexed-name>
+                                    <ce:surname>Compton</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Preston P.</ce:indexed-name>
+                                    <ce:surname>Preston</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings 9th Banff knowledge acquisition for knowledge based systems workshop, Banff</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pages>17.1-17.20</pages>
+                            </ref-volisspag>
+                            <ref-text>B. Gaines, M. Musen (Eds.)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kang B.H., Compton P., Preston P. Multiple classification ripple down rules: evaluation and possibilities. Proceedings 9th Banff knowledge acquisition for knowledge based systems workshop, Banff 1995, 17.1-17.20. B. Gaines, M. Musen (Eds.).</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Peirs: a pathologist-maintained expert system for the interpretation of chemical pathology reports</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027172837</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Edwards G.</ce:indexed-name>
+                                    <ce:surname>Edwards</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Compton P.</ce:indexed-name>
+                                    <ce:surname>Compton</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Malor R.</ce:indexed-name>
+                                    <ce:surname>Malor</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Srinivasan A.</ce:indexed-name>
+                                    <ce:surname>Srinivasan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lazarus L.</ce:indexed-name>
+                                    <ce:surname>Lazarus</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pathology</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="25"/>
+                                <pagerange first="27" last="34"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Edwards G., Compton P., Malor R., Srinivasan A., Lazarus L. Peirs: a pathologist-maintained expert system for the interpretation of chemical pathology reports. Pathology 1993, 25(1):27-34.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Machine learning - applications in expert systems and information retrieval</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003989812</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Forsyth R.</ce:indexed-name>
+                                    <ce:surname>Forsyth</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Rada R.</ce:indexed-name>
+                                    <ce:surname>Rada</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ellis Horwood series in artificial intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-text>Ellis Horwood</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Forsyth R., Rada R. Machine learning - applications in expert systems and information retrieval. Ellis Horwood series in artificial intelligence 1986, Ellis Horwood.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Applications of machine learning and rule induction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029407395</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Langley P.</ce:indexed-name>
+                                    <ce:surname>Langley</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.A.</ce:initials>
+                                    <ce:indexed-name>Simon H.A.</ce:indexed-name>
+                                    <ce:surname>Simon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Communications of the ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss issue="11" volume="38"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Langley P., Simon H.A. Applications of machine learning and rule induction. Communications of the ACM 1995, 38(11).</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Knowledge elicitation approach in enhancing tacit knowledge sharing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80054963835</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ting S.</ce:indexed-name>
+                                    <ce:surname>Ting</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Wang W.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Tse Y.</ce:indexed-name>
+                                    <ce:surname>Tse</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Ip W.</ce:indexed-name>
+                                    <ce:surname>Ip</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Industrial Management &amp; Data Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="111"/>
+                                <pagerange first="1039" last="1064"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ting S., Wang W., Tse Y., Ip W. Knowledge elicitation approach in enhancing tacit knowledge sharing. Industrial Management &amp; Data Systems 2011, 111(7):1039-1064.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An experimental evaluation of integrating machine learning with knowledge acquisition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032664621</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.I.</ce:initials>
+                                    <ce:indexed-name>Webb G.I.</ce:indexed-name>
+                                    <ce:surname>Webb</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wells J.</ce:indexed-name>
+                                    <ce:surname>Wells</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zheng Z.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="35"/>
+                                <pagerange first="5" last="23"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Webb G.I., Wells J., Zheng Z. An experimental evaluation of integrating machine learning with knowledge acquisition. Machine Learning 1999, 35(1):5-23.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning nonrecursive definitions of relations with LINUS</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84950502571</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lavrac N.</ce:indexed-name>
+                                    <ce:surname>Lavrač</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Dzeroski S.</ce:indexed-name>
+                                    <ce:surname>Džeroski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grobelnik M.</ce:indexed-name>
+                                    <ce:surname>Grobelnik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine learning - EWSL-91, vol. 482 of Lecture notes in computer science</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <pagerange first="265" last="281"/>
+                            </ref-volisspag>
+                            <ref-text>Springer, Berlin/Heidelberg, Y. Kodratoff (Ed.)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Lavrač N., DŽeroski S., Grobelnik M. Learning nonrecursive definitions of relations with LINUS. Machine learning - EWSL-91, vol. 482 of Lecture notes in computer science 1991, 265-281. Springer, Berlin/Heidelberg. Y. Kodratoff (Ed.).</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Weakening the language bias in LINUS</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">21344493772</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lavrac N.</ce:indexed-name>
+                                    <ce:surname>Lavrač</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Dzeroski S.</ce:indexed-name>
+                                    <ce:surname>Džeroski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Experimental &amp; Theoretical Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="6"/>
+                                <pagerange first="95" last="119"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lavrač N., DŽeroski S. Weakening the language bias in LINUS. Journal of Experimental &amp; Theoretical Artificial Intelligence 1994, 6(1):95-119.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rule induction with CN2: some recent improvements</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85015191605</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Clark P.</ce:indexed-name>
+                                    <ce:surname>Clark</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Boswell R.</ce:indexed-name>
+                                    <ce:surname>Boswell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>EWSL, vol. 482 of Lecture notes in computer science</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <pagerange first="151" last="163"/>
+                            </ref-volisspag>
+                            <ref-text>Springer, Berlin/Heidelberg, Y. Kodratoff (Ed.)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Clark P., Boswell R. Rule induction with CN2: some recent improvements. EWSL, vol. 482 of Lecture notes in computer science 1991, 151-163. Springer, Berlin/Heidelberg. Y. Kodratoff (Ed.).</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The utility of background knowledge in learning medical diagnostic rules</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027627256</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lavrac N.</ce:indexed-name>
+                                    <ce:surname>Lavrač</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Dzeroski S.</ce:indexed-name>
+                                    <ce:surname>Džeroski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Pirnat V.</ce:indexed-name>
+                                    <ce:surname>Pirnat</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Krizman V.</ce:indexed-name>
+                                    <ce:surname>Križman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Applied Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="273" last="293"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lavrač N., DŽeroski S., Pirnat V., KriŽman V. The utility of background knowledge in learning medical diagnostic rules. Applied Artificial Intelligence 1993, 7:273-293.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tremor from pathogenesis to treatment; chap. Characterization of tremor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875121952</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Grimaldi G.</ce:indexed-name>
+                                    <ce:surname>Grimaldi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Manto M.</ce:indexed-name>
+                                    <ce:surname>Manto</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Synthesis lectures on biomedical engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="39" last="51"/>
+                            </ref-volisspag>
+                            <ref-text>Morgan &amp; Claypool Publishers</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Grimaldi G., Manto M. Tremor from pathogenesis to treatment; chap. Characterization of tremor. Synthesis lectures on biomedical engineering 2008, Morgan &amp; Claypool Publishers, p. 39-51.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic classification of 123i-fp-cit (DaTSCAN) spect images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960012613</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Towey D.J.</ce:indexed-name>
+                                    <ce:surname>Towey</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Bain P.G.</ce:indexed-name>
+                                    <ce:surname>Bain</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.S.</ce:initials>
+                                    <ce:indexed-name>Nijran K.S.</ce:indexed-name>
+                                    <ce:surname>Nijran</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nuclear Medicine Communications</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="32"/>
+                                <pagerange first="699" last="707"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Towey D.J., Bain P.G., Nijran K.S. Automatic classification of 123i-fp-cit (DaTSCAN) spect images. Nuclear Medicine Communications 2011, 32(8):699-707.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Elicitation of neurological knowledge with ABML</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052986292</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Groznik V.</ce:indexed-name>
+                                    <ce:surname>Groznik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guid M.</ce:indexed-name>
+                                    <ce:surname>Guid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                                    <ce:surname>Georgiev</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Kragelj V.</ce:indexed-name>
+                                    <ce:surname>Kragelj</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence in Medicine, vol. 6747 of Lecture notes in computer science</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="14" last="23"/>
+                            </ref-volisspag>
+                            <ref-text>Springer, Berlin/Heidelberg, M. Peleg, N. Lavrač, C. Combi (Eds.)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Groznik V., Guid M., Sadikov A., MoŽ ina M., Georgiev D., Kragelj V., et al. Elicitation of neurological knowledge with ABML. Artificial Intelligence in Medicine, vol. 6747 of Lecture notes in computer science 2011, 14-23. Springer, Berlin/Heidelberg. M. Peleg, N. Lavrač, C. Combi (Eds.).</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimating probabilities: a crucial task in machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003006556</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Cestnik B.</ce:indexed-name>
+                                    <ce:surname>Cestnik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the ninth European Conference on Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <pagerange first="147" last="149"/>
+                            </ref-volisspag>
+                            <ref-text>Pitman, London, L.C. Aiello (Ed.)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Cestnik B. Estimating probabilities: a crucial task in machine learning. Proceedings of the ninth European Conference on Artificial Intelligence 1990, 147-149. Pitman, London. L.C. Aiello (Ed.).</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875119452</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Argument based machine learning</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-text>Ph.D. thesis. University of Ljubljana, Faculty of Computer and Information Sciences, Ljubljana, Slovenia</ref-text>
+                        </ref-info>
+                        <ref-fulltext>MoŽ ina M. Argument based machine learning. Ph.D. thesis. University of Ljubljana, Faculty of Computer and Information Sciences, Ljubljana, Slovenia; 2009.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

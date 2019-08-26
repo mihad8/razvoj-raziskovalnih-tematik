@@ -1,0 +1,248 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/80052984246</prism:url><dc:identifier>SCOPUS_ID:80052984246</dc:identifier><eid>2-s2.0-80052984246</eid><prism:doi>10.1007/978-3-642-22218-4_11</prism:doi><dc:title>Ranking and 1-dimensional projection of cell development transcription profiles</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><source-id>25674</source-id><prism:isbn>9783642222177</prism:isbn><prism:issn>03029743 16113349</prism:issn><prism:volume>6747 LNAI</prism:volume><prism:startingPage>85</prism:startingPage><prism:endingPage>89</prism:endingPage><prism:pageRange>85-89</prism:pageRange><prism:coverDate>2011-09-26</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="36100591700"><ce:initials>L.</ce:initials><ce:indexed-name>Zagar L.</ce:indexed-name><ce:surname>Zagar</ce:surname><ce:given-name>Lan</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Zagar L.</ce:indexed-name><ce:surname>Zagar</ce:surname><ce:given-name>Lan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36100591700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Genome-scale transcription profile is known to be a good reporter of the state of the cell. Much of the early predictive modelling and cell-type clustering relied on this relation and has experimentally confirmed it. We have examined if this also holds for prediction of cell's staging, and focused on the inference of stage prediction models for stem cell development. We show that the problem relates to rank learning and, from the user's point of view, to projection of transcription profile data to a single dimension. Our comparison of several state-of-the-art algorithms on 10 data sets from Gene Expression Omnibus shows that rank-learning can be successfully applied to developmental cell staging, and that relatively simple techniques can perform surprisingly well. © 2011 Springer-Verlag.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/80052984246" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=80052984246&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=80052984246&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"><affilname>Università degli Studi di Pavia</affilname><affiliation-city>Pavia</affiliation-city><affiliation-country>Italy</affiliation-country></affiliation><authors><author seq="1" auid="36100591700"><ce:initials>L.</ce:initials><ce:indexed-name>Zagar L.</ce:indexed-name><ce:surname>Zagar</ce:surname><ce:given-name>Lan</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Zagar L.</ce:indexed-name><ce:surname>Zagar</ce:surname><ce:given-name>Lan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36100591700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="35100787100"><ce:initials>F.</ce:initials><ce:indexed-name>Mulas F.</ce:indexed-name><ce:surname>Mulas</ce:surname><ce:given-name>Francesca</ce:given-name><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Mulas F.</ce:indexed-name><ce:surname>Mulas</ce:surname><ce:given-name>Francesca</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35100787100</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/></author><author seq="3" auid="18343389900"><ce:initials>R.</ce:initials><ce:indexed-name>Bellazzi R.</ce:indexed-name><ce:surname>Bellazzi</ce:surname><ce:given-name>Riccardo</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Bellazzi R.</ce:indexed-name><ce:surname>Bellazzi</ce:surname><ce:given-name>Riccardo</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/18343389900</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/></author><author seq="4" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>cell development</author-keyword><author-keyword>projection</author-keyword><author-keyword>ranking</author-keyword><author-keyword>regression</author-keyword><author-keyword>staging</author-keyword><author-keyword>temporal ordering</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Cell development</mainterm><mainterm weight="a" candidate="n">projection</mainterm><mainterm weight="a" candidate="n">ranking</mainterm><mainterm weight="a" candidate="n">regression</mainterm><mainterm weight="a" candidate="n">staging</mainterm><mainterm weight="a" candidate="n">Temporal ordering</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="09" month="11" timestamp="2018-11-09T03:19:44.000044-05:00" year="2018"/><ait:date-sort day="26" month="09" year="2011"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2011 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-642-22218-4_11</ce:doi>
+                    <itemid idtype="PUI">362590958</itemid>
+                    <itemid idtype="CPX">20113914361653</itemid>
+                    <itemid idtype="SCP">80052984246</itemid>
+                    <itemid idtype="SGR">80052984246</itemid>
+                </itemidlist><history>
+                    <date-created day="26" month="09" year="2011"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">cell development</author-keyword>
+                        <author-keyword xml:lang="eng">projection</author-keyword>
+                        <author-keyword xml:lang="eng">ranking</author-keyword>
+                        <author-keyword xml:lang="eng">regression</author-keyword>
+                        <author-keyword xml:lang="eng">staging</author-keyword>
+                        <author-keyword xml:lang="eng">temporal ordering</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Ranking and 1-dimensional projection of cell development transcription profiles</titletext></citation-title><author-group><author auid="36100591700" seq="1"><ce:initials>L.</ce:initials><ce:indexed-name>Zagar L.</ce:indexed-name><ce:surname>Zagar</ce:surname><ce:given-name>Lan</ce:given-name><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Zagar L.</ce:indexed-name>
+                            <ce:surname>Zagar</ce:surname>
+                            <ce:given-name>Lan</ce:given-name>
+                        </preferred-name></author><author auid="7003934784" seq="4"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaz</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Zupan B.</ce:indexed-name>
+                            <ce:surname>Zupan</ce:surname>
+                            <ce:given-name>Blaz</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="35100787100" seq="2"><ce:initials>F.</ce:initials><ce:indexed-name>Mulas F.</ce:indexed-name><ce:surname>Mulas</ce:surname><ce:given-name>Francesca</ce:given-name><preferred-name>
+                            <ce:initials>F.</ce:initials>
+                            <ce:indexed-name>Mulas F.</ce:indexed-name>
+                            <ce:surname>Mulas</ce:surname>
+                            <ce:given-name>Francesca</ce:given-name>
+                        </preferred-name></author><author auid="18343389900" seq="3"><ce:initials>R.</ce:initials><ce:indexed-name>Bellazzi R.</ce:indexed-name><ce:surname>Bellazzi</ce:surname><ce:given-name>Riccardo</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Bellazzi R.</ce:indexed-name>
+                            <ce:surname>Bellazzi</ce:surname>
+                            <ce:given-name>Riccardo</ce:given-name>
+                        </preferred-name></author><affiliation afid="60015197" country="ita"><organization>University of Pavia</organization><city-group>Pavia</city-group><affiliation-id afid="60015197"/><country>Italy</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>L.</ce:initials>
+                        <ce:indexed-name>Zagar L.</ce:indexed-name>
+                        <ce:surname>Zagar</ce:surname>
+                    </person><affiliation country="svn"><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Genome-scale transcription profile is known to be a good reporter of the state of the cell. Much of the early predictive modelling and cell-type clustering relied on this relation and has experimentally confirmed it. We have examined if this also holds for prediction of cell's staging, and focused on the inference of stage prediction models for stem cell development. We show that the problem relates to rank learning and, from the user's point of view, to projection of transcription profile data to a single dimension. Our comparison of several state-of-the-art algorithms on 10 data sets from Gene Expression Omnibus shows that rank-learning can be successfully applied to developmental cell staging, and that relatively simple techniques can perform surprisingly well. © 2011 Springer-Verlag.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><issuetitle>Artificial Intelligence in Medicine - 13th Conference on Artificial Intelligence in Medicine, AIME 2011, Proceedings</issuetitle><issn type="print">03029743</issn><issn type="electronic">16113349</issn><isbn length="13" level="volume">9783642222177</isbn><volisspag>
+                        <voliss volume="6747 LNAI"/>
+                        <pagerange first="85" last="89"/>
+                    </volisspag><publicationyear first="2011"/><publicationdate>
+                        <year>2011</year>
+                    <date-text xfab-added="true">2011</date-text></publicationdate><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>13th Conference on Artificial Intelligence in Medicine, AIME 2011</confname>
+                                <conflocation country="svn">
+                                    <city-group>Bled</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="02" month="07" year="2011"/>
+                                    <enddate day="06" month="07" year="2011"/>
+                                </confdate>
+                                <confcode>86565</confcode>
+                            </confevent>
+                            <confpublication>
+                                <procpagerange>var.pagings</procpagerange>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>461</classification-code>
+                                <classification-description>Bioengineering</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.4</classification-code>
+                                <classification-description>Artificial Intelligence</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                        </classifications><classifications type="GEOCLASS">
+                            <classification>
+                                <classification-code>Related Topics</classification-code>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="6">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comparison of normalization methods for high density oligonucleotide array data based on variance and bias</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037316303</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.M.</ce:initials>
+                                    <ce:indexed-name>Bolstad B.M.</ce:indexed-name>
+                                    <ce:surname>Bolstad</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Irizarry R.A.</ce:indexed-name>
+                                    <ce:surname>Irizarry</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Astrand M.</ce:indexed-name>
+                                    <ce:surname>Åstrand</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.P.</ce:initials>
+                                    <ce:indexed-name>Speed T.P.</ce:indexed-name>
+                                    <ce:surname>Speed</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="19"/>
+                                <pagerange first="185" last="193"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bolstad, B.M., Irizarry, R.A., Åstrand, M., Speed, T.P.: A comparison of normalization methods for high density oligonucleotide array data based on variance and bias. Bioinformatics 19(2), 185-193 (2003)</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Statistical comparisons of classifiers over multiple data sets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">29644438050</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="1" last="30"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Demšar, J.: Statistical comparisons of classifiers over multiple data sets. The Journal of Machine Learning Research 7, 1-30 (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84884290516</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Furnkranz J.</ce:indexed-name>
+                                    <ce:surname>Fürnkranz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Hullermeier E.</ce:indexed-name>
+                                    <ce:surname>Hüllermeier</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Preference Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Fürnkranz, J., Hüllermeier, E. (eds.): Preference Learning. Springer, Heidelberg (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SlimPLS: A method for feature selection in gene expression-based disease classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">68149171307</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gutkin M.</ce:indexed-name>
+                                    <ce:surname>Gutkin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Shamir R.</ce:indexed-name>
+                                    <ce:surname>Shamir</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Dror G.</ce:indexed-name>
+                                    <ce:surname>Dror</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS One</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="4"/>
+                                <pages>e6416</pages>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gutkin, M., Shamir, R., Dror, G.: SlimPLS: a method for feature selection in gene expression-based disease classification. PLoS One 4(7), e6416 (2009)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Optimizing search engines using clickthrough data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0242456822</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Joachims T.</ce:indexed-name>
+                                    <ce:surname>Joachims</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD 2002</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="133" last="142"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Joachims, T.: Optimizing search engines using clickthrough data. In: Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD 2002, pp. 133-142 (2002)</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77950944544</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.Y.</ce:initials>
+                                    <ce:indexed-name>Liu T.Y.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Learning to Rank for Information Retrieval</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-text>Now Publishers</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Liu, T.Y.: Learning to Rank for Information Retrieval. Now Publishers (2009)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

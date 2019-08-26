@@ -1,0 +1,407 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84886007854</prism:url><dc:identifier>SCOPUS_ID:84886007854</dc:identifier><eid>2-s2.0-84886007854</eid><dc:title>Pessimistic heuristics beat optimistic ones in real-time search</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>10</citedby-count><prism:publicationName>Frontiers in Artificial Intelligence and Applications</prism:publicationName><source-id>19500157321</source-id><prism:isbn>9781586036423</prism:isbn><prism:issn>09226389</prism:issn><prism:volume>141</prism:volume><prism:startingPage>148</prism:startingPage><prism:endingPage>152</prism:endingPage><prism:pageRange>148-152</prism:pageRange><prism:coverDate>2006-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="55883901600"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55883901600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Admissibility is a desired property of heuristic evaluation functions, because when these heuristics are used with complete search methods, such as A* and RBFS, they guarantee that an optimal solution will be found. Since every optimistic heuristic function is admissible, optimistic functions are widely used. We show, however, that with incomplete, real-time search, optimistic functions lose their appeal, and in fact they may hinder the search under quite reasonable conditions. Under these conditions the exact opposite is to be preferred, i.e. pessimistic heuristic functions that never underestimate the difficulty of the problem. We demonstrate that such heuristics behave better than optimistic ones of equal quality on a standard testbed using RTA* search method. © 2006 The authors.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84886007854" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84886007854&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84886007854&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55883901600"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55883901600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms/><subject-areas><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="30" month="07" timestamp="2015-07-30T23:56:55.000055+01:00" year="2015"/><ait:date-sort day="01" month="12" year="2006"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">370088220</itemid>
+<itemid idtype="SNCPX">2013077255</itemid>
+<itemid idtype="SCP">84886007854</itemid>
+<itemid idtype="SGR">84886007854</itemid>
+</itemidlist><history>
+<date-created day="28" month="10" year="2013"/>
+</history><dbcollection>SNCPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Pessimistic heuristics beat optimistic ones in real-time search</titletext></citation-title><author-group><author auid="55883901600" seq="1"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Sadikov A.</ce:indexed-name>
+<ce:surname>Sadikov</ce:surname>
+<ce:given-name>Aleksander</ce:given-name>
+</preferred-name></author><author auid="7003286588" seq="2"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+<ce:given-name>Ivan</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580932"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><organization>Artificial Intelligence Laboratory</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><organization>Artificial Intelligence Laboratory</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Admissibility is a desired property of heuristic evaluation functions, because when these heuristics are used with complete search methods, such as A* and RBFS, they guarantee that an optimal solution will be found. Since every optimistic heuristic function is admissible, optimistic functions are widely used. We show, however, that with incomplete, real-time search, optimistic functions lose their appeal, and in fact they may hinder the search under quite reasonable conditions. Under these conditions the exact opposite is to be preferred, i.e. pessimistic heuristic functions that never underestimate the difficulty of the problem. We demonstrate that such heuristics behave better than optimistic ones of equal quality on a standard testbed using RTA* search method. © 2006 The authors.</ce:para>
+</abstract></abstracts><source country="nld" srcid="19500157321" type="k"><sourcetitle>Frontiers in Artificial Intelligence and Applications</sourcetitle><sourcetitle-abbrev>Front. Artif. Intell. Appl.</sourcetitle-abbrev><issuetitle>ECAI 2006: 17th European Conference on Artificial Intelligence August 29 - September 1, 2006, Riva del Garda, Italy</issuetitle><issn type="print">09226389</issn><isbn length="13" level="volume">9781586036423</isbn><volisspag>
+<voliss volume="141"/>
+<pagerange first="148" last="152"/>
+</volisspag><publicationyear first="2006"/><publicationdate>
+<year>2006</year>
+<date-text xfab-added="true">2006</date-text></publicationdate><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Brewka G.</ce:indexed-name>
+<ce:surname>Brewka</ce:surname>
+<ce:given-name>Gerhard</ce:given-name>
+</contributor>
+<affiliation country="deu">
+<organization>Leipzig University</organization>
+</affiliation>
+</contributor-group><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Coradeschi S.</ce:indexed-name>
+<ce:surname>Coradeschi</ce:surname>
+<ce:given-name>Silvia</ce:given-name>
+</contributor>
+<affiliation country="swe">
+<organization>Orebro University</organization>
+</affiliation>
+</contributor-group><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Perini A.</ce:indexed-name>
+<ce:surname>Perini</ce:surname>
+<ce:given-name>Anna</ce:given-name>
+</contributor>
+<contributor role="edit" seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Traverso P.</ce:indexed-name>
+<ce:surname>Traverso</ce:surname>
+<ce:given-name>Paolo</ce:given-name>
+</contributor>
+<affiliation country="ita">
+<organization>SRA</organization>
+<organization>ITC-irst</organization>
+<city-group>Trento</city-group>
+</affiliation>
+</contributor-group></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1702</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="13">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>An analysis of minimax</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0004683091</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.F.</ce:initials>
+<ce:indexed-name>Beal D.F.</ce:indexed-name>
+<ce:surname>Beal</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Advances in Computer Chess 2</ref-sourcetitle>
+<ref-publicationyear first="1980"/>
+<ref-volisspag>
+<pagerange first="103" last="109"/>
+</ref-volisspag>
+<ref-text>In ed., M. R. B. Clarke, Edinburgh University Press, Edinburgh, UK</ref-text>
+</ref-info>
+<ref-fulltext>Donald F. Beal, 'An analysis of minimax', in Advances in Computer Chess 2, ed., M. R. B. Clarke, pp. 103-109. Edinburgh University Press, Edinburgh, UK, (1980).</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003676303</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Prolog Programming for Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-text>Addison-Wesley Publishing Company, 3rd edn</ref-text>
+</ref-info>
+<ref-fulltext>Ivan Bratko, Prolog Programming for Artificial Intelligence, Addison-Wesley Publishing Company, 3rd edn., 2001.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Lookahead pathologies and meta-level control in realtime heuristic search</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">4544269069</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Bulitko V.</ce:indexed-name>
+<ce:surname>Bulitko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the Fifteenth Euromicro Conference on Real-Time Systems</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<pagerange first="13" last="16"/>
+</ref-volisspag>
+<ref-text>Porto, Portugal, (July)</ref-text>
+</ref-info>
+<ref-fulltext>Vadim Bulitko, 'Lookahead pathologies and meta-level control in realtime heuristic search', in Proceedings of the Fifteenth Euromicro Conference on Real-Time Systems, pp. 13-16, Porto, Portugal, (July 2003).</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Learning in real-time search: A unifying framework</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33744456486</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Bulitko V.</ce:indexed-name>
+<ce:surname>Bulitko</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Lee G.</ce:indexed-name>
+<ce:surname>Lee</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Artificial Intelligence Research</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="119" last="157"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Vadim Bulitko and Greg Lee, 'Learning in real-time search: A unifying framework', Journal of Artificial Intelligence Research, 25, 119-157, (2006).</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Lookahead pathologies for single agent search</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33744493173</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Bulitko V.</ce:indexed-name>
+<ce:surname>Bulitko</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Li L.</ce:indexed-name>
+<ce:surname>Li</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Greiner R.</ce:indexed-name>
+<ce:surname>Greiner</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Levner I.</ce:indexed-name>
+<ce:surname>Levner</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the Eighteenth International Joint Conference on Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<pagerange first="1531" last="1533"/>
+</ref-volisspag>
+<ref-text>In eds., G. Gottlob and T. Walsh, Acapulco, Mexico, (August)</ref-text>
+</ref-info>
+<ref-fulltext>Vadim Bulitko, Lihong Li, Russ Greiner, and Ilya Levner, 'Lookahead pathologies for single agent search', in Proceedings of the Eighteenth International Joint Conference on Artificial Intelligence, eds., G. Gottlob and T. Walsh, pp. 1531-1533, Acapulco, Mexico, (August 2003).</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>A formal basis for the heuristic determination of minimum cost paths</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84899829959</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.E.</ce:initials>
+<ce:indexed-name>Hart P.E.</ce:indexed-name>
+<ce:surname>Hart</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.J.</ce:initials>
+<ce:indexed-name>Nilsson N.J.</ce:indexed-name>
+<ce:surname>Nilsson</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Raphael B.</ce:indexed-name>
+<ce:surname>Raphael</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Systems Science and Cybernetics</ref-sourcetitle>
+<ref-publicationyear first="1968"/>
+<ref-volisspag>
+<voliss issue="2" volume="4"/>
+<pagerange first="100" last="107"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Peter E. Hart, Nils J. Nilsson, and Bertram Raphael, 'A formal basis for the heuristic determination of minimum cost paths', IEEE Transactions on Systems Science and Cybernetics, 4(2), 100-107, (1968).</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Real-time heuristic search</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0025400088</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.E.</ce:initials>
+<ce:indexed-name>Korf R.E.</ce:indexed-name>
+<ce:surname>Korf</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1990"/>
+<ref-volisspag>
+<voliss issue="2-3" volume="42"/>
+<pagerange first="189" last="211"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Richard E. Korf, 'Real-time heuristic search', Artificial Intelligence, 42(2-3), 189-211, (1990).</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Linear-space best-first search</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0027623753</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.E.</ce:initials>
+<ce:indexed-name>Korf R.E.</ce:indexed-name>
+<ce:surname>Korf</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-volisspag>
+<voliss issue="1" volume="62"/>
+<pagerange first="41" last="78"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Richard E. Korf, 'Linear-space best-first search', Artificial Intelligence, 62(1), 41-78, (1993).</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0040529248</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.S.</ce:initials>
+<ce:indexed-name>Nau D.S.</ce:indexed-name>
+<ce:surname>Nau</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Quality of Decision Versus Depth of Search on Game Trees</ref-sourcetitle>
+<ref-publicationyear first="1979"/>
+<ref-text>Ph.D. dissertation, Duke University, Durham, NC</ref-text>
+</ref-info>
+<ref-fulltext>Dana S. Nau, Quality of Decision Versus Depth of Search on Game Trees, Ph.D. dissertation, Duke University, Durham, NC, 1979.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">38049048020</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Sadikov A.</ce:indexed-name>
+<ce:surname>Sadikov</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Propagation of Heuristic Evaluation Errors in Game Graphs</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-text>Ph.D. dissertation, University of Ljubljana, Faculty of Computer and Information Science, Ljubljana, Slovenia</ref-text>
+</ref-info>
+<ref-fulltext>Aleksander Sadikov, Propagation of heuristic evaluation errors in game graphs, Ph.D. dissertation, University of Ljubljana, Faculty of Computer and Information Science, Ljubljana, Slovenia, 2005.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Bias and pathology in minimax search</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">27844608479</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Sadikov A.</ce:indexed-name>
+<ce:surname>Sadikov</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Kononenko I.</ce:indexed-name>
+<ce:surname>Kononenko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Theoretical Computer Science</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss issue="2" volume="349"/>
+<pagerange first="268" last="281"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Aleksander Sadikov, Ivan Bratko, and Igor Kononenko, 'Bias and pathology in minimax search', Theoretical Computer Science, 349(2), 268-281, (2005).</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Controlling the learning process of real-time heuristic search</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0037405586</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Shimbo M.</ce:indexed-name>
+<ce:surname>Shimbo</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Ishida T.</ce:indexed-name>
+<ce:surname>Ishida</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss issue="1" volume="146"/>
+<pagerange first="1" last="41"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Masashi Shimbo and Toru Ishida, 'Controlling the learning process of real-time heuristic search', Artificial Intelligence, 146(1), 1-41, (2003).</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Retrograde analysis of certain endgames</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000216358</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Thompson K.</ce:indexed-name>
+<ce:surname>Thompson</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>ICCA Journal</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss issue="3" volume="9"/>
+<pagerange first="131" last="139"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ken Thompson, 'Retrograde analysis of certain endgames', ICCA Journal, 9(3), 131-139, (1986).</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,235 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84872785447</prism:url><dc:identifier>SCOPUS_ID:84872785447</dc:identifier><eid>2-s2.0-84872785447</eid><prism:doi>10.1007/s10994-009-5164-0</prism:doi><dc:title>Algorithms for subsetting attribute values with Relief</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>9</citedby-count><prism:publicationName>Machine Learning</prism:publicationName><dc:publisher>
+                        Kluwer Academic Publishers
+                    </dc:publisher><source-id>24775</source-id><prism:issn>15730565 08856125</prism:issn><prism:volume>78</prism:volume><prism:issueIdentifier>3</prism:issueIdentifier><prism:startingPage>421</prism:startingPage><prism:endingPage>428</prism:endingPage><prism:pageRange>421-428</prism:pageRange><prism:coverDate>2010-01-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Relief is a measure of attribute quality which is often used for feature subset selection. Its use in induction of classification trees and rules, discretization, and other methods has however been hindered by its inability to suggest subsets of values of discrete attributes and thresholds for splitting continuous attributes into intervals. We present efficient algorithms for both tasks. © The Author(s) 2009.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84872785447" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84872785447&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84872785447&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Attribute quality estimation</author-keyword><author-keyword>Machine learning</author-keyword><author-keyword>Relief</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Attribute values</mainterm><mainterm weight="b" candidate="n">Classification trees</mainterm><mainterm weight="b" candidate="n">Continuous attribute</mainterm><mainterm weight="b" candidate="n">Discrete attributes</mainterm><mainterm weight="b" candidate="n">Discretizations</mainterm><mainterm weight="b" candidate="n">Feature subset selection</mainterm><mainterm weight="b" candidate="n">Quality estimation</mainterm><mainterm weight="b" candidate="n">Relief</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-20T10:28:58Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-id>J2-2194</xocs:funding-id><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This work was supported by grants from the Slovenian Research Agency (J2-2194,</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="17" month="11" timestamp="2018-11-17T00:48:36.000036-05:00" year="2018"/><ait:date-sort day="01" month="01" year="2010"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2014 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/s10994-009-5164-0</ce:doi>
+                    <itemid idtype="PUI">50745007</itemid>
+                    <itemid idtype="CAR-ID">347152386</itemid>
+                    <itemid idtype="CPX">20141517563361</itemid>
+                    <itemid idtype="SCP">84872785447</itemid>
+                    <itemid idtype="SGR">84872785447</itemid>
+                </itemidlist><history>
+                    <date-created day="10" month="04" year="2014"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Attribute quality estimation</author-keyword>
+                        <author-keyword xml:lang="eng">Machine learning</author-keyword>
+                        <author-keyword xml:lang="eng">Relief</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Algorithms for subsetting attribute values with Relief</titletext></citation-title><author-group><author auid="55075851300" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Demšar J.</ce:indexed-name>
+                            <ce:surname>Demšar</ce:surname>
+                            <ce:given-name>Janez</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science, University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>J.</ce:initials>
+                        <ce:indexed-name>Demsar J.</ce:indexed-name>
+                        <ce:surname>Demšar</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science, University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Relief is a measure of attribute quality which is often used for feature subset selection. Its use in induction of classification trees and rules, discretization, and other methods has however been hindered by its inability to suggest subsets of values of discrete attributes and thresholds for splitting continuous attributes into intervals. We present efficient algorithms for both tasks. © The Author(s) 2009.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="24775" type="j"><sourcetitle>Machine Learning</sourcetitle><sourcetitle-abbrev>Mach Learn</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Machine Learning</translated-sourcetitle><issn type="electronic">15730565</issn><issn type="print">08856125</issn><codencode>MALEE</codencode><volisspag>
+                        <voliss issue="3" volume="78"/>
+                        <pagerange first="421" last="428"/>
+                    </volisspag><publicationyear first="2010"/><publicationdate>
+                        <year>2010</year>
+                        <date-text>March 2010</date-text>
+                    </publicationdate><publisher>
+                        <publishername>Kluwer Academic Publishers</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="7">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Efficient algorithms for agglomerative hierarchical clustering methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002546287</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.H.</ce:initials>
+                                    <ce:indexed-name>Day W.H.</ce:indexed-name>
+                                    <ce:surname>Day</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Edelsbrunner H.</ce:indexed-name>
+                                    <ce:surname>Edelsbrunner</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Classification</ref-sourcetitle>
+                            <ref-publicationyear first="1984"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="1"/>
+                                <pagerange first="7" last="24"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Day, W. H., &amp; Edelsbrunner, H. (1984). Efficient algorithms for agglomerative hierarchical clustering methods. Journal of Classification, 1(1), 7-24.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35348928433</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jakulin A.</ce:indexed-name>
+                                    <ce:surname>Jakulin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning Based on Attribute Interactions</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://eprints.fri.uni-lj.si/205/</ce:e-address>
+                            </ref-website>
+                            <ref-text>PhD thesis, University of Ljubljana</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jakulin, A. (2005) Machine learning based on attribute interactions. PhD thesis, University of Ljubljana. http://eprints.fri.uni-lj.si/205/</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The feature selection problem: Traditional methods and a new algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027002164</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Kira K.</ce:indexed-name>
+                                    <ce:surname>Kira</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.A.</ce:initials>
+                                    <ce:indexed-name>Rendell L.A.</ce:indexed-name>
+                                    <ce:surname>Rendell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>AAAI</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <pagerange first="29" last="134"/>
+                            </ref-volisspag>
+                            <ref-text>Cambridge: AAAI Press/MIT Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kira, K., &amp; Rendell, L. A. (1992). The feature selection problem: Traditional methods and a new algorithm. In AAAI (pp. 129-134). Cambridge: AAAI Press/MIT Press.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimating attributes: Analysis and extensions of Relief</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84992726552</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Lecture Notes in Computer Science: Vol. 784. ECML</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss volume="784"/>
+                                <pagerange first="171" last="182"/>
+                            </ref-volisspag>
+                            <ref-text>In Bergadano, F., &amp; Raedt, L. D. (Eds.) Berlin: Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kononenko, I. (1994). Estimating attributes: Analysis and extensions of Relief. In Bergadano, F., &amp; Raedt, L. D. (Eds.) Lecture notes in computer science: Vol. 784. ECML (pp. 171-182). Berlin: Springer.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Non-myopic feature quality evaluation with (R)ReliefF</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052988121</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Sikonja M.R.</ce:indexed-name>
+                                    <ce:surname>Šikonja</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computational Methods of Feature Selection</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-text>In Liu, H., &amp; Motoda, H. (Eds.) Boca Raton: Chapman &amp; Hall/CRC</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kononenko, I., &amp; Šikonja, M. R. (2007). Non-myopic feature quality evaluation with (R)ReliefF. In Liu, H., &amp; Motoda, H. (Eds.) Computational methods of feature selection. Boca Raton: Chapman &amp; Hall/CRC.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CN2-MCI: A two-step method for constructive induction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">2342479723</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kramer S.</ce:indexed-name>
+                                    <ce:surname>Kramer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ML-COLT ?94 Workshop on Constructive Induction and Change of Representation</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-text>New Brunswick, New Jersey</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kramer, S. (1994) CN2-MCI: A two-step method for constructive induction. In: Proc. ML-COLT ?94 workshop on constructive induction and change of representation, New Brunswick, New Jersey.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Theoretical and empirical analysis of ReliefF and RReliefF</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0141990695</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Sikonja M.R.</ce:indexed-name>
+                                    <ce:surname>Šikonja</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="53"/>
+                                <pagerange first="23" last="69"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Šikonja, M. R., &amp; Kononenko, I. (2003). Theoretical and empirical analysis of ReliefF and RReliefF. MachineLearning, 53(1?2), 23?69.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

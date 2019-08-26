@@ -1,0 +1,693 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/3042523246</prism:url><dc:identifier>SCOPUS_ID:3042523246</dc:identifier><eid>2-s2.0-3042523246</eid><pii>S1077314204000049</pii><prism:doi>10.1016/j.cviu.2004.01.002</prism:doi><dc:title>Illumination insensitive recognition using eigenspaces</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>23</citedby-count><prism:publicationName>Computer Vision and Image Understanding</prism:publicationName><source-id>24161</source-id><prism:issn>10773142</prism:issn><prism:volume>95</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>86</prism:startingPage><prism:endingPage>104</prism:endingPage><prism:pageRange>86-104</prism:pageRange><prism:coverDate>2004-07-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="7006213017"><ce:initials>H.</ce:initials><ce:indexed-name>Bischof H.</ce:indexed-name><ce:surname>Bischof</ce:surname><ce:given-name>Horst</ce:given-name><preferred-name><ce:initials>H.</ce:initials><ce:indexed-name>Bischof H.</ce:indexed-name><ce:surname>Bischof</ce:surname><ce:given-name>Horst</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7006213017</author-url><affiliation id="60019663" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019663"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Variations in illumination can have a dramatic effect on the appearance of an object in an image. In this paper, we propose how to deal with illumination variations in eigenspace methods. We demonstrate that the eigenimages obtained by a training set under a single illumination condition (ambient light) can be used for recognition of objects taken under different illumination conditions. The major idea is to incorporate a gradient based filter bank into the eigenspace recognition framework. We show that the eigenimage coefficients are invariant to linear filtering (input and eigenimages are filtered with same filters). To achieve further illumination insensitivity we devised a robust procedure for coefficient recovery. The proposed approach has been extensively evaluated on a set of 4932 images and the results were compared to other approaches. © 2004 Elsevier Inc. All rights reserved.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/3042523246" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=3042523246&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=3042523246&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60019663" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019663"><affilname>Technische Universitat Graz</affilname><affiliation-city>Graz</affiliation-city><affiliation-country>Austria</affiliation-country></affiliation><affiliation id="60018163" href="https://api.elsevier.com/content/affiliation/affiliation_id/60018163"><affilname>Technische Universitat Wien</affilname><affiliation-city>Vienna</affiliation-city><affiliation-country>Austria</affiliation-country></affiliation><authors><author seq="1" auid="7006213017"><ce:initials>H.</ce:initials><ce:indexed-name>Bischof H.</ce:indexed-name><ce:surname>Bischof</ce:surname><ce:given-name>Horst</ce:given-name><preferred-name><ce:initials>H.</ce:initials><ce:indexed-name>Bischof H.</ce:indexed-name><ce:surname>Bischof</ce:surname><ce:given-name>Horst</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7006213017</author-url><affiliation id="60019663" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019663"/></author><author seq="2" auid="55893102000"><ce:initials>H.</ce:initials><ce:indexed-name>Wildenauer H.</ce:indexed-name><ce:surname>Wildenauer</ce:surname><ce:given-name>Horst</ce:given-name><preferred-name><ce:initials>H.</ce:initials><ce:indexed-name>Wildenauer H.</ce:indexed-name><ce:surname>Wildenauer</ce:surname><ce:given-name>Horst</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55893102000</author-url><affiliation id="60018163" href="https://api.elsevier.com/content/affiliation/affiliation_id/60018163"/></author><author seq="3" auid="7003317327"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Eigenimages</mainterm><mainterm weight="a" candidate="n">Eigenspaces</mainterm><mainterm weight="a" candidate="n">Filter banks</mainterm><mainterm weight="a" candidate="n">Insensitive recognition</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1711" abbrev="COMP">Signal Processing</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-source-document source-document-type="pii">S1077314204000049</xocs:funding-source-document><xocs:funding-addon-generated-timestamp>2019-03-20T20:33:20Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Ministry of Science and Technology of Republic of Slovenia</xocs:funding-agency-matched-string><xocs:funding-agency>Ministry of Science and Technology of the People's Republic of China</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100002855</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1814991/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Competence</xocs:funding-agency-matched-string></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Federal Ministry for Education, Science and Culture of Austria</xocs:funding-agency-matched-string><xocs:funding-agency>Ministry of Education, Culture, Sports, Science and Technology</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001700</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1861060/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Austrian National Fonds zur Förderung der wissenschaftlichen Forschung</xocs:funding-agency-matched-string><xocs:funding-id>P13981INF</xocs:funding-id><xocs:funding-agency>Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001711</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2658434/</xocs:funding-agency-country></xocs:funding><xocs:funding-text> H.B. and A.L. acknowledge the support by the Federal Ministry for Education, Science and Culture of Austria under the CONEX program. H.B. acknowledges the support by the K plus Competence Center ADVANCED COMPUTER VISION. H.W. was supported by a grant from the Austrian National Fonds zur Förderung der wissenschaftlichen Forschung (P13981INF). A.L. acknowledges the support from the Ministry of Science and Technology of Republic of Slovenia (Program 506).   </xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="04" month="12" timestamp="2018-12-04T03:10:30.000030-05:00" year="2018"/><ait:date-sort day="01" month="07" year="2004"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S1077314204000049</ce:pii>
+                    <ce:doi>10.1016/j.cviu.2004.01.002</ce:doi>
+                    <itemid idtype="PUI">38820790</itemid>
+                    <itemid idtype="CPX">2004288259310</itemid>
+                    <itemid idtype="SCP">3042523246</itemid>
+                    <itemid idtype="SGR">3042523246</itemid>
+                </itemidlist><history>
+                    <date-created day="07" month="07" year="2004"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Illumination insensitive recognition using eigenspaces</titletext></citation-title><author-group><author auid="7006213017" seq="1"><ce:initials>H.</ce:initials><ce:indexed-name>Bischof H.</ce:indexed-name><ce:surname>Bischof</ce:surname><ce:given-name>Horst</ce:given-name><preferred-name>
+                            <ce:initials>H.</ce:initials>
+                            <ce:indexed-name>Bischof H.</ce:indexed-name>
+                            <ce:surname>Bischof</ce:surname>
+                            <ce:given-name>Horst</ce:given-name>
+                        </preferred-name></author><affiliation afid="60019663" country="aut" dptid="104001476"><organization>Inst. for Comp. Graphics and Vision</organization><organization>Technical University Graz</organization><address-part>Inffeldgasse 16/II</address-part><city-group>Graz A-8010</city-group><affiliation-id afid="60019663" dptid="104001476"/><country>Austria</country></affiliation></author-group><author-group><author auid="55893102000" seq="2"><ce:initials>H.</ce:initials><ce:indexed-name>Wildenauer H.</ce:indexed-name><ce:surname>Wildenauer</ce:surname><ce:given-name>Horst</ce:given-name><preferred-name>
+                            <ce:initials>H.</ce:initials>
+                            <ce:indexed-name>Wildenauer H.</ce:indexed-name>
+                            <ce:surname>Wildenauer</ce:surname>
+                            <ce:given-name>Horst</ce:given-name>
+                        </preferred-name></author><affiliation afid="60018163" country="aut" dptid="103930967"><organization>Pattern Recog./Image Proc. Group</organization><organization>Vienna University of Technology</organization><address-part>Treitlstraße 3/1832</address-part><city-group>Vienna A-1040</city-group><affiliation-id afid="60018163" dptid="103930967"/><country>Austria</country></affiliation></author-group><author-group><author auid="7003317327" seq="3"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                            <ce:surname>Leonardis</ce:surname>
+                            <ce:given-name>Aleš</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Fac. of Comp./Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>Ljubljana 1001</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>H.</ce:initials>
+                        <ce:indexed-name>Bischof H.</ce:indexed-name>
+                        <ce:surname>Bischof</ce:surname>
+                    </person><affiliation country="aut"><organization>Inst. for Comp. Graphics and Vision</organization><organization>Technical University Graz</organization><address-part>Inffeldgasse 16/II</address-part><city-group>Graz A-8010</city-group><country>Austria</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Variations in illumination can have a dramatic effect on the appearance of an object in an image. In this paper, we propose how to deal with illumination variations in eigenspace methods. We demonstrate that the eigenimages obtained by a training set under a single illumination condition (ambient light) can be used for recognition of objects taken under different illumination conditions. The major idea is to incorporate a gradient based filter bank into the eigenspace recognition framework. We show that the eigenimage coefficients are invariant to linear filtering (input and eigenimages are filtered with same filters). To achieve further illumination insensitivity we devised a robust procedure for coefficient recovery. The proposed approach has been extensively evaluated on a set of 4932 images and the results were compared to other approaches. © 2004 Elsevier Inc. All rights reserved.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="24161" type="j"><sourcetitle>Computer Vision and Image Understanding</sourcetitle><sourcetitle-abbrev>Comput Vision Image Understanding</sourcetitle-abbrev><issn>10773142</issn><codencode>CVIUF</codencode><volisspag>
+                        <voliss issue="1" volume="95"/>
+                        <pagerange first="86" last="104"/>
+                    </volisspag><publicationyear first="2004"/><publicationdate>
+                        <year>2004</year>
+                        <month>07</month>
+                    <date-text xfab-added="true">July 2004</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>723.4</classification>
+                            <classification>723.5</classification>
+                            <classification>741.2</classification>
+                            <classification>801</classification>
+                            <classification>921.1</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1711</classification>
+                            <classification>1707</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="22">
+                    <reference id="97488815">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Face recognition: The problem of compensating for changes in illumination direction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031187307</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Adini Y.</ce:indexed-name>
+                                    <ce:surname>Adini</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Moses Y.</ce:indexed-name>
+                                    <ce:surname>Moses</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ullman S.</ce:indexed-name>
+                                    <ce:surname>Ullman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PAMI</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="19"/>
+                                <pagerange first="721" last="732"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Adini Y., Moses Y., Ullman S. Face recognition: the problem of compensating for changes in illumination direction. PAMI. 19(7):1997;721-732.</ref-fulltext>
+                    </reference>
+                    <reference id="97488816">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Eigenfaces vs fischerfaces: Recognition using class specific projection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003267619</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Belhumeuer P.</ce:indexed-name>
+                                    <ce:surname>Belhumeuer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hespanha J.</ce:indexed-name>
+                                    <ce:surname>Hespanha</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kriegman D.</ce:indexed-name>
+                                    <ce:surname>Kriegman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. European Conf. on Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <pagerange first="45" last="58"/>
+                            </ref-volisspag>
+                            <ref-text>Berlin: Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Belhumeuer P., Hespanha J., Kriegman D. Eigenfaces vs fischerfaces: recognition using class specific projection. Proc. European Conf. on Computer Vision. 1996;45-58 Springer, Berlin.</ref-fulltext>
+                    </reference>
+                    <reference id="97488817">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>What is the set of images of an object under all possible illumination conditions?</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032114647</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Belhumeur P.</ce:indexed-name>
+                                    <ce:surname>Belhumeur</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kriegman D.</ce:indexed-name>
+                                    <ce:surname>Kriegman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IJCV</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="28"/>
+                                <pagerange first="245" last="260"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Belhumeur P., Kriegman D. What is the set of images of an object under all possible illumination conditions? IJCV. 28(3):1998;245-260.</ref-fulltext>
+                    </reference>
+                    <reference id="97488818">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust recognition of scaled eigenimages through a hierarchical approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032293276</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR98</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="664" last="670"/>
+                            </ref-volisspag>
+                            <ref-text>Silver Spring, MD: IEEE Compter Society Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Bischof H., Leonardis A. Robust recognition of scaled eigenimages through a hierarchical approach. Proc. CVPR98. 1998;664-670 IEEE Compter Society Press, Silver Spring, MD.</ref-fulltext>
+                    </reference>
+                    <reference id="97488819">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Illumination insensitive eigenspaces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034857137</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wildenauer H.</ce:indexed-name>
+                                    <ce:surname>Wildenauer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ICCV01</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="233" last="238"/>
+                            </ref-volisspag>
+                            <ref-text>Silver Spring, MD: IEEE Computer Society Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Bischof H., Wildenauer H., Leonardis A. Illumination insensitive eigenspaces. Proc. ICCV01. 2001;233-238 IEEE Computer Society Press, Silver Spring, MD.</ref-fulltext>
+                    </reference>
+                    <reference id="97488820">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>In search of illumination invariants</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033719241</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Chen H.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Belhumeur P.</ce:indexed-name>
+                                    <ce:surname>Belhumeur</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Jacobs D.</ce:indexed-name>
+                                    <ce:surname>Jacobs</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR00</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pages>I:254-261</pages>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Chen, P. Belhumeur, D. Jacobs, In search of illumination invariants, in: Proc. CVPR00, 2000, pp. I:254-261.</ref-fulltext>
+                    </reference>
+                    <reference id="97488821">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Separating reflections and lighting using independent components analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032672154</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Farid H.</ce:indexed-name>
+                                    <ce:surname>Farid</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Adelson E.</ce:indexed-name>
+                                    <ce:surname>Adelson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR99</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pages>I:262-267</pages>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Farid, E. Adelson, Separating reflections and lighting using independent components analysis, in: Proc. CVPR99, 1999, pp. I:262-267.</ref-fulltext>
+                    </reference>
+                    <reference id="97488822">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>From few to many: Illumination cone models for face recognition under variable lighting and pose</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035363672</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Georghiades A.</ce:indexed-name>
+                                    <ce:surname>Georghiades</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Belhumeur P.</ce:indexed-name>
+                                    <ce:surname>Belhumeur</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kriegman D.</ce:indexed-name>
+                                    <ce:surname>Kriegman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PAMI</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="23"/>
+                                <pagerange first="643" last="660"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Georghiades A., Belhumeur P., Kriegman D. From few to many: illumination cone models for face recognition under variable lighting and pose. PAMI. 23(6):2001;643-660.</ref-fulltext>
+                    </reference>
+                    <reference id="97488823">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Illumination cones for recognition under variable lighting: Faces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032292924</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Georghiades A.</ce:indexed-name>
+                                    <ce:surname>Georghiades</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kriegman D.</ce:indexed-name>
+                                    <ce:surname>Kriegman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Belhumeur P.</ce:indexed-name>
+                                    <ce:surname>Belhumeur</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR98</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="52" last="58"/>
+                            </ref-volisspag>
+                            <ref-text>Silver Spring, MD: IEEE Compter Society Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Georghiades A., Kriegman D., Belhumeur P. Illumination cones for recognition under variable lighting: faces. Proc. CVPR98. 1998;52-58 IEEE Compter Society Press, Silver Spring, MD.</ref-fulltext>
+                    </reference>
+                    <reference id="97488824">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85057403488</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Medical Image Registration</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-text>J. Hajnal, D. Hill, &amp; D.J. Hawkes. Boca Raton: CRC Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hajnal J., Hill D., Hawkes D.J. Medical Image Registration. 2001;CRC Press, Boca Raton.</ref-fulltext>
+                    </reference>
+                    <reference id="97488825">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Appearance-based object recognition using optimal feature transforms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034135230</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hornegger J.</ce:indexed-name>
+                                    <ce:surname>Hornegger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Niemann H.</ce:indexed-name>
+                                    <ce:surname>Niemann</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Riesack R.</ce:indexed-name>
+                                    <ce:surname>Riesack</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="33"/>
+                                <pagerange first="209" last="224"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hornegger J., Niemann H., Riesack R. Appearance-based object recognition using optimal feature transforms. Pattern Recognition. 33(2):2000;209-224.</ref-fulltext>
+                    </reference>
+                    <reference id="97488826">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Comparing images under variable illumination</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032305056</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Jacobs D.</ce:indexed-name>
+                                    <ce:surname>Jacobs</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Belhumeur P.</ce:indexed-name>
+                                    <ce:surname>Belhumeur</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Basri R.</ce:indexed-name>
+                                    <ce:surname>Basri</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR98</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="610" last="617"/>
+                            </ref-volisspag>
+                            <ref-text>Silver Spring, MD: IEEE Computer Society Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jacobs D., Belhumeur P., Basri R. Comparing images under variable illumination. Proc. CVPR98. 1998;610-617 IEEE Computer Society Press, Silver Spring, MD.</ref-fulltext>
+                    </reference>
+                    <reference id="97488827">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust recognition using eigenimages</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033894632</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Vision Image Und.</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="78"/>
+                                <pagerange first="99" last="118"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Leonardis A., Bischof H. Robust recognition using eigenimages. Comput. Vision Image Und. 78(1):2000;99-118.</ref-fulltext>
+                    </reference>
+                    <reference id="97488828">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey of medical image registration</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032008619</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.B.A.</ce:initials>
+                                    <ce:indexed-name>Maintz J.B.A.</ce:indexed-name>
+                                    <ce:surname>Maintz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.A.</ce:initials>
+                                    <ce:indexed-name>Viergever M.A.</ce:indexed-name>
+                                    <ce:surname>Viergever</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Med. Image Anal.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="2"/>
+                                <pagerange first="1" last="36"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Maintz J.B.A., Viergever M.A. A survey of medical image registration. Med. Image Anal. 2(1):1998;1-36.</ref-fulltext>
+                    </reference>
+                    <reference id="97488829">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Illumination planning for object recognition using parametric eigenspaces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028749862</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Murase H.</ce:indexed-name>
+                                    <ce:surname>Murase</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Nayar S.</ce:indexed-name>
+                                    <ce:surname>Nayar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="16"/>
+                                <pagerange first="1219" last="1227"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Murase H., Nayar S. Illumination planning for object recognition using parametric eigenspaces. IEEE Trans. Pattern Anal. Mach. Intell. 16(12):1994;1219-1227.</ref-fulltext>
+                    </reference>
+                    <reference id="97488830">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mutual-information-based registration of medical images: A survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0043028206</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pluim J.</ce:indexed-name>
+                                    <ce:surname>Pluim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Maintz J.</ce:indexed-name>
+                                    <ce:surname>Maintz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Viergever M.</ce:indexed-name>
+                                    <ce:surname>Viergever</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Med. Imaging</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="22"/>
+                                <pagerange first="986" last="1004"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pluim J., Maintz J., Viergever M. Mutual-information-based registration of medical images: a survey. IEEE Trans. Med. Imaging. 22(8):2003;986-1004.</ref-fulltext>
+                    </reference>
+                    <reference id="97488831">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004087635</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Rissanen J.</ce:indexed-name>
+                                    <ce:surname>Rissanen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Stochastic Complexity in Statistical Inquiry, Vol. 15 of Series in Computer Science</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <voliss volume="15"/>
+                            </ref-volisspag>
+                            <ref-text>World Scientific, Singapore</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Rissanen, Stochastic Complexity in Statistical Inquiry, vol. 15 of Series in Computer Science. World Scientific, Singapore, 1989.</ref-fulltext>
+                    </reference>
+                    <reference id="97488832">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003681739</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.J.</ce:initials>
+                                    <ce:indexed-name>Rousseuw P.J.</ce:indexed-name>
+                                    <ce:surname>Rousseuw</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.M.</ce:initials>
+                                    <ce:indexed-name>Leroy A.M.</ce:indexed-name>
+                                    <ce:surname>Leroy</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Robust Regression and Outlier Detection</ref-sourcetitle>
+                            <ref-publicationyear first="1987"/>
+                            <ref-text>New York: Wiley</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Rousseuw P.J., Leroy A.M. Robust Regression and Outlier Detection. 1987;Wiley, New York.</ref-fulltext>
+                    </reference>
+                    <reference id="97488833">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Local grayvalue invariants for image retrieval</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031139628</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Schmid C.</ce:indexed-name>
+                                    <ce:surname>Schmid</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Mohr R.</ce:indexed-name>
+                                    <ce:surname>Mohr</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PAMI</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="19"/>
+                                <pagerange first="530" last="535"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Schmid C., Mohr R. Local grayvalue invariants for image retrieval. PAMI. 19(5):1997;530-535.</ref-fulltext>
+                    </reference>
+                    <reference id="97488834">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On photometric issues in 3D visual recognition from single 2D image</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030645338</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Shashua A.</ce:indexed-name>
+                                    <ce:surname>Shashua</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Vision</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss volume="21"/>
+                                <pagerange first="99" last="122"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shashua A. On photometric issues in 3D visual recognition from single 2D image. Int. J. Comput. Vision. 21: 1997;99-122.</ref-fulltext>
+                    </reference>
+                    <reference id="97488835">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Steerable wedge filters for local orientation analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030243333</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Simoncelli E.</ce:indexed-name>
+                                    <ce:surname>Simoncelli</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Farid H.</ce:indexed-name>
+                                    <ce:surname>Farid</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Image Process.</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="15"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Simoncelli E., Farid H. Steerable wedge filters for local orientation analysis. IEEE Trans. Image Process. 1996;1-15.</ref-fulltext>
+                    </reference>
+                    <reference id="97488836">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Eigenhill vs. eigenface and eigenedge</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035192782</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Yilmaz A.</ce:indexed-name>
+                                    <ce:surname>Yilmaz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gokmen M.</ce:indexed-name>
+                                    <ce:surname>Gokmen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PR</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="34"/>
+                                <pagerange first="181" last="184"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yilmaz A., Gokmen M. Eigenhill vs. eigenface and eigenedge. PR. 34(1):2001;181-184.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,622 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85058300105</prism:url><dc:identifier>SCOPUS_ID:85058300105</dc:identifier><eid>2-s2.0-85058300105</eid><prism:doi>10.1145/3267305.3274114</prism:doi><dc:title>Wi-Mind: Wireless mental effort inference</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>UbiComp/ISWC 2018 - Adjunct Proceedings of the 2018 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2018 ACM International Symposium on Wearable Computers</prism:publicationName><dc:publisher>
+                        Association for Computing Machinery, Inc
+                        acmhelp@acm.org
+                    </dc:publisher><source-id>21100890546</source-id><prism:isbn>9781450359665</prism:isbn><prism:startingPage>1241</prism:startingPage><prism:endingPage>1249</prism:endingPage><prism:pageRange>1241-1249</prism:pageRange><prism:coverDate>2018-10-08</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57205021954"><ce:initials>T.</ce:initials><ce:indexed-name>Matkovic T.</ce:indexed-name><ce:surname>Matkovič</ce:surname><ce:given-name>Tilen</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Matkovič T.</ce:indexed-name><ce:surname>Matkovič</ce:surname><ce:given-name>Tilen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57205021954</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 Copyright held by the owner/author(s). Publication rights licensed to ACM.</publishercopyright>
+                        <ce:para>From not disturbing a focused programmer, to entertaining a restless commuter waiting for a train, ubiquitous computing devices could greatly enhance their interaction with humans, should they only be aware of the user's cognitive load. However, current means of assessing cognitive load are, with a few exceptions, based on intrusive methods requiring physical contact of the measurement equipment and the user. In this paper we propose Wi-Mind, a system for remote cognitive load assessment through wireless sensing. Wi-Mind is based on a software-defined radio-based radar that measures sub-millimeter movements related to a person's breathing and heartbeats, which, in turn allow us to infer the person's cognitive load. We built and tested the system with 23 volunteers engaged in different tasks. Initial results show that while Wi-Mind manges to detect whether one is engaged in a cognitively demanding task, the inference of the exact cognitive load level remains challenging.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85058300105" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85058300105&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85058300105&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57205021954"><ce:initials>T.</ce:initials><ce:indexed-name>Matkovic T.</ce:indexed-name><ce:surname>Matkovič</ce:surname><ce:given-name>Tilen</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Matkovič T.</ce:indexed-name><ce:surname>Matkovič</ce:surname><ce:given-name>Tilen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57205021954</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="36634740500"><ce:initials>V.</ce:initials><ce:indexed-name>Pejovic V.</ce:indexed-name><ce:surname>Pejović</ce:surname><ce:given-name>Veljko</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Pejović V.</ce:indexed-name><ce:surname>Pejović</ce:surname><ce:given-name>Veljko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36634740500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Cognitive load</author-keyword><author-keyword>Signal processing</author-keyword><author-keyword>Wireless sensing</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">A-train</mainterm><mainterm weight="b" candidate="n">Cognitive loads</mainterm><mainterm weight="b" candidate="n">Measurement equipment</mainterm><mainterm weight="b" candidate="n">Mental effort</mainterm><mainterm weight="b" candidate="n">Physical contacts</mainterm><mainterm weight="b" candidate="n">Software-defined radios</mainterm><mainterm weight="b" candidate="n">Submillimeters</mainterm><mainterm weight="b" candidate="n">Wireless sensing</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1709" abbrev="COMP">Human-Computer Interaction</subject-area><subject-area code="1710" abbrev="COMP">Information Systems</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-12-28T14:45:19.958Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="27" month="03" timestamp="2019-03-27T00:28:46.000046-04:00" year="2019"/><ait:date-sort day="08" month="10" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2019 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1145/3267305.3274114</ce:doi>
+                    <itemid idtype="PUI">625444943</itemid>
+                    <itemid idtype="CAR-ID">914545794</itemid>
+                    <itemid idtype="CPX">20185106255153</itemid>
+                    <itemid idtype="SCP">85058300105</itemid>
+                    <itemid idtype="SGR">85058300105</itemid>
+                </itemidlist><history>
+                    <date-created day="17" month="12" timestamp="BST 17:06:46" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Cognitive load</author-keyword>
+                        <author-keyword xml:lang="eng">Signal processing</author-keyword>
+                        <author-keyword xml:lang="eng">Wireless sensing</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Wi-Mind: Wireless mental effort inference</titletext></citation-title><author-group><author auid="57205021954" seq="1" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Matkovic T.</ce:indexed-name><ce:surname>Matkovič</ce:surname><ce:given-name>Tilen</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Matkovič T.</ce:indexed-name>
+                            <ce:surname>Matkovič</ce:surname>
+                            <ce:given-name>Tilen</ce:given-name>
+                        </preferred-name></author><author auid="36634740500" seq="2" type="auth"><ce:initials>V.</ce:initials><ce:indexed-name>Pejovic V.</ce:indexed-name><ce:surname>Pejović</ce:surname><ce:given-name>Veljko</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Pejović V.</ce:indexed-name>
+                            <ce:surname>Pejović</ce:surname>
+                            <ce:given-name>Veljko</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 Copyright held by the owner/author(s). Publication rights licensed to ACM.</publishercopyright>
+                        <ce:para>From not disturbing a focused programmer, to entertaining a restless commuter waiting for a train, ubiquitous computing devices could greatly enhance their interaction with humans, should they only be aware of the user's cognitive load. However, current means of assessing cognitive load are, with a few exceptions, based on intrusive methods requiring physical contact of the measurement equipment and the user. In this paper we propose Wi-Mind, a system for remote cognitive load assessment through wireless sensing. Wi-Mind is based on a software-defined radio-based radar that measures sub-millimeter movements related to a person's breathing and heartbeats, which, in turn allow us to infer the person's cognitive load. We built and tested the system with 23 volunteers engaged in different tasks. Initial results show that while Wi-Mind manges to detect whether one is engaged in a cognitively demanding task, the inference of the exact cognitive load level remains challenging.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100890546" type="p"><sourcetitle>UbiComp/ISWC 2018 - Adjunct Proceedings of the 2018 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2018 ACM International Symposium on Wearable Computers</sourcetitle><sourcetitle-abbrev>UbiComp/ISWC - Adjun. Proc. ACM Int. Jt. Conf. Pervasive Ubiquitous Comput. Proc. ACM Int. Symp. Wearable Comput.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">UbiComp/ISWC 2018 - Adjunct Proceedings of the 2018 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2018 ACM International Symposium on Wearable Computers</translated-sourcetitle><issuetitle>UbiComp/ISWC 2018 - Adjunct Proceedings of the 2018 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2018 ACM International Symposium on Wearable Computers</issuetitle><isbn length="13" level="volume" type="electronic">9781450359665</isbn><volisspag>
+                        <pagerange first="1241" last="1249"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>10</month>
+                        <day>08</day>
+                    <date-text xfab-added="true">8 October 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://dl.acm.org/citation.cfm?id=3267305</ce:e-address>
+                    </website><publisher>
+                        <publishername>Association for Computing Machinery, Inc</publishername>
+                        <ce:e-address type="email">acmhelp@acm.org</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>2018 Joint ACM International Conference on Pervasive and Ubiquitous Computing, UbiComp 2018 and 2018 ACM International Symposium on Wearable Computers, ISWC 2018</confname>
+                                <confseriestitle>Joint ACM International Conference on Pervasive and Ubiquitous Computing, and ACM International Symposium on Wearable Computers</confseriestitle>
+                                <conflocation country="sgp">
+                                    <city>Singapore</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="08" month="10" year="2018"/>
+                                    <enddate day="12" month="10" year="2018"/>
+                                </confdate>
+                                <confcode>142400</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor>ACM SIGCHI</confsponsor>
+                                    <confsponsor>ACM SIGMOBILE</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1709</classification>
+                            <classification>1710</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                                                                                  
+                                <classification-code>461.4</classification-code>
+                                                                                                  
+                                <classification-description>Human Engineering</classification-description>
+                                                                                              
+                            </classification>
+                            <classification>
+                                                                                                  
+                                <classification-code>716.1</classification-code>
+                                                                                                  
+                                <classification-description>Information and Communication Theory</classification-description>
+                                                                                              
+                            </classification>
+                            <classification>
+                                                                                                  
+                                <classification-code>716.3</classification-code>
+                                                                                                  
+                                <classification-description>Radio Systems and Equipment</classification-description>
+                                                                                              
+                            </classification>
+                            <classification>
+                                                                                                  
+                                <classification-code>722.4</classification-code>
+                                                                                                  
+                                <classification-description>Digital Computers and Systems</classification-description>
+                                                                                              
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                                                                                  
+                                <classification-code>902</classification-code>
+                                                                                                  
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                                                                              
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="13">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85051211535</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>GNU Radio</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.gnuradio.org</ce:e-address>
+                            </ref-website>
+                            <ref-text>2018). Online; accessed 26-July-2018</ref-text>
+                        </ref-info>
+                        <ref-fulltext>2018. GNU Radio. https://www.gnuradio.org. (2018). [Online; accessed 26-July-2018].</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cognitive heat: Exploring the usage of thermal imaging to unobtrusively estimate cognitive load</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85040248782</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Abdelrahman Y.</ce:indexed-name>
+                                    <ce:surname>Abdelrahman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Velloso E.</ce:indexed-name>
+                                    <ce:surname>Velloso</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Dingler T.</ce:indexed-name>
+                                    <ce:surname>Dingler</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Schmidt A.</ce:indexed-name>
+                                    <ce:surname>Schmidt</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Vetere F.</ce:indexed-name>
+                                    <ce:surname>Vetere</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="1"/>
+                                <pagerange first="33"/>
+                            </ref-volisspag>
+                            <ref-text>2017</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Yomna Abdelrahman, Eduardo Velloso, Tilman Dingler, Albrecht Schmidt, and Frank Vetere. 2017. Cognitive heat: exploring the usage of thermal imaging to unobtrusively estimate cognitive load. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 1, 3 (2017), 33.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Smart homes that monitor breathing and heart rate</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84951059863</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Adib F.</ce:indexed-name>
+                                    <ce:surname>Adib</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Mao H.</ce:indexed-name>
+                                    <ce:surname>Mao</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kabelac Z.</ce:indexed-name>
+                                    <ce:surname>Kabelac</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Katabi D.</ce:indexed-name>
+                                    <ce:surname>Katabi</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.C.</ce:initials>
+                                    <ce:indexed-name>Miller R.C.</ce:indexed-name>
+                                    <ce:surname>Miller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 33rd Annual ACM Conference on Human Factors in Computing Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Fadel Adib, Hongzi Mao, Zachary Kabelac, Dina Katabi, and Robert C Miller. 2015. Smart homes that monitor breathing and heart rate. In Proceedings of the 33rd annual ACM conference on human factors in computing systems. ACM.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detecting pulse from head motions in video</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887376157</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Balakrishnan G.</ce:indexed-name>
+                                    <ce:surname>Balakrishnan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Durand F.</ce:indexed-name>
+                                    <ce:surname>Durand</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Guttag J.</ce:indexed-name>
+                                    <ce:surname>Guttag</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The IEEE Conference on Computer Vision and Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>Guha Balakrishnan, Fredo Durand, and John Guttag. 2013. Detecting pulse from head motions in video. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Orange: Data mining toolbox in Python</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84885599052</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Erjavec A.</ce:indexed-name>
+                                    <ce:surname>Erjavec</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Č.</ce:initials>
+                                    <ce:indexed-name>Gorup C.</ce:indexed-name>
+                                    <ce:surname>Gorup</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Hocevar T.</ce:indexed-name>
+                                    <ce:surname>Hočevar</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Milutinovic M.</ce:indexed-name>
+                                    <ce:surname>Milutinovič</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Polajnar M.</ce:indexed-name>
+                                    <ce:surname>Polajnar</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Toplak M.</ce:indexed-name>
+                                    <ce:surname>Toplak</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Staric A.</ce:indexed-name>
+                                    <ce:surname>Starič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="14"/>
+                                <pagerange first="2349" last="2353"/>
+                            </ref-volisspag>
+                            <ref-text>2013</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Janez Demšar, Tomaž Curk, Aleš Erjavec, Črt Gorup, Tomaž Hočevar, Mitar Milutinovič, Martin Možina, Matija Polajnar, Marko Toplak, Anže Starič, and others. 2013. Orange: data mining toolbox in Python. The Journal of Machine Learning Research 14, 1 (2013), 2349-2353.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A microwave radio for Doppler radar sensing of vital signs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035692835</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Droitcour A.</ce:indexed-name>
+                                    <ce:surname>Droitcour</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Lubecke V.</ce:indexed-name>
+                                    <ce:surname>Lubecke</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lin J.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Boric-Lubecke O.</ce:indexed-name>
+                                    <ce:surname>Boric-Lubecke</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Microwave Symposium Digest, 2001 IEEE MTT-S International</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="175" last="178"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Amy Droitcour, Victor Lubecke, Jenshan Lin, and Olga Boric-Lubecke. 2001. A microwave radio for Doppler radar sensing of vital signs. In Microwave Symposium Digest, 2001 IEEE MTT-S International, Vol. 1. IEEE, 175-178.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ABBAS: An adaptive bio-sensors based assistive system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85019604353</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>ElKomy M.</ce:indexed-name>
+                                    <ce:surname>ElKomy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Abdelrahman Y.</ce:indexed-name>
+                                    <ce:surname>Abdelrahman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Funk M.</ce:indexed-name>
+                                    <ce:surname>Funk</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Dingler T.</ce:indexed-name>
+                                    <ce:surname>Dingler</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Schmidt A.</ce:indexed-name>
+                                    <ce:surname>Schmidt</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Abdennadher S.</ce:indexed-name>
+                                    <ce:surname>Abdennadher</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mai ElKomy, Yomna Abdelrahman, Markus Funk, Tilman Dingler, Albrecht Schmidt, and Slim Abdennadher. 2017. ABBAS: an adaptive bio-sensors based assistive system. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems. ACM.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An investigation of myocardial aerobic capacity as a measure of both physical and cognitive workloads</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">28344457651</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.K.</ce:initials>
+                                    <ce:indexed-name>Fredericks T.K.</ce:indexed-name>
+                                    <ce:surname>Fredericks</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.D.</ce:initials>
+                                    <ce:indexed-name>Choi S.D.</ce:indexed-name>
+                                    <ce:surname>Choi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hart J.</ce:indexed-name>
+                                    <ce:surname>Hart</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.E.</ce:initials>
+                                    <ce:indexed-name>Butt S.E.</ce:indexed-name>
+                                    <ce:surname>Butt</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mital A.</ce:indexed-name>
+                                    <ce:surname>Mital</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Industrial Ergonomics</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="35"/>
+                                <pagerange first="1097" last="1107"/>
+                            </ref-volisspag>
+                            <ref-text>2005</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Tycho K Fredericks, Sang D Choi, Jason Hart, Steven E Butt, and Anil Mital. 2005. An investigation of myocardial aerobic capacity as a measure of both physical and cognitive workloads. International Journal of Industrial Ergonomics 35, 12 (2005), 1097-1107.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Continuous stress detection using a wrist device: In laboratory and real life</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84991109276</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gjoreski M.</ce:indexed-name>
+                                    <ce:surname>Gjoreski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Gjoreski H.</ce:indexed-name>
+                                    <ce:surname>Gjoreski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Lustrek M.</ce:indexed-name>
+                                    <ce:surname>Luštrek</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gams M.</ce:indexed-name>
+                                    <ce:surname>Gams</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mental Health Workshop with ACM UbiComp'16</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>Heidelberg, Germany</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Martin Gjoreski, Hristijan Gjoreski, Mitja Luštrek, and Matjaž Gams. 2016. Continuous stress detection using a wrist device: in laboratory and real life. In Mental Health workshop with ACM UbiComp'16. Heidelberg, Germany.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Respiratory changes in response to cognitive load: A systematic review</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84976608914</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grassmann M.</ce:indexed-name>
+                                    <ce:surname>Grassmann</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Vlemincx E.</ce:indexed-name>
+                                    <ce:surname>Vlemincx</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Von Leupoldt A.</ce:indexed-name>
+                                    <ce:surname>Von Leupoldt</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Mittelstadt J.M.</ce:indexed-name>
+                                    <ce:surname>Mittelstädt</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Van Den Bergh O.</ce:indexed-name>
+                                    <ce:surname>Van Den Bergh</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Plasticity 2016</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mariel Grassmann, Elke Vlemincx, Andreas von Leupoldt, Justin M Mittelstädt, and Omer Van den Bergh. 2016. Respiratory changes in response to cognitive load: A systematic review. Neural plasticity 2016 (2016).</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detecting stress using eye blinks and brain activity from EEG signals</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84893225662</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Haak M.</ce:indexed-name>
+                                    <ce:surname>Haak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bos S.</ce:indexed-name>
+                                    <ce:surname>Bos</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Panic S.</ce:indexed-name>
+                                    <ce:surname>Panic</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.J.M.</ce:initials>
+                                    <ce:indexed-name>Rothkrantz L.J.M.</ce:indexed-name>
+                                    <ce:surname>Rothkrantz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceeding of The 1st Driver Car Interaction and Interface (DCII 2008)</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="35" last="60"/>
+                            </ref-volisspag>
+                            <ref-text>2009</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Martijn Haak, Steven Bos, Sacha Panic, and LJM Rothkrantz. 2009. Detecting stress using eye blinks and brain activity from EEG signals. Proceeding of the 1st driver car interaction and interface (DCII 2008) (2009), 35-60.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Psycho-physiological Measures for Assessing Cognitive Load</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78650031773</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Haapalainen E.</ce:indexed-name>
+                                    <ce:surname>Haapalainen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kim S.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.F.</ce:initials>
+                                    <ce:indexed-name>Forlizzi J.F.</ce:indexed-name>
+                                    <ce:surname>Forlizzi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.K.</ce:initials>
+                                    <ce:indexed-name>Dey A.K.</ce:indexed-name>
+                                    <ce:surname>Dey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM UbiComp'10</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Copenhagen, Denmark</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Eija Haapalainen, SeungJun Kim, Jodi F. Forlizzi, and Anind K. Dey. 2010. Psycho-physiological Measures for Assessing Cognitive Load. In ACM UbiComp'10. Copenhagen, Denmark.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Emotion recognition using wireless signals</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84994165777</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zhao M.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Adib F.</ce:indexed-name>
+                                    <ce:surname>Adib</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Katabi D.</ce:indexed-name>
+                                    <ce:surname>Katabi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 22nd Annual International Conference on Mobile Computing and Networking</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mingmin Zhao, Fadel Adib, and Dina Katabi. 2016. Emotion recognition using wireless signals. In Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking. ACM.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

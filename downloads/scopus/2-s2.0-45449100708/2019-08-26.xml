@@ -1,0 +1,397 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/45449100708</prism:url><dc:identifier>SCOPUS_ID:45449100708</dc:identifier><eid>2-s2.0-45449100708</eid><pii>S0167865508001190</pii><prism:doi>10.1016/j.patrec.2008.03.020</prism:doi><dc:title>Selecting features for object detection using an AdaBoost-compatible evaluation function</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>16</citedby-count><prism:publicationName>Pattern Recognition Letters</prism:publicationName><source-id>24825</source-id><prism:issn>01678655</prism:issn><prism:volume>29</prism:volume><prism:issueIdentifier>11</prism:issueIdentifier><prism:startingPage>1603</prism:startingPage><prism:endingPage>1612</prism:endingPage><prism:pageRange>1603-1612</prism:pageRange><prism:coverDate>2008-08-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>This paper addresses the problem of selecting features in a visual object detection setup where a detection algorithm is applied to an input image represented by a set of features. The set of features to be employed in the test stage is prepared in two training-stage steps. In the first step, a feature extraction algorithm produces a (possibly large) initial set of features. In the second step, on which this paper focuses, the initial set is reduced using a selection procedure. The proposed selection procedure is based on a novel evaluation function that measures the utility of individual features for a certain detection task. Owing to its design, the evaluation function can be seamlessly embedded into an AdaBoost selection framework. The developed selection procedure is integrated with state-of-the-art feature extraction and object detection methods. The presented system was tested on five challenging detection setups. In three of them, a fairly high detection accuracy was effected by as few as six features selected out of several hundred initial candidates. © 2008 Elsevier B.V. All rights reserved.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/45449100708" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=45449100708&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=45449100708&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="12139176800"><ce:initials>S.</ce:initials><ce:indexed-name>Fidler S.</ce:indexed-name><ce:surname>Fidler</ce:surname><ce:given-name>Sanja</ce:given-name><preferred-name><ce:initials>S.</ce:initials><ce:indexed-name>Fidler S.</ce:indexed-name><ce:surname>Fidler</ce:surname><ce:given-name>Sanja</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/12139176800</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7003317327"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>AdaBoost</author-keyword><author-keyword>Feature selection</author-keyword><author-keyword>Object detection</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">AdaBoost</mainterm><mainterm weight="a" candidate="n">Applied (CO)</mainterm><mainterm weight="a" candidate="n">Detection accuracy</mainterm><mainterm weight="a" candidate="n">detection algorithms</mainterm><mainterm weight="a" candidate="n">Elsevier (CO)</mainterm><mainterm weight="a" candidate="n">Evaluation functions</mainterm><mainterm weight="a" candidate="n">Feature extraction algorithms</mainterm><mainterm weight="a" candidate="n">Individual (PSS 544-7)</mainterm><mainterm weight="a" candidate="n">input images</mainterm><mainterm weight="a" candidate="n">object detection</mainterm><mainterm weight="a" candidate="n">paper addresses</mainterm><mainterm weight="a" candidate="n">selection procedures</mainterm><mainterm weight="a" candidate="n">visual objects</mainterm></idxterms><subject-areas><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area><subject-area code="1711" abbrev="COMP">Signal Processing</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-12T06:31:27.798Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="30" month="09" timestamp="2015-09-30T05:41:45.000045+01:00" year="2015"/><ait:date-sort day="01" month="08" year="2008"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:pii>S0167865508001190</ce:pii>
+<ce:doi>10.1016/j.patrec.2008.03.020</ce:doi>
+<itemid idtype="PUI">50160025</itemid>
+<itemid idtype="CPX">20082611335108</itemid>
+<itemid idtype="SCP">45449100708</itemid>
+<itemid idtype="SGR">45449100708</itemid>
+</itemidlist><history>
+<date-created day="29" month="05" year="2008"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>AdaBoost</author-keyword>
+<author-keyword>Feature selection</author-keyword>
+<author-keyword>Object detection</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Selecting features for object detection using an AdaBoost-compatible evaluation function</titletext></citation-title><author-group><author auid="24329188700" seq="1"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Fürst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+<ce:given-name>Luka</ce:given-name>
+</preferred-name></author><author auid="12139176800" seq="2"><ce:initials>S.</ce:initials><ce:indexed-name>Fidler S.</ce:indexed-name><ce:surname>Fidler</ce:surname><ce:given-name>Sanja</ce:given-name><preferred-name>
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Fidler S.</ce:indexed-name>
+<ce:surname>Fidler</ce:surname>
+<ce:given-name>Sanja</ce:given-name>
+</preferred-name></author><author auid="7003317327" seq="3"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+<ce:given-name>Aleš</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="105174849"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><organization>Visual Cognitive Systems Laboratory</organization><address-part>Tržaška 25</address-part><city-group>SI-1001 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Furst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+</person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><organization>Visual Cognitive Systems Laboratory</organization><address-part>Tržaška 25</address-part><city-group>SI-1001 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>This paper addresses the problem of selecting features in a visual object detection setup where a detection algorithm is applied to an input image represented by a set of features. The set of features to be employed in the test stage is prepared in two training-stage steps. In the first step, a feature extraction algorithm produces a (possibly large) initial set of features. In the second step, on which this paper focuses, the initial set is reduced using a selection procedure. The proposed selection procedure is based on a novel evaluation function that measures the utility of individual features for a certain detection task. Owing to its design, the evaluation function can be seamlessly embedded into an AdaBoost selection framework. The developed selection procedure is integrated with state-of-the-art feature extraction and object detection methods. The presented system was tested on five challenging detection setups. In three of them, a fairly high detection accuracy was effected by as few as six features selected out of several hundred initial candidates. © 2008 Elsevier B.V. All rights reserved.</ce:para>
+</abstract></abstracts><source country="nld" srcid="24825" type="j"><sourcetitle>Pattern Recognition Letters</sourcetitle><sourcetitle-abbrev>Pattern Recogn. Lett.</sourcetitle-abbrev><issn type="print">01678655</issn><volisspag>
+<voliss issue="11" volume="29"/>
+<pagerange first="1603" last="1612"/>
+</volisspag><publicationyear first="2008"/><publicationdate>
+<year>2008</year>
+<month>08</month>
+<day>01</day>
+<date-text xfab-added="true">1 August 2008</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1707</classification>
+<classification>1711</classification>
+<classification>2208</classification>
+</classifications><classifications type="CPXCLASS">
+<classification>921.4</classification>
+<classification>921</classification>
+<classification>811.1</classification>
+<classification>802.3</classification>
+<classification>921.6</classification>
+<classification>723</classification>
+<classification>716.1</classification>
+<classification>716</classification>
+<classification>402</classification>
+<classification>721.1</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="23">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Learning to detect objects in images via a sparse, part-based representation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">12844249589</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Agarwal S.</ce:indexed-name>
+<ce:surname>Agarwal</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Awan A.</ce:indexed-name>
+<ce:surname>Awan</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Roth D.</ce:indexed-name>
+<ce:surname>Roth</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss issue="11" volume="26"/>
+<pagerange first="1475" last="1490"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Agarwal S., Awan A., and Roth D. Learning to detect objects in images via a sparse, part-based representation. IEEE Trans. Pattern Anal. Machine Intell. 26 11 (2004) 1475-1490</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449097478</itemid>
+</refd-itemidlist>
+<ref-text>Borenstein, E., Ullman, S., 2002. Class-specific, top-down segmentation. In: European Conference on Computer Vision, pp. 109-124.</ref-text>
+</ref-info>
+<ref-fulltext>Borenstein, E., Ullman, S., 2002. Class-specific, top-down segmentation. In: European Conference on Computer Vision, pp. 109-124.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>The best two independent measurements are not the two best</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84942213019</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Cover T.</ce:indexed-name>
+<ce:surname>Cover</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Systems Man Cybernet.</ref-sourcetitle>
+<ref-publicationyear first="1974"/>
+<ref-volisspag>
+<voliss issue="1" volume="4"/>
+<pagerange first="116" last="117"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Cover T. The best two independent measurements are not the two best. IEEE Trans. Systems Man Cybernet. 4 1 (1974) 116-117</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449083654</itemid>
+</refd-itemidlist>
+<ref-text>Dorkó, G., Schmid, C., 2003. Selection of scale-invariant parts for object class recognition. In: Internat. Conf. on Comput. Vision, pp. 634-640.</ref-text>
+</ref-info>
+<ref-fulltext>Dorkó, G., Schmid, C., 2003. Selection of scale-invariant parts for object class recognition. In: Internat. Conf. on Comput. Vision, pp. 634-640.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449102130</itemid>
+</refd-itemidlist>
+<ref-text>Epshtein, B., Ullman, S., 2005. Feature hierarchies for object classification. In: Internat. Conf. on Comput. Vision, pp. 220-227.</ref-text>
+</ref-info>
+<ref-fulltext>Epshtein, B., Ullman, S., 2005. Feature hierarchies for object classification. In: Internat. Conf. on Comput. Vision, pp. 220-227.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449097094</itemid>
+</refd-itemidlist>
+<ref-text>Ferrari, V., Fevrier, L., Jurie, F., Schmid, C., 2006. Groups of adjacent contour segments for object detection. Tech. Rep., INRIA Rhône-Alpes.</ref-text>
+</ref-info>
+<ref-fulltext>Ferrari, V., Fevrier, L., Jurie, F., Schmid, C., 2006. Groups of adjacent contour segments for object detection. Tech. Rep., INRIA Rhône-Alpes.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449116733</itemid>
+</refd-itemidlist>
+<ref-text>Fidler, S., Leonardis, A., 2007. Towards scalable representations of object categories: Learning a hierarchy of parts. In: IEEE Conf. on Comput. Vision and Pattern Recognition.</ref-text>
+</ref-info>
+<ref-fulltext>Fidler, S., Leonardis, A., 2007. Towards scalable representations of object categories: Learning a hierarchy of parts. In: IEEE Conf. on Comput. Vision and Pattern Recognition.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449090065</itemid>
+</refd-itemidlist>
+<ref-text>Fidler, S., Berginc, G., Leonardis, A., 2006. Hierarchical statistical learning of generic parts of object structure. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 182-189.</ref-text>
+</ref-info>
+<ref-fulltext>Fidler, S., Berginc, G., Leonardis, A., 2006. Hierarchical statistical learning of generic parts of object structure. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 182-189.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>A decision-theoretic generalization of online learning</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031211090</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Freund Y.</ce:indexed-name>
+<ce:surname>Freund</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Schapire R.</ce:indexed-name>
+<ce:surname>Schapire</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Comput. System Sci.</ref-sourcetitle>
+<ref-publicationyear first="1997"/>
+<ref-volisspag>
+<voliss issue="1" volume="55"/>
+<pagerange first="119" last="139"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Freund Y., and Schapire R. A decision-theoretic generalization of online learning. Comput. System Sci. 55 1 (1997) 119-139</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449090814</itemid>
+</refd-itemidlist>
+<ref-text>Fritz, M., Leibe, B., Caputo, B., Schiele, B., 2005. Integrating representative and discriminant models for object category detection. In: Internat. Conf. on Comput. Vision. pp. 1363-1370.</ref-text>
+</ref-info>
+<ref-fulltext>Fritz, M., Leibe, B., Caputo, B., Schiele, B., 2005. Integrating representative and discriminant models for object category detection. In: Internat. Conf. on Comput. Vision. pp. 1363-1370.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449109831</itemid>
+</refd-itemidlist>
+<ref-text>Leibe, B., 2004. Interleaved object categorization and segmentation. Ph.D. Thesis, ETH Zürich.</ref-text>
+</ref-info>
+<ref-fulltext>Leibe, B., 2004. Interleaved object categorization and segmentation. Ph.D. Thesis, ETH Zürich.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449110801</itemid>
+</refd-itemidlist>
+<ref-text>Leibe, B., Leonardis, A., Schiele, B., 2004. Combined object categorization and segmentation with an implicit shape model. In: ECCV'04 Workshop on Statist. Learning in Comput. Vision, pp. 17-32.</ref-text>
+</ref-info>
+<ref-fulltext>Leibe, B., Leonardis, A., Schiele, B., 2004. Combined object categorization and segmentation with an implicit shape model. In: ECCV'04 Workshop on Statist. Learning in Comput. Vision, pp. 17-32.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Segmentation of range images as the search for geometric parametric models</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0029292002</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Gupta A.</ce:indexed-name>
+<ce:surname>Gupta</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Bajcsy R.</ce:indexed-name>
+<ce:surname>Bajcsy</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Internat. J. Comput. Vision</ref-sourcetitle>
+<ref-publicationyear first="1995"/>
+<ref-volisspag>
+<voliss issue="3" volume="14"/>
+<pagerange first="253" last="277"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Leonardis A., Gupta A., and Bajcsy R. Segmentation of range images as the search for geometric parametric models. Internat. J. Comput. Vision 14 3 (1995) 253-277</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449120494</itemid>
+</refd-itemidlist>
+<ref-text>Li, F., Košecká, J., Wechsler, H., 2006. Strangeness based feature selection for part based recognition. In: IEEE Conference on Computer Vision and Pattern Recognition Workshop. p. 22.</ref-text>
+</ref-info>
+<ref-fulltext>Li, F., Košecká, J., Wechsler, H., 2006. Strangeness based feature selection for part based recognition. In: IEEE Conference on Computer Vision and Pattern Recognition Workshop. p. 22.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449098294</itemid>
+</refd-itemidlist>
+<ref-text>Mikolajczyk, K., Leibe, B., Schiele, B., 2006. Multiple object class detection with a generative model. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 26-33.</ref-text>
+</ref-info>
+<ref-fulltext>Mikolajczyk, K., Leibe, B., Schiele, B., 2006. Multiple object class detection with a generative model. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 26-33.</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449083842</itemid>
+</refd-itemidlist>
+<ref-text>Mutch, J., Lowe, D., 2006. Multiclass object recognition with sparse, localized features. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 11-18.</ref-text>
+</ref-info>
+<ref-fulltext>Mutch, J., Lowe, D., 2006. Multiclass object recognition with sparse, localized features. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 11-18.</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449092814</itemid>
+</refd-itemidlist>
+<ref-text>Opelt, A., Pinz, A., Zisserman, A., 2006. A boundary-fragment-model for object detection. In: Eur. Conf. on Comput. Vision, pp. 575-588.</ref-text>
+</ref-info>
+<ref-fulltext>Opelt, A., Pinz, A., Zisserman, A., 2006. A boundary-fragment-model for object detection. In: Eur. Conf. on Comput. Vision, pp. 575-588.</ref-fulltext>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>Feature selection based on mutual information: criteria of max-dependency, max-relevance, and min-redundancy</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">24344458137</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Peng H.</ce:indexed-name>
+<ce:surname>Peng</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Long F.</ce:indexed-name>
+<ce:surname>Long</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Ding C.</ce:indexed-name>
+<ce:surname>Ding</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss issue="8" volume="27"/>
+<pagerange first="1226" last="1238"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Peng H., Long F., and Ding C. Feature selection based on mutual information: criteria of max-dependency, max-relevance, and min-redundancy. IEEE Trans. Pattern Anal. Machine Intell. 27 8 (2005) 1226-1238</ref-fulltext>
+</reference>
+<reference id="19">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449085883</itemid>
+</refd-itemidlist>
+<ref-text>Shotton, J., Blake, A., Cipolla, R., 2005. Contour-based learning for object detection. In: Internat. Conf. on Comput. Vision, pp. 503-510.</ref-text>
+</ref-info>
+<ref-fulltext>Shotton, J., Blake, A., Cipolla, R., 2005. Contour-based learning for object detection. In: Internat. Conf. on Comput. Vision, pp. 503-510.</ref-fulltext>
+</reference>
+<reference id="20">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449105388</itemid>
+</refd-itemidlist>
+<ref-text>Thomas, A., Ferrari, V., Leibe, B., Tuytelaars, T., Schiele, B., Gool, L.V., 2006. Towards multi-view object class detection. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 1589-1596.</ref-text>
+</ref-info>
+<ref-fulltext>Thomas, A., Ferrari, V., Leibe, B., Tuytelaars, T., Schiele, B., Gool, L.V., 2006. Towards multi-view object class detection. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 1589-1596.</ref-fulltext>
+</reference>
+<reference id="21">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449087556</itemid>
+</refd-itemidlist>
+<ref-text>Torralba, A., Murphy, K., Freeman, W., 2004. Sharing features: efficient boosting procedures for multiclass object detection. In: IEEE Conf. on Computer Vision and Pattern Recognition, pp. 762-769.</ref-text>
+</ref-info>
+<ref-fulltext>Torralba, A., Murphy, K., Freeman, W., 2004. Sharing features: efficient boosting procedures for multiclass object detection. In: IEEE Conf. on Computer Vision and Pattern Recognition, pp. 762-769.</ref-fulltext>
+</reference>
+<reference id="22">
+<ref-info>
+<ref-title>
+<ref-titletext>Robust real-time face detection</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">2142812371</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Viola P.</ce:indexed-name>
+<ce:surname>Viola</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Jones M.</ce:indexed-name>
+<ce:surname>Jones</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Internat. J. Comput. Vision</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss issue="2" volume="57"/>
+<pagerange first="137" last="154"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Viola P., and Jones M. Robust real-time face detection. Internat. J. Comput. Vision 57 2 (2004) 137-154</ref-fulltext>
+</reference>
+<reference id="23">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45449111994</itemid>
+</refd-itemidlist>
+<ref-text>Zhang, W., Yu, B., Zelinsky, G., Samaras, D., 2005. Object class recognition using multiple layer boosting with heterogeneous features. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 323-330.</ref-text>
+</ref-info>
+<ref-fulltext>Zhang, W., Yu, B., Zelinsky, G., Samaras, D., 2005. Object class recognition using multiple layer boosting with heterogeneous features. In: IEEE Conf. on Comput. Vision and Pattern Recognition, pp. 323-330.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

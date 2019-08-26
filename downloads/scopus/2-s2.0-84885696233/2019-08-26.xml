@@ -1,0 +1,164 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84885696233</prism:url><dc:identifier>SCOPUS_ID:84885696233</dc:identifier><eid>2-s2.0-84885696233</eid><dc:title>Cross-media knowledge acquisition: A case study</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>CEUR Workshop Proceedings</prism:publicationName><source-id>21100218356</source-id><prism:issn>16130073</prism:issn><prism:volume>437</prism:volume><prism:startingPage>59</prism:startingPage><prism:endingPage>66</prism:endingPage><prism:pageRange>59-66</prism:pageRange><prism:coverDate>2009-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="24176661200"><ce:initials>M.</ce:initials><ce:indexed-name>Giordanino M.</ce:indexed-name><ce:surname>Giordanino</ce:surname><ce:given-name>Marina</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Giordanino M.</ce:indexed-name><ce:surname>Giordanino</ce:surname><ce:given-name>Marina</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24176661200</author-url><affiliation id="113935651" href="https://api.elsevier.com/content/affiliation/affiliation_id/113935651"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>The paper describes an approach to cross-media knowledge acquisition which combines text and raw data. The approach has been applied in a real-world use case concerning wind tunnel reports within the EU-funded project X-Media. The goal is to identify the source of wind noise in a vehicle and find the most suitable solution to reduce it. Information is extracted from the textual parts of the reports and provided to the raw data tool to improve its performance. The results of the initial experiments are encouraging.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84885696233" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84885696233&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84885696233&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60083112" href="https://api.elsevier.com/content/affiliation/affiliation_id/60083112"><affilname>Fondazione Bruno Kessler</affilname><affiliation-city>Trento</affiliation-city><affiliation-country>Italy</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="113935651" href="https://api.elsevier.com/content/affiliation/affiliation_id/113935651"><affilname>CRF</affilname><affiliation-city>Torino</affiliation-city><affiliation-country>Italy</affiliation-country></affiliation><authors><author seq="1" auid="24176661200"><ce:initials>M.</ce:initials><ce:indexed-name>Giordanino M.</ce:indexed-name><ce:surname>Giordanino</ce:surname><ce:given-name>Marina</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Giordanino M.</ce:indexed-name><ce:surname>Giordanino</ce:surname><ce:given-name>Marina</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24176661200</author-url><affiliation id="113935651" href="https://api.elsevier.com/content/affiliation/affiliation_id/113935651"/></author><author seq="2" auid="35240317300"><ce:initials>C.</ce:initials><ce:indexed-name>Giuliano C.</ce:indexed-name><ce:surname>Giuliano</ce:surname><ce:given-name>Claudio</ce:given-name><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>Giuliano C.</ce:indexed-name><ce:surname>Giuliano</ce:surname><ce:given-name>Claudio</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35240317300</author-url><affiliation id="60083112" href="https://api.elsevier.com/content/affiliation/affiliation_id/60083112"/></author><author seq="3" auid="35748905300"><ce:initials>D.</ce:initials><ce:indexed-name>Kuznar D.</ce:indexed-name><ce:surname>Kužnar</ce:surname><ce:given-name>Damjan</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Kužnar D.</ce:indexed-name><ce:surname>Kužnar</ce:surname><ce:given-name>Damjan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35748905300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="55886713300"><ce:initials>A.</ce:initials><ce:indexed-name>Lavelli A.</ce:indexed-name><ce:surname>Lavelli</ce:surname><ce:given-name>Alberto</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Lavelli A.</ce:indexed-name><ce:surname>Lavelli</ce:surname><ce:given-name>Alberto</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55886713300</author-url><affiliation id="60083112" href="https://api.elsevier.com/content/affiliation/affiliation_id/60083112"/></author><author seq="5" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="6" auid="23135601200"><ce:initials>L.</ce:initials><ce:indexed-name>Romano L.</ce:indexed-name><ce:surname>Romano</ce:surname><ce:given-name>Lorenza</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Romano L.</ce:indexed-name><ce:surname>Romano</ce:surname><ce:given-name>Lorenza</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23135601200</author-url><affiliation id="60083112" href="https://api.elsevier.com/content/affiliation/affiliation_id/60083112"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Cross-media</mainterm><mainterm weight="a" candidate="n">Data tools</mainterm><mainterm weight="a" candidate="n">Real-world</mainterm><mainterm weight="a" candidate="n">Suitable solutions</mainterm><mainterm weight="a" candidate="n">Wind noise</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-02-23T03:06:47.029Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/car</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="13" month="11" timestamp="2013-11-13T01:52:51.000051+00:00" year="2013"/><ait:date-sort day="01" month="12" year="2009"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">370041320</itemid>
+<itemid idtype="CPX">20134316886761</itemid>
+<itemid idtype="SCP">84885696233</itemid>
+<itemid idtype="SGR">84885696233</itemid>
+</itemidlist><history>
+<date-created day="22" month="10" year="2013"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Cross-media knowledge acquisition: A case study</titletext></citation-title><author-group><author auid="24176661200" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Giordanino M.</ce:indexed-name><ce:surname>Giordanino</ce:surname><ce:given-name>Marina</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Giordanino M.</ce:indexed-name>
+<ce:surname>Giordanino</ce:surname>
+<ce:given-name>Marina</ce:given-name>
+</preferred-name></author><affiliation afid="113935651" country="ita"><organization>CRF</organization><city-group>Torino</city-group><country>Italy</country></affiliation></author-group><author-group><author auid="35240317300" seq="2"><ce:initials>C.</ce:initials><ce:indexed-name>Giuliano C.</ce:indexed-name><ce:surname>Giuliano</ce:surname><ce:given-name>Claudio</ce:given-name><preferred-name>
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Giuliano C.</ce:indexed-name>
+<ce:surname>Giuliano</ce:surname>
+<ce:given-name>Claudio</ce:given-name>
+</preferred-name></author><author auid="55886713300" seq="4"><ce:initials>A.</ce:initials><ce:indexed-name>Lavelli A.</ce:indexed-name><ce:surname>Lavelli</ce:surname><ce:given-name>Alberto</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Lavelli A.</ce:indexed-name>
+<ce:surname>Lavelli</ce:surname>
+<ce:given-name>Alberto</ce:given-name>
+</preferred-name></author><author auid="23135601200" seq="6"><ce:initials>L.</ce:initials><ce:indexed-name>Romano L.</ce:indexed-name><ce:surname>Romano</ce:surname><ce:given-name>Lorenza</ce:given-name><preferred-name>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Romano L.</ce:indexed-name>
+<ce:surname>Romano</ce:surname>
+<ce:given-name>Lorenza</ce:given-name>
+</preferred-name></author><affiliation afid="60083112" country="ita"><organization>FBK-irst</organization><city-group>Povo TN</city-group><country>Italy</country></affiliation></author-group><author-group><author auid="35748905300" seq="3"><ce:initials>D.</ce:initials><ce:indexed-name>Kuznar D.</ce:indexed-name><ce:surname>Kužnar</ce:surname><ce:given-name>Damjan</ce:given-name><preferred-name>
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Kužnar D.</ce:indexed-name>
+<ce:surname>Kužnar</ce:surname>
+<ce:given-name>Damjan</ce:given-name>
+</preferred-name></author><author auid="35409925300" seq="5"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Možina M.</ce:indexed-name>
+<ce:surname>Možina</ce:surname>
+<ce:given-name>Martin</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><country>Slovenia</country></affiliation></author-group><correspondence><affiliation country="ita"><organization>CRF</organization><city-group>Torino</city-group><country>Italy</country></affiliation></correspondence><grantlist complete="y"><grant>
+<grant-id>IST-FP6-026978</grant-id>
+<grant-acronym>EC</grant-acronym>
+<grant-agency>European Commission</grant-agency>
+</grant></grantlist><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>The paper describes an approach to cross-media knowledge acquisition which combines text and raw data. The approach has been applied in a real-world use case concerning wind tunnel reports within the EU-funded project X-Media. The goal is to identify the source of wind noise in a vehicle and find the most suitable solution to reduce it. Information is extracted from the textual parts of the reports and provided to the raw data tool to improve its performance. The results of the initial experiments are encouraging.</ce:para>
+</abstract></abstracts><source country="usa" srcid="21100218356" type="p"><sourcetitle>CEUR Workshop Proceedings</sourcetitle><sourcetitle-abbrev>CEUR Workshop Proc.</sourcetitle-abbrev><issuetitle>CIAEM 2008 - Proceedings of the Workshop on Cross-Media Information Analysis, Extraction and Management 2008</issuetitle><issn type="print">16130073</issn><volisspag>
+<voliss volume="437"/>
+<pagerange first="59" last="66"/>
+</volisspag><publicationyear first="2009"/><publicationdate>
+<year>2009</year>
+<date-text xfab-added="true">2009</date-text></publicationdate><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>2008 Workshop on Cross-Media Information Analysis, Extraction and Management, CIAEM 2008</confname>
+<conflocation country="deu">
+<city-group>Karlsruhe</city-group>
+</conflocation>
+<confdate>
+<startdate day="03" month="12" year="2008"/>
+<enddate day="03" month="12" year="2008"/>
+</confdate>
+<confcode>100272</confcode>
+<confsponsors complete="y">
+<confsponsor>X-Media Project</confsponsor>
+</confsponsors>
+</confevent>
+<confpublication>
+<procpagerange>var.pagings</procpagerange>
+</confpublication>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1700</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications>
+<classifications type="CPXCLASS">
+<classification> <classification-code>723.4</classification-code> <classification-description>Artificial Intelligence</classification-description> </classification>
+<classification> <classification-code>802.3</classification-code> <classification-description>Chemical Operations</classification-description> </classification>
+<classification> <classification-code>903.1</classification-code> <classification-description>Information Sources and Analysis</classification-description> </classification>
+</classifications>
+<classifications type="GEOCLASS">
+<classification> <classification-code>78.23</classification-code> <classification-description>MIXING AND SEPARATION</classification-description> </classification>
+</classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="3">
+<reference id="1">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84885778880</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Giordanino M.</ce:indexed-name>
+<ce:surname>Giordanino</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Scarafiotti G.</ce:indexed-name>
+<ce:surname>Scarafiotti</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Deliverable D13.1. Testbed Description and Requirement Analysis for Competitor Analysis</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-text>Deliverable, X-Media Consortium</ref-text>
+</ref-info>
+<ref-fulltext>M. Giordanino and G. Scarafiotti. Deliverable D13.1. Testbed description and requirement analysis for competitor analysis. Deliverable, X-Media Consortium, 2006.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>A two-dimensional interpolation function for irregularly-spaced data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0014432211</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Shepard D.</ce:indexed-name>
+<ce:surname>Shepard</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 1968 23rd ACM National Conference</ref-sourcetitle>
+<ref-publicationyear first="1968"/>
+<ref-volisspag>
+<pagerange first="517" last="524"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>D. Shepard. A two-dimensional interpolation function for irregularly-spaced data. In Proceedings of the 1968 23rd ACM national conference, pages 517-524, 1968.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Qualitatively faithful quantitative prediction</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">4344686215</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Suc D.</ce:indexed-name>
+<ce:surname>Šuc</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Vladusic D.</ce:indexed-name>
+<ce:surname>Vladušič</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-volisspag>
+<voliss issue="2" volume="158"/>
+<pagerange first="189" last="214"/>
+</ref-volisspag>
+<ref-text>204</ref-text>
+</ref-info>
+<ref-fulltext>D. Šuc, D. Vladušič, and I. Bratko. Qualitatively faithful quantitative prediction. Artificial Intelligence, 158(2):189-214, 204.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

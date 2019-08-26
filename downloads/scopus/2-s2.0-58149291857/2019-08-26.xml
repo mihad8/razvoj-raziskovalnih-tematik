@@ -1,0 +1,963 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/58149291857</prism:url><dc:identifier>SCOPUS_ID:58149291857</dc:identifier><eid>2-s2.0-58149291857</eid><pii>S095744840885475X</pii><prism:doi>10.1088/0957-4484/19/49/495401</prism:doi><article-number>495401</article-number><dc:title>Adiabatic pipelining: A key to ternary computing with quantum dots</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>19</citedby-count><prism:publicationName>Nanotechnology</prism:publicationName><source-id>110040</source-id><prism:issn>09574484 13616528</prism:issn><prism:volume>19</prism:volume><prism:issueIdentifier>49</prism:issueIdentifier><prism:coverDate>2008-12-10</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="25925313600"><ce:initials>P.</ce:initials><ce:indexed-name>Pecar P.</ce:indexed-name><ce:surname>Pečar</ce:surname><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Pečar P.</ce:indexed-name><ce:surname>Pečar</ce:surname><ce:given-name>P.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/25925313600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The quantum-dot cellular automaton (QCA), a processing platform based on interacting quantum dots, was introduced by Lent in the mid-1990s. What followed was an exhilarating period with the development of the line, the functionally complete set of logic functions, as well as more complex processing structures, however all in the realm of binary logic. Regardless of these achievements, it has to be acknowledged that the use of binary logic is in computing systems mainly the end result of the technological limitations, which the designers had to cope with in the early days of their design. The first advancement of QCAs to multi-valued (ternary) processing was performed by Lebar Bajec et al, with the argument that processing platforms of the future should not disregard the clear advantages of multi-valued logic. Some of the elementary ternary QCAs, necessary for the construction of more complex processing entities, however, lead to a remarkable increase in size when compared to their binary counterparts. This somewhat negates the advantages gained by entering the ternary computing domain. As it turned out, even the binary QCA had its initial hiccups, which have been solved by the introduction of adiabatic switching and the application of adiabatic pipeline approaches. We present here a study that introduces adiabatic switching into the ternary QCA and employs the adiabatic pipeline approach to successfully solve the issues of elementary ternary QCAs. What is more, the ternary QCAs presented here are sizewise comparable to binary QCAs. This in our view might serve towards their faster adoption. © IOP Publishing Ltd.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/58149291857" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=58149291857&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=58149291857&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"><affilname>Jozef Stefan Institute</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="25925313600"><ce:initials>P.</ce:initials><ce:indexed-name>Pecar P.</ce:indexed-name><ce:surname>Pečar</ce:surname><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Pečar P.</ce:indexed-name><ce:surname>Pečar</ce:surname><ce:given-name>P.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/25925313600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="8916244700"><ce:initials>A.</ce:initials><ce:indexed-name>Ramsak A.</ce:indexed-name><ce:surname>Ramšak</ce:surname><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Ramšak A.</ce:indexed-name><ce:surname>Ramšak</ce:surname><ce:given-name>A.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8916244700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="3" auid="35613179800"><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><ce:given-name>N.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35613179800</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="7007175863"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>M.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7007175863</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="6506903357"><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><ce:given-name>I.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506903357</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Adiabatic switching</mainterm><mainterm weight="a" candidate="n">Binary logics</mainterm><mainterm weight="a" candidate="n">Complete sets</mainterm><mainterm weight="a" candidate="n">Complex processing</mainterm><mainterm weight="a" candidate="n">Computing domains</mainterm><mainterm weight="a" candidate="n">Computing systems</mainterm><mainterm weight="a" candidate="n">Logic functions</mainterm><mainterm weight="a" candidate="n">Processing platforms</mainterm><mainterm weight="a" candidate="n">Quantum dots</mainterm><mainterm weight="a" candidate="n">Technological limitations</mainterm><mainterm weight="a" candidate="n">Valued logics</mainterm></idxterms><subject-areas><subject-area code="1502" abbrev="CENG">Bioengineering</subject-area><subject-area code="1600" abbrev="CHEM">Chemistry (all)</subject-area><subject-area code="2500" abbrev="MATE">Materials Science (all)</subject-area><subject-area code="2211" abbrev="ENGI">Mechanics of Materials</subject-area><subject-area code="2210" abbrev="ENGI">Mechanical Engineering</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="03" month="01" timestamp="2019-01-03T23:21:06.000006-05:00" year="2019"/><ait:date-sort day="10" month="12" year="2008"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2009 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S095744840885475X</ce:pii>
+                    <ce:doi>10.1088/0957-4484/19/49/495401</ce:doi>
+                    <itemid idtype="PUI">354044495</itemid>
+                    <itemid idtype="EMBASE">2009014802</itemid>
+                    <itemid idtype="CPX">20090311860773</itemid>
+                    <itemid idtype="SCP">58149291857</itemid>
+                    <itemid idtype="SGR">58149291857</itemid>
+                </itemidlist><history>
+                    <date-created day="13" month="01" year="2009"/>
+                </history><dbcollection>EMBASE</dbcollection><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Adiabatic pipelining: A key to ternary computing with quantum dots</titletext></citation-title><author-group><author auid="25925313600" seq="1"><ce:initials>P.</ce:initials><ce:indexed-name>Pecar P.</ce:indexed-name><ce:surname>Pečar</ce:surname><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Pečar P.</ce:indexed-name>
+                            <ce:surname>Pečar</ce:surname>
+                            <ce:given-name>P.</ce:given-name>
+                        </preferred-name></author><author auid="35613179800" seq="3"><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Zimic N.</ce:indexed-name>
+                            <ce:surname>Zimic</ce:surname>
+                            <ce:given-name>N.</ce:given-name>
+                        </preferred-name></author><author auid="7007175863" seq="4"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Mraz M.</ce:indexed-name>
+                            <ce:surname>Mraz</ce:surname>
+                            <ce:given-name>M.</ce:given-name>
+                        </preferred-name></author><author auid="6506903357" seq="5"><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Lebar Bajec I.</ce:indexed-name>
+                            <ce:surname>Lebar Bajec</ce:surname>
+                            <ce:given-name>I.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="8916244700" seq="2"><ce:initials>A.</ce:initials><ce:indexed-name>Ramsak A.</ce:indexed-name><ce:surname>Ramšak</ce:surname><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Ramšak A.</ce:indexed-name>
+                            <ce:surname>Ramšak</ce:surname>
+                            <ce:given-name>A.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580664"><organization>Faculty of Mathematics and Physics</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><affiliation-id afid="60031106" dptid="104580664"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="8916244700" seq="2"><ce:initials>A.</ce:initials><ce:indexed-name>Ramsak A.</ce:indexed-name><ce:surname>Ramšak</ce:surname><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Ramšak A.</ce:indexed-name>
+                            <ce:surname>Ramšak</ce:surname>
+                            <ce:given-name>A.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60023955" country="svn"><organization>J. Stefan Institute</organization><city-group>Ljubljana</city-group><affiliation-id afid="60023955"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>P.</ce:initials>
+                        <ce:indexed-name>Pecar P.</ce:indexed-name>
+                        <ce:surname>Pečar</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The quantum-dot cellular automaton (QCA), a processing platform based on interacting quantum dots, was introduced by Lent in the mid-1990s. What followed was an exhilarating period with the development of the line, the functionally complete set of logic functions, as well as more complex processing structures, however all in the realm of binary logic. Regardless of these achievements, it has to be acknowledged that the use of binary logic is in computing systems mainly the end result of the technological limitations, which the designers had to cope with in the early days of their design. The first advancement of QCAs to multi-valued (ternary) processing was performed by Lebar Bajec et al, with the argument that processing platforms of the future should not disregard the clear advantages of multi-valued logic. Some of the elementary ternary QCAs, necessary for the construction of more complex processing entities, however, lead to a remarkable increase in size when compared to their binary counterparts. This somewhat negates the advantages gained by entering the ternary computing domain. As it turned out, even the binary QCA had its initial hiccups, which have been solved by the introduction of adiabatic switching and the application of adiabatic pipeline approaches. We present here a study that introduces adiabatic switching into the ternary QCA and employs the adiabatic pipeline approach to successfully solve the issues of elementary ternary QCAs. What is more, the ternary QCAs presented here are sizewise comparable to binary QCAs. This in our view might serve towards their faster adoption. © IOP Publishing Ltd.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="110040" type="j"><sourcetitle>Nanotechnology</sourcetitle><sourcetitle-abbrev>Nanotechnology</sourcetitle-abbrev><issn type="print">09574484</issn><issn type="electronic">13616528</issn><codencode>NNOTE</codencode><volisspag>
+                        <voliss issue="49" volume="19"/>
+                    </volisspag><article-number>495401</article-number><publicationyear first="2008"/><publicationdate>
+                        <year>2008</year>
+                        <month>12</month>
+                        <day>10</day>
+                    <date-text xfab-added="true">10 December 2008</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>931.4</classification>
+                            <classification>723.5</classification>
+                            <classification>741.1</classification>
+                            <classification>741.3</classification>
+                            <classification>744</classification>
+                            <classification>751.1</classification>
+                            <classification>921</classification>
+                            <classification>723</classification>
+                            <classification>717.2</classification>
+                            <classification>716</classification>
+                            <classification>714.3</classification>
+                            <classification>714.2</classification>
+                            <classification>619.1</classification>
+                            <classification>721.1</classification>
+                        </classifications><classifications type="EMCLASS">
+                            <classification>27</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1502</classification>
+                            <classification>1600</classification>
+                            <classification>2500</classification>
+                            <classification>2211</classification>
+                            <classification>2210</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>CENG</classification><classification>CHEM</classification><classification>MATE</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="26">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ternary computers: Part 1: Motivation for ternary computers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85059267887</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Frieder G.</ce:indexed-name>
+                                    <ce:surname>Frieder</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Luk C.</ce:indexed-name>
+                                    <ce:surname>Luk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>5th Ann. Workshop on Microprogramming</ref-sourcetitle>
+                            <ref-publicationyear first="1972"/>
+                            <ref-volisspag>
+                                <pagerange first="83" last="86"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Frieder G and Luk C 1972 Ternary computers: part 1: motivation for ternary computers 5th Ann. Workshop on Microprogramming (Urbana, IL, Sept.) pp 83-6</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multiple-valued logic in VLSI: Challenges and opportunities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33744784539</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Dubrova E.</ce:indexed-name>
+                                    <ce:surname>Dubrova</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. NORCHIP' 99</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="340" last="350"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dubrova E 1999 Multiple-valued logic in VLSI: challenges and opportunities Proc. NORCHIP' 99 (Oslo) pp 340-50</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Non-silicon non-binary computing: Why not?</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">6344238375</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Dubrova E.</ce:indexed-name>
+                                    <ce:surname>Dubrova</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Jamal Y.</ce:indexed-name>
+                                    <ce:surname>Jamal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Mathew J.</ce:indexed-name>
+                                    <ce:surname>Mathew</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>1st Workshop on Non-Silicon Computation</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="23" last="29"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dubrova E, Jamal Y and Mathew J 2002 Non-silicon non-binary computing: why not? 1st Workshop on Non-Silicon Computation (Boston, MA) pp 23-9</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645971861</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Fitting M.</ce:indexed-name>
+                                    <ce:surname>Fitting</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Orlowska E.</ce:indexed-name>
+                                    <ce:surname>Orlowska</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Beyond Two: Theory and Applications of Multiple-Valued Logic</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                        </ref-info>
+                        <ref-fulltext>Fitting M and Orlowska E (ed) 2003 Beyond Two: Theory and Applications of Multiple-Valued Logic (Heidelberg: Physica-Verlag)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Third base</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">24644505949</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Hayes B.</ce:indexed-name>
+                                    <ce:surname>Hayes</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Am. Sci.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="89"/>
+                                <pagerange first="490" last="494"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hayes B 2001 Third base Am. Sci. 89 490-4</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards multi-state based computing using quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55049088623</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Lebar Bajec I.</ce:indexed-name>
+                                    <ce:surname>Lebar Bajec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mraz M.</ce:indexed-name>
+                                    <ce:surname>Mraz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Unconventional Computing 2005: From Cellular Automata to Wetware</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="105" last="116"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lebar Bajec I and Mraz M 2005 Towards multi-state based computing using quantum-dot cellular automata Unconventional Computing 2005: From Cellular Automata to Wetware ed C Teucher and A Adamatzky (Beckington: Luniver Press) pp 105-16</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The ternary quantum-dot cell and ternary logic</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645309110</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Lebar Bajec I.</ce:indexed-name>
+                                    <ce:surname>Lebar Bajec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Zimic N.</ce:indexed-name>
+                                    <ce:surname>Zimic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mraz M.</ce:indexed-name>
+                                    <ce:surname>Mraz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nanotechnology</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="17"/>
+                                <pagerange first="1937" last="1942"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lebar Bajec I, Zimic N and Mraz M 2006 The ternary quantum-dot cell and ternary logic Nanotechnology 17 1937-42</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards the bottom-up concept: Extended quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33646021317</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Lebar Bajec I.</ce:indexed-name>
+                                    <ce:surname>Lebar Bajec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Zimic N.</ce:indexed-name>
+                                    <ce:surname>Zimic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mraz M.</ce:indexed-name>
+                                    <ce:surname>Mraz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Microelectron. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="4-9" volume="83"/>
+                                <pagerange first="1826" last="1829"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lebar Bajec I, Zimic N and Mraz M 2006 Towards the bottom-up concept: extended quantum-dot cellular automata Microelectron. Eng. 83 1826-9</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027266749</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nanotechnology</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="4"/>
+                                <pagerange first="49" last="57"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lent C S, Tougaw P D, Porod W and Bernstein G H 1993 Quantum cellular automata Nanotechnology 4 49-57</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Logical devices implemented using quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36449009014</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="75"/>
+                                <pagerange first="1818" last="1825"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tougaw P D and Lent C S 1994 Logical devices implemented using quantum cellular automata J. Appl. Phys. 75 1818-25</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A device architecture for computing with quantum dots</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031123840</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="85"/>
+                                <pagerange first="541" last="557"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lent C S and Tougaw P D 1997 A device architecture for computing with quantum dots Proc. IEEE 85 541-57</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Semiclassical simulation of quantum cellular automata circuits</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034756174</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>MacUcci M.</ce:indexed-name>
+                                    <ce:surname>MacUcci</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Iannaccone G.</ce:indexed-name>
+                                    <ce:surname>Iannaccone</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Francaviglia S.</ce:indexed-name>
+                                    <ce:surname>Francaviglia</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Pellegrini B.</ce:indexed-name>
+                                    <ce:surname>Pellegrini</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Circuit Theory Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="29"/>
+                                <pagerange first="37" last="47"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Macucci M, Iannaccone G, Francaviglia S and Pellegrini B 2001 Semiclassical simulation of quantum cellular automata circuits Int. J. Circuit Theory Appl. 29 37-47</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bistable saturation in coupled quantum dots for quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13744260744</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Appl. Phys. Lett.</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="62"/>
+                                <pagerange first="714" last="716"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lent C S, Tougaw P D and Porod W 1993 Bistable saturation in coupled quantum dots for quantum cellular automata Appl. Phys. Lett. 62 714-6</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computer arithmetic structures for quantum cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">4143151005</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Walus K.</ce:indexed-name>
+                                    <ce:surname>Walus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.A.</ce:initials>
+                                    <ce:indexed-name>Jullien G.A.</ce:indexed-name>
+                                    <ce:surname>Jullien</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.S.</ce:initials>
+                                    <ce:indexed-name>Dimitrov V.S.</ce:indexed-name>
+                                    <ce:surname>Dimitrov</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Conf. Record of the 37th Asilomar Conf. on Signals, Systems and Computers</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="1435" last="1439"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Walus K, Jullien G A and Dimitrov V S 2003 Computer arithmetic structures for quantum cellular automata Conf. Record of the 37th Asilomar Conf. on Signals, Systems and Computers (Nov.) vol 2 pp 1435-9</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84967592266</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>MacUcci M.</ce:indexed-name>
+                                    <ce:surname>MacUcci</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Quantum Cellular Automata: Theory, Experimentation and Prospects</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                        </ref-info>
+                        <ref-fulltext>Macucci M (ed) 2006 Quantum Cellular Automata: Theory, Experimentation and Prospects (London: Imperial College Press)</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Practical issues in the realization of quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030417867</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Bazan G.</ce:indexed-name>
+                                    <ce:surname>Bazan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Chen M.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Merz J.L.</ce:indexed-name>
+                                    <ce:surname>Merz</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.O.</ce:initials>
+                                    <ce:indexed-name>Orlov A.O.</ce:indexed-name>
+                                    <ce:surname>Orlov</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>G.L.</ce:initials>
+                                    <ce:indexed-name>Snider G.L.</ce:indexed-name>
+                                    <ce:surname>Snider</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Superlatt. Microstruct.</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="20"/>
+                                <pagerange first="447" last="559"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bernstein G H, Bazan G, Chen M, Lent C S, Merz J L, Orlov A O, Porod W, Snider G L and Tougaw P D 1996 Practical issues in the realization of quantum-dot cellular automata Superlatt. Microstruct. 20 447-559</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantum-dot devices and quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038871281</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Bifurcation Chaos</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="7"/>
+                                <pagerange first="2199" last="2218"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Porod W 1997 Quantum-dot devices and quantum-dot cellular automata Int. J. Bifurcation Chaos 7 2199-218</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Charge detector realization for AlGaAs/GaAs quantum-dot cellular automata</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004412994</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Bazan G.</ce:indexed-name>
+                                    <ce:surname>Bazan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.O.</ce:initials>
+                                    <ce:indexed-name>Orlov A.O.</ce:indexed-name>
+                                    <ce:surname>Orlov</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.L.</ce:initials>
+                                    <ce:indexed-name>Snider G.L.</ce:indexed-name>
+                                    <ce:surname>Snider</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Vac. Sci. Technol.</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="14"/>
+                                <pagerange first="4046" last="4050"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bazan G, Orlov A O, Snider G L and Bernstein G H 1996 Charge detector realization for AlGaAs/GaAs quantum-dot cellular automata J. Vac. Sci. Technol. B 14 4046-50</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis of polarization propagation along a semiconductor-based quantum cellular automaton chain</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036640472</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Girlanda M.</ce:indexed-name>
+                                    <ce:surname>Girlanda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>MacUcci M.</ce:indexed-name>
+                                    <ce:surname>MacUcci</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="92"/>
+                                <pagerange first="536" last="541"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Girlanda M and Macucci M 2002 Analysis of polarization propagation along a semiconductor-based quantum cellular automaton chain J. Appl. Phys. 92 536-41</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Realization of quantum-dot cellular automata using semiconductor quantum dots</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3242703119</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.G.</ce:initials>
+                                    <ce:indexed-name>Smith C.G.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gardelis S.</ce:indexed-name>
+                                    <ce:surname>Gardelis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.W.</ce:initials>
+                                    <ce:indexed-name>Rushforth A.W.</ce:indexed-name>
+                                    <ce:surname>Rushforth</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Crook R.</ce:indexed-name>
+                                    <ce:surname>Crook</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Cooper J.</ce:indexed-name>
+                                    <ce:surname>Cooper</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Ritchie D.A.</ce:indexed-name>
+                                    <ce:surname>Ritchie</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>E.H.</ce:initials>
+                                    <ce:indexed-name>Linfield E.H.</ce:indexed-name>
+                                    <ce:surname>Linfield</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Jin Y.</ce:indexed-name>
+                                    <ce:surname>Jin</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pepper M.</ce:indexed-name>
+                                    <ce:surname>Pepper</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Superlatt. Microstruct.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="3-6" volume="34"/>
+                                <pagerange first="195" last="203"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Smith C G, Gardelis S, Rushforth A W, Crook R, Cooper J, Ritchie D A, Linfield E H, Jin Y and Pepper M 2003 Realization of quantum-dot cellular automata using semiconductor quantum dots Superlatt. Microstruct. 34 195-203</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evidence for transfer of polarization in a quantum dot cellular automata cell consisting of semiconductor quantum dots</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037437956</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gardelis S.</ce:indexed-name>
+                                    <ce:surname>Gardelis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.G.</ce:initials>
+                                    <ce:indexed-name>Smith C.G.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Cooper J.</ce:indexed-name>
+                                    <ce:surname>Cooper</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Ritchie D.A.</ce:indexed-name>
+                                    <ce:surname>Ritchie</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>E.H.</ce:initials>
+                                    <ce:indexed-name>Linfield E.H.</ce:indexed-name>
+                                    <ce:surname>Linfield</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Jin Y.</ce:indexed-name>
+                                    <ce:surname>Jin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys. Rev.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="67"/>
+                                <pagerange first="033302"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gardelis S, Smith C G, Cooper J, Ritchie D A, Linfield E H and Jin Y 2003 Evidence for transfer of polarization in a quantum dot cellular automata cell consisting of semiconductor quantum dots Phys. Rev. B 67 033302</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Lines of interacting quantum-dot cells: A binary wire</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36449004365</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="74"/>
+                                <pagerange first="6227" last="6233"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lent C S and Tougaw P D 1993 Lines of interacting quantum-dot cells: a binary wire J. Appl. Phys. 74 6227-33</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bistable saturation in coupled quantum-dot cell</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0344181547</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="74"/>
+                                <pagerange first="3558" last="3566"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tougaw P D, Lent C S and Porod W 1993 Bistable saturation in coupled quantum-dot cell J. Appl. Phys. 74 3558-66</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003719406</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Patterson D.A.</ce:indexed-name>
+                                    <ce:surname>Patterson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Hennessy J.L.</ce:indexed-name>
+                                    <ce:surname>Hennessy</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Organization and Design</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                        </ref-info>
+                        <ref-fulltext>Patterson D A and Hennessy J L 2007 Computer Organization and Design (San Mateo, CA: Morgan Kaufmann)</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Solving the ternary QCA logic gate problem by means of adiabatic switching</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55049092136</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Pecar P.</ce:indexed-name>
+                                    <ce:surname>Pecar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mraz M.</ce:indexed-name>
+                                    <ce:surname>Mraz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Zimic N.</ce:indexed-name>
+                                    <ce:surname>Zimic</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Janez M.</ce:indexed-name>
+                                    <ce:surname>Janez</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Lebar Bajec I.</ce:indexed-name>
+                                    <ce:surname>Lebar Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Japan. J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="47"/>
+                                <pagerange first="5000" last="5006"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pecar P, Mraz M, Zimic N, Janez M and Lebar Bajec I 2008 Solving the ternary QCA logic gate problem by means of adiabatic switching Japan. J. Appl. Phys. 47 5000-6</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Defects and faults in quantum cellular automata at nano scale</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3142679575</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Tahoori M.B.</ce:indexed-name>
+                                    <ce:surname>Tahoori</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Momenzadeh M.</ce:indexed-name>
+                                    <ce:surname>Momenzadeh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huang J.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Lombardi F.</ce:indexed-name>
+                                    <ce:surname>Lombardi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>VTS' 04: Proc. 22nd IEEE VLSI Test Symp.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="291" last="297"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tahoori M B, Momenzadeh M, Huang J and Lombardi F 2004 Defects and faults in quantum cellular automata at nano scale VTS' 04: Proc. 22nd IEEE VLSI Test Symp. pp 291-7</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

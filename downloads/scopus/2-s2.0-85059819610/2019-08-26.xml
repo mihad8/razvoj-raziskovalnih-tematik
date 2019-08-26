@@ -1,0 +1,2142 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85059819610</prism:url><dc:identifier>SCOPUS_ID:85059819610</dc:identifier><eid>2-s2.0-85059819610</eid><pii>S0950584919300059</pii><prism:doi>10.1016/j.infsof.2019.01.003</prism:doi><dc:title>Formal Quality of Service assurances, ranking and verification of cloud deployment options with a probabilistic model checking method</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>Information and Software Technology</prism:publicationName><dc:publisher>
+                        Elsevier B.V.
+                    </dc:publisher><source-id>18732</source-id><prism:issn>09505849</prism:issn><prism:volume>109</prism:volume><prism:startingPage>14</prism:startingPage><prism:endingPage>25</prism:endingPage><prism:pageRange>14-25</prism:pageRange><prism:coverDate>2019-05-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="57196237022"><ce:initials>P.</ce:initials><ce:indexed-name>Kochovski P.</ce:indexed-name><ce:surname>Kochovski</ce:surname><ce:given-name>Petar</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Kochovski P.</ce:indexed-name><ce:surname>Kochovski</ce:surname><ce:given-name>Petar</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57196237022</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60017103" href="https://api.elsevier.com/content/affiliation/affiliation_id/60017103"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2019 Elsevier B.V.</publishercopyright>
+                        <ce:para>Context: Existing software workbenches allow for the deployment of cloud applications across a variety of Infrastructure-as-a-Service (IaaS) providers. The expected workload, Quality of Service (QoS) and Non-Functional Requirements (NFRs) must be considered before an appropriate infrastructure is selected. However, this decision-making process is complex and time-consuming. Moreover, the software engineer needs assurances that the selected infrastructure will lead to an adequate QoS of the application. Objective: The goal is to develop a new method for selection of an optimal cloud deployment option, that is, an infrastructure and configuration for deployment and to verify that all hard and as many soft QoS requirements as possible will be met at runtime. Method: A new Formal QoS Assurances Method (FoQoSAM), which relies on stochastic Markov models is introduced to facilitate an automated decision-making process. For a given workload, it uses QoS monitoring data and a user-related metric in order to automatically generate a probabilistic model. The probabilistic model takes the form of a finite automaton. It is further used to produce a rank list of cloud deployment options. As a result, any of the cloud deployment options can be verified by applying a probabilistic model checking approach. Results: Testing was performed by ranking deployment options for two cloud applications, File Upload and Video-conferencing. The FoQoSAM method was compared to a baseline Analytic Hierarchy Process (AHP). The results show that the first ranked cloud deployment options satisfy all hard and at least one of the soft requirements for both methods, however, the FoQoSAM method always satisfies at least an additional QoS requirement compared to the baseline AHP method. Conclusions: The proposed new FoQoSAM method is appropriate and can be used in decision-making when ranking and verifying cloud deployment options. Due to its practical utility it was integrated into the SWITCH workbench.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85059819610" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85059819610&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85059819610&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60017103" href="https://api.elsevier.com/content/affiliation/affiliation_id/60017103"><affilname>Peter the Great St. Petersburg Polytechnic University</affilname><affiliation-city>St. Petersburg</affiliation-city><affiliation-country>Russian Federation</affiliation-country></affiliation><authors><author seq="1" auid="57196237022"><ce:initials>P.</ce:initials><ce:indexed-name>Kochovski P.</ce:indexed-name><ce:surname>Kochovski</ce:surname><ce:given-name>Petar</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Kochovski P.</ce:indexed-name><ce:surname>Kochovski</ce:surname><ce:given-name>Petar</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57196237022</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60017103" href="https://api.elsevier.com/content/affiliation/affiliation_id/60017103"/></author><author seq="2" auid="56049610600"><ce:initials>P.D.</ce:initials><ce:indexed-name>Drobintsev P.D.</ce:indexed-name><ce:surname>Drobintsev</ce:surname><ce:given-name>Pavel D.</ce:given-name><preferred-name><ce:initials>P.D.</ce:initials><ce:indexed-name>Drobintsev P.</ce:indexed-name><ce:surname>Drobintsev</ce:surname><ce:given-name>Pavel D.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56049610600</author-url><affiliation id="60017103" href="https://api.elsevier.com/content/affiliation/affiliation_id/60017103"/></author><author seq="3" auid="6603094693"><ce:initials>V.</ce:initials><ce:indexed-name>Stankovski V.</ce:indexed-name><ce:surname>Stankovski</ce:surname><ce:given-name>Vlado</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Stankovski V.</ce:indexed-name><ce:surname>Stankovski</ce:surname><ce:given-name>Vlado</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603094693</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Cloud</author-keyword><author-keyword>Decision-making</author-keyword><author-keyword>Edge</author-keyword><author-keyword>Equivalence classes</author-keyword><author-keyword>Fog</author-keyword><author-keyword>Probabilistic model checking</author-keyword><author-keyword>Software engineering</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Analytic hierarchy process (ahp)</mainterm><mainterm weight="b" candidate="n">Automated decision making</mainterm><mainterm weight="b" candidate="n">Decision making process</mainterm><mainterm weight="b" candidate="n">Edge</mainterm><mainterm weight="b" candidate="n">Non-functional requirements</mainterm><mainterm weight="b" candidate="n">Probabilistic model checking</mainterm><mainterm weight="b" candidate="n">Probabilistic modeling</mainterm><mainterm weight="b" candidate="n">Quality of service assurances</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1710" abbrev="COMP">Information Systems</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-source-document source-document-type="pii">S0950584919300059</xocs:funding-source-document><xocs:funding-addon-generated-timestamp>2019-03-31T21:42:57.193Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>research and development</xocs:funding-agency-matched-string><xocs:funding-agency>Research and Development</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100006190</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>European Union ’s Horizon 2020</xocs:funding-agency-matched-string><xocs:funding-id>815141</xocs:funding-id><xocs:funding-id>643963</xocs:funding-id><xocs:funding-id>644179</xocs:funding-id></xocs:funding><xocs:funding-text>The research and development reported in this chapter have received funding from the European Union ’s Horizon 2020 Research and Innovation Programme under grant agreements no. 643963 (SWITCH project: Software Workbench for Interactive, Time Critical and Highly self-adaptive Cloud applications), no. 644179 (ENTICE project: dEcentralized repositories for traNsparent and efficienT vIrtual maChine opErations), and no. 815141 (DECENTER: Decentralised technologies for orchestrated Cloud-to-Edge intelligence). Funding was also received from the Slovenian Research Agency under grant agreement no. BI-RU/16-18-043 (Internet of Things and cloud computing as support for the development of new smart approaches in the construction sector).  </xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="21" month="05" timestamp="2019-05-21T00:02:32.000032-04:00" year="2019"/><ait:date-sort day="01" month="05" year="2019"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2019 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0950584919300059</ce:pii>
+                    <ce:doi>10.1016/j.infsof.2019.01.003</ce:doi>
+                    <itemid idtype="PUI">2001457175</itemid>
+                    <itemid idtype="CAR-ID">915087419</itemid>
+                    <itemid idtype="CPX">20190306373463</itemid>
+                    <itemid idtype="REAXYSCAR">20190078536</itemid>
+                    <itemid idtype="SCOPUS">20190126450</itemid>
+                    <itemid idtype="SCP">85059819610</itemid>
+                    <itemid idtype="SGR">85059819610</itemid>
+                </itemidlist><history>
+                    <date-created day="28" month="02" timestamp="BST 08:56:51" year="2019"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Cloud</author-keyword>
+                        <author-keyword xml:lang="eng">Decision-making</author-keyword>
+                        <author-keyword xml:lang="eng">Edge</author-keyword>
+                        <author-keyword xml:lang="eng">Equivalence classes</author-keyword>
+                        <author-keyword xml:lang="eng">Fog</author-keyword>
+                        <author-keyword xml:lang="eng">Probabilistic model checking</author-keyword>
+                        <author-keyword xml:lang="eng">Software engineering</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Formal Quality of Service assurances, ranking and verification of cloud deployment options with a probabilistic model checking method</titletext></citation-title><author-group><author auid="57196237022" author-instance-id="S0950584919300059-e7bbaf719236bff653cfb492faa45f4f" seq="1" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Kochovski P.</ce:indexed-name><ce:surname>Kochovski</ce:surname><ce:given-name>Petar</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Kochovski P.</ce:indexed-name>
+                            <ce:surname>Kochovski</ce:surname>
+                            <ce:given-name>Petar</ce:given-name>
+                        </preferred-name></author><author auid="6603094693" author-instance-id="S0950584919300059-c76626f76587a958f8fb431925cf0f4b" orcid="0000-0001-9547-787X" seq="3" type="auth"><ce:initials>V.</ce:initials><ce:indexed-name>Stankovski V.</ce:indexed-name><ce:surname>Stankovski</ce:surname><ce:given-name>Vlado</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                            <ce:surname>Stankovski</ce:surname>
+                            <ce:given-name>Vlado</ce:given-name>
+                        </preferred-name></author><affiliation affiliation-instance-id="S0950584919300059-58902ca53da5dc9d8ad14dcea5d74338" afid="60031106" country="svn" dptid="104580806"><organization>Faculty of Civil and Geodetic Engineering</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106" dptid="104580806"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="57196237022" author-instance-id="S0950584919300059-e7bbaf719236bff653cfb492faa45f4f" seq="1" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Kochovski P.</ce:indexed-name><ce:surname>Kochovski</ce:surname><ce:given-name>Petar</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Kochovski P.</ce:indexed-name>
+                            <ce:surname>Kochovski</ce:surname>
+                            <ce:given-name>Petar</ce:given-name>
+                        </preferred-name></author><author auid="56049610600" author-instance-id="S0950584919300059-a960081526ee24a74a1d57d83a30cf50" seq="2" type="auth"><ce:initials>P.D.</ce:initials><ce:indexed-name>Drobintsev P.D.</ce:indexed-name><ce:surname>Drobintsev</ce:surname><ce:given-name>Pavel D.</ce:given-name><preferred-name>
+                            <ce:initials>P.D.</ce:initials>
+                            <ce:indexed-name>Drobintsev P.</ce:indexed-name>
+                            <ce:surname>Drobintsev</ce:surname>
+                            <ce:given-name>Pavel D.</ce:given-name>
+                        </preferred-name></author><affiliation affiliation-instance-id="S0950584919300059-61cb36efb31b3361d17bfcd31df403fb" afid="60017103" country="rus" dptid="116974601"><organization>Institute of Computer Science and Technology</organization><organization>Peter the Great St. Petersburg Polytechnic University</organization><city>St. Petersburg</city><affiliation-id afid="60017103" dptid="116974601"/><country>Russian Federation</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>V.</ce:initials>
+                        <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                        <ce:surname>Stankovski</ce:surname>
+                        <ce:given-name>Vlado</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Civil and Geodetic Engineering</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><country>Slovenia</country></affiliation></correspondence><grantlist complete="y"><grant>
+                        <grant-id>643963</grant-id>
+                        <grant-agency iso-code="eue">Horizon 2020</grant-agency>
+                        <grant-agency-id>501100007601</grant-agency-id>
+                    </grant><grant>
+                        <grant-id>644179</grant-id>
+                        <grant-agency iso-code="eue">Horizon 2020</grant-agency>
+                        <grant-agency-id>501100007601</grant-agency-id>
+                    </grant><grant>
+                        <grant-id>815141</grant-id>
+                        <grant-agency iso-code="eue">Horizon 2020</grant-agency>
+                        <grant-agency-id>501100007601</grant-agency-id>
+                    </grant><grant>
+                        <grant-id>BI-RU/16-18-043</grant-id>
+                        <grant-acronym>ARRS</grant-acronym>
+                        <grant-agency iso-code="svn">Javna Agencija za Raziskovalno Dejavnost RS</grant-agency>
+                        <grant-agency-id>501100004329</grant-agency-id>
+                    </grant><grant-text xml:lang="eng">The research and development reported in this chapter have received funding from the European Union's Horizon 2020 Research and Innovation Programme under grant agreements no. 643963 (SWITCH project: Software Workbench for Interactive, Time Critical and Highly self-adaptive Cloud applications), no. 644179 (ENTICE project: dEcentralized repositories for traNsparent and efficienT vIrtual maChine opErations), and no. 815141 (DECENTER: Decentralised technologies for orchestrated Cloud-to-Edge intelligence). Funding was also received from the Slovenian Research Agency under grant agreement no. BI-RU/16-18-043 (Internet of Things and cloud computing as support for the development of new smart approaches in the construction sector).</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2019 Elsevier B.V.</publishercopyright>
+                        <ce:para>Context: Existing software workbenches allow for the deployment of cloud applications across a variety of Infrastructure-as-a-Service (IaaS) providers. The expected workload, Quality of Service (QoS) and Non-Functional Requirements (NFRs) must be considered before an appropriate infrastructure is selected. However, this decision-making process is complex and time-consuming. Moreover, the software engineer needs assurances that the selected infrastructure will lead to an adequate QoS of the application. Objective: The goal is to develop a new method for selection of an optimal cloud deployment option, that is, an infrastructure and configuration for deployment and to verify that all hard and as many soft QoS requirements as possible will be met at runtime. Method: A new Formal QoS Assurances Method (FoQoSAM), which relies on stochastic Markov models is introduced to facilitate an automated decision-making process. For a given workload, it uses QoS monitoring data and a user-related metric in order to automatically generate a probabilistic model. The probabilistic model takes the form of a finite automaton. It is further used to produce a rank list of cloud deployment options. As a result, any of the cloud deployment options can be verified by applying a probabilistic model checking approach. Results: Testing was performed by ranking deployment options for two cloud applications, File Upload and Video-conferencing. The FoQoSAM method was compared to a baseline Analytic Hierarchy Process (AHP). The results show that the first ranked cloud deployment options satisfy all hard and at least one of the soft requirements for both methods, however, the FoQoSAM method always satisfies at least an additional QoS requirement compared to the baseline AHP method. Conclusions: The proposed new FoQoSAM method is appropriate and can be used in decision-making when ranking and verifying cloud deployment options. Due to its practical utility it was integrated into the SWITCH workbench.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="18732" type="j"><sourcetitle>Information and Software Technology</sourcetitle><sourcetitle-abbrev>Inf Software Technol</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Information and Software Technology</translated-sourcetitle><issn type="print">09505849</issn><codencode>ISOTE</codencode><volisspag>
+                        <voliss volume="109"/>
+                        <pagerange first="14" last="25"/>
+                    </volisspag><publicationyear first="2019"/><publicationdate>
+                        <year>2019</year>
+                        <month>05</month>
+                        <day>01</day>
+                        <date-text>May 2019</date-text>
+                    </publicationdate><website>
+                        <ce:e-address type="email">http://www.elsevier.com/wps/find/journaldescription.cws_home/525444/description#description</ce:e-address>
+                    </website><publisher>
+                        <publishername>Elsevier B.V.</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1710</classification>
+                            <classification>1706</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="56">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Internet of things for smart cities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0001</itemid>
+                                <itemid idtype="SGR">84908397157</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zanella A.</ce:indexed-name>
+                                    <ce:surname>Zanella</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Bui N.</ce:indexed-name>
+                                    <ce:surname>Bui</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Castellani A.</ce:indexed-name>
+                                    <ce:surname>Castellani</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Vangelista L.</ce:indexed-name>
+                                    <ce:surname>Vangelista</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zorzi M.</ce:indexed-name>
+                                    <ce:surname>Zorzi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Internet Things J.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="1"/>
+                                <pagerange first="22" last="32"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zanella, A., Bui, N., Castellani, A., Vangelista, L., Zorzi, M., Internet of things for smart cities. IEEE Internet Things J. 1:1 (2014), 22–32.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Internet of things: a survey on enabling technologies, protocols, and applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0002</itemid>
+                                <itemid idtype="SGR">84941085241</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Al-Fuqaha A.</ce:indexed-name>
+                                    <ce:surname>Al-Fuqaha</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guizani M.</ce:indexed-name>
+                                    <ce:surname>Guizani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mohammadi M.</ce:indexed-name>
+                                    <ce:surname>Mohammadi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Aledhari M.</ce:indexed-name>
+                                    <ce:surname>Aledhari</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ayyash M.</ce:indexed-name>
+                                    <ce:surname>Ayyash</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Commun. Surv. Tutorials</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="17"/>
+                                <pagerange first="2347" last="2376"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., Ayyash, M., Internet of things: a survey on enabling technologies, protocols, and applications. IEEE Commun. Surv. Tutorials 17:4 (2015), 2347–2376.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Supporting smart construction with dependable edge computing infrastructures and applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0003</itemid>
+                                <itemid idtype="SGR">85032391183</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kochovski P.</ce:indexed-name>
+                                    <ce:surname>Kochovski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Autom. Constr.</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss volume="85"/>
+                                <pagerange first="182" last="192"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kochovski, P., Stankovski, V., Supporting smart construction with dependable edge computing infrastructures and applications. Autom. Constr. 85 (2018), 182–192.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Microservices: a definition of this new architectural term</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0004</itemid>
+                                <itemid idtype="SGR">84964234114</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lewis J.</ce:indexed-name>
+                                    <ce:surname>Lewis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Fowler M.</ce:indexed-name>
+                                    <ce:surname>Fowler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mars</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>Lewis, J., Fowler, M., Microservices: a definition of this new architectural term. Mars, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An updated performance comparison of virtual machines and linux containers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0005</itemid>
+                                <itemid idtype="SGR">84937435024</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Felter W.</ce:indexed-name>
+                                    <ce:surname>Felter</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ferreira A.</ce:indexed-name>
+                                    <ce:surname>Ferreira</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Rajamony R.</ce:indexed-name>
+                                    <ce:surname>Rajamony</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Rubio J.</ce:indexed-name>
+                                    <ce:surname>Rubio</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Performance Analysis of Systems and Software (ISPASS), 2015 IEEE International Symposium On</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="171" last="172"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Felter, W., Ferreira, A., Rajamony, R., Rubio, J., An updated performance comparison of virtual machines and linux containers. Performance Analysis of Systems and Software (ISPASS), 2015 IEEE International Symposium On, 2015, IEEE, 171–172.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ifogsim: a toolkit for modeling and simulation of resource management techniques in the internet of things, edge and fog computing environments</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0006</itemid>
+                                <itemid idtype="SGR">85021248358</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Gupta H.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vahid Dastjerdi A.</ce:indexed-name>
+                                    <ce:surname>Vahid Dastjerdi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Ghosh S.K.</ce:indexed-name>
+                                    <ce:surname>Ghosh</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Buyya R.</ce:indexed-name>
+                                    <ce:surname>Buyya</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Software</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="47"/>
+                                <pagerange first="1275" last="1296"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gupta, H., Vahid Dastjerdi, A., Ghosh, S.K., Buyya, R., Ifogsim: a toolkit for modeling and simulation of resource management techniques in the internet of things, edge and fog computing environments. Software 47:9 (2017), 1275–1296.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fog computing: helping the internet of things realize its potential</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0007</itemid>
+                                <itemid idtype="SGR">84986211321</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.V.</ce:initials>
+                                    <ce:indexed-name>Dastjerdi A.V.</ce:indexed-name>
+                                    <ce:surname>Dastjerdi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Buyya R.</ce:indexed-name>
+                                    <ce:surname>Buyya</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="49"/>
+                                <pagerange first="112" last="116"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dastjerdi, A.V., Buyya, R., Fog computing: helping the internet of things realize its potential. Computer 49:8 (2016), 112–116.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Framework for better reusability in component based software engineering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0008</itemid>
+                                <itemid idtype="SGR">85044395502</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Tahir M.</ce:indexed-name>
+                                    <ce:surname>Tahir</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Khan F.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Babar M.</ce:indexed-name>
+                                    <ce:surname>Babar</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Arif F.</ce:indexed-name>
+                                    <ce:surname>Arif</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Khan F.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Environ. Biol.Sci. (JAEBS)</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="77" last="81"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tahir, M., Khan, F., Babar, M., Arif, F., Khan, F., Framework for better reusability in component based software engineering. J. Appl. Environ. Biol.Sci. (JAEBS) 6 (2016), 77–81.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A genetic algorithm-based approach for automated refactoring of component-based software</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0009</itemid>
+                                <itemid idtype="SGR">85015986827</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kebir S.</ce:indexed-name>
+                                    <ce:surname>Kebir</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Borne I.</ce:indexed-name>
+                                    <ce:surname>Borne</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Meslati D.</ce:indexed-name>
+                                    <ce:surname>Meslati</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Inf. Softw. Technol.</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="88"/>
+                                <pagerange first="17" last="36"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kebir, S., Borne, I., Meslati, D., A genetic algorithm-based approach for automated refactoring of component-based software. Inf. Softw. Technol. 88 (2017), 17–36.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analyzing and visualizing information flow in heterogeneous component-based software systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0010</itemid>
+                                <itemid idtype="SGR">85019270101</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Moonen L.</ce:indexed-name>
+                                    <ce:surname>Moonen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.R.</ce:initials>
+                                    <ce:indexed-name>Yazdanshenas A.R.</ce:indexed-name>
+                                    <ce:surname>Yazdanshenas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Inf. Softw. Technol.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="77"/>
+                                <pagerange first="34" last="55"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Moonen, L., Yazdanshenas, A.R., Analyzing and visualizing information flow in heterogeneous component-based software systems. Inf. Softw. Technol. 77 (2016), 34–55.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Virtual infrastructure management in private and hybrid clouds</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0011</itemid>
+                                <itemid idtype="SGR">70349456218</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Sotomayor B.</ce:indexed-name>
+                                    <ce:surname>Sotomayor</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.S.</ce:initials>
+                                    <ce:indexed-name>Montero R.S.</ce:indexed-name>
+                                    <ce:surname>Montero</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.M.</ce:initials>
+                                    <ce:indexed-name>Llorente I.M.</ce:indexed-name>
+                                    <ce:surname>Llorente</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Foster I.</ce:indexed-name>
+                                    <ce:surname>Foster</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Internet Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="13"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sotomayor, B., Montero, R.S., Llorente, I.M., Foster, I., Virtual infrastructure management in private and hybrid clouds. IEEE Internet Comput., 13(5), 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Container-based orchestration in cloud: state of the art and challenges</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0012</itemid>
+                                <itemid idtype="SGR">84959547570</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Tosatto A.</ce:indexed-name>
+                                    <ce:surname>Tosatto</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ruiu P.</ce:indexed-name>
+                                    <ce:surname>Ruiu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Attanasio A.</ce:indexed-name>
+                                    <ce:surname>Attanasio</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Complex, Intelligent, and Software Intensive Systems (CISIS), 2015 Ninth International Conference on</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="70" last="75"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Tosatto, A., Ruiu, P., Attanasio, A., Container-based orchestration in cloud: state of the art and challenges. Complex, Intelligent, and Software Intensive Systems (CISIS), 2015 Ninth International Conference on, 2015, IEEE, 70–75.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dynamic placement of virtual machines for cost optimization in multi-cloud environments</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0013</itemid>
+                                <itemid idtype="SGR">80053020479</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.L.L.</ce:initials>
+                                    <ce:indexed-name>Simarro J.L.L.</ce:indexed-name>
+                                    <ce:surname>Simarro</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Moreno-Vozmediano R.</ce:indexed-name>
+                                    <ce:surname>Moreno-Vozmediano</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.S.</ce:initials>
+                                    <ce:indexed-name>Montero R.S.</ce:indexed-name>
+                                    <ce:surname>Montero</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.M.</ce:initials>
+                                    <ce:indexed-name>Llorente I.M.</ce:indexed-name>
+                                    <ce:surname>Llorente</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>High Performance Computing and Simulation (HPCS), 2011 International Conference on</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="7"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Simarro, J.L.L., Moreno-Vozmediano, R., Montero, R.S., Llorente, I.M., Dynamic placement of virtual machines for cost optimization in multi-cloud environments. High Performance Computing and Simulation (HPCS), 2011 International Conference on, 2011, IEEE, 1–7.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Efficient task scheduling algorithms for heterogeneous multi-cloud environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0014</itemid>
+                                <itemid idtype="SGR">84940003459</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Panda S.K.</ce:indexed-name>
+                                    <ce:surname>Panda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.K.</ce:initials>
+                                    <ce:indexed-name>Jana P.K.</ce:indexed-name>
+                                    <ce:surname>Jana</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Supercomput.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="71"/>
+                                <pagerange first="1505" last="1533"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Panda, S.K., Jana, P.K., Efficient task scheduling algorithms for heterogeneous multi-cloud environment. J. Supercomput. 71:4 (2015), 1505–1533.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Qos-aware orchestration of network intensive software utilities within software defined data centres</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0015</itemid>
+                                <itemid idtype="SGR">85035093296</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Pascinski U.</ce:indexed-name>
+                                    <ce:surname>Paščinski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Trnkoczy J.</ce:indexed-name>
+                                    <ce:surname>Trnkoczy</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Cigale M.</ce:indexed-name>
+                                    <ce:surname>Cigale</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gec S.</ce:indexed-name>
+                                    <ce:surname>Gec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Grid Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="28"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Paščinski, U., Trnkoczy, J., Stankovski, V., Cigale, M., Gec, S., Qos-aware orchestration of network intensive software utilities within software defined data centres. J. Grid Comput., 2017, 1–28.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Developing a model driven approach for engineering applications based on mosaic</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0016</itemid>
+                                <itemid idtype="SGR">84896362654</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Petcu D.</ce:indexed-name>
+                                    <ce:surname>Petcu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cluster Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="17"/>
+                                <pagerange first="101" last="110"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Stankovski, V., Petcu, D., Developing a model driven approach for engineering applications based on mosaic. Cluster Comput. 17:1 (2014), 101–110.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Research issues in multi criteria decision making (mcdm): the impact of uncertainty in solution evaluation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0017</itemid>
+                                <itemid idtype="SGR">67650521949</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Bonissone P.</ce:indexed-name>
+                                    <ce:surname>Bonissone</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 12th International Conference on Processing and management of uncertainty in knowledge-based systems (IPMU), Málaga, Spain</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1409" last="1416"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bonissone, P., Research issues in multi criteria decision making (mcdm): the impact of uncertainty in solution evaluation. Proceedings of the 12th International Conference on Processing and management of uncertainty in knowledge-based systems (IPMU), Málaga, Spain, 2008, 1409–1416.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computational complexity measures for many-objective optimization problems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0018</itemid>
+                                <itemid idtype="SGR">84938570873</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Curry D.M.</ce:indexed-name>
+                                    <ce:surname>Curry</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.H.</ce:initials>
+                                    <ce:indexed-name>Dagli C.H.</ce:indexed-name>
+                                    <ce:surname>Dagli</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Procedia Comput. Sci.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="36"/>
+                                <pagerange first="185" last="191"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Curry, D.M., Dagli, C.H., Computational complexity measures for many-objective optimization problems. Procedia Comput. Sci. 36 (2014), 185–191.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Non-Functional Requirements Optimisation for Multi-tier Cloud Applications: An Early Warning System Case Study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0019</itemid>
+                                <itemid idtype="SGR">85062051395</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Stefanic P.</ce:indexed-name>
+                                    <ce:surname>Štefanič</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kimovski D.</ce:indexed-name>
+                                    <ce:surname>Kimovski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Suciu G.</ce:indexed-name>
+                                    <ce:surname>Suciu</ce:surname>
+                                    <ce:suffix>Jr.</ce:suffix>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2018"/>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Štefanič, P., Kimovski, D., Suciu, G. Jr., Stankovski, V., Non-Functional Requirements Optimisation for Multi-tier Cloud Applications: An Early Warning System Case Study. 2018, IEEE.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An introduction to hidden markov models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0020</itemid>
+                                <itemid idtype="SGR">0022594196</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Rabiner L.</ce:indexed-name>
+                                    <ce:surname>Rabiner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Juang B.</ce:indexed-name>
+                                    <ce:surname>Juang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE ASSP Mag.</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="3"/>
+                                <pagerange first="4" last="16"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rabiner, L., Juang, B., An introduction to hidden markov models. IEEE ASSP Mag. 3:1 (1986), 4–16.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An Introduction to Stochastic Modeling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0021</itemid>
+                                <itemid idtype="SGR">0004126844</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.M.</ce:initials>
+                                    <ce:indexed-name>Taylor H.M.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Karlin S.</ce:indexed-name>
+                                    <ce:surname>Karlin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>Academic Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Taylor, H.M., Karlin, S., An Introduction to Stochastic Modeling. 2014, Academic Press.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A scheduling strategy on load balancing of virtual machine resources in cloud computing environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0022</itemid>
+                                <itemid idtype="SGR">79952542985</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Hu J.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gu J.</ce:indexed-name>
+                                    <ce:surname>Gu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Sun G.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhao T.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Parallel Architectures, Algorithms and Programming (PAAP), 2010 Third International Symposium on</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="89" last="96"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hu, J., Gu, J., Sun, G., Zhao, T., A scheduling strategy on load balancing of virtual machine resources in cloud computing environment. Parallel Architectures, Algorithms and Programming (PAAP), 2010 Third International Symposium on, 2010, IEEE, 89–96.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0023</itemid>
+                                <itemid idtype="SGR">85062055478</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.E.</ce:initials>
+                                    <ce:indexed-name>Li L.E.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Woo T.</ce:indexed-name>
+                                    <ce:surname>Woo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2011"/>
+                            <ref-text>Dynamic load balancing and scaling of allocated cloud resources in an enterprise network US Patent App. 12/571,271.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>L.E. Li, T. Woo, Dynamic load balancing and scaling of allocated cloud resources in an enterprise network, 2011, US Patent App. 12/571,271.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A comparative study into distributed load balancing algorithms for cloud computing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0024</itemid>
+                                <itemid idtype="SGR">77954787117</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Randles M.</ce:indexed-name>
+                                    <ce:surname>Randles</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Lamb D.</ce:indexed-name>
+                                    <ce:surname>Lamb</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Taleb-Bendiab A.</ce:indexed-name>
+                                    <ce:surname>Taleb-Bendiab</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advanced Information Networking and Applications Workshops (WAINA), 2010 IEEE 24th International Conference on</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="551" last="556"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Randles, M., Lamb, D., Taleb-Bendiab, A., A comparative study into distributed load balancing algorithms for cloud computing. Advanced Information Networking and Applications Workshops (WAINA), 2010 IEEE 24th International Conference on, 2010, IEEE, 551–556.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Availability and load balancing in cloud computing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0025</itemid>
+                                <itemid idtype="SGR">84878403693</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Chaczko Z.</ce:indexed-name>
+                                    <ce:surname>Chaczko</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Mahadevan V.</ce:indexed-name>
+                                    <ce:surname>Mahadevan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Aslanzadeh S.</ce:indexed-name>
+                                    <ce:surname>Aslanzadeh</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Mcdermid C.</ce:indexed-name>
+                                    <ce:surname>Mcdermid</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Conference on Computer and Software Modeling, Singapore</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chaczko, Z., Mahadevan, V., Aslanzadeh, S., Mcdermid, C., Availability and load balancing in cloud computing. International Conference on Computer and Software Modeling, Singapore, 14, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Resource management for infrastructure as a service (iaas) in cloud computing: a survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0026</itemid>
+                                <itemid idtype="SGR">84899069262</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.S.</ce:initials>
+                                    <ce:indexed-name>Manvi S.S.</ce:indexed-name>
+                                    <ce:surname>Manvi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.K.</ce:initials>
+                                    <ce:indexed-name>Shyam G.K.</ce:indexed-name>
+                                    <ce:surname>Shyam</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Netw. Comput. Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="41"/>
+                                <pagerange first="424" last="440"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Manvi, S.S., Shyam, G.K., Resource management for infrastructure as a service (iaas) in cloud computing: a survey. J. Netw. Comput. Appl. 41 (2014), 424–440.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Resource management in clouds: survey and research challenges</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0027</itemid>
+                                <itemid idtype="SGR">84931011055</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Jennings B.</ce:indexed-name>
+                                    <ce:surname>Jennings</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stadler R.</ce:indexed-name>
+                                    <ce:surname>Stadler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Netw. Syst. Manage.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="23"/>
+                                <pagerange first="567" last="619"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jennings, B., Stadler, R., Resource management in clouds: survey and research challenges. J. Netw. Syst. Manage. 23:3 (2015), 567–619.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Resource management in cloud networking using economic analysis and pricing models: a survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0028</itemid>
+                                <itemid idtype="SGR">85020395622</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.C.</ce:initials>
+                                    <ce:indexed-name>Luong N.C.</ce:indexed-name>
+                                    <ce:surname>Luong</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Wang P.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Niyato D.</ce:indexed-name>
+                                    <ce:surname>Niyato</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wen Y.</ce:indexed-name>
+                                    <ce:surname>Wen</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Han Z.</ce:indexed-name>
+                                    <ce:surname>Han</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Commun. Surv. Tutorials</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="19"/>
+                                <pagerange first="954" last="1001"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Luong, N.C., Wang, P., Niyato, D., Wen, Y., Han, Z., Resource management in cloud networking using economic analysis and pricing models: a survey. IEEE Commun. Surv. Tutorials 19:2 (2017), 954–1001.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0029</itemid>
+                                <itemid idtype="SGR">85062054763</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Jain N.</ce:indexed-name>
+                                    <ce:surname>Jain</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Menache I.</ce:indexed-name>
+                                    <ce:surname>Menache</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2017"/>
+                            <ref-text>Resource management for cloud computing platforms US Patent 9,595,054.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N. Jain, I. Menache, Resource management for cloud computing platforms, 2017, US Patent 9,595,054.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Q-aware: quality of service based cloud resource provisioning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0030</itemid>
+                                <itemid idtype="SGR">84923356835</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Singh S.</ce:indexed-name>
+                                    <ce:surname>Singh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Chana I.</ce:indexed-name>
+                                    <ce:surname>Chana</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Electr. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="47"/>
+                                <pagerange first="138" last="160"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Singh, S., Chana, I., Q-aware: quality of service based cloud resource provisioning. Comput. Electr. Eng. 47 (2015), 138–160.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Optimization of resource provisioning cost in cloud computing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0031</itemid>
+                                <itemid idtype="SGR">84861921092</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chaisiri S.</ce:indexed-name>
+                                    <ce:surname>Chaisiri</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.-S.</ce:initials>
+                                    <ce:indexed-name>Lee B.-S.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Niyato D.</ce:indexed-name>
+                                    <ce:surname>Niyato</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Serv. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="5"/>
+                                <pagerange first="164" last="177"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chaisiri, S., Lee, B.-S., Niyato, D., Optimization of resource provisioning cost in cloud computing. IEEE Trans. Serv. Comput. 5:2 (2012), 164–177.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dynamic resource provisioning in cloud computing: arandomized auction approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0032</itemid>
+                                <itemid idtype="SGR">84904289472</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zhang L.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Li Z.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Wu C.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>INFOCOM, 2014 Proceedings IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="433" last="441"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zhang, L., Li, Z., Wu, C., Dynamic resource provisioning in cloud computing: arandomized auction approach. INFOCOM, 2014 Proceedings IEEE, 2014, IEEE, 433–441.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Management and orchestration challenges in network functions virtualization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0033</itemid>
+                                <itemid idtype="SGR">84962019346</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Mijumbi R.</ce:indexed-name>
+                                    <ce:surname>Mijumbi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Serrat J.</ce:indexed-name>
+                                    <ce:surname>Serrat</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.-L.</ce:initials>
+                                    <ce:indexed-name>Gorricho J.-L.</ce:indexed-name>
+                                    <ce:surname>Gorricho</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Latre S.</ce:indexed-name>
+                                    <ce:surname>Latre</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Charalambides M.</ce:indexed-name>
+                                    <ce:surname>Charalambides</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Lopez D.</ce:indexed-name>
+                                    <ce:surname>Lopez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Commun. Mag.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="54"/>
+                                <pagerange first="98" last="105"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mijumbi, R., Serrat, J., Gorricho, J.-L., Latre, S., Charalambides, M., Lopez, D., Management and orchestration challenges in network functions virtualization. IEEE Commun. Mag. 54:1 (2016), 98–105.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An end-to-end qos mapping approach for cloud service selection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0034</itemid>
+                                <itemid idtype="SGR">84888070626</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Karim R.</ce:indexed-name>
+                                    <ce:surname>Karim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Ding C.</ce:indexed-name>
+                                    <ce:surname>Ding</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Miri A.</ce:indexed-name>
+                                    <ce:surname>Miri</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Services (SERVICES), 2013 IEEE Ninth World Congress on</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="341" last="348"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Karim, R., Ding, C., Miri, A., An end-to-end qos mapping approach for cloud service selection. Services (SERVICES), 2013 IEEE Ninth World Congress on, 2013, IEEE, 341–348.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A framework for ranking of cloud computing services</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0035</itemid>
+                                <itemid idtype="SGR">84865048353</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Garg S.K.</ce:indexed-name>
+                                    <ce:surname>Garg</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Versteeg S.</ce:indexed-name>
+                                    <ce:surname>Versteeg</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Buyya R.</ce:indexed-name>
+                                    <ce:surname>Buyya</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Future Gener. Comput. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="29"/>
+                                <pagerange first="1012" last="1023"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Garg, S.K., Versteeg, S., Buyya, R., A framework for ranking of cloud computing services. Future Gener. Comput. Syst. 29:4 (2013), 1012–1023.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A multi-criteria approach for assessing cloud deployment options based on non-functional requirements</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0036</itemid>
+                                <itemid idtype="SGR">84955508158</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Goncalves Junior R.</ce:indexed-name>
+                                    <ce:surname>Gonçalves Junior</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Rolim T.</ce:indexed-name>
+                                    <ce:surname>Rolim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sampaio A.</ce:indexed-name>
+                                    <ce:surname>Sampaio</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.C.</ce:initials>
+                                    <ce:indexed-name>Mendonca N.C.</ce:indexed-name>
+                                    <ce:surname>Mendonça</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 30th Annual ACM Symposium on Applied Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1383" last="1389"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Gonçalves Junior, R., Rolim, T., Sampaio, A., Mendonça, N.C., A multi-criteria approach for assessing cloud deployment options based on non-functional requirements. Proceedings of the 30th Annual ACM Symposium on Applied Computing, 2015, ACM, 1383–1389.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multiple criteria decision-making techniques and their applications–a review of the literature from 2000 to 2014</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0037</itemid>
+                                <itemid idtype="SGR">84990984121</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mardani A.</ce:indexed-name>
+                                    <ce:surname>Mardani</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jusoh A.</ce:indexed-name>
+                                    <ce:surname>Jusoh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>MD Nor K.</ce:indexed-name>
+                                    <ce:surname>MD Nor</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Khalifah Z.</ce:indexed-name>
+                                    <ce:surname>Khalifah</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Zakwan N.</ce:indexed-name>
+                                    <ce:surname>Zakwan</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Valipour A.</ce:indexed-name>
+                                    <ce:surname>Valipour</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Econ. Res.-Ekonomska Istraživanja</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="28"/>
+                                <pagerange first="516" last="571"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mardani, A., Jusoh, A., MD Nor, K., Khalifah, Z., Zakwan, N., Valipour, A., Multiple criteria decision-making techniques and their applications–a review of the literature from 2000 to 2014. Econ. Res.-Ekonomska Istraživanja 28:1 (2015), 516–571.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Qos ranking prediction for cloud services</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0038</itemid>
+                                <itemid idtype="SGR">84877769295</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zheng Z.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wu X.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhang Y.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Lyu M.R.</ce:indexed-name>
+                                    <ce:surname>Lyu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wang J.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Parallel Distrib. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="24"/>
+                                <pagerange first="1213" last="1222"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zheng, Z., Wu, X., Zhang, Y., Lyu, M.R., Wang, J., Qos ranking prediction for cloud services. IEEE Trans. Parallel Distrib. Syst. 24:6 (2013), 1213–1222.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Genetic algorithm for multi-objective optimization of container allocation in cloud architecture</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0039</itemid>
+                                <itemid idtype="SGR">85046676450</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Guerrero C.</ce:indexed-name>
+                                    <ce:surname>Guerrero</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Lera I.</ce:indexed-name>
+                                    <ce:surname>Lera</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Juiz C.</ce:indexed-name>
+                                    <ce:surname>Juiz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Grid Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="16"/>
+                                <pagerange first="113" last="135"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Guerrero, C., Lera, I., Juiz, C., Genetic algorithm for multi-objective optimization of container allocation in cloud architecture. J. Grid Comput. 16:1 (2018), 113–135.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Artificial intelligence framework for simulating clinical decision-making: a markov decision process approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0040</itemid>
+                                <itemid idtype="SGR">84875271177</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.C.</ce:initials>
+                                    <ce:indexed-name>Bennett C.C.</ce:indexed-name>
+                                    <ce:surname>Bennett</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Hauser K.</ce:indexed-name>
+                                    <ce:surname>Hauser</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artif. Intell. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="57"/>
+                                <pagerange first="9" last="19"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bennett, C.C., Hauser, K., Artificial intelligence framework for simulating clinical decision-making: a markov decision process approach. Artif. Intell. Med. 57:1 (2013), 9–19.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Optimal charging of an electric vehicle using a markov decision process</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0041</itemid>
+                                <itemid idtype="SGR">84896030497</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.B.</ce:initials>
+                                    <ce:indexed-name>Iversen E.B.</ce:indexed-name>
+                                    <ce:surname>Iversen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Morales J.M.</ce:indexed-name>
+                                    <ce:surname>Morales</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Madsen H.</ce:indexed-name>
+                                    <ce:surname>Madsen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Appl. Energy</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="123"/>
+                                <pagerange first="1" last="12"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Iversen, E.B., Morales, J.M., Madsen, H., Optimal charging of an electric vehicle using a markov decision process. Appl. Energy 123 (2014), 1–12.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Planning with markov decision processes: an ai perspective</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0042</itemid>
+                                <itemid idtype="SGR">84863855328</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kolobov A.</ce:indexed-name>
+                                    <ce:surname>Kolobov</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Synth. Lect. Artif. Intell.Mach. Learn.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="6"/>
+                                <pagerange first="1" last="210"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kolobov, A., Planning with markov decision processes: an ai perspective. Synth. Lect. Artif. Intell.Mach. Learn. 6:1 (2012), 1–210.</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An adaptive service selection method for cross-cloud service composition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0043</itemid>
+                                <itemid idtype="SGR">84888638786</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Yang J.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Lin W.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Dou W.</ce:indexed-name>
+                                    <ce:surname>Dou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Concurrency Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="18" volume="25"/>
+                                <pagerange first="2435" last="2454"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yang, J., Lin, W., Dou, W., An adaptive service selection method for cross-cloud service composition. Concurrency Comput. 25:18 (2013), 2435–2454.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An iterative decision-making scheme for markov decision processes and its application to self-adaptive systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0044</itemid>
+                                <itemid idtype="SGR">84961710167</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Su G.</ce:indexed-name>
+                                    <ce:surname>Su</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Chen T.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Feng Y.</ce:indexed-name>
+                                    <ce:surname>Feng</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.S.</ce:initials>
+                                    <ce:indexed-name>Rosenblum D.S.</ce:indexed-name>
+                                    <ce:surname>Rosenblum</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Thiagarajan P.</ce:indexed-name>
+                                    <ce:surname>Thiagarajan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Conference on Fundamental Approaches to Software Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="269" last="286"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Su, G., Chen, T., Feng, Y., Rosenblum, D.S., Thiagarajan, P., An iterative decision-making scheme for markov decision processes and its application to self-adaptive systems. International Conference on Fundamental Approaches to Software Engineering, 2016, Springer, 269–286.</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Probabilistic model checking of perturbed mdps with applications to cloud computing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0045</itemid>
+                                <itemid idtype="SGR">85030793113</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.R.S.</ce:initials>
+                                    <ce:indexed-name>Llerena Y.R.S.</ce:indexed-name>
+                                    <ce:surname>Llerena</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Su G.</ce:indexed-name>
+                                    <ce:surname>Su</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.S.</ce:initials>
+                                    <ce:indexed-name>Rosenblum D.S.</ce:indexed-name>
+                                    <ce:surname>Rosenblum</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="454" last="464"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Llerena, Y.R.S., Su, G., Rosenblum, D.S., Probabilistic model checking of perturbed mdps with applications to cloud computing. Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, 2017, ACM, 454–464.</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automated, elastic resource provisioning for nosql clusters using tiramola</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0046</itemid>
+                                <itemid idtype="SGR">84881301985</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Tsoumakos D.</ce:indexed-name>
+                                    <ce:surname>Tsoumakos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Konstantinou I.</ce:indexed-name>
+                                    <ce:surname>Konstantinou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Boumpouka C.</ce:indexed-name>
+                                    <ce:surname>Boumpouka</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sioutas S.</ce:indexed-name>
+                                    <ce:surname>Sioutas</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Koziris N.</ce:indexed-name>
+                                    <ce:surname>Koziris</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cluster, Cloud and Grid Computing (CCGrid), 2013 13th IEEE/ACM International Symposium on</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="34" last="41"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Tsoumakos, D., Konstantinou, I., Boumpouka, C., Sioutas, S., Koziris, N., Automated, elastic resource provisioning for nosql clusters using tiramola. Cluster, Cloud and Grid Computing (CCGrid), 2013 13th IEEE/ACM International Symposium on, 2013, IEEE, 34–41.</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dependable horizontal scaling based on probabilistic model checking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0047</itemid>
+                                <itemid idtype="SGR">84941241984</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Naskos A.</ce:indexed-name>
+                                    <ce:surname>Naskos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Stachtiari E.</ce:indexed-name>
+                                    <ce:surname>Stachtiari</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gounaris A.</ce:indexed-name>
+                                    <ce:surname>Gounaris</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Katsaros P.</ce:indexed-name>
+                                    <ce:surname>Katsaros</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Tsoumakos D.</ce:indexed-name>
+                                    <ce:surname>Tsoumakos</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Konstantinou I.</ce:indexed-name>
+                                    <ce:surname>Konstantinou</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sioutas S.</ce:indexed-name>
+                                    <ce:surname>Sioutas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="31" last="40"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Naskos, A., Stachtiari, E., Gounaris, A., Katsaros, P., Tsoumakos, D., Konstantinou, I., Sioutas, S., Dependable horizontal scaling based on probabilistic model checking. Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on, 2015, IEEE, 31–40.</ref-fulltext>
+                    </reference>
+                    <reference id="48">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On the complexity of solving markov decision problems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0048</itemid>
+                                <itemid idtype="SGR">0002290970</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.L.</ce:initials>
+                                    <ce:indexed-name>Littman M.L.</ce:indexed-name>
+                                    <ce:surname>Littman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.L.</ce:initials>
+                                    <ce:indexed-name>Dean T.L.</ce:indexed-name>
+                                    <ce:surname>Dean</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.P.</ce:initials>
+                                    <ce:indexed-name>Kaelbling L.P.</ce:indexed-name>
+                                    <ce:surname>Kaelbling</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Eleventh conference on Uncertainty in artificial intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="394" last="402"/>
+                            </ref-volisspag>
+                            <ref-text>Morgan Kaufmann Publishers Inc.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Littman, M.L., Dean, T.L., Kaelbling, L.P., On the complexity of solving markov decision problems. Proceedings of the Eleventh conference on Uncertainty in artificial intelligence, 1995, Morgan Kaufmann Publishers Inc., 394–402.</ref-fulltext>
+                    </reference>
+                    <reference id="49">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Scheduling of big data applications on distributed cloud based on qos parameters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0049</itemid>
+                                <itemid idtype="SGR">84939980804</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sandhu R.</ce:indexed-name>
+                                    <ce:surname>Sandhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Sood S.K.</ce:indexed-name>
+                                    <ce:surname>Sood</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cluster Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="18"/>
+                                <pagerange first="817" last="828"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sandhu, R., Sood, S.K., Scheduling of big data applications on distributed cloud based on qos parameters. Cluster Comput. 18:2 (2015), 817–828.</ref-fulltext>
+                    </reference>
+                    <reference id="50">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Qos-aware scheduling of services-oriented internet of things</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0050</itemid>
+                                <itemid idtype="SGR">84900823317</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Li L.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Li S.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Zhao S.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Ind. Inf.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="10"/>
+                                <pagerange first="1497" last="1505"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Li, L., Li, S., Zhao, S., Qos-aware scheduling of services-oriented internet of things. IEEE Trans. Ind. Inf. 10:2 (2014), 1497–1505.</ref-fulltext>
+                    </reference>
+                    <reference id="51">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Markov Decision Processes: Discrete Stochastic Dynamic Programming</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0051</itemid>
+                                <itemid idtype="SGR">0003998452</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.L.</ce:initials>
+                                    <ce:indexed-name>Puterman M.L.</ce:indexed-name>
+                                    <ce:surname>Puterman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>John Wiley &amp; Sons</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Puterman, M.L., Markov Decision Processes: Discrete Stochastic Dynamic Programming. 2014, John Wiley &amp; Sons.</ref-fulltext>
+                    </reference>
+                    <reference id="52">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A software workbench for interactive, time critical and highly self-adaptive cloud applications (switch)</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0052</itemid>
+                                <itemid idtype="SGR">84941198460</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhao Z.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Taal A.</ce:indexed-name>
+                                    <ce:surname>Taal</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jones A.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Taylor I.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.G.</ce:initials>
+                                    <ce:indexed-name>Vega I.G.</ce:indexed-name>
+                                    <ce:surname>Vega</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>F.J.</ce:initials>
+                                    <ce:indexed-name>Hidalgo F.J.</ce:indexed-name>
+                                    <ce:surname>Hidalgo</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Suciu G.</ce:indexed-name>
+                                    <ce:surname>Suciu</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ulisses A.</ce:indexed-name>
+                                    <ce:surname>Ulisses</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ferreira P.</ce:indexed-name>
+                                    <ce:surname>Ferreira</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1181" last="1184"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zhao, Z., Taal, A., Jones, A., Taylor, I., Stankovski, V., Vega, I.G., Hidalgo, F.J., Suciu, G., Ulisses, A., Ferreira, P., et al. A software workbench for interactive, time critical and highly self-adaptive cloud applications (switch). Cluster, Cloud and Grid Computing (CCGrid), 2015 15th IEEE/ACM International Symposium on, 2015, IEEE, 1181–1184.</ref-fulltext>
+                    </reference>
+                    <reference id="53">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Developing and operating time critical applications in clouds: the state of the art and the switch approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0053</itemid>
+                                <itemid idtype="SGR">84963552977</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhao Z.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Martin P.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wang J.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Taal A.</ce:indexed-name>
+                                    <ce:surname>Taal</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jones A.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Taylor I.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stankovski V.</ce:indexed-name>
+                                    <ce:surname>Stankovski</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>I.G.</ce:initials>
+                                    <ce:indexed-name>Vega I.G.</ce:indexed-name>
+                                    <ce:surname>Vega</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Suciu G.</ce:indexed-name>
+                                    <ce:surname>Suciu</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ulisses A.</ce:indexed-name>
+                                    <ce:surname>Ulisses</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Procedia Comput. Sci.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="68"/>
+                                <pagerange first="17" last="28"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhao, Z., Martin, P., Wang, J., Taal, A., Jones, A., Taylor, I., Stankovski, V., Vega, I.G., Suciu, G., Ulisses, A., et al. Developing and operating time critical applications in clouds: the state of the art and the switch approach. Procedia Comput. Sci. 68 (2015), 17–28.</ref-fulltext>
+                    </reference>
+                    <reference id="54">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Prism 4.0: verification of probabilistic real-time systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0054</itemid>
+                                <itemid idtype="SGR">79960351824</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kwiatkowska M.</ce:indexed-name>
+                                    <ce:surname>Kwiatkowska</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Norman G.</ce:indexed-name>
+                                    <ce:surname>Norman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Parker D.</ce:indexed-name>
+                                    <ce:surname>Parker</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Conference on Computer Aided Verification</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="585" last="591"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kwiatkowska, M., Norman, G., Parker, D., Prism 4.0: verification of probabilistic real-time systems. International Conference on Computer Aided Verification, 2011, Springer, 585–591.</ref-fulltext>
+                    </reference>
+                    <reference id="55">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Jcatascopia: monitoring elastically adaptive applications in the cloud</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0055</itemid>
+                                <itemid idtype="SGR">84904559379</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Trihinas D.</ce:indexed-name>
+                                    <ce:surname>Trihinas</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Pallis G.</ce:indexed-name>
+                                    <ce:surname>Pallis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.D.</ce:initials>
+                                    <ce:indexed-name>Dikaiakos M.D.</ce:indexed-name>
+                                    <ce:surname>Dikaiakos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Cluster, Cloud and Grid Computing (CCGrid), 2014 14th IEEE/ACM International Symposium on</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="226" last="235"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Trihinas, D., Pallis, G., Dikaiakos, M.D., Jcatascopia: monitoring elastically adaptive applications in the cloud. Cluster, Cloud and Grid Computing (CCGrid), 2014 14th IEEE/ACM International Symposium on, 2014, IEEE, 226–235.</ref-fulltext>
+                    </reference>
+                    <reference id="56">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Httperfa tool for measuring web server performance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0056</itemid>
+                                <itemid idtype="SGR">0003071666</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Mosberger D.</ce:indexed-name>
+                                    <ce:surname>Mosberger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Jin T.</ce:indexed-name>
+                                    <ce:surname>Jin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM SIGMETRICS Perform. Eval. Rev.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="26"/>
+                                <pagerange first="31" last="37"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mosberger, D., Jin, T., Httperfa tool for measuring web server performance. ACM SIGMETRICS Perform. Eval. Rev. 26:3 (1998), 31–37.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

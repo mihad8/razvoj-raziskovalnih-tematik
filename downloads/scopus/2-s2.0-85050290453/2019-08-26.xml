@@ -1,0 +1,1187 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85050290453</prism:url><dc:identifier>SCOPUS_ID:85050290453</dc:identifier><eid>2-s2.0-85050290453</eid><prism:doi>10.1007/978-3-319-95282-6_1</prism:doi><dc:title>Web-Based Vascular Flow Simulation Visualization with Lossy Data Compression for Fast Transmission</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><dc:publisher>
+                        Springer Verlag
+                        service@springer.de
+                    </dc:publisher><source-id>25674</source-id><prism:isbn>9783319952819</prism:isbn><prism:issn>16113349 03029743</prism:issn><prism:volume>10851 LNCS</prism:volume><prism:startingPage>3</prism:startingPage><prism:endingPage>17</prism:endingPage><prism:pageRange>3-17</prism:pageRange><prism:coverDate>2018-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57201405432"><ce:initials>R.</ce:initials><ce:indexed-name>Oblak R.</ce:indexed-name><ce:surname>Oblak</ce:surname><ce:given-name>Rok</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Oblak R.</ce:indexed-name><ce:surname>Oblak</ce:surname><ce:given-name>Rok</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57201405432</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018, Springer International Publishing AG, part of Springer Nature.</publishercopyright>
+                        <ce:para>In this paper, we present a web-based system for visualization of flow simulation results in the vascular system for use with consumer-level hardware. The presented tool allows users to design, execute and visualize a flow simulation with a simple workflow on a desktop computer or a mobile device. The web interface allows users to select a vascular model, define the flow simulation parameters, execute the simulation, and interactively visualize the simulation results in real time using multiple visualization techniques. The server-side prepares the model for simulation and performs the simulation using SimVascular. To provide a more efficient transfer of the large amounts of simulation results to the web client, as well as reduce storage requirements on the server, we introduce a novel hybrid lossy compression method. The method uses an octree data subdivision approach combined with an iterative approach that regresses the data points to a B-Spline volume. The evaluation results show that our method achieves compression ratios of up to 5.7 for the tested examples at a given error rate, comparable to other approaches while specifically intended for visualization purposes.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85050290453" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85050290453&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85050290453&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57201405432"><ce:initials>R.</ce:initials><ce:indexed-name>Oblak R.</ce:indexed-name><ce:surname>Oblak</ce:surname><ce:given-name>Rok</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Oblak R.</ce:indexed-name><ce:surname>Oblak</ce:surname><ce:given-name>Rok</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57201405432</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55582372100"><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55582372100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6603601816"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603601816</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Blood flow simulation</author-keyword><author-keyword>Data visualization</author-keyword><author-keyword>Visualization Toolkit</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Blood flow simulations</mainterm><mainterm weight="b" candidate="n">Lossy compression methods</mainterm><mainterm weight="b" candidate="n">Lossy data compression</mainterm><mainterm weight="b" candidate="n">Modeling for simulations</mainterm><mainterm weight="b" candidate="n">Simulation parameters</mainterm><mainterm weight="b" candidate="n">Visualization of flows</mainterm><mainterm weight="b" candidate="n">Visualization technique</mainterm><mainterm weight="b" candidate="n">Visualization toolkits</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-07-31T06:21:07.318Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="16" month="09" timestamp="2018-09-16T20:17:00.000000-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-319-95282-6_1</ce:doi>
+                    <itemid idtype="PUI">623169641</itemid>
+                    <itemid idtype="CAR-ID">911862098</itemid>
+                    <itemid idtype="CPX">20183005597654</itemid>
+                    <itemid idtype="SCOPUS">20182206606</itemid>
+                    <itemid idtype="SCP">85050290453</itemid>
+                    <itemid idtype="SGR">85050290453</itemid>
+                </itemidlist><history>
+                    <date-created day="26" month="07" timestamp="BST 08:01:33" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Blood flow simulation</author-keyword>
+                        <author-keyword xml:lang="eng">Data visualization</author-keyword>
+                        <author-keyword xml:lang="eng">Visualization Toolkit</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Web-Based Vascular Flow Simulation Visualization with Lossy Data Compression for Fast Transmission</titletext></citation-title><author-group><author auid="57201405432" seq="1" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Oblak R.</ce:indexed-name><ce:surname>Oblak</ce:surname><ce:given-name>Rok</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Oblak R.</ce:indexed-name>
+                            <ce:surname>Oblak</ce:surname>
+                            <ce:given-name>Rok</ce:given-name>
+                        </preferred-name></author><author auid="55582372100" seq="2" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Bohak C.</ce:indexed-name>
+                            <ce:surname>Bohak</ce:surname>
+                            <ce:given-name>Ciril</ce:given-name>
+                        </preferred-name></author><author auid="6603601816" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Marolt M.</ce:indexed-name>
+                            <ce:surname>Marolt</ce:surname>
+                            <ce:given-name>Matija</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>C.</ce:initials>
+                        <ce:indexed-name>Bohak C.</ce:indexed-name>
+                        <ce:surname>Bohak</ce:surname>
+                        <ce:given-name>Ciril</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018, Springer International Publishing AG, part of Springer Nature.</publishercopyright>
+                        <ce:para>In this paper, we present a web-based system for visualization of flow simulation results in the vascular system for use with consumer-level hardware. The presented tool allows users to design, execute and visualize a flow simulation with a simple workflow on a desktop computer or a mobile device. The web interface allows users to select a vascular model, define the flow simulation parameters, execute the simulation, and interactively visualize the simulation results in real time using multiple visualization techniques. The server-side prepares the model for simulation and performs the simulation using SimVascular. To provide a more efficient transfer of the large amounts of simulation results to the web client, as well as reduce storage requirements on the server, we introduce a novel hybrid lossy compression method. The method uses an octree data subdivision approach combined with an iterative approach that regresses the data points to a B-Spline volume. The evaluation results show that our method achieves compression ratios of up to 5.7 for the tested examples at a given error rate, comparable to other approaches while specifically intended for visualization purposes.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</translated-sourcetitle><issuetitle>Augmented Reality, Virtual Reality, and Computer Graphics - 5th International Conference, AVR 2018, Proceedings</issuetitle><issn type="electronic">16113349</issn><issn type="print">03029743</issn><isbn length="13" level="volume" type="print">9783319952819</isbn><volisspag>
+                        <voliss volume="10851 LNCS"/>
+                        <pagerange first="3" last="17"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                    <date-text xfab-added="true">2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">https://www.springer.com/series/558</ce:e-address>
+                    </website><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>L.T.</ce:initials>
+                            <ce:indexed-name>De Paolis L.T.</ce:indexed-name>
+                            <ce:surname>De Paolis</ce:surname>
+                            <ce:given-name>Lucio Tommaso</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Bourdot P.</ce:indexed-name>
+                            <ce:surname>Bourdot</ce:surname>
+                            <ce:given-name>Patrick</ce:given-name>
+                        </contributor>
+                    </contributor-group><publisher>
+                        <publishername>Springer Verlag</publishername>
+                        <ce:e-address type="email">service@springer.de</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>5th International Conference on Augmented Reality, Virtual Reality, and Computer Graphics, SALENTO AVR 2018</confname>
+                                <confnumber>5th</confnumber>
+                                <confseriestitle>International Conference on Augmented Reality, Virtual Reality, and Computer Graphics</confseriestitle>
+                                <conflocation country="ita">
+                                    <city>Otranto</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="24" month="06" year="2018"/>
+                                    <enddate day="27" month="06" year="2018"/>
+                                </confdate>
+                                <confcode>215969</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>2 of 2</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>461.2</classification-code>
+                                <classification-description>Biological Materials</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>631.1</classification-code>
+                                <classification-description>Fluid Flow, General</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>716</classification-code>
+                                <classification-description>Electronic Equipment, Radar, Radio and Television</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>722.1</classification-code>
+                                <classification-description>Data Storage, Equipment and Techniques</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921.6</classification-code>
+                                <classification-description>Numerical Methods</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>78.21</classification-code>
+                                <classification-description>FLUID MECHANICS</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>79.21</classification-code>
+                                <classification-description>FLUID MECHANICS</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="28">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84855808050</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Mendis S.</ce:indexed-name>
+                                    <ce:surname>Mendis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Puska P.</ce:indexed-name>
+                                    <ce:surname>Puska</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Norrving B.</ce:indexed-name>
+                                    <ce:surname>Norrving</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Global Atlas on Cardiovascular Disease Prevention and Control. World Health Organization</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                        </ref-info>
+                        <ref-fulltext>Mendis, S., Puska, P., Norrving, B., et al.: Global Atlas on Cardiovascular Disease Prevention and Control. World Health Organization (2011)</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Heart blood flow simulation: A perspective review</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84983672153</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.N.</ce:initials>
+                                    <ce:indexed-name>Doost S.N.</ce:indexed-name>
+                                    <ce:surname>Doost</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Ghista D.</ce:indexed-name>
+                                    <ce:surname>Ghista</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Su B.</ce:indexed-name>
+                                    <ce:surname>Su</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zhong L.</ce:indexed-name>
+                                    <ce:surname>Zhong</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Y.S.</ce:initials>
+                                    <ce:indexed-name>Morsi Y.S.</ce:indexed-name>
+                                    <ce:surname>Morsi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biomed. Eng. Online</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="15"/>
+                                <pagerange first="101"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Doost, S.N., Ghista, D., Su, B., Zhong, L., Morsi, Y.S.: Heart blood flow simulation: a perspective review. Biomed. Eng. Online 15(1), 101 (2016)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Patient-specific modeling of cardiovascular dynamics with a major role for adaptation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84920107548</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Arts T.</ce:indexed-name>
+                                    <ce:surname>Arts</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Patient-Specific Modeling of the Cardiovascular System</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="21" last="41"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/978-1-4419-6691-92</ce:e-address>
+                            </ref-website>
+                            <ref-text>Kerckhoffs, R. (ed.), Springer, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Arts, T., et al.: Patient-specific modeling of cardiovascular dynamics with a major role for adaptation. In: Kerckhoffs, R. (ed.) Patient-Specific Modeling of the Cardiovascular System, pp. 21–41. Springer, New York (2010). https://doi.org/10. 1007/978-1-4419-6691-9 2</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Finite element modeling of blood flow in arteries</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032565576</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Taylor C.A.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.J.</ce:initials>
+                                    <ce:indexed-name>Hughes T.J.</ce:indexed-name>
+                                    <ce:surname>Hughes</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.K.</ce:initials>
+                                    <ce:indexed-name>Zarins C.K.</ce:indexed-name>
+                                    <ce:surname>Zarins</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Methods Appl. Mech. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="158"/>
+                                <pagerange first="155" last="196"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Taylor, C.A., Hughes, T.J., Zarins, C.K.: Finite element modeling of blood flow in arteries. Comput. Methods Appl. Mech. Eng. 158(1–2), 155–196 (1998)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A software framework for creating patient specific geometric models from medical imaging data for simulation based medical planning of vascular surgery</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84958175395</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Wilson N.</ce:indexed-name>
+                                    <ce:surname>Wilson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Wang K.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.W.</ce:initials>
+                                    <ce:indexed-name>Dutton R.W.</ce:indexed-name>
+                                    <ce:surname>Dutton</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Taylor C.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>MICCAI 2001. LNCS</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="2208"/>
+                                <pagerange first="449" last="456"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/3-540-45468-354</ce:e-address>
+                            </ref-website>
+                            <ref-text>Niessen, W.J., Viergever, M.A. (eds.), Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Wilson, N., Wang, K., Dutton, R.W., Taylor, C.: A software framework for creating patient specific geometric models from medical imaging data for simulation based medical planning of vascular surgery. In: Niessen, W.J., Viergever, M.A. (eds.) MICCAI 2001. LNCS, vol. 2208, pp. 449–456. Springer, Heidelberg (2001). https://doi.org/10.1007/3-540-45468-3 54</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An image-based modeling framework for patient-specific computational hemody-namics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56549111617</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Antiga L.</ce:indexed-name>
+                                    <ce:surname>Antiga</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Piccinelli M.</ce:indexed-name>
+                                    <ce:surname>Piccinelli</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Botti L.</ce:indexed-name>
+                                    <ce:surname>Botti</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Ene-Iordache B.</ce:indexed-name>
+                                    <ce:surname>Ene-Iordache</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Remuzzi A.</ce:indexed-name>
+                                    <ce:surname>Remuzzi</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Steinman D.A.</ce:indexed-name>
+                                    <ce:surname>Steinman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Med. Biol. Eng. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="11" volume="46"/>
+                                <pagerange first="1097"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Antiga, L., Piccinelli, M., Botti, L., Ene-Iordache, B., Remuzzi, A., Steinman, D.A.: An image-based modeling framework for patient-specific computational hemody-namics. Med. Biol. Eng. Comput. 46(11), 1097 (2008)</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Vascular editor: From angiographic images to 3D vascular models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77958030709</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Marchenko Y.</ce:indexed-name>
+                                    <ce:surname>Marchenko</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Volkau I.</ce:indexed-name>
+                                    <ce:surname>Volkau</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.L.</ce:initials>
+                                    <ce:indexed-name>Nowinski W.L.</ce:indexed-name>
+                                    <ce:surname>Nowinski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Digit. Imaging</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="23"/>
+                                <pagerange first="386" last="398"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Marchenko, Y., Volkau, I., Nowinski, W.L.: Vascular editor: from angiographic images to 3D vascular models. J. Digit. Imaging 23(4), 386–398 (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interactive patient-specific vascular modeling with sweep surfaces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84886662269</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kretschmer J.</ce:indexed-name>
+                                    <ce:surname>Kretschmer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Godenschwager C.</ce:indexed-name>
+                                    <ce:surname>Godenschwager</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Preim B.</ce:indexed-name>
+                                    <ce:surname>Preim</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Stamminger M.</ce:indexed-name>
+                                    <ce:surname>Stamminger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Vis. Comput. Graph.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="19"/>
+                                <pagerange first="2828" last="2837"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kretschmer, J., Godenschwager, C., Preim, B., Stamminger, M.: Interactive patient-specific vascular modeling with sweep surfaces. IEEE Trans. Vis. Comput. Graph. 19(12), 2828–2837 (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Simvascular: An open source pipeline for cardiovascular simulation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85001842800</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Updegrove A.</ce:indexed-name>
+                                    <ce:surname>Updegrove</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.M.</ce:initials>
+                                    <ce:indexed-name>Wilson N.M.</ce:indexed-name>
+                                    <ce:surname>Wilson</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Merkow J.</ce:indexed-name>
+                                    <ce:surname>Merkow</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lan H.</ce:indexed-name>
+                                    <ce:surname>Lan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Marsden A.L.</ce:indexed-name>
+                                    <ce:surname>Marsden</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.C.</ce:initials>
+                                    <ce:indexed-name>Shadden S.C.</ce:indexed-name>
+                                    <ce:surname>Shadden</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ann. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="45"/>
+                                <pagerange first="525" last="541"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Updegrove, A., Wilson, N.M., Merkow, J., Lan, H., Marsden, A.L., Shadden, S.C.: Simvascular: an open source pipeline for cardiovascular simulation. Ann. Biomed. Eng. 45(3), 525–541 (2017)</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cardiovascular flow simulation at extreme scale</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77951766899</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zhou M.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Sahni O.</ce:indexed-name>
+                                    <ce:surname>Sahni</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.J.</ce:initials>
+                                    <ce:indexed-name>Kim H.J.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Figueroa C.A.</ce:indexed-name>
+                                    <ce:surname>Figueroa</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Taylor C.A.</ce:indexed-name>
+                                    <ce:surname>Taylor</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Shephard M.S.</ce:indexed-name>
+                                    <ce:surname>Shephard</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>K.E.</ce:initials>
+                                    <ce:indexed-name>Jansen K.E.</ce:indexed-name>
+                                    <ce:surname>Jansen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Mech.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="46"/>
+                                <pagerange first="71" last="82"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhou, M., Sahni, O., Kim, H.J., Figueroa, C.A., Taylor, C.A., Shephard, M.S., Jansen, K.E.: Cardiovascular flow simulation at extreme scale. Comput. Mech. 46(1), 71–82 (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards patient-individual blood flow simulations based on PC-MRI measurements</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85011016042</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Meier S.</ce:indexed-name>
+                                    <ce:surname>Meier</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hennemuth A.</ce:indexed-name>
+                                    <ce:surname>Hennemuth</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Tchipev N.</ce:indexed-name>
+                                    <ce:surname>Tchipev</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Harloff A.</ce:indexed-name>
+                                    <ce:surname>Harloff</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Markl M.</ce:indexed-name>
+                                    <ce:surname>Markl</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Preusser T.</ce:indexed-name>
+                                    <ce:surname>Preusser</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Inform. J.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="41"/>
+                                <pagerange first="4" last="7"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Meier, S., Hennemuth, A., Tchipev, N., Harloff, A., Markl, M., Preusser, T.: Towards patient-individual blood flow simulations based on PC-MRI measurements. Inform. J. 41, 4–7 (2011)</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>HemeLB: A high performance parallel lattice-Boltzmann code for large scale fluid flow in complex geometries</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">44349177435</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mazzeo M.</ce:indexed-name>
+                                    <ce:surname>Mazzeo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Coveney P.</ce:indexed-name>
+                                    <ce:surname>Coveney</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Phys. Commun.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="178"/>
+                                <pagerange first="894" last="914"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mazzeo, M., Coveney, P.: HemeLB: a high performance parallel lattice-Boltzmann code for large scale fluid flow in complex geometries. Comput. Phys. Commun. 178(12), 894–914 (2008)</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>MUPHY: A parallel multi physics/scale code for high performance bio-fluidic simulations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">68949149858</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bernaschi M.</ce:indexed-name>
+                                    <ce:surname>Bernaschi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Melchionna S.</ce:indexed-name>
+                                    <ce:surname>Melchionna</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Succi S.</ce:indexed-name>
+                                    <ce:surname>Succi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Fyta M.</ce:indexed-name>
+                                    <ce:surname>Fyta</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Kaxiras E.</ce:indexed-name>
+                                    <ce:surname>Kaxiras</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Sircar J.</ce:indexed-name>
+                                    <ce:surname>Sircar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Phys. Commun.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="180"/>
+                                <pagerange first="1495" last="1502"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bernaschi, M., Melchionna, S., Succi, S., Fyta, M., Kaxiras, E., Sircar, J.: MUPHY: a parallel multi physics/scale code for high performance bio-fluidic simulations. Comput. Phys. Commun. 180(9), 1495–1502 (2009)</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey of cardiac 4D PC-MRI data processing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84962900931</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Kohler B.</ce:indexed-name>
+                                    <ce:surname>Köhler</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Born S.</ce:indexed-name>
+                                    <ce:surname>Born</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.F.P.</ce:initials>
+                                    <ce:indexed-name>van Pelt R.F.P.</ce:indexed-name>
+                                    <ce:surname>van Pelt</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hennemuth A.</ce:indexed-name>
+                                    <ce:surname>Hennemuth</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Preim U.</ce:indexed-name>
+                                    <ce:surname>Preim</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Preim B.</ce:indexed-name>
+                                    <ce:surname>Preim</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Graph. Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="36"/>
+                                <pagerange first="5" last="35"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Köhler, B., Born, S., van Pelt, R.F.P., Hennemuth, A., Preim, U., Preim, B.: A survey of cardiac 4D PC-MRI data processing. Comput. Graph. Forum 36(6), 5–35 (2017)</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Volume rendering based on magnetic resonance imaging: Advances in understanding the three-dimensional anatomy of the human knee</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34548523191</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Anastasi G.</ce:indexed-name>
+                                    <ce:surname>Anastasi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Bramanti P.</ce:indexed-name>
+                                    <ce:surname>Bramanti</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Di Bella P.</ce:indexed-name>
+                                    <ce:surname>Di Bella</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Favaloro A.</ce:indexed-name>
+                                    <ce:surname>Favaloro</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Trimarchi F.</ce:indexed-name>
+                                    <ce:surname>Trimarchi</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Magaudda L.</ce:indexed-name>
+                                    <ce:surname>Magaudda</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gaeta M.</ce:indexed-name>
+                                    <ce:surname>Gaeta</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Scribano E.</ce:indexed-name>
+                                    <ce:surname>Scribano</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Bruschetta D.</ce:indexed-name>
+                                    <ce:surname>Bruschetta</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Milardi D.</ce:indexed-name>
+                                    <ce:surname>Milardi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Anat.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="211"/>
+                                <pagerange first="399" last="406"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Anastasi, G., Bramanti, P., Di Bella, P., Favaloro, A., Trimarchi, F., Magaudda, L., Gaeta, M., Scribano, E., Bruschetta, D., Milardi, D.: Volume rendering based on magnetic resonance imaging: advances in understanding the three-dimensional anatomy of the human knee. J. Anat. 211(3), 399–406 (2007)</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast algorithms for visualizing fluid motion in steady flow on unstructured grids</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029487213</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Ueng S.K.</ce:indexed-name>
+                                    <ce:surname>Ueng</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Sikorski K.</ce:indexed-name>
+                                    <ce:surname>Sikorski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.L.</ce:initials>
+                                    <ce:indexed-name>Ma K.L.</ce:indexed-name>
+                                    <ce:surname>Ma</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the IEEE Conference on Visualization</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="313" last="320"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ueng, S.K., Sikorski, K., Ma, K.L.: Fast algorithms for visualizing fluid motion in steady flow on unstructured grids. In: Proceedings of the IEEE Conference on Visualization, pp. 313–320 (1995)</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003771436</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Schroeder W.</ce:indexed-name>
+                                    <ce:surname>Schroeder</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Martin K.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Lorensen B.</ce:indexed-name>
+                                    <ce:surname>Lorensen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Visualization Toolkit</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>4th edn. Kitware, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Schroeder, W., Martin, K., Lorensen, B.: The Visualization Toolkit, 4th edn. Kitware, New York (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ParaViewWeb: A web framework for 3D visualization and data processing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84882992159</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Jourdain S.</ce:indexed-name>
+                                    <ce:surname>Jourdain</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Ayachit U.</ce:indexed-name>
+                                    <ce:surname>Ayachit</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Geveci B.</ce:indexed-name>
+                                    <ce:surname>Geveci</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Inf. Syst. Ind. Manag. Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="870" last="877"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jourdain, S., Ayachit, U., Geveci, B.: ParaViewWeb: a web framework for 3D visualization and data processing. Int. J. Comput. Inf. Syst. Ind. Manag. Appl. 3, 870–877 (2011)</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast and efficient compression of floating-point data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33845615898</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Lindstrom P.</ce:indexed-name>
+                                    <ce:surname>Lindstrom</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Isenburg M.</ce:indexed-name>
+                                    <ce:surname>Isenburg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Vis. Comput. Graph.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="12"/>
+                                <pagerange first="1245" last="1250"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lindstrom, P., Isenburg, M.: Fast and efficient compression of floating-point data. IEEE Trans. Vis. Comput. Graph. 12(5), 1245–1250 (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fixed-rate compressed floating-point arrays</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84910061280</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Lindstrom P.</ce:indexed-name>
+                                    <ce:surname>Lindstrom</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Vis. Comput. Graph.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="20"/>
+                                <pagerange first="2674" last="2683"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lindstrom, P.: Fixed-rate compressed floating-point arrays. IEEE Trans. Vis. Comput. Graph. 20(12), 2674–2683 (2014)</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Lossless 4D medical images compression with motion compensation and lifting wavelet transform</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050289155</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Belhadef L.</ce:indexed-name>
+                                    <ce:surname>Belhadef</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.M.</ce:initials>
+                                    <ce:indexed-name>Maaza Z.M.</ce:indexed-name>
+                                    <ce:surname>Maaza</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Signal Process. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="4"/>
+                                <pagerange first="168" last="171"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Belhadef, L., Maaza, Z.M.: Lossless 4D medical images compression with motion compensation and lifting wavelet transform. Int. J. Signal Process. Syst. 4(2), 168– 171 (2016)</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Wavelet-based data compression for flow simulation on block-structured Cartesian mesh</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84883561574</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sakai R.</ce:indexed-name>
+                                    <ce:surname>Sakai</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Sasaki D.</ce:indexed-name>
+                                    <ce:surname>Sasaki</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Obayashi S.</ce:indexed-name>
+                                    <ce:surname>Obayashi</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Nakahashi K.</ce:indexed-name>
+                                    <ce:surname>Nakahashi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Numer. Methods Fluids</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="73"/>
+                                <pagerange first="462" last="476"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sakai, R., Sasaki, D., Obayashi, S., Nakahashi, K.: Wavelet-based data compression for flow simulation on block-structured Cartesian mesh. Int. J. Numer. Methods Fluids 73(5), 462–476 (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast lossless compression of medical images based on polynomial</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84921350005</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Al-Khafaji G.</ce:indexed-name>
+                                    <ce:surname>Al-Khafaji</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.E.</ce:initials>
+                                    <ce:indexed-name>George L.E.</ce:indexed-name>
+                                    <ce:surname>George</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="15" volume="70"/>
+                                <pagerange first="28" last="32"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Al-Khafaji, G., George, L.E.: Fast lossless compression of medical images based on polynomial. Int. J. Comput. Appl. 70(15), 28–32 (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rapid high quality compression of volume data for visualization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035801136</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.G.</ce:initials>
+                                    <ce:indexed-name>Nguyen K.G.</ce:indexed-name>
+                                    <ce:surname>Nguyen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Saupe D.</ce:indexed-name>
+                                    <ce:surname>Saupe</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Graph. Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="20"/>
+                                <pagerange first="49" last="57"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nguyen, K.G., Saupe, D.: Rapid high quality compression of volume data for visualization. Comput. Graph. Forum 20(3), 49–57 (2001)</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050313248</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <collaboration seq="1">
+                                    <ce:indexed-name>754-2008</ce:indexed-name>
+                                    <ce:text>754-2008</ce:text>
+                                </collaboration>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Standard for Floating-Point Arithmetic. Standard. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-text>August</ref-text>
+                        </ref-info>
+                        <ref-fulltext>754-2008: IEEE standard for floating-point arithmetic. Standard. IEEE, August 2008</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Feature based volumetric video compression for interactive playback</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745246463</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.S.</ce:initials>
+                                    <ce:indexed-name>Sohn B.S.</ce:indexed-name>
+                                    <ce:surname>Sohn</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Bajaj C.</ce:indexed-name>
+                                    <ce:surname>Bajaj</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Siddavanahalli V.</ce:indexed-name>
+                                    <ce:surname>Siddavanahalli</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2002 IEEE Symposium on Volume Visualization and Graphics, VVS 2002</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="89" last="96"/>
+                            </ref-volisspag>
+                            <ref-text>Piscataway, IEEE Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Sohn, B.S., Bajaj, C., Siddavanahalli, V.: Feature based volumetric video compression for interactive playback. In: Proceedings of the 2002 IEEE Symposium on Volume Visualization and Graphics, VVS 2002, Piscataway, pp. 89–96. IEEE Press (2002)</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>In situ data compression algorithm for detailed numerical simulation of liquid metal filtration through regularly structured porous media</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84889635780</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lehmann H.</ce:indexed-name>
+                                    <ce:surname>Lehmann</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Werzner E.</ce:indexed-name>
+                                    <ce:surname>Werzner</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.A.A.</ce:initials>
+                                    <ce:indexed-name>Mendes M.A.A.</ce:indexed-name>
+                                    <ce:surname>Mendes</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Trimis D.</ce:indexed-name>
+                                    <ce:surname>Trimis</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Jung B.</ce:indexed-name>
+                                    <ce:surname>Jung</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ray S.</ce:indexed-name>
+                                    <ce:surname>Ray</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Adv. Eng. Mater.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="15"/>
+                                <pagerange first="1260" last="1269"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lehmann, H., Werzner, E., Mendes, M.A.A., Trimis, D., Jung, B., Ray, S.: In situ data compression algorithm for detailed numerical simulation of liquid metal filtration through regularly structured porous media. Adv. Eng. Mater. 15(12), 1260–1269 (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast and effective lossy compression algorithms for scientific datasets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84867635569</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Iverson J.</ce:indexed-name>
+                                    <ce:surname>Iverson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Kamath C.</ce:indexed-name>
+                                    <ce:surname>Kamath</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Karypis G.</ce:indexed-name>
+                                    <ce:surname>Karypis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Euro-Par 2012. LNCS</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="7484"/>
+                                <pagerange first="843" last="856"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/978-3-642-32820-683</ce:e-address>
+                            </ref-website>
+                            <ref-text>Kaklamanis, C., Papatheodorou, T., Spirakis, P.G. (eds.), Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Iverson, J., Kamath, C., Karypis, G.: Fast and effective lossy compression algorithms for scientific datasets. In: Kaklamanis, C., Papatheodorou, T., Spirakis, P.G. (eds.) Euro-Par 2012. LNCS, vol. 7484, pp. 843–856. Springer, Heidelberg (2012). https://doi.org/10.1007/978-3-642-32820-6 83</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

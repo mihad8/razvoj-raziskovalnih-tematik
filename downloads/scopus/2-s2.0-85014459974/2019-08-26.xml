@@ -1,0 +1,1567 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85014459974</prism:url><dc:identifier>SCOPUS_ID:85014459974</dc:identifier><eid>2-s2.0-85014459974</eid><pii>S0378437117301681</pii><prism:doi>10.1016/j.physa.2017.02.048</prism:doi><dc:title>Empirical comparison of network sampling: How to choose the most appropriate method?</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>Physica A: Statistical Mechanics and its Applications</prism:publicationName><dc:publisher>
+                        Elsevier B.V.
+                    </dc:publisher><source-id>29115</source-id><prism:issn>03784371</prism:issn><prism:volume>477</prism:volume><prism:startingPage>136</prism:startingPage><prism:endingPage>148</prism:endingPage><prism:pageRange>136-148</prism:pageRange><prism:coverDate>2017-07-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="54896373600"><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54896373600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 Elsevier B.V.</publishercopyright>
+                        <ce:para>In the past few years, the storage and the analysis of large-scale and fast evolving networks presents a great challenge. Therefore, a number of different techniques have been proposed for sampling large networks. Studies on network sampling primarily analyze the changes of network properties under the sampling. In general, network exploration techniques approximate the original networks more accurate than random node and link selection. Yet, link selection with additional subgraph induction step outperforms most other techniques. In this paper, we apply subgraph induction also to random walk and forest-fire sampling and evaluate the effects of subgraph induction on the sampling accuracy. We analyze different real-world networks and the changes of their properties introduced by sampling. The results reveal that the techniques with subgraph induction improve the performance of techniques without induction and create denser sample networks with larger average degree. Furthermore, the accuracy of sampling decrease consistently across various sampling techniques, when the sampled networks are smaller. Based on the results of the comparison, we introduce the scheme for selecting the most appropriate technique for network sampling. Overall, the breadth-first exploration sampling proves as the best performing technique.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85014459974" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85014459974&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85014459974&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="54896373600"><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54896373600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="36451276700"><ce:initials>L.</ce:initials><ce:indexed-name>Subelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Šubelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36451276700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6506526259"><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506526259</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Comparison of sampling techniques</author-keyword><author-keyword>Complex networks</author-keyword><author-keyword>Network sampling</author-keyword><author-keyword>Sampling accuracy</author-keyword><author-keyword>Sampling selection scheme</author-keyword><author-keyword>Subgraph induction</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Network samplings</mainterm><mainterm weight="b" candidate="n">Sampling accuracies</mainterm><mainterm weight="b" candidate="n">Sampling selections</mainterm><mainterm weight="b" candidate="n">Sampling technique</mainterm><mainterm weight="b" candidate="n">Subgraphs</mainterm></idxterms><subject-areas><subject-area code="2613" abbrev="MATH">Statistics and Probability</subject-area><subject-area code="3104" abbrev="PHYS">Condensed Matter Physics</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="28" month="05" timestamp="2019-05-28T22:41:16.000016-04:00" year="2019"/><ait:date-sort day="01" month="07" year="2017"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2017 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0378437117301681</ce:pii>
+                    <ce:doi>10.1016/j.physa.2017.02.048</ce:doi>
+                    <itemid idtype="PUI">614642101</itemid>
+                    <itemid idtype="CAR-ID">661586847</itemid>
+                    <itemid idtype="CPX">20171003420180</itemid>
+                    <itemid idtype="REAXYSCAR">20170419894</itemid>
+                    <itemid idtype="SCP">85014459974</itemid>
+                    <itemid idtype="SGR">85014459974</itemid>
+                </itemidlist><history>
+                    <date-created day="09" month="03" timestamp="BST 07:18:27" year="2017"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Comparison of sampling techniques</author-keyword>
+                        <author-keyword xml:lang="eng">Complex networks</author-keyword>
+                        <author-keyword xml:lang="eng">Network sampling</author-keyword>
+                        <author-keyword xml:lang="eng">Sampling accuracy</author-keyword>
+                        <author-keyword xml:lang="eng">Sampling selection scheme</author-keyword>
+                        <author-keyword xml:lang="eng">Subgraph induction</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Empirical comparison of network sampling: How to choose the most appropriate method?</titletext></citation-title><author-group><author auid="54896373600" seq="1" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Blagus N.</ce:indexed-name><ce:surname>Blagus</ce:surname><ce:given-name>Neli</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Blagus N.</ce:indexed-name>
+                            <ce:surname>Blagus</ce:surname>
+                            <ce:given-name>Neli</ce:given-name>
+                        </preferred-name></author><author auid="36451276700" seq="2" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Subelj L.</ce:indexed-name><ce:surname>Šubelj</ce:surname><ce:given-name>Lovro</ce:given-name><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Šubelj L.</ce:indexed-name>
+                            <ce:surname>Šubelj</ce:surname>
+                            <ce:given-name>Lovro</ce:given-name>
+                        </preferred-name></author><author auid="6506526259" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Bajec M.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Bajec M.</ce:indexed-name>
+                            <ce:surname>Bajec</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>N.</ce:initials>
+                        <ce:indexed-name>Blagus N.</ce:indexed-name>
+                        <ce:surname>Blagus</ce:surname>
+                        <ce:given-name>Neli</ce:given-name>
+                    </person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><city>Ljubljana</city><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2017 Elsevier B.V.</publishercopyright>
+                        <ce:para>In the past few years, the storage and the analysis of large-scale and fast evolving networks presents a great challenge. Therefore, a number of different techniques have been proposed for sampling large networks. Studies on network sampling primarily analyze the changes of network properties under the sampling. In general, network exploration techniques approximate the original networks more accurate than random node and link selection. Yet, link selection with additional subgraph induction step outperforms most other techniques. In this paper, we apply subgraph induction also to random walk and forest-fire sampling and evaluate the effects of subgraph induction on the sampling accuracy. We analyze different real-world networks and the changes of their properties introduced by sampling. The results reveal that the techniques with subgraph induction improve the performance of techniques without induction and create denser sample networks with larger average degree. Furthermore, the accuracy of sampling decrease consistently across various sampling techniques, when the sampled networks are smaller. Based on the results of the comparison, we introduce the scheme for selecting the most appropriate technique for network sampling. Overall, the breadth-first exploration sampling proves as the best performing technique.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="29115" type="j"><sourcetitle>Physica A: Statistical Mechanics and its Applications</sourcetitle><sourcetitle-abbrev>Phys A Stat Mech Appl</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Physica A: Statistical Mechanics and its Applications</translated-sourcetitle><issn type="print">03784371</issn><codencode>PHYAD</codencode><volisspag>
+                        <voliss volume="477"/>
+                        <pagerange first="136" last="148"/>
+                    </volisspag><publicationyear first="2017"/><publicationdate>
+                        <year>2017</year>
+                        <month>07</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 July 2017</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.journals.elsevier.com/physica-a-statistical-mechanics-and-its-applications/</ce:e-address>
+                    </website><publisher>
+                        <publishername>Elsevier B.V.</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>722</classification-code>
+                                 
+                                <classification-description>Computer Hardware</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                 
+                                <classification-code>902</classification-code>
+                                 
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2613</classification>
+                            <classification>3104</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>PHYS</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="45">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling from large graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33749581229</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Faloutsos C.</ce:indexed-name>
+                                    <ce:surname>Faloutsos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 12th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="631" last="636"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[1] Leskovec, J., Faloutsos, C., Sampling from large graphs. Proceedings of the 12th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2006, ACM, 631–636.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Statistical properties of sampled networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">32844475337</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Lee S.H.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.J.</ce:initials>
+                                    <ce:indexed-name>Kim P.J.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Jeong H.</ce:indexed-name>
+                                    <ce:surname>Jeong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys. Rev. E</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="73"/>
+                                <pagerange first="016102"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[2] Lee, S.H., Kim, P.J., Jeong, H., Statistical properties of sampled networks. Phys. Rev. E, 73(1), 2006, 016102.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Reducing large Internet topologies for faster simulations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">24944527171</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Krishnamurthy V.</ce:indexed-name>
+                                    <ce:surname>Krishnamurthy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Faloutsos M.</ce:indexed-name>
+                                    <ce:surname>Faloutsos</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Chrobak M.</ce:indexed-name>
+                                    <ce:surname>Chrobak</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lao L.</ce:indexed-name>
+                                    <ce:surname>Lao</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.-H.</ce:initials>
+                                    <ce:indexed-name>Cui J.-H.</ce:indexed-name>
+                                    <ce:surname>Cui</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.G.</ce:initials>
+                                    <ce:indexed-name>Percus A.G.</ce:indexed-name>
+                                    <ce:surname>Percus</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 4th International IFIP-TC6 Networking Conference</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="328" last="341"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[3] Krishnamurthy, V., Faloutsos, M., Chrobak, M., Lao, L., Cui, J.-H., Percus, A.G., Reducing large Internet topologies for faster simulations. Proceedings of the 4th International IFIP-TC6 Networking Conference, 2005, Springer, 328–341.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>More efficient classification of web content using graph sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34548805667</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Bennett C.</ce:indexed-name>
+                                    <ce:surname>Bennett</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Symposium on Computational Intelligence and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="485" last="490"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[4] Bennett, C., More efficient classification of web content using graph sampling. IEEE Symposium on Computational Intelligence and Data Mining, 2007, IEEE, 485–490.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Effectively visualizing large networks through sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954593786</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Rafiei D.</ce:indexed-name>
+                                    <ce:surname>Rafiei</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Visualization</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="375" last="382"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[5] Rafiei, D., Effectively visualizing large networks through sampling. Visualization, 2005, IEEE, 375–382.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A simplification algorithm for visualizing the structure of complex graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">51749122641</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Hennessey D.</ce:indexed-name>
+                                    <ce:surname>Hennessey</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Brooks D.</ce:indexed-name>
+                                    <ce:surname>Brooks</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Fridman A.</ce:indexed-name>
+                                    <ce:surname>Fridman</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Breen D.</ce:indexed-name>
+                                    <ce:surname>Breen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 12th International Conference on Information Visualisation</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="616" last="625"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[6] Hennessey, D., Brooks, D., Fridman, A., Breen, D., A simplification algorithm for visualizing the structure of complex graphs. Proceedings of the 12th International Conference on Information Visualisation, 2008, IEEE, 616–625.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling evolving ego-networks with forgetting factor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85014505479</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Tabassum S.</ce:indexed-name>
+                                    <ce:surname>Tabassum</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 17th Conference on Mobile Data Management, Vol. 2</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="55" last="59"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[7] Tabassum, S., Gama, J., Sampling evolving ego-networks with forgetting factor. Proceedings of the 17th Conference on Mobile Data Management, Vol. 2, 2016, IEEE, 55–59.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Link prediction in complex networks: A survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78751613300</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lu L.</ce:indexed-name>
+                                    <ce:surname>Lü</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhou T.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Physica A</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="390"/>
+                                <pagerange first="1150" last="1170"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[8] Lü, L., Zhou, T., Link prediction in complex networks: A survey. Physica A 390:6 (2011), 1150–1170.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predicting missing links and identifying spurious links via likelihood analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84961218741</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Pan L.</ce:indexed-name>
+                                    <ce:surname>Pan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhou T.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lu L.</ce:indexed-name>
+                                    <ce:surname>Lü</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.-K.</ce:initials>
+                                    <ce:indexed-name>Hu C.-K.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sci. Rep.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                            </ref-volisspag>
+                            <ref-text>22955</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[9] Pan, L., Zhou, T., Lü, L., Hu, C.-K., Predicting missing links and identifying spurious links via likelihood analysis. Sci. Rep., 6, 2016 22955.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling properties of random graphs: the degree distribution</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">28844465436</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.P.H.</ce:initials>
+                                    <ce:indexed-name>Stumpf M.P.H.</ce:indexed-name>
+                                    <ce:surname>Stumpf</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Wiuf C.</ce:indexed-name>
+                                    <ce:surname>Wiuf</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys. Rev. E</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="72"/>
+                                <pagerange first="036118"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[10] Stumpf, M.P.H., Wiuf, C., Sampling properties of random graphs: the degree distribution. Phys. Rev. E, 72(3), 2005, 036118.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Network simplification with minimal loss of connectivity</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79951751867</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Zhou F.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Malher S.</ce:indexed-name>
+                                    <ce:surname>Malher</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Toivonen H.</ce:indexed-name>
+                                    <ce:surname>Toivonen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 10th International Conference on Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="659" last="668"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[11] Zhou, F., Malher, S., Toivonen, H., Network simplification with minimal loss of connectivity. Proceedings of the 10th International Conference on Data Mining, 2010, IEEE, 659–668.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Social network sampling using spanning trees</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84953287842</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.S.</ce:initials>
+                                    <ce:indexed-name>Jalali Z.S.</ce:indexed-name>
+                                    <ce:surname>Jalali</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rezvanian A.</ce:indexed-name>
+                                    <ce:surname>Rezvanian</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Meybodi M.R.</ce:indexed-name>
+                                    <ce:surname>Meybodi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Internat. J. Modern Phys. C</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="27"/>
+                                <pagerange first="1650052"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[12] Jalali, Z.S., Rezvanian, A., Meybodi, M.R., Social network sampling using spanning trees. Internat. J. Modern Phys. C, 27(05), 2016, 1650052.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling content from online social networks: Comparing random vs. expert sampling of the twitter stream</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84931270016</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Zafar M.B.</ce:indexed-name>
+                                    <ce:surname>Zafar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Bhattacharya P.</ce:indexed-name>
+                                    <ce:surname>Bhattacharya</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Ganguly N.</ce:indexed-name>
+                                    <ce:surname>Ganguly</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.P.</ce:initials>
+                                    <ce:indexed-name>Gummadi K.P.</ce:indexed-name>
+                                    <ce:surname>Gummadi</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ghosh S.</ce:indexed-name>
+                                    <ce:surname>Ghosh</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans. Web</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="9"/>
+                                <pagerange first="12"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[13] Zafar, M.B., Bhattacharya, P., Ganguly, N., Gummadi, K.P., Ghosh, S., Sampling content from online social networks: Comparing random vs. expert sampling of the twitter stream. ACM Trans. Web, 9(3), 2015, 12.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Subnets of scale-free networks are not scale-free: sampling properties of networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">15444372528</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.P.H.</ce:initials>
+                                    <ce:indexed-name>Stumpf M.P.H.</ce:indexed-name>
+                                    <ce:surname>Stumpf</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Wiuf C.</ce:indexed-name>
+                                    <ce:surname>Wiuf</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.M.</ce:initials>
+                                    <ce:indexed-name>May R.M.</ce:indexed-name>
+                                    <ce:surname>May</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Natl. Acad. Sci. USA</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="102"/>
+                                <pagerange first="4221" last="4224"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[14] Stumpf, M.P.H., Wiuf, C., May, R.M., Subnets of scale-free networks are not scale-free: sampling properties of networks. Proc. Natl. Acad. Sci. USA 102:12 (2005), 4221–4224.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Compensating for population sampling in simulations of epidemic spread on temporal contact networks, e-print</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85014443474</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Genois M.</ce:indexed-name>
+                                    <ce:surname>Génois</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.L.</ce:initials>
+                                    <ce:indexed-name>Vestergaard C.L.</ce:indexed-name>
+                                    <ce:surname>Vestergaard</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Cattuto C.</ce:indexed-name>
+                                    <ce:surname>Cattuto</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Barrat A.</ce:indexed-name>
+                                    <ce:surname>Barrat</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-text>arXiv:1503.04066</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[15] M. Génois, C.L. Vestergaard, C. Cattuto, A. Barrat, Compensating for population sampling in simulations of epidemic spread on temporal contact networks, e-print arXiv:1503.04066.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling algorithms for weighted networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84983447541</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rezvanian A.</ce:indexed-name>
+                                    <ce:surname>Rezvanian</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Meybodi M.R.</ce:indexed-name>
+                                    <ce:surname>Meybodi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Soc. Netw. Anal. Min.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="6"/>
+                                <pagerange first="60"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[16] Rezvanian, A., Meybodi, M.R., Sampling algorithms for weighted networks. Soc. Netw. Anal. Min., 6(1), 2016, 60.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling properties of directed networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84867464271</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.-W.</ce:initials>
+                                    <ce:indexed-name>Son S.-W.</ce:indexed-name>
+                                    <ce:surname>Son</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Christensen C.</ce:indexed-name>
+                                    <ce:surname>Christensen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Bizhani G.</ce:indexed-name>
+                                    <ce:surname>Bizhani</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.V.</ce:initials>
+                                    <ce:indexed-name>Foster D.V.</ce:indexed-name>
+                                    <ce:surname>Foster</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Grassberger P.</ce:indexed-name>
+                                    <ce:surname>Grassberger</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Paczuski M.</ce:indexed-name>
+                                    <ce:surname>Paczuski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys. Rev. E</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="86"/>
+                                <pagerange first="046104"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[17] Son, S.-W., Christensen, C., Bizhani, G., Foster, D.V., Grassberger, P., Paczuski, M., Sampling properties of directed networks. Phys. Rev. E, 86(4), 2012, 046104.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Metric convergence in social network sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84883729188</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Doerr C.</ce:indexed-name>
+                                    <ce:surname>Doerr</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Blenn N.</ce:indexed-name>
+                                    <ce:surname>Blenn</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 5th ACM workshop on HotPlanet</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="45" last="50"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[18] Doerr, C., Blenn, N., Metric convergence in social network sampling. Proceedings of the 5th ACM workshop on HotPlanet, 2013, ACM, 45–50.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Metropolis algorithms for representative subgraph sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">67049137972</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hubler C.</ce:indexed-name>
+                                    <ce:surname>Hübler</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.P.</ce:initials>
+                                    <ce:indexed-name>Kriegel H.P.</ce:indexed-name>
+                                    <ce:surname>Kriegel</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Borgwardt K.</ce:indexed-name>
+                                    <ce:surname>Borgwardt</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Ghahramani Z.</ce:indexed-name>
+                                    <ce:surname>Ghahramani</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 8th International Conference on Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="283" last="292"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[19] Hübler, C., Kriegel, H.P., Borgwardt, K., Ghahramani, Z., Metropolis algorithms for representative subgraph sampling. Proceedings of the 8th International Conference on Data Mining, 2008, IEEE, 283–292.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Compression of weighted graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052677864</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Toivonen H.</ce:indexed-name>
+                                    <ce:surname>Toivonen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Zhou F.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hartikainen A.</ce:indexed-name>
+                                    <ce:surname>Hartikainen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hinkka A.</ce:indexed-name>
+                                    <ce:surname>Hinkka</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="965" last="973"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[20] Toivonen, H., Zhou, F., Hartikainen, A., Hinkka, A., Compression of weighted graphs. Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2011, ACM, 965–973.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sampling promotes community structure in social and information networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84927139179</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Blagus N.</ce:indexed-name>
+                                    <ce:surname>Blagus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Subelj L.</ce:indexed-name>
+                                    <ce:surname>Šubelj</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Weiss G.</ce:indexed-name>
+                                    <ce:surname>Weiss</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bajec M.</ce:indexed-name>
+                                    <ce:surname>Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Physica A</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="432"/>
+                                <pagerange first="206" last="215"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[21] Blagus, N., Šubelj, L., Weiss, G., Bajec, M., Sampling promotes community structure in social and information networks. Physica A 432 (2015), 206–215.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Network sampling via edge-based node selection with graph induction, Tech. Rep.</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873627033</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Ahmed N.</ce:indexed-name>
+                                    <ce:surname>Ahmed</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Neville J.</ce:indexed-name>
+                                    <ce:surname>Neville</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.R.</ce:initials>
+                                    <ce:indexed-name>Kompella R.R.</ce:indexed-name>
+                                    <ce:surname>Kompella</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2011"/>
+                            <ref-text>Purdue University</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[22] Ahmed, N., Neville, J., Kompella, R.R., Network sampling via edge-based node selection with graph induction, Tech. Rep., 2011, Purdue University.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Network sampling: From static to streaming graphs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84903733505</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.K.</ce:initials>
+                                    <ce:indexed-name>Ahmed N.K.</ce:indexed-name>
+                                    <ce:surname>Ahmed</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Neville J.</ce:indexed-name>
+                                    <ce:surname>Neville</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kompella R.</ce:indexed-name>
+                                    <ce:surname>Kompella</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans. Knowl. Discov. Data</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="8"/>
+                                <pagerange first="7"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[23] Ahmed, N.K., Neville, J., Kompella, R., Network sampling: From static to streaming graphs. ACM Trans. Knowl. Discov. Data, 8(2), 2014, 7.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Assessing the effectiveness of real-world network simplification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84905043777</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Blagus N.</ce:indexed-name>
+                                    <ce:surname>Blagus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Subelj L.</ce:indexed-name>
+                                    <ce:surname>Šubelj</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bajec M.</ce:indexed-name>
+                                    <ce:surname>Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Physica A</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="413"/>
+                                <pagerange first="134" last="146"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[24] Blagus, N., Šubelj, L., Bajec, M., Assessing the effectiveness of real-world network simplification. Physica A 413 (2014), 134–146.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Reconsidering the foundations of network sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84891818557</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.K.</ce:initials>
+                                    <ce:indexed-name>Ahmed N.K.</ce:indexed-name>
+                                    <ce:surname>Ahmed</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Neville J.</ce:indexed-name>
+                                    <ce:surname>Neville</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kompella R.</ce:indexed-name>
+                                    <ce:surname>Kompella</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2nd Workshop on Information in Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                        </ref-info>
+                        <ref-fulltext>[25] N.K. Ahmed, J. Neville, R. Kompella, Reconsidering the foundations of network sampling, in: Proceedings of the 2nd Workshop on Information in Networks, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>taxonomy of graph sampling, e-print</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85014435259</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Hu P.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.C.</ce:initials>
+                                    <ce:indexed-name>Lau W.C.</ce:indexed-name>
+                                    <ce:surname>Lau</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>survey A.</ce:indexed-name>
+                                    <ce:surname>survey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-text>arXiv:1308.5865</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[26] P. Hu, W.C. Lau, A survey and taxonomy of graph sampling, e-print arXiv:1308.5865.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Benefits of bias: towards better characterization of network sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052689976</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.S.</ce:initials>
+                                    <ce:indexed-name>Maiya A.S.</ce:indexed-name>
+                                    <ce:surname>Maiya</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.Y.</ce:initials>
+                                    <ce:indexed-name>Berger-Wolf T.Y.</ce:indexed-name>
+                                    <ce:surname>Berger-Wolf</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="105" last="113"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[27] Maiya, A.S., Berger-Wolf, T.Y., Benefits of bias: towards better characterization of network sampling. Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2011, ACM, 105–113.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On the bias of BFS</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78650137532</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kurant M.</ce:indexed-name>
+                                    <ce:surname>Kurant</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Markopoulou A.</ce:indexed-name>
+                                    <ce:surname>Markopoulou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Thiran P.</ce:indexed-name>
+                                    <ce:surname>Thiran</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 22nd International Teletraffic Congress</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[28] Kurant, M., Markopoulou, A., Thiran, P., On the bias of BFS. Proceedings of the 22nd International Teletraffic Congress, 2010, IEEE, 1–8.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Random walks on graphs: A survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0006217743</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lovasz L.</ce:indexed-name>
+                                    <ce:surname>Lovász</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Combinatorics: Paul Erdös Eighty</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="2"/>
+                                <pagerange first="1" last="46"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[29] Lovász, L., Random walks on graphs: A survey. Combinatorics: Paul Erdös Eighty 2:1 (1993), 1–46.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On unbiased sampling for unstructured peer-to-peer networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">67349214053</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Stutzbach D.</ce:indexed-name>
+                                    <ce:surname>Stutzbach</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Rejaie R.</ce:indexed-name>
+                                    <ce:surname>Rejaie</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Duffield N.</ce:indexed-name>
+                                    <ce:surname>Duffield</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sen S.</ce:indexed-name>
+                                    <ce:surname>Sen</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Willinger W.</ce:indexed-name>
+                                    <ce:surname>Willinger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE/ACM Trans. Netw.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="17"/>
+                                <pagerange first="377" last="390"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[30] Stutzbach, D., Rejaie, R., Duffield, N., Sen, S., Willinger, W., On unbiased sampling for unstructured peer-to-peer networks. IEEE/ACM Trans. Netw. 17:2 (2009), 377–390.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Walking in facebook: A case study of unbiased sampling of osns</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953303843</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gjoka M.</ce:indexed-name>
+                                    <ce:surname>Gjoka</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kurant M.</ce:indexed-name>
+                                    <ce:surname>Kurant</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.T.</ce:initials>
+                                    <ce:indexed-name>Butts C.T.</ce:indexed-name>
+                                    <ce:surname>Butts</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Markopoulou A.</ce:indexed-name>
+                                    <ce:surname>Markopoulou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 29th Conference on Information Communications</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="9"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[31] Gjoka, M., Kurant, M., Butts, C.T., Markopoulou, A., Walking in facebook: A case study of unbiased sampling of osns. Proceedings of the 29th Conference on Information Communications, 2010, IEEE, 1–9.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Task-driven sampling of attributed networks, e-print</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85014430923</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kumar S.</ce:indexed-name>
+                                    <ce:surname>Kumar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Sundaram H.</ce:indexed-name>
+                                    <ce:surname>Sundaram</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-text>arXiv:1611.00910</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[32] S. Kumar, H. Sundaram, Task-driven sampling of attributed networks, e-print arXiv:1611.00910.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Graph evolution: Densification and shrinking diameters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34248205060</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kleinberg J.</ce:indexed-name>
+                                    <ce:surname>Kleinberg</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Faloutsos C.</ce:indexed-name>
+                                    <ce:surname>Faloutsos</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans. Knowl. Discov. Data</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="1"/>
+                                <pagerange first="1" last="40"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[33] Leskovec, J., Kleinberg, J., Faloutsos, C., Graph evolution: Densification and shrinking diameters. ACM Trans. Knowl. Discov. Data 1:1 (2007), 1–40.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Community-affiliation graph model for overlapping network community detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874075315</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Yang J.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 12th International Conference on Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1170" last="1175"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[34] Yang, J., Leskovec, J., Community-affiliation graph model for overlapping network community detection. Proceedings of the 12th International Conference on Data Mining, 2012, IEEE, 1170–1175.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Graphweb: mining heterogeneous biological networks for gene modules with functional significance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">48449099258</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Reimand J.</ce:indexed-name>
+                                    <ce:surname>Reimand</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Tooming L.</ce:indexed-name>
+                                    <ce:surname>Tooming</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Peterson H.</ce:indexed-name>
+                                    <ce:surname>Peterson</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Adler P.</ce:indexed-name>
+                                    <ce:surname>Adler</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Vilo J.</ce:indexed-name>
+                                    <ce:surname>Vilo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="36"/>
+                                <pagerange first="W452" last="W459"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[35] Reimand, J., Tooming, L., Peterson, H., Adler, P., Vilo, J., Graphweb: mining heterogeneous biological networks for gene modules with functional significance. Nucleic Acids Res. 36:suppl 2 (2008), W452–W459.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85014473671</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.cs.cornell.edu/projects/kddcup/</ce:e-address>
+                            </ref-website>
+                            <ref-text>KDD Cup ’03, 2013</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[36] KDD Cup ’03, 2013. http://www.cs.cornell.edu/projects/kddcup/.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Friendship and mobility: user movement in location-based social networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052648113</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Cho E.</ce:indexed-name>
+                                    <ce:surname>Cho</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Myers S.A.</ce:indexed-name>
+                                    <ce:surname>Myers</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1082" last="1090"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[37] Cho, E., Myers, S.A., Leskovec, J., Friendship and mobility: user movement in location-based social networks. Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2011, ACM, 1082–1090.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Community structure in large networks: Natural cluster sizes and the absence of large well-defined clusters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84924178998</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.J.</ce:initials>
+                                    <ce:indexed-name>Lang K.J.</ce:indexed-name>
+                                    <ce:surname>Lang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Dasgupta A.</ce:indexed-name>
+                                    <ce:surname>Dasgupta</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.W.</ce:initials>
+                                    <ce:indexed-name>Mahoney M.W.</ce:indexed-name>
+                                    <ce:surname>Mahoney</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Internet Math.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="6"/>
+                                <pagerange first="29" last="123"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[38] Leskovec, J., Lang, K.J., Dasgupta, A., Mahoney, M.W., Community structure in large networks: Natural cluster sizes and the absence of large well-defined clusters. Internet Math. 6:1 (2009), 29–123.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Defining and evaluating network communities based on ground-truth</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84929145888</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Yang J.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl. Inf. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="42"/>
+                                <pagerange first="181" last="213"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[39] Yang, J., Leskovec, J., Defining and evaluating network communities based on ground-truth. Knowl. Inf. Syst. 42:1 (2015), 181–213.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Internet: Diameter of the world-wide web</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033539175</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Albert R.</ce:indexed-name>
+                                    <ce:surname>Albert</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Jeong H.</ce:indexed-name>
+                                    <ce:surname>Jeong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.-L.</ce:initials>
+                                    <ce:indexed-name>Barabasi A.-L.</ce:indexed-name>
+                                    <ce:surname>Barabási</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="6749" volume="401"/>
+                                <pagerange first="130" last="131"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[40] Albert, R., Jeong, H., Barabási, A.-L., Internet: Diameter of the world-wide web. Nature 401:6749 (1999), 130–131.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning to discover social circles in ego networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84877749932</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>McAuley J.</ce:indexed-name>
+                                    <ce:surname>McAuley</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Leskovec J.</ce:indexed-name>
+                                    <ce:surname>Leskovec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advances in Neural Information Processing Systems, Vol. 25</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="548" last="556"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[41] McAuley, J., Leskovec, J., Learning to discover social circles in ego networks. Advances in Neural Information Processing Systems, Vol. 25, 2012, 548–556.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Collective dynamics of “small-world” networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032482432</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Watts D.J.</ce:indexed-name>
+                                    <ce:surname>Watts</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Strogatz S.H.</ce:indexed-name>
+                                    <ce:surname>Strogatz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nature</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="6684" volume="393"/>
+                                <pagerange first="440" last="442"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[42] Watts, D.J., Strogatz, S.H., Collective dynamics of “small-world” networks. Nature 393:6684 (1998), 440–442.</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Self-similar scaling of density in complex real-world networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84856959994</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Blagus N.</ce:indexed-name>
+                                    <ce:surname>Blagus</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Subelj L.</ce:indexed-name>
+                                    <ce:surname>Šubelj</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bajec M.</ce:indexed-name>
+                                    <ce:surname>Bajec</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Physica A</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="391"/>
+                                <pagerange first="2794" last="2802"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[43] Blagus, N., Šubelj, L., Bajec, M., Self-similar scaling of density in complex real-world networks. Physica A 391:8 (2012), 2794–2802.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Second order centrality: Distributed assessment of nodes criticity in complex networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79751531116</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.-M.</ce:initials>
+                                    <ce:indexed-name>Kermarrec A.-M.</ce:indexed-name>
+                                    <ce:surname>Kermarrec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Le Merrer E.</ce:indexed-name>
+                                    <ce:surname>Le Merrer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Sericola B.</ce:indexed-name>
+                                    <ce:surname>Sericola</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Tredan G.</ce:indexed-name>
+                                    <ce:surname>Trédan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Commun.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="34"/>
+                                <pagerange first="619" last="628"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>[44] Kermarrec, A.-M., Le Merrer, E., Sericola, B., Trédan, G., Second order centrality: Distributed assessment of nodes criticity in complex networks. Comput. Commun. 34:5 (2011), 619–628.</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Methods and applications of network sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85014428538</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Al Hasan M.</ce:indexed-name>
+                                    <ce:surname>Al Hasan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Optimization Challenges in Complex, Networked and Risky Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="115" last="139"/>
+                            </ref-volisspag>
+                            <ref-text>INFORMS</ref-text>
+                        </ref-info>
+                        <ref-fulltext>[45] Al Hasan, M., Methods and applications of network sampling. Optimization Challenges in Complex, Networked and Risky Systems, 2016, INFORMS, 115–139.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

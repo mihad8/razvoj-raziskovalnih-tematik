@@ -1,0 +1,328 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/33646021317</prism:url><dc:identifier>SCOPUS_ID:33646021317</dc:identifier><eid>2-s2.0-33646021317</eid><pii>S0167931706001717</pii><prism:doi>10.1016/j.mee.2006.01.119</prism:doi><dc:title>Towards the bottom-up concept: Extended quantum-dot cellular automata</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>20</citedby-count><prism:publicationName>Microelectronic Engineering</prism:publicationName><source-id>26696</source-id><prism:issn>01679317</prism:issn><prism:volume>83</prism:volume><prism:issueIdentifier>4-9 SPEC. ISS.</prism:issueIdentifier><prism:startingPage>1826</prism:startingPage><prism:endingPage>1829</prism:endingPage><prism:pageRange>1826-1829</prism:pageRange><prism:coverDate>2006-04-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="6506903357"><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><ce:given-name>Iztok</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><ce:given-name>Iztok</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506903357</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>In this article we present an extended quantum-dot cellular automaton (QCA) cell. The classical QCA cell is extended in the sense of an enlarged range of its possible stable and usable states. Indeed, in the classical QCA cell the electrons, owing to electrostatic repulsion, align along one of the two diagonal configurations that correspond to their maximal spatial separation. The QCA cell thus has the ability to encode two states - two logic values (0 and 1). By extending the QCA cell with four additional quantum dots, we introduce the extended QCA (EQCA) cell and analyze its behavior, the analysis of which is based on the semi-classical modeling approach. Experiments showed that by using a special interpretation of electron configurations in the EQCA, the range of possible states can be increased from two to three, giving the EQCA cell the ability to encode the logic values (0, 1/2 and 1). The primary motive of this article is to promote the idea of finally switching focus from pure miniaturization and the top-down concept to the bottom-up concept and start extending the currently available approaches to allow for 'richer' processing and data storage capabilities without a major increase in space requirements. © 2006 Elsevier B.V. All rights reserved.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/33646021317" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=33646021317&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=33646021317&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6506903357"><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><ce:given-name>Iztok</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><ce:given-name>Iztok</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506903357</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="35613179800"><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><ce:given-name>Nikolaj</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><ce:given-name>Nikolaj</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35613179800</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7007175863"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7007175863</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Multi-valued logic</author-keyword><author-keyword>Quantum-dot cellular automata</author-keyword><author-keyword>Switching structures</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Logic values</mainterm><mainterm weight="a" candidate="n">Multi-valued logic</mainterm><mainterm weight="a" candidate="n">Quantum-dot cellular automata</mainterm><mainterm weight="a" candidate="n">Switching structures</mainterm></idxterms><subject-areas><subject-area code="2504" abbrev="MATE">Electronic, Optical and Magnetic Materials</subject-area><subject-area code="3107" abbrev="PHYS">Atomic and Molecular Physics, and Optics</subject-area><subject-area code="3104" abbrev="PHYS">Condensed Matter Physics</subject-area><subject-area code="2508" abbrev="MATE">Surfaces, Coatings and Films</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-18T17:03:12.170Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="14" month="05" timestamp="2019-05-14T23:42:51.000051-04:00" year="2019"/><ait:date-sort day="01" month="04" year="2006"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0167931706001717</ce:pii>
+                    <ce:doi>10.1016/j.mee.2006.01.119</ce:doi>
+                    <itemid idtype="PUI">43619657</itemid>
+                    <itemid idtype="CPX">2006189853977</itemid>
+                    <itemid idtype="SCP">33646021317</itemid>
+                    <itemid idtype="SGR">33646021317</itemid>
+                </itemidlist><history>
+                    <date-created day="03" month="05" year="2006"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Multi-valued logic</author-keyword>
+                        <author-keyword xml:lang="eng">Quantum-dot cellular automata</author-keyword>
+                        <author-keyword xml:lang="eng">Switching structures</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Towards the bottom-up concept: Extended quantum-dot cellular automata</titletext></citation-title><author-group><author auid="6506903357" seq="1"><ce:initials>I.</ce:initials><ce:indexed-name>Lebar Bajec I.</ce:indexed-name><ce:surname>Lebar Bajec</ce:surname><ce:given-name>Iztok</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Lebar Bajec I.</ce:indexed-name>
+                            <ce:surname>Lebar Bajec</ce:surname>
+                            <ce:given-name>Iztok</ce:given-name>
+                        </preferred-name></author><author auid="35613179800" seq="2"><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><ce:given-name>Nikolaj</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Zimic N.</ce:indexed-name>
+                            <ce:surname>Zimic</ce:surname>
+                            <ce:given-name>Nikolaj</ce:given-name>
+                        </preferred-name></author><author auid="7007175863" seq="3"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Mraz M.</ce:indexed-name>
+                            <ce:surname>Mraz</ce:surname>
+                            <ce:given-name>Miha</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Trzaska cesta 25</address-part><city-group>1000 Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>I.</ce:initials>
+                        <ce:indexed-name>Lebar Bajec I.</ce:indexed-name>
+                        <ce:surname>Lebar Bajec</ce:surname>
+                    </person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Trzaska cesta 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>In this article we present an extended quantum-dot cellular automaton (QCA) cell. The classical QCA cell is extended in the sense of an enlarged range of its possible stable and usable states. Indeed, in the classical QCA cell the electrons, owing to electrostatic repulsion, align along one of the two diagonal configurations that correspond to their maximal spatial separation. The QCA cell thus has the ability to encode two states - two logic values (0 and 1). By extending the QCA cell with four additional quantum dots, we introduce the extended QCA (EQCA) cell and analyze its behavior, the analysis of which is based on the semi-classical modeling approach. Experiments showed that by using a special interpretation of electron configurations in the EQCA, the range of possible states can be increased from two to three, giving the EQCA cell the ability to encode the logic values (0, 1/2 and 1). The primary motive of this article is to promote the idea of finally switching focus from pure miniaturization and the top-down concept to the bottom-up concept and start extending the currently available approaches to allow for 'richer' processing and data storage capabilities without a major increase in space requirements. © 2006 Elsevier B.V. All rights reserved.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="26696" type="j"><sourcetitle>Microelectronic Engineering</sourcetitle><sourcetitle-abbrev>Microelectron Eng</sourcetitle-abbrev><issn type="print">01679317</issn><codencode>MIENE</codencode><volisspag>
+                        <voliss issue="4-9 SPEC. ISS." volume="83"/>
+                        <pagerange first="1826" last="1829"/>
+                    </volisspag><publicationyear first="2006"/><publicationdate>
+                        <year>2006</year>
+                        <month>04</month>
+                    <date-text xfab-added="true">April 2006</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>701.1</classification>
+                            <classification>702.1</classification>
+                            <classification>714.2</classification>
+                            <classification>721.1</classification>
+                            <classification>723.1</classification>
+                            <classification>723.5</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2504</classification>
+                            <classification>3107</classification>
+                            <classification>3104</classification>
+                            <classification>2508</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATE</classification><classification>PHYS</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="10">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33646053288</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Steane S.</ce:indexed-name>
+                                    <ce:surname>Steane</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Rieffel E.</ce:indexed-name>
+                                    <ce:surname>Rieffel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="38"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Steane S., and Rieffel E. IEEE Comput. 1 (2000) 38</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027266749</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Porod W.</ce:indexed-name>
+                                    <ce:surname>Porod</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nanotechnology</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="49"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lent C.S., Tougaw P.D., Porod W., and Bernstein G.H. Nanotechnology 4 (1993) 49</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36449009014</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss volume="75"/>
+                                <pagerange first="1818"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tougaw P.D., and Lent C.S. J. Appl. Phys. 75 (1994) 1818</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034756174</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Macucci M.</ce:indexed-name>
+                                    <ce:surname>Macucci</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Iannaccone G.</ce:indexed-name>
+                                    <ce:surname>Iannaccone</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Francaviglia S.</ce:indexed-name>
+                                    <ce:surname>Francaviglia</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Pellegrini B.</ce:indexed-name>
+                                    <ce:surname>Pellegrini</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Circ. Theor. Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="37"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Macucci M., Iannaccone G., Francaviglia S., and Pellegrini B. Int. J. Circ. Theor. Appl. 29 (2001) 37</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36449004365</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="74"/>
+                                <pagerange first="6227"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lent C.S., and Tougaw P.D. J. Appl. Phys 74 (1993) 6227</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33749163166</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.T.</ce:initials>
+                                    <ce:indexed-name>Niemier M.T.</ce:indexed-name>
+                                    <ce:surname>Niemier</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.M.</ce:initials>
+                                    <ce:indexed-name>Kogge P.M.</ce:indexed-name>
+                                    <ce:surname>Kogge</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nano, Quantum and Molecular Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-text>Shukla S.K., and Bahar R.I. (Eds), Kluwer Academic Publishers, Boston (Chapter 9)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Niemier M.T., and Kogge P.M. In: Shukla S.K., and Bahar R.I. (Eds). Nano, Quantum and Molecular Computing (2004), Kluwer Academic Publishers, Boston (Chapter 9)</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000115540</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+                                    <ce:surname>Tougaw</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.S.</ce:initials>
+                                    <ce:indexed-name>Lent C.S.</ce:indexed-name>
+                                    <ce:surname>Lent</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="80"/>
+                                <pagerange first="4722"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tougaw P.D., and Lent C.S. J. Appl. Phys. 80 (1996) 4722</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003830657</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kohavi Z.</ce:indexed-name>
+                                    <ce:surname>Kohavi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Switching and Finite Automata Theory</ref-sourcetitle>
+                            <ref-publicationyear first="1978"/>
+                            <ref-text>McGraw-Hill Inc., New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kohavi Z. Switching and Finite Automata Theory (1978), McGraw-Hill Inc., New York</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033328168</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.L.</ce:initials>
+                                    <ce:indexed-name>Snider G.L.</ce:indexed-name>
+                                    <ce:surname>Snider</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.O.</ce:initials>
+                                    <ce:indexed-name>Orlov A.O.</ce:indexed-name>
+                                    <ce:surname>Orlov</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Amlani I.</ce:indexed-name>
+                                    <ce:surname>Amlani</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.H.</ce:initials>
+                                    <ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+                                    <ce:surname>Bernstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Jpn. J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss volume="38"/>
+                                <pagerange first="7227"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Snider G.L., Orlov A.O., Amlani I., and Bernstein G.H. Jpn. J. Appl. Phys. 38 (1999) 7227</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003913087</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Borkowski L.</ce:indexed-name>
+                                    <ce:surname>Borkowski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Jan Lukasiewicz: Selected Works</ref-sourcetitle>
+                            <ref-publicationyear first="1970"/>
+                            <ref-text>North-Holland Publishing Company, Amsterdam</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Borkowski L. Jan Lukasiewicz: Selected Works (1970), North-Holland Publishing Company, Amsterdam</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

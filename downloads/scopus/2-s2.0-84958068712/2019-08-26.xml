@@ -1,0 +1,911 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84958068712</prism:url><dc:identifier>SCOPUS_ID:84958068712</dc:identifier><eid>2-s2.0-84958068712</eid><prism:doi>10.15439/2015F329</prism:doi><article-number>2015F329</article-number><dc:title>Maximum exploratory equivalence in trees</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>Proceedings of the 2015 Federated Conference on Computer Science and Information Systems, FedCSIS 2015</prism:publicationName><dc:publisher>
+Institute of Electrical and Electronics Engineers Inc.
+</dc:publisher><source-id>21100446264</source-id><prism:isbn>9788360810651</prism:isbn><prism:startingPage>507</prism:startingPage><prism:endingPage>518</prism:endingPage><prism:pageRange>507-518</prism:pageRange><prism:coverDate>2015-01-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<publishercopyright>© 2015, IEEE.</publishercopyright>
+<ce:para>Many practical problems are modeled with networks and graphs. Their exploration is of significant importance, and several graph-exploration algorithms already exist. In this paper, we focus on a type of vertex equivalence, called exploratory equivalence, which has a great potential to speed up such algorithms. It is an equivalence based on graph automorphisms and can, for example, help us in solving the subgraph isomorphism problem, which is a well-known NP-hard problem. In particular, if a given pattern graph has nontrivial automorphisms, then each of its nontrivial exploratory equivalent classes gives rise to a set of constraints to prune the search space of solutions. In the paper, we define the maximum exploratory equivalence problem. We show that the defined problem is at least as hard the graph isomorphism problem. Additionally, we present a polynomial-time algorithm for solving the problem when the input is restricted to tree graphs. Furthermore, we show that for trees, a maximum exploratory equivalent partition leads to a globally optimal set of subgraph isomorphism constraints, whereas this is not necessarily the case for general graphs.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84958068712" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84958068712&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84958068712&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="57115426400"><ce:initials>U.C.</ce:initials><ce:indexed-name>Ibej U.C.</ce:indexed-name><ce:surname>Ibej</ce:surname><ce:given-name>Uroš Č</ce:given-name><preferred-name><ce:initials>U.C.</ce:initials><ce:indexed-name>Ibej U.</ce:indexed-name><ce:surname>Ibej</ce:surname><ce:given-name>Uroš C.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57115426400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7801483569"><ce:initials>J.</ce:initials><ce:indexed-name>Mihelic J.</ce:indexed-name><ce:surname>Mihelič</ce:surname><ce:given-name>Jurij</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Mihelič J.</ce:indexed-name><ce:surname>Mihelič</ce:surname><ce:given-name>Jurij</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7801483569</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Equivalence problem</mainterm><mainterm weight="b" candidate="n">Equivalent partitions</mainterm><mainterm weight="b" candidate="n">Graph automorphisms</mainterm><mainterm weight="b" candidate="n">Graph isomorphism problem</mainterm><mainterm weight="b" candidate="n">Networks and graphs</mainterm><mainterm weight="b" candidate="n">Polynomial-time algorithms</mainterm><mainterm weight="b" candidate="n">Subgraph isomorphism</mainterm><mainterm weight="b" candidate="n">Subgraph isomorphism problem</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="04" month="02" timestamp="2019-02-04T21:47:43.000043-05:00" year="2019"/><ait:date-sort day="01" month="01" year="2015"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2016 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.15439/2015F329</ce:doi>
+<itemid idtype="PUI">608384596</itemid>
+<itemid idtype="CAR-ID">645708367</itemid>
+<itemid idtype="CPX">20160801961039</itemid>
+<itemid idtype="SCP">84958068712</itemid>
+<itemid idtype="SGR">84958068712</itemid>
+</itemidlist><history>
+<date-created day="19" month="02" timestamp="BST 09:57:01" year="2016"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Maximum exploratory equivalence in trees</titletext></citation-title><author-group><author auid="24329188700" seq="1" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Fürst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+<ce:given-name>Luka</ce:given-name>
+</preferred-name></author><author auid="57115426400" seq="2" type="auth"><ce:initials>U.C.</ce:initials><ce:indexed-name>Ibej U.C.</ce:indexed-name><ce:surname>Ibej</ce:surname><ce:given-name>Uroš Č</ce:given-name><preferred-name>
+<ce:initials>U.C.</ce:initials>
+<ce:indexed-name>Ibej U.</ce:indexed-name>
+<ce:surname>Ibej</ce:surname>
+<ce:given-name>Uroš C.</ce:given-name>
+</preferred-name></author><author auid="7801483569" seq="3" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Mihelic J.</ce:indexed-name><ce:surname>Mihelič</ce:surname><ce:given-name>Jurij</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Mihelič J.</ce:indexed-name>
+<ce:surname>Mihelič</ce:surname>
+<ce:given-name>Jurij</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+<publishercopyright>© 2015, IEEE.</publishercopyright>
+<ce:para>Many practical problems are modeled with networks and graphs. Their exploration is of significant importance, and several graph-exploration algorithms already exist. In this paper, we focus on a type of vertex equivalence, called exploratory equivalence, which has a great potential to speed up such algorithms. It is an equivalence based on graph automorphisms and can, for example, help us in solving the subgraph isomorphism problem, which is a well-known NP-hard problem. In particular, if a given pattern graph has nontrivial automorphisms, then each of its nontrivial exploratory equivalent classes gives rise to a set of constraints to prune the search space of solutions. In the paper, we define the maximum exploratory equivalence problem. We show that the defined problem is at least as hard the graph isomorphism problem. Additionally, we present a polynomial-time algorithm for solving the problem when the input is restricted to tree graphs. Furthermore, we show that for trees, a maximum exploratory equivalent partition leads to a globally optimal set of subgraph isomorphism constraints, whereas this is not necessarily the case for general graphs.</ce:para>
+</abstract></abstracts><source country="usa" srcid="21100446264" type="p"><sourcetitle>Proceedings of the 2015 Federated Conference on Computer Science and Information Systems, FedCSIS 2015</sourcetitle><sourcetitle-abbrev>Proc. Fed. Conf. Comput. Sci. Inf. Syst., FedCSIS</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Proceedings of the 2015 Federated Conference on Computer Science and Information Systems, FedCSIS 2015</translated-sourcetitle><issuetitle>Proceedings of the 2015 Federated Conference on Computer Science and Information Systems, FedCSIS 2015</issuetitle><isbn length="13" type="electronic">9788360810651</isbn><volisspag>
+<pagerange first="507" last="518"/>
+</volisspag><article-number>2015F329</article-number><publicationyear first="2015"/><publicationdate>
+<year>2015</year>
+<date-text xfab-added="true">2015</date-text></publicationdate><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Paprzycki M.</ce:indexed-name>
+<ce:surname>Paprzycki</ce:surname>
+<ce:given-name>Marcin</ce:given-name>
+</contributor>
+</contributor-group><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Maciaszek L.</ce:indexed-name>
+<ce:surname>Maciaszek</ce:surname>
+<ce:given-name>Leszek</ce:given-name>
+</contributor>
+</contributor-group><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ganzha M.</ce:indexed-name>
+<ce:surname>Ganzha</ce:surname>
+<ce:given-name>Maria</ce:given-name>
+</contributor>
+</contributor-group><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Maciaszek L.</ce:indexed-name>
+<ce:surname>Maciaszek</ce:surname>
+<ce:given-name>Leszek</ce:given-name>
+</contributor>
+</contributor-group><publisher>
+<publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+</publisher><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>Federated Conference on Computer Science and Information Systems, FedCSIS 2015</confname>
+<confseriestitle>Federated Conference on Computer Science and Information Systems</confseriestitle>
+<conflocation country="pol">
+<city>Lodz</city>
+</conflocation>
+<confdate>
+<startdate day="13" month="09" year="2015"/>
+<enddate day="16" month="09" year="2015"/>
+</confdate>
+<conforganization>Polish Information Processing Society (Mazovia Chapter) and Wroclaw University of Economics</conforganization>
+<confcatnumber>CFP1485N-ART</confcatnumber>
+<confcode>117625</confcode>
+<confsponsors complete="n">
+<confsponsor>Intel</confsponsor>
+<confsponsor>Ministry of Science and Higher Education</confsponsor>
+<confsponsor>Samsung</confsponsor>
+</confsponsors>
+</confevent>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1700</classification>
+</classifications><classifications type="CPXCLASS">
+<classification> <classification-code>721.1</classification-code> <classification-description>Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)</classification-description> </classification>
+<classification> <classification-code>903.2</classification-code> <classification-description>Information Dissemination</classification-description> </classification>
+<classification> <classification-code>921.4</classification-code> <classification-description>Combinatorial Mathematics, Includes Graph Theory, Set Theory</classification-description> </classification>
+<classification> <classification-code>921.6</classification-code> <classification-description>Numerical Methods</classification-description> </classification>
+</classifications><classifications type="FLXCLASS">
+<classification> <classification-code>902</classification-code> <classification-description>FLUIDEX; Related Topics</classification-description> </classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="28">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Geospatial structure of a planetary-scale social network</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84921918102</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Leskovec J.</ce:indexed-name>
+<ce:surname>Leskovec</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Horvitz E.</ce:indexed-name>
+<ce:surname>Horvitz</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Computational Social Systems</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-volisspag>
+<voliss issue="3" volume="1"/>
+<pagerange first="156" last="163"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>J. Leskovec and E. Horvitz, "Geospatial structure of a planetary-scale social network", IEEE Transactions on Computational Social Systems, vol. 1, no. 3, pp. 156-163, 2014. doi: 10.1109/TCSS.2014.2377789</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Efficient substructure searching of large chemical libraries: The ABCD chemical cartridge</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84555177520</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.K.</ce:initials>
+<ce:indexed-name>Agrafiotis D.K.</ce:indexed-name>
+<ce:surname>Agrafiotis</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>V.S.</ce:initials>
+<ce:indexed-name>Lobanov V.S.</ce:indexed-name>
+<ce:surname>Lobanov</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Shemanarev M.</ce:indexed-name>
+<ce:surname>Shemanarev</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.N.</ce:initials>
+<ce:indexed-name>Rassokhin D.N.</ce:indexed-name>
+<ce:surname>Rassokhin</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Izrailev S.</ce:indexed-name>
+<ce:surname>Izrailev</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>E.P.</ce:initials>
+<ce:indexed-name>Jaeger E.P.</ce:indexed-name>
+<ce:surname>Jaeger</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Alex S.</ce:indexed-name>
+<ce:surname>Alex</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Farnum M.</ce:indexed-name>
+<ce:surname>Farnum</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Chemical Information and Modeling</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<pagerange first="3113" last="3130"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>D. K. Agrafiotis, V. S. Lobanov, M. Shemanarev, D. N. Rassokhin, S. Izrailev, E. P. Jaeger, S. Alex, and M. Farnum, "Efficient Substructure Searching of Large Chemical Libraries: The ABCD Chemical Cartridge", Journal of Chemical Information and Modeling, pp. 3113-3130, 2011. doi: 10.1021/ci200413e</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Substructure searching methods: Old and new</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000043736</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Barnard J.M.</ce:indexed-name>
+<ce:surname>Barnard</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Chemical Information and Computer Sciences</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-volisspag>
+<voliss issue="4" volume="33"/>
+<pagerange first="532" last="538"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>J. M. Barnard, "Substructure searching methods: Old and new", Journal of Chemical Information and Computer Sciences, vol. 33, no. 4, pp. 532-538, 1993. doi: 10.1021/ci00014a001</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84923967286</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.O.</ce:initials>
+<ce:indexed-name>Jackson M.O.</ce:indexed-name>
+<ce:surname>Jackson</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Social and Economic Networks</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-text>Princeton, NJ, USA: Princeton University Press, 9780691134406</ref-text>
+</ref-info>
+<ref-fulltext>M. O. Jackson, Social and Economic Networks. Princeton, NJ, USA: Princeton University Press, 2008. ISBN 0691134405, 9780691134406</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004167392</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Knoke D.</ce:indexed-name>
+<ce:surname>Knoke</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Political Networks: The Structural Perspective, Ser. Structural Analysis in the Social Sciences</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-website>
+<ce:e-address type="email">http://books.google.si/books?id=9djTlBLaOccC</ce:e-address>
+</ref-website>
+<ref-text>Cambridge University Press</ref-text>
+</ref-info>
+<ref-fulltext>D. Knoke, Political Networks: The Structural Perspective, ser. Structural Analysis in the Social Sciences. Cambridge University Press, 1994. ISBN 9780521477628. [Online]. Available: http://books. google.si/books?id=9djTlBLaOccC</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Kevin bacon and graph theory</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84968329739</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Hopkins B.</ce:indexed-name>
+<ce:surname>Hopkins</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Problems, Resources, and Issues in Mathematics Undergraduate Studies (PRIMUS)</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss issue="1" volume="14"/>
+<pagerange first="5" last="11"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>B. Hopkins, "Kevin Bacon and graph theory", Problems, Resources, and Issues in Mathematics Undergraduate Studies (PRIMUS), vol. 14, no. 1, pp. 5-11, 2004. doi: 10.1080/10511970408984072</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Structural equivalence: Meaning and definition, computation and application</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">34248003261</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.D.</ce:initials>
+<ce:indexed-name>Sailer L.D.</ce:indexed-name>
+<ce:surname>Sailer</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Social Networks</ref-sourcetitle>
+<ref-publicationyear first="1978"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="73" last="90"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>L. D. Sailer, "Structural equivalence: Meaning and definition, computation and application", Social Networks, vol. 1, pp. 73-90, 1978. doi: 10.1016/0378-8733 (78) 90014-X</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Regular equivalence: General theory</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84937313710</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.G.</ce:initials>
+<ce:indexed-name>Everett M.G.</ce:indexed-name>
+<ce:surname>Everett</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.P.</ce:initials>
+<ce:indexed-name>Borgatti S.P.</ce:indexed-name>
+<ce:surname>Borgatti</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Mathematical Sociology</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-volisspag>
+<voliss issue="1" volume="19"/>
+<pagerange first="29" last="52"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>M. G. Everett and S. P. Borgatti, "Regular equivalence: General theory", Journal of mathematical sociology, vol. 19, no. 1, pp. 29-52, 1994. doi: 10.1080/0022250X.1994.9990134</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Exploratory equivalence in graphs: Definition and algorithms</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84912108874</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Mihelic J.</ce:indexed-name>
+<ce:surname>Mihelič</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Furst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Cibej U.</ce:indexed-name>
+<ce:surname>Čibej</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 2014 Federated Conference on Computer Science and Information Systems (FedCSIS), Warsaw</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-volisspag>
+<pagerange first="447" last="456"/>
+</ref-volisspag>
+<ref-text>Poland, September 7-10, 2014</ref-text>
+</ref-info>
+<ref-fulltext>J. Mihelič, L. Fürst, and U. Čibej, "Exploratory equivalence in graphs: Definition and algorithms", in Proceedings of the 2014 Federated Conference on Computer Science and Information Systems (FedCSIS), Warsaw, Poland, September 7-10, 2014, 2014. doi: 10.15439/2014F352 pp. 447-456.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>Pruning by isomorphism in branch-and-cut</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33750972607</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Margot F.</ce:indexed-name>
+<ce:surname>Margot</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Mathematical Programming</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="94"/>
+<pagerange first="71" last="90"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>F. Margot, "Pruning by isomorphism in branch-and-cut", Mathematical Programming, vol. 94, pp. 71-90, 2002. doi: 10.1007/s10107-002-0358-2</ref-fulltext>
+</reference>
+<reference date-locked="2016-10-17T00:00:00.000" id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Orbital branching</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">38049033348</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Ostrowski J.</ce:indexed-name>
+<ce:surname>Ostrowski</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Linderoth J.</ce:indexed-name>
+<ce:surname>Linderoth</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Rossi F.</ce:indexed-name>
+<ce:surname>Rossi</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Smriglio S.</ce:indexed-name>
+<ce:surname>Smriglio</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Integer Programming and Combinatorial Optimization, 12th International IPCO Conference, Ithaca, NY, USA, June 25-27, 2007, Proceedings</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<pagerange first="104" last="118"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>J. Ostrowski, J. Linderoth, F. Rossi, and S. Smriglio, "Orbital branching", in Integer Programming and Combinatorial Optimization, 12th International IPCO Conference, Ithaca, NY, USA, June 25-27, 2007, Proceedings, 2007. doi: 10.1007/978-3-540-72792-7-9 pp. 104-118.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Destroying automorphisms by fixing nodes</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33750610596</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Erwin D.</ce:indexed-name>
+<ce:surname>Erwin</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Harary F.</ce:indexed-name>
+<ce:surname>Harary</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Discrete Mathematics</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="306"/>
+<pagerange first="3244" last="3252"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>D. Erwin and F. Harary, "Destroying automorphisms by fixing nodes", Discrete mathematics, vol. 306, pp. 3244-3252, 2006. doi: 10.1016/j.disc.2006.06.004</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>On the structure of polynomial time reducibility</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0016425038</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Ladner R.</ce:indexed-name>
+<ce:surname>Ladner</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of the ACM</ref-sourcetitle>
+<ref-publicationyear first="1975"/>
+<ref-volisspag>
+<voliss volume="22"/>
+<pagerange first="155" last="171"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>R. Ladner, "On the structure of polynomial time reducibility", Journal of the ACM, vol. 22, pp. 155-171, 1975. doi: 10.1145/321864.321877</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Practical graph isomorphism</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0002603293</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.D.</ce:initials>
+<ce:indexed-name>McKay B.D.</ce:indexed-name>
+<ce:surname>McKay</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Congressus Numerantium 30:10th Manitoba Conference on Numerical Mathematics and Computing</ref-sourcetitle>
+<ref-publicationyear first="1980" last="1981"/>
+<ref-volisspag>
+<pagerange first="45" last="87"/>
+</ref-volisspag>
+<ref-text>Winnipeg, Canada</ref-text>
+</ref-info>
+<ref-fulltext>B. D. McKay, "Practical graph isomorphism", in Congressus Numerantium 30:10th Manitoba Conference on Numerical Mathematics and Computing, Winnipeg, Canada, 1980, 1981, p. 45-87.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>Practical graph isomorphism, II</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84888202264</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.D.</ce:initials>
+<ce:indexed-name>McKay B.D.</ce:indexed-name>
+<ce:surname>McKay</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Piperno A.</ce:indexed-name>
+<ce:surname>Piperno</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Symbolic Computation</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss volume="60"/>
+<pagerange first="94" last="112"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>B. D. McKay and A. Piperno, "Practical graph isomorphism, II", Journal of Symbolic Computation, vol. 60, pp. 94-112, 2013. doi: 10.1016/j.jsc.2013.09.003</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<ref-title>
+<ref-titletext>Engineering an efficient canonical labeling tool for large and sparse graphs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">34547934974</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Junttila T.</ce:indexed-name>
+<ce:surname>Junttila</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Kaski P.</ce:indexed-name>
+<ce:surname>Kaski</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the Ninth Workshop on Algorithm Engineering and Experiments, ALENEX 2007, New Orleans, LA, USA</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-text>January 6, 2007</ref-text>
+</ref-info>
+<ref-fulltext>T. Junttila and P. Kaski, "Engineering an efficient canonical labeling tool for large and sparse graphs", in Proceedings of the Ninth Workshop on Algorithm Engineering and Experiments, ALENEX 2007, New Orleans, LA, USA, January 6, 2007, 2007. doi: 10.1137/1.9781611972870.13</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<ref-title>
+<ref-titletext>Conflict propagation and component recursion for canonical labeling</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79953805809</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Junttila T.</ce:indexed-name>
+<ce:surname>Junttila</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Kaski P.</ce:indexed-name>
+<ce:surname>Kaski</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Theory and Practice of Algorithms in (Computer) Systems - First International ICST Conference, TAPAS 2011, Rome</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="6595 LNCS"/>
+<pagerange first="151" last="162"/>
+</ref-volisspag>
+<ref-text>Italy, April 18-20, Proceedings, ser, Springer, 2011</ref-text>
+</ref-info>
+<ref-fulltext>-, "Conflict propagation and component recursion for canonical labeling", in Theory and Practice of Algorithms in (Computer) Systems - First International ICST Conference, TAPAS 2011, Rome, Italy, April 18-20, 2011, Proceedings, ser. LNCS 6595. Springer, 2011. doi: 10.1007/978-3-642-19754-3-16 pp. 151-162.</ref-fulltext>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>Exploiting structure in symmetry detection for CNF</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">4444225582</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.T.</ce:initials>
+<ce:indexed-name>Darga P.T.</ce:indexed-name>
+<ce:surname>Darga</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.H.</ce:initials>
+<ce:indexed-name>Liffiton M.H.</ce:indexed-name>
+<ce:surname>Liffiton</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>K.A.</ce:initials>
+<ce:indexed-name>Sakallah K.A.</ce:indexed-name>
+<ce:surname>Sakallah</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>I.L.</ce:initials>
+<ce:indexed-name>Markov I.L.</ce:indexed-name>
+<ce:surname>Markov</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 41st Design Automation Conference, DAC 2004, San Diego, CA, USA</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<pagerange first="530" last="534"/>
+</ref-volisspag>
+<ref-text>June 7-11, 2004</ref-text>
+</ref-info>
+<ref-fulltext>P. T. Darga, M. H. Liffiton, K. A. Sakallah, and I. L. Markov, "Exploiting structure in symmetry detection for CNF", in Proceedings of the 41st Design Automation Conference, DAC 2004, San Diego, CA, USA, June 7-11, 2004, 2004. doi: 10.1145/996566.996712 pp. 530-534.</ref-fulltext>
+</reference>
+<reference id="19">
+<ref-info>
+<ref-title>
+<ref-titletext>Faster symmetry discovery using sparsity of symmetries</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">51549094443</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.T.</ce:initials>
+<ce:indexed-name>Darga P.T.</ce:indexed-name>
+<ce:surname>Darga</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>K.A.</ce:initials>
+<ce:indexed-name>Sakallah K.A.</ce:indexed-name>
+<ce:surname>Sakallah</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.L.</ce:initials>
+<ce:indexed-name>Markov I.L.</ce:indexed-name>
+<ce:surname>Markov</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 45th Design Automation Conference, DAC 2008, Anaheim, CA, USA</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<pagerange first="149" last="154"/>
+</ref-volisspag>
+<ref-text>June 8-13, 2008</ref-text>
+</ref-info>
+<ref-fulltext>P. T. Darga, K. A. Sakallah, and I. L. Markov, "Faster symmetry discovery using sparsity of symmetries", in Proceedings of the 45th Design Automation Conference, DAC 2008, Anaheim, CA, USA, June 8-13, 2008, 2008. doi: 10.1145/1391469.1391509 pp. 149-154.</ref-fulltext>
+</reference>
+<reference id="20">
+<ref-info>
+<ref-title>
+<ref-titletext>Symmetry and satisfiability: An update</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">77955000846</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Katebi H.</ce:indexed-name>
+<ce:surname>Katebi</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>K.A.</ce:initials>
+<ce:indexed-name>Sakallah K.A.</ce:indexed-name>
+<ce:surname>Sakallah</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.L.</ce:initials>
+<ce:indexed-name>Markov I.L.</ce:indexed-name>
+<ce:surname>Markov</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Theory and Applications of Satisfiability Testing - SAT 2010, 13th International Conference</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="6175 LNCS"/>
+<pagerange first="113" last="127"/>
+</ref-volisspag>
+<ref-text>Edinburgh, UK, July 11-14, 2010, Proceedings, ser, Springer</ref-text>
+</ref-info>
+<ref-fulltext>H. Katebi, K. A. Sakallah, and I. L. Markov, "Symmetry and satisfiability: An update", in Theory and Applications of Satisfiability Testing - SAT 2010, 13th International Conference, Edinburgh, UK, July 11-14, 2010, Proceedings, ser. LNCS 6175. Springer, 2010. doi: 10.1007/978-3-642-14186-7-11 pp. 113-127.</ref-fulltext>
+</reference>
+<reference id="21">
+<ref-info>
+<ref-title>
+<ref-titletext>Effective use of boolean satisfiability procedures in the formal verification of superscalar and VLIW microprocessors</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034854260</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.N.</ce:initials>
+<ce:indexed-name>Velev M.N.</ce:indexed-name>
+<ce:surname>Velev</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.E.</ce:initials>
+<ce:indexed-name>Bryant R.E.</ce:indexed-name>
+<ce:surname>Bryant</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 38th Design Automation Conference, DAC 2001, las Vegas, NV, USA</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<pagerange first="226" last="231"/>
+</ref-volisspag>
+<ref-text>June 18-22, 2001</ref-text>
+</ref-info>
+<ref-fulltext>M. N. Velev and R. E. Bryant, "Effective use of boolean satisfiability procedures in the formal verification of superscalar and VLIW microprocessors", in Proceedings of the 38th Design Automation Conference, DAC 2001, Las Vegas, NV, USA, June 18-22, 2001, 2001. doi: 10.1145/378239.378469 pp. 226-231.</ref-fulltext>
+</reference>
+<reference id="22">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003415652</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.V.</ce:initials>
+<ce:indexed-name>Aho A.V.</ce:indexed-name>
+<ce:surname>Aho</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Hopcroft J.E.</ce:indexed-name>
+<ce:surname>Hopcroft</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.D.</ce:initials>
+<ce:indexed-name>Ullman J.D.</ce:indexed-name>
+<ce:surname>Ullman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>The Design and Analysis of Computer Algorithms</ref-sourcetitle>
+<ref-publicationyear first="1974"/>
+<ref-text>Addison-Wesley</ref-text>
+</ref-info>
+<ref-fulltext>A. V. Aho, J. E. Hopcroft, and J. D. Ullman, The Design and Analysis of Computer Algorithms. Addison-Wesley, 1974. ISBN 978-0201000290</ref-fulltext>
+</reference>
+<reference id="23">
+<ref-info>
+<ref-title>
+<ref-titletext>The complexity of theorem-proving procedures</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">85059770931</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.A.</ce:initials>
+<ce:indexed-name>Cook S.A.</ce:indexed-name>
+<ce:surname>Cook</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 3rd Annual ACM Symposium on Theory of Computing (STOC), Shaker Heights, Ohio, USA</ref-sourcetitle>
+<ref-publicationyear first="1971"/>
+<ref-volisspag>
+<pagerange first="151" last="158"/>
+</ref-volisspag>
+<ref-text>May 3-5, 1971</ref-text>
+</ref-info>
+<ref-fulltext>S. A. Cook, "The complexity of theorem-proving procedures", in Proceedings of the 3rd Annual ACM Symposium on Theory of Computing (STOC), Shaker Heights, Ohio, USA, May 3-5, 1971, 1971. doi: 10.1145/800157.805047 pp. 151-158.</ref-fulltext>
+</reference>
+<reference id="24">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45849101880</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Arora S.</ce:indexed-name>
+<ce:surname>Arora</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Barak B.</ce:indexed-name>
+<ce:surname>Barak</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computational Complexity: A Modern Approach</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-text>Cambridge University Press</ref-text>
+</ref-info>
+<ref-fulltext>S. Arora and B. Barak, Computational complexity: a modern approach. Cambridge University Press, 2009. ISBN 9780521424264</ref-fulltext>
+</reference>
+<reference id="25">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">79955749568</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.V.</ce:initials>
+<ce:indexed-name>Fomin F.V.</ce:indexed-name>
+<ce:surname>Fomin</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Kratsch D.</ce:indexed-name>
+<ce:surname>Kratsch</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Exact Exponential Algorithms</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-text>Springer</ref-text>
+</ref-info>
+<ref-fulltext>F. V. Fomin and D. Kratsch, Exact Exponential Algorithms. Springer, 2011. ISBN 978-3-642-16532-0</ref-fulltext>
+</reference>
+<reference id="26">
+<ref-info>
+<ref-title>
+<ref-titletext>An algorithm for subgraph isomorphism</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0016870630</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.R.</ce:initials>
+<ce:indexed-name>Ullmann J.R.</ce:indexed-name>
+<ce:surname>Ullmann</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of the ACM</ref-sourcetitle>
+<ref-publicationyear first="1976"/>
+<ref-volisspag>
+<voliss volume="23"/>
+<pagerange first="31" last="42"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>J. R. Ullmann, "An Algorithm for Subgraph Isomorphism", Journal of the ACM, vol. 23, pp. 31-42, 1976. doi: 10.1145/321921.321925</ref-fulltext>
+</reference>
+<reference id="27">
+<ref-info>
+<ref-title>
+<ref-titletext>A (sub) graph isomorphism algorithm for matching large graphs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">4644303571</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.P.</ce:initials>
+<ce:indexed-name>Cordella L.P.</ce:indexed-name>
+<ce:surname>Cordella</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Foggia P.</ce:indexed-name>
+<ce:surname>Foggia</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Sansone C.</ce:indexed-name>
+<ce:surname>Sansone</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Vento M.</ce:indexed-name>
+<ce:surname>Vento</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss issue="10" volume="26"/>
+<pagerange first="1367" last="1372"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>L. P. Cordella, P. Foggia, C. Sansone, and M. Vento, "A (sub) graph isomorphism algorithm for matching large graphs." IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 10, pp. 1367-1372, 2004. doi: 10.1109/TPAMI.2004.75</ref-fulltext>
+</reference>
+<reference id="28">
+<ref-info>
+<ref-title>
+<ref-titletext>A combinatorial approach to graphlet counting</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84894578126</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Hocevar T.</ce:indexed-name>
+<ce:surname>Hočevar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demšar</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-volisspag>
+<voliss issue="4" volume="30"/>
+<pagerange first="559" last="565"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>T. Hočevar and J. Demšar, "A combinatorial approach to graphlet counting", Bioinformatics, vol. 30, no. 4, pp. 559-565, 2014. doi: 10.1093/bioinformatics/btt717</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

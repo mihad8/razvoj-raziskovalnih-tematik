@@ -1,0 +1,1479 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85055878156</prism:url><dc:identifier>SCOPUS_ID:85055878156</dc:identifier><eid>2-s2.0-85055878156</eid><prism:doi>10.1109/JSEN.2018.2878646</prism:doi><article-number>8515281</article-number><dc:title>Average Step Length Estimation Models' Evaluation Using Inertial Sensors: A Review</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>IEEE Sensors Journal</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>15047</source-id><prism:issn>1530437X</prism:issn><prism:volume>19</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>396</prism:startingPage><prism:endingPage>403</prism:endingPage><prism:pageRange>396-403</prism:pageRange><prism:coverDate>2019-01-15</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57204514014"><ce:initials>M.</ce:initials><ce:indexed-name>Vezocnik M.</ce:indexed-name><ce:surname>Vezocnik</ce:surname><ce:given-name>Melanija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Vezocnik M.</ce:indexed-name><ce:surname>Vezocnik</ce:surname><ce:given-name>Melanija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204514014</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2001-2012 IEEE.</publishercopyright>
+                        <ce:para>Inertial sensors of smartphones and other Internet-of-Things devices present a very promising tool to monitor users' activity including their step length. In this review paper, we deal with an in-depth analysis and comparison of 13 representative step length estimation models using smartphone inertial sensors: step-frequency-based, acceleration-based, angle-based, and multiparameter. Hereby, we have studied the influence of different walking speeds and four typical sensor positions on the models' performance. Results indicate that smartphone position affected the performance of most acceleration-based models derived from a gait model. Their performance deteriorated if smartphone was carried in hand or pocket. Walking speed affected the performance of models that include step frequency when tuned with personalized sets of constants. Most of them performed better for fast and normal walking speeds. During this research, we also established an open-source dataset that contains over 22 km of gait measurements obtained from a group of 15 healthy adults.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85055878156" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85055878156&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85055878156&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57204514014"><ce:initials>M.</ce:initials><ce:indexed-name>Vezocnik M.</ce:indexed-name><ce:surname>Vezocnik</ce:surname><ce:given-name>Melanija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Vezocnik M.</ce:indexed-name><ce:surname>Vezocnik</ce:surname><ce:given-name>Melanija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204514014</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003941190"><ce:initials>M.B.</ce:initials><ce:indexed-name>Juric M.B.</ce:indexed-name><ce:surname>Juric</ce:surname><ce:given-name>Matjaz B.</ce:given-name><preferred-name><ce:initials>M.B.</ce:initials><ce:indexed-name>Juric M.</ce:indexed-name><ce:surname>Juric</ce:surname><ce:given-name>Matjaz B.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003941190</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Inertial sensors</author-keyword><author-keyword>review</author-keyword><author-keyword>step length estimation</author-keyword><author-keyword>step length estimation models</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Gait measurements</mainterm><mainterm weight="b" candidate="n">In-depth analysis</mainterm><mainterm weight="b" candidate="n">Inertial sensor</mainterm><mainterm weight="b" candidate="n">Legged locomotion</mainterm><mainterm weight="b" candidate="n">Multiparameters</mainterm><mainterm weight="b" candidate="n">Performance evaluations</mainterm><mainterm weight="b" candidate="n">Sensor position</mainterm><mainterm weight="b" candidate="n">Step length estimations</mainterm></idxterms><subject-areas><subject-area code="3105" abbrev="PHYS">Instrumentation</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-04-01T07:25:01Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>University of Ljubljana</xocs:funding-agency-matched-string></xocs:funding><xocs:funding-text>Manuscript received June 28, 2018; revised October 10, 2018; accepted October 16, 2018. Date of publication October 30, 2018; date of current version December 21, 2018. The work of M. Vezocˇnik was supported by the University of Ljubljana–2016 Generation. The associate editor coordinating the review of this paper and approving it for publication was Prof. Octavian Postolache. (Corresponding author: Melanija Vezocˇnik.) The authors are with the Faculty of Computer and Information Science, University of Ljubljana, 1000 Ljubljana, Slovenia (e-mail: mv6082@student. uni-lj.si; matjaz.juric@fri.uni-lj.si). Digital Object Identifier 10.1109/JSEN.2018.2878646</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="07" month="01" timestamp="2019-01-07T23:57:21.000021-05:00" year="2019"/><ait:date-sort day="15" month="01" year="2019"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2019 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/JSEN.2018.2878646</ce:doi>
+                    <itemid idtype="PUI">624741206</itemid>
+                    <itemid idtype="CAR-ID">913696296</itemid>
+                    <itemid idtype="CPX">20184506037632</itemid>
+                    <itemid idtype="REAXYSCAR">20181971060</itemid>
+                    <itemid idtype="SCOPUS">20183275237</itemid>
+                    <itemid idtype="SCP">85055878156</itemid>
+                    <itemid idtype="SGR">85055878156</itemid>
+                </itemidlist><history>
+                    <date-created day="07" month="01" timestamp="BST 06:15:50" year="2019"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Inertial sensors</author-keyword>
+                        <author-keyword xml:lang="eng">review</author-keyword>
+                        <author-keyword xml:lang="eng">step length estimation</author-keyword>
+                        <author-keyword xml:lang="eng">step length estimation models</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Average Step Length Estimation Models' Evaluation Using Inertial Sensors: A Review</titletext></citation-title><author-group><author auid="57204514014" orcid="0000-0001-7076-6579" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Vezocnik M.</ce:indexed-name><ce:surname>Vezocnik</ce:surname><ce:given-name>Melanija</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Vezocnik M.</ce:indexed-name>
+                            <ce:surname>Vezocnik</ce:surname>
+                            <ce:given-name>Melanija</ce:given-name>
+                        </preferred-name></author><author auid="7003941190" seq="2" type="auth"><ce:initials>M.B.</ce:initials><ce:indexed-name>Juric M.B.</ce:indexed-name><ce:surname>Juric</ce:surname><ce:given-name>Matjaz B.</ce:given-name><preferred-name>
+                            <ce:initials>M.B.</ce:initials>
+                            <ce:indexed-name>Juric M.</ce:indexed-name>
+                            <ce:surname>Juric</ce:surname>
+                            <ce:given-name>Matjaz B.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Vezocnik M.</ce:indexed-name>
+                        <ce:surname>Vezocnik</ce:surname>
+                        <ce:given-name>Melanija</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2001-2012 IEEE.</publishercopyright>
+                        <ce:para>Inertial sensors of smartphones and other Internet-of-Things devices present a very promising tool to monitor users' activity including their step length. In this review paper, we deal with an in-depth analysis and comparison of 13 representative step length estimation models using smartphone inertial sensors: step-frequency-based, acceleration-based, angle-based, and multiparameter. Hereby, we have studied the influence of different walking speeds and four typical sensor positions on the models' performance. Results indicate that smartphone position affected the performance of most acceleration-based models derived from a gait model. Their performance deteriorated if smartphone was carried in hand or pocket. Walking speed affected the performance of models that include step frequency when tuned with personalized sets of constants. Most of them performed better for fast and normal walking speeds. During this research, we also established an open-source dataset that contains over 22 km of gait measurements obtained from a group of 15 healthy adults.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="15047" type="j"><sourcetitle>IEEE Sensors Journal</sourcetitle><sourcetitle-abbrev>IEEE Sensors J.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">IEEE Sensors Journal</translated-sourcetitle><issn type="print">1530437X</issn><volisspag>
+                        <voliss issue="2" volume="19"/>
+                        <pagerange first="396" last="403"/>
+                    </volisspag><article-number>8515281</article-number><publicationyear first="2019"/><publicationdate>
+                        <year>2019</year>
+                        <month>01</month>
+                        <day>15</day>
+                    <date-text xfab-added="true">15 January 2019</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361</ce:e-address>
+                    </website><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>3105</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>PHYS</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="44">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85041030306</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Gartner Says Worldwide Sales of Smartphones Grew 9 Percent in First Quarter of 2017</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.gartner.com/newsroom/id/3725117</ce:e-address>
+                            </ref-website>
+                            <ref-text>Gartner May 23</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Gartner. (May 23, 2017). Gartner Says Worldwide Sales of Smartphones Grew 9 Percent in First Quarter of 2017. [Online]. Available: http://www.gartner.com/newsroom/id/3725117</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SmartMTra: Robust indoor trajectory tracing using smartphones</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85021717118</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Zhang P.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Sensors J</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="17"/>
+                                <pagerange first="3613" last="3624"/>
+                            </ref-volisspag>
+                            <ref-text>Jun</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. Zhang et al., "SmartMTra: Robust indoor trajectory tracing using smartphones, " IEEE Sensors J., vol. 17, no. 12, pp. 3613-3624, Jun. 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Personal dead reckoning using IMU mounted on upper torso and inverted pendulum model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84991515529</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.-N.</ce:initials>
+                                    <ce:indexed-name>Do T.-N.</ce:indexed-name>
+                                    <ce:surname>Do</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Liu R.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Yuen C.</ce:indexed-name>
+                                    <ce:surname>Yuen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zhang M.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>U.-X.</ce:initials>
+                                    <ce:indexed-name>Tan U.-X.</ce:indexed-name>
+                                    <ce:surname>Tan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Sensors J</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="21" volume="16"/>
+                                <pagerange first="7600" last="7608"/>
+                            </ref-volisspag>
+                            <ref-text>Nov</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T.-N. Do, R. Liu, C. Yuen, M. Zhang, and U.-X. Tan, "Personal dead reckoning using IMU mounted on upper torso and inverted pendulum model, " IEEE Sensors J., vol. 16, no. 21, pp. 7600-7608, Nov. 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SmartPDR: Smartphone-based pedestrian dead reckoning for indoor localization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84926442536</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Kang W.</ce:indexed-name>
+                                    <ce:surname>Kang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Han Y.</ce:indexed-name>
+                                    <ce:surname>Han</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Sensors J</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="15"/>
+                                <pagerange first="2906" last="2916"/>
+                            </ref-volisspag>
+                            <ref-text>May</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W. Kang and Y. Han, "SmartPDR: Smartphone-based pedestrian dead reckoning for indoor localization, " IEEE Sensors J., vol. 15, no. 5, pp. 2906-2916, May 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimation of step-by-step spatio-Temporal parameters of normal and impaired gait using shank-mounted magnetoinertial sensors: Application to elderly, Hemiparetic, Parkinsonian and choreic gait</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84925246414</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Trojaniello D.</ce:indexed-name>
+                                    <ce:surname>Trojaniello</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>J. NeuroEng. Rehabil</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="152"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. Trojaniello et al., "Estimation of step-by-step spatio-Temporal parameters of normal and impaired gait using shank-mounted magnetoinertial sensors: Application to elderly, Hemiparetic, Parkinsonian and choreic gait, " J. NeuroEng. Rehabil., vol. 11, p. 152, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis of gait and balance through a single triaxial accelerometer in presymptomatic and symptomatic Huntingtons disease</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84870294979</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Dalton A.</ce:indexed-name>
+                                    <ce:surname>Dalton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Khalil H.</ce:indexed-name>
+                                    <ce:surname>Khalil</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Busse M.</ce:indexed-name>
+                                    <ce:surname>Busse</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rosser A.</ce:indexed-name>
+                                    <ce:surname>Rosser</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Van Deursen R.</ce:indexed-name>
+                                    <ce:surname>Van Deursen</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Olaighin G.</ce:indexed-name>
+                                    <ce:surname>Ólaighin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Gait Posture</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="37"/>
+                                <pagerange first="49" last="54"/>
+                            </ref-volisspag>
+                            <ref-text>Jan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Dalton, H. Khalil, M. Busse, A. Rosser, R. van Deursen, and G. Ólaighin, "Analysis of gait and balance through a single triaxial accelerometer in presymptomatic and symptomatic Huntingtons disease, " Gait Posture, vol. 37, no. 1, pp. 49-54, Jan. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rhythmic extended Kalman filter for gait rehabilitation motion estimation and segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85032853203</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Joukov V.</ce:indexed-name>
+                                    <ce:surname>Joukov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Bonnet V.</ce:indexed-name>
+                                    <ce:surname>Bonnet</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Karg M.</ce:indexed-name>
+                                    <ce:surname>Karg</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Venture G.</ce:indexed-name>
+                                    <ce:surname>Venture</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kulic D.</ce:indexed-name>
+                                    <ce:surname>Kulic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Neural Syst. Rehabil. Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="26"/>
+                                <pagerange first="407" last="418"/>
+                            </ref-volisspag>
+                            <ref-text>Feb</ref-text>
+                        </ref-info>
+                        <ref-fulltext>V. Joukov, V. Bonnet, M. Karg, G. Venture, and D. Kulic, "Rhythmic extended Kalman filter for gait rehabilitation motion estimation and segmentation, " IEEE Trans. Neural Syst. Rehabil. Eng., vol. 26, no. 2, pp. 407-418, Feb. 2018.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Walking step prediction based on GA optimized neural network algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85043705814</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.Y.</ce:initials>
+                                    <ce:indexed-name>Wang A.Y.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Wang L.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 2nd IEEE Int. Conf. Comput. Intell. Appl. (ICCIA), Beijing, China</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="295" last="298"/>
+                            </ref-volisspag>
+                            <ref-text>Sep</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Y. Wang and L. Wang, "Walking step prediction based on GA optimized neural network algorithm, " in Proc. 2nd IEEE Int. Conf. Comput. Intell. Appl. (ICCIA), Beijing, China, Sep. 2017, pp. 295-298.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Pedestrian dead reckoning on smartphones with varying walking speed</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84981306333</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Zhou R.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc IEEE Int. Conf. Commun. (ICC), Kuala Lumpur, Malaysia</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>May</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Zhou, "Pedestrian dead reckoning on smartphones with varying walking speed, " in Proc. IEEE Int. Conf. Commun. (ICC), Kuala Lumpur, Malaysia, May 2016, pp. 1-6.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Improved Pedestrian Dead Reckoning positioning with gait parameter learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84992151543</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kasebzadeh P.</ce:indexed-name>
+                                    <ce:surname>Kasebzadeh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Fritsche C.</ce:indexed-name>
+                                    <ce:surname>Fritsche</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hendeby G.</ce:indexed-name>
+                                    <ce:surname>Hendeby</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Gunnarsson F.</ce:indexed-name>
+                                    <ce:surname>Gunnarsson</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Gustafsson F.</ce:indexed-name>
+                                    <ce:surname>Gustafsson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 19th Int. Conf. Inf. Fusion (FUSION), Berlin, Germany</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="379" last="385"/>
+                            </ref-volisspag>
+                            <ref-text>Jul</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. Kasebzadeh, C. Fritsche, G. Hendeby, F. Gunnarsson, and F. Gustafsson, "Improved Pedestrian Dead Reckoning positioning with gait parameter learning, " in Proc. 19th Int. Conf. Inf. Fusion (FUSION), Berlin, Germany, Jul. 2016, pp. 379-385.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Virtual lifeline: Multimodal sensor data fusion for robust navigation in unknown environments</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861182653</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:indexed-name>Widyawan</ce:indexed-name>
+                                    <ce:surname>Widyawan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pervasive Mobile Comput</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="8"/>
+                                <pagerange first="388" last="401"/>
+                            </ref-volisspag>
+                            <ref-text>Jun</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Widyawan, "Virtual lifeline: Multimodal sensor data fusion for robust navigation in unknown environments, " Pervasive Mobile Comput., vol. 8, no. 3, pp. 388-401, Jun. 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>3D indoor positioning with pedestrian dead reckoning and activity recognition based on Bayes filtering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84973569525</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Moder T.</ce:indexed-name>
+                                    <ce:surname>Moder</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Hafner P.</ce:indexed-name>
+                                    <ce:surname>Hafner</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Wisiol K.</ce:indexed-name>
+                                    <ce:surname>Wisiol</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Wieser M.</ce:indexed-name>
+                                    <ce:surname>Wieser</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Indoor Positioning Indoor Navigat. (IPIN), Busan, South Korea</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="717" last="720"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T. Moder, P. Hafner, K. Wisiol, and M. Wieser, "3D indoor positioning with pedestrian dead reckoning and activity recognition based on Bayes filtering, " in Proc. Int. Conf. Indoor Positioning Indoor Navigat. (IPIN), Busan, South Korea, Oct. 2014, pp. 717-720.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Grid-based indoor localization using smartphones</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85004130356</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Galcik F.</ce:indexed-name>
+                                    <ce:surname>Galčík</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Opiela M.</ce:indexed-name>
+                                    <ce:surname>Opiela</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Indoor Positioning Indoor Navigat. (IPIN), Alcala de Henares, Spain</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>F. Galčík and M. Opiela, "Grid-based indoor localization using smartphones, " in Proc. Int. Conf. Indoor Positioning Indoor Navigat. (IPIN), Alcala de Henares, Spain, Oct. 2016, pp. 1-8.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Step detector and step length estimator for an inertial pocket navigation system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84988222764</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.M.</ce:initials>
+                                    <ce:indexed-name>Diaz E.M.</ce:indexed-name>
+                                    <ce:surname>Diaz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.L.M.</ce:initials>
+                                    <ce:indexed-name>Gonzalez A.L.M.</ce:indexed-name>
+                                    <ce:surname>Gonzalez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Indoor Positioning Indoor Navigat. (IPIN), Busan, South Korea</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="105" last="110"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>E. M. Diaz and A. L. M. Gonzalez, "Step detector and step length estimator for an inertial pocket navigation system, " in Proc. Int. Conf. Indoor Positioning Indoor Navigat. (IPIN), Busan, South Korea, Oct. 2014, pp. 105-110.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Assessment of spatio-Temporal gait parameters from trunk accelerations during human walking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0344084396</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Zijlstra W.</ce:indexed-name>
+                                    <ce:surname>Zijlstra</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Hof A.L.</ce:indexed-name>
+                                    <ce:surname>Hof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Gait Posture</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="18"/>
+                                <pagerange first="1" last="10"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W. Zijlstra and A. L. Hof, "Assessment of spatio-Temporal gait parameters from trunk accelerations during human walking, " Gait Posture, vol. 18, no. 2, pp. 1-10, Oct. 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Using the ADXL202 in pedometer and personal navigation applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36348979044</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Weinberg H.</ce:indexed-name>
+                                    <ce:surname>Weinberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Analog Devices, Norwood, MA, USA, Appl. Note AN-602</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Weinberg, "Using the ADXL202 in pedometer and personal navigation applications, " Analog Devices, Norwood, MA, USA, Appl. Note AN-602, vol. 2, 2002, pp. 1-6.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sensor-based dead-reckoning for indoor positioning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84910099163</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Sharp I.</ce:indexed-name>
+                                    <ce:surname>Sharp</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Yu K.</ce:indexed-name>
+                                    <ce:surname>Yu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phys. Commun</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="4" last="16"/>
+                            </ref-volisspag>
+                            <ref-text>Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>I. Sharp and K. Yu, "Sensor-based dead-reckoning for indoor positioning, " Phys. Commun., vol. 13, pp. 4-16, Dec. 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Measurement of foot placement and its variability with inertial sensors</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84884973807</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Rebula J.R.</ce:indexed-name>
+                                    <ce:surname>Rebula</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.V.</ce:initials>
+                                    <ce:indexed-name>Ojeda L.V.</ce:indexed-name>
+                                    <ce:surname>Ojeda</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Adamczyk P.G.</ce:indexed-name>
+                                    <ce:surname>Adamczyk</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.D.</ce:initials>
+                                    <ce:indexed-name>Kuo A.D.</ce:indexed-name>
+                                    <ce:surname>Kuo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Gait Posture</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="38"/>
+                                <pagerange first="974" last="980"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. R. Rebula, L. V. Ojeda, P. G. Adamczyk, and A. D. Kuo, "Measurement of foot placement and its variability with inertial sensors, " Gait Posture, vol. 38, no. 4, pp. 974-980, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bilateral step length estimation using a single inertial measurement unit attached to the pelvis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861339306</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Koese A.</ce:indexed-name>
+                                    <ce:surname>Köese</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Cereatti A.</ce:indexed-name>
+                                    <ce:surname>Cereatti</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>U.D.</ce:initials>
+                                    <ce:indexed-name>Croce U.D.</ce:indexed-name>
+                                    <ce:surname>Croce</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. NeuroEng. Rehabil</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="9"/>
+                                <pagerange first="9"/>
+                            </ref-volisspag>
+                            <ref-text>Feb</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Köese, A. Cereatti, and U. D. Croce, "Bilateral step length estimation using a single inertial measurement unit attached to the pelvis, " J. NeuroEng. Rehabil., vol. 9, no. 1, p. 9, Feb. 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85059414709</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Open Repository for Evaluation. Accessed</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://github.com/repositoryadmin/SLERepository</ce:e-address>
+                            </ref-website>
+                            <ref-text>Oct. 9</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Open Repository for Evaluation. Accessed: Oct. 9, 2018. [Online]. Available: https://github.com/repositoryadmin/SLERepository</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Displacement of the pelvis during human walking: Experimental data and model predictions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030667603</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Zijlstra W.</ce:indexed-name>
+                                    <ce:surname>Zijlstra</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>Hof A.L.</ce:indexed-name>
+                                    <ce:surname>Hof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Gait Posture</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="6"/>
+                                <pagerange first="249" last="262"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>W. Zijlstra and A. L. Hof, "Displacement of the pelvis during human walking: Experimental data and model predictions, " Gait Posture, vol. 6, no. 3, pp. 249-262, 1997.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33845389698</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.W.</ce:initials>
+                                    <ce:indexed-name>Levi R.W.</ce:indexed-name>
+                                    <ce:surname>Levi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Judd T.</ce:indexed-name>
+                                    <ce:surname>Judd</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Dead Reckoning Navigational System Using Accelerometer to Measure Foot Impacts</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-text>U.S Patent 5 583 776 Dec. 10</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. W. Levi and T. Judd, "Dead reckoning navigational system using accelerometer to measure foot impacts, " U.S. Patent 5 583 776. Dec. 10, 1996.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Comparison of step length estimators from weareable accelerometer devices</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34047173485</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Alvarez D.</ce:indexed-name>
+                                    <ce:surname>Alvarez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.C.</ce:initials>
+                                    <ce:indexed-name>Gonzalez R.C.</ce:indexed-name>
+                                    <ce:surname>González</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Lopez A.</ce:indexed-name>
+                                    <ce:surname>López</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.C.</ce:initials>
+                                    <ce:indexed-name>Alvarez J.C.</ce:indexed-name>
+                                    <ce:surname>Alvarez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf IEEE Eng. Med. Biol. Soc., New York, NY, USA, Aug./Sep</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="5964" last="5967"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. Alvarez, R. C. González, A. López, and J. C. Alvarez, "Comparison of step length estimators from weareable accelerometer devices, " in Proc. Int. Conf. IEEE Eng. Med. Biol. Soc., New York, NY, USA, Aug./Sep. 2006, pp. 5964-5967.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Step length estimation using handheld inertial sensors</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84864338981</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Renaudin V.</ce:indexed-name>
+                                    <ce:surname>Renaudin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Susi M.</ce:indexed-name>
+                                    <ce:surname>Susi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Lachapelle G.</ce:indexed-name>
+                                    <ce:surname>Lachapelle</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sensors</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="12"/>
+                                <pagerange first="8507" last="8525"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>V. Renaudin, M. Susi, and G. Lachapelle, "Step length estimation using handheld inertial sensors, " Sensors, vol. 12, no. 7, pp. 8507-8525, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A smart phone based PDR solution for indoor navigation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861413363</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Chen R.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Pei L.</ce:indexed-name>
+                                    <ce:surname>Pei</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Chen Y.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 24th Int. Tech. Meeting Satell. Division Inst. Navigat. (ION GNSS), Portland, OR, USA</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1404" last="1408"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. Chen, L. Pei, and Y. Chen, "A smart phone based PDR solution for indoor navigation, " in Proc. 24th Int. Tech. Meeting Satell. Division Inst. Navigat. (ION GNSS), Portland, OR, USA, 2011, pp. 1404-1408.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A pedestrian dead reckoning system using SEMG based on activities recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85015205185</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Gao N.</ce:indexed-name>
+                                    <ce:surname>Gao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zhao L.</ce:indexed-name>
+                                    <ce:surname>Zhao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc IEEE Chin. Guid., Navigat. Control Conf. (CGNCC), Nanjing, China</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="2361" last="2365"/>
+                            </ref-volisspag>
+                            <ref-text>Aug</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N. Gao and L. Zhao, "A pedestrian dead reckoning system using SEMG based on activities recognition, " in Proc. IEEE Chin. Guid., Navigat. Control Conf. (CGNCC), Nanjing, China, Aug. 2016, pp. 2361-2365.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A multi-mode dead reckoning system for pedestrian tracking using smartphones</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84962137677</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Tian Q.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Salcic Z.</ce:indexed-name>
+                                    <ce:surname>Salcic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Wang K.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Pan Y.</ce:indexed-name>
+                                    <ce:surname>Pan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Sensors J</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="16"/>
+                                <pagerange first="2079" last="2093"/>
+                            </ref-volisspag>
+                            <ref-text>Apr</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Q. Tian, Z. Salcic, K. Wang, and Y. Pan, "A multi-mode dead reckoning system for pedestrian tracking using smartphones, " IEEE Sensors J., vol. 16, no. 7, pp. 2079-2093, Apr. 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Axis-exchanged compensation and gait parameters analysis for high accuracy indoor pedestrian dead reckoning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84939189390</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zhang H.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Sensors</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="2015"/>
+                            </ref-volisspag>
+                            <ref-text>Jan, Art no 915837</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Zhang et al., "Axis-exchanged compensation and gait parameters analysis for high accuracy indoor pedestrian dead reckoning, " J. Sensors, vol. 2015, Jan. 2015, Art. no. 915837.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Step-detection and adaptive step-length estimation for pedestrian dead-reckoning at various walking speeds using a smartphone</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84985918786</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.-H.</ce:initials>
+                                    <ce:indexed-name>Ho N.-H.</ce:indexed-name>
+                                    <ce:surname>Ho</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.H.</ce:initials>
+                                    <ce:indexed-name>Truong P.H.</ce:indexed-name>
+                                    <ce:surname>Truong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.-M.</ce:initials>
+                                    <ce:indexed-name>Jeong G.-M.</ce:indexed-name>
+                                    <ce:surname>Jeong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sensors</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="16"/>
+                                <pagerange first="1423"/>
+                            </ref-volisspag>
+                            <ref-text>Sep</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N.-H. Ho, P. H. Truong, and G.-M. Jeong, "Step-detection and adaptive step-length estimation for pedestrian dead-reckoning at various walking speeds using a smartphone, " Sensors, vol. 16, no. 9, p. 1423, Sep. 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An improved dead reckoning algorithm for indoor positioning based on inertial sensors</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85046887280</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhou Z.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Chen T.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Xu L.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Elect., Automat. Mech. Eng. (EAME), Phucket, Thailand</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="369" last="371"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Zhou, T. Chen, and L. Xu, "An improved dead reckoning algorithm for indoor positioning based on inertial sensors, " in Proc. Int. Conf. Elect., Automat. Mech. Eng. (EAME), Phucket, Thailand, 2015, pp. 369-371.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A step, stride and heading determination for the pedestrian navigation system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">29244432934</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Kim J.W.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.J.</ce:initials>
+                                    <ce:indexed-name>Jang H.J.</ce:indexed-name>
+                                    <ce:surname>Jang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.-H.</ce:initials>
+                                    <ce:indexed-name>Hwang D.-H.</ce:indexed-name>
+                                    <ce:surname>Hwang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Park C.</ce:indexed-name>
+                                    <ce:surname>Park</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Positioning</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="3"/>
+                                <pagerange first="273" last="279"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. W. Kim, H. J. Jang, D.-H. Hwang, and C. Park, "A step, stride and heading determination for the pedestrian navigation system, " Positioning, vol. 3, nos. 1-2, pp. 273-279, 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Accurate indoor localization based on crowd sensing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84994076515</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Guo Y.</ce:indexed-name>
+                                    <ce:surname>Guo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Li Y.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Sun Y.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Wireless Commun. Mobile Comput. Conf. (IWCMC), Paphos, Cyprus</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="708" last="713"/>
+                            </ref-volisspag>
+                            <ref-text>Sep</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Y. Guo, Y. Li, and Y. Sun, "Accurate indoor localization based on crowd sensing, " in Proc. Int. Wireless Commun. Mobile Comput. Conf. (IWCMC), Paphos, Cyprus, Sep. 2016, pp. 708-713.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On calibrating the sensor errors of a PDR-based indoor localization system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84877319437</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.-C.</ce:initials>
+                                    <ce:indexed-name>Lan K.-C.</ce:indexed-name>
+                                    <ce:surname>Lan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.-Y.</ce:initials>
+                                    <ce:indexed-name>Shih W.-Y.</ce:indexed-name>
+                                    <ce:surname>Shih</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sensors</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="13"/>
+                                <pagerange first="4781" last="4810"/>
+                            </ref-volisspag>
+                            <ref-text>Apr</ref-text>
+                        </ref-info>
+                        <ref-fulltext>K.-C. Lan and W.-Y. Shih, "On calibrating the sensor errors of a PDR-based indoor localization system, " Sensors, vol. 13, no. 4, pp. 4781-4810, Apr. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>In-plane dead reckoning with knee and waist attached gyroscopes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80054978922</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Liu Z.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Aduba C.</ce:indexed-name>
+                                    <ce:surname>Aduba</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.-H.</ce:initials>
+                                    <ce:indexed-name>Won C.-H.</ce:indexed-name>
+                                    <ce:surname>Won</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Measurement</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="44"/>
+                                <pagerange first="1860" last="1868"/>
+                            </ref-volisspag>
+                            <ref-text>Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Z. Liu, C. Aduba, and C.-H. Won, "In-plane dead reckoning with knee and waist attached gyroscopes, " Measurement, vol. 44, no. 10, pp. 1860-1868, Dec. 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spatiotemporal parameters of gait measured by an ambulatory system using miniature gyroscopes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036221730</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Aminian K.</ce:indexed-name>
+                                    <ce:surname>Aminian</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Najafi B.</ce:indexed-name>
+                                    <ce:surname>Najafi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Bola C.</ce:indexed-name>
+                                    <ce:surname>Böla</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.F.</ce:initials>
+                                    <ce:indexed-name>Leyvraz P.F.</ce:indexed-name>
+                                    <ce:surname>Leyvraz</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Robert P.</ce:indexed-name>
+                                    <ce:surname>Robert</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Biomech</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="35"/>
+                                <pagerange first="689" last="699"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Aminian, B. Najafi, C. Böla, P. F. Leyvraz, and P. Robert, "Spatiotemporal parameters of gait measured by an ambulatory system using miniature gyroscopes, " J. Biomech., vol. 35, no. 5, pp. 689-699, 2002.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Gait assessment in Parkinsons disease: Toward an ambulatory system for long-Term monitoring</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3242658261</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Salarian A.</ce:indexed-name>
+                                    <ce:surname>Salarian</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="51"/>
+                                <pagerange first="1434" last="1443"/>
+                            </ref-volisspag>
+                            <ref-text>Aug</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Salarian et al., "Gait assessment in Parkinsons disease: Toward an ambulatory system for long-Term monitoring, " IEEE Trans. Biomed. Eng., vol. 51, no. 8, pp. 1434-1443, Aug. 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Design of an infrastructureless in-door localization device using an IMU sensor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84964475892</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.-N.</ce:initials>
+                                    <ce:indexed-name>Do T.-N.</ce:indexed-name>
+                                    <ce:surname>Do</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Liu R.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Yuen C.</ce:indexed-name>
+                                    <ce:surname>Yuen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>U.-X.</ce:initials>
+                                    <ce:indexed-name>Tan U.-X.</ce:indexed-name>
+                                    <ce:surname>Tan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc IEEE Int. Conf. Robot. Biomimetics (ROBIO), Zhuhai, China</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="2115" last="2120"/>
+                            </ref-volisspag>
+                            <ref-text>Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T.-N. Do, R. Liu, C. Yuen, and U.-X. Tan, "Design of an infrastructureless in-door localization device using an IMU sensor, " in Proc. IEEE Int. Conf. Robot. Biomimetics (ROBIO), Zhuhai, China, Dec. 2015, pp. 2115-2120.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A step length estimation based on motion recognition and adaptive gait cognition using a smartphone</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84939243349</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.H.</ce:initials>
+                                    <ce:indexed-name>Lee J.H.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 27th Int. Tech. Meeting Satell. Division Inst. Navigat. (ION GNSS+), Tampa, FL, USA</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="243" last="249"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. H. Lee et al., "A step length estimation based on motion recognition and adaptive gait cognition using a smartphone, " in Proc. 27th Int. Tech. Meeting Satell. Division Inst. Navigat. (ION GNSS+), Tampa, FL, USA, 2014, pp. 243-249.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adaptive step length estimation algorithm using optimal parameters and movement status awareness</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80054092575</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.H.</ce:initials>
+                                    <ce:indexed-name>Shin S.H.</ce:indexed-name>
+                                    <ce:surname>Shin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.G.</ce:initials>
+                                    <ce:indexed-name>Park C.G.</ce:indexed-name>
+                                    <ce:surname>Park</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Med. Eng. Phys</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="33"/>
+                                <pagerange first="1064" last="1071"/>
+                            </ref-volisspag>
+                            <ref-text>Nov</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. H. Shin and C. G. Park, "Adaptive step length estimation algorithm using optimal parameters and movement status awareness, " Med. Eng. Phys., vol. 33, no. 9, pp. 1064-1071, Nov. 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Pedestrian localisation for indoor environments</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">59249106430</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Woodman O.</ce:indexed-name>
+                                    <ce:surname>Woodman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Harle R.</ce:indexed-name>
+                                    <ce:surname>Harle</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 10th Int. Conf. Ubiquitous Comput. (UbiComp), Seoul, South Korea</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="114" last="123"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>O. Woodman and R. Harle, "Pedestrian localisation for indoor environments, " in Proc. 10th Int. Conf. Ubiquitous Comput. (UbiComp), Seoul, South Korea, 2008, pp. 114-123.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A step length estimation model for position tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84959491516</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Sun Y.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wu H.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Schiller J.</ce:indexed-name>
+                                    <ce:surname>Schiller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Location GNSS (ICL-GNSS), Gothenburg, Sweden</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>Jun</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Y. Sun, H. Wu, and J. Schiller, "A step length estimation model for position tracking, " in Proc. Int. Conf. Location GNSS (ICL-GNSS), Gothenburg, Sweden, Jun. 2015, pp. 1-6.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mobile phone-based displacement estimation for opportunistic localisation systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77951472751</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bylemans I.</ce:indexed-name>
+                                    <ce:surname>Bylemans</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Weyn M.</ce:indexed-name>
+                                    <ce:surname>Weyn</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Klepal M.</ce:indexed-name>
+                                    <ce:surname>Klepal</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 3rd Int. Conf. Mobile Ubiquitous Comput., Syst., Services Technol., Sliema, Malta</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="113" last="118"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>I. Bylemans, M. Weyn, and M. Klepal, "Mobile phone-based displacement estimation for opportunistic localisation systems, " in Proc. 3rd Int. Conf. Mobile Ubiquitous Comput., Syst., Services Technol., Sliema, Malta, Oct. 2009, pp. 113-118.</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A localization system using inertial measurement units from wireless commercial handheld devices</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84902146450</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mikov A.</ce:indexed-name>
+                                    <ce:surname>Mikov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Moschevikin A.</ce:indexed-name>
+                                    <ce:surname>Moschevikin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Fedorov A.</ce:indexed-name>
+                                    <ce:surname>Fedorov</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sikora A.</ce:indexed-name>
+                                    <ce:surname>Sikora</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Indoor Positioning Indoor Navigat., Montbeliard-Belfort, France</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="7"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Mikov, A. Moschevikin, A. Fedorov, and A. Sikora, "A localization system using inertial measurement units from wireless commercial handheld devices, " in Proc. Int. Conf. Indoor Positioning Indoor Navigat., Montbeliard-Belfort, France, Oct. 2013, pp. 1-7.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A hybrid step model and new azimuth estimation method for pedestrian dead reckoning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84921646273</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhu Y.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Zhang R.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Xia W.</ce:indexed-name>
+                                    <ce:surname>Xia</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Jia Z.</ce:indexed-name>
+                                    <ce:surname>Jia</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Shen L.</ce:indexed-name>
+                                    <ce:surname>Shen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 6th Int. Conf. Wireless Commun. Signal Process. (WCSP), Hefei, China</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="5"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Y. Zhu, R. Zhang, W. Xia, Z. Jia, and L. Shen, "A hybrid step model and new azimuth estimation method for pedestrian dead reckoning, " in Proc. 6th Int. Conf. Wireless Commun. Signal Process. (WCSP), Hefei, China, Oct. 2014, pp. 1-5.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

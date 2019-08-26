@@ -1,0 +1,402 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/55749083894</prism:url><dc:identifier>SCOPUS_ID:55749083894</dc:identifier><eid>2-s2.0-55749083894</eid><pii>S0895717708001489</pii><prism:doi>10.1016/j.mcm.2008.05.005</prism:doi><dc:title>A formal apparatus for modeling trust in computing environments</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>32</citedby-count><prism:publicationName>Mathematical and Computer Modelling</prism:publicationName><source-id>24558</source-id><prism:issn>08957177</prism:issn><prism:volume>49</prism:volume><prism:issueIdentifier>1-2</prism:issueIdentifier><prism:startingPage>226</prism:startingPage><prism:endingPage>233</prism:endingPage><prism:pageRange>226-233</prism:pageRange><prism:coverDate>2009-01-01</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="55897351200"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Trček D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55897351200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Recent research in computer systems security has evolved into trust issues, which are now becoming an important topic. The majority of approaches for trust modeling addressed trust by actually focusing on security, and some of them addressed also trust as such. This paper presents a formal apparatus that concentrates on trust as such. It is flexible enough to accommodate the driving factors behind trust and consequently different trust-focused methodologies and technologies. The basic goal of the work presented in this paper is the definition of qualitative trust modeling methodology for trust management in contemporary computing environments that efficiently complements existing quantitative methodologies. Further, an open conceptual model for trust management is presented that accommodates various qualitative and quantitative trust management methodologies. This model has also been implemented in the web services environment, and this is discussed in this paper as well. © 2008 Elsevier Ltd. All rights reserved.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/55749083894" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=55749083894&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=55749083894&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"><affilname>University of Primorska</affilname><affiliation-city>Koper</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55897351200"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Trček D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55897351200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60006286" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006286"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Human behavior</author-keyword><author-keyword>Modeling and simulation</author-keyword><author-keyword>Security</author-keyword><author-keyword>Services oriented architectures</author-keyword><author-keyword>Trust management</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Human behavior</mainterm><mainterm weight="a" candidate="n">Modeling and simulation</mainterm><mainterm weight="a" candidate="n">Security</mainterm><mainterm weight="a" candidate="n">Services oriented architectures</mainterm><mainterm weight="a" candidate="n">Trust management</mainterm></idxterms><subject-areas><subject-area code="2611" abbrev="MATH">Modeling and Simulation</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-18T11:56:52.291Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="25" month="03" timestamp="2019-03-25T18:31:12.000012-04:00" year="2019"/><ait:date-sort day="01" month="01" year="2009"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0895717708001489</ce:pii>
+                    <ce:doi>10.1016/j.mcm.2008.05.005</ce:doi>
+                    <itemid idtype="PUI">50186844</itemid>
+                    <itemid idtype="CABS">2008299692</itemid>
+                    <itemid idtype="CPX">20084611709134</itemid>
+                    <itemid idtype="SCP">55749083894</itemid>
+                    <itemid idtype="SGR">55749083894</itemid>
+                </itemidlist><history>
+                    <date-created day="25" month="06" year="2008"/>
+                </history><dbcollection>CABS</dbcollection><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Human behavior</author-keyword>
+                        <author-keyword xml:lang="eng">Modeling and simulation</author-keyword>
+                        <author-keyword xml:lang="eng">Security</author-keyword>
+                        <author-keyword xml:lang="eng">Services oriented architectures</author-keyword>
+                        <author-keyword xml:lang="eng">Trust management</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">A formal apparatus for modeling trust in computing environments</titletext></citation-title><author-group><author auid="55897351200" seq="1"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Trček D.</ce:indexed-name>
+                            <ce:surname>Trček</ce:surname>
+                            <ce:given-name>Denis</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="105874092"><organization>Laboratory of e-media</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>1000 Ljubljana</city-group><affiliation-id afid="60031106" dptid="105874092"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55897351200" seq="1"><ce:initials>D.</ce:initials><ce:indexed-name>Trcek D.</ce:indexed-name><ce:surname>Trček</ce:surname><ce:given-name>Denis</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Trček D.</ce:indexed-name>
+                            <ce:surname>Trček</ce:surname>
+                            <ce:given-name>Denis</ce:given-name>
+                        </preferred-name></author><affiliation afid="60006286" country="svn"><organization>FAMNIT</organization><organization>University of Primorska</organization><address-part>Glagoljaška 8</address-part><city-group>6000 Koper</city-group><affiliation-id afid="60006286"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>D.</ce:initials>
+                        <ce:indexed-name>Trcek D.</ce:indexed-name>
+                        <ce:surname>Trček</ce:surname>
+                    </person><affiliation country="svn"><organization>Laboratory of e-media</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Recent research in computer systems security has evolved into trust issues, which are now becoming an important topic. The majority of approaches for trust modeling addressed trust by actually focusing on security, and some of them addressed also trust as such. This paper presents a formal apparatus that concentrates on trust as such. It is flexible enough to accommodate the driving factors behind trust and consequently different trust-focused methodologies and technologies. The basic goal of the work presented in this paper is the definition of qualitative trust modeling methodology for trust management in contemporary computing environments that efficiently complements existing quantitative methodologies. Further, an open conceptual model for trust management is presented that accommodates various qualitative and quantitative trust management methodologies. This model has also been implemented in the web services environment, and this is discussed in this paper as well. © 2008 Elsevier Ltd. All rights reserved.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="24558" type="j"><sourcetitle>Mathematical and Computer Modelling</sourcetitle><sourcetitle-abbrev>Math. Comput. Model.</sourcetitle-abbrev><issn type="print">08957177</issn><codencode>MCMOE</codencode><volisspag>
+                        <voliss issue="1-2" volume="49"/>
+                        <pagerange first="226" last="233"/>
+                    </volisspag><publicationyear first="2009"/><publicationdate>
+                        <year>2009</year>
+                        <month>01</month>
+                    <date-text xfab-added="true">January 2009</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CABSCLASS">
+                            <classification>99</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>461.4</classification>
+                            <classification>722</classification>
+                            <classification>723</classification>
+                            <classification>912.2</classification>
+                            <classification>971</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2611</classification>
+                            <classification>1706</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="24">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749110653</itemid>
+                            </refd-itemidlist>
+                            <ref-text>B. Andren, P. Schmidt, Statistics in focus-Education in Europe, KS-NK-05-010-EN-N, European Communities, Luxembourg, 2005</ref-text>
+                        </ref-info>
+                        <ref-fulltext>B. Andren, P. Schmidt, Statistics in focus-Education in Europe, KS-NK-05-010-EN-N, European Communities, Luxembourg, 2005</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749108928</itemid>
+                            </refd-itemidlist>
+                            <ref-text>M. Blaze, J. Feigenbaum, J. Lacy, The role of trust management in distributed systems security, in: Proc. of the IEEE Conf. on Security and Privacy, Oakland, 1996</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Blaze, J. Feigenbaum, J. Lacy, The role of trust management in distributed systems security, in: Proc. of the IEEE Conf. on Security and Privacy, Oakland, 1996</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A logic of authentication</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025386404</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Burrows M.</ce:indexed-name>
+                                    <ce:surname>Burrows</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Abadi M.</ce:indexed-name>
+                                    <ce:surname>Abadi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Needham R.</ce:indexed-name>
+                                    <ce:surname>Needham</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Transactions on Computer Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="8"/>
+                                <pagerange first="18" last="36"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Burrows M., Abadi M., and Needham R. A logic of authentication. ACM Transactions on Computer Systems 8 1 (1990) 18-36</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749107706</itemid>
+                            </refd-itemidlist>
+                            <ref-text>N. Collier, T. Howe, M. North, Onward and upward-the transition to repast 2.0, in: Proceedings of the First Annual North American Association for Computational Social and Organizational Science Conference, Pittsburgh, 2003</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N. Collier, T. Howe, M. North, Onward and upward-the transition to repast 2.0, in: Proceedings of the First Annual North American Association for Computational Social and Organizational Science Conference, Pittsburgh, 2003</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749089451</itemid>
+                            </refd-itemidlist>
+                            <ref-text>J. Collis, D. Ndumu, C. van Buskirk, The Zeus Technical Manual, British Telecom, London, 2000. http://labs.bt.com/projects/agents/zeus/techmanual/</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Collis, D. Ndumu, C. van Buskirk, The Zeus Technical Manual, British Telecom, London, 2000. http://labs.bt.com/projects/agents/zeus/techmanual/</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749093479</itemid>
+                            </refd-itemidlist>
+                            <ref-text>D. Denning, A new Paradigm for trusted systems, in: Proc. of ACM SIGSAC New Security Paradigms Workshop, ACM, New York, 1993, pp. 36-41</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Denning, A new Paradigm for trusted systems, in: Proc. of ACM SIGSAC New Security Paradigms Workshop, ACM, New York, 1993, pp. 36-41</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749094058</itemid>
+                            </refd-itemidlist>
+                            <ref-text>Department of Defense-DoD (1985), Trusted Computer System Evaluation Criteria, DoD Standard 5200-28.STD, Washington D.C:, 1985</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Department of Defense-DoD (1985), Trusted Computer System Evaluation Criteria, DoD Standard 5200-28.STD, Washington D.C:, 1985</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749084448</itemid>
+                            </refd-itemidlist>
+                            <ref-text>T. Dimitrakos, J. Bicarregui, Towards a framework for managing trust in e-services, in: Proc. of Fourth Int. Conference on e-Commerce Research, Dallas, 2001, pp. 360-381</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T. Dimitrakos, J. Bicarregui, Towards a framework for managing trust in e-services, in: Proc. of Fourth Int. Conference on e-Commerce Research, Dallas, 2001, pp. 360-381</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Conservativism in human information processing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749108258</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Edwards W.</ce:indexed-name>
+                                    <ce:surname>Edwards</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Judgement Under Uncertainty</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-text>Kahneman D., Slovic P., and Tversky A. (Eds), Cambridge University Press, Cambridge</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Edwards W. Conservativism in human information processing. In: Kahneman D., Slovic P., and Tversky A. (Eds). Judgement Under Uncertainty (2001), Cambridge University Press, Cambridge</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749098874</itemid>
+                            </refd-itemidlist>
+                            <ref-text>Eurostat (2005), Eurostat Year Book 2005, KS-CD-05-001-EN-C, European Communities, Luxembourg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Eurostat (2005), Eurostat Year Book 2005, KS-CD-05-001-EN-C, European Communities, Luxembourg</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749097499</itemid>
+                            </refd-itemidlist>
+                            <ref-text>Eurostat (2006), More than a third of EU25 population have no basic computer skills-Large differences between the generations, ES news release No. 83/06, Brussels</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Eurostat (2006), More than a third of EU25 population have no basic computer skills-Large differences between the generations, ES news release No. 83/06, Brussels</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey of trust in internet applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0009481412</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Grandison T.</ce:indexed-name>
+                                    <ce:surname>Grandison</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sloman M.</ce:indexed-name>
+                                    <ce:surname>Sloman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Communications Surveys</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="2" last="13"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE Society Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Grandison T., and Sloman M. A survey of trust in internet applications. IEEE Communications Surveys (2000), IEEE Society Press 2-13</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003780715</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Harary F.</ce:indexed-name>
+                                    <ce:surname>Harary</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>A Graph Theory</ref-sourcetitle>
+                            <ref-publicationyear first="1972"/>
+                            <ref-text>Addison-Wesley, Menlo Park</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Harary F. A Graph Theory (1972), Addison-Wesley, Menlo Park</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749091502</itemid>
+                            </refd-itemidlist>
+                            <ref-text>A. Herzberg, et al. Access control meets public key infrastructure in: Proc. of the IEEE Conf. on Security and Privacy, Oakland, 2000</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Herzberg, et al. Access control meets public key infrastructure in: Proc. of the IEEE Conf. on Security and Privacy, Oakland, 2000</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A logic for uncertain probabilities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0347608169</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Josang A.</ce:indexed-name>
+                                    <ce:surname>Jøsang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Journal of Uncertainty, Fuzziness and Knowledge-Based Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="9"/>
+                                <pagerange first="279" last="311"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jøsang A. A logic for uncertain probabilities. Int. Journal of Uncertainty, Fuzziness and Knowledge-Based Systems 9 3 (2001) 279-311</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749085165</itemid>
+                            </refd-itemidlist>
+                            <ref-text>J. Miller, P. Resnick, D. Singer, PICS rating services and rating systems, 1996. http://www.w3c.org/TR/REC-PICS-services</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Miller, P. Resnick, D. Singer, PICS rating services and rating systems, 1996. http://www.w3c.org/TR/REC-PICS-services</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749086284</itemid>
+                            </refd-itemidlist>
+                            <ref-text>A. Nadalin (Ed.) (2005), Web Services Trust Language (WS-Trust), Actional Corporation, BEA Systems, Inc., Computer Associates International, Inc., IBM Corporation, Layer 7 Technologies, Microsoft Corporation, Oblix Inc., OpenNetwork Technologies Inc., Ping Identity Corporation, Reactivity Inc., RSA Security Inc., and VeriSign Inc. http://msdn.microsoft.com/library/en-us/dnglobspec/html/WS-trust.pdf</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Nadalin (Ed.) (2005), Web Services Trust Language (WS-Trust), Actional Corporation, BEA Systems, Inc., Computer Associates International, Inc., IBM Corporation, Layer 7 Technologies, Microsoft Corporation, Oblix Inc., OpenNetwork Technologies Inc., Ping Identity Corporation, Reactivity Inc., RSA Security Inc., and VeriSign Inc. http://msdn.microsoft.com/library/en-us/dnglobspec/html/WS-trust.pdf</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Trust through evaluation and certification?</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035530888</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Osterwalder D.</ce:indexed-name>
+                                    <ce:surname>Osterwalder</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Social Science Computer Review</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="19"/>
+                                <pagerange first="32" last="46"/>
+                            </ref-volisspag>
+                            <ref-text>Sage Publications</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Osterwalder D. Trust through evaluation and certification?. Social Science Computer Review 19 1 (2001) 32-46 Sage Publications</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004265834</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Piaget J.</ce:indexed-name>
+                                    <ce:surname>Piaget</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Judgment and Reasoning in the Child</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>Routledge, London</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Piaget J. Judgment and Reasoning in the Child (1999), Routledge, London</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004209735</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Shafer G.</ce:indexed-name>
+                                    <ce:surname>Shafer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>A Mathematical Theory of Evidence</ref-sourcetitle>
+                            <ref-publicationyear first="1976"/>
+                            <ref-text>Princeton University Press, Princeton</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Shafer G. A Mathematical Theory of Evidence (1976), Princeton University Press, Princeton</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84892804004</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Trcek D.</ce:indexed-name>
+                                    <ce:surname>Trček</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Managing Information Systems Security &amp; Privacy</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>Springer, New York, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Trček D. Managing Information Systems Security &amp; Privacy (2006), Springer, New York, Heidelberg</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749100208</itemid>
+                            </refd-itemidlist>
+                            <ref-text>TrustCoM Consortium (2005), TrusCoM Project-Executive Summary, EU 6.th FW Programme IST/2002/2.3.1.9. http://www.eu-trustcom.com/DownDocumentation.php</ref-text>
+                        </ref-info>
+                        <ref-fulltext>TrustCoM Consortium (2005), TrusCoM Project-Executive Summary, EU 6.th FW Programme IST/2002/2.3.1.9. http://www.eu-trustcom.com/DownDocumentation.php</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">55749089450</itemid>
+                            </refd-itemidlist>
+                            <ref-text>TRUSTe (2005), TRUSTe Security Guidelines, TRUSTe, San Francisco. http://www.truste.org/pdf/SecurityGuidelines.pdf</ref-text>
+                        </ref-info>
+                        <ref-fulltext>TRUSTe (2005), TRUSTe Security Guidelines, TRUSTe, San Francisco. http://www.truste.org/pdf/SecurityGuidelines.pdf</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003646313</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Varian H.</ce:indexed-name>
+                                    <ce:surname>Varian</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Intermediate Microeconomics-A Modern Approach</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>Norton, New York</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Varian H. Intermediate Microeconomics-A Modern Approach (1999), Norton, New York</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

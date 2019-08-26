@@ -1,0 +1,520 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84961751162</prism:url><dc:identifier>SCOPUS_ID:84961751162</dc:identifier><eid>2-s2.0-84961751162</eid><prism:doi>10.1109/OMNVIS.2000.853802</prism:doi><article-number>853802</article-number><dc:title>Robust localization using eigenspace of spinning-images</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>43</citedby-count><prism:publicationName>Proceedings - IEEE Workshop on Omnidirectional Vision, OMNIVIS 2000</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>21100453542</source-id><prism:isbn>0769507042</prism:isbn><prism:isbn>9780769507040</prism:isbn><prism:startingPage>37</prism:startingPage><prism:endingPage>44</prism:endingPage><prism:pageRange>37-44</prism:pageRange><prism:coverDate>2000-01-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="6505794686"><ce:initials>M.</ce:initials><ce:indexed-name>Jogan M.</ce:indexed-name><ce:surname>Jogan</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Jogan M.</ce:indexed-name><ce:surname>Jogan</ce:surname><ce:given-name>Matjaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505794686</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2000 IEEE.</publishercopyright>
+                        <ce:para>Under in-plane rotations of a panoramic camera, the information content of a panoramic image is, in general, preserved. However, different representations that can be derived have important implications on further processing, e.g. for appearance-based localisation. We discuss several approaches based on different representations that have been proposed and evaluate them from different points-of-view, in particular, we argue that most of them are not suitable for robust localization under partially occluded views. In this paper we propose a representation-eigenspace of spinning-images-which enables a straightforward application of the robust estimation of eigenimage coefficients which is directly related to the localization.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84961751162" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84961751162&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84961751162&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6505794686"><ce:initials>M.</ce:initials><ce:indexed-name>Jogan M.</ce:indexed-name><ce:surname>Jogan</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Jogan M.</ce:indexed-name><ce:surname>Jogan</ce:surname><ce:given-name>Matjaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6505794686</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003317327"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Appearance based</mainterm><mainterm weight="b" candidate="n">Eigen-image</mainterm><mainterm weight="b" candidate="n">Information contents</mainterm><mainterm weight="b" candidate="n">Inplane rotation</mainterm><mainterm weight="b" candidate="n">Localisation</mainterm><mainterm weight="b" candidate="n">Panoramic cameras</mainterm><mainterm weight="b" candidate="n">Panoramic images</mainterm><mainterm weight="b" candidate="n">Robust estimation</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="11" month="12" timestamp="2018-12-11T07:06:38.000038-05:00" year="2018"/><ait:date-sort day="01" month="01" year="2000"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2016 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/OMNVIS.2000.853802</ce:doi>
+                    <itemid idtype="PUI">609330546</itemid>
+                    <itemid idtype="CAR-ID">648036454</itemid>
+                    <itemid idtype="CPX">20161402179551</itemid>
+                    <itemid idtype="SCP">84961751162</itemid>
+                    <itemid idtype="SGR">84961751162</itemid>
+                </itemidlist><history>
+                    <date-created day="07" month="12" timestamp="BST 14:57:29" year="2016"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Robust localization using eigenspace of spinning-images</titletext></citation-title><author-group><author auid="6505794686" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Jogan M.</ce:indexed-name><ce:surname>Jogan</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Jogan M.</ce:indexed-name>
+                            <ce:surname>Jogan</ce:surname>
+                            <ce:given-name>Matjaž</ce:given-name>
+                        </preferred-name></author><author auid="7003317327" seq="2" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                            <ce:surname>Leonardis</ce:surname>
+                            <ce:given-name>Aleš</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580862"><organization>Computer Vision Laboratory</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška c. 25</address-part><city>Ljubljana</city><postal-code>1001</postal-code><affiliation-id afid="60031106" dptid="104580862"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2000 IEEE.</publishercopyright>
+                        <ce:para>Under in-plane rotations of a panoramic camera, the information content of a panoramic image is, in general, preserved. However, different representations that can be derived have important implications on further processing, e.g. for appearance-based localisation. We discuss several approaches based on different representations that have been proposed and evaluate them from different points-of-view, in particular, we argue that most of them are not suitable for robust localization under partially occluded views. In this paper we propose a representation-eigenspace of spinning-images-which enables a straightforward application of the robust estimation of eigenimage coefficients which is directly related to the localization.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100453542" type="p"><sourcetitle>Proceedings - IEEE Workshop on Omnidirectional Vision, OMNIVIS 2000</sourcetitle><sourcetitle-abbrev>Proc. - IEEE Workshop Omnidirectional Vis., OMNIVIS</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng"> Proceedings - IEEE Workshop on Omnidirectional Vision, OMNIVIS 2000 </translated-sourcetitle><issuetitle>Proceedings - IEEE Workshop on Omnidirectional Vision, OMNIVIS 2000</issuetitle><isbn length="10" type="electronic">0769507042</isbn><isbn length="13" type="electronic">9780769507040</isbn><volisspag>
+                        <pagerange first="37" last="44"/>
+                    </volisspag><article-number>853802</article-number><publicationyear first="2000"/><publicationdate>
+                        <year>2000</year>
+                    <date-text xfab-added="true">2000</date-text></publicationdate><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>IEEE Workshop on Omnidirectional Vision, OMNIVIS 2000</confname>
+                                <confseriestitle>IEEE Workshop on Omnidirectional Vision</confseriestitle>
+                                <conflocation country="usa">
+                                    <city>Hilton Head Island</city>
+                                    <state>SC</state>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="12" month="06" year="2000"/>
+                                </confdate>
+                                <confcatnumber>PR00704</confcatnumber>
+                                <confcode>116571</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor>IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><descriptorgroup>
+                        <descriptors controlled="n" type="CFL">
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Appearance based</mainterm>
+                            </descriptor>
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Eigen-image</mainterm>
+                            </descriptor>
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Information contents</mainterm>
+                            </descriptor>
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Inplane rotation</mainterm>
+                            </descriptor>
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Localisation</mainterm>
+                            </descriptor>
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Panoramic cameras</mainterm>
+                            </descriptor>
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Panoramic images</mainterm>
+                            </descriptor>
+                            <descriptor>
+                                <mainterm weight="b" candidate="n">Robust estimation</mainterm>
+                            </descriptor>
+                        </descriptors>
+                    </descriptorgroup><classificationgroup><classifications type="ASJC">
+                            <classification>1700</classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="14">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Memory-based self-localisation using omnidirectional images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001804445</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Aihara H.</ce:indexed-name>
+                                    <ce:surname>Aihara</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Iwasa N.</ce:indexed-name>
+                                    <ce:surname>Iwasa</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Yokoya N.</ce:indexed-name>
+                                    <ce:surname>Yokoya</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Takemura H.</ce:indexed-name>
+                                    <ce:surname>Takemura</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>14th International Conference on Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="297" last="299"/>
+                            </ref-volisspag>
+                            <ref-text>A. K. Jain, S. Venkatesh, and B. C. Lovell, editors, IEEE Computer Society Press, August</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Aihara, N. Iwasa, N. Yokoya, and H. Takemura. Memory-based self-localisation using omnidirectional images. In A. K. Jain, S. Venkatesh, and B. C. Lovell, editors, 14th International Conference on Pattern Recognition, pages 297-299. IEEE Computer Society Press, August 1998.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust estimation of correlation with applications to computer vision</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029325844</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Brunelli R.</ce:indexed-name>
+                                    <ce:surname>Brunelli</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Messelodi S.</ce:indexed-name>
+                                    <ce:surname>Messelodi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PR</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="28"/>
+                                <pagerange first="833" last="841"/>
+                            </ref-volisspag>
+                            <ref-text>June</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Brunelli and S. Messelodi. Robust estimation of correlation with applications to computer vision. PR, 28(6):833-841, June 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Properties of the eigenvectors of perysimmetric matrices with applications to communication theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0016987067</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Cantoni A.</ce:indexed-name>
+                                    <ce:surname>Cantoni</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Butler P.</ce:indexed-name>
+                                    <ce:surname>Butler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Communications</ref-sourcetitle>
+                            <ref-publicationyear first="1976"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="COM-24"/>
+                                <pagerange first="804" last="809"/>
+                            </ref-volisspag>
+                            <ref-text>August</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Cantoni and P. Butler. Properties of the eigenvectors of perysimmetric matrices with applications to communication theory. IEEE Transactions on Communications, COM-24(8):804-809, August 1976.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual computation of egomotion using an image interpolation technique</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030133853</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Chahl J.</ce:indexed-name>
+                                    <ce:surname>Chahl</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Srinivasan M.</ce:indexed-name>
+                                    <ce:surname>Srinivasan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biol.Cybern.</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="74"/>
+                                <pagerange first="405" last="411"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Chahl and M. Srinivasan. Visual computation of egomotion using an image interpolation technique. Biol.Cybern., 74(5):405-411, 1996.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>From insect to robot vision</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000089258</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Francheschini N.</ce:indexed-name>
+                                    <ce:surname>Francheschini</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pichon J.</ce:indexed-name>
+                                    <ce:surname>Pichon</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Blanes C.</ce:indexed-name>
+                                    <ce:surname>Blanes</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Phil. Trans. R. Soc. Lond.</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss issue="B 337"/>
+                                <pagerange first="283" last="294"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>N. Francheschini, J. Pichon, and C. Blanes. From insect to robot vision. Phil. Trans. R. Soc. Lond., (B 337):283-294, 1992.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Where did I take that snapshot? Scene-based homing by image matching</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000227009</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Franz M.</ce:indexed-name>
+                                    <ce:surname>Franz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Scholkopf B.</ce:indexed-name>
+                                    <ce:surname>Schölkopf</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Mallot H.</ce:indexed-name>
+                                    <ce:surname>Mallot</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bulthoff H.</ce:indexed-name>
+                                    <ce:surname>Bülthoff</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biol. Cybern.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="79"/>
+                                <pagerange first="191" last="202"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Franz, B. Schölkopf, H. Mallot, and H. Bülthoff. Where did I take that snapshot? Scene-based homing by image matching. Biol. Cybern., 79(3):191-202, 1998.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Image-based memory of environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030408383</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ishiguro H.</ce:indexed-name>
+                                    <ce:surname>Ishiguro</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Tsuji S.</ce:indexed-name>
+                                    <ce:surname>Tsuji</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE/RSJ Int. Conf. Intelligent Robots and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <pagerange first="634" last="639"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Ishiguro and S. Tsuji. Image-based memory of environment. In Proc. IEEE/RSJ Int. Conf. Intelligent Robots and Systems, pages 634-639, 1996.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Panoramic eigenimages for spatial localisation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">22844454862</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Jogan M.</ce:indexed-name>
+                                    <ce:surname>Jogan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Lecture Notes in Computer Science</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="1689"/>
+                                <pagerange first="558" last="567"/>
+                            </ref-volisspag>
+                            <ref-text>F. Solina and A. Leonardis, editors, 8-th International Conference on Computer Analysis of Images and Patterns, Springer Verlag, September</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Jogan and A. Leonardis. Panoramic eigenimages for spatial localisation. In F. Solina and A. Leonardis, editors, 8-th International Conference on Computer Analysis of Images and Patterns, number 1689 in Lecture Notes in Computer Science, pages 558-567. Springer Verlag, September 1999.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84961706244</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Jogan M.</ce:indexed-name>
+                                    <ce:surname>Jogan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Pajdla T.</ce:indexed-name>
+                                    <ce:surname>Pajdla</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image-Based Map of the Lab 130</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>Research Report Center for Machine Perception, Czech Technical University, Prague, Czech Republic, December</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Jogan and T. Pajdla. Image-based map of the lab 130. Research Report CTU-CMP-1999-23, Center for Machine Perception, Czech Technical University, Prague, Czech Republic, December 1999.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Dealing with occlusions in the eigenspace approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029717337</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. of CVPR 96</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <pagerange first="453" last="458"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE Computer Society Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Leonardis and H. Bischof. Dealing with occlusions in the eigenspace approach. In Proc. of CVPR 96, pages 453-458. IEEE Computer Society Press, 1996.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust recognition using eigenimages</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033894632</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Vision and Image Understanding - Special Issue on Robust Statistical Techniques in Image Understanding</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-text>In press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Leonardis and H. Bischof. Robust recognition using eigenimages. Computer Vision and Image Understanding - Special Issue on Robust Statistical Techniques in Image Understanding, 2000. In press.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual learning and recognition of 3-d objects from appearance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029220876</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Murase H.</ce:indexed-name>
+                                    <ce:surname>Murase</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Nayar S.</ce:indexed-name>
+                                    <ce:surname>Nayar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IJCV</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="14"/>
+                                <pagerange first="5" last="24"/>
+                            </ref-volisspag>
+                            <ref-text>January</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Murase and S. Nayar. Visual learning and recognition of 3-d objects from appearance. IJCV, 14(1):5-24, January 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Subspace methods for robot vision</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030260990</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Nayar S.K.</ce:indexed-name>
+                                    <ce:surname>Nayar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Nene S.A.</ce:indexed-name>
+                                    <ce:surname>Nene</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Murase H.</ce:indexed-name>
+                                    <ce:surname>Murase</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. on Robotics and Automation</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="12"/>
+                                <pagerange first="750" last="758"/>
+                            </ref-volisspag>
+                            <ref-text>October</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. K. Nayar, S. A. Nene, and H. Murase. Subspace methods for robot vision. IEEE Trans. on Robotics and Automation, 12(5):750-758, October 1996.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Zero phase representation of panoramic images for image based localization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84957710678</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Pajdla T.</ce:indexed-name>
+                                    <ce:surname>Pajdla</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Hlavac V.</ce:indexed-name>
+                                    <ce:surname>Hlaváč</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Lecture Notes in Computer Science</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="1689"/>
+                                <pagerange first="550" last="557"/>
+                            </ref-volisspag>
+                            <ref-text>F. Solina and A. Leonardis, editors, 8-th International Conference on Computer Analysis of Images and Patterns, Springer Verlag, September</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T. Pajdla and V. Hlaváč. Zero phase representation of panoramic images for image based localization. In F. Solina and A. Leonardis, editors, 8-th International Conference on Computer Analysis of Images and Patterns, number 1689 in Lecture Notes in Computer Science, pages 550-557. Springer Verlag, September 1999.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,798 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85060934821</prism:url><dc:identifier>SCOPUS_ID:85060934821</dc:identifier><eid>2-s2.0-85060934821</eid><prism:doi>10.1109/NEUREL.2018.8587013</prism:doi><article-number>8587013</article-number><dc:title>Real-time Large Scale Traffic Sign Detection</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>2018 14th Symposium on Neural Networks and Applications, NEUREL 2018</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>21100897037</source-id><prism:isbn>9781538669747</prism:isbn><prism:coverDate>2018-12-21</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="26667589000"><ce:initials>A.</ce:initials><ce:indexed-name>Avramovic A.</ce:indexed-name><ce:surname>Avramovic</ce:surname><ce:given-name>Aleksej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Avramovic A.</ce:indexed-name><ce:surname>Avramovic</ce:surname><ce:given-name>Aleksej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/26667589000</author-url><affiliation id="60104200" href="https://api.elsevier.com/content/affiliation/affiliation_id/60104200"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>Automatic traffic sign detection and recognition has achieved good results using convolutional neural networks. Novel architectures are still being proposed in order to improve accuracy of detection and segmentation of traffic sings. In this paper, we are examining the possibility for traffic sign detection and recognition in real-time. For that purpose, we employed a novel YOLOv3 architecture, which has been proven to be fast and accurate method for object detection. It was shown that real-time detection can be achieved, even on HD images, with mAP above 88%.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85060934821" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85060934821&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85060934821&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60104200" href="https://api.elsevier.com/content/affiliation/affiliation_id/60104200"><affilname>University of Banja Luka</affilname><affiliation-city>Banja Luka</affiliation-city><affiliation-country>Bosnia and Herzegovina</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="26667589000"><ce:initials>A.</ce:initials><ce:indexed-name>Avramovic A.</ce:indexed-name><ce:surname>Avramovic</ce:surname><ce:given-name>Aleksej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Avramovic A.</ce:indexed-name><ce:surname>Avramovic</ce:surname><ce:given-name>Aleksej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/26667589000</author-url><affiliation id="60104200" href="https://api.elsevier.com/content/affiliation/affiliation_id/60104200"/></author><author seq="2" auid="55613308000"><ce:initials>D.</ce:initials><ce:indexed-name>Tabernik D.</ce:indexed-name><ce:surname>Tabernik</ce:surname><ce:given-name>Domen</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Tabernik D.</ce:indexed-name><ce:surname>Tabernik</ce:surname><ce:given-name>Domen</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55613308000</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6508184644"><ce:initials>D.</ce:initials><ce:indexed-name>Skocaj D.</ce:indexed-name><ce:surname>Skocaj</ce:surname><ce:given-name>Danijel</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Skocaj D.</ce:indexed-name><ce:surname>Skocaj</ce:surname><ce:given-name>Danijel</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6508184644</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Deep learning</author-keyword><author-keyword>real-time</author-keyword><author-keyword>traffic sign detection</author-keyword><author-keyword>traffic sign recognition</author-keyword><author-keyword>YOLO</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Convolutional neural network</mainterm><mainterm weight="b" candidate="n">Novel architecture</mainterm><mainterm weight="b" candidate="n">Real time</mainterm><mainterm weight="b" candidate="n">Real-time detection</mainterm><mainterm weight="b" candidate="n">Traffic sign detection</mainterm><mainterm weight="b" candidate="n">Traffic sign detection and recognition</mainterm><mainterm weight="b" candidate="n">Traffic sign recognition</mainterm><mainterm weight="b" candidate="n">YOLO</mainterm></idxterms><subject-areas><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area><subject-area code="1711" abbrev="COMP">Signal Processing</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-04-02T05:55:01.866Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Ministry of Science and Technology of the Republic of Srpska</xocs:funding-agency-matched-string><xocs:funding-id>19/6-020/961-37/15</xocs:funding-id><xocs:funding-agency>Ministry of Science and Technology of the People's Republic of China</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100002855</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1814991/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Ministry of Science and Technology</xocs:funding-agency-matched-string><xocs:funding-agency>Ministry of Science and Technology</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100007225</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1562822/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This research is partially supported by the program of academic specialization, granted by Ministry of Science and Technology of the Republic of Srpska and by the Ministry of Science and Technology of the Republic of Srpska under contract 19/6-020/961-37/15.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="08" month="04" timestamp="2019-04-08T02:14:29.000029-04:00" year="2019"/><ait:date-sort day="21" month="12" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2019 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/NEUREL.2018.8587013</ce:doi>
+                    <itemid idtype="PUI">626208053</itemid>
+                    <itemid idtype="CAR-ID">915500733</itemid>
+                    <itemid idtype="CPX">20190606468343</itemid>
+                    <itemid idtype="SCP">85060934821</itemid>
+                    <itemid idtype="SGR">85060934821</itemid>
+                </itemidlist><history>
+                    <date-created day="06" month="02" timestamp="BST 05:46:05" year="2019"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Deep learning</author-keyword>
+                        <author-keyword xml:lang="eng">real-time</author-keyword>
+                        <author-keyword xml:lang="eng">traffic sign detection</author-keyword>
+                        <author-keyword xml:lang="eng">traffic sign recognition</author-keyword>
+                        <author-keyword xml:lang="eng">YOLO</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Real-time Large Scale Traffic Sign Detection</titletext></citation-title><author-group><author auid="26667589000" seq="1" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Avramovic A.</ce:indexed-name><ce:surname>Avramovic</ce:surname><ce:given-name>Aleksej</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Avramovic A.</ce:indexed-name>
+                            <ce:surname>Avramovic</ce:surname>
+                            <ce:given-name>Aleksej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60104200" country="bih" dptid="112983122"><organization>Faculty of Electrical Engineering</organization><organization>University of Banja Luka</organization><city>Banja Luka</city><postal-code>78000</postal-code><affiliation-id afid="60104200" dptid="112983122"/><country>Bosnia and Herzegovina</country></affiliation></author-group><author-group><author auid="55613308000" seq="2" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Tabernik D.</ce:indexed-name><ce:surname>Tabernik</ce:surname><ce:given-name>Domen</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Tabernik D.</ce:indexed-name>
+                            <ce:surname>Tabernik</ce:surname>
+                            <ce:given-name>Domen</ce:given-name>
+                        </preferred-name></author><author auid="6508184644" seq="3" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Skocaj D.</ce:indexed-name><ce:surname>Skocaj</ce:surname><ce:given-name>Danijel</ce:given-name><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Skocaj D.</ce:indexed-name>
+                            <ce:surname>Skocaj</ce:surname>
+                            <ce:given-name>Danijel</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 IEEE.</publishercopyright>
+                        <ce:para>Automatic traffic sign detection and recognition has achieved good results using convolutional neural networks. Novel architectures are still being proposed in order to improve accuracy of detection and segmentation of traffic sings. In this paper, we are examining the possibility for traffic sign detection and recognition in real-time. For that purpose, we employed a novel YOLOv3 architecture, which has been proven to be fast and accurate method for object detection. It was shown that real-time detection can be achieved, even on HD images, with mAP above 88%.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100897037" type="p"><sourcetitle>2018 14th Symposium on Neural Networks and Applications, NEUREL 2018</sourcetitle><sourcetitle-abbrev>Symp. Neural Networks Appl., NEUREL</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">2018 14th Symposium on Neural Networks and Applications, NEUREL 2018</translated-sourcetitle><issuetitle>2018 14th Symposium on Neural Networks and Applications, NEUREL 2018</issuetitle><isbn length="13" level="volume" type="electronic">9781538669747</isbn><article-number>8587013</article-number><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>12</month>
+                        <day>21</day>
+                    <date-text xfab-added="true">21 December 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8573298</ce:e-address>
+                    </website><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>2018 14th Symposium on Neural Networks and Applications, NEUREL 2018</confname>
+                                <confnumber>14</confnumber>
+                                <confseriestitle>Symposium on Neural Networks and Applications</confseriestitle>
+                                <conflocation country="srb">
+                                    <venue>SAVA Center</venue>
+                                    <address-part>Milentija Popovica 9</address-part>
+                                    <city>Belgrade</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="20" month="11" year="2018"/>
+                                    <enddate day="21" month="11" year="2018"/>
+                                </confdate>
+                                <conforganization>IEEE Serbia and Montenegro (S and M) SP/CAS Joint Chapter, and IEEE S and M Section</conforganization>
+                                <confcatnumber>CFP18481-ART</confcatnumber>
+                                <confcode>143836</confcode>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1706</classification>
+                            <classification>1707</classification>
+                            <classification>1711</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                                                                                  
+                                <classification-code>432.4</classification-code>
+                                                                                                  
+                                <classification-description>Highway Traffic Control</classification-description>
+                                                                                              
+                            </classification>
+                            <classification>
+                                                                                                  
+                                <classification-code>723.2</classification-code>
+                                                                                                  
+                                <classification-description>Data Processing</classification-description>
+                                                                                              
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                                                                                  
+                                <classification-code>902</classification-code>
+                                                                                                  
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                                                                              
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="19">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automated road sign inventory system based on stereo vision and tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954858297</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.C.</ce:initials>
+                                    <ce:indexed-name>Wang K.C.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Hou Z.</ce:indexed-name>
+                                    <ce:surname>Hou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Gong W.</ce:indexed-name>
+                                    <ce:surname>Gong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer-Aided Civil and Infrastructure Engineering</ref-sourcetitle>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="25"/>
+                                <pagerange first="468" last="477"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. C. Wang, Z. Hou, and W. Gong, "Automated road sign inventory system based on stereo vision and tracking," Computer-Aided Civil and Infrastructure Engineering, vol. 25, no. 6, pp. 468-477.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Man vs. Computer: Benchmarking machine learning algorithms for traffic sign recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861783004</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Stallkamp J.</ce:indexed-name>
+                                    <ce:surname>Stallkamp</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Schlipsing M.</ce:indexed-name>
+                                    <ce:surname>Schlipsing</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Salmen J.</ce:indexed-name>
+                                    <ce:surname>Salmen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Igel C.</ce:indexed-name>
+                                    <ce:surname>Igel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="32"/>
+                                <pagerange first="323" last="332"/>
+                            </ref-volisspag>
+                            <ref-text>selected Papers from IJCNN 2011</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel, "Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition," Neural Networks, vol. 32, pp. 323-332, 2012, selected Papers from IJCNN 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Traffic sign detection and recognition using fully convolutional network guided proposals</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84992489300</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Zhu Y.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Zhang C.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zhou D.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wang X.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Bai X.</ce:indexed-name>
+                                    <ce:surname>Bai</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Liu W.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="214"/>
+                                <pagerange first="758" last="766"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Y. Zhu, C. Zhang, D. Zhou, X. Wang, X. Bai, and W. Liu, "Traffic sign detection and recognition using fully convolutional network guided proposals," Neurocomputing, vol. 214, pp. 758-766, 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Traffic sign detection and classification in the wild</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84986275076</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhu Z.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Liang D.</ce:indexed-name>
+                                    <ce:surname>Liang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Zhang S.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Huang X.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Li B.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hu S.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR).</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="2110" last="2118"/>
+                            </ref-volisspag>
+                            <ref-text>June</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Z. Zhu, D. Liang, S. Zhang, X. Huang, B. Li, and S. Hu, "Traffic sign detection and classification in the wild," in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2016, pp. 2110-2118.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-Time traffic-sign recognition using tree classifiers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84870484392</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Zaklouta F.</ce:indexed-name>
+                                    <ce:surname>Zaklouta</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Stanciulescu B.</ce:indexed-name>
+                                    <ce:surname>Stanciulescu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Intelligent Transportation Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="13"/>
+                                <pagerange first="1507" last="1514"/>
+                            </ref-volisspag>
+                            <ref-text>Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>F. Zaklouta and B. Stanciulescu, "Real-Time traffic-sign recognition using tree classifiers," IEEE Transactions on Intelligent Transportation Systems, vol. 13, no. 4, pp. 1507-1514, Dec 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Vision-based traffic sign detection and analysis for intelligent driver assistance systems: Perspectives and survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84870547834</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mogelmose A.</ce:indexed-name>
+                                    <ce:surname>Mogelmose</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.M.</ce:initials>
+                                    <ce:indexed-name>Trivedi M.M.</ce:indexed-name>
+                                    <ce:surname>Trivedi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.B.</ce:initials>
+                                    <ce:indexed-name>Moeslund T.B.</ce:indexed-name>
+                                    <ce:surname>Moeslund</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Intelligent Transportation Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="13"/>
+                                <pagerange first="1484" last="1497"/>
+                            </ref-volisspag>
+                            <ref-text>Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Mogelmose, M. M. Trivedi, and T. B. Moeslund, "Vision-based traffic sign detection and analysis for intelligent driver assistance systems: Perspectives and survey," IEEE Transactions on Intelligent Transportation Systems, vol. 13, no. 4, pp. 1484-1497, Dec 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection of traffic signs in real-world images: The German traffic sign detection benchmark</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84893623368</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Houben S.</ce:indexed-name>
+                                    <ce:surname>Houben</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Stallkamp J.</ce:indexed-name>
+                                    <ce:surname>Stallkamp</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Salmen J.</ce:indexed-name>
+                                    <ce:surname>Salmen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Schlipsing M.</ce:indexed-name>
+                                    <ce:surname>Schlipsing</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Igel C.</ce:indexed-name>
+                                    <ce:surname>Igel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The 2013 International Jónt Conference on Neural Networks (IJCNN).</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-text>Aug</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Houben, J. Stallkamp, J. Salmen, M. Schlipsing, and C. Igel, "Detection of traffic signs in real-world images: The german traffic sign detection benchmark," in The 2013 International Jónt Conference on Neural Networks (IJCNN), Aug 2013, pp. 1-8.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A novel plsa based traffic signs classification system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85060918147</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Halo M.</ce:indexed-name>
+                                    <ce:surname>Haló</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CoRR</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1503.06643</ce:e-address>
+                            </ref-website>
+                            <ref-text>vol. abs/1503.06643. [Online]</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Haló, "A novel plsa based traffic signs classification system," CoRR, vol. abs/1503.06643, 2015. [Online]. Available: http://arxiv.org/abs/1503.06643</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Traffic sign recognition with multiscale convolutional networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80054736963</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Sermanet P.</ce:indexed-name>
+                                    <ce:surname>Sermanet</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>LeCun Y.</ce:indexed-name>
+                                    <ce:surname>LeCun</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The 2011 International Jónt Conference on Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="2809" last="2813"/>
+                            </ref-volisspag>
+                            <ref-text>July</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. Sermanet and Y. LeCun, "Traffic sign recognition with multiscale convolutional networks," in The 2011 International Jónt Conference on Neural Networks, July 2011, pp. 2809-2813.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multi-column deep neural network for traffic sign classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861776914</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Ciresan D.</ce:indexed-name>
+                                    <ce:surname>Ciresan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Meier U.</ce:indexed-name>
+                                    <ce:surname>Meier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Masci J.</ce:indexed-name>
+                                    <ce:surname>Masci</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Schmidhuber J.</ce:indexed-name>
+                                    <ce:surname>Schmidhuber</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="32"/>
+                                <pagerange first="333" last="338"/>
+                            </ref-volisspag>
+                            <ref-text>selected Papers from IJCNN 2011</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Ciresan, U. Meier, J. Masci, and J. Schmidhuber, "Multi-column deep neural network for traffic sign classification," Neural Networks, vol. 32, pp. 333-338, 2012, selected Papers from IJCNN 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Traffic sign recognition with hinge loss trained convolutional neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84907602045</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Jin J.</ce:indexed-name>
+                                    <ce:surname>Jin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Fu K.</ce:indexed-name>
+                                    <ce:surname>Fu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Zhang C.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Intelligent Transportation Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="15"/>
+                                <pagerange first="1991" last="2000"/>
+                            </ref-volisspag>
+                            <ref-text>Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Jin, K. Fu, and C. Zhang, "Traffic sign recognition with hinge loss trained convolutional neural networks," IEEE Transactions on Intelligent Transportation Systems, vol. 15, no. 5, pp. 1991-2000, Oct 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multi-view traffic sign detection, recognition, and 3d localization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77951161345</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Timofte R.</ce:indexed-name>
+                                    <ce:surname>Timofte</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zimmermann K.</ce:indexed-name>
+                                    <ce:surname>Zimmermann</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.V.</ce:initials>
+                                    <ce:indexed-name>Gool L.V.</ce:indexed-name>
+                                    <ce:surname>Gool</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2009 Workshop on Applications of Computer Vision (WACV).</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-text>Dec</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. Timofte, K. Zimmermann, and L. V. Gool, "Multi-view traffic sign detection, recognition, and 3d localization," in 2009 Workshop on Applications of Computer Vision (WACV), Dec 2009, pp. 1-8.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A computer vision assisted geónformation inventory for traffic infrastructure</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78650498902</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Segvic S.</ce:indexed-name>
+                                    <ce:surname>Šegvic</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Brkic K.</ce:indexed-name>
+                                    <ce:surname>Brkic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kalafatic Z.</ce:indexed-name>
+                                    <ce:surname>Kalafatic</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Stanisavljevic V.</ce:indexed-name>
+                                    <ce:surname>Stanisavljevic</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sevrovic M.</ce:indexed-name>
+                                    <ce:surname>Ševrovic</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Budimir D.</ce:indexed-name>
+                                    <ce:surname>Budimir</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Dadic I.</ce:indexed-name>
+                                    <ce:surname>Dadic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>13th International IEEE Conference on Intelligent Transportation Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="66" last="73"/>
+                            </ref-volisspag>
+                            <ref-text>Sept</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Šegvic, K. Brkic, Z. Kalafatic, V. Stanisavljevic, M. Ševrovic, D. Budimir, and I. Dadic, "A computer vision assisted geónformation inventory for traffic infrastructure," in 13th International IEEE Conference on Intelligent Transportation Systems, Sept 2010, pp. 66-73.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Densely connected convolutional networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85035343801</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Huang G.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Liu Z.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.Q.</ce:initials>
+                                    <ce:indexed-name>Weinberger K.Q.</ce:indexed-name>
+                                    <ce:surname>Weinberger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR).</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="2261" last="2269"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>G. Huang, Z. Liu, and K. Q. Weinberger, "Densely connected convolutional networks," 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2261-2269, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>You only look once: Unified, real-Time object detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84977618390</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Redmon J.</ce:indexed-name>
+                                    <ce:surname>Redmon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Divvala S.K.</ce:indexed-name>
+                                    <ce:surname>Divvala</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Girshick R.B.</ce:indexed-name>
+                                    <ce:surname>Girshick</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Farhadi A.</ce:indexed-name>
+                                    <ce:surname>Farhadi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CoRR</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1506.02640</ce:e-address>
+                            </ref-website>
+                            <ref-text>vol. abs/1506.02640. [Online</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi, "You only look once: Unified, real-Time object detection," CoRR, vol. abs/1506.02640, 2015. [Online]. Available: http://arxiv.org/abs/1506.02640</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Yolo9000: Better, faster, stronger</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85026876011</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Redmon J.</ce:indexed-name>
+                                    <ce:surname>Redmon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Farhadi A.</ce:indexed-name>
+                                    <ce:surname>Farhadi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CoRR</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1612.08242</ce:e-address>
+                            </ref-website>
+                            <ref-text>vol. abs/1612.08242. [Online</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Redmon and A. Farhadi, "YOLO9000: better, faster, stronger," CoRR, vol. abs/1612.08242, 2016. [Online]. Available: http://arxiv.org/abs/1612.08242</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85054550274</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Redmon J.</ce:indexed-name>
+                                    <ce:surname>Redmon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Farhadi A.</ce:indexed-name>
+                                    <ce:surname>Farhadi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Yolov3: An Incremental Improvement</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-text>arXiv</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Redmon and A. Farhadi, "Yolov3: An incremental improvement," arXiv, 2018.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards largescale traffic sign detection and recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85060948920</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ursic P.</ce:indexed-name>
+                                    <ce:surname>Uršic</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Tabernik D.</ce:indexed-name>
+                                    <ce:surname>Tabernik</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Mandeljc R.</ce:indexed-name>
+                                    <ce:surname>Mandeljc</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Skocaj D.</ce:indexed-name>
+                                    <ce:surname>Skocaj</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 22nd Computer Vision Winter Workshop</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                        </ref-info>
+                        <ref-fulltext>P. Uršic, D. Tabernik, R. Mandeljc, and D. Skocaj, "Towards largescale traffic sign detection and recognition," in Proceedings of the 22nd Computer Vision Winter Workshop, 2017.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The pascal visual object classes (voc) challenge</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77951298115</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Everingham M.</ce:indexed-name>
+                                    <ce:surname>Everingham</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Van Gool L.</ce:indexed-name>
+                                    <ce:surname>Van Gool</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.K.I.</ce:initials>
+                                    <ce:indexed-name>Williams C.K.I.</ce:indexed-name>
+                                    <ce:surname>Williams</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.J.</ce:initials>
+                                    <ce:indexed-name>Winn J.J.</ce:indexed-name>
+                                    <ce:surname>Winn</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zisserman A.</ce:indexed-name>
+                                    <ce:surname>Zisserman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="88"/>
+                                <pagerange first="303" last="338"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, J. and A. Zisserman, "The PASCAL Visual Object Classes (VOC) Challenge", International Journal of Computer Vision, 88(2), 303-338, 2010</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

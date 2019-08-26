@@ -1,0 +1,436 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84944413688</prism:url><dc:identifier>SCOPUS_ID:84944413688</dc:identifier><eid>2-s2.0-84944413688</eid><dc:title>The moodstripe - An evaluation of a novel visual interface as an alternative for online response gathering</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>International series on information systems and management in creative eMedia </prism:publicationName><dc:publisher>
+                        International Ambient Media Association (iAMEA)
+                        
+                            P.O. Box 541, Korkeakoulunkatu 8
+                            Tampere,
+                            33101
+                        
+                    </dc:publisher><source-id>21100416545</source-id><prism:isbn>9781510800168</prism:isbn><prism:issn>23415576</prism:issn><prism:startingPage>1</prism:startingPage><prism:endingPage>5</prism:endingPage><prism:pageRange>1-5</prism:pageRange><prism:coverDate>2014-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="56258907000"><ce:initials>M.</ce:initials><ce:indexed-name>Pesek M.</ce:indexed-name><ce:surname>Pesek</ce:surname><ce:given-name>Matevž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pesek M.</ce:indexed-name><ce:surname>Pesek</ce:surname><ce:given-name>Matevž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56258907000</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>We present an innovative dynamic visual interface, the Mood-Stripe, which provides a continuous-scale, multi-parameter drag-and-drop alternative to the standard n-degree (Likert) scale widgets, commonly used in online evaluation processes. We elaborate on the motivation for the development of the new user input interfaces, and present the results of cross evaluation of the GMail product by using the SUS questionnaire with the standard and the proposed MoodStripe interfaces. The overall goal is to design a more intuitive interface, by reducing the noise and task load inherent in traditional interfaces for standardized user-feedback gathering tests. The results show the MoodStripe interface outperforms the standard scale approach both in terms of intuitiveness and functionality. Additionally, the cross-evaluation of the both approaches shows comparable SUS scores.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84944413688" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84944413688&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84944413688&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60030129" href="https://api.elsevier.com/content/affiliation/affiliation_id/60030129"><affilname>Znanstvenoraziskovalni center Slovenske akademije znanosti in umetnosti</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="56258907000"><ce:initials>M.</ce:initials><ce:indexed-name>Pesek M.</ce:indexed-name><ce:surname>Pesek</ce:surname><ce:given-name>Matevž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pesek M.</ce:indexed-name><ce:surname>Pesek</ce:surname><ce:given-name>Matevž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56258907000</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="56377091000"><ce:initials>P.</ce:initials><ce:indexed-name>Godec P.</ce:indexed-name><ce:surname>Godec</ce:surname><ce:given-name>Primož</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Godec P.</ce:indexed-name><ce:surname>Godec</ce:surname><ce:given-name>Primož</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56377091000</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="56376897200"><ce:initials>M.</ce:initials><ce:indexed-name>Poredos M.</ce:indexed-name><ce:surname>Poredoš</ce:surname><ce:given-name>Mojca</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Poredoš M.</ce:indexed-name><ce:surname>Poredoš</ce:surname><ce:given-name>Mojca</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56376897200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="35175418100"><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35175418100</author-url><affiliation id="60030129" href="https://api.elsevier.com/content/affiliation/affiliation_id/60030129"/></author><author seq="5" auid="17345882300"><ce:initials>J.</ce:initials><ce:indexed-name>Guna J.</ce:indexed-name><ce:surname>Guna</ce:surname><ce:given-name>Jože</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Guna J.</ce:indexed-name><ce:surname>Guna</ce:surname><ce:given-name>Jože</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/17345882300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="6" auid="54407530200"><ce:initials>E.</ce:initials><ce:indexed-name>Stojmenova E.</ce:indexed-name><ce:surname>Stojmenova</ce:surname><ce:given-name>Emilija</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Stojmenova E.</ce:indexed-name><ce:surname>Stojmenova</ce:surname><ce:given-name>Emilija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54407530200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="7" auid="6603825626"><ce:initials>M.</ce:initials><ce:indexed-name>Pogacnik M.</ce:indexed-name><ce:surname>Pogačnik</ce:surname><ce:given-name>Matevž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pogačnik M.</ce:indexed-name><ce:surname>Pogačnik</ce:surname><ce:given-name>Matevž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603825626</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="8" auid="6603601816"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603601816</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Gathering feedback efficiency</author-keyword><author-keyword>Human computer interaction</author-keyword><author-keyword>System usability score</author-keyword><author-keyword>User evaluation study</author-keyword><author-keyword>User interface</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Continuous scale</mainterm><mainterm weight="b" candidate="n">Cross evaluation</mainterm><mainterm weight="b" candidate="n">Feedback efficiency</mainterm><mainterm weight="b" candidate="n">Intuitive interfaces</mainterm><mainterm weight="b" candidate="n">On-line evaluation</mainterm><mainterm weight="b" candidate="n">System usability</mainterm><mainterm weight="b" candidate="n">User evaluations</mainterm><mainterm weight="b" candidate="n">Visual Interface</mainterm></idxterms><subject-areas><subject-area code="1705" abbrev="COMP">Computer Networks and Communications</subject-area><subject-area code="2214" abbrev="ENGI">Media Technology</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="29" month="03" timestamp="2019-03-29T23:17:40.000040-04:00" year="2019"/><ait:date-sort day="01" month="01" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">606479539</itemid>
+                    <itemid idtype="CAR-ID">640961143</itemid>
+                    <itemid idtype="CPX">20154301417953</itemid>
+                    <itemid idtype="SCP">84944413688</itemid>
+                    <itemid idtype="SGR">84944413688</itemid>
+                </itemidlist><history>
+                    <date-created day="22" month="10" timestamp="BST 05:54:58" year="2015"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Gathering feedback efficiency</author-keyword>
+                        <author-keyword xml:lang="eng">Human computer interaction</author-keyword>
+                        <author-keyword xml:lang="eng">System usability score</author-keyword>
+                        <author-keyword xml:lang="eng">User evaluation study</author-keyword>
+                        <author-keyword xml:lang="eng">User interface</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">The moodstripe - An evaluation of a novel visual interface as an alternative for online response gathering</titletext></citation-title><author-group><author auid="56258907000" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Pesek M.</ce:indexed-name><ce:surname>Pesek</ce:surname><ce:given-name>Matevž</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Pesek M.</ce:indexed-name>
+                            <ce:surname>Pesek</ce:surname>
+                            <ce:given-name>Matevž</ce:given-name>
+                        </preferred-name></author><author auid="56377091000" seq="2" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Godec P.</ce:indexed-name><ce:surname>Godec</ce:surname><ce:given-name>Primož</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Godec P.</ce:indexed-name>
+                            <ce:surname>Godec</ce:surname>
+                            <ce:given-name>Primož</ce:given-name>
+                        </preferred-name></author><author auid="56376897200" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Poredos M.</ce:indexed-name><ce:surname>Poredoš</ce:surname><ce:given-name>Mojca</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Poredoš M.</ce:indexed-name>
+                            <ce:surname>Poredoš</ce:surname>
+                            <ce:given-name>Mojca</ce:given-name>
+                        </preferred-name></author><author auid="6603601816" seq="8" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Marolt M.</ce:indexed-name>
+                            <ce:surname>Marolt</ce:surname>
+                            <ce:given-name>Matija</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana, Faculty of Computer and Information Science</organization><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="35175418100" seq="4" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Strle G.</ce:indexed-name>
+                            <ce:surname>Strle</ce:surname>
+                            <ce:given-name>Gregor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60030129" country="svn"><organization>Scientific Research Centre, Slovenian Academy of Sciences and Arts</organization><affiliation-id afid="60030129"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="17345882300" seq="5" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Guna J.</ce:indexed-name><ce:surname>Guna</ce:surname><ce:given-name>Jože</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Guna J.</ce:indexed-name>
+                            <ce:surname>Guna</ce:surname>
+                            <ce:given-name>Jože</ce:given-name>
+                        </preferred-name></author><author auid="54407530200" seq="6" type="auth"><ce:initials>E.</ce:initials><ce:indexed-name>Stojmenova E.</ce:indexed-name><ce:surname>Stojmenova</ce:surname><ce:given-name>Emilija</ce:given-name><preferred-name>
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Stojmenova E.</ce:indexed-name>
+                            <ce:surname>Stojmenova</ce:surname>
+                            <ce:given-name>Emilija</ce:given-name>
+                        </preferred-name></author><author auid="6603825626" seq="7" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Pogacnik M.</ce:indexed-name><ce:surname>Pogačnik</ce:surname><ce:given-name>Matevž</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Pogačnik M.</ce:indexed-name>
+                            <ce:surname>Pogačnik</ce:surname>
+                            <ce:given-name>Matevž</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580922"><organization>University of Ljubljana, Faculty of Electrotechnics</organization><affiliation-id afid="60031106" dptid="104580922"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>We present an innovative dynamic visual interface, the Mood-Stripe, which provides a continuous-scale, multi-parameter drag-and-drop alternative to the standard n-degree (Likert) scale widgets, commonly used in online evaluation processes. We elaborate on the motivation for the development of the new user input interfaces, and present the results of cross evaluation of the GMail product by using the SUS questionnaire with the standard and the proposed MoodStripe interfaces. The overall goal is to design a more intuitive interface, by reducing the noise and task load inherent in traditional interfaces for standardized user-feedback gathering tests. The results show the MoodStripe interface outperforms the standard scale approach both in terms of intuitiveness and functionality. Additionally, the cross-evaluation of the both approaches shows comparable SUS scores.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100416545" type="p"><sourcetitle>International series on information systems and management in creative eMedia </sourcetitle><sourcetitle-abbrev>Int. ser.  inf. Syst.  Manage. Creat. eMedia </sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">International series on information systems and management in creative eMedia </translated-sourcetitle><issuetitle>7th International Workshop on Semantic Ambient Media Experiences, SAME 2014: Ambient Media Usability, Interaction and Smart Media Technologies</issuetitle><issn type="print">23415576</issn><isbn length="13" type="electronic">9781510800168</isbn><volisspag>
+                        <pagerange first="1" last="5"/>
+                    </volisspag><publicationyear first="2014"/><publicationdate>
+                        <year>2014</year>
+                    <date-text xfab-added="true">2014</date-text></publicationdate><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Serral E.</ce:indexed-name>
+                            <ce:surname>Serral</ce:surname>
+                            <ce:given-name>Estefania</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Lugmayr A.</ce:indexed-name>
+                            <ce:surname>Lugmayr</ce:surname>
+                            <ce:given-name>Artur</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Risse T.</ce:indexed-name>
+                            <ce:surname>Risse</ce:surname>
+                            <ce:given-name>Thomas</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Stojmenova E.</ce:indexed-name>
+                            <ce:surname>Stojmenova</ce:surname>
+                            <ce:given-name>Emiliaja</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Stockleben B.</ce:indexed-name>
+                            <ce:surname>Stockleben</ce:surname>
+                            <ce:given-name>Bjoern</ce:given-name>
+                        </contributor>
+                    </contributor-group><publisher>
+                        <publishername>International Ambient Media Association (iAMEA)</publishername>
+                        <affiliation country="fin">
+                            <address-part>P.O. Box 541, Korkeakoulunkatu 8</address-part>
+                            <city>Tampere,</city>
+                            <postal-code>33101</postal-code>
+                        </affiliation>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>7th International Workshop on Semantic Ambient Media Experiences: Ambient Media Usability, Interaction and Smart Media Technologies, SAME 2014</confname>
+                                <confnumber>7</confnumber>
+                                <conftheme>Ambient Media Usability, Interaction and Smart Media Technologies</conftheme>
+                                <confseriestitle>International Workshop on Semantic Ambient Media Experiences</confseriestitle>
+                                <conflocation country="fin">
+                                    <city>Helsinki</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="26" month="10" year="2014"/>
+                                </confdate>
+                                <confcode>113843</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1705</classification>
+                            <classification>2214</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>722.2</classification-code>
+                                 
+                                <classification-description>Computer Peripheral Equipment</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>961</classification-code>
+                                 
+                                <classification-description>Systems Science</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                 
+                                <classification-code>902</classification-code>
+                                 
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="8">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Measuring the user experience: Collecting, analyzing, and presenting usability metrics (Google eBook)</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84919392366</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Albert W.</ce:indexed-name>
+                                    <ce:surname>Albert</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Tullis T.</ce:indexed-name>
+                                    <ce:surname>Tullis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Newnes</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>Albert, W., and Tullis, T. Measuring the User Experience: Collecting, Analyzing, and Presenting Usability Metrics (Google eBook). Newnes, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Determining what individual SUS scores mean: Adding an adjective rating scale</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953971687</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Bangor A.</ce:indexed-name>
+                                    <ce:surname>Bangor</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kortum P.</ce:indexed-name>
+                                    <ce:surname>Kortum</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Miller J.</ce:indexed-name>
+                                    <ce:surname>Miller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Usability Studies</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="3"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bangor, A., Kortum, P., and Miller, J. Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale. Journal of Usability Studies 4, 3 (2009).</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A slovene translation of the system usability scale: The SUS-SI</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904253465</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Blazica B.</ce:indexed-name>
+                                    <ce:surname>Blažica</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Lewis J.R.</ce:indexed-name>
+                                    <ce:surname>Lewis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Journal of Human-Computer Interaction</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>In press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Blažica, B., and Lewis, J. R. A Slovene Translation of the System Usability Scale: The SUS-SI. International Journal of Human-Computer Interaction In press (2014).</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nasa-task load index (NASA-TLX); 20 years later</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">44349088702</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.G.</ce:initials>
+                                    <ce:indexed-name>Hart S.G.</ce:indexed-name>
+                                    <ce:surname>Hart</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Human Factors and Ergonomics Society Annual Meeting</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="50"/>
+                                <pagerange first="904" last="908"/>
+                            </ref-volisspag>
+                            <ref-text>Oct.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hart, S. G. Nasa-Task Load Index (NASA-TLX); 20 Years Later. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 50, 9 (Oct. 2006), 904-908.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>AttrakDiff: A questionnaire to measure perceived hedonic and pragmatic quality</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13644253594</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hassenzahl M.</ce:indexed-name>
+                                    <ce:surname>Hassenzahl</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Burmester M.</ce:indexed-name>
+                                    <ce:surname>Burmester</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Koller F.</ce:indexed-name>
+                                    <ce:surname>Koller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mensch &amp; Computer</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                        </ref-info>
+                        <ref-fulltext>Hassenzahl, M., Burmester, M., and Koller, F. AttrakDiff: A questionnaire to measure perceived hedonic and pragmatic quality. Mensch &amp; Computer (2003).</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Critical review of 'The usability metric for user experience'</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84879219926</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Lewis J.R.</ce:indexed-name>
+                                    <ce:surname>Lewis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Interacting with Computers</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="25"/>
+                                <pagerange first="320" last="324"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lewis, J. R. Critical Review of 'The Usability Metric for User Experience'. Interacting with computers 25, 4 (2013), 320-324.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Capturing the mood: Evaluation of the MoodStripe and MoodGraph interfaces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84937127842</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pesek M.</ce:indexed-name>
+                                    <ce:surname>Pesek</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Godec P.</ce:indexed-name>
+                                    <ce:surname>Godec</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Poredos M.</ce:indexed-name>
+                                    <ce:surname>Poredoš</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Strle G.</ce:indexed-name>
+                                    <ce:surname>Strle</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Guna J.</ce:indexed-name>
+                                    <ce:surname>Guna</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Stojmenova E.</ce:indexed-name>
+                                    <ce:surname>Stojmenova</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pogacnik M.</ce:indexed-name>
+                                    <ce:surname>Pogačnik</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Marolt M.</ce:indexed-name>
+                                    <ce:surname>Marolt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Management Information Systems in Multimedia Art, Education, Entertainment, and Culture (MIS-MEDIA)</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="4"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE Internation Conference on Multimedia &amp; Expo (ICME)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Pesek, M., Godec, P., Poredoš, M., Strle, G., Guna, J., Stojmenova, E., Pogačnik, M., and Marolt, M. Capturing the Mood: Evaluation of the MoodStripe and MoodGraph Interfaces. In Management Information Systems in Multimedia Art, Education, Entertainment, and Culture (MIS-MEDIA), IEEE Internation Conference on Multimedia &amp; Expo (ICME) (2014), 1-4.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Gathering a dataset of multi-modal mood-dependent perceptual responses to music</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84925251633</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pesek M.</ce:indexed-name>
+                                    <ce:surname>Pesek</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Godec P.</ce:indexed-name>
+                                    <ce:surname>Godec</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Poredos M.</ce:indexed-name>
+                                    <ce:surname>Poredoš</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Strle G.</ce:indexed-name>
+                                    <ce:surname>Strle</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Guna J.</ce:indexed-name>
+                                    <ce:surname>Guna</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Stojmenova E.</ce:indexed-name>
+                                    <ce:surname>Stojmenova</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pogacnik M.</ce:indexed-name>
+                                    <ce:surname>Pogačnik</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Marolt M.</ce:indexed-name>
+                                    <ce:surname>Marolt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the EMPIRE Workshop</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>Pesek, M., Godec, P., Poredoš, M., Strle, G., Guna, J., Stojmenova, E., Pogačnik, M., and Marolt, M. Gathering a dataset of multi-modal mood-dependent perceptual responses to music. In Proceedings of the EMPIRE workshop (2014).</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

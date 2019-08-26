@@ -1,0 +1,1527 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85050646459</prism:url><dc:identifier>SCOPUS_ID:85050646459</dc:identifier><eid>2-s2.0-85050646459</eid><prism:doi>10.1145/3208806.3208814</prism:doi><article-number>a7</article-number><dc:title>Real-Time interactive platform-Agnostic volumetric path tracing in WebGL 2.0</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>Proceedings - Web3D 2018: 23rd International ACM Conference on 3D Web Technology</prism:publicationName><dc:publisher>
+                        Association for Computing Machinery, Inc
+                        acmhelp@acm.org
+                    </dc:publisher><source-id>21100870206</source-id><prism:isbn>9781450358002</prism:isbn><prism:coverDate>2018-06-20</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="56695244200"><ce:initials>Ž.</ce:initials><ce:indexed-name>Lesar Z.</ce:indexed-name><ce:surname>Lesar</ce:surname><ce:given-name>Žiga</ce:given-name><preferred-name><ce:initials>Ž.</ce:initials><ce:indexed-name>Lesar Ž.</ce:indexed-name><ce:surname>Lesar</ce:surname><ce:given-name>Žiga</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56695244200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 Association for Computing Machinery.</publishercopyright>
+                        <ce:para>Path tracing has become a de facto standard for photo-realistic rendering due to its conceptual and algorithmic simplicity. Over the last few years, it has been successfully applied to the rendering of participating media, although it has not seen widespread adoption. Most implementations are targeted at speciic platforms or hardware, which makes them diicult to deploy or extend. However, recent advancements in web technologies enable us to access graphics hardware from a web browser in a platform-agnostic manner. Therefore, in this paper, we present an implementation of a state-ofthe-art volumetric path tracer developed in JavaScript using WebGL 2.0. The presented solution supports the use of arbitrary 2D transfer functions and heterogeneous volumetric data, aims to be interactive, platform-agnostic, easily extensible, and runs in real-time - both on desktop and mobile devices.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85050646459" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85050646459&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85050646459&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="56695244200"><ce:initials>Ž.</ce:initials><ce:indexed-name>Lesar Z.</ce:indexed-name><ce:surname>Lesar</ce:surname><ce:given-name>Žiga</ce:given-name><preferred-name><ce:initials>Ž.</ce:initials><ce:indexed-name>Lesar Ž.</ce:indexed-name><ce:surname>Lesar</ce:surname><ce:given-name>Žiga</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56695244200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55582372100"><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55582372100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6603601816"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603601816</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Path tracing</author-keyword><author-keyword>Volume rendering</author-keyword><author-keyword>WebGL</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">2D transfer functions</mainterm><mainterm weight="b" candidate="n">De facto standard</mainterm><mainterm weight="b" candidate="n">Graphics hardware</mainterm><mainterm weight="b" candidate="n">Interactive platform</mainterm><mainterm weight="b" candidate="n">Participating media</mainterm><mainterm weight="b" candidate="n">Path tracing</mainterm><mainterm weight="b" candidate="n">Photorealistic rendering</mainterm><mainterm weight="b" candidate="n">WebGL</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1705" abbrev="COMP">Computer Networks and Communications</subject-area><subject-area code="1704" abbrev="COMP">Computer Graphics and Computer-Aided Design</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-08-10T15:32:47.333Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="23" month="09" timestamp="2018-09-23T20:04:33.000033-04:00" year="2018"/><ait:date-sort day="20" month="06" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1145/3208806.3208814</ce:doi>
+                    <itemid idtype="PUI">623269727</itemid>
+                    <itemid idtype="CAR-ID">911976392</itemid>
+                    <itemid idtype="CPX">20183105631359</itemid>
+                    <itemid idtype="SCP">85050646459</itemid>
+                    <itemid idtype="SGR">85050646459</itemid>
+                </itemidlist><history>
+                    <date-created day="01" month="08" timestamp="BST 09:55:48" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Path tracing</author-keyword>
+                        <author-keyword xml:lang="eng">Volume rendering</author-keyword>
+                        <author-keyword xml:lang="eng">WebGL</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Real-Time interactive platform-Agnostic volumetric path tracing in WebGL 2.0</titletext></citation-title><author-group><author auid="56695244200" seq="1" type="auth"><ce:initials>Ž.</ce:initials><ce:indexed-name>Lesar Z.</ce:indexed-name><ce:surname>Lesar</ce:surname><ce:given-name>Žiga</ce:given-name><preferred-name>
+                            <ce:initials>Ž.</ce:initials>
+                            <ce:indexed-name>Lesar Ž.</ce:indexed-name>
+                            <ce:surname>Lesar</ce:surname>
+                            <ce:given-name>Žiga</ce:given-name>
+                        </preferred-name></author><author auid="55582372100" seq="2" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>Bohak C.</ce:indexed-name><ce:surname>Bohak</ce:surname><ce:given-name>Ciril</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Bohak C.</ce:indexed-name>
+                            <ce:surname>Bohak</ce:surname>
+                            <ce:given-name>Ciril</ce:given-name>
+                        </preferred-name></author><author auid="6603601816" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Marolt M.</ce:indexed-name>
+                            <ce:surname>Marolt</ce:surname>
+                            <ce:given-name>Matija</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 Association for Computing Machinery.</publishercopyright>
+                        <ce:para>Path tracing has become a de facto standard for photo-realistic rendering due to its conceptual and algorithmic simplicity. Over the last few years, it has been successfully applied to the rendering of participating media, although it has not seen widespread adoption. Most implementations are targeted at speciic platforms or hardware, which makes them diicult to deploy or extend. However, recent advancements in web technologies enable us to access graphics hardware from a web browser in a platform-agnostic manner. Therefore, in this paper, we present an implementation of a state-ofthe-art volumetric path tracer developed in JavaScript using WebGL 2.0. The presented solution supports the use of arbitrary 2D transfer functions and heterogeneous volumetric data, aims to be interactive, platform-agnostic, easily extensible, and runs in real-time - both on desktop and mobile devices.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100870206" type="p"><sourcetitle>Proceedings - Web3D 2018: 23rd International ACM Conference on 3D Web Technology</sourcetitle><sourcetitle-abbrev>Proc. - Web3D : Int. ACM Conf. 3D Web Technol.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Proceedings - Web3D 2018: 23rd International ACM Conference on 3D Web Technology</translated-sourcetitle><issuetitle>Proceedings - Web3D 2018: 23rd International ACM Conference on 3D Web Technology</issuetitle><isbn length="13" level="volume" type="electronic">9781450358002</isbn><article-number>a7</article-number><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>06</month>
+                        <day>20</day>
+                    <date-text xfab-added="true">20 June 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://dl.acm.org/citation.cfm?id=3208806</ce:e-address>
+                    </website><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>S.N.</ce:initials>
+                            <ce:indexed-name>Spencer S.N.</ce:indexed-name>
+                            <ce:surname>Spencer</ce:surname>
+                            <ce:given-name>Stephen N.</ce:given-name>
+                        </contributor>
+                    </contributor-group><publisher>
+                        <publishername>Association for Computing Machinery, Inc</publishername>
+                        <ce:e-address type="email">acmhelp@acm.org</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>23rd International ACM Conference on 3D Web Technology, Web3D 2018</confname>
+                                <confnumber>23</confnumber>
+                                <conftheme>3D Everywhere</conftheme>
+                                <confseriestitle>International ACM Conference on 3D Web Technology</confseriestitle>
+                                <conflocation country="pol">
+                                    <venue>Poznan University of Economics and Business</venue>
+                                    <city>Poznan</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="20" month="06" year="2018"/>
+                                    <enddate day="22" month="06" year="2018"/>
+                                </confdate>
+                                <confcode>137583</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor>ACM SIGGRAPH</confsponsor>
+                                    <confsponsor>EuroVR Association</confsponsor>
+                                    <confsponsor>Khronos Group</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1705</classification>
+                            <classification>1704</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>605</classification-code>
+                                <classification-description>Small Tools and Hardware</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.2</classification-code>
+                                <classification-description>Data Processing</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>801</classification-code>
+                                <classification-description>Chemistry</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="38">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Feature-driven ambient occlusion for direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050645937</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ancel A.</ce:indexed-name>
+                                    <ce:surname>Ancel</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.-M.</ce:initials>
+                                    <ce:indexed-name>Dischler J.-M.</ce:indexed-name>
+                                    <ce:surname>Dischler</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Mongenet C.</ce:indexed-name>
+                                    <ce:surname>Mongenet</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 8th IEEE/EG International Conference on Volume Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="85" last="92"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.2312/VG/VG10/085-092</ce:e-address>
+                            </ref-website>
+                            <ref-text>Eurographics Association, Aire-la-Ville, Switzerland, Switzerland</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Alexandre Ancel, Jean-Michel Dischler, and Catherine Mongenet. 2010. Feature-driven ambient occlusion for direct volume rendering. In Proceedings of the 8th IEEE/EG international conference on Volume Graphics. Eurographics Association, Aire-la-Ville, Switzerland, Switzerland, 85ś92. https://doi.org/10.2312/VG/VG10/085-092</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>State-of-the-art in compressed GPU-based direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84908554250</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Balsa Rodriguez M.</ce:indexed-name>
+                                    <ce:surname>Balsa Rodríguez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Gobbetti E.</ce:indexed-name>
+                                    <ce:surname>Gobbetti</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Iglesias Guitian J.A.</ce:indexed-name>
+                                    <ce:surname>Iglesias Guitián</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Makhinya M.</ce:indexed-name>
+                                    <ce:surname>Makhinya</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Marton F.</ce:indexed-name>
+                                    <ce:surname>Marton</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pajarola R.</ce:indexed-name>
+                                    <ce:surname>Pajarola</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Suter S.K.</ce:indexed-name>
+                                    <ce:surname>Suter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Graphics Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="33"/>
+                                <pagerange first="77" last="100"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1111/cgf.12280</ce:e-address>
+                            </ref-website>
+                            <ref-text>2014</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Balsa Rodríguez, E. Gobbetti, J. A. Iglesias Guitián, M. Makhinya, F. Marton, R. Pajarola, and S. K. Suter. 2014. State-of-the-art in compressed GPU-based direct volume rendering. Computer Graphics Forum 33, 6 (2014), 77ś100. https://doi.org/10.1111/cgf.12280</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Decoupling illumination from isosurface generation using 4D light transport</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">70350634265</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.C.</ce:initials>
+                                    <ce:indexed-name>Banks D.C.</ce:indexed-name>
+                                    <ce:surname>Banks</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Beason K.</ce:indexed-name>
+                                    <ce:surname>Beason</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Visualization and Computer Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="15"/>
+                                <pagerange first="1595" last="1602"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1109/TVCG.2009.137</ce:e-address>
+                            </ref-website>
+                            <ref-text>11 2009</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D.C. Banks and K. Beason. 2009. Decoupling Illumination from Isosurface Generation Using 4D Light Transport. IEEE Transactions on Visualization and Computer Graphics 15, 6 (11 2009), 1595ś1602. https://doi.org/10.1109/TVCG.2009.137</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Camera models and optical systems used in computer graphics: Part II, image-based techniques</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35248858431</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.A.</ce:initials>
+                                    <ce:indexed-name>Barsky B.A.</ce:indexed-name>
+                                    <ce:surname>Barsky</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.R.</ce:initials>
+                                    <ce:indexed-name>Horn D.R.</ce:indexed-name>
+                                    <ce:surname>Horn</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Klein S.A.</ce:indexed-name>
+                                    <ce:surname>Klein</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Pang J.A.</ce:indexed-name>
+                                    <ce:surname>Pang</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Yu M.</ce:indexed-name>
+                                    <ce:surname>Yu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computational Science and Its Applications—ICCSA 2003</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <pagerange first="256" last="265"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/3-540-44842-X{_}27</ce:e-address>
+                            </ref-website>
+                            <ref-text>Springer, Berlin, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Brian A. Barsky, Daniel R. Horn, Stanley A. Klein, Jefrey A. Pang, and Meng Yu. 2003. Camera Models and Optical Systems Used in Computer Graphics: Part II, Image-Based Techniques. In Computational Science and Its Applications—ICCSA 2003. Springer, Berlin, Heidelberg, 256ś265. https://doi.org/10.1007/3-540-44842-X{_}27</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adding shadows to a texture-based volume renderer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">68549114097</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Behrens U.</ce:indexed-name>
+                                    <ce:surname>Behrens</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ratering R.</ce:indexed-name>
+                                    <ce:surname>Ratering</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 1998 IEEE Symposium on Volume Visualization - VVS ’98</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="39" last="46"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/288126.288149</ce:e-address>
+                            </ref-website>
+                            <ref-text>ACM Press, New York, New York, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Uwe Behrens and Ralf Ratering. 1998. Adding shadows to a texture-based volume renderer. In Proceedings of the 1998 IEEE symposium on Volume visualization - VVS ’98. ACM Press, New York, New York, USA, 39ś46. https://doi.org/10.1145/288126. 288149</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>State-of-the-art in GPU-based large-scale volume visualization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84955193461</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Beyer J.</ce:indexed-name>
+                                    <ce:surname>Beyer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hadwiger M.</ce:indexed-name>
+                                    <ce:surname>Hadwiger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Pister H.</ce:indexed-name>
+                                    <ce:surname>Pister</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Graphics Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="34"/>
+                                <pagerange first="13" last="37"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1111/cgf.12605</ce:e-address>
+                            </ref-website>
+                            <ref-text>2015</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Johanna Beyer, Markus Hadwiger, and Hanspeter Pister. 2015. State-of-the-Art in GPU-Based Large-Scale Volume Visualization. Computer Graphics Forum 34, 8 (2015), 13ś37. https://doi.org/10.1111/cgf.12605</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey on participating media rendering techniques</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">21544439855</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Cerezo E.</ce:indexed-name>
+                                    <ce:surname>Cerezo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Perez F.</ce:indexed-name>
+                                    <ce:surname>Pérez</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Pueyo X.</ce:indexed-name>
+                                    <ce:surname>Pueyo</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.J.</ce:initials>
+                                    <ce:indexed-name>Seron F.J.</ce:indexed-name>
+                                    <ce:surname>Seron</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.X.</ce:initials>
+                                    <ce:indexed-name>Sillion F.X.</ce:indexed-name>
+                                    <ce:surname>Sillion</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Visual Computer</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="21"/>
+                                <pagerange first="303" last="328"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/s00371-005-0287-1</ce:e-address>
+                            </ref-website>
+                            <ref-text>Jun 2005</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Eva Cerezo, Frederic Pérez, Xavier Pueyo, Francisco J. Seron, and François X. Sillion. 2005. A survey on participating media rendering techniques. The Visual Computer 21, 5 (Jun 2005), 303ś328. https://doi.org/10.1007/s00371-005-0287-1</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interactive visualization of volumetric data with WebGL in real-time</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052320345</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Congote J.</ce:indexed-name>
+                                    <ce:surname>Congote</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Segura A.</ce:indexed-name>
+                                    <ce:surname>Segura</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Kabongo L.</ce:indexed-name>
+                                    <ce:surname>Kabongo</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Moreno A.</ce:indexed-name>
+                                    <ce:surname>Moreno</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Posada J.</ce:indexed-name>
+                                    <ce:surname>Posada</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Ruiz O.</ce:indexed-name>
+                                    <ce:surname>Ruiz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 16th International Conference on 3D Web Technology - Web3D ’11</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="137"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/2010425.2010449</ce:e-address>
+                            </ref-website>
+                            <ref-text>ACM Press, New York, New York, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>John Congote, Alvaro Segura, Luis Kabongo, Aitor Moreno, Jorge Posada, and Oscar Ruiz. 2011. Interactive visualization of volumetric data with WebGL in real-time. In Proceedings of the 16th International Conference on 3D Web Technology - Web3D ’11. ACM Press, New York, New York, USA, 137. https://doi.org/10.1145/2010425. 2010449</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Progressive light transport simulation on the GPU</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84902288654</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Davidovic T.</ce:indexed-name>
+                                    <ce:surname>Davidovič</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Krivanek J.</ce:indexed-name>
+                                    <ce:surname>Křivánek</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hasan M.</ce:indexed-name>
+                                    <ce:surname>Hašan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Slusallek P.</ce:indexed-name>
+                                    <ce:surname>Slusallek</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Transactions on Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="33"/>
+                                <pagerange first="1" last="19"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/2602144</ce:e-address>
+                            </ref-website>
+                            <ref-text>6 2014</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Tomáš Davidovič, Jaroslav Křivánek, Miloš Hašan, and Philipp Slusallek. 2014. Progressive Light Transport Simulation on the GPU. ACM Transactions on Graphics 33, 3 (6 2014), 1ś19. https://doi.org/10.1145/2602144</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Production volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85033393162</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Fong J.</ce:indexed-name>
+                                    <ce:surname>Fong</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Wrenninge M.</ce:indexed-name>
+                                    <ce:surname>Wrenninge</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Kulla C.</ce:indexed-name>
+                                    <ce:surname>Kulla</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Habel R.</ce:indexed-name>
+                                    <ce:surname>Habel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM SIGGRAPH 2017 Courses on - SIGGRAPH’17</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="79"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/3084873.3084907</ce:e-address>
+                            </ref-website>
+                            <ref-text>ACM Press, New York, New York, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Julian Fong, Magnus Wrenninge, Christopher Kulla, and Ralf Habel. 2017. Production volume rendering. In ACM SIGGRAPH 2017 Courses on - SIGGRAPH’17. ACM Press, New York, New York, USA, 1ś79. https://doi.org/10.1145/3084873.3084907</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARXIV">1505.06022</itemid>
+                                <itemid idtype="SGR">85049714175</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Hachisuka T.</ce:indexed-name>
+                                    <ce:surname>Hachisuka</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Implementing A Photorealistic Rendering System Using GLSL</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="4"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1505.06022</ce:e-address>
+                            </ref-website>
+                            <ref-text>015</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Toshiya Hachisuka. 2015. Implementing a Photorealistic Rendering System using GLSL. arXiv abs/1505.06022 (5 2015), 1ś4. http://arxiv.org/abs/1505.06022</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>GPU-accelerated deep shadow maps for direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36949003396</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hadwiger M.</ce:indexed-name>
+                                    <ce:surname>Hadwiger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kratz A.</ce:indexed-name>
+                                    <ce:surname>Kratz</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Sigg C.</ce:indexed-name>
+                                    <ce:surname>Sigg</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Buhler K.</ce:indexed-name>
+                                    <ce:surname>Bühler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 21st ACM SIGGRAPH/EUROGRAPHICS Symposium on Graphics Hardware - GH’06</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="49"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/1283900.1283908</ce:e-address>
+                            </ref-website>
+                            <ref-text>ACM Press, New York, New York, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Markus Hadwiger, Andrea Kratz, Christian Sigg, and Katja Bühler. 2006. GPU-accelerated deep shadow maps for direct volume rendering. In Proceedings of the 21st ACM SIGGRAPH/EUROGRAPHICS symposium on Graphics hardware - GH’06. ACM Press, New York, New York, USA, 49. https://doi.org/10.1145/1283900.1283908</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Advanced illumination techniques for GPU-based volume raycasting</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77049108726</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hadwiger M.</ce:indexed-name>
+                                    <ce:surname>Hadwiger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ljung P.</ce:indexed-name>
+                                    <ce:surname>Ljung</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.R.</ce:initials>
+                                    <ce:indexed-name>Salama C.R.</ce:indexed-name>
+                                    <ce:surname>Salama</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ropinski T.</ce:indexed-name>
+                                    <ce:surname>Ropinski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM SIGGRAPH 2009 Courses on - SIGGRAPH’09</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="166"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/1667239.1667241</ce:e-address>
+                            </ref-website>
+                            <ref-text>ACM Press, New York, New York, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Markus Hadwiger, Patric Ljung, Christof Rezk Salama, and Timo Ropinski. 2009. Advanced illumination techniques for GPU-based volume raycasting. In ACM SIGGRAPH 2009 Courses on - SIGGRAPH’09. ACM Press, New York, New York, USA, 1ś166. https://doi.org/10.1145/1667239.1667241</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Local ambient occlusion in direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77952744983</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Hernell F.</ce:indexed-name>
+                                    <ce:surname>Hernell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ljung P.</ce:indexed-name>
+                                    <ce:surname>Ljung</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ynnerman A.</ce:indexed-name>
+                                    <ce:surname>Ynnerman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Visualization and Computer Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="16"/>
+                                <pagerange first="548" last="559"/>
+                            </ref-volisspag>
+                            <ref-text>2010</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Frida Hernell, Patric Ljung, and Anders Ynnerman. 2010. Local ambient occlusion in direct volume rendering. IEEE Transactions on Visualization and Computer Graphics 16, 4 (2010), 548ś559.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey of volumetric illumination techniques for interactive volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84894586294</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Jonsson D.</ce:indexed-name>
+                                    <ce:surname>Jönsson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Sunden E.</ce:indexed-name>
+                                    <ce:surname>Sundén</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ynnerman A.</ce:indexed-name>
+                                    <ce:surname>Ynnerman</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ropinski T.</ce:indexed-name>
+                                    <ce:surname>Ropinski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Graphics Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="33"/>
+                                <pagerange first="27" last="51"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1111/cgf.12252</ce:e-address>
+                            </ref-website>
+                            <ref-text>2 2014</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Daniel Jönsson, Erik Sundén, Anders Ynnerman, and Timo Ropinski. 2014. A Survey of Volumetric Illumination Techniques for Interactive Volume Rendering. Computer Graphics Forum 33, 1 (2 2014), 27ś51. https://doi.org/10.1111/cgf.12252</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The rendering equation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0022761447</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.T.</ce:initials>
+                                    <ce:indexed-name>Kajiya J.T.</ce:indexed-name>
+                                    <ce:surname>Kajiya</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM SIGGRAPH Computer Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="20"/>
+                                <pagerange first="143" last="150"/>
+                            </ref-volisspag>
+                            <ref-text>aug 1986</ref-text>
+                        </ref-info>
+                        <ref-fulltext>James T. Kajiya. 1986. The rendering equation. ACM SIGGRAPH Computer Graphics 20, 4 (aug 1986), 143ś150.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A realistic camera model for computer graphics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029180734</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Kolb C.</ce:indexed-name>
+                                    <ce:surname>Kolb</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Mitchell D.</ce:indexed-name>
+                                    <ce:surname>Mitchell</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Hanrahan P.</ce:indexed-name>
+                                    <ce:surname>Hanrahan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 22nd Annual Conference on Computer Graphics and Interactive Techniques</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="317" last="324"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145218380.218463</ce:e-address>
+                            </ref-website>
+                            <ref-text>ACM, New York, NY, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Craig Kolb, Don Mitchell, and Pat Hanrahan. 1995. A Realistic Camera Model for Computer Graphics. In Proceedings of the 22nd annual conference on Computer graphics and interactive techniques. ACM, New York, NY, USA, 317ś324. https://doi.org/10.1145218380.218463</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Exposure render: An interactive photo-realistic volume rendering framework</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="ARTNUM">e38586</itemid>
+                                <itemid idtype="SGR">84863618158</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Kroes T.</ce:indexed-name>
+                                    <ce:surname>Kroes</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.H.</ce:initials>
+                                    <ce:indexed-name>Post F.H.</ce:indexed-name>
+                                    <ce:surname>Post</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.P.</ce:initials>
+                                    <ce:indexed-name>Botha C.P.</ce:indexed-name>
+                                    <ce:surname>Botha</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS ONE</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="7"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1371/journal.pone.0038586</ce:e-address>
+                            </ref-website>
+                            <ref-text>7 2012</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Thomas Kroes, Frits H. Post, and Charl P. Botha. 2012. Exposure Render: An Interactive Photo-Realistic Volume Rendering Framework. PLoS ONE 7, 7 (7 2012), e38586. https://doi.org/10.1371/journal.pone.0038586</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rendering participating media with bidirectional path tracing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0042955717</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.P.</ce:initials>
+                                    <ce:indexed-name>Lafortune E.P.</ce:indexed-name>
+                                    <ce:surname>Lafortune</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.D.</ce:initials>
+                                    <ce:indexed-name>Willems Y.D.</ce:indexed-name>
+                                    <ce:surname>Willems</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The Eurographics Workshop on Rendering Techniques’96</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <pagerange first="91" last="100"/>
+                            </ref-volisspag>
+                            <ref-text>Springer-Verlag, London, UK, UK</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Eric P. Lafortune and Yves D. Willems. 1996. Rendering Participating Media with Bidirectional Path Tracing. In Proceedings of the Eurographics Workshop on Rendering Techniques’96. Springer-Verlag, London, UK, UK, 91ś100.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Volume rendering architecture of mobile medical image using cloud computing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84946923622</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Lee W.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Nam D.</ce:indexed-name>
+                                    <ce:surname>Nam</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Journal of The Institute of Internet, Broadcasting and Communication</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="14"/>
+                                <pagerange first="101" last="106"/>
+                            </ref-volisspag>
+                            <ref-text>2014</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Woongkyu Lee and Doohee Nam. 2014. Volume Rendering Architecture of Mobile Medical Image using Cloud Computing. The Journal of The Institute of Internet, Broadcasting and Communication 14, 4 (2014), 101ś106.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evaluation of angiogram visualization methods for fast and reliable aneurysm diagnosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84932096010</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Ž.</ce:initials>
+                                    <ce:indexed-name>Lesar Z.</ce:indexed-name>
+                                    <ce:surname>Lesar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Bohak C.</ce:indexed-name>
+                                    <ce:surname>Bohak</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Marolt M.</ce:indexed-name>
+                                    <ce:surname>Marolt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Progress in Biomedical Optics and Imaging - Proceedings of SPIE</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="9416"/>
+                                <pagerange first="9416"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1117/12.2082179</ce:e-address>
+                            </ref-website>
+                            <ref-text>Claudia R. Mello-Thoms and Matthew A. Kupinski (Eds.), SPIE, Orlando, Florida, United States</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Žiga Lesar, Ciril Bohak, and Matija Marolt. 2015. Evaluation of angiogram visualization methods for fast and reliable aneurysm diagnosis. In Progress in Biomedical Optics and Imaging - Proceedings of SPIE, Claudia R. Mello-Thoms and Matthew A. Kupinski (Eds.), Vol. 9416. SPIE, Orlando, Florida, United States, 9416. https://doi.org/10.1117/12.2082179</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A hybrid ray tracer for rendering polygon and volume data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0025401094</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Levoy M.</ce:indexed-name>
+                                    <ce:surname>Levoy</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Computer Graphics and Applications</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="10"/>
+                                <pagerange first="33" last="40"/>
+                            </ref-volisspag>
+                            <ref-text>1990</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Marc Levoy. 1990. A hybrid ray tracer for rendering polygon and volume data. IEEE Computer Graphics and Applications 10, 2 (1990), 33ś40.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>About the inluence of illumination models on image comprehension in direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80855130044</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Lindemann F.</ce:indexed-name>
+                                    <ce:surname>Lindemann</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ropinski T.</ce:indexed-name>
+                                    <ce:surname>Ropinski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Visualization and Computer Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="17"/>
+                                <pagerange first="1922" last="1931"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1109/TVCG.2011.161</ce:e-address>
+                            </ref-website>
+                            <ref-text>12 2011</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Florian Lindemann and Timo Ropinski. 2011. About the Inluence of Illumination Models on Image Comprehension in Direct Volume Rendering. IEEE Transactions on Visualization and Computer Graphics 17, 12 (12 2011), 1922ś1931. https://doi.org/10.1109/TVCG.2011.161</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep shadow maps</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034447849</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Lokovic T.</ce:indexed-name>
+                                    <ce:surname>Lokovic</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Veach E.</ce:indexed-name>
+                                    <ce:surname>Veach</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of The 27th Annual Conference on Computer Graphics and Interactive Techniques</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="385" last="392"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/344779.344958</ce:e-address>
+                            </ref-website>
+                            <ref-text>ACM Press, New York, New York, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Tom Lokovic and Eric Veach. 2000. Deep shadow maps. In Proceedings of the 27th annual conference on Computer graphics and interactive techniques. ACM Press, New York, New York, USA, 385ś392. https://doi.org/10.1145/344779.344958</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Optical models for direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029322842</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Max N.</ce:indexed-name>
+                                    <ce:surname>Max</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Visualization and Computer Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="1"/>
+                                <pagerange first="99" last="108"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1109/2945.468400</ce:e-address>
+                            </ref-website>
+                            <ref-text>995</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Nelson Max. 1995. Optical models for direct volume rendering. IEEE Transactions on Visualization and Computer Graphics 1, 2 (6 1995), 99ś108. https://doi.org/10.1109/2945.468400</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ubiquitous medical volume rendering on mobile devices</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84867346112</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.M.</ce:initials>
+                                    <ce:indexed-name>Mobeen M.M.</ce:indexed-name>
+                                    <ce:surname>Mobeen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Feng L.</ce:indexed-name>
+                                    <ce:surname>Feng</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Conference on Information Society (I-Society 2012)</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="93" last="98"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE, London, UK</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Movania Muhammad Mobeen and Lin Feng. 2012. Ubiquitous Medical Volume Rendering on Mobile Devices. In International Conference on Information Society (i-Society 2012). IEEE, London, UK, 93ś98.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visualization of very large 3D volumes on mobile devices and WebGL</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84880903782</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Noguera J.M.</ce:indexed-name>
+                                    <ce:surname>Noguera</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.-R.</ce:initials>
+                                    <ce:indexed-name>Jimenez J.-R.</ce:indexed-name>
+                                    <ce:surname>Jiménez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>WSCG Communication Proceedings</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="105" last="112"/>
+                            </ref-volisspag>
+                            <ref-text>Václav Skala-UNION Agency, Plzen, Czech Republic</ref-text>
+                        </ref-info>
+                        <ref-fulltext>José M. Noguera and Juan-roberto Jiménez. 2012. Visualization of very large 3D volumes on mobile devices and WebGL. In WSCG Communication Proceedings. Václav Skala-UNION Agency, Plzen, Czech Republic, 105ś112.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mobile volume rendering: Past, present and future</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84978715216</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Noguera J.M.</ce:indexed-name>
+                                    <ce:surname>Noguera</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Roberto Jimenez J.</ce:indexed-name>
+                                    <ce:surname>Roberto Jimenez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Visualization and Computer Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="22"/>
+                                <pagerange first="1164" last="1178"/>
+                            </ref-volisspag>
+                            <ref-text>feb 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jose M. Noguera and J. Roberto Jimenez. 2016. Mobile Volume Rendering: Past, Present and Future. IEEE Transactions on Visualization and Computer Graphics 22, 2 (feb 2016), 1164ś1178.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Residual ratio tracking for estimating attenuation in participating media</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84914689217</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Novak J.</ce:indexed-name>
+                                    <ce:surname>Novák</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Selle A.</ce:indexed-name>
+                                    <ce:surname>Selle</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Jarosz W.</ce:indexed-name>
+                                    <ce:surname>Jarosz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Transactions on Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="33"/>
+                                <pagerange first="1" last="11"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/2661229.2661292</ce:e-address>
+                            </ref-website>
+                            <ref-text>11 2014</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jan Novák, Andrew Selle, and Wojciech Jarosz. 2014. Residual ratio tracking for estimating attenuation in participating media. ACM Transactions on Graphics 33, 6 (11 2014), 1ś11. https://doi.org/10.1145/2661229.2661292</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050610687</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pharr M.</ce:indexed-name>
+                                    <ce:surname>Pharr</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wenzel J.</ce:indexed-name>
+                                    <ce:surname>Wenzel</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Humphreys G.</ce:indexed-name>
+                                    <ce:surname>Humphreys</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Physically Based Rendering</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="1266"/>
+                            </ref-volisspag>
+                            <ref-text>(3 ed.). Morgan Kaufmann, San Francisco, CA, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Matt Pharr, Jakob Wenzel, and Greg Humphreys. 2016. Physically based rendering (3 ed.). Morgan Kaufmann, San Francisco, CA, USA. 1266 pages.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Photographic tone reproduction for digital images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036989509</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Reinhard E.</ce:indexed-name>
+                                    <ce:surname>Reinhard</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Stark M.</ce:indexed-name>
+                                    <ce:surname>Stark</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Shirley P.</ce:indexed-name>
+                                    <ce:surname>Shirley</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ferwerda J.</ce:indexed-name>
+                                    <ce:surname>Ferwerda</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Transactions on Graphics</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="21"/>
+                                <pagerange first="267" last="276"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1145/566654.566575</ce:e-address>
+                            </ref-website>
+                            <ref-text>7 2002</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Erik Reinhard, Michael Stark, Peter Shirley, and James Ferwerda. 2002. Photographic tone reproduction for digital images. ACM Transactions on Graphics 21, 3 (7 2002), 267ś276. https://doi.org/10.1145/566654.566575</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Volumetric ambient occlusion for volumetric models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84879965558</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ruiz M.</ce:indexed-name>
+                                    <ce:surname>Ruiz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Szirmay-Kalos L.</ce:indexed-name>
+                                    <ce:surname>Szirmay-Kalos</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Umenhofer T.</ce:indexed-name>
+                                    <ce:surname>Umenhofer</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Boada I.</ce:indexed-name>
+                                    <ce:surname>Boada</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Feixas M.</ce:indexed-name>
+                                    <ce:surname>Feixas</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sbert M.</ce:indexed-name>
+                                    <ce:surname>Sbert</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Visual Computer</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="6-8" volume="26"/>
+                                <pagerange first="687" last="695"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/s00371-010-0497-z</ce:e-address>
+                            </ref-website>
+                            <ref-text>6 2010</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Marc Ruiz, Lázló Szirmay-Kalos, Tamás Umenhofer, Imma Boada, Miquel Feixas, and Mateu Sbert. 2010. Volumetric ambient occlusion for volumetric models. The Visual Computer 26, 6-8 (6 2010), 687ś695. https://doi.org/10.1007/s00371-010-0497-z</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>State of the art in mobile volume rendering on iOS devices</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85050626936</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Schiewe A.</ce:indexed-name>
+                                    <ce:surname>Schiewe</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Anstoots M.</ce:indexed-name>
+                                    <ce:surname>Anstoots</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kruger J.</ce:indexed-name>
+                                    <ce:surname>Krüger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Eurographics Conference on Visualization (EuroVis) - Short Papers</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="139" last="143"/>
+                            </ref-volisspag>
+                            <ref-text>E. Bertini, J. Kennedy, and E. Puppo (Eds.). The Eurographics Association, Cagliari, Italia</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Alexander Schiewe, Mario Anstoots, and Jens Krüger. 2015. State of the Art in Mobile Volume Rendering on iOS Devices. In Eurographics Conference on Visualization (EuroVis) - Short Papers, E. Bertini, J. Kennedy, and E. Puppo (Eds.). The Eurographics Association, Cagliari, Italia, 139ś143.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A directional occlusion shading model for interactive direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">68549085152</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Schott M.</ce:indexed-name>
+                                    <ce:surname>Schott</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Pegoraro V.</ce:indexed-name>
+                                    <ce:surname>Pegoraro</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hansen C.</ce:indexed-name>
+                                    <ce:surname>Hansen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Boulanger K.</ce:indexed-name>
+                                    <ce:surname>Boulanger</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Bouatouch K.</ce:indexed-name>
+                                    <ce:surname>Bouatouch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Graphics Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="28"/>
+                                <pagerange first="855" last="862"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1111/j.1467-8659.2009.01464.x</ce:e-address>
+                            </ref-website>
+                            <ref-text>6 2009</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mathias Schott, Vincent Pegoraro, Charles Hansen, Kévin Boulanger, and Kadi Boua-touch. 2009. A Directional Occlusion Shading Model for Interactive Direct Volume Rendering. Computer Graphics Forum 28, 3 (6 2009), 855ś862. https://doi.org/10.1111/j.1467-8659.2009.01464.x</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A multidi-rectional occlusion shading model for direct volume rendering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955759882</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Solteszova V.</ce:indexed-name>
+                                    <ce:surname>Šoltészová</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Patel D.</ce:indexed-name>
+                                    <ce:surname>Patel</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bruckner S.</ce:indexed-name>
+                                    <ce:surname>Bruckner</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Viola I.</ce:indexed-name>
+                                    <ce:surname>Viola</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Graphics Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="29"/>
+                                <pagerange first="883" last="891"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1111/j.1467-8659.2009.01695.x</ce:e-address>
+                            </ref-website>
+                            <ref-text>8 2010</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Veronika Šoltészová, Daniel Patel, Stefan Bruckner, and Ivan Viola. 2010. A multidi-rectional occlusion shading model for direct volume rendering. Computer Graphics Forum 29, 3 (8 2010), 883ś891. https://doi.org/10.1111/j.1467-8659.2009.01695.x</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Free path sampling in high resolution inhomogeneous participating media</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">82455161604</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Szirmay-Kalos L.</ce:indexed-name>
+                                    <ce:surname>Szirmay-Kalos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Toth B.</ce:indexed-name>
+                                    <ce:surname>Tóth</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Magdics M.</ce:indexed-name>
+                                    <ce:surname>Magdics</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Graphics Forum</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="30"/>
+                                <pagerange first="85" last="97"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1111/j.1467-8659.2010.01831.x</ce:e-address>
+                            </ref-website>
+                            <ref-text>3 2011</ref-text>
+                        </ref-info>
+                        <ref-fulltext>László Szirmay-Kalos, Balázs Tóth, and Milán Magdics. 2011. Free Path Sampling in High Resolution Inhomogeneous Participating Media. Computer Graphics Forum 30, 1 (3 2011), 85ś97. https://doi.org/10.1111/j.1467-8659.2010.01831.x</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Techniques used in the GEM code for monte carlo neutronics calculations in reactors and other systems of complex geometry</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002877088</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Woodcock E.</ce:indexed-name>
+                                    <ce:surname>Woodcock</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Murphy T.</ce:indexed-name>
+                                    <ce:surname>Murphy</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Hemmings P.</ce:indexed-name>
+                                    <ce:surname>Hemmings</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Longworth S.</ce:indexed-name>
+                                    <ce:surname>Longworth</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Conf. Applications of Computing Methods to Reactor Problems.</ref-sourcetitle>
+                            <ref-publicationyear first="1965"/>
+                            <ref-volisspag>
+                                <pagerange first="557" last="579"/>
+                            </ref-volisspag>
+                            <ref-text>Argonne, Ill.: Argonne National Laboratory, Physics Division, Springield, Virginia, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>E Woodcock, T Murphy, P Hemmings, and S Longworth. 1965. Techniques used in the GEM code for Monte Carlo neutronics calculations in reactors and other systems of complex geometry. In Proc. Conf. Applications of Computing Methods to Reactor Problems. Argonne, Ill.: Argonne National Laboratory, Physics Division, Springield, Virginia, USA, 557ś579.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An ambient light illumination model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038059760</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Zhukov S.</ce:indexed-name>
+                                    <ce:surname>Zhukov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Iones A.</ce:indexed-name>
+                                    <ce:surname>Iones</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Kronin G.</ce:indexed-name>
+                                    <ce:surname>Kronin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Rendering Techniques’98</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="45" last="55"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/978-3-7091-6453-2{_}5</ce:e-address>
+                            </ref-website>
+                            <ref-text>George Drettakis and Nelson Max (Eds.). Springer Vienna, Vienna</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Zhukov, A. Iones, and G. Kronin. 1998. An ambient light illumination model. In Rendering Techniques’98, George Drettakis and Nelson Max (Eds.). Springer Vienna, Vienna, 45ś55. https://doi.org/10.1007/978-3-7091-6453-2{_}5</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

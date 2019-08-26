@@ -1,0 +1,909 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84971500722</prism:url><dc:identifier>SCOPUS_ID:84971500722</dc:identifier><eid>2-s2.0-84971500722</eid><prism:doi>10.1007/978-3-319-39315-5_13</prism:doi><dc:title>Heterogeneous network decomposition and weighting with text mining heuristics</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><dc:publisher>
+                        Springer Verlag
+                        service@springer.de
+                    </dc:publisher><source-id>25674</source-id><prism:isbn>9783319393148</prism:isbn><prism:issn>16113349 03029743</prism:issn><prism:volume>9607</prism:volume><prism:startingPage>194</prism:startingPage><prism:endingPage>208</prism:endingPage><prism:pageRange>194-208</prism:pageRange><prism:coverDate>2016-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="56406272900"><ce:initials>J.</ce:initials><ce:indexed-name>Kralj J.</ce:indexed-name><ce:surname>Kralj</ce:surname><ce:given-name>Jan</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Kralj J.</ce:indexed-name><ce:surname>Kralj</ce:surname><ce:given-name>Jan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56406272900</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© Springer International Publishing Switzerland 2016.</publishercopyright>
+                        <ce:para>The paper presents an approach to mining heterogeneous information networks applied to a task of categorizing customers linked in a heterogeneous network of products, categories and customers. We propose a two step methodology to classify the customers. In the first step, the heterogeneous network is decomposed into several homogeneous networks using different connecting nodes. Similarly to the construction of bag-of-words vectors in text mining, we assign larger weights to more important nodes. In the second step, the resulting homogeneous networks are used to classify data either by network propositionalization or label propagation. Because the data set is highly imbalanced we adapt the label propagation algorithm to handle imbalanced data. We perform a series of experiments and compare different heuristics used in the first step of the methodology, as well as different classifiers which can be used in the second step of the methodology.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84971500722" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84971500722&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84971500722&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"><affilname>Jozef Stefan Institute</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="56406272900"><ce:initials>J.</ce:initials><ce:indexed-name>Kralj J.</ce:indexed-name><ce:surname>Kralj</ce:surname><ce:given-name>Jan</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Kralj J.</ce:indexed-name><ce:surname>Kralj</ce:surname><ce:given-name>Jan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56406272900</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="2" auid="55900495300"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55900495300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7004388979"><ce:initials>N.</ce:initials><ce:indexed-name>Lavrac N.</ce:indexed-name><ce:surname>Lavrač</ce:surname><ce:given-name>Nada</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Lavrač N.</ce:indexed-name><ce:surname>Lavrač</ce:surname><ce:given-name>Nada</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7004388979</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Centroid classifier</author-keyword><author-keyword>Heterogeneous information networks</author-keyword><author-keyword>Network analysis</author-keyword><author-keyword>Network decomposition</author-keyword><author-keyword>PageRank</author-keyword><author-keyword>SVM</author-keyword><author-keyword>Text mining heuristics</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Connecting nodes</mainterm><mainterm weight="b" candidate="n">Heterogeneous information</mainterm><mainterm weight="b" candidate="n">Homogeneous network</mainterm><mainterm weight="b" candidate="n">Label propagation</mainterm><mainterm weight="b" candidate="n">Network decomposition</mainterm><mainterm weight="b" candidate="n">PageRank</mainterm><mainterm weight="b" candidate="n">Propositionalization</mainterm><mainterm weight="b" candidate="n">Text mining</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="29" month="08" timestamp="2018-08-29T10:13:00.000000-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2016"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-319-39315-5_13</ce:doi>
+                    <itemid idtype="PUI">610608996</itemid>
+                    <itemid idtype="CAR-ID">651121483</itemid>
+                    <itemid idtype="CPX">20162302470814</itemid>
+                    <itemid idtype="SCP">84971500722</itemid>
+                    <itemid idtype="SGR">84971500722</itemid>
+                </itemidlist><history>
+                    <date-created day="24" month="08" timestamp="BST 11:37:45" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Centroid classifier</author-keyword>
+                        <author-keyword xml:lang="eng">Heterogeneous information networks</author-keyword>
+                        <author-keyword xml:lang="eng">Network analysis</author-keyword>
+                        <author-keyword xml:lang="eng">Network decomposition</author-keyword>
+                        <author-keyword xml:lang="eng">PageRank</author-keyword>
+                        <author-keyword xml:lang="eng">SVM</author-keyword>
+                        <author-keyword xml:lang="eng">Text mining heuristics</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Heterogeneous network decomposition and weighting with text mining heuristics</titletext></citation-title><author-group><author auid="56406272900" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Kralj J.</ce:indexed-name><ce:surname>Kralj</ce:surname><ce:given-name>Jan</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Kralj J.</ce:indexed-name>
+                            <ce:surname>Kralj</ce:surname>
+                            <ce:given-name>Jan</ce:given-name>
+                        </preferred-name></author><author auid="7004388979" seq="3" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Lavrac N.</ce:indexed-name><ce:surname>Lavrač</ce:surname><ce:given-name>Nada</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Lavrač N.</ce:indexed-name>
+                            <ce:surname>Lavrač</ce:surname>
+                            <ce:given-name>Nada</ce:given-name>
+                        </preferred-name></author><affiliation afid="60023955" country="svn"><organization>Jožef Stefan Institute</organization><address-part>Jamova 39</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60023955"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="56406272900" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Kralj J.</ce:indexed-name><ce:surname>Kralj</ce:surname><ce:given-name>Jan</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Kralj J.</ce:indexed-name>
+                            <ce:surname>Kralj</ce:surname>
+                            <ce:given-name>Jan</ce:given-name>
+                        </preferred-name></author><author auid="7004388979" seq="3" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Lavrac N.</ce:indexed-name><ce:surname>Lavrač</ce:surname><ce:given-name>Nada</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Lavrač N.</ce:indexed-name>
+                            <ce:surname>Lavrač</ce:surname>
+                            <ce:given-name>Nada</ce:given-name>
+                        </preferred-name></author><affiliation afid="60023955" country="svn"><organization>Jožef Stefan International Postgraduate School</organization><address-part>Jamova 39</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60023955"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55900495300" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name>
+                            <ce:surname>Robnik-Šikonja</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>J.</ce:initials>
+                        <ce:indexed-name>Kralj J.</ce:indexed-name>
+                        <ce:surname>Kralj</ce:surname>
+                        <ce:given-name>Jan</ce:given-name>
+                    </person><affiliation country="svn"><organization>Jožef Stefan Institute</organization><address-part>Jamova 39</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© Springer International Publishing Switzerland 2016.</publishercopyright>
+                        <ce:para>The paper presents an approach to mining heterogeneous information networks applied to a task of categorizing customers linked in a heterogeneous network of products, categories and customers. We propose a two step methodology to classify the customers. In the first step, the heterogeneous network is decomposed into several homogeneous networks using different connecting nodes. Similarly to the construction of bag-of-words vectors in text mining, we assign larger weights to more important nodes. In the second step, the resulting homogeneous networks are used to classify data either by network propositionalization or label propagation. Because the data set is highly imbalanced we adapt the label propagation algorithm to handle imbalanced data. We perform a series of experiments and compare different heuristics used in the first step of the methodology, as well as different classifiers which can be used in the second step of the methodology.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</translated-sourcetitle><issuetitle>New Frontiers in Mining Complex Patterns - 4th International Workshop, NFMCP 2015 Held in Conjunction with ECML-PKDD 2015, Revised Selected Papers</issuetitle><issn type="electronic">16113349</issn><issn type="print">03029743</issn><isbn length="13" level="volume" type="print">9783319393148</isbn><volisspag>
+                        <voliss volume="9607"/>
+                        <pagerange first="194" last="208"/>
+                    </volisspag><publicationyear first="2016"/><publicationdate>
+                        <year>2016</year>
+                    <date-text xfab-added="true">2016</date-text></publicationdate><website>
+                        <ce:e-address type="email">https://www.springer.com/series/558</ce:e-address>
+                    </website><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Ceci M.</ce:indexed-name>
+                            <ce:surname>Ceci</ce:surname>
+                            <ce:given-name>Michelangelo</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="2">
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Loglisci C.</ce:indexed-name>
+                            <ce:surname>Loglisci</ce:surname>
+                            <ce:given-name>Corrado</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Manco G.</ce:indexed-name>
+                            <ce:surname>Manco</ce:surname>
+                            <ce:given-name>Giuseppe</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="2">
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Masciari E.</ce:indexed-name>
+                            <ce:surname>Masciari</ce:surname>
+                            <ce:given-name>Elio</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>Z.W.</ce:initials>
+                            <ce:indexed-name>Ras Z.W.</ce:indexed-name>
+                            <ce:surname>Ras</ce:surname>
+                            <ce:given-name>Zbigniew W.</ce:given-name>
+                        </contributor>
+                    </contributor-group><publisher>
+                        <publishername>Springer Verlag</publishername>
+                        <ce:e-address type="email">service@springer.de</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>4th International Workshop on New Frontiers in Mining Complex Patterns, NFMCP 2015 and Held in Conjunction with European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, ECML-PKDD 2015</confname>
+                                <confnumber>4th</confnumber>
+                                <confseriestitle>International Workshop on New Frontiers in Mining Complex Patterns and Held in Conjunction with European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</confseriestitle>
+                                <conflocation country="prt">
+                                    <city>Porto</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="07" month="09" year="2015"/>
+                                </confdate>
+                                <confcode>175549</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>703.1.1</classification-code>
+                                <classification-description>Electric Network Analysis</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>722</classification-code>
+                                <classification-description>Computer Hardware</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.2</classification-code>
+                                <classification-description>Data Processing</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>903.1</classification-code>
+                                <classification-description>Information Sources and Analysis</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>903.4</classification-code>
+                                <classification-description>Information Services</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="25">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004028269</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Burt R.</ce:indexed-name>
+                                    <ce:surname>Burt</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Minor M.</ce:indexed-name>
+                                    <ce:surname>Minor</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Applied Network Analysis: A Methodological Introduction</ref-sourcetitle>
+                            <ref-publicationyear first="1983"/>
+                            <ref-text>Sage Publications, Beverly Hills</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Burt, R., Minor, M.: Applied Network Analysis: A Methodological Introduction. Sage Publications, Beverly Hills (1983)</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multi-relational link prediction in heterogeneous information networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052766497</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Davis D.</ce:indexed-name>
+                                    <ce:surname>Davis</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Lichtenwalter R.</ce:indexed-name>
+                                    <ce:surname>Lichtenwalter</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.V.</ce:initials>
+                                    <ce:indexed-name>Chawla N.V.</ce:indexed-name>
+                                    <ce:surname>Chawla</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2011 International Conference on Advances in Social Networks Analysis and Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="281" last="288"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Davis, D., Lichtenwalter, R., Chawla, N.V.: Multi-relational link prediction in heterogeneous information networks. In: Proceedings of the 2011 International Conference on Advances in Social Networks Analysis and Mining, pp. 281–288 (2011)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33646122183</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Debole F.</ce:indexed-name>
+                                    <ce:surname>Debole</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Sebastiani F.</ce:indexed-name>
+                                    <ce:surname>Sebastiani</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Supervised Term Weighting for Automated Text Categorization</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="81" last="97"/>
+                            </ref-volisspag>
+                            <ref-text>Sirmakessis, S. (ed.) Text Mining and Its Applications, Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Debole, F., Sebastiani, F.: Supervised term weighting for automated text categorization. In: Sirmakessis, S. (ed.) Text Mining and Its Applications, pp. 81–97. Springer, Heidelberg (2004)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Separating the wheat from the chaff: Applications of automated document classification using support vector machines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898622561</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>D'Orazio V.</ce:indexed-name>
+                                    <ce:surname>D’Orazio</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.T.</ce:initials>
+                                    <ce:indexed-name>Landis S.T.</ce:indexed-name>
+                                    <ce:surname>Landis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Palmer G.</ce:indexed-name>
+                                    <ce:surname>Palmer</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Schrodt P.</ce:indexed-name>
+                                    <ce:surname>Schrodt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Polytical Anal</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="22"/>
+                                <pagerange first="224" last="242"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D’Orazio, V., Landis, S.T., Palmer, G., Schrodt, P.: Separating the wheat from the chaff: applications of automated document classification using support vector machines. Polytical Anal. 22(2), 224–242 (2014)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Protein networks as logic functions in development and cancer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="ARTNUM">e1002180</itemid>
+                                <itemid idtype="SGR">80053446196</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Dutkowski J.</ce:indexed-name>
+                                    <ce:surname>Dutkowski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ideker T.</ce:indexed-name>
+                                    <ce:surname>Ideker</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Plos Comput. Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="7"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dutkowski, J., Ideker, T.: Protein networks as logic functions in development and cancer. PLoS Comput. Biol. 7(9), e1002180 (2011)</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A methodology for mining document-enriched heterogeneous information networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874859360</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grcar M.</ce:indexed-name>
+                                    <ce:surname>Grčar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Trdin N.</ce:indexed-name>
+                                    <ce:surname>Trdin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Lavrac N.</ce:indexed-name>
+                                    <ce:surname>Lavrač</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. J</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="56"/>
+                                <pagerange first="321" last="335"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Grčar, M., Trdin, N., Lavrač, N.: A methodology for mining document-enriched heterogeneous information networks. Comput. J. 56(3), 321–335 (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis and experimental results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84962671851</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.-H.</ce:initials>
+                                    <ce:indexed-name>Han E.-H.</ce:indexed-name>
+                                    <ce:surname>Han</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Karypis G.</ce:indexed-name>
+                                    <ce:surname>Karypis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 4Th European Conference on Principles of Data Mining and Knowledge Discovery</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="424" last="431"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Han, E.-H., Karypis, G.: Analysis and experimental results. In Proceedings of the 4th European Conference on Principles of Data Mining and Knowledge Discovery, pp. 424–431. Springer (2000)</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Network-based stratification of tumor mutations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887084951</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hofree M.</ce:indexed-name>
+                                    <ce:surname>Hofree</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.P.</ce:initials>
+                                    <ce:indexed-name>Shen J.P.</ce:indexed-name>
+                                    <ce:surname>Shen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Carter H.</ce:indexed-name>
+                                    <ce:surname>Carter</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gross A.</ce:indexed-name>
+                                    <ce:surname>Gross</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ideker T.</ce:indexed-name>
+                                    <ce:surname>Ideker</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat. Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="11" volume="10"/>
+                                <pagerange first="1108" last="1115"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hofree, M., Shen, J.P., Carter, H., Gross, A., Ideker, T.: Network-based stratification of tumor mutations. Nat. Methods 10(11), 1108–1115 (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A measure of structural-context similarity</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0242625250</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Jeh G.</ce:indexed-name>
+                                    <ce:surname>Jeh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Widom J.</ce:indexed-name>
+                                    <ce:surname>Widom</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 8Th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="538" last="543"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jeh, G., Widom, J.: A measure of structural-context similarity. In: Proceedings of the 8th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 538–543. ACM (2002)</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A statistical interpretation of term specificity and its application in retrieval</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84953744816</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.S.</ce:initials>
+                                    <ce:indexed-name>Jones K.S.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Doc</ref-sourcetitle>
+                            <ref-publicationyear first="1972"/>
+                            <ref-volisspag>
+                                <voliss volume="28"/>
+                                <pagerange first="11" last="21"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jones, K.S.: A statistical interpretation of term specificity and its application in retrieval. J. Doc. 28, 11–21 (1972)</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Authoritative sources in a hyperlinked environment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">4243148480</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Kleinberg J.M.</ce:indexed-name>
+                                    <ce:surname>Kleinberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="46"/>
+                                <pagerange first="604" last="632"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kleinberg, J.M.: Authoritative sources in a hyperlinked environment. J. ACM 46(5), 604–632 (1999)</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Diffusion kernels on graphs and other discrete input spaces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0041775676</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.I.</ce:initials>
+                                    <ce:indexed-name>Kondor R.I.</ce:indexed-name>
+                                    <ce:surname>Kondor</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.D.</ce:initials>
+                                    <ce:indexed-name>Lafferty J.D.</ce:indexed-name>
+                                    <ce:surname>Lafferty</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 19Th International Conference on Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="315" last="322"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kondor, R.I., Lafferty, J.D.: Diffusion kernels on graphs and other discrete input spaces. In: Proceedings of the 19th International Conference on Machine Learning, pp. 315–322 (2002)</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mining heterogeneous citation networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84971516180</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kralj J.</ce:indexed-name>
+                                    <ce:surname>Kralj</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 19<sup>th</sup> Pacific-Asia Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="672" last="683"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kralj, J.: Mining heterogeneous citation networks. In: Proceedings of the 19<sup>th</sup> Pacific-Asia Conference on Knowledge Discovery and Data Mining, pp. 672–683 (2015)</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automated text categorization using support vector machine</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003096046</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.T.</ce:initials>
+                                    <ce:indexed-name>Kwok J.T.</ce:indexed-name>
+                                    <ce:surname>Kwok</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 5Th International Conference on Neural Information Processing</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="347" last="351"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kwok, J.T.-Y.: Automated text categorization using support vector machine. In: Proceedings of the 5th International Conference on Neural Information Processing, pp. 347–351 (1998)</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Supervised and traditional term weighting methods for automatic text categorization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62249199807</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Lan M.</ce:indexed-name>
+                                    <ce:surname>Lan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.L.</ce:initials>
+                                    <ce:indexed-name>Tan C.L.</ce:indexed-name>
+                                    <ce:surname>Tan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Su J.</ce:indexed-name>
+                                    <ce:surname>Su</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Lu Y.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="31"/>
+                                <pagerange first="721" last="735"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lan, M., Tan, C.L., Su, J., Lu, Y.: Supervised and traditional term weighting methods for automatic text categorization. IEEE Trans. Pattern Anal. Mach. Intell. 31(4), 721–735 (2009)</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>One-class SVMs for document classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0141868894</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.M.</ce:initials>
+                                    <ce:indexed-name>Manevitz L.M.</ce:indexed-name>
+                                    <ce:surname>Manevitz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Yousef M.</ce:indexed-name>
+                                    <ce:surname>Yousef</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Mach. Learn. Res</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="139" last="154"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Manevitz, L.M., Yousef, M.: One-class SVMs for document classification. J. Mach. Learn. Res. 2, 139–154 (2002)</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An improved feature space for sentiment analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84859019797</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Martineau J.</ce:indexed-name>
+                                    <ce:surname>Martineau</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Finin T.</ce:indexed-name>
+                                    <ce:surname>Finin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Third AAAI Internatonal Conference on Weblogs and Social Media</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-text>San Jose, CA. AAAI Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Martineau, J., Finin, T.: An improved feature space for sentiment analysis. In: Proceedings of the Third AAAI Internatonal Conference on Weblogs and Social Media, San Jose, CA. AAAI Press (2009)</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84969999383</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Page L.</ce:indexed-name>
+                                    <ce:surname>Page</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Brin S.</ce:indexed-name>
+                                    <ce:surname>Brin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Motwani R.</ce:indexed-name>
+                                    <ce:surname>Motwani</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Winograd T.</ce:indexed-name>
+                                    <ce:surname>Winograd</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Pagerank Citation Ranking: Bringing Order to the Web</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>Technical report, Stanford InfoLab</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Page, L., Brin, S., Motwani, R., Winograd, T.: The PageRank citation ranking: bringing order to the web. Technical report, Stanford InfoLab (1999)</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Differential evolution: A simple and efficient heuristic for global optimization over continuous spaces</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0142000477</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Storn R.</ce:indexed-name>
+                                    <ce:surname>Storn</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Price K.</ce:indexed-name>
+                                    <ce:surname>Price</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Global Optim</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="11"/>
+                                <pagerange first="341" last="359"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Storn, R., Price, K.: Differential evolution: a simple and efficient heuristic for global optimization over continuous spaces. J. Global Optim. 11(4), 341–359 (1997)</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84971577196</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Sun Y.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Han J.</ce:indexed-name>
+                                    <ce:surname>Han</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Principles and Methodologies</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-text>Morgan &amp; Claypool Publishers, San Rafael</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Sun, Y., Han, J.: Principles and Methodologies. Morgan &amp; Claypool Publishers, San Rafael (2012)</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ranking-based clustering of heterogeneous information networks with star network schema</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">70350625449</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Sun Y.</ce:indexed-name>
+                                    <ce:surname>Sun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Yu Y.</ce:indexed-name>
+                                    <ce:surname>Yu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Han J.</ce:indexed-name>
+                                    <ce:surname>Han</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 15Th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="797" last="806"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sun, Y., Yu, Y., Han, J.: Ranking-based clustering of heterogeneous information networks with star network schema. In: Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 797–806 (2009)</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An effective refinement strategy for KNN text classifier</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">28544439958</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Tan S.</ce:indexed-name>
+                                    <ce:surname>Tan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Expert Syst. Appl</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="30"/>
+                                <pagerange first="290" last="298"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tan, S.: An effective refinement strategy for KNN text classifier. Expert Syst. Appl. 30(2), 290–298 (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Associating genes and protein complexes with disease via network propagation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="ARTNUM">e1000641</itemid>
+                                <itemid idtype="SGR">76749134818</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Vanunu O.</ce:indexed-name>
+                                    <ce:surname>Vanunu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Magger O.</ce:indexed-name>
+                                    <ce:surname>Magger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Ruppin E.</ce:indexed-name>
+                                    <ce:surname>Ruppin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Shlomi T.</ce:indexed-name>
+                                    <ce:surname>Shlomi</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Sharan R.</ce:indexed-name>
+                                    <ce:surname>Sharan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Plos Comput. Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Vanunu, O., Magger, O., Ruppin, E., Shlomi, T., Sharan, R.: Associating genes and protein complexes with disease via network propagation. PLoS Comput. Biol. 6(1), e1000641 (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An information flow model for conflict and fission in small groups</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">42449110882</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Zachary W.</ce:indexed-name>
+                                    <ce:surname>Zachary</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Anthropol. Res</ref-sourcetitle>
+                            <ref-publicationyear first="1977"/>
+                            <ref-volisspag>
+                                <voliss volume="33"/>
+                                <pagerange first="452" last="473"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zachary, W.: An information flow model for conflict and fission in small groups. J. Anthropol. Res. 33, 452–473 (1977)</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning with local and global consistency</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84899006908</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zhou D.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Bousquet O.</ce:indexed-name>
+                                    <ce:surname>Bousquet</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.N.</ce:initials>
+                                    <ce:indexed-name>Lal T.N.</ce:indexed-name>
+                                    <ce:surname>Lal</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Weston J.</ce:indexed-name>
+                                    <ce:surname>Weston</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Scholkopf B.</ce:indexed-name>
+                                    <ce:surname>Schölkopf</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Adv. Neural Inf. Process. Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="16" volume="16"/>
+                                <pagerange first="321" last="328"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhou, D., Bousquet, O., Lal, T.N., Weston, J., Schölkopf, B.: Learning with local and global consistency. Adv. Neural Inf. Process. Syst. 16(16), 321–328 (2004)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

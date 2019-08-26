@@ -1,0 +1,472 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85046893275</prism:url><dc:identifier>SCOPUS_ID:85046893275</dc:identifier><eid>2-s2.0-85046893275</eid><pubmed-id>29461874</pubmed-id><prism:doi>10.1089/cmb.2017.0209</prism:doi><dc:title>Grohar: Automated Visualization of Genome-Scale Metabolic Models and Their Pathways</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Journal of Computational Biology</prism:publicationName><dc:publisher>
+                        Mary Ann Liebert Inc.
+                        info@liebertpub.com
+                    </dc:publisher><source-id>29581</source-id><prism:issn>10665277</prism:issn><prism:volume>25</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:startingPage>505</prism:startingPage><prism:endingPage>508</prism:endingPage><prism:pageRange>505-508</prism:pageRange><prism:coverDate>2018-05-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="24470299300"><ce:initials>M.</ce:initials><ce:indexed-name>Moskon M.</ce:indexed-name><ce:surname>Moškon</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Moškon M.</ce:indexed-name><ce:surname>Moškon</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24470299300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© Mary Ann Liebert, Inc.</publishercopyright>
+                        <ce:para>Genome-scale metabolic models (GEMs) have become a powerful tool for the investigation of the entire metabolism of the organism in silico. These models are, however, often extremely hard to reconstruct and also difficult to apply to the selected problem. Visualization of the GEM allows us to easier comprehend the model, to perform its graphical analysis, to find and correct the faulty relations, to identify the parts of the system with a designated function, etc. Even though several approaches for the automatic visualization of GEMs have been proposed, metabolic maps are still manually drawn or at least require large amount of manual curation. We present Grohar, a computational tool for automatic identification and visualization of GEM (sub)networks and their metabolic fluxes. These (sub)networks can be specified directly by listing the metabolites of interest or indirectly by providing reference metabolic pathways from different sources, such as KEGG, SBML, or Matlab file. These pathways are identified within the GEM using three different pathway alignment algorithms. Grohar also supports the visualization of the model adjustments (e.g., activation or inhibition of metabolic reactions) after perturbations are induced.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85046893275" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85046893275&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85046893275&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="24470299300"><ce:initials>M.</ce:initials><ce:indexed-name>Moskon M.</ce:indexed-name><ce:surname>Moškon</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Moškon M.</ce:indexed-name><ce:surname>Moškon</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24470299300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="35613179800"><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><ce:given-name>Nikolaj</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><ce:given-name>Nikolaj</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35613179800</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7007175863"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7007175863</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>flux balance analysis</author-keyword><author-keyword>genome-scale metabolic models</author-keyword><author-keyword>pathway alignment</author-keyword><author-keyword>systems biology</author-keyword><author-keyword>visualization of metabolic networks.</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="2611" abbrev="MATH">Modeling and Simulation</subject-area><subject-area code="1312" abbrev="BIOC">Molecular Biology</subject-area><subject-area code="1311" abbrev="BIOC">Genetics</subject-area><subject-area code="2605" abbrev="MATH">Computational Mathematics</subject-area><subject-area code="1703" abbrev="COMP">Computational Theory and Mathematics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-03T16:41:31.314Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This work has been partially supported by the scientific-research program Pervasive Computing (P2-0359) financed by the Slovenian Research Agency during the years from 2009 to 2017.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="11" month="04" timestamp="2019-04-11T22:09:28.000028-04:00" year="2019"/><ait:date-sort day="01" month="05" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1089/cmb.2017.0209</ce:doi>
+                    <itemid idtype="PUI">622164755</itemid>
+                    <itemid idtype="CABS">2018154496</itemid>
+                    <itemid idtype="CAR-ID">910679045</itemid>
+                    <itemid idtype="EMBIO">2017577801</itemid>
+                    <itemid idtype="REAXYSCAR">20180856959</itemid>
+                    <itemid idtype="SCOPUS">20181572772</itemid>
+                    <itemid idtype="SCP">85046893275</itemid>
+                    <itemid idtype="SGR">85046893275</itemid>
+                    <itemid idtype="PUIsecondary">627117084</itemid>
+                    <itemid idtype="MEDL">29461874</itemid>
+                </itemidlist><history>
+                    <date-created day="24" month="05" timestamp="BST 16:06:12" year="2018"/>
+                </history><dbcollection>CABS</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection><dbcollection>MEDL</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">flux balance analysis</author-keyword>
+                        <author-keyword xml:lang="eng">genome-scale metabolic models</author-keyword>
+                        <author-keyword xml:lang="eng">pathway alignment</author-keyword>
+                        <author-keyword xml:lang="eng">systems biology</author-keyword>
+                        <author-keyword xml:lang="eng">visualization of metabolic networks.</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Grohar: Automated Visualization of Genome-Scale Metabolic Models and Their Pathways</titletext></citation-title><author-group><author auid="24470299300" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Moskon M.</ce:indexed-name><ce:surname>Moškon</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Moškon M.</ce:indexed-name>
+                            <ce:surname>Moškon</ce:surname>
+                            <ce:given-name>Miha</ce:given-name>
+                        </preferred-name></author><author auid="35613179800" seq="2" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Zimic N.</ce:indexed-name><ce:surname>Zimic</ce:surname><ce:given-name>Nikolaj</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Zimic N.</ce:indexed-name>
+                            <ce:surname>Zimic</ce:surname>
+                            <ce:given-name>Nikolaj</ce:given-name>
+                        </preferred-name></author><author auid="7007175863" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Mraz M.</ce:indexed-name>
+                            <ce:surname>Mraz</ce:surname>
+                            <ce:given-name>Miha</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Vécna pot 113 1000</address-part><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Moskon M.</ce:indexed-name>
+                        <ce:surname>Moškon</ce:surname>
+                        <ce:given-name>Miha</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Vécna pot 113 1000</address-part><city>Ljubljana</city><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© Mary Ann Liebert, Inc.</publishercopyright>
+                        <ce:para>Genome-scale metabolic models (GEMs) have become a powerful tool for the investigation of the entire metabolism of the organism in silico. These models are, however, often extremely hard to reconstruct and also difficult to apply to the selected problem. Visualization of the GEM allows us to easier comprehend the model, to perform its graphical analysis, to find and correct the faulty relations, to identify the parts of the system with a designated function, etc. Even though several approaches for the automatic visualization of GEMs have been proposed, metabolic maps are still manually drawn or at least require large amount of manual curation. We present Grohar, a computational tool for automatic identification and visualization of GEM (sub)networks and their metabolic fluxes. These (sub)networks can be specified directly by listing the metabolites of interest or indirectly by providing reference metabolic pathways from different sources, such as KEGG, SBML, or Matlab file. These pathways are identified within the GEM using three different pathway alignment algorithms. Grohar also supports the visualization of the model adjustments (e.g., activation or inhibition of metabolic reactions) after perturbations are induced.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="29581" type="j"><sourcetitle>Journal of Computational Biology</sourcetitle><sourcetitle-abbrev>J. Comput. Biol.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Journal of Computational Biology</translated-sourcetitle><issn type="print">10665277</issn><codencode>JCOBE</codencode><volisspag>
+                        <voliss issue="5" volume="25"/>
+                        <pagerange first="505" last="508"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>05</month>
+                        <day>01</day>
+                        <date-text>May 2018</date-text>
+                    </publicationdate><website>
+                        <ce:e-address type="email">www.liebertonline.com/cmb</ce:e-address>
+                    </website><publisher>
+                        <publishername>Mary Ann Liebert Inc.</publishername>
+                        <ce:e-address type="email">info@liebertpub.com</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CABSCLASS">
+                            <classification>
+                                 
+                                <classification-code>84.1.13</classification-code>
+                                 
+                                <classification-description>GENETICS AND MOLECULAR BIOLOGY; MOLECULAR GENETICS; Molecular Biology Techniques</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2611</classification>
+                            <classification>1312</classification>
+                            <classification>1311</classification>
+                            <classification>2605</classification>
+                            <classification>1703</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>BIOC</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="12">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85046889920</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Moskon M.</ce:indexed-name>
+                                    <ce:surname>Moskon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Zimic N.</ce:indexed-name>
+                                    <ce:surname>Zimic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mraz M.</ce:indexed-name>
+                                    <ce:surname>Mraz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2018"/>
+                            <ref-website>
+                                <websitename>Grohar</websitename>
+                                <ce:e-address type="email">https://bitbucket.org/mmoskon/grohar</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Moskon, M., Zimic, N., and Mraz, M. 2018. Grohar. https://bitbucket. org/mmoskon/grohar</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deriving phylogenetic trees from the similarity analysis of metabolic pathways</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">4944219668</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Heymans M.</ce:indexed-name>
+                                    <ce:surname>Heymans</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.K.</ce:initials>
+                                    <ce:indexed-name>Singh A.K.</ce:indexed-name>
+                                    <ce:surname>Singh</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="i138" last="i146"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Heymans, M., and Singh, A. K. 2003. Deriving phylogenetic trees from the similarity analysis of metabolic pathways. Bioinformatics 19(Suppl 1), i138-i146.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Aligning metabolic pathways exploiting binary relation of reactions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85006064687</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Huang Y.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Zhong C.</ce:indexed-name>
+                                    <ce:surname>Zhong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.X.</ce:initials>
+                                    <ce:indexed-name>Lin H.X.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS One</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="e0168044"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Huang, Y., Zhong, C., Lin, H. X., et al. 2016. Aligning metabolic pathways exploiting binary relation of reactions. PLoS One 11, e0168044.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>BiKEGG: A COBRA toolbox extension for bridging the BiGG and KEGG databases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84992170175</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Jamialahmadi O.</ce:indexed-name>
+                                    <ce:surname>Jamialahmadi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Motamedian E.</ce:indexed-name>
+                                    <ce:surname>Motamedian</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hashemi-Najafabadi S.</ce:indexed-name>
+                                    <ce:surname>Hashemi-Najafabadi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol. Biosyst.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="12"/>
+                                <pagerange first="3459" last="3466"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jamialahmadi, O., Motamedian, E., and Hashemi-Najafabadi, S. 2016. BiKEGG: A COBRA toolbox extension for bridging the BiGG and KEGG databases. Mol. Biosyst. 12, 3459-3466.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>MetDraw: Automated visualization of genome-scale metabolic network reconstructions and high-throughput data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84899544870</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.A.</ce:initials>
+                                    <ce:indexed-name>Jensen P.A.</ce:indexed-name>
+                                    <ce:surname>Jensen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Papin J.A.</ce:indexed-name>
+                                    <ce:surname>Papin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="30"/>
+                                <pagerange first="1327" last="1328"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jensen, PA., and Papin, J. A. 2014. MetDraw: Automated visualization of genome-scale metabolic network reconstructions and high-throughput data. Bioinformatics 30, 1327-1328.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>From genomics to chemical genomics: New developments in KEGG</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33644874819</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kanehisa M.</ce:indexed-name>
+                                    <ce:surname>Kanehisa</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Goto S.</ce:indexed-name>
+                                    <ce:surname>Goto</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hattori M.</ce:indexed-name>
+                                    <ce:surname>Hattori</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="D354" last="D357"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kanehisa, M., Goto, S., Hattori, M., et al. 2006. From genomics to chemical genomics: New developments in KEGG. Nucleic Acids Res. 1, D354-D357.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Escher: A web application for building, sharing, and embedding datarich visualizations of biological pathways</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84940751701</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.A.</ce:initials>
+                                    <ce:indexed-name>King Z.A.</ce:indexed-name>
+                                    <ce:surname>King</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Drager A.</ce:indexed-name>
+                                    <ce:surname>Dräger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ebrahim A.</ce:indexed-name>
+                                    <ce:surname>Ebrahim</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>PLoS Comput. Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="e1004321"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>King, Z. A., Dräger, A., Ebrahim, A., et al. 2015a. Escher: A web application for building, sharing, and embedding datarich visualizations of biological pathways. PLoS Comput. Biol. 11, e1004321.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>BiGG models: A platform for integrating, standardizing and sharing genome-scale models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84976877544</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.A.</ce:initials>
+                                    <ce:indexed-name>King Z.A.</ce:indexed-name>
+                                    <ce:surname>King</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lu J.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Drager A.</ce:indexed-name>
+                                    <ce:surname>Dräger</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nucleic Acids Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="D1" volume="44"/>
+                                <pagerange first="D515" last="D522"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>King, Z. A., Lu, J., Dräger, A., et al. 2015b. BiGG models: A platform for integrating, standardizing and sharing genome-scale models. Nucleic Acids Res. 44(D1), D515-D522.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CySBML: A Cytoscape plugin for SBML</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84866459866</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Konig M.</ce:indexed-name>
+                                    <ce:surname>König</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Drager A.</ce:indexed-name>
+                                    <ce:surname>Dräger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.-G.</ce:initials>
+                                    <ce:indexed-name>Holzhutter H.-G.</ce:indexed-name>
+                                    <ce:surname>Holzhütter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="28"/>
+                                <pagerange first="2402" last="2403"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>König, M., Dräger, A., and Holzhütter, H.-G. 2012. CySBML: A Cytoscape plugin for SBML. Bioinformatics 28, 2402-2403.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Paint4net: COBRA toolbox extension for visualization of stoichiometric models of metabolism</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84863432704</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kostromins A.</ce:indexed-name>
+                                    <ce:surname>Kostromins</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Stalidzans E.</ce:indexed-name>
+                                    <ce:surname>Stalidzans</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biosystems</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="109"/>
+                                <pagerange first="233" last="239"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kostromins, A., and Stalidzans, E. 2012. Paint4net: COBRA toolbox extension for visualization of stoichiometric models of metabolism. Biosystems 109, 233-239.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>What is flux balance analysis? Nat</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77749320898</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.D.</ce:initials>
+                                    <ce:indexed-name>Orth J.D.</ce:indexed-name>
+                                    <ce:surname>Orth</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Thiele I.</ce:indexed-name>
+                                    <ce:surname>Thiele</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.O.</ce:initials>
+                                    <ce:indexed-name>Palsson B.O.</ce:indexed-name>
+                                    <ce:surname>Palsson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biotechnol.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="28"/>
+                                <pagerange first="245" last="248"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Orth, J. D., Thiele, I., and Palsson, B. O. 2010. What is flux balance analysis? Nat. Biotechnol. 28, 245-248.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantitative prediction of cellular metabolism with constraintbased models: The COBRA Toolbox v2. 0</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79551662521</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Schellenberger J.</ce:indexed-name>
+                                    <ce:surname>Schellenberger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Que R.</ce:indexed-name>
+                                    <ce:surname>Que</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.M.</ce:initials>
+                                    <ce:indexed-name>Fleming R.M.</ce:indexed-name>
+                                    <ce:surname>Fleming</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Nat. Protoc.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="1290" last="1307"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Schellenberger, J., Que, R., Fleming, R. M., et al. 2011. Quantitative prediction of cellular metabolism with constraintbased models: The COBRA Toolbox v2. 0. Nat. Protoc. 6, 1290-1307.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

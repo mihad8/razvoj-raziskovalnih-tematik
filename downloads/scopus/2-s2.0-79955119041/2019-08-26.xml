@@ -1,0 +1,317 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/79955119041</prism:url><dc:identifier>SCOPUS_ID:79955119041</dc:identifier><eid>2-s2.0-79955119041</eid><prism:doi>10.1007/978-3-642-20267-4_40</prism:doi><dc:title>On the origin and features of an evolved boolean model for subcellular signal transduction systems</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><source-id>25674</source-id><prism:isbn>9783642202667</prism:isbn><prism:issn>03029743 16113349</prism:issn><prism:volume>6594 LNCS</prism:volume><prism:issueIdentifier>PART 2</prism:issueIdentifier><prism:startingPage>383</prism:startingPage><prism:endingPage>392</prism:endingPage><prism:pageRange>383-392</prism:pageRange><prism:coverDate>2011-04-28</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="6507593861"><ce:initials>B.</ce:initials><ce:indexed-name>Ster B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Šter B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507593861</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>In this paper we deal with the evolved Boolean model of the subcellular network for a hypothetical subcellular task that performs some of the basic cellular functions. The Boolean network is trained with a genetic algorithm and the obtained results are analyzed. We show that the size of the evolved Boolean network relates strongly to the task, that the number of output combinations is decreased, which is in concordance with the biological (measured) networks, and that the number of non-canalyzing inputs is increased, which indicates its specialization to the task. We conclude that the structure of the evolved network is biologically relevant, since it incorporates properties of evolved biological systems. © 2011 Springer-Verlag.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/79955119041" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=79955119041&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=79955119041&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60008358" href="https://api.elsevier.com/content/affiliation/affiliation_id/60008358"><affilname>National Institute of Chemistry Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6507593861"><ce:initials>B.</ce:initials><ce:indexed-name>Ster B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Šter B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507593861</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="37121637000"><ce:initials>M.</ce:initials><ce:indexed-name>Avbelj M.</ce:indexed-name><ce:surname>Avbelj</ce:surname><ce:given-name>Monika</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Avbelj M.</ce:indexed-name><ce:surname>Avbelj</ce:surname><ce:given-name>Monika</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/37121637000</author-url><affiliation id="60008358" href="https://api.elsevier.com/content/affiliation/affiliation_id/60008358"/></author><author seq="3" auid="7004624486"><ce:initials>R.</ce:initials><ce:indexed-name>Jerala R.</ce:indexed-name><ce:surname>Jerala</ce:surname><ce:given-name>Roman</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Jerala R.</ce:indexed-name><ce:surname>Jerala</ce:surname><ce:given-name>Roman</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7004624486</author-url><affiliation id="60008358" href="https://api.elsevier.com/content/affiliation/affiliation_id/60008358"/></author><author seq="4" auid="26643142700"><ce:initials>A.</ce:initials><ce:indexed-name>Dobnikar A.</ce:indexed-name><ce:surname>Dobnikar</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Dobnikar A.</ce:indexed-name><ce:surname>Dobnikar</ce:surname><ce:given-name>Andrej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/26643142700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Genetic algorithms</author-keyword><author-keyword>Regression</author-keyword><author-keyword>Simulation</author-keyword><author-keyword>Subcellular networks</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Boolean model</mainterm><mainterm weight="a" candidate="n">Boolean Networks</mainterm><mainterm weight="a" candidate="n">Cellular function</mainterm><mainterm weight="a" candidate="n">Regression</mainterm><mainterm weight="a" candidate="n">Signal transduction system</mainterm><mainterm weight="a" candidate="n">Simulation</mainterm><mainterm weight="a" candidate="n">Sub-cellular</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="29" month="01" timestamp="2013-01-29T05:54:55.000055+00:00" year="2013"/><ait:date-sort day="28" month="04" year="2011"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2011 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1007/978-3-642-20267-4_40</ce:doi>
+<itemid idtype="PUI">361647505</itemid>
+<itemid idtype="CPX">20111713937646</itemid>
+<itemid idtype="SCP">79955119041</itemid>
+<itemid idtype="SGR">79955119041</itemid>
+</itemidlist><history>
+<date-created day="28" month="04" year="2011"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Genetic algorithms</author-keyword>
+<author-keyword>Regression</author-keyword>
+<author-keyword>Simulation</author-keyword>
+<author-keyword>Subcellular networks</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">On the origin and features of an evolved boolean model for subcellular signal transduction systems</titletext></citation-title><author-group><author auid="6507593861" seq="1"><ce:initials>B.</ce:initials><ce:indexed-name>Ster B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Šter B.</ce:indexed-name>
+<ce:surname>Šter</ce:surname>
+<ce:given-name>Branko</ce:given-name>
+</preferred-name></author><author auid="26643142700" seq="4"><ce:initials>A.</ce:initials><ce:indexed-name>Dobnikar A.</ce:indexed-name><ce:surname>Dobnikar</ce:surname><ce:given-name>Andrej</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Dobnikar A.</ce:indexed-name>
+<ce:surname>Dobnikar</ce:surname>
+<ce:given-name>Andrej</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>Ljubljana 1000</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="37121637000" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Avbelj M.</ce:indexed-name><ce:surname>Avbelj</ce:surname><ce:given-name>Monika</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Avbelj M.</ce:indexed-name>
+<ce:surname>Avbelj</ce:surname>
+<ce:given-name>Monika</ce:given-name>
+</preferred-name></author><author auid="7004624486" seq="3"><ce:initials>R.</ce:initials><ce:indexed-name>Jerala R.</ce:indexed-name><ce:surname>Jerala</ce:surname><ce:given-name>Roman</ce:given-name><preferred-name>
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Jerala R.</ce:indexed-name>
+<ce:surname>Jerala</ce:surname>
+<ce:given-name>Roman</ce:given-name>
+</preferred-name></author><affiliation afid="60008358" country="svn"><organization>National Institute of Chemistry</organization><address-part>Hajdrihova 19</address-part><city-group>Ljubljana 1001</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Ster B.</ce:indexed-name>
+<ce:surname>Šter</ce:surname>
+</person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>Ljubljana 1000</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>In this paper we deal with the evolved Boolean model of the subcellular network for a hypothetical subcellular task that performs some of the basic cellular functions. The Boolean network is trained with a genetic algorithm and the obtained results are analyzed. We show that the size of the evolved Boolean network relates strongly to the task, that the number of output combinations is decreased, which is in concordance with the biological (measured) networks, and that the number of non-canalyzing inputs is increased, which indicates its specialization to the task. We conclude that the structure of the evolved network is biologically relevant, since it incorporates properties of evolved biological systems. © 2011 Springer-Verlag.</ce:para>
+</abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><issuetitle>Adaptive and Natural Computing Algorithms - 10th International Conference, ICANNGA 2011, Proceedings</issuetitle><issn type="print">03029743</issn><issn type="electronic">16113349</issn><isbn length="13" level="volume">9783642202667</isbn><volisspag>
+<voliss issue="PART 2" volume="6594 LNCS"/>
+<pagerange first="383" last="392"/>
+</volisspag><publicationyear first="2011"/><publicationdate>
+<year>2011</year>
+<date-text xfab-added="true">2011</date-text></publicationdate><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>10th International Conference on Adaptive and Natural Computing Algorithms, ICANNGA 2011</confname>
+<conflocation country="svn">
+<city-group>Ljubljana</city-group>
+</conflocation>
+<confdate>
+<startdate day="14" month="04" year="2011"/>
+<enddate day="16" month="04" year="2011"/>
+</confdate>
+<confcode>84610</confcode>
+</confevent>
+<confpublication>
+<procpartno>2 of 2</procpartno>
+<procpagerange>var.pagings</procpagerange>
+</confpublication>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1700</classification>
+<classification>2614</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications>
+<classifications type="CPXCLASS">
+<classification> <classification-code>461.9</classification-code> <classification-description>Biology</classification-description> </classification>
+<classification> <classification-code>723</classification-code> <classification-description>Computer Software, Data Handling and Applications</classification-description> </classification>
+<classification> <classification-code>723.5</classification-code> <classification-description>Computer Applications</classification-description> </classification>
+<classification> <classification-code>921</classification-code> <classification-description>Applied Mathematics</classification-description> </classification>
+<classification> <classification-code>921.1</classification-code> <classification-description>Algebra</classification-description> </classification>
+</classifications>
+<classifications type="GEOCLASS">
+<classification> <classification-code>Related Topics</classification-code> </classification>
+</classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="8">
+<reference id="1">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004161153</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.A.</ce:initials>
+<ce:indexed-name>Kauffman S.A.</ce:indexed-name>
+<ce:surname>Kauffman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>The Origins of Order</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-text>Oxford Univ. Press, Oxford</ref-text>
+</ref-info>
+<ref-fulltext>Kauffman, S.A.: The Origins of Order. Oxford Univ. Press, Oxford (1993)</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>A natural class of robust networks</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0042808605</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Aldana M.</ce:indexed-name>
+<ce:surname>Aldana</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Cluzel P.</ce:indexed-name>
+<ce:surname>Cluzel</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the National Academy of Sciences USA</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss issue="15" volume="100"/>
+<pagerange first="8710" last="8714"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Aldana, M., Cluzel, P.: A natural class of robust networks. Proceedings of the National Academy of Sciences USA 100(15), 8710-8714 (2003)</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>From Boolean to Probabilistic Boolean Networks as Models of Genetic Regulatory Networks</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0345983657</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Shmulevich I.</ce:indexed-name>
+<ce:surname>Shmulevich</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.R.</ce:initials>
+<ce:indexed-name>Dougherty E.R.</ce:indexed-name>
+<ce:surname>Dougherty</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Zhang W.</ce:indexed-name>
+<ce:surname>Zhang</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc. of IEEE</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss issue="11" volume="90"/>
+<pagerange first="1778" last="1792"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Shmulevich, I., Dougherty, E.R., Zhang, W.: From Boolean to Probabilistic Boolean Networks as Models of Genetic Regulatory Networks. Proc. of IEEE 90(11), 1778-1792 (2002)</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Probabilistic Boolean networks: A rule-based uncertainty model for gene regulatory networks</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0036184629</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Shmulevich I.</ce:indexed-name>
+<ce:surname>Shmulevich</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.R.</ce:initials>
+<ce:indexed-name>Dougherty E.R.</ce:indexed-name>
+<ce:surname>Dougherty</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kim S.</ce:indexed-name>
+<ce:surname>Kim</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Zhang W.</ce:indexed-name>
+<ce:surname>Zhang</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss issue="2" volume="18"/>
+<pagerange first="261" last="274"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Shmulevich, I., Dougherty, E.R., Kim, S., Zhang, W.: Probabilistic Boolean networks: a rule-based uncertainty model for gene regulatory networks. Bioinformatics 18(2), 261-274 (2002)</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Emergent decision-making in biological signal transduction networks</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">41149165188</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Helikar T.</ce:indexed-name>
+<ce:surname>Helikar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Konvalina J.</ce:indexed-name>
+<ce:surname>Konvalina</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Heidel J.</ce:indexed-name>
+<ce:surname>Heidel</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Rogers J.A.</ce:indexed-name>
+<ce:surname>Rogers</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the National Academy of Sciences USA</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss issue="6" volume="105"/>
+<pagerange first="1913" last="1918"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Helikar, T., Konvalina, J., Heidel, J., Rogers, J.A.: Emergent decision-making in biological signal transduction networks. Proceedings of the National Academy of Sciences USA 105(6), 1913-1918 (2008)</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">79955118657</itemid>
+</refd-itemidlist>
+<ref-website>
+<ce:e-address type="url">http://mathbio.unomaha.edu/Database</ce:e-address>
+</ref-website>
+<ref-text>SI.txt</ref-text>
+</ref-info>
+<ref-fulltext>SI.txt: http://mathbio.unomaha.edu/Database</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Random Boolean network models and the yeast transcriptional network</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0345598902</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kauffman S.</ce:indexed-name>
+<ce:surname>Kauffman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Petersen C.</ce:indexed-name>
+<ce:surname>Petersen</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Samuelsson B.</ce:indexed-name>
+<ce:surname>Samuelsson</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Troein C.</ce:indexed-name>
+<ce:surname>Troein</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the National Academy of Sciences USA</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss issue="14" volume="100"/>
+<pagerange first="14796" last="14799"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Kauffman, S., Petersen, C., Samuelsson, B., Troein, C.: Random Boolean network models and the yeast transcriptional network. Proceedings of the National Academy of Sciences USA 100(14), 14796-14799 (2003)</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Graph theory and the evolution of autocatalytic networks</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33846796664</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Jain S.</ce:indexed-name>
+<ce:surname>Jain</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Krishna S.</ce:indexed-name>
+<ce:surname>Krishna</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Handbook of Graphs and Networks</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-text>Bornholdt, S., Schuster, H.G. (eds.) Wiley, Chichester</ref-text>
+</ref-info>
+<ref-fulltext>Jain, S., Krishna, S.: Graph theory and the evolution of autocatalytic networks. In: Bornholdt, S., Schuster, H.G. (eds.) Handbook of Graphs and Networks. Wiley, Chichester (2002)</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

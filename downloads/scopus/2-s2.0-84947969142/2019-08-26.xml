@@ -1,0 +1,483 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84947969142</prism:url><dc:identifier>SCOPUS_ID:84947969142</dc:identifier><eid>2-s2.0-84947969142</eid><dc:title>Superquadric-based object recognition</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><dc:publisher>
+Springer Verlag
+service@springer.de
+</dc:publisher><source-id>25674</source-id><prism:isbn>9783540425137</prism:isbn><prism:issn>16113349 03029743</prism:issn><prism:volume>2124</prism:volume><prism:startingPage>134</prism:startingPage><prism:endingPage>141</prism:endingPage><prism:pageRange>134-141</prism:pageRange><prism:coverDate>2001-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6507868503"><ce:initials>J.</ce:initials><ce:indexed-name>Krivic J.</ce:indexed-name><ce:surname>Krivic</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Krivic J.</ce:indexed-name><ce:surname>Krivic</ce:surname><ce:given-name>Jaka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507868503</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<publishercopyright>© Springer-Verlag Berlin Heidelberg 2001.</publishercopyright>
+<ce:para>This paper proposes a technique for object recognition using superquadric built models. Superquadrics, which are three dimensional models suitable for part-level representation of objects, are reconstructed from range images using the recover-and-select paradigm. Using an interpretation tree, the presence of an object in the scene from the model database can be hypothesized. These hypotheses are verified by projecting and re-fitting the object model to the range image which at the same time enables a better localization of the object in the scene.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84947969142" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84947969142&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84947969142&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6507868503"><ce:initials>J.</ce:initials><ce:indexed-name>Krivic J.</ce:indexed-name><ce:surname>Krivic</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Krivic J.</ce:indexed-name><ce:surname>Krivic</ce:surname><ce:given-name>Jaka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507868503</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6603857705"><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603857705</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Part-level object modeling</author-keyword><author-keyword>Range images</author-keyword><author-keyword>Superquadrics</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Object model</mainterm><mainterm weight="b" candidate="n">Part levels</mainterm><mainterm weight="b" candidate="n">Range images</mainterm><mainterm weight="b" candidate="n">Superquadrics</mainterm><mainterm weight="b" candidate="n">Three-dimensional model</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="08" month="12" timestamp="2015-12-08T01:48:55.000055+00:00" year="2015"/><ait:date-sort day="01" month="01" year="2001"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">607052422</itemid>
+<itemid idtype="CAR-ID">642519757</itemid>
+<itemid idtype="CPX">20154801619239</itemid>
+<itemid idtype="SCP">84947969142</itemid>
+<itemid idtype="SGR">84947969142</itemid>
+</itemidlist><history>
+<date-created day="28" month="11" timestamp="BST 17:11:33" year="2015"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Part-level object modeling</author-keyword>
+<author-keyword>Range images</author-keyword>
+<author-keyword>Superquadrics</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Superquadric-based object recognition</titletext></citation-title><author-group><author auid="6507868503" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Krivic J.</ce:indexed-name><ce:surname>Krivic</ce:surname><ce:given-name>Jaka</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Krivic J.</ce:indexed-name>
+<ce:surname>Krivic</ce:surname>
+<ce:given-name>Jaka</ce:given-name>
+</preferred-name></author><author auid="6603857705" seq="2" type="auth"><ce:initials>F.</ce:initials><ce:indexed-name>Solina F.</ce:indexed-name><ce:surname>Solina</ce:surname><ce:given-name>Franc</ce:given-name><preferred-name>
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+<ce:given-name>Franc</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580862"><organization>University of Ljubljana</organization><organization>Computer Vision Laboratory</organization><address-part>Tržaška 25</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+<publishercopyright>© Springer-Verlag Berlin Heidelberg 2001.</publishercopyright>
+<ce:para>This paper proposes a technique for object recognition using superquadric built models. Superquadrics, which are three dimensional models suitable for part-level representation of objects, are reconstructed from range images using the recover-and-select paradigm. Using an interpretation tree, the presence of an object in the scene from the model database can be hypothesized. These hypotheses are verified by projecting and re-fitting the object model to the range image which at the same time enables a better localization of the object in the scene.</ce:para>
+</abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</translated-sourcetitle><issuetitle>Computer Analysis of Images and Patterns - 9th International Conference, CAIP 2001, Proceedings</issuetitle><issn type="electronic">16113349</issn><issn type="print">03029743</issn><isbn length="13" level="volume" type="print">9783540425137</isbn><volisspag>
+<voliss volume="2124"/>
+<pagerange first="134" last="141"/>
+</volisspag><publicationyear first="2001"/><publicationdate>
+<year>2001</year>
+<date-text xfab-added="true">2001</date-text></publicationdate><website>
+<ce:e-address type="email">http://springerlink.com/content/0302-9743/copyright/2005/</ce:e-address>
+</website><contributor-group>
+<contributor role="edit" seq="1">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Skarbek W.</ce:indexed-name>
+<ce:surname>Skarbek</ce:surname>
+<ce:given-name>Wladyslaw</ce:given-name>
+<ce:e-address type="email">W.Skarbek@ire.pw.edu.pl</ce:e-address>
+</contributor>
+</contributor-group><contributor-group>
+<affiliation country="pol">
+<organization>Warsaw University of Technology, Faculty of Electronics and Information Technology, Institute of Radioelectronics</organization>
+<address-part>ul. Nowowiejska 15/19</address-part>
+<city>Warsaw</city>
+<postal-code>00-665</postal-code>
+</affiliation>
+</contributor-group><publisher>
+<publishername>Springer Verlag</publishername>
+<ce:e-address type="email">service@springer.de</ce:e-address>
+</publisher><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>9th International Conference on Computer Analysis of Images and Patterns, CAIP 2001</confname>
+<confnumber>9th</confnumber>
+<confseriestitle>International Conference on Computer Analysis of Images and Patterns</confseriestitle>
+<conflocation country="pol">
+<city>Warsaw</city>
+</conflocation>
+<confdate>
+<startdate day="05" month="09" year="2001"/>
+<enddate day="07" month="09" year="2001"/>
+</confdate>
+<confcode>122709</confcode>
+<confsponsors complete="n">
+<confsponsor>Altkom Akademia S.A., Poland</confsponsor>
+</confsponsors>
+</confevent>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1700</classification>
+<classification>2614</classification>
+</classifications><classifications type="CPXCLASS">
+<classification> <classification-code>723.2</classification-code> <classification-description>Data Processing</classification-description> </classification>
+<classification> <classification-code>921.4</classification-code> <classification-description>Combinatorial Mathematics, Includes Graph Theory, Set Theory</classification-description> </classification>
+</classifications><classifications type="FLXCLASS">
+<classification> <classification-code>902</classification-code> <classification-description>FLUIDEX; Related Topics</classification-description> </classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="14">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Superquadrics and Angle-Preserving Transformations</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0019346818</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.H.</ce:initials>
+<ce:indexed-name>Barr A.H.</ce:indexed-name>
+<ce:surname>Barr</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Computer Graphics and Applications</ref-sourcetitle>
+<ref-publicationyear first="1981"/>
+<ref-volisspag>
+<voliss volume="1 January"/>
+<pagerange first="11" last="23"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Barr, A.H.: Superquadrics and Angle-Preserving Transformations. IEEE Computer Graphics and Applications, 1 (January 1981) 11-23</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>3DPO: A Three-Dimensional Part Orientation System</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022780453</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.C.</ce:initials>
+<ce:indexed-name>Bolles R.C.</ce:indexed-name>
+<ce:surname>Bolles</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Horaud P.</ce:indexed-name>
+<ce:surname>Horaud</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>The International Journal of Robotic Research</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="5"/>
+<pagerange first="3" last="26"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Bolles R.C., Horaud P.: 3DPO: A Three-Dimensional Part Orientation System. The International Journal of Robotic Research, 5 (1986) 3-26</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>From volumes to views: An approach to 3-D object recognition</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0002138783</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.J.</ce:initials>
+<ce:indexed-name>Dickinson S.J.</ce:indexed-name>
+<ce:surname>Dickinson</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.P.</ce:initials>
+<ce:indexed-name>Pentland A.P.</ce:indexed-name>
+<ce:surname>Pentland</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Rosenfeld A.</ce:indexed-name>
+<ce:surname>Rosenfeld</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>CVGIP: Image Understanding</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-volisspag>
+<voliss volume="55"/>
+<pagerange first="130" last="154"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Dickinson, S.J., Pentland, A.P., Rosenfeld, A.: From volumes to views: An approach to 3-D object recognition. CVGIP: Image Understanding, 55 (1992) 130-154</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003626368</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Grimson W.</ce:indexed-name>
+<ce:surname>Grimson</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Object Recognition by Computer</ref-sourcetitle>
+<ref-publicationyear first="1990"/>
+<ref-text>MIT Press, Cambridge, MA</ref-text>
+</ref-info>
+<ref-fulltext>Grimson W.E.L.: Object Recognition by Computer. MIT Press, Cambridge, MA (1990)</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004217902</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Jaklic A.</ce:indexed-name>
+<ce:surname>Jaklič</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Segmentation and Recovery of Superquadrics</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-text>Kluwer Academic Publishers, Dordrecht</ref-text>
+</ref-info>
+<ref-fulltext>Jaklič A., Leonardis A., Solina F.: Segmentation and Recovery of Superquadrics. Kluwer Academic Publishers, Dordrecht (2000)</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Computer vision and graphics techniques for modeling dressed humans</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">3042682448</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Jojic N.</ce:indexed-name>
+<ce:surname>Jojič</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.S.</ce:initials>
+<ce:indexed-name>Huang T.S.</ce:indexed-name>
+<ce:surname>Huang</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>The Confluence of Computer Vision and Computer Graphics</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<pagerange first="179" last="200"/>
+</ref-volisspag>
+<ref-text>In: Leonardis A., Solina F., Bajcsy R. (eds.), Kluwer, Dordrecht</ref-text>
+</ref-info>
+<ref-fulltext>Jojič N., Huang T.S.: Computer vision and graphics techniques for modeling dressed humans. In: Leonardis A., Solina F., Bajcsy R. (eds.): The confluence of computer vision and computer graphics. Kluwer, Dordrecht (2000) 179-200</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Understanding dynamic scenes</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034301077</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Chella A.</ce:indexed-name>
+<ce:surname>Chella</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Frixione M.</ce:indexed-name>
+<ce:surname>Frixione</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Gaglio S.</ce:indexed-name>
+<ce:surname>Gaglio</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="123"/>
+<pagerange first="89" last="132"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Chella A., Frixione M., Gaglio S.: Understanding dynamic scenes. Artificial Intelligence, 123 (2000) 89-132</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Segmentation of range images as the search for geometric parametric models</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0029292002</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Gupta A.</ce:indexed-name>
+<ce:surname>Gupta</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Bajcsy R.</ce:indexed-name>
+<ce:surname>Bajcsy</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>International Journal of Computer Vision</ref-sourcetitle>
+<ref-publicationyear first="1995"/>
+<ref-volisspag>
+<voliss volume="14"/>
+<pagerange first="253" last="277"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Leonardis A., Gupta A., Bajcsy R.: Segmentation of range images as the search for geometric parametric models. International Journal of Computer Vision, 14 (1995) 253-277</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Superquadrics for segmentation and modeling range data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031276159</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Jaklic A.</ce:indexed-name>
+<ce:surname>Jaklič</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Pattern Recognition and Machine Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1997"/>
+<ref-volisspag>
+<voliss volume="19"/>
+<pagerange first="1289" last="1295"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Leonardis A., Jaklič A., Solina F.: Superquadrics for segmentation and modeling range data. IEEE Transactions on Pattern Recognition and Machine Intelligence, 19 (1997) 1289-1295</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>Description and Recognition of Curved Objects</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0001902802</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Nevatia R.</ce:indexed-name>
+<ce:surname>Nevatia</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Binford T.</ce:indexed-name>
+<ce:surname>Binford</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1977"/>
+<ref-volisspag>
+<voliss volume="38"/>
+<pagerange first="77" last="98"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Nevatia R., Binford T.: Description and Recognition of Curved Objects. Artificial Intelligence, 38 (1977) 77-98</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Perceptual organization and the representation of natural form</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022719630</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.P.</ce:initials>
+<ce:indexed-name>Pentland A.P.</ce:indexed-name>
+<ce:surname>Pentland</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="28"/>
+<pagerange first="293" last="331"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Pentland A.P.: Perceptual organization and the representation of natural form. Artificial Intelligence, 28 (1986) 293-331</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Recognizing geons from superquadrics fitted to range data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">38249015481</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.S.</ce:initials>
+<ce:indexed-name>Raja N.S.</ce:indexed-name>
+<ce:surname>Raja</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.K.</ce:initials>
+<ce:indexed-name>Jain A.K.</ce:indexed-name>
+<ce:surname>Jain</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Image and Vision Computing</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-volisspag>
+<voliss volume="10"/>
+<pagerange first="179" last="190"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Raja N.S., Jain A.K.: Recognizing geons from superquadrics fitted to range data. Image and Vision Computing, 10 (1992) 179-190</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Recovery of parametric models from range images: The case for superquadrics with global deformations</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0025384284</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Bajcsy R.</ce:indexed-name>
+<ce:surname>Bajcsy</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="1990"/>
+<ref-volisspag>
+<voliss volume="12"/>
+<pagerange first="131" last="147"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Solina F., Bajcsy R.: Recovery of parametric models from range images: The case for superquadrics with global deformations. IEEE Trans. Pattern Anal. Machine Intell., 12 (1990) 131-147</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003992917</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Trucco E.</ce:indexed-name>
+<ce:surname>Trucco</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Verri A.</ce:indexed-name>
+<ce:surname>Verri</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Introductory Techniques for 3-D Computer Vision</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-text>Prentice Hall, NJ</ref-text>
+</ref-info>
+<ref-fulltext>Trucco E., Verri A.: Introductory techniques for 3-D computer vision. Prentice Hall, NJ (1998)</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

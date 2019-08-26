@@ -1,0 +1,2095 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85047409502</prism:url><dc:identifier>SCOPUS_ID:85047409502</dc:identifier><eid>2-s2.0-85047409502</eid><prism:doi>10.1007/s11263-017-1061-3</prism:doi><dc:title>Discriminative Correlation Filter Tracker with Channel and Spatial Reliability</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>17</citedby-count><prism:publicationName>International Journal of Computer Vision</prism:publicationName><dc:publisher>
+                        Springer New York LLC
+                        barbara.b.bertram@gsk.com
+                    </dc:publisher><source-id>72242</source-id><prism:issn>15731405 09205691</prism:issn><prism:volume>126</prism:volume><prism:issueIdentifier>7</prism:issueIdentifier><prism:startingPage>671</prism:startingPage><prism:endingPage>688</prism:endingPage><prism:pageRange>671-688</prism:pageRange><prism:coverDate>2018-07-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="56613479600"><ce:initials>A.</ce:initials><ce:indexed-name>Lukezic A.</ce:indexed-name><ce:surname>Lukežič</ce:surname><ce:given-name>Alan</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Lukežič A.</ce:indexed-name><ce:surname>Lukežič</ce:surname><ce:given-name>Alan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56613479600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018, Springer Science+Business Media, LLC, part of Springer Nature.</publishercopyright>
+                        <ce:para>Short-term tracking is an open and challenging problem for which discriminative correlation filters (DCF) have shown excellent performance. We introduce the channel and spatial reliability concepts to DCF tracking and provide a learning algorithm for its efficient and seamless integration in the filter update and the tracking process. The spatial reliability map adjusts the filter support to the part of the object suitable for tracking. This both allows to enlarge the search region and improves tracking of non-rectangular objects. Reliability scores reflect channel-wise quality of the learned filters and are used as feature weighting coefficients in localization. Experimentally, with only two simple standard feature sets, HoGs and colornames, the novel CSR-DCF method—DCF with channel and spatial reliability—achieves state-of-the-art results on VOT 2016, VOT 2015 and OTB100. The CSR-DCF runs close to real-time on a CPU.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85047409502" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85047409502&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85047409502&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60013323" href="https://api.elsevier.com/content/affiliation/affiliation_id/60013323"><affilname>Ceské vysoké ucení technické v Praze</affilname><affiliation-city>Prague</affiliation-city><affiliation-country>Czech Republic</affiliation-country></affiliation><authors><author seq="1" auid="56613479600"><ce:initials>A.</ce:initials><ce:indexed-name>Lukezic A.</ce:indexed-name><ce:surname>Lukežič</ce:surname><ce:given-name>Alan</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Lukežič A.</ce:indexed-name><ce:surname>Lukežič</ce:surname><ce:given-name>Alan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56613479600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="55531874400"><ce:initials>T.</ce:initials><ce:indexed-name>Vojir T.</ce:indexed-name><ce:surname>Vojíř</ce:surname><ce:given-name>Tomáš</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Vojíř T.</ce:indexed-name><ce:surname>Vojíř</ce:surname><ce:given-name>Tomáš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55531874400</author-url><affiliation id="60013323" href="https://api.elsevier.com/content/affiliation/affiliation_id/60013323"/></author><author seq="3" auid="57195641173"><ce:initials>L.</ce:initials><ce:indexed-name>CehovinZajc L.</ce:indexed-name><ce:surname>Čehovin Zajc</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Čehovin Zajc L.</ce:indexed-name><ce:surname>Čehovin Zajc</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57195641173</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="7006443210"><ce:initials>J.</ce:initials><ce:indexed-name>Matas J.</ce:indexed-name><ce:surname>Matas</ce:surname><ce:given-name>Jiří</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Matas J.</ce:indexed-name><ce:surname>Matas</ce:surname><ce:given-name>Jiří</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7006443210</author-url><affiliation id="60013323" href="https://api.elsevier.com/content/affiliation/affiliation_id/60013323"/></author><author seq="5" auid="6602219252"><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602219252</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Channel reliability</author-keyword><author-keyword>Constrained optimization</author-keyword><author-keyword>Correlation filters</author-keyword><author-keyword>Visual tracking</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Channel reliability</mainterm><mainterm weight="b" candidate="n">Correlation filters</mainterm><mainterm weight="b" candidate="n">Feature weighting</mainterm><mainterm weight="b" candidate="n">Rectangular object</mainterm><mainterm weight="b" candidate="n">Reliability concepts</mainterm><mainterm weight="b" candidate="n">Seamless integration</mainterm><mainterm weight="b" candidate="n">State of the art</mainterm><mainterm weight="b" candidate="n">Visual Tracking</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-13T04:39:02.807Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Toyota Motor Europe</xocs:funding-agency-matched-string><xocs:funding-agency>Toyota Motor Europe</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100010577</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2802361/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>The Czech Science Foundation Project GACR P103/12/G084</xocs:funding-agency-matched-string><xocs:funding-id>GACR P103/12/G084</xocs:funding-id></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Projects</xocs:funding-agency-matched-string><xocs:funding-id>L2-6765</xocs:funding-id><xocs:funding-id>P2-0214</xocs:funding-id></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency Research Programs and</xocs:funding-agency-matched-string></xocs:funding><xocs:funding-text>Acknowledgements This work was supported in part by the following research programs and projects: Slovenian Research Agency Research Programs and Projects P2-0214 and L2-6765. Jiˇri Matas and Tomáš Vojír˜ were supported by The Czech Science Foundation Project GACR P103/12/G084 and Toyota Motor Europe. We would also like to thank Dr. Rok Žitko for discussion on complex differentiation.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="19" month="04" timestamp="2019-04-19T00:26:45.000045-04:00" year="2019"/><ait:date-sort day="01" month="07" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/s11263-017-1061-3</ce:doi>
+                    <itemid idtype="PUI">622270199</itemid>
+                    <itemid idtype="CAR-ID">910805844</itemid>
+                    <itemid idtype="CPX">20182205243697</itemid>
+                    <itemid idtype="SCOPUS">20181658029</itemid>
+                    <itemid idtype="SCP">85047409502</itemid>
+                    <itemid idtype="SGR">85047409502</itemid>
+                </itemidlist><history>
+                    <date-created day="29" month="05" timestamp="BST 08:51:34" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Channel reliability</author-keyword>
+                        <author-keyword xml:lang="eng">Constrained optimization</author-keyword>
+                        <author-keyword xml:lang="eng">Correlation filters</author-keyword>
+                        <author-keyword xml:lang="eng">Visual tracking</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Discriminative Correlation Filter Tracker with Channel and Spatial Reliability</titletext></citation-title><author-group><author auid="56613479600" orcid="0000-0002-6316-2707" seq="1" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Lukezic A.</ce:indexed-name><ce:surname>Lukežič</ce:surname><ce:given-name>Alan</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Lukežič A.</ce:indexed-name>
+                            <ce:surname>Lukežič</ce:surname>
+                            <ce:given-name>Alan</ce:given-name>
+                        </preferred-name></author><author auid="57195641173" seq="3" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>CehovinZajc L.</ce:indexed-name><ce:surname>Čehovin Zajc</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Čehovin Zajc L.</ce:indexed-name>
+                            <ce:surname>Čehovin Zajc</ce:surname>
+                            <ce:given-name>Luka</ce:given-name>
+                        </preferred-name></author><author auid="6602219252" seq="5" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Kristan M.</ce:indexed-name>
+                            <ce:surname>Kristan</ce:surname>
+                            <ce:given-name>Matej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55531874400" seq="2" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Vojir T.</ce:indexed-name><ce:surname>Vojíř</ce:surname><ce:given-name>Tomáš</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Vojíř T.</ce:indexed-name>
+                            <ce:surname>Vojíř</ce:surname>
+                            <ce:given-name>Tomáš</ce:given-name>
+                        </preferred-name></author><author auid="7006443210" seq="4" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Matas J.</ce:indexed-name><ce:surname>Matas</ce:surname><ce:given-name>Jiří</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Matas J.</ce:indexed-name>
+                            <ce:surname>Matas</ce:surname>
+                            <ce:given-name>Jiří</ce:given-name>
+                        </preferred-name></author><affiliation afid="60013323" country="cze" dptid="110270847"><organization>Faculty of Electrical Engineering</organization><organization>Czech Technical University in Prague</organization><city>Prague</city><affiliation-id afid="60013323" dptid="110270847"/><country>Czech Republic</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>A.</ce:initials>
+                        <ce:indexed-name>Lukezic A.</ce:indexed-name>
+                        <ce:surname>Lukežič</ce:surname>
+                        <ce:given-name>Alan</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018, Springer Science+Business Media, LLC, part of Springer Nature.</publishercopyright>
+                        <ce:para>Short-term tracking is an open and challenging problem for which discriminative correlation filters (DCF) have shown excellent performance. We introduce the channel and spatial reliability concepts to DCF tracking and provide a learning algorithm for its efficient and seamless integration in the filter update and the tracking process. The spatial reliability map adjusts the filter support to the part of the object suitable for tracking. This both allows to enlarge the search region and improves tracking of non-rectangular objects. Reliability scores reflect channel-wise quality of the learned filters and are used as feature weighting coefficients in localization. Experimentally, with only two simple standard feature sets, HoGs and colornames, the novel CSR-DCF method—DCF with channel and spatial reliability—achieves state-of-the-art results on VOT 2016, VOT 2015 and OTB100. The CSR-DCF runs close to real-time on a CPU.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="72242" type="j"><sourcetitle>International Journal of Computer Vision</sourcetitle><sourcetitle-abbrev>Int J Comput Vision</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">International Journal of Computer Vision</translated-sourcetitle><issn type="electronic">15731405</issn><issn type="print">09205691</issn><codencode>IJCVE</codencode><volisspag>
+                        <voliss issue="7" volume="126"/>
+                        <pagerange first="671" last="688"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>07</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 July 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.kluweronline.com/issn/0920-5691/</ce:e-address>
+                    </website><publisher>
+                        <publishername>Springer New York LLC</publishername>
+                        <ce:e-address type="email">barbara.b.bertram@gsk.com</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>703.2</classification-code>
+                                 
+                                <classification-description>Electric Filters</classification-description>
+                                 
+                            </classification>
+                            <classification>
+                                 
+                                <classification-code>961</classification-code>
+                                 
+                                <classification-description>Systems Science</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                 
+                                <classification-code>902</classification-code>
+                                 
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1707</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="53">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust object tracking with online multiple instance learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2010.226</itemid>
+                                <itemid idtype="FRAGMENTID">CR1</itemid>
+                                <itemid idtype="SGR">79959527478</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Babenko B.</ce:indexed-name>
+                                    <ce:surname>Babenko</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.H.</ce:initials>
+                                    <ce:indexed-name>Yang M.H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Belongie S.</ce:indexed-name>
+                                    <ce:surname>Belongie</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="33"/>
+                                <pagerange first="1619" last="1632"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Babenko, B., Yang, M. H., &amp; Belongie, S. (2011). Robust object tracking with online multiple instance learning. IEEE Transactions on Pattern Analysis and Machine Intelligence, 33(8), 1619–1632.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Staple: Complementary learners for real-time tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR2</itemid>
+                                <itemid idtype="SGR">84986305898</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Bertinetto L.</ce:indexed-name>
+                                    <ce:surname>Bertinetto</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Valmadre J.</ce:indexed-name>
+                                    <ce:surname>Valmadre</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Golodetz S.</ce:indexed-name>
+                                    <ce:surname>Golodetz</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Miksik O.</ce:indexed-name>
+                                    <ce:surname>Miksik</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.H.S.</ce:initials>
+                                    <ce:indexed-name>Torr P.H.S.</ce:indexed-name>
+                                    <ce:surname>Torr</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="1401" last="1409"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bertinetto, L., Valmadre, J., Golodetz, S., Miksik, O., &amp; Torr, P. H. S. (2016a). Staple: Complementary learners for real-time tracking. In Computer vision and pattern recognition (pp. 1401–1409).</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR3</itemid>
+                                <itemid idtype="ARXIV">1606.09549</itemid>
+                                <itemid idtype="SGR">85047409345</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Bertinetto L.</ce:indexed-name>
+                                    <ce:surname>Bertinetto</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Valmadre J.</ce:indexed-name>
+                                    <ce:surname>Valmadre</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.F.</ce:initials>
+                                    <ce:indexed-name>Henriques J.F.</ce:indexed-name>
+                                    <ce:surname>Henriques</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vedaldi A.</ce:indexed-name>
+                                    <ce:surname>Vedaldi</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.H.</ce:initials>
+                                    <ce:indexed-name>Torr P.H.</ce:indexed-name>
+                                    <ce:surname>Torr</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Fully-convolutional siamese networks for object tracking. arXiv preprint arXiv</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="1606"/>
+                                <pagerange first="09549"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">http://arxiv.org/abs/1606.09549</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Bertinetto, L., Valmadre, J., Henriques, J. F., Vedaldi, A., &amp; Torr, P. H. (2016b). Fully-convolutional siamese networks for object tracking. arXiv preprint arXiv:1606.09549.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual object tracking using adaptive correlation filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR4</itemid>
+                                <itemid idtype="SGR">77955993278</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.S.</ce:initials>
+                                    <ce:indexed-name>Bolme D.S.</ce:indexed-name>
+                                    <ce:surname>Bolme</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Beveridge J.R.</ce:indexed-name>
+                                    <ce:surname>Beveridge</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.A.</ce:initials>
+                                    <ce:indexed-name>Draper B.A.</ce:indexed-name>
+                                    <ce:surname>Draper</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Y.M.</ce:initials>
+                                    <ce:indexed-name>Lui Y.M.</ce:indexed-name>
+                                    <ce:surname>Lui</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In IEEE: Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="2544" last="2550"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bolme, D. S., Beveridge, J. R., Draper, B. A., &amp; Lui, Y. M. (2010). Visual object tracking using adaptive correlation filters. In IEEE: Computer vision and pattern recognition (pp. 2544–2550).</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Distributed optimization and statistical learning via the alternating direction method of multipliers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1561/2200000016</itemid>
+                                <itemid idtype="FRAGMENTID">CR5</itemid>
+                                <itemid idtype="SGR">80051762104</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Boyd S.</ce:indexed-name>
+                                    <ce:surname>Boyd</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Parikh N.</ce:indexed-name>
+                                    <ce:surname>Parikh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Chu E.</ce:indexed-name>
+                                    <ce:surname>Chu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Peleato B.</ce:indexed-name>
+                                    <ce:surname>Peleato</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Eckstein J.</ce:indexed-name>
+                                    <ce:surname>Eckstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Foundations and Trends in Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="3"/>
+                                <pagerange first="1" last="122"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Boyd, S., Parikh, N., Chu, E., Peleato, B., &amp; Eckstein, J. (2011). Distributed optimization and statistical learning via the alternating direction method of multipliers. Foundations and Trends in Machine Learning, 3(1), 1–122.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual object tracking performance measures revisited</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR6</itemid>
+                                <itemid idtype="SGR">84962781218</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Čehovin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="25"/>
+                                <pagerange first="1261" last="1274"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Čehovin, L., Leonardis, A., &amp; Kristan, M. (2016). Visual object tracking performance measures revisited. IEEE Transactions on Image Processing, 25(3), 1261–1274.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Histograms of oriented gradients for human detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR7</itemid>
+                                <itemid idtype="SGR">33645146449</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Dalal N.</ce:indexed-name>
+                                    <ce:surname>Dalal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Triggs B.</ce:indexed-name>
+                                    <ce:surname>Triggs</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer Vision and Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="886" last="893"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dalal, N., &amp; Triggs, B. (2005). Histograms of oriented gradients for human detection. Computer Vision and Pattern Recognition, 1, 886–893.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Accurate scale estimation for robust visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR8</itemid>
+                                <itemid idtype="SGR">84919754301</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Danelljan M.</ce:indexed-name>
+                                    <ce:surname>Danelljan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hager G.</ce:indexed-name>
+                                    <ce:surname>Häger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Khan F.S.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Proceedings of British machine vision conference</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="11"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Danelljan, M., Häger, G., Khan, F. S., &amp; Felsberg, M. (2014a). Accurate scale estimation for robust visual tracking. In Proceedings of British machine vision conference (pp. 1–11).</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Convolutional features for correlation filter based visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR9</itemid>
+                                <itemid idtype="SGR">84962009931</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Danelljan M.</ce:indexed-name>
+                                    <ce:surname>Danelljan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hager G.</ce:indexed-name>
+                                    <ce:surname>Häger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Khan F.S.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In IEEE international conference on computer vision workshop (ICCVW) (pp</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="621" last="629"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Danelljan, M., Häger, G., Khan, F. S., &amp; Felsberg, M. (2015a). Convolutional features for correlation filter based visual tracking. In IEEE international conference on computer vision workshop (ICCVW) (pp. 621–629).</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning spatially regularized correlation filters for visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR10</itemid>
+                                <itemid idtype="SGR">84973922861</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Danelljan M.</ce:indexed-name>
+                                    <ce:surname>Danelljan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hager G.</ce:indexed-name>
+                                    <ce:surname>Hager</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Khan F.S.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In International conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="4310" last="4318"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Danelljan, M., Hager, G., Khan, F. S., &amp; Felsberg, M. (2015b). Learning spatially regularized correlation filters for visual tracking. In International conference on computer vision (pp. 4310–4318).</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Discriminative scale space tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2016.2609928</itemid>
+                                <itemid idtype="FRAGMENTID">CR11</itemid>
+                                <itemid idtype="SGR">85028466277</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Danelljan M.</ce:indexed-name>
+                                    <ce:surname>Danelljan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hager G.</ce:indexed-name>
+                                    <ce:surname>Häger</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Khan F.S.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="39"/>
+                                <pagerange first="1561" last="1575"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Danelljan, M., Häger, G., Khan, F. S., &amp; Felsberg, M. (2017). Discriminative scale space tracking. IEEE Transactions on Pattern Analysis and Machine Intelligence, 39(8), 1561–1575.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adaptive color attributes for real-time visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR12</itemid>
+                                <itemid idtype="SGR">84911362613</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Danelljan M.</ce:indexed-name>
+                                    <ce:surname>Danelljan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Khan F.S.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>vande Weijer J.</ce:indexed-name>
+                                    <ce:surname>van de Weijer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>2014 IEEE conference on computer vision and pattern recognition, CVPR 2014, Columbus, OH, USA, June</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="2014" volume="23-28"/>
+                                <pagerange first="1090" last="1097"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Danelljan, M., Khan, F. S., Felsberg, M., &amp; van de Weijer, J. (2014b). Adaptive color attributes for real-time visual tracking. In 2014 IEEE conference on computer vision and pattern recognition, CVPR 2014, Columbus, OH, USA, June 23–28, 2014 (pp. 1090–1097).</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR13</itemid>
+                                <itemid idtype="SGR">85047378809</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Beyond correlation filters: Learning continuous convolution operators for visual tracking. In Proceedings of the European conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>Danelljan, M., Robinson, A., Khan, F. S., &amp; Felsberg, M (pp. 472–488). Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Danelljan, M., Robinson, A., Khan, F. S., &amp; Felsberg, M. (2016). Beyond correlation filters: Learning continuous convolution operators for visual tracking. In Proceedings of the European conference on computer vision (pp. 472–488). Springer.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Context tracker: Exploring supporters and distracters in unconstrained environments</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR14</itemid>
+                                <itemid idtype="SGR">80052910974</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.B.</ce:initials>
+                                    <ce:indexed-name>Dinh T.B.</ce:indexed-name>
+                                    <ce:surname>Dinh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Vo N.</ce:indexed-name>
+                                    <ce:surname>Vo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Medioni G.</ce:indexed-name>
+                                    <ce:surname>Medioni</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1177" last="1184"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dinh, T. B., Vo, N., &amp; Medioni, G. (2011). Context tracker: Exploring supporters and distracters in unconstrained environments. In Computer vision and pattern recognition (pp. 1177–1184).</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A spatially constrained generative model and an em algorithm for image segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TNN.2007.891190</itemid>
+                                <itemid idtype="FRAGMENTID">CR15</itemid>
+                                <itemid idtype="SGR">34248678480</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Diplaros A.</ce:indexed-name>
+                                    <ce:surname>Diplaros</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Vlassis N.</ce:indexed-name>
+                                    <ce:surname>Vlassis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Gevers T.</ce:indexed-name>
+                                    <ce:surname>Gevers</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="18"/>
+                                <pagerange first="798" last="808"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Diplaros, A., Vlassis, N., &amp; Gevers, T. (2007). A spatially constrained generative model and an em algorithm for image segmentation. IEEE Transactions on Neural Networks, 18(3), 798–808.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Object detection with discriminatively trained part-based models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2009.167</itemid>
+                                <itemid idtype="FRAGMENTID">CR16</itemid>
+                                <itemid idtype="SGR">77955422240</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Felzenszwalb P.</ce:indexed-name>
+                                    <ce:surname>Felzenszwalb</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Girshick R.</ce:indexed-name>
+                                    <ce:surname>Girshick</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>McAllester D.</ce:indexed-name>
+                                    <ce:surname>McAllester</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Ramanan D.</ce:indexed-name>
+                                    <ce:surname>Ramanan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="32"/>
+                                <pagerange first="1627" last="1645"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Felzenszwalb, P., Girshick, R., McAllester, D., &amp; Ramanan, D. (2010). Object detection with discriminatively trained part-based models. IEEE Transactions on Pattern Analysis and Machine Intelligence, 32(9), 1627–1645.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multi-channel correlation filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR17</itemid>
+                                <itemid idtype="SGR">84898791093</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.K.</ce:initials>
+                                    <ce:indexed-name>Galoogahi H.K.</ce:indexed-name>
+                                    <ce:surname>Galoogahi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Sim T.</ce:indexed-name>
+                                    <ce:surname>Sim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Lucey S.</ce:indexed-name>
+                                    <ce:surname>Lucey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In International conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="3072" last="3079"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Galoogahi, H. K., Sim, T., &amp; Lucey, S. (2013). Multi-channel correlation filters. In International conference on computer vision (pp. 3072–3079).</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time tracking via on-line boosting</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR18</itemid>
+                                <itemid idtype="SGR">84898020313</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Grabner H.</ce:indexed-name>
+                                    <ce:surname>Grabner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grabner M.</ce:indexed-name>
+                                    <ce:surname>Grabner</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of British Machine Vision Conference</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="47" last="56"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Grabner, H., Grabner, M., &amp; Bischof, H. (2006). Real-time tracking via on-line boosting. Proceedings of British Machine Vision Conference, 1, 47–56.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>(2011). Struck: Structured output tracking with kernels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR19</itemid>
+                                <itemid idtype="SGR">84856659290</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hare S.</ce:indexed-name>
+                                    <ce:surname>Hare</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Saffari A.</ce:indexed-name>
+                                    <ce:surname>Saffari</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.H.S.</ce:initials>
+                                    <ce:indexed-name>Torr P.H.S.</ce:indexed-name>
+                                    <ce:surname>Torr</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International conference on computer vision, IEEE Computer Society</ref-sourcetitle>
+                            <ref-volisspag>
+                                <pagerange first="263" last="270"/>
+                            </ref-volisspag>
+                            <ref-text>In, Washington, DC, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hare, S., Saffari, A., &amp; Torr, P. H. S. (2011). Struck: Structured output tracking with kernels. In International conference on computer vision, IEEE Computer Society, Washington, DC, USA (pp. 263–270).</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Exploiting the circulant structure of tracking-by-detection with kernels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR20</itemid>
+                                <itemid idtype="SGR">84867840191</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.F.</ce:initials>
+                                    <ce:indexed-name>Henriques J.F.</ce:indexed-name>
+                                    <ce:surname>Henriques</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Caseiro R.</ce:indexed-name>
+                                    <ce:surname>Caseiro</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Martins P.</ce:indexed-name>
+                                    <ce:surname>Martins</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Batista J.</ce:indexed-name>
+                                    <ce:surname>Batista</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of European conference computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="702" last="715"/>
+                            </ref-volisspag>
+                            <ref-text>In, A., Fitzgibbon, S., Lazebnik, P., Perona, Y., Sato, C., Schmid, (Eds. Berlin, Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Henriques, J. F., Caseiro, R., Martins, P., &amp; Batista, J. (2012). Exploiting the circulant structure of tracking-by-detection with kernels. In A. Fitzgibbon, S. Lazebnik, P. Perona, Y. Sato, &amp; C. Schmid (Eds.), Proceedings of European conference computer vision (pp. 702–715). Berlin: Springer.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>High-speed tracking with kernelized correlation filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2014.2345390</itemid>
+                                <itemid idtype="FRAGMENTID">CR21</itemid>
+                                <itemid idtype="SGR">84922907906</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.F.</ce:initials>
+                                    <ce:indexed-name>Henriques J.F.</ce:indexed-name>
+                                    <ce:surname>Henriques</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Caseiro R.</ce:indexed-name>
+                                    <ce:surname>Caseiro</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Martins P.</ce:indexed-name>
+                                    <ce:surname>Martins</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Batista J.</ce:indexed-name>
+                                    <ce:surname>Batista</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="37"/>
+                                <pagerange first="583" last="596"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Henriques, J. F., Caseiro, R., Martins, P., &amp; Batista, J. (2015). High-speed tracking with kernelized correlation filters. IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(3), 583–596.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multivariant technique for multiclass pattern recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1364/AO.19.001758</itemid>
+                                <itemid idtype="FRAGMENTID">CR22</itemid>
+                                <itemid idtype="SGR">0019022335</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.F.</ce:initials>
+                                    <ce:indexed-name>Hester C.F.</ce:indexed-name>
+                                    <ce:surname>Hester</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Casasent D.</ce:indexed-name>
+                                    <ce:surname>Casasent</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Applied Optics</ref-sourcetitle>
+                            <ref-publicationyear first="1980"/>
+                            <ref-volisspag>
+                                <voliss issue="11" volume="19"/>
+                                <pagerange first="1758" last="1761"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hester, C. F., &amp; Casasent, D. (1980). Multivariant technique for multiclass pattern recognition. Applied Optics, 19(11), 1758–1761.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multi-store tracker (muster): A cognitive psychology inspired approach to object tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR23</itemid>
+                                <itemid idtype="SGR">84959254211</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Hong Z.</ce:indexed-name>
+                                    <ce:surname>Hong</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Chen Z.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Wang C.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Mei X.</ce:indexed-name>
+                                    <ce:surname>Mei</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Prokhorov D.</ce:indexed-name>
+                                    <ce:surname>Prokhorov</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Tao D.</ce:indexed-name>
+                                    <ce:surname>Tao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="749" last="758"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hong, Z., Chen, Z., Wang, C., Mei, X., Prokhorov, D., &amp; Tao, D. (2015). Multi-store tracker (muster): A cognitive psychology inspired approach to object tracking. In Computer vision and pattern recognition (pp. 749–758).</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual tracking via adaptive structural local sparse appearance model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR24</itemid>
+                                <itemid idtype="SGR">84866725281</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Jia X.</ce:indexed-name>
+                                    <ce:surname>Jia</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lu H.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.H.</ce:initials>
+                                    <ce:indexed-name>Yang M.H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1822" last="1829"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jia, X., Lu, H., &amp; Yang, M. H. (2012). Visual tracking via adaptive structural local sparse appearance model. In Computer vision and pattern recognition (pp. 1822–1829).</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking-learning-detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2011.239</itemid>
+                                <itemid idtype="FRAGMENTID">CR25</itemid>
+                                <itemid idtype="SGR">84861312439</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kalal Z.</ce:indexed-name>
+                                    <ce:surname>Kalal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mikolajczyk K.</ce:indexed-name>
+                                    <ce:surname>Mikolajczyk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="34"/>
+                                <pagerange first="1409" last="1422"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kalal, Z., Mikolajczyk, K., &amp; Matas, J. (2012). Tracking-learning-detection. IEEE Transactions on Pattern Analysis and Machine Intelligence, 34(7), 1409–1422.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Correlation filters with limited boundaries</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR26</itemid>
+                                <itemid idtype="SGR">84959251814</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>KianiGaloogahi H.</ce:indexed-name>
+                                    <ce:surname>Kiani Galoogahi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Sim T.</ce:indexed-name>
+                                    <ce:surname>Sim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Lucey S.</ce:indexed-name>
+                                    <ce:surname>Lucey</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="4630" last="4638"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kiani Galoogahi, H., Sim, T., Lucey, S. (2015). Correlation filters with limited boundaries. In Computer vision and pattern recognition (pp. 4630–4638).</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast image-based obstacle detection from unmanned surface vehicles</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TCYB.2015.2412251</itemid>
+                                <itemid idtype="FRAGMENTID">CR27</itemid>
+                                <itemid idtype="SGR">84926154318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.S.</ce:initials>
+                                    <ce:indexed-name>Kenk V.S.</ce:indexed-name>
+                                    <ce:surname>Kenk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kovacic S.</ce:indexed-name>
+                                    <ce:surname>Kovačič</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pers J.</ce:indexed-name>
+                                    <ce:surname>Perš</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Cybernetics</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="46"/>
+                                <pagerange first="641" last="654"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kristan, M., Kenk, V. S., Kovačič, S., &amp; Perš, J. (2016a). Fast image-based obstacle detection from unmanned surface vehicles. IEEE Transactions on Cybernetics, 46(3), 641–654.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual object tracking vot2016 challenge results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR28</itemid>
+                                <itemid idtype="SGR">84958658618</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pflugfelder R.</ce:indexed-name>
+                                    <ce:surname>Pflugfelder</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Čehovin</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the European conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>b, In</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Kristan, M., Leonardis, A., Matas, J., Felsberg, M., Pflugfelder, R., Čehovin, L., et al. (2016b). The visual object tracking vot2016 challenge results. In Proceedings of the European conference on computer vision.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual object tracking vot2015 challenge results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR29</itemid>
+                                <itemid idtype="SGR">84962023046</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Čehovin</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Fernandez G.</ce:indexed-name>
+                                    <ce:surname>Fernandez</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>International conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                        </ref-info>
+                        <ref-fulltext>Kristan, M., Matas, J., Leonardis, A., Felsberg, M., Čehovin, L., Fernandez, G., et al. (2015). The visual object tracking vot2015 challenge results. In International conference on computer vision</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A novel performance evaluation methodology for single-target trackers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2016.2516982</itemid>
+                                <itemid idtype="FRAGMENTID">CR30</itemid>
+                                <itemid idtype="SGR">84992034892</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vojir T.</ce:indexed-name>
+                                    <ce:surname>Vojir</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pflugfelder R.</ce:indexed-name>
+                                    <ce:surname>Pflugfelder</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Fernandez G.</ce:indexed-name>
+                                    <ce:surname>Fernandez</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="38"/>
+                                <pagerange first="2137" last="2155"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kristan, M., Matas, J., Leonardis, A., Vojir, T., Pflugfelder, R., Fernandez, G., et al. (2016c). A novel performance evaluation methodology for single-target trackers. IEEE Transactions on Pattern Analysis and Machine Intelligence, 38, 2137–2155.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual object tracking vot2014 challenge results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR31</itemid>
+                                <itemid idtype="SGR">84925321128</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pflugfelder R.</ce:indexed-name>
+                                    <ce:surname>Pflugfelder</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Čehovin</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Nebehay G.</ce:indexed-name>
+                                    <ce:surname>Nebehay</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the European conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="191" last="217"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kristan, M., Pflugfelder, R., Leonardis, A., Matas, J., Čehovin, L., Nebehay, G., et al. (2014). The visual object tracking vot2014 challenge results. In Proceedings of the European conference on computer vision (pp. 191–217).</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual object tracking vot2013 challenge results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR32</itemid>
+                                <itemid idtype="SGR">84897510119</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pflugfelder R.</ce:indexed-name>
+                                    <ce:surname>Pflugfelder</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Porikli F.</ce:indexed-name>
+                                    <ce:surname>Porikli</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovinehovin L.</ce:indexed-name>
+                                    <ce:surname>Čehovinehovin</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>The visual object tracking challenge VOT2013, in conjunction with ICCV2013</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="98" last="111"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kristan, M., Pflugfelder, R., Leonardis, A., Matas, J., Porikli, F., Čehovinehovin, L., et al. (2013). The visual object tracking vot2013 challenge results. In The visual object tracking challenge VOT2013, in conjunction with ICCV2013 (pp. 98–111).</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A scale adaptive kernel correlation filter tracker with feature integration</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR33</itemid>
+                                <itemid idtype="SGR">84928802126</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Li Y.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zhu J.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Proceedings of the European conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="254" last="265"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Li, Y., &amp; Zhu, J. (2014). A scale adaptive kernel correlation filter tracker with feature integration. In Proceedings of the European conference on computer vision (pp. 254–265).</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Encoding color information for visual tracking: Algorithms and benchmark</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TIP.2015.2482905</itemid>
+                                <itemid idtype="FRAGMENTID">CR34</itemid>
+                                <itemid idtype="SGR">84945964599</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Liang P.</ce:indexed-name>
+                                    <ce:surname>Liang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Blasch E.</ce:indexed-name>
+                                    <ce:surname>Blasch</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ling H.</ce:indexed-name>
+                                    <ce:surname>Ling</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="24"/>
+                                <pagerange first="5630" last="5644"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liang, P., Blasch, E., &amp; Ling, H. (2015). Encoding color information for visual tracking: Algorithms and benchmark. IEEE Transactions on Image Processing, 24(12), 5630–5644.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust tracking using local sparse appearance model and k-selection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR35</itemid>
+                                <itemid idtype="SGR">80052879604</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Liu B.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huang J.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Yang L.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Kulikowsk C.</ce:indexed-name>
+                                    <ce:surname>Kulikowsk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1313" last="1320"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu, B., Huang, J., Yang, L., &amp; Kulikowsk, C. (2011). Robust tracking using local sparse appearance model and k-selection. In Computer vision and pattern recognition (pp. 1313–1320).</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Structural correlation filter for robust visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR36</itemid>
+                                <itemid idtype="SGR">85009921441</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Liu S.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhang T.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Cao X.</ce:indexed-name>
+                                    <ce:surname>Cao</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Xu C.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="4312" last="4320"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu, S., Zhang, T., Cao, X., &amp; Xu, C. (2016). Structural correlation filter for robust visual tracking. In Computer vision and pattern recognition (pp. 4312–4320).</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time part-based visual tracking via adaptive correlation filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR37</itemid>
+                                <itemid idtype="SGR">84959186046</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Liu T.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Wang G.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Yang Q.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="4902" last="4912"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu, T., Wang, G., &amp; Yang, Q. (2015). Real-time part-based visual tracking via adaptive correlation filters. In Computer vision and pattern recognition (pp. 4902–4912).</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deformable parts correlation filters for robust visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR38</itemid>
+                                <itemid idtype="SGR">85043380391</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Lukezic A.</ce:indexed-name>
+                                    <ce:surname>Lukežič</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.Č.</ce:initials>
+                                    <ce:indexed-name>Zajc L.C.</ce:indexed-name>
+                                    <ce:surname>Zajc</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Cybernetics</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="99"/>
+                                <pagerange first="1" last="13"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lukežič, A., Zajc, L. Č., &amp; Kristan, M. (2017). Deformable parts correlation filters for robust visual tracking. IEEE Transactions on Cybernetics, 99, 1–13.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Hierarchical convolutional features for visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR39</itemid>
+                                <itemid idtype="SGR">84973869904</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Ma C.</ce:indexed-name>
+                                    <ce:surname>Ma</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.B.</ce:initials>
+                                    <ce:indexed-name>Huang J.B.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Yang X.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.H.</ce:initials>
+                                    <ce:indexed-name>Yang M.H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In International conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="3074" last="3082"/>
+                            </ref-volisspag>
+                            <ref-text>(pp</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ma, C., Huang, J. B., Yang, X., &amp; Yang, M. H. (2015). Hierarchical convolutional features for visual tracking. In International conference on computer vision (pp 3074–3082).</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR40</itemid>
+                                <itemid idtype="SGR">85047440397</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mueller M.</ce:indexed-name>
+                                    <ce:surname>Mueller</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Smith N.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Ghanem B.</ce:indexed-name>
+                                    <ce:surname>Ghanem</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>A benchmark and simulator for uav tracking</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-text>In Proceedings of the European conference on computer vision</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mueller, M., Smith, N., &amp; Ghanem, B. (2016). A benchmark and simulator for uav tracking. In Proceedings of the European conference on computer vision.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning multi-domain convolutional neural networks for visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR41</itemid>
+                                <itemid idtype="SGR">84986296977</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Nam H.</ce:indexed-name>
+                                    <ce:surname>Nam</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Han B.</ce:indexed-name>
+                                    <ce:surname>Han</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="4293" last="4302"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nam, H., &amp; Han, B. (2016). Learning multi-domain convolutional neural networks for visual tracking. In Computer vision and pattern recognition (pp. 4293–4302).</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Hedged deep tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR42</itemid>
+                                <itemid idtype="SGR">84986246054</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Qi Y.</ce:indexed-name>
+                                    <ce:surname>Qi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Zhang S.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Qin L.</ce:indexed-name>
+                                    <ce:surname>Qin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Yao H.</ce:indexed-name>
+                                    <ce:surname>Yao</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Huang Q.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lim J.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="4303" last="4311"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Qi, Y., Zhang, S., Qin, L., Yao, H., Huang, Q., Lim, J., et al. (2016). Hedged deep tracking. In CVPR (pp. 4303–4311).</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual tracking: An experimental survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2013.230</itemid>
+                                <itemid idtype="FRAGMENTID">CR43</itemid>
+                                <itemid idtype="SGR">84903121415</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Smeulders A.</ce:indexed-name>
+                                    <ce:surname>Smeulders</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Chu D.</ce:indexed-name>
+                                    <ce:surname>Chu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Cucchiara R.</ce:indexed-name>
+                                    <ce:surname>Cucchiara</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Calderara S.</ce:indexed-name>
+                                    <ce:surname>Calderara</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Dehghan A.</ce:indexed-name>
+                                    <ce:surname>Dehghan</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Shah M.</ce:indexed-name>
+                                    <ce:surname>Shah</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="36"/>
+                                <pagerange first="1442" last="1468"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Smeulders, A., Chu, D., Cucchiara, R., Calderara, S., Dehghan, A., &amp; Shah, M. (2014). Visual tracking: An experimental survey. IEEE Transactions on Pattern Analysis and Machine Intelligence, 36(7), 1442–1468.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning color names for real-world applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TIP.2009.2019809</itemid>
+                                <itemid idtype="FRAGMENTID">CR44</itemid>
+                                <itemid idtype="SGR">67649842409</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>van de Weijer J.</ce:indexed-name>
+                                    <ce:surname>van de Weijer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Schmid C.</ce:indexed-name>
+                                    <ce:surname>Schmid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Verbeek J.</ce:indexed-name>
+                                    <ce:surname>Verbeek</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Larlus D.</ce:indexed-name>
+                                    <ce:surname>Larlus</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="18"/>
+                                <pagerange first="1512" last="1523"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>van de Weijer, J., Schmid, C., Verbeek, J., &amp; Larlus, D. (2009). Learning color names for real-world applications. IEEE Transactions on Image Processing, 18(7), 1512–1523.</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Pixel-wise object segmentations for the VOT 2016 dataset. Research Report CTU-CMP-2017-01, Center for Machine Perception</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR45</itemid>
+                                <itemid idtype="SGR">85029597138</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vojir T.</ce:indexed-name>
+                                    <ce:surname>Vojir</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>K13133 FEE Czech Technical University</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-text>Prague, Czech Republic</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Vojir, T., &amp; Matas, J. (2017). Pixel-wise object segmentations for the VOT 2016 dataset. Research Report CTU-CMP-2017-01, Center for Machine Perception, K13133 FEE Czech Technical University, Prague, Czech Republic.</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual tracking with fully convolutional networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR46</itemid>
+                                <itemid idtype="SGR">84973856013</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Wang L.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Ouyang W.</ce:indexed-name>
+                                    <ce:surname>Ouyang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wang X.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lu H.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In International conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="3119" last="3127"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wang, L., Ouyang, W., Wang, X., &amp; Lu, H. (2015). Visual tracking with fully convolutional networks. In International conference on computer vision (pp. 3119–3127).</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Transferring rich feature hierarchies for robust visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR47</itemid>
+                                <itemid idtype="ARXIV">1501.04587</itemid>
+                                <itemid idtype="SGR">84945961638</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Wang N.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Li S.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gupta A.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Yeung D.</ce:indexed-name>
+                                    <ce:surname>Yeung</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CoRR arXiv</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="1501"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wang, N., Li, S., Gupta, A., &amp; Yeung, D. (2015). Transferring rich feature hierarchies for robust visual tracking. CoRR arXiv:1501.04587.</ref-fulltext>
+                    </reference>
+                    <reference id="48">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual tracking with reliable memories</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR48</itemid>
+                                <itemid idtype="SGR">85006116271</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Wang S.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Zhang S.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Liu W.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.N.</ce:initials>
+                                    <ce:indexed-name>Metaxas D.N.</ce:indexed-name>
+                                    <ce:surname>Metaxas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Proceedings of the twenty-fifth international joint conference on artificial intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="3491" last="3497"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wang, S., Zhang, S., Liu, W., &amp; Metaxas, D. N. (2016). Visual tracking with reliable memories. In Proceedings of the twenty-fifth international joint conference on artificial intelligence (pp. 3491–3497).</ref-fulltext>
+                    </reference>
+                    <reference id="49">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online object tracking: A benchmark</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR49</itemid>
+                                <itemid idtype="SGR">84887348427</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wu Y.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lim J.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.H.</ce:initials>
+                                    <ce:indexed-name>Yang M.H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="2411" last="2418"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wu, Y., Lim, J., &amp; Yang, M. H. (2013). Online object tracking: A benchmark. In Computer vision and pattern recognition (pp. 2411–2418).</ref-fulltext>
+                    </reference>
+                    <reference id="50">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Object tracking benchmark</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2014.2388226</itemid>
+                                <itemid idtype="FRAGMENTID">CR50</itemid>
+                                <itemid idtype="SGR">84939235624</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wu Y.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lim J.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.H.</ce:initials>
+                                    <ce:indexed-name>Yang M.H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="37"/>
+                                <pagerange first="1834" last="1848"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wu, Y., Lim, J., &amp; Yang, M. H. (2015). Object tracking benchmark. IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9), 1834–1848.</ref-fulltext>
+                    </reference>
+                    <reference id="51">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR51</itemid>
+                                <itemid idtype="SGR">85047395720</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Fast visual tracking via dense spatio-temporal context learning. In Proceedings of the European conference on computer vision</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-text>Zhang, K., Zhang, L., Liu, Q., Zhang, D., &amp; Yang, M. H (pp. 127–141). Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zhang, K., Zhang, L., Liu, Q., Zhang, D., &amp; Yang, M. H. (2014). Fast visual tracking via dense spatio-temporal context learning. In Proceedings of the European conference on computer vision (pp. 127–141). Springer.</ref-fulltext>
+                    </reference>
+                    <reference id="52">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust object tracking via sparsity-based collaborative model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR52</itemid>
+                                <itemid idtype="SGR">84866648566</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Zhong W.</ce:indexed-name>
+                                    <ce:surname>Zhong</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lu H.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.H.</ce:initials>
+                                    <ce:indexed-name>Yang M.H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In Computer vision and pattern recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1838" last="1845"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhong, W., Lu, H., &amp; Yang, M. H. (2012). Robust object tracking via sparsity-based collaborative model. In Computer vision and pattern recognition (pp. 1838–1845).</ref-fulltext>
+                    </reference>
+                    <reference id="53">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Beyond local search: Tracking objects everywhere with instance-specific proposals</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">CR53</itemid>
+                                <itemid idtype="SGR">84986317433</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Zhu G.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Porikli F.</ce:indexed-name>
+                                    <ce:surname>Porikli</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Li H.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>In The IEEE conference on computer vision and pattern recognition (CVPR) (pp</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="943" last="951"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhu, G., Porikli, F., &amp; Li, H. (2016). Beyond local search: Tracking objects everywhere with instance-specific proposals. In The IEEE conference on computer vision and pattern recognition (CVPR) (pp. 943–951).</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

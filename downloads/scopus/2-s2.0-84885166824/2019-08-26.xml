@@ -1,0 +1,678 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84885166824</prism:url><dc:identifier>SCOPUS_ID:84885166824</dc:identifier><eid>2-s2.0-84885166824</eid><prism:doi>10.3233/IDA-130607</prism:doi><dc:title>Efficiently explaining the predictions of a probabilistic radial basis function classification network</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Intelligent Data Analysis</prism:publicationName><source-id>11300153726</source-id><prism:issn>1088467X 15714128</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:startingPage>791</prism:startingPage><prism:endingPage>802</prism:endingPage><prism:pageRange>791-802</prism:pageRange><prism:coverDate>2013-10-14</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="55900495300"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55900495300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>A probabilistic radial basis function (PRBF) network is an effective non-linear classifier. However, similar to most other neural network models it is non-transparent, which makes its predictions difficult to interpret. In this paper we show how a one-variable-at-a-time and an all-subsets explanation method can be modified for an equivalent and more efficient use with PRBF network classifiers. We use several artificial and real-life data sets to demonstrate the usefulness of the visualizations and explanations of the PRBF network classifier. © 2013 - IOS Press and the authors. All rights reserved.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84885166824" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84885166824&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84885166824&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55900495300"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55900495300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="57204664304"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Štrumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204664304</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="57188535146"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188535146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Data mining</author-keyword><author-keyword>feature importance</author-keyword><author-keyword>model interpretation</author-keyword><author-keyword>model visualization</author-keyword><author-keyword>neural nets</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">feature importance</mainterm><mainterm weight="a" candidate="n">Model interpretations</mainterm><mainterm weight="a" candidate="n">Model visualization</mainterm><mainterm weight="a" candidate="n">Network classifiers</mainterm><mainterm weight="a" candidate="n">Neural network model</mainterm><mainterm weight="a" candidate="n">Nonlinear classifiers</mainterm><mainterm weight="a" candidate="n">Radial basis function classifications</mainterm><mainterm weight="a" candidate="n">Radial basis functions</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="22" month="11" timestamp="2018-11-22T14:38:41.000041-05:00" year="2018"/><ait:date-sort day="14" month="10" year="2013"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.3233/IDA-130607</ce:doi>
+                    <itemid idtype="PUI">369970217</itemid>
+                    <itemid idtype="CPX">20134216846041</itemid>
+                    <itemid idtype="SCP">84885166824</itemid>
+                    <itemid idtype="SGR">84885166824</itemid>
+                </itemidlist><history>
+                    <date-created day="14" month="10" year="2013"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Data mining</author-keyword>
+                        <author-keyword xml:lang="eng">feature importance</author-keyword>
+                        <author-keyword xml:lang="eng">model interpretation</author-keyword>
+                        <author-keyword xml:lang="eng">model visualization</author-keyword>
+                        <author-keyword xml:lang="eng">neural nets</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Efficiently explaining the predictions of a probabilistic radial basis function classification network</titletext></citation-title><author-group><author auid="55900495300" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name>
+                            <ce:surname>Robnik-Šikonja</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><author auid="57204664304" seq="2"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name>
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Štrumbelj E.</ce:indexed-name>
+                            <ce:surname>Štrumbelj</ce:surname>
+                            <ce:given-name>Erik</ce:given-name>
+                        </preferred-name></author><author auid="57188535146" seq="3"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                            <ce:surname>Kononenko</ce:surname>
+                            <ce:given-name>Igor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaska 25</address-part><city-group>1000 Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>E.</ce:initials>
+                        <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                        <ce:surname>Štrumbelj</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaska 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>A probabilistic radial basis function (PRBF) network is an effective non-linear classifier. However, similar to most other neural network models it is non-transparent, which makes its predictions difficult to interpret. In this paper we show how a one-variable-at-a-time and an all-subsets explanation method can be modified for an equivalent and more efficient use with PRBF network classifiers. We use several artificial and real-life data sets to demonstrate the usefulness of the visualizations and explanations of the PRBF network classifier. © 2013 - IOS Press and the authors. All rights reserved.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="11300153726" type="j"><sourcetitle>Intelligent Data Analysis</sourcetitle><sourcetitle-abbrev>Intell. Data Anal.</sourcetitle-abbrev><issn type="print">1088467X</issn><issn type="electronic">15714128</issn><volisspag>
+                        <voliss issue="5" volume="17"/>
+                        <pagerange first="791" last="802"/>
+                    </volisspag><publicationyear first="2013"/><publicationdate>
+                        <year>2013</year>
+                    <date-text xfab-added="true">2013</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                        </classifications><classifications type="GEOCLASS">
+                            <classification>
+                                <classification-code>Related Topics</classification-code>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1707</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="19">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An incremental training method for the probabilistic RBF network</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33746874813</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Constantinopoulos C.</ce:indexed-name>
+                                    <ce:surname>Constantinopoulos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Likas A.</ce:indexed-name>
+                                    <ce:surname>Likas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="17"/>
+                                <pagerange first="966" last="974"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C. Constantinopoulos and A. Likas, An incremental training method for the probabilistic RBF network, IEEE Trans. Neural Networks 17(4) (2006), 966-974.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Shared kernel models for class conditional density estimation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035440306</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.K.</ce:initials>
+                                    <ce:indexed-name>Titsias M.K.</ce:indexed-name>
+                                    <ce:surname>Titsias</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Likas A.</ce:indexed-name>
+                                    <ce:surname>Likas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="12"/>
+                                <pagerange first="987" last="997"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M.K. Titsias and A. Likas, Shared kernel models for class conditional density estimation, IEEE Trans. Neural Networks 12(5) (2001), 987-997.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003487601</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.M.</ce:initials>
+                                    <ce:indexed-name>Bishop C.M.</ce:indexed-name>
+                                    <ce:surname>Bishop</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks for Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-text>Oxford University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>C.M. Bishop, Neural Networks for Pattern Recognition, Oxford University Press, 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004066260</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>McLachlan G.</ce:indexed-name>
+                                    <ce:surname>McLachlan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Peel D.</ce:indexed-name>
+                                    <ce:surname>Peel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Finite Mixture Models</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-text>John Wiley and Sons</ref-text>
+                        </ref-info>
+                        <ref-fulltext>G. McLachlan and D. Peel, Finite Mixture Models, John Wiley and Sons, 2000.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Symbolic knowledge extraction from trained neural networks: A sound approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035127989</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.S.</ce:initials>
+                                    <ce:indexed-name>D'avila Garcez A.S.</ce:indexed-name>
+                                    <ce:surname>D'avila Garcez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Broda K.</ce:indexed-name>
+                                    <ce:surname>Broda</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Gabbay D.M.</ce:indexed-name>
+                                    <ce:surname>Gabbay</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="125"/>
+                                <pagerange first="155" last="207"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A.S. d'Avila Garcez, K. Broda and D.M. Gabbay, Symbolic knowledge extraction from trained neural networks: A sound approach, Artificial Intelligence 125(1-2) (2001), 155-207.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visualization of support vector machines with unsupervised learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">50249158464</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Hamel L.</ce:indexed-name>
+                                    <ce:surname>Hamel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of 2006 IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                        </ref-info>
+                        <ref-fulltext>L. Hamel, Visualization of support vector machines with unsupervised learning, in: Proceedings of 2006 IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An overview on subgroup discovery: Foundations and applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79961211866</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Herrera F.</ce:indexed-name>
+                                    <ce:surname>Herrera</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Carmona C.</ce:indexed-name>
+                                    <ce:surname>Carmona</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gonzlez P.</ce:indexed-name>
+                                    <ce:surname>Gonzlez</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Del Jesus M.</ce:indexed-name>
+                                    <ce:surname>Del Jesus</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge and Information Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="95" last="525"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Herrera, C. Carmona, P. Gonzlez and M. del Jesus, An overview on subgroup discovery: foundations and applications, Knowledge and Information Systems 29 (2011) 495-525.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interpretation of trained neural networks by rule extraction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84883800261</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Palade V.</ce:indexed-name>
+                                    <ce:surname>Palade</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.-D.</ce:initials>
+                                    <ce:indexed-name>Neagu C.-D.</ce:indexed-name>
+                                    <ce:surname>Neagu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.J.</ce:initials>
+                                    <ce:indexed-name>Patton R.J.</ce:indexed-name>
+                                    <ce:surname>Patton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the International Conference, 7th Fuzzy Days on Computational Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="152" last="161"/>
+                            </ref-volisspag>
+                            <ref-text>Theory and Applications, Springer-Verlag, London, UK</ref-text>
+                        </ref-info>
+                        <ref-fulltext>V. Palade, C.-D. Neagu and R.J. Patton, Interpretation of trained neural networks by rule extraction, in: Proceedings of the International Conference, 7th Fuzzy Days on Computational Intelligence, Theory and Applications, Springer-Verlag, London, UK, 2001, pp. 152-161.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Svm and graphical algorithms: A cooperative approach</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">19544386607</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Poulet F.</ce:indexed-name>
+                                    <ce:surname>Poulet</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Fourth IEEE International Conference on Data Mining (ICDM'04)</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="499" last="502"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>F. Poulet, Svm and graphical algorithms: A cooperative approach, in: Fourth IEEE International Conference on Data Mining (ICDM'04), 2004, pp. 499-502.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nomograms for visualizing support vector machines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">32344441116</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jakulin A.</ce:indexed-name>
+                                    <ce:surname>Jakulin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Moẑina</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demŝar</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="108" last="117"/>
+                            </ref-volisspag>
+                            <ref-text>R. Grossman, R. Bayardo and K.P. Bennett, eds, ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Jakulin, M. Moẑina, J. Demŝar, I. Bratko and B. Zupan, Nomograms for visualizing support vector machines, in: Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, R. Grossman, R. Bayardo and K.P. Bennett, eds, ACM, 2005, pp. 108-117.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nomograms for visualization of naive bayesian classifier</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750710231</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Moẑina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demŝar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.W.</ce:initials>
+                                    <ce:indexed-name>Kattan M.W.</ce:indexed-name>
+                                    <ce:surname>Kattan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge Discovery in Databases: PKDD 2004</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="337" last="348"/>
+                            </ref-volisspag>
+                            <ref-text>J.-F. Boulicaut, F. Esposito, F. Giannotti and D. Pedreschi, eds, Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Moẑina, J. Demŝar, M.W. Kattan and B. Zupan, Nomograms for visualization of naive bayesian classifier, in: Knowledge Discovery in Databases: PKDD 2004, J.-F. Boulicaut, F. Esposito, F. Giannotti and D. Pedreschi, eds, Springer, 2004, pp. 337-348.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual explanation of evidence with additive classifiers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750708213</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Poulin B.</ce:indexed-name>
+                                    <ce:surname>Poulin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Eisner R.</ce:indexed-name>
+                                    <ce:surname>Eisner</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Szafron D.</ce:indexed-name>
+                                    <ce:surname>Szafron</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Lu P.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Greiner R.</ce:indexed-name>
+                                    <ce:surname>Greiner</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.S.</ce:initials>
+                                    <ce:indexed-name>Wishart D.S.</ce:indexed-name>
+                                    <ce:surname>Wishart</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Fyshe A.</ce:indexed-name>
+                                    <ce:surname>Fyshe</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Pearcy B.</ce:indexed-name>
+                                    <ce:surname>Pearcy</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Macdonell C.</ce:indexed-name>
+                                    <ce:surname>Macdonell</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Anvik J.</ce:indexed-name>
+                                    <ce:surname>Anvik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of AAAI'06</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>AAAI Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>B. Poulin, R. Eisner, D. Szafron, P. Lu, R. Greiner, D.S.Wishart, A. Fyshe, B. Pearcy, C. Macdonell and J. Anvik, Visual explanation of evidence with additive classifiers, in: Proceedings of AAAI'06, AAAI Press, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Contact personalization using a score understanding method</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56349095888</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Lemaire V.</ce:indexed-name>
+                                    <ce:surname>Lemaire</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Feraud R.</ce:indexed-name>
+                                    <ce:surname>Féraud</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Voisine N.</ce:indexed-name>
+                                    <ce:surname>Voisine</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of International Joint Conference on Neural Networks (IJCNN)</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                        </ref-info>
+                        <ref-fulltext>V. Lemaire, R. Féraud and N. Voisine, Contact personalization using a score understanding method, in: Proceedings of International Joint Conference on Neural Networks (IJCNN), 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining classifications for individual instances</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949101606</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Sikonja M.R.</ce:indexed-name>
+                                    <ce:surname>Ŝikonja</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Knowledge and Data Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="20"/>
+                                <pagerange first="589" last="600"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Robnik Ŝikonja and I. Kononenko, Explaining classifications for individual instances, IEEE Transactions on Knowledge and Data Engineering 20(5) (2008), 589-600.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An efficient explanation of individual classifications using game theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">76749170318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Ŝtrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1" last="18"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Ŝtrumbelj and I. Kononenko, An Efficient Explanation of Individual Classifications using Game Theory, Journal of Machine Learning Research 11 (2010), 1-18.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004282950</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.J.</ce:initials>
+                                    <ce:indexed-name>Good I.J.</ce:indexed-name>
+                                    <ce:surname>Good</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Probability and the Weighing of Evidence</ref-sourcetitle>
+                            <ref-publicationyear first="1950"/>
+                            <ref-text>C. Griffin London</ref-text>
+                        </ref-info>
+                        <ref-fulltext>I. J. Good, Probability and the weighing of evidence, C. Griffin London, 1950.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Efficiently explaining decisions of probabilistic RBF classification networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79955103491</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik-Ŝikonja</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Likas A.</ce:indexed-name>
+                                    <ce:surname>Likas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Constantinopoulos C.</ce:indexed-name>
+                                    <ce:surname>Constantinopoulos</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Ŝtrumbelj</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Adaptive and Natural Computing Algorithms, Proceedings of ICANNGA 2011</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="169" last="179"/>
+                            </ref-volisspag>
+                            <ref-text>A. Dobnikar, U. Lotri?c and B. Ŝter, eds, Part I, LNCS 6593, Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Robnik-Ŝikonja, A. Likas, C. Constantinopoulos, I. Kononenko and E. Ŝtrumbelj, Efficiently explaining decisions of probabilistic RBF classification networks, in: Adaptive and Natural Computing Algorithms, Proceedings of ICANNGA 2011, A. Dobnikar, U. Lotri?c and B. Ŝter, eds, Part I, LNCS 6593, Springer, 2011, pp. 169-179.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36948999941</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Asuncion A.</ce:indexed-name>
+                                    <ce:surname>Asuncion</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Newman D.J.</ce:indexed-name>
+                                    <ce:surname>Newman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>UCI Machine Learning Repository</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-website>
+                                <ce:e-address type="url">http://www.ics.uci.edu/mlearn/MLRepository.html</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>A. Asuncion and D.J. Newman, UCI Machine Learning Repository, http://www.ics.uci.edu/mlearn/MLRepository.html (2009).</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explanation and reliability of prediction models: The case of breast cancer recurrence</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954953206</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Ŝtrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zakotnik B.</ce:indexed-name>
+                                    <ce:surname>Zakotnik</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Grasic-Kuhar C.</ce:indexed-name>
+                                    <ce:surname>Graŝic-Kuhar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge and Information Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="24"/>
+                                <pagerange first="305" last="324"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Ŝtrumbelj, Z. Bosnic, I. Kononenko, B. Zakotnik and C. Graŝi?c-Kuhar, Explanation and reliability of prediction models: the case of breast cancer recurrence, Knowledge and Information Systems 24 (2010), 305-324.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

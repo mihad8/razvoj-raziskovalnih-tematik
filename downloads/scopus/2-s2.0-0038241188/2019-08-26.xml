@@ -1,0 +1,238 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0038241188</prism:url><dc:identifier>SCOPUS_ID:0038241188</dc:identifier><eid>2-s2.0-0038241188</eid><dc:title>Latched recurrent neural network</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>5</citedby-count><prism:publicationName>Elektrotehniski Vestnik/Electrotechnical Review</prism:publicationName><source-id>16651</source-id><prism:issn>00135852</prism:issn><prism:volume>70</prism:volume><prism:issueIdentifier>1-2</prism:issueIdentifier><prism:startingPage>46</prism:startingPage><prism:endingPage>51</prism:endingPage><prism:pageRange>46-51</prism:pageRange><prism:coverDate>2003-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6507593861"><ce:initials>B.</ce:initials><ce:indexed-name>Ster B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Šter B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507593861</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>An extended architecture of recurrent neural networks is proposed. It is based on ignoring unimportant input information using a register of latches as the input layer of the network. The latch is implemented with a multiplexer 2/1 whose output is differentiable with respect to all of its inputs, thus enabling the derivatives to be propagated through the network. The relevance of input vectors is learned together with the weights of the network using a gradient-based algorithm.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0038241188" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0038241188&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0038241188&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6507593861"><ce:initials>B.</ce:initials><ce:indexed-name>Ster B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Šter B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6507593861</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Finite state automata</author-keyword><author-keyword>Latch</author-keyword><author-keyword>Long-term dependencies</author-keyword><author-keyword>Recurrent neural networks</author-keyword><author-keyword>Temporal processing</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Gradient algorithm</mainterm><mainterm weight="a" candidate="n">Temporal processing task</mainterm></idxterms><subject-areas><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="17" month="04" timestamp="2019-04-17T16:51:49.000049-04:00" year="2019"/><ait:date-sort day="01" month="01" year="2003"/><ait:status state="update" type="core" stage="S300"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2004 Elsevier Science B.V., Amsterdam. All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">36624751</itemid>
+                    <itemid idtype="CPX">2003247501022</itemid>
+                    <itemid idtype="SCP">0038241188</itemid>
+                    <itemid idtype="SGR">0038241188</itemid>
+                </itemidlist><history>
+                    <date-created day="09" month="06" year="2003"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><abstract-language xml:lang="slv" language="Slovenian"/><author-keywords>
+                        <author-keyword xml:lang="eng">Finite state automata</author-keyword>
+                        <author-keyword xml:lang="eng">Latch</author-keyword>
+                        <author-keyword xml:lang="eng">Long-term dependencies</author-keyword>
+                        <author-keyword xml:lang="eng">Recurrent neural networks</author-keyword>
+                        <author-keyword xml:lang="eng">Temporal processing</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Latched recurrent neural network</titletext></citation-title><author-group><author auid="6507593861" seq="1"><ce:initials>B.</ce:initials><ce:indexed-name>Ster B.</ce:indexed-name><ce:surname>Šter</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Šter B.</ce:indexed-name>
+                            <ce:surname>Šter</ce:surname>
+                            <ce:given-name>Branko</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104581078"><organization>University of Ljubljana</organization><organization>Faculty of Comp. and Info. Science</organization><organization>Lab. Adaptive Syst. Parallel Proc.</organization><address-part>Tržaška 25</address-part><city-group>Ljubljana</city-group><affiliation-id afid="60031106" dptid="104581078"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>B.</ce:initials>
+                        <ce:indexed-name>Ster B.</ce:indexed-name>
+                        <ce:surname>Šter</ce:surname>
+                    </person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Comp. and Info. Science</organization><organization>Lab. Adaptive Syst. Parallel Proc.</organization><address-part>Tržaška 25</address-part><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>An extended architecture of recurrent neural networks is proposed. It is based on ignoring unimportant input information using a register of latches as the input layer of the network. The latch is implemented with a multiplexer 2/1 whose output is differentiable with respect to all of its inputs, thus enabling the derivatives to be propagated through the network. The relevance of input vectors is learned together with the weights of the network using a gradient-based algorithm.</ce:para>
+                    </abstract></abstracts><source country="svn" srcid="16651" type="j"><sourcetitle>Elektrotehniski Vestnik/Electrotechnical Review</sourcetitle><sourcetitle-abbrev>Elektroteh Vestn Electrotech Rev</sourcetitle-abbrev><issn>00135852</issn><codencode>ELVEA</codencode><volisspag>
+                        <voliss issue="1-2" volume="70"/>
+                        <pagerange first="46" last="51"/>
+                    </volisspag><publicationyear first="2003"/><publicationdate>
+                        <year>2003</year>
+                    <date-text xfab-added="true">2003</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>713.4</classification>
+                            <classification>716.1</classification>
+                            <classification>723.4</classification>
+                            <classification>723.5</classification>
+                            <classification>921.1</classification>
+                            <classification>921.6</classification>
+                        </classifications><classifications type="SUBJECT">
+                            <classification>Engineering and Technology</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="7">
+                    <reference id="73157571">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Finite state automata and simple recurrent networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000111307</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Cleeremans A.</ce:indexed-name>
+                                    <ce:surname>Cleeremans</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Servan-Schreiber D.</ce:indexed-name>
+                                    <ce:surname>Servan-Schreiber</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>McClelland J.L.</ce:indexed-name>
+                                    <ce:surname>McClelland</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Computation</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="1"/>
+                                <pagerange first="372" last="381"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Cleeremans, D. Servan-Schreiber, J.L. McClelland, "Finite State Automata and Simple Recurrent Networks", Neural Computation, vol. 1, no. 3, pp. 372-381, 1989.</ref-fulltext>
+                    </reference>
+                    <reference id="73157572">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On-line identification and reconstruction of finite automata with generalized recurrent neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85064187522</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Gabrijel I.</ce:indexed-name>
+                                    <ce:surname>Gabrijel</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Dobnikar A.</ce:indexed-name>
+                                    <ce:surname>Dobnikar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks</ref-sourcetitle>
+                        </ref-info>
+                        <ref-fulltext>I. Gabrijel, A. Dobnikar, "On-line Identification and Reconstruction of Finite Automata with Generalized Recurrent Neural Networks", to appear in Neural Networks.</ref-fulltext>
+                    </reference>
+                    <reference id="73157573">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning long-term dependencies with gradient descent is difficult</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028392483</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Bengio Y.</ce:indexed-name>
+                                    <ce:surname>Bengio</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Simard P.</ce:indexed-name>
+                                    <ce:surname>Simard</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Frasconi P.</ce:indexed-name>
+                                    <ce:surname>Frasconi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="5"/>
+                                <pagerange first="157" last="166"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Y. Bengio, P. Simard, P. Frasconi, "Learning Long-Term Dependencies with Gradient Descent is Difficult", IEEE Transactions on Neural Networks, vol. 5, no. 2, pp. 157-166, 1994.</ref-fulltext>
+                    </reference>
+                    <reference id="73157574">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning complex, extended sequences using the principle of history compression</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001033889</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Schmidhuber J.</ce:indexed-name>
+                                    <ce:surname>Schmidhuber</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Computation</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="4"/>
+                                <pagerange first="234" last="242"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Schmidhuber, "Learning complex, extended sequences using the principle of history compression", Neural Computation, vol. 4, no. 2, pp. 234-242, 1992.</ref-fulltext>
+                    </reference>
+                    <reference id="73157575">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Long short-term memory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031573117</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hochreiter S.</ce:indexed-name>
+                                    <ce:surname>Hochreiter</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Schmidhuber J.</ce:indexed-name>
+                                    <ce:surname>Schmidhuber</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Computation</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="9"/>
+                                <pagerange first="1735" last="1780"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S. Hochreiter, J. Schmidhuber, "Long short-term memory", Neural Computation, vol. 9, no. 8, pp. 1735-1780, 1997.</ref-fulltext>
+                    </reference>
+                    <reference id="73157576">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Wavelet based denoising integrated into multilayered perceptron</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037888669</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Lotric U.</ce:indexed-name>
+                                    <ce:surname>Lotrič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                        </ref-info>
+                        <ref-fulltext>U. Lotrič, "Wavelet Based Denoising Integrated into Multilayered Perceptron", submitted to Neurocomputing, 2002.</ref-fulltext>
+                    </reference>
+                    <reference id="73157577">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A learning algorithm for continually running fully recurrent neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001202594</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.J.</ce:initials>
+                                    <ce:indexed-name>Williams R.J.</ce:indexed-name>
+                                    <ce:surname>Williams</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Zipser D.</ce:indexed-name>
+                                    <ce:surname>Zipser</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Computation</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="1"/>
+                                <pagerange first="270" last="280"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. J. Williams, D. Zipser, "A Learning Algorithm for Continually Running Fully Recurrent Neural Networks", Neural Computation, vol. 1, no. 2, pp. 270-280, 1989.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

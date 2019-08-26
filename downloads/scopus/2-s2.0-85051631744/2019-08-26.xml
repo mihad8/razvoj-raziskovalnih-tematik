@@ -1,0 +1,1065 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85051631744</prism:url><dc:identifier>SCOPUS_ID:85051631744</dc:identifier><eid>2-s2.0-85051631744</eid><pii>S1569190X18301059</pii><prism:doi>10.1016/j.simpat.2018.07.013</prism:doi><dc:title>Generating inter-dependent data streams for recommender systems</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>1</citedby-count><prism:publicationName>Simulation Modelling Practice and Theory</prism:publicationName><dc:publisher>
+                        Elsevier B.V.
+                    </dc:publisher><source-id>12189</source-id><prism:issn>1569190X</prism:issn><prism:volume>88</prism:volume><prism:startingPage>1</prism:startingPage><prism:endingPage>16</prism:endingPage><prism:pageRange>1-16</prism:pageRange><prism:coverDate>2018-11-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57193167755"><ce:initials>M.</ce:initials><ce:indexed-name>Jakomin M.</ce:indexed-name><ce:surname>Jakomin</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Jakomin M.</ce:indexed-name><ce:surname>Jakomin</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57193167755</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018</publishercopyright>
+                        <ce:para>Recommender systems are essential tools in modern e-commerce, streaming services, search engines, social networks and many other areas including the scientific community. However, lack of publicly available data hinders the development and evaluation of recommender algorithms. To address this problem, we propose a Generator of Inter-dependent Data Streams (GIDS), capable of generating multiple temporal and inter-dependent synthetic datasets of relational data. The generator is able to simulate a collection of time-changing data streams, helping to effectively evaluate a variety of recommender systems, data fusion algorithms and incremental algorithms. The evaluation using recommender and data fusion algorithms showed that our generator can successfully mimic real datasets in terms of statistical data properties, and achieved performance of recommender systems.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85051631744" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85051631744&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85051631744&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57193167755"><ce:initials>M.</ce:initials><ce:indexed-name>Jakomin M.</ce:indexed-name><ce:surname>Jakomin</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Jakomin M.</ce:indexed-name><ce:surname>Jakomin</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57193167755</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6506958162"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506958162</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="23566763400"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnić Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23566763400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Data fusion</author-keyword><author-keyword>Multiple data streams</author-keyword><author-keyword>Recommender systems</author-keyword><author-keyword>Relational data</author-keyword><author-keyword>Synthetic data generator</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Data fusion algorithm</mainterm><mainterm weight="b" candidate="n">Incremental algorithm</mainterm><mainterm weight="b" candidate="n">Multiple data streams</mainterm><mainterm weight="b" candidate="n">Performance of recommender systems</mainterm><mainterm weight="b" candidate="n">Recommender algorithms</mainterm><mainterm weight="b" candidate="n">Relational data</mainterm><mainterm weight="b" candidate="n">Scientific community</mainterm><mainterm weight="b" candidate="n">Synthetic data</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="2611" abbrev="MATH">Modeling and Simulation</subject-area><subject-area code="1708" abbrev="COMP">Hardware and Architecture</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-08-22T21:37:01.512Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="07" month="10" timestamp="2018-10-07T20:46:50.000050-04:00" year="2018"/><ait:date-sort day="01" month="11" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S1569190X18301059</ce:pii>
+                    <ce:doi>10.1016/j.simpat.2018.07.013</ce:doi>
+                    <itemid idtype="PUI">2001033913</itemid>
+                    <itemid idtype="CAR-ID">912292646</itemid>
+                    <itemid idtype="CPX">20183405720875</itemid>
+                    <itemid idtype="SCOPUS">20182482322</itemid>
+                    <itemid idtype="SCP">85051631744</itemid>
+                    <itemid idtype="SGR">85051631744</itemid>
+                </itemidlist><history>
+                    <date-created day="22" month="08" timestamp="BST 10:58:49" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Data fusion</author-keyword>
+                        <author-keyword xml:lang="eng">Multiple data streams</author-keyword>
+                        <author-keyword xml:lang="eng">Recommender systems</author-keyword>
+                        <author-keyword xml:lang="eng">Relational data</author-keyword>
+                        <author-keyword xml:lang="eng">Synthetic data generator</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Generating inter-dependent data streams for recommender systems</titletext></citation-title><author-group><author auid="57193167755" author-instance-id="S1569190X18301059-ec0b5ab80f0d44fb1cb508ecbb1e05d4" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Jakomin M.</ce:indexed-name><ce:surname>Jakomin</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Jakomin M.</ce:indexed-name>
+                            <ce:surname>Jakomin</ce:surname>
+                            <ce:given-name>Martin</ce:given-name>
+                        </preferred-name></author><author auid="6506958162" author-instance-id="S1569190X18301059-b24911bae57e1a41934e4c675864b936" orcid="0000-0003-4888-7256" seq="2" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>Tomaž</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Curk T.</ce:indexed-name>
+                            <ce:surname>Curk</ce:surname>
+                            <ce:given-name>Tomaž</ce:given-name>
+                        </preferred-name></author><author auid="23566763400" author-instance-id="S1569190X18301059-2cda7a04e9dbff425950a22d5ed69be8" seq="3" type="auth"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Bosnić Z.</ce:indexed-name>
+                            <ce:surname>Bosnić</ce:surname>
+                            <ce:given-name>Zoran</ce:given-name>
+                        </preferred-name></author><affiliation affiliation-instance-id="S1569190X18301059-2ebac2fed988a1a82802bb1317659339" afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Jakomin M.</ce:indexed-name>
+                        <ce:surname>Jakomin</ce:surname>
+                        <ce:given-name>Martin</ce:given-name>
+                    </person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018</publishercopyright>
+                        <ce:para>Recommender systems are essential tools in modern e-commerce, streaming services, search engines, social networks and many other areas including the scientific community. However, lack of publicly available data hinders the development and evaluation of recommender algorithms. To address this problem, we propose a Generator of Inter-dependent Data Streams (GIDS), capable of generating multiple temporal and inter-dependent synthetic datasets of relational data. The generator is able to simulate a collection of time-changing data streams, helping to effectively evaluate a variety of recommender systems, data fusion algorithms and incremental algorithms. The evaluation using recommender and data fusion algorithms showed that our generator can successfully mimic real datasets in terms of statistical data properties, and achieved performance of recommender systems.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="12189" type="j"><sourcetitle>Simulation Modelling Practice and Theory</sourcetitle><sourcetitle-abbrev>Simul. Model. Pract. Theory</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Simulation Modelling Practice and Theory</translated-sourcetitle><issn type="print">1569190X</issn><volisspag>
+                        <voliss volume="88"/>
+                        <pagerange first="1" last="16"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>11</month>
+                        <day>01</day>
+                        <date-text>November 2018</date-text>
+                    </publicationdate><website>
+                        <ce:e-address type="email">http://www.sciencedirect.com/science/journal/1569190X</ce:e-address>
+                    </website><publisher>
+                        <publishername>Elsevier B.V.</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>2611</classification>
+                            <classification>1708</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="29">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evaluating collaborative filtering recommender systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1145/963770.963772</itemid>
+                                <itemid idtype="FRAGMENTID">bib0001</itemid>
+                                <itemid idtype="SGR">3042697346</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Herlocker J.L.</ce:indexed-name>
+                                    <ce:surname>Herlocker</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Konstan J.A.</ce:indexed-name>
+                                    <ce:surname>Konstan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.G.</ce:initials>
+                                    <ce:indexed-name>Terveen L.G.</ce:indexed-name>
+                                    <ce:surname>Terveen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.T.</ce:initials>
+                                    <ce:indexed-name>Riedl J.T.</ce:indexed-name>
+                                    <ce:surname>Riedl</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Transactions on Information Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="22"/>
+                                <pagerange first="5" last="53"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Herlocker, J.L., Konstan, J.A., Terveen, L.G., Riedl, J.T., Evaluating collaborative filtering recommender systems. ACM Transactions on Information Systems 22:1 (2004), 5–53, 10.1145/963770.963772.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Empirical analysis of attribute-aware recommendation algorithms with variable synthetic data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1007/3-540-34416-0_29</itemid>
+                                <itemid idtype="FRAGMENTID">bib0002</itemid>
+                                <itemid idtype="SGR">34250028208</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.H.L.</ce:initials>
+                                    <ce:indexed-name>Tso K.H.L.</ce:indexed-name>
+                                    <ce:surname>Tso</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Schmidt-Thieme L.</ce:indexed-name>
+                                    <ce:surname>Schmidt-Thieme</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Science and Classification</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="271" last="278"/>
+                            </ref-volisspag>
+                            <ref-text>Springer Berlin Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Tso, K.H.L., Schmidt-Thieme, L., Empirical analysis of attribute-aware recommendation algorithms with variable synthetic data. Data Science and Classification, 2006, Springer Berlin Heidelberg, 271–278, 10.1007/3-540-34416-0_29.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast algorithms for mining association rules in large databases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0003</itemid>
+                                <itemid idtype="SGR">0001882616</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Agrawal R.</ce:indexed-name>
+                                    <ce:surname>Agrawal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Srikant R.</ce:indexed-name>
+                                    <ce:surname>Srikant</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 20th International Conference on Very Large Databases, VLDB</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss volume="156"/>
+                                <pagerange first="487" last="499"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Agrawal, R., Srikant, R., Fast algorithms for mining association rules in large databases. Proceedings of the 20th International Conference on Very Large Databases, VLDB, 15(6), 1994, 487–499.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quickly generating billion-record synthetic databases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1145/191843.191886</itemid>
+                                <itemid idtype="FRAGMENTID">bib0004</itemid>
+                                <itemid idtype="SGR">0028447111</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gray J.</ce:indexed-name>
+                                    <ce:surname>Gray</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Sundaresan P.</ce:indexed-name>
+                                    <ce:surname>Sundaresan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Englert S.</ce:indexed-name>
+                                    <ce:surname>Englert</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Baclawski K.</ce:indexed-name>
+                                    <ce:surname>Baclawski</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.J.</ce:initials>
+                                    <ce:indexed-name>Weinberger P.J.</ce:indexed-name>
+                                    <ce:surname>Weinberger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM SIGMOD Rec.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="23"/>
+                                <pagerange first="243" last="252"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Gray, J., Sundaresan, P., Englert, S., Baclawski, K., Weinberger, P.J., Quickly generating billion-record synthetic databases. ACM SIGMOD Rec. 23:2 (1994), 243–252, 10.1145/191843.191886.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Synthetic Data Generator for Clustering and Outlier Analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.7939/R3B23S</itemid>
+                                <itemid idtype="FRAGMENTID">bib0005</itemid>
+                                <itemid idtype="SGR">85051627156</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Pei Y.</ce:indexed-name>
+                                    <ce:surname>Pei</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Zaiane O.</ce:indexed-name>
+                                    <ce:surname>Zaïane</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Technical Report</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                        </ref-info>
+                        <ref-fulltext>Pei, Y., Zaïane, O., Synthetic Data Generator for Clustering and Outlier Analysis. Technical Report, 2006, 10.7939/R3B23S.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SynTReN: a generator of synthetic gene expression data for design and analysis of structure learning algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1186/1471-2105-7-43</itemid>
+                                <itemid idtype="FRAGMENTID">bib0006</itemid>
+                                <itemid idtype="SGR">33144486498</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Van den Bulcke T.</ce:indexed-name>
+                                    <ce:surname>Van den Bulcke</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Van Leemput K.</ce:indexed-name>
+                                    <ce:surname>Van Leemput</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Naudts B.</ce:indexed-name>
+                                    <ce:surname>Naudts</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>van Remortel P.</ce:indexed-name>
+                                    <ce:surname>van Remortel</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ma H.</ce:indexed-name>
+                                    <ce:surname>Ma</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Verschoren A.</ce:indexed-name>
+                                    <ce:surname>Verschoren</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>de Moor B.</ce:indexed-name>
+                                    <ce:surname>de Moor</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Marchal K.</ce:indexed-name>
+                                    <ce:surname>Marchal</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BMC Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="1" last="12"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Van den Bulcke, T., Van Leemput, K., Naudts, B., van Remortel, P., Ma, H., Verschoren, A., de Moor, B., Marchal, K., SynTReN: a generator of synthetic gene expression data for design and analysis of structure learning algorithms. BMC Bioinformatics 7 (2006), 1–12, 10.1186/1471-2105-7-43.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Data generators for learning systems based on RBFnetworks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TNNLS.2015.2429711</itemid>
+                                <itemid idtype="FRAGMENTID">bib0007</itemid>
+                                <itemid idtype="SGR">84929832997</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik-Šikonja</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Neural Networks and Learning Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="27"/>
+                                <pagerange first="926" last="938"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Robnik-Šikonja, M., Data generators for learning systems based on RBFnetworks. IEEE Transactions on Neural Networks and Learning Systems 27:5 (2016), 926–938, 10.1109/TNNLS.2015.2429711.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evaluating data mining procedures: techniques for generating artificial data sets</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1016/S0950-5849(99)00021-X</itemid>
+                                <itemid idtype="FRAGMENTID">bib0008</itemid>
+                                <itemid idtype="SGR">0032665796</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.D.</ce:initials>
+                                    <ce:indexed-name>Scott P.D.</ce:indexed-name>
+                                    <ce:surname>Scott</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Wilkins E.</ce:indexed-name>
+                                    <ce:surname>Wilkins</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Information and Software Technology</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="41"/>
+                                <pagerange first="579" last="587"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Scott, P.D., Wilkins, E., Evaluating data mining procedures: techniques for generating artificial data sets. Information and Software Technology 41:9 (1999), 579–587, 10.1016/S0950-5849(99)00021-X.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Empirical analysis of attribute-aware recommender system algorithms using synthetic data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0009</itemid>
+                                <itemid idtype="SGR">58049217269</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.H.L.</ce:initials>
+                                    <ce:indexed-name>Tso K.H.L.</ce:indexed-name>
+                                    <ce:surname>Tso</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Schmidt-Thieme L.</ce:indexed-name>
+                                    <ce:surname>Schmidt-Thieme</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Computers</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="1"/>
+                                <pagerange first="18" last="29"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tso, K.H.L., Schmidt-Thieme, L., Empirical analysis of attribute-aware recommender system algorithms using synthetic data. Journal of Computers 1:4 (2006), 18–29.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Generating synthetic data for context-aware recommender systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0010</itemid>
+                                <itemid idtype="SGR">84905388737</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pasinato M.</ce:indexed-name>
+                                    <ce:surname>Pasinato</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.E.</ce:initials>
+                                    <ce:indexed-name>Mello C.E.</ce:indexed-name>
+                                    <ce:surname>Mello</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.-A.</ce:initials>
+                                    <ce:indexed-name>Aufaure M.-A.</ce:indexed-name>
+                                    <ce:surname>Aufaure</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Zimbrao G.</ce:indexed-name>
+                                    <ce:surname>Zimbrao</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computational Intelligence and 11th Brazilian Congress on Computational Intelligence (BRICS-CCI &amp; CBIC), 2013 BRICS Congress on</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="563" last="567"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Pasinato, M., Mello, C.E., Aufaure, M.-A., Zimbrao, G., Generating synthetic data for context-aware recommender systems. Computational Intelligence and 11th Brazilian Congress on Computational Intelligence (BRICS-CCI &amp; CBIC), 2013 BRICS Congress on, 2013, IEEE, 563–567.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>DataGenCARS: a generator of synthetic data for the evaluation of context-aware recommendation systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0011</itemid>
+                                <itemid idtype="SGR">85051637294</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>del Carmen Rodriguez-Hernandez M.</ce:indexed-name>
+                                    <ce:surname>del Carmen Rodríguez-Hernández</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ilarri S.</ce:indexed-name>
+                                    <ce:surname>Ilarri</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Hermoso R.</ce:indexed-name>
+                                    <ce:surname>Hermoso</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Trillo-Lado R.</ce:indexed-name>
+                                    <ce:surname>Trillo-Lado</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pervasive and Mobile Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                        </ref-info>
+                        <ref-fulltext>del Carmen Rodríguez-Hernández, M., Ilarri, S., Hermoso, R., Trillo-Lado, R., DataGenCARS: a generator of synthetic data for the evaluation of context-aware recommendation systems. Pervasive and Mobile Computing, 2016.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Context-aware recommender systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1007/978-1-4899-7637-6_6</itemid>
+                                <itemid idtype="FRAGMENTID">bib0012</itemid>
+                                <itemid idtype="SGR">84956723884</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Adomavicius G.</ce:indexed-name>
+                                    <ce:surname>Adomavicius</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Tuzhilin A.</ce:indexed-name>
+                                    <ce:surname>Tuzhilin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Recommender Systems Handbook</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="191" last="226"/>
+                            </ref-volisspag>
+                            <ref-text>Springer US Boston, MA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Adomavicius, G., Tuzhilin, A., Context-aware recommender systems. Recommender Systems Handbook, 2015, Springer US, Boston, MA, 191–226, 10.1007/978-1-4899-7637-6_6.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Synthetic sequence generator for recommender systems - memory biased random walk on sequence multilayer network</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1007/978-3-319-11812-3_3</itemid>
+                                <itemid idtype="FRAGMENTID">bib0013</itemid>
+                                <itemid idtype="SGR">84908673755</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Antulov-Fantulin N.</ce:indexed-name>
+                                    <ce:surname>Antulov-Fantulin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bosnjak M.</ce:indexed-name>
+                                    <ce:surname>Bosnjak</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Zlatic V.</ce:indexed-name>
+                                    <ce:surname>Zlatic</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grcar M.</ce:indexed-name>
+                                    <ce:surname>Grcar</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Smuc T.</ce:indexed-name>
+                                    <ce:surname>Smuc</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="8777"/>
+                                <pagerange first="25" last="36"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Antulov-Fantulin, N., Bosnjak, M., Zlatic, V., Grcar, M., Smuc, T., Synthetic sequence generator for recommender systems - memory biased random walk on sequence multilayer network. Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 8777, 2012, 25–36, 10.1007/978-3-319-11812-3_3.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SenseGen: a deep learning architecture for synthetic sensor data generation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/PERCOMW.2017.7917555</itemid>
+                                <itemid idtype="FRAGMENTID">bib0014</itemid>
+                                <itemid idtype="SGR">85020119926</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Alzantot M.</ce:indexed-name>
+                                    <ce:surname>Alzantot</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chakraborty S.</ce:indexed-name>
+                                    <ce:surname>Chakraborty</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Srivastava M.B.</ce:indexed-name>
+                                    <ce:surname>Srivastava</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the First International Conference on. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="66" last="73"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Alzantot, M., Chakraborty, S., Srivastava, M.B., SenseGen: a deep learning architecture for synthetic sensor data generation. Proceedings of the First International Conference on. IEEE, 2017, 66–73, 10.1109/PERCOMW.2017.7917555.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>First and second order Markov chain models for synthetic generation of wind speed time series</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1016/j.energy.2004.05.026</itemid>
+                                <itemid idtype="FRAGMENTID">bib0015</itemid>
+                                <itemid idtype="SGR">4644313517</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Shamshad A.</ce:indexed-name>
+                                    <ce:surname>Shamshad</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.A.</ce:initials>
+                                    <ce:indexed-name>Bawadi M.A.</ce:indexed-name>
+                                    <ce:surname>Bawadi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.M.</ce:initials>
+                                    <ce:indexed-name>Wan Hussin W.M.</ce:indexed-name>
+                                    <ce:surname>Wan Hussin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.A.</ce:initials>
+                                    <ce:indexed-name>Majid T.A.</ce:indexed-name>
+                                    <ce:surname>Majid</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Sanusi S.A.</ce:indexed-name>
+                                    <ce:surname>Sanusi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Energy</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="30"/>
+                                <pagerange first="693" last="708"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shamshad, A., Bawadi, M.A., Wan Hussin, W.M., Majid, T.A., Sanusi, S.A., First and second order Markov chain models for synthetic generation of wind speed time series. Energy 30:5 (2005), 693–708, 10.1016/j.energy.2004.05.026.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0016</itemid>
+                                <itemid idtype="SGR">85051640348</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Fanaee-T H.</ce:indexed-name>
+                                    <ce:surname>Fanaee-T</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Gama J.</ce:indexed-name>
+                                    <ce:surname>Gama</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-text>SimTensor: A Synthetic Tensor Data Generator (2016), arXiv:1612.03772.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>H. Fanaee-T, J. Gama, SimTensor: A Synthetic Tensor Data Generator (2016), arXiv:1612.03772.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A streaming ensemble algorithm (SEA) for large-scale classification</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0017</itemid>
+                                <itemid idtype="SGR">0035788947</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.N.</ce:initials>
+                                    <ce:indexed-name>Street W.N.</ce:indexed-name>
+                                    <ce:surname>Street</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Kim Y.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="377" last="382"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Street, W.N., Kim, Y., A streaming ensemble algorithm (SEA) for large-scale classification. Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2001, ACM, 377–382.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Incremental learning from noisy data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0018</itemid>
+                                <itemid idtype="SGR">0010012318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.C.</ce:initials>
+                                    <ce:indexed-name>Schlimmer J.C.</ce:indexed-name>
+                                    <ce:surname>Schlimmer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.H.</ce:initials>
+                                    <ce:indexed-name>Granger R.H.</ce:indexed-name>
+                                    <ce:surname>Granger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="1"/>
+                                <pagerange first="317" last="354"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Schlimmer, J.C., Granger, R.H., Incremental learning from noisy data. Machine Learning 1:3 (1986), 317–354.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The movielens datasets: history and context</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1145/2827872</itemid>
+                                <itemid idtype="FRAGMENTID">bib0019</itemid>
+                                <itemid idtype="SGR">84966800432</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.M.</ce:initials>
+                                    <ce:indexed-name>Harper F.M.</ce:indexed-name>
+                                    <ce:surname>Harper</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Konstan J.A.</ce:indexed-name>
+                                    <ce:surname>Konstan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans. Interact. Intell. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="5"/>
+                                <pagerange first="191" last="19:19"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Harper, F.M., Konstan, J.A., The movielens datasets: history and context. ACM Trans. Interact. Intell. Syst. 5:4 (2015), 19:1–19:19, 10.1145/2827872.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Spectral biclustering of microarray data: coclustering genes and conditions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0020</itemid>
+                                <itemid idtype="SGR">0037399130</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Kluger Y.</ce:indexed-name>
+                                    <ce:surname>Kluger</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Basri R.</ce:indexed-name>
+                                    <ce:surname>Basri</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.T.</ce:initials>
+                                    <ce:indexed-name>Chang J.T.</ce:indexed-name>
+                                    <ce:surname>Chang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gerstein M.</ce:indexed-name>
+                                    <ce:surname>Gerstein</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Research</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="13"/>
+                                <pagerange first="703" last="716"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kluger, Y., Basri, R., Chang, J.T., Gerstein, M., Spectral biclustering of microarray data: coclustering genes and conditions. Genome Research 13:4 (2003), 703–716.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0021</itemid>
+                                <itemid idtype="SGR">85051649652</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Funk S.</ce:indexed-name>
+                                    <ce:surname>Funk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-website>
+                                <ce:e-address type="email">http://sifter.org/~simon/journal/20061211.html</ce:e-address>
+                            </ref-website>
+                            <ref-text>Netflix Update: Try This at Home (2006)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Funk, Netflix Update: Try This at Home (2006), http://sifter.org/~simon/journal/20061211.html.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online-updating regularized kernel matrix factorization models for large-scale recommender systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1145/1454008.1454047</itemid>
+                                <itemid idtype="FRAGMENTID">bib0022</itemid>
+                                <itemid idtype="SGR">63449105336</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Rendle S.</ce:indexed-name>
+                                    <ce:surname>Rendle</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Schmidt-Thieme L.</ce:indexed-name>
+                                    <ce:surname>Schmidt-Thieme</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2008 ACM Conference on Recommender Systems (RecSys ’08)</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="251" last="258"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rendle, S., Schmidt-Thieme, L., Online-updating regularized kernel matrix factorization models for large-scale recommender systems. Proceedings of the 2008 ACM Conference on Recommender Systems (RecSys ’08), 2008, 251–258, 10.1145/1454008.1454047.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An efficient non-negative matrix-factorization-based approach to collaborative filtering for recommender systems</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TII.2014.2308433</itemid>
+                                <itemid idtype="FRAGMENTID">bib0023</itemid>
+                                <itemid idtype="SGR">84900836031</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Luo X.</ce:indexed-name>
+                                    <ce:surname>Luo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zhou M.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Xia Y.</ce:indexed-name>
+                                    <ce:surname>Xia</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Zhu Q.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Industrial Informatics</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="10"/>
+                                <pagerange first="1273" last="1284"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Luo, X., Zhou, M., Xia, Y., Zhu, Q., An efficient non-negative matrix-factorization-based approach to collaborative filtering for recommender systems. IEEE Transactions on Industrial Informatics 10:2 (2014), 1273–1284, 10.1109/TII.2014.2308433.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Algorithms for non-negative matrix factorization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0024</itemid>
+                                <itemid idtype="SGR">84898964201</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.D.</ce:initials>
+                                    <ce:indexed-name>Lee D.D.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.S.</ce:initials>
+                                    <ce:indexed-name>Seung H.S.</ce:indexed-name>
+                                    <ce:surname>Seung</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advances in Neural Information Processing Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="1"/>
+                                <pagerange first="556" last="562"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lee, D.D., Seung, H.S., Algorithms for non-negative matrix factorization. Advances in Neural Information Processing Systems(1), 2001, 556–562.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Probabilistic matrix factorization.</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0025</itemid>
+                                <itemid idtype="SGR">48349135120</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Salakhutdinov R.</ce:indexed-name>
+                                    <ce:surname>Salakhutdinov</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mnih A.</ce:indexed-name>
+                                    <ce:surname>Mnih</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Advances in Neural Information Processing Systems 20 (NIPS 07)</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="1257" last="1264"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Salakhutdinov, R., Mnih, A., Probabilistic matrix factorization. Proc. Advances in Neural Information Processing Systems 20 (NIPS 07), 2007, 1257–1264.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Time weight collaborative filtering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1145/1099554.1099689</itemid>
+                                <itemid idtype="FRAGMENTID">bib0026</itemid>
+                                <itemid idtype="SGR">33745798477</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Ding Y.</ce:indexed-name>
+                                    <ce:surname>Ding</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Li X.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 14th ACM International Conference on Information and Knowledge Management - CIKM ’05</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="485"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ding, Y., Li, X., Time weight collaborative filtering. Proceedings of the 14th ACM International Conference on Information and Knowledge Management - CIKM ’05, 2005, 485, 10.1145/1099554.1099689.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Data fusion by matrix factorization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1109/TPAMI.2014.2343973</itemid>
+                                <itemid idtype="FRAGMENTID">bib0027</itemid>
+                                <itemid idtype="SGR">84916887227</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zitnik M.</ce:indexed-name>
+                                    <ce:surname>Žitnik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="37"/>
+                                <pagerange first="41" last="53"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Žitnik, M., Zupan, B., Data fusion by matrix factorization. IEEE Transactions on Pattern Analysis and Machine Intelligence 37:1 (2015), 41–53, 10.1109/TPAMI.2014.2343973.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cross-domain mediation in collaborative filtering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1007/978-3-540-73078-1</itemid>
+                                <itemid idtype="FRAGMENTID">bib0028</itemid>
+                                <itemid idtype="SGR">37249090723</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Berkovsky S.</ce:indexed-name>
+                                    <ce:surname>Berkovsky</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Kuflik T.</ce:indexed-name>
+                                    <ce:surname>Kuflik</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Ricci F.</ce:indexed-name>
+                                    <ce:surname>Ricci</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>User Modelling</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="July" volume="4511"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Berkovsky, S., Kuflik, T., Ricci, F., Cross-domain mediation in collaborative filtering. User Modelling, 4511(July), 2007, 10.1007/978-3-540-73078-1.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Time-aware recommender systems: a comprehensive survey and analysis of existing evaluation protocols</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1007/s11257-012-9136-x</itemid>
+                                <itemid idtype="FRAGMENTID">bib0029</itemid>
+                                <itemid idtype="SGR">84894047367</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Campos P.G.</ce:indexed-name>
+                                    <ce:surname>Campos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Diez F.</ce:indexed-name>
+                                    <ce:surname>Díez</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Cantador I.</ce:indexed-name>
+                                    <ce:surname>Cantador</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>User Modeling and User-Adapted Interaction</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="24"/>
+                                <pagerange first="67" last="119"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Campos, P.G., Díez, F., Cantador, I., Time-aware recommender systems: a comprehensive survey and analysis of existing evaluation protocols. User Modeling and User-Adapted Interaction 24:1–2 (2014), 67–119, 10.1007/s11257-012-9136-x.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

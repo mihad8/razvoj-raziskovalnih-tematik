@@ -1,0 +1,1322 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84962119279</prism:url><dc:identifier>SCOPUS_ID:84962119279</dc:identifier><eid>2-s2.0-84962119279</eid><prism:doi>10.1109/JSEN.2016.2514704</prism:doi><article-number>7372388</article-number><dc:title>Continuously adaptive data fusion and model relearning for particle filter tracking with multiple features</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>12</citedby-count><prism:publicationName>IEEE Sensors Journal</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>15047</source-id><prism:issn>1530437X</prism:issn><prism:volume>16</prism:volume><prism:issueIdentifier>8</prism:issueIdentifier><prism:startingPage>2639</prism:startingPage><prism:endingPage>2649</prism:endingPage><prism:pageRange>2639-2649</prism:pageRange><prism:coverDate>2016-04-15</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="54957155600"><ce:initials>J.</ce:initials><ce:indexed-name>Xiao J.</ce:indexed-name><ce:degrees>PhD</ce:degrees><ce:surname>Xiao</ce:surname><ce:given-name>Jingjing</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Xiao J.</ce:indexed-name><ce:surname>Xiao</ce:surname><ce:given-name>Jingjing</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54957155600</author-url><affiliation id="60019702" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019702"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2016 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.</publishercopyright>
+                        <ce:para>This paper presents a new method for object tracking in a camera sensor with particle filters. The method enables multiple target and background models, arbitrarily spanning many features or imaging modalities, to be adaptively fused to provide optimal discriminating ability against changing backgrounds, which may present varying degrees of clutter and camouflage for different kinds of features at different times. Furthermore, we show how to continuously and robustly relearn all models for all feature modalities online during tracking and for targets whose appearance may be continually changing. Both the data fusion weightings and model relearning parameters are robustly adapted at each frame, by extracting contextual information to inform the saliency assessments of each part of each model. In addition, we propose a two-step estimation method for improving robustness, by preventing excessive drifting of particles during tracking past challenging, cluttered background scenes. We demonstrate the method by implementing a version of the tracker, which combines both shape and color models, and testing it on a publicly available benchmark data set. Results suggest that the proposed method outperforms a number of wellknown state-of-the-art trackers from the literature.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84962119279" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84962119279&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84962119279&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60019702" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019702"><affilname>University of Birmingham</affilname><affiliation-city>Birmingham</affiliation-city><affiliation-country>United Kingdom</affiliation-country></affiliation><authors><author seq="1" auid="54957155600"><ce:initials>J.</ce:initials><ce:indexed-name>Xiao J.</ce:indexed-name><ce:degrees>PhD</ce:degrees><ce:surname>Xiao</ce:surname><ce:given-name>Jingjing</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Xiao J.</ce:indexed-name><ce:surname>Xiao</ce:surname><ce:given-name>Jingjing</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/54957155600</author-url><affiliation id="60019702" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019702"/></author><author seq="2" auid="16025500800"><ce:initials>R.</ce:initials><ce:indexed-name>Stolkin R.</ce:indexed-name><ce:degrees>PhD</ce:degrees><ce:surname>Stolkin</ce:surname><ce:given-name>Rustam</ce:given-name><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Stolkin R.</ce:indexed-name><ce:surname>Stolkin</ce:surname><ce:given-name>Rustam</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/16025500800</author-url><affiliation id="60019702" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019702"/></author><author seq="3" auid="55587723600"><ce:initials>M.</ce:initials><ce:indexed-name>Oussalah M.</ce:indexed-name><ce:degrees>MSc PhD</ce:degrees><ce:surname>Oussalah</ce:surname><ce:given-name>Mourad</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Oussalah M.</ce:indexed-name><ce:surname>Oussalah</ce:surname><ce:given-name>Mourad</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55587723600</author-url><affiliation id="60019702" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019702"/></author><author seq="4" auid="7003317327"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:degrees>Prof.</ce:degrees><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60019702" href="https://api.elsevier.com/content/affiliation/affiliation_id/60019702"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Color histogram</author-keyword><author-keyword>Data fusion</author-keyword><author-keyword>HOG feature</author-keyword><author-keyword>Online model learning</author-keyword><author-keyword>Particle filter</author-keyword><author-keyword>Visual object tracking</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Color histogram</mainterm><mainterm weight="b" candidate="n">HOG feature</mainterm><mainterm weight="b" candidate="n">Online modeling</mainterm><mainterm weight="b" candidate="n">Particle filter</mainterm><mainterm weight="b" candidate="n">Visual object tracking</mainterm></idxterms><subject-areas><subject-area code="3105" abbrev="PHYS">Instrumentation</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-14T12:24:01Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>National Science Foundation</xocs:funding-agency-matched-string><xocs:funding-id>61171136</xocs:funding-id><xocs:funding-agency>National Science Foundation</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100008982</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1227603/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>European Union</xocs:funding-agency-matched-string><xocs:funding-id>H2020</xocs:funding-id><xocs:funding-id>645582</xocs:funding-id><xocs:funding-agency>European Commission</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000780</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Engineering and Physical Sciences Research Council</xocs:funding-agency-matched-string><xocs:funding-id>EP/M026477/1</xocs:funding-id><xocs:funding-agency>Engineering and Physical Sciences Research Council</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000266</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/2635167/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>Manuscript received October 9, 2015; revised December 28, 2015; accepted January 1, 2016. Date of publication January 5, 2016; date of current version February 24, 2016. This work was supported in part by the European Union through the Program Robotic Manipulation for Nuclear Sort and Segregation under Grant H2020 and Grant 645582, in part by the Engineering and Physical Sciences Research Council under Grant EP/M026477/1, and in part by the National Science Foundation, China, under Grant 61171136. The associate editor coordinating the review of this paper and approving it for publication was Prof. Jun Ohta.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="25" month="08" timestamp="2018-08-25T20:26:36.000036-04:00" year="2018"/><ait:date-sort day="15" month="04" year="2016"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2016 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/JSEN.2016.2514704</ce:doi>
+                    <itemid idtype="PUI">609304118</itemid>
+                    <itemid idtype="CAR-ID">648002776</itemid>
+                    <itemid idtype="CPX">20161402204839</itemid>
+                    <itemid idtype="REAXYSCAR">2016856251</itemid>
+                    <itemid idtype="SCP">84962119279</itemid>
+                    <itemid idtype="SGR">84962119279</itemid>
+                </itemidlist><history>
+                    <date-created day="07" month="12" timestamp="BST 14:57:29" year="2016"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Color histogram</author-keyword>
+                        <author-keyword xml:lang="eng">Data fusion</author-keyword>
+                        <author-keyword xml:lang="eng">HOG feature</author-keyword>
+                        <author-keyword xml:lang="eng">Online model learning</author-keyword>
+                        <author-keyword xml:lang="eng">Particle filter</author-keyword>
+                        <author-keyword xml:lang="eng">Visual object tracking</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Continuously adaptive data fusion and model relearning for particle filter tracking with multiple features</titletext></citation-title><author-group><author auid="54957155600" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Xiao J.</ce:indexed-name><ce:degrees>PhD</ce:degrees><ce:surname>Xiao</ce:surname><ce:given-name>Jingjing</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Xiao J.</ce:indexed-name>
+                            <ce:surname>Xiao</ce:surname>
+                            <ce:given-name>Jingjing</ce:given-name>
+                        </preferred-name></author><author auid="55587723600" date-locked="2017-04-22T01:27:59.648" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Oussalah M.</ce:indexed-name><ce:degrees>MSc PhD</ce:degrees><ce:surname>Oussalah</ce:surname><ce:given-name>Mourad</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Oussalah M.</ce:indexed-name>
+                            <ce:surname>Oussalah</ce:surname>
+                            <ce:given-name>Mourad</ce:given-name>
+                        </preferred-name></author><affiliation afid="60019702" country="gbr" dptid="110908529"><organization>School of Electronics</organization><organization>Electrical and Computer Engineering</organization><organization>University of Birmingham</organization><city>West Midlands</city><postal-code>B15 2TT</postal-code><affiliation-id afid="60019702" dptid="110908529"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="16025500800" seq="2" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Stolkin R.</ce:indexed-name><ce:degrees>PhD</ce:degrees><ce:surname>Stolkin</ce:surname><ce:given-name>Rustam</ce:given-name><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Stolkin R.</ce:indexed-name>
+                            <ce:surname>Stolkin</ce:surname>
+                            <ce:given-name>Rustam</ce:given-name>
+                        </preferred-name></author><affiliation afid="60019702" country="gbr" dptid="112697940"><organization>School of Mechanical Engineering</organization><organization>University of Birmingham</organization><city>West Midlands</city><postal-code>B15 2TT</postal-code><affiliation-id afid="60019702" dptid="112697940"/><country>United Kingdom</country></affiliation></author-group><author-group><author auid="7003317327" seq="4" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:degrees>Prof.</ce:degrees><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                            <ce:surname>Leonardis</ce:surname>
+                            <ce:given-name>Aleš</ce:given-name>
+                        </preferred-name></author><affiliation afid="60019702" country="gbr" dptid="112653071"><organization>School of Computer Science</organization><organization>University of Birmingham</organization><city>West Midlands</city><postal-code>B15 2TT</postal-code><affiliation-id afid="60019702" dptid="112653071"/><country>United Kingdom</country></affiliation></author-group><grantlist complete="y"><grant>
+                        <grant-id>EP/M026477/1</grant-id>
+                        <grant-acronym>EPSRC</grant-acronym>
+                        <grant-agency>Engineering and Physical Sciences Research Council</grant-agency>
+                    </grant><grant-text xml:lang="eng">Manuscript received October 9, 2015; revised December 28, 2015; accepted January 1, 2016. Date of publication January 5, 2016; date of current version February 24, 2016. This work was supported in part by the European Union through the Program Robotic Manipulation for Nuclear Sort and Segregation under Grant H2020 and Grant 645582, in part by the Engineering and Physical Sciences Research Council under Grant EP/M026477/1, and in part by the National Science Foundation, China, under Grant 61171136. The associate editor coordinating the review of this paper and approving it for publication was Prof. Jun Ohta.</grant-text></grantlist><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2016 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.</publishercopyright>
+                        <ce:para>This paper presents a new method for object tracking in a camera sensor with particle filters. The method enables multiple target and background models, arbitrarily spanning many features or imaging modalities, to be adaptively fused to provide optimal discriminating ability against changing backgrounds, which may present varying degrees of clutter and camouflage for different kinds of features at different times. Furthermore, we show how to continuously and robustly relearn all models for all feature modalities online during tracking and for targets whose appearance may be continually changing. Both the data fusion weightings and model relearning parameters are robustly adapted at each frame, by extracting contextual information to inform the saliency assessments of each part of each model. In addition, we propose a two-step estimation method for improving robustness, by preventing excessive drifting of particles during tracking past challenging, cluttered background scenes. We demonstrate the method by implementing a version of the tracker, which combines both shape and color models, and testing it on a publicly available benchmark data set. Results suggest that the proposed method outperforms a number of wellknown state-of-the-art trackers from the literature.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="15047" type="j"><sourcetitle>IEEE Sensors Journal</sourcetitle><sourcetitle-abbrev>IEEE Sensors J.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">IEEE Sensors Journal</translated-sourcetitle><issn type="print">1530437X</issn><volisspag>
+                        <voliss issue="8" volume="16"/>
+                        <pagerange first="2639" last="2649"/>
+                    </volisspag><article-number>7372388</article-number><publicationyear first="2016"/><publicationdate>
+                        <year>2016</year>
+                        <month>04</month>
+                        <day>15</day>
+                    <date-text xfab-added="true">15 April 2016</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361</ce:e-address>
+                    </website><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>703.2</classification-code>
+                                <classification-description>Electric Filters</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>716.1</classification-code>
+                                <classification-description>Information and Communication Theory</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>722.4</classification-code>
+                                <classification-description>Digital Computers and Systems</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.2</classification-code>
+                                <classification-description>Data Processing</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>922.2</classification-code>
+                                <classification-description>Mathematical Statistics</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>3105</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>PHYS</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="38">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On a measure of divergence between two multinomial populations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000585273</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Bhattacharyya A.</ce:indexed-name>
+                                    <ce:surname>Bhattacharyya</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sankhya¯, Indian J. Statist.</ref-sourcetitle>
+                            <ref-publicationyear first="1946"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="7"/>
+                                <pagerange first="401" last="406"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. Bhattacharyya, "On a measure of divergence between two multinomial populations", Sankhya¯, Indian J. Statist., vol. 7, no. 4, pp. 401-406, 1946.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Kernel-based object tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038633569</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Comaniciu D.</ce:indexed-name>
+                                    <ce:surname>Comaniciu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Ramesh V.</ce:indexed-name>
+                                    <ce:surname>Ramesh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Peter M.</ce:indexed-name>
+                                    <ce:surname>Peter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="25"/>
+                                <pagerange first="564" last="577"/>
+                            </ref-volisspag>
+                            <ref-text>Ma</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Comaniciu, V. Ramesh, and M. Peter, "Kernel-based object tracking", IEEE Trans. Pattern Anal. Mach. Intell., vol. 25, no. 5, pp. 564-577, Ma. 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Incremental learning for robust visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">39749173057</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Ross D.A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lim J.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.-S.</ce:initials>
+                                    <ce:indexed-name>Lin R.-S.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.-H.</ce:initials>
+                                    <ce:indexed-name>Yang M.-H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="1-3" volume="77"/>
+                                <pagerange first="125" last="141"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. A. Ross, J. Lim, R.-S. Lin, and M.-H. Yang, "Incremental learning for robust visual tracking", Int. J. Comput. Vis., vol. 77, nos. 1-3, pp. 125-141, 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time tracking of nonrigid objects using mean shift</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0033682434</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Comaniciu D.</ce:indexed-name>
+                                    <ce:surname>Comaniciu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Ramesh V.</ce:indexed-name>
+                                    <ce:surname>Ramesh</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Peter M.</ce:indexed-name>
+                                    <ce:surname>Peter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="142" last="149"/>
+                            </ref-volisspag>
+                            <ref-text>Jun.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. Comaniciu, V. Ramesh, and M. Peter, "Real-time tracking of nonrigid objects using mean shift", in Proc. IEEE CVPR, Jun. 2000, pp. 142-149.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Physical simulation for monocular 3D model based tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84871682013</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Duff D.J.</ce:indexed-name>
+                                    <ce:surname>Duff</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Morwald T.</ce:indexed-name>
+                                    <ce:surname>Morwald</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stolkin R.</ce:indexed-name>
+                                    <ce:surname>Stolkin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Wyatt J.</ce:indexed-name>
+                                    <ce:surname>Wyatt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE ICRA</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="5218" last="5225"/>
+                            </ref-volisspag>
+                            <ref-text>May</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. J. Duff, T. Morwald, R. Stolkin, and J. Wyatt, "Physical simulation for monocular 3D model based tracking", in Proc. IEEE ICRA, May 2011, pp. 5218-5225.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Adaptive multifeature tracking in a particle filtering framework</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34948822339</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Maggio E.</ce:indexed-name>
+                                    <ce:surname>Maggio</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Smerladi F.</ce:indexed-name>
+                                    <ce:surname>Smerladi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Cavallaro A.</ce:indexed-name>
+                                    <ce:surname>Cavallaro</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Circuits Syst. Video Technol.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="17"/>
+                                <pagerange first="1348" last="1359"/>
+                            </ref-volisspag>
+                            <ref-text>Oct.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>E. Maggio, F. Smerladi, and A. Cavallaro, "Adaptive multifeature tracking in a particle filtering framework", IEEE Trans. Circuits Syst. Video Technol., vol. 17, no. 10, pp. 1348-1359, Oct. 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Finding Waldo, or focus of attention using local color information</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029360182</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Ennesser F.</ce:indexed-name>
+                                    <ce:surname>Ennesser</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Medioni G.</ce:indexed-name>
+                                    <ce:surname>Medioni</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="17"/>
+                                <pagerange first="805" last="809"/>
+                            </ref-volisspag>
+                            <ref-text>Aug.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>F. Ennesser and G. Medioni, "Finding Waldo, or focus of attention using local color information", IEEE Trans. Pattern Anal. Mach. Intell., vol. 17, no. 8, pp. 805-809, Aug. 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Products of experts</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0242564704</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.E.</ce:initials>
+                                    <ce:indexed-name>Hinton G.E.</ce:indexed-name>
+                                    <ce:surname>Hinton</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 9th ICANN</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>G. E. Hinton, "Products of experts", in Proc. 9th ICANN, 1999, pp. 1-6.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computer vision face tracking for use in a perceptual user interface</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84922000549</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.R.</ce:initials>
+                                    <ce:indexed-name>Bradski G.R.</ce:indexed-name>
+                                    <ce:surname>Bradski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 4th IEEE Workshop Appl. Comput. Vis. (WACV)</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="214" last="219"/>
+                            </ref-volisspag>
+                            <ref-text>Oct.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>G. R. Bradski, "Computer vision face tracking for use in a perceptual user interface", in Proc. 4th IEEE Workshop Appl. Comput. Vis. (WACV), Oct. 1998, pp. 214-219.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online object tracking: A benchmark</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887348427</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wu Y.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lim J.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.-H.</ce:initials>
+                                    <ce:indexed-name>Yang M.-H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="2411" last="2418"/>
+                            </ref-volisspag>
+                            <ref-text>Jun.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Y. Wu, J. Lim, and M.-H. Yang, "Online object tracking: A benchmark", in Proc. CVPR, Jun. 2013, pp. 2411-2418.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust visual tracking using l<inf>1</inf> minimization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79960516021</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Mei X.</ce:indexed-name>
+                                    <ce:surname>Mei</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ling H.</ce:indexed-name>
+                                    <ce:surname>Ling</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 12th CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="1436" last="1443"/>
+                            </ref-volisspag>
+                            <ref-text>Sep./Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>X. Mei and H. Ling, "Robust visual tracking using l<inf>1</inf> minimization", in Proc. 12th CVPR, Sep./Oct. 2009, pp. 1436-1443.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Exploiting the circulant structure of tracking-by-detection with kernels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84867840191</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.F.</ce:initials>
+                                    <ce:indexed-name>Henriques J.F.</ce:indexed-name>
+                                    <ce:surname>Henriques</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Caseiro R.</ce:indexed-name>
+                                    <ce:surname>Caseiro</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Martins P.</ce:indexed-name>
+                                    <ce:surname>Martins</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Batista J.</ce:indexed-name>
+                                    <ce:surname>Batista</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ECCV</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="702" last="715"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. F. Henriques, R. Caseiro, P. Martins, and J. Batista, "Exploiting the circulant structure of tracking-by-detection with kernels", in Proc. ECCV, 2012, pp. 702-715.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An enhanced adaptive coupledlayer LGTracker<inf>++</inf>
+                                </ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897515288</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Xiao J.</ce:indexed-name>
+                                    <ce:surname>Xiao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stolkin R.</ce:indexed-name>
+                                    <ce:surname>Stolkin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ICCVW</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="137" last="144"/>
+                            </ref-volisspag>
+                            <ref-text>Dec.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Xiao, R. Stolkin, and A. Leonardis, "An enhanced adaptive coupledlayer LGTracker<inf>++</inf>", in Proc. ICCVW, Dec. 2013, pp. 137-144.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Topology-constrained layered tracking with latent flow</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898769650</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Chang J.</ce:indexed-name>
+                                    <ce:surname>Chang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.M.</ce:initials>
+                                    <ce:indexed-name>Fisher J.M.</ce:indexed-name>
+                                    <ce:surname>Fisher</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ICCV</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="161" last="168"/>
+                            </ref-volisspag>
+                            <ref-text>Dec.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Chang and J. M. Fisher, "Topology-constrained layered tracking with latent flow", in Proc. ICCV, Dec. 2013, pp. 161-168.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Transductive local exploration particle filter for object tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33847018467</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Li J.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.-S.</ce:initials>
+                                    <ce:indexed-name>Chua C.-S.</ce:indexed-name>
+                                    <ce:surname>Chua</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Vis. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="25"/>
+                                <pagerange first="544" last="552"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Li and C.-S. Chua, "Transductive local exploration particle filter for object tracking", Image Vis. Comput., vol. 25, no. 5, pp. 544-552, 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Maintaining multimodality through mixture tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0345414510</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Vermaak J.</ce:indexed-name>
+                                    <ce:surname>Vermaak</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Arnaud D.</ce:indexed-name>
+                                    <ce:surname>Arnaud</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Perez P.</ce:indexed-name>
+                                    <ce:surname>Perez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 9th ICCV</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <pagerange first="1110" last="1116"/>
+                            </ref-volisspag>
+                            <ref-text>Oct.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Vermaak, D. Arnaud, and P. Perez, "Maintaining multimodality through mixture tracking", in Proc. 9th ICCV, Oct. 2003, pp. 1110-1116.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rao-Blackwellised particle filter for color-based tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649329593</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Martinez-Del-Rincon J.</ce:indexed-name>
+                                    <ce:surname>Martínez-Del-Rincón</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Orrite C.</ce:indexed-name>
+                                    <ce:surname>Orrite</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Medrano C.</ce:indexed-name>
+                                    <ce:surname>Medrano</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognit. Lett.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="32"/>
+                                <pagerange first="210" last="220"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Martínez-Del-Rincón, C. Orrite, and C. Medrano, "Rao-Blackwellised particle filter for color-based tracking", Pattern Recognit. Lett., vol. 32, no. 2, pp. 210-220, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A color-based particle filter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0012750386</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Nummiaro K.</ce:indexed-name>
+                                    <ce:surname>Nummiaro</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Koller-Meier E.</ce:indexed-name>
+                                    <ce:surname>Koller-Meier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Van Gool L.</ce:indexed-name>
+                                    <ce:surname>Van Gool</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 1st Int. Workshop Generat.-Model-based Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="53" last="60"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Nummiaro, E. Koller-Meier, and L. Van Gool, "A color-based particle filter", in Proc. 1st Int. Workshop Generat.-Model-Based Vis., 2002, pp. 53-60.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897522037</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>The VOT 2013 Evaluation Kit</ref-sourcetitle>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.votchallenge.net</ce:e-address>
+                            </ref-website>
+                            <ref-text>accessed Dec. 2013</ref-text>
+                        </ref-info>
+                        <ref-fulltext>The VOT 2013 Evaluation Kit. [Online]. Available: http://www.votchallenge.net, accessed Dec. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An adaptive colorbased particle filter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037428077</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Nummiaro K.</ce:indexed-name>
+                                    <ce:surname>Nummiaro</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Koller-Meier E.</ce:indexed-name>
+                                    <ce:surname>Koller-Meier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Van Gool L.</ce:indexed-name>
+                                    <ce:surname>Van Gool</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Vis. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="21"/>
+                                <pagerange first="99" last="110"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>K. Nummiaro, E. Koller-Meier, and L. Van Gool, "An adaptive colorbased particle filter", Image Vis. Comput., vol. 21, no. 1, pp. 99-110, 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual object tracking VOT2013 challenge results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897510119</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ICCVW</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="98" last="111"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Kristan, "The visual object tracking VOT2013 challenge results", in Proc. ICCVW, 2013, pp. 98-111.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Recent advances and trends in visual tracking: A review</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80053330652</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Yang H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Zheng F.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Wang L.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Song Z.</ce:indexed-name>
+                                    <ce:surname>Song</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="74"/>
+                                <pagerange first="3823" last="3831"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Yang, F. Zheng, L. Wang, and Z. Song, "Recent advances and trends in visual tracking: A review", Neurocomputing, vol. 74, no. 8, pp. 3823-3831, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust visual tracking using an adaptive coupled-layer visual model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874519372</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Čehovin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="35"/>
+                                <pagerange first="941" last="953"/>
+                            </ref-volisspag>
+                            <ref-text>Apr.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>L. Čehovin, M. Kristan, and A. Leonardis, "Robust visual tracking using an adaptive coupled-layer visual model", IEEE Trans. Pattern Anal. Mach. Intell., vol. 35, no. 4, pp. 941-953, Apr. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Is my new tracker really better than yours?</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904674056</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Čehovin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. WACV</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="540" last="547"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>L. Čehovin, M. Kristan, and A. Leonardis, "Is my new tracker really better than yours?" in Proc. WACV, 2014, pp. 540-547.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Particle filter tracking of camouflaged targets by adaptive fusion of thermal and visible spectra camera data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887972066</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Talha M.</ce:indexed-name>
+                                    <ce:surname>Talha</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stolkin R.</ce:indexed-name>
+                                    <ce:surname>Stolkin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Sensors J.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="14"/>
+                                <pagerange first="159" last="166"/>
+                            </ref-volisspag>
+                            <ref-text>Jan.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Talha and R. Stolkin, "Particle filter tracking of camouflaged targets by adaptive fusion of thermal and visible spectra camera data", IEEE Sensors J., vol. 14, no. 1, pp. 159-166, Jan. 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CONDENSATION-Conditional density propagation for visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032136153</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Isard M.</ce:indexed-name>
+                                    <ce:surname>Isard</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Blake A.</ce:indexed-name>
+                                    <ce:surname>Blake</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="29"/>
+                                <pagerange first="5" last="28"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Isard and A. Blake, "CONDENSATION-Conditional density propagation for visual tracking", Int. J. Comput. Vis., vol. 29, no. 1, pp. 5-28, 1998.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Histograms of oriented gradients for human detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645146449</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Dalal N.</ce:indexed-name>
+                                    <ce:surname>Dalal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Triggs B.</ce:indexed-name>
+                                    <ce:surname>Triggs</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="886" last="893"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>N. Dalal and B. Triggs, "Histograms of oriented gradients for human detection", in Proc. CVPR, 2005, pp. 886-893.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Trainable classifier-fusion schemes: An application to pedestrian detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">72449198559</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.L.</ce:initials>
+                                    <ce:indexed-name>Junior O.L.</ce:indexed-name>
+                                    <ce:surname>Junior</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Delgado D.</ce:indexed-name>
+                                    <ce:surname>Delgado</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Goncalves V.</ce:indexed-name>
+                                    <ce:surname>Gonçalves</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Nunes U.</ce:indexed-name>
+                                    <ce:surname>Nunes</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 12th Int. IEEE Conf. Intell. Transp. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>Oct.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>O. L. Junior, D. Delgado, V. Gonçalves, and U. Nunes, "Trainable classifier-fusion schemes: An application to pedestrian detection", in Proc. 12th Int. IEEE Conf. Intell. Transp. Syst., Oct. 2009, pp. 1-6.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Color-based probabilistic tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84944401145</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Perez P.</ce:indexed-name>
+                                    <ce:surname>Pérez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hue C.</ce:indexed-name>
+                                    <ce:surname>Hue</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Vermaak J.</ce:indexed-name>
+                                    <ce:surname>Vermaak</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gangnet M.</ce:indexed-name>
+                                    <ce:surname>Gangnet</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ECCV</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="661" last="675"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Pérez, C. Hue, J. Vermaak, and M. Gangnet, "Color-based probabilistic tracking", in Proc. ECCV, 2002, pp. 661-675.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Data fusion for visual tracking with particles</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13344250690</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Perez P.</ce:indexed-name>
+                                    <ce:surname>Pérez</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Vermaak J.</ce:indexed-name>
+                                    <ce:surname>Vermaak</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Blake A.</ce:indexed-name>
+                                    <ce:surname>Blake</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="92"/>
+                                <pagerange first="495" last="513"/>
+                            </ref-volisspag>
+                            <ref-text>Mar.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P. Pérez, J. Vermaak, and A. Blake, "Data fusion for visual tracking with particles", Proc. IEEE, vol. 92, no. 3, pp. 495-513, Mar. 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Sequential Monte Carlo tracking by fusing multiple cues in video sequences</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34248582182</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Brasnett P.</ce:indexed-name>
+                                    <ce:surname>Brasnett</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Mihaylova L.</ce:indexed-name>
+                                    <ce:surname>Mihaylova</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Bull D.</ce:indexed-name>
+                                    <ce:surname>Bull</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Canagarajah N.</ce:indexed-name>
+                                    <ce:surname>Canagarajah</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Vis. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="25"/>
+                                <pagerange first="1217" last="1227"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>P. Brasnett, L. Mihaylova, D. Bull, and N. Canagarajah, "Sequential Monte Carlo tracking by fusing multiple cues in video sequences", Image Vis. Comput., vol. 25, no. 8, pp. 1217-1227, 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Single target tracking using adaptive clustered decision trees and dynamic multi-level appearance models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84959180787</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Xiao J.</ce:indexed-name>
+                                    <ce:surname>Xiao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stolkin R.</ce:indexed-name>
+                                    <ce:surname>Stolkin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="4978" last="4987"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Xiao, R. Stolkin, and A. Leonardis, "Single target tracking using adaptive clustered decision trees and dynamic multi-level appearance models", in Proc. CVPR, 2015, pp. 4978-4987.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online selection of discriminative tracking features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">27644528380</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.T.</ce:initials>
+                                    <ce:indexed-name>Collins R.T.</ce:indexed-name>
+                                    <ce:surname>Collins</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Liu Y.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Leordeanu M.</ce:indexed-name>
+                                    <ce:surname>Leordeanu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="27"/>
+                                <pagerange first="1631" last="1643"/>
+                            </ref-volisspag>
+                            <ref-text>Oct.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>R. T. Collins, Y. Liu, and M. Leordeanu, "Online selection of discriminative tracking features", IEEE Trans. Pattern Anal. Mach. Intell., vol. 27, no. 10, pp. 1631-1643, Oct. 2005.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An adaptive background model for CAMSHIFT tracking with a moving camera</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">47349095501</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stolkin R.</ce:indexed-name>
+                                    <ce:surname>Stolkin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Florescu I.</ce:indexed-name>
+                                    <ce:surname>Florescu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Kamberov G.</ce:indexed-name>
+                                    <ce:surname>Kamberov</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Int. Conf. Adv. Pattern Recognit.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="261" last="265"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R. Stolkin, I. Florescu, and G. Kamberov, "An adaptive background model for CAMSHIFT tracking with a moving camera", in Proc. Int. Conf. Adv. Pattern Recognit., 2007, pp. 261-265.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Video object tracking using adaptive Kalman filter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33845288662</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.-K.</ce:initials>
+                                    <ce:indexed-name>Weng S.-K.</ce:indexed-name>
+                                    <ce:surname>Weng</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.-M.</ce:initials>
+                                    <ce:indexed-name>Kuo C.-M.</ce:indexed-name>
+                                    <ce:surname>Kuo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.-K.</ce:initials>
+                                    <ce:indexed-name>Tu S.-K.</ce:indexed-name>
+                                    <ce:surname>Tu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Vis. Commun. Image Represent.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="17"/>
+                                <pagerange first="1190" last="1208"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S.-K. Weng, C.-M. Kuo, and S.-K. Tu, "Video object tracking using adaptive Kalman filter", J. Vis. Commun. Image Represent., vol. 17, no. 6, pp. 1190-1208, 2006.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Struck: Structured output tracking with kernels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84856659290</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hare S.</ce:indexed-name>
+                                    <ce:surname>Hare</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Saffari A.</ce:indexed-name>
+                                    <ce:surname>Saffari</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.H.S.</ce:initials>
+                                    <ce:indexed-name>Torr P.H.S.</ce:indexed-name>
+                                    <ce:surname>Torr</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ICCV</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="263" last="270"/>
+                            </ref-volisspag>
+                            <ref-text>Nov.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Hare, A. Saffari, and P. H. S. Torr, "Struck: Structured output tracking with kernels", in Proc. ICCV, Nov. 2011, pp. 263-270.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A two-stage dynamic model for visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649937337</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Kovacic S.</ce:indexed-name>
+                                    <ce:surname>Kovacic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Pers J.</ce:indexed-name>
+                                    <ce:surname>Pers</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Syst., Man, Cybern. B, Cybern.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="40"/>
+                                <pagerange first="1505" last="1520"/>
+                            </ref-volisspag>
+                            <ref-text>Dec.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Kristan, S. Kovacic, A. Leonardis, and J. Pers, "A two-stage dynamic model for visual tracking", IEEE Trans. Syst., Man, Cybern. B, Cybern., vol. 40, no. 6, pp. 1505-1520, Dec. 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust model adaptation for tracking with online weighted color and shape feature</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84921769063</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Xiao J.</ce:indexed-name>
+                                    <ce:surname>Xiao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Oussalah M.</ce:indexed-name>
+                                    <ce:surname>Oussalah</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 4th IEEE Int. Conf. Image Process. Theory, Tools, Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                            <ref-text>Paris, France, Oct</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Xiao and M. Oussalah, "Robust model adaptation for tracking with online weighted color and shape feature", in Proc. 4th IEEE Int. Conf. Image Process. Theory, Tools, Appl., Paris, France, Oct. 2014, pp. 1-6.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

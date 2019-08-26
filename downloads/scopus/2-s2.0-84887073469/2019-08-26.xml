@@ -1,0 +1,483 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84887073469</prism:url><dc:identifier>SCOPUS_ID:84887073469</dc:identifier><eid>2-s2.0-84887073469</eid><pubmed-id>15360922</pubmed-id><prism:doi>10.3233/978-1-60750-949-3-798</prism:doi><dc:title>Clustering gene expression data with temporal abstractions</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>Studies in Health Technology and Informatics</prism:publicationName><dc:publisher>
+                        IOS Press
+                        
+                            Nieuwe Hemweg 6B
+                            Amsterdam
+                            1013 BG
+                        
+                    </dc:publisher><source-id>19582</source-id><prism:issn>18798365 09269630</prism:issn><prism:volume>107</prism:volume><prism:startingPage>798</prism:startingPage><prism:endingPage>802</prism:endingPage><prism:pageRange>798-802</prism:pageRange><prism:coverDate>2004-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="57192331744"><ce:initials>L.</ce:initials><ce:indexed-name>Sacchi L.</ce:indexed-name><ce:surname>Sacchi</ce:surname><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Sacchi L.</ce:indexed-name><ce:surname>Sacchi</ce:surname><ce:given-name>L.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57192331744</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>This paper describes a new technique for clustering short time series comingfrom gene expression data. The technique is based on the labelling of the time series through temporal trend abstractions and a consequent clustering of the series on the basis of their labels. Clustering is performed at three different levels of aggregation of the original time series, so that the results are organized and visualized as a three-levels hierarchical tree. Results on simulated and on yeast data are shown. The technique appears robust and efficient and the results obtained are easy to be interpreted. © 2004 IMIA. All rights reserved.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84887073469" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84887073469&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84887073469&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"><affilname>Jozef Stefan Institute</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"><affilname>Università degli Studi di Pavia</affilname><affiliation-city>Pavia</affiliation-city><affiliation-country>Italy</affiliation-country></affiliation><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"><affilname>Baylor College of Medicine</affilname><affiliation-city>Houston</affiliation-city><affiliation-country>United States</affiliation-country></affiliation><authors><author seq="1" auid="57192331744"><ce:initials>L.</ce:initials><ce:indexed-name>Sacchi L.</ce:indexed-name><ce:surname>Sacchi</ce:surname><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Sacchi L.</ce:indexed-name><ce:surname>Sacchi</ce:surname><ce:given-name>L.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57192331744</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/></author><author seq="2" auid="18343389900"><ce:initials>R.</ce:initials><ce:indexed-name>Bellazzi R.</ce:indexed-name><ce:surname>Bellazzi</ce:surname><preferred-name><ce:initials>R.</ce:initials><ce:indexed-name>Bellazzi R.</ce:indexed-name><ce:surname>Bellazzi</ce:surname><ce:given-name>R.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/18343389900</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/></author><author seq="3" auid="55905658900"><ce:initials>C.</ce:initials><ce:indexed-name>Larizza C.</ce:indexed-name><ce:surname>Larizza</ce:surname><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>Larizza C.</ce:indexed-name><ce:surname>Larizza</ce:surname><ce:given-name>C.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55905658900</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/></author><author seq="4" auid="55348245700"><ce:initials>P.</ce:initials><ce:indexed-name>Magni P.</ce:indexed-name><ce:surname>Magni</ce:surname><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Magni P.</ce:indexed-name><ce:surname>Magni</ce:surname><ce:given-name>P.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55348245700</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/></author><author seq="5" auid="6506958162"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><ce:given-name>T.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506958162</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="6" auid="55917218200"><ce:initials>U.</ce:initials><ce:indexed-name>Petrovic U.</ce:indexed-name><ce:surname>Petrovic</ce:surname><preferred-name><ce:initials>U.</ce:initials><ce:indexed-name>Petrovic U.</ce:indexed-name><ce:surname>Petrovic</ce:surname><ce:given-name>U.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55917218200</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="7" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>B.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60015197" href="https://api.elsevier.com/content/affiliation/affiliation_id/60015197"/><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Bioinfonnatics</author-keyword><author-keyword>cluster analysis</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Bioinfonnatics</mainterm><mainterm weight="b" candidate="n">Gene Expression Data</mainterm><mainterm weight="b" candidate="n">Hierarchical tree</mainterm><mainterm weight="b" candidate="n">Short time series</mainterm><mainterm weight="b" candidate="n">Temporal abstraction</mainterm><mainterm weight="b" candidate="n">Temporal trends</mainterm></idxterms><subject-areas><subject-area code="2204" abbrev="ENGI">Biomedical Engineering</subject-area><subject-area code="2718" abbrev="MEDI">Health Informatics</subject-area><subject-area code="3605" abbrev="HEAL">Health Information Management</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="20" month="01" timestamp="2019-01-20T20:58:00.000000-05:00" year="2019"/><ait:date-sort day="01" month="01" year="2004"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2019 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.3233/978-1-60750-949-3-798</ce:doi>
+                    <itemid idtype="PUI">370182788</itemid>
+                    <itemid idtype="CAR-ID">334797648</itemid>
+                    <itemid idtype="CPX">20184706095604</itemid>
+                    <itemid idtype="MEDL">15360922</itemid>
+                    <itemid idtype="NURSNG">2013310734</itemid>
+                    <itemid idtype="SCOPUS">20183499584</itemid>
+                    <itemid idtype="SNEMB">2013127252</itemid>
+                    <itemid idtype="SCP">84887073469</itemid>
+                    <itemid idtype="SGR">84887073469</itemid>
+                </itemidlist><history>
+                    <date-created day="27" month="12" timestamp="BST 07:16:28" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>NURSNG</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>SNEMB</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Bioinfonnatics</author-keyword>
+                        <author-keyword xml:lang="eng">cluster analysis</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Clustering gene expression data with temporal abstractions</titletext></citation-title><author-group><author auid="57192331744" seq="1" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Sacchi L.</ce:indexed-name><ce:surname>Sacchi</ce:surname><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Sacchi L.</ce:indexed-name>
+                            <ce:surname>Sacchi</ce:surname>
+                            <ce:given-name>L.</ce:given-name>
+                        </preferred-name></author><author auid="18343389900" seq="2" type="auth"><ce:initials>R.</ce:initials><ce:indexed-name>Bellazzi R.</ce:indexed-name><ce:surname>Bellazzi</ce:surname><preferred-name>
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Bellazzi R.</ce:indexed-name>
+                            <ce:surname>Bellazzi</ce:surname>
+                            <ce:given-name>R.</ce:given-name>
+                        </preferred-name></author><author auid="55905658900" seq="3" type="auth"><ce:initials>C.</ce:initials><ce:indexed-name>Larizza C.</ce:indexed-name><ce:surname>Larizza</ce:surname><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Larizza C.</ce:indexed-name>
+                            <ce:surname>Larizza</ce:surname>
+                            <ce:given-name>C.</ce:given-name>
+                        </preferred-name></author><author auid="55348245700" seq="4" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Magni P.</ce:indexed-name><ce:surname>Magni</ce:surname><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Magni P.</ce:indexed-name>
+                            <ce:surname>Magni</ce:surname>
+                            <ce:given-name>P.</ce:given-name>
+                        </preferred-name></author><author auid="7003934784" seq="7" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Zupan B.</ce:indexed-name>
+                            <ce:surname>Zupan</ce:surname>
+                            <ce:given-name>B.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60015197" country="ita" dptid="103783962"><organization>Dipartimento di Informatica e Sistemistica</organization><organization>Università di Pavia</organization><affiliation-id afid="60015197" dptid="103783962"/><country>Italy</country></affiliation></author-group><author-group><author auid="6506958162" date-locked="2018-10-19T10:07:04.263" seq="5" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Curk T.</ce:indexed-name><ce:surname>Curk</ce:surname><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Curk T.</ce:indexed-name>
+                            <ce:surname>Curk</ce:surname>
+                            <ce:given-name>T.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580715"><organization>Department of Computer Science</organization><organization>University of Ljubljana</organization><affiliation-id afid="60031106" dptid="104580715"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55917218200" seq="6" type="auth"><ce:initials>U.</ce:initials><ce:indexed-name>Petrovic U.</ce:indexed-name><ce:surname>Petrovic</ce:surname><preferred-name>
+                            <ce:initials>U.</ce:initials>
+                            <ce:indexed-name>Petrovic U.</ce:indexed-name>
+                            <ce:surname>Petrovic</ce:surname>
+                            <ce:given-name>U.</ce:given-name>
+                        </preferred-name></author><author auid="7003934784" seq="7" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Zupan B.</ce:indexed-name>
+                            <ce:surname>Zupan</ce:surname>
+                            <ce:given-name>B.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60023955" country="svn"><organization>J. Stefan Institute</organization><city-group>Ljubljana</city-group><affiliation-id afid="60023955"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="7003934784" seq="7" type="auth"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Zupan B.</ce:indexed-name>
+                            <ce:surname>Zupan</ce:surname>
+                            <ce:given-name>B.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60002441" country="usa" dptid="110756676"><organization>Department of Human and Molecular Genetics</organization><organization>Baylor College of Medicine</organization><city-group>Houston</city-group><affiliation-id afid="60002441" dptid="110756676"/><country>United States</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>L.</ce:initials>
+                        <ce:indexed-name>Sacchi L.</ce:indexed-name>
+                        <ce:surname>Sacchi</ce:surname>
+                    </person><affiliation country="ita"><organization>Dipartimento di Informatica e Sistemistica</organization><organization>Università di Pavia</organization><country>Italy</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>This paper describes a new technique for clustering short time series comingfrom gene expression data. The technique is based on the labelling of the time series through temporal trend abstractions and a consequent clustering of the series on the basis of their labels. Clustering is performed at three different levels of aggregation of the original time series, so that the results are organized and visualized as a three-levels hierarchical tree. Results on simulated and on yeast data are shown. The technique appears robust and efficient and the results obtained are easy to be interpreted. © 2004 IMIA. All rights reserved.</ce:para>
+                    </abstract></abstracts><source country="nld" srcid="19582" type="k"><sourcetitle>Studies in Health Technology and Informatics</sourcetitle><sourcetitle-abbrev>Stud. Health Technol. Informatics</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Studies in Health Technology and Informatics</translated-sourcetitle><issn type="electronic">18798365</issn><issn type="print">09269630</issn><volisspag>
+                        <voliss volume="107"/>
+                        <pagerange first="798" last="802"/>
+                    </volisspag><publicationyear first="2004"/><publicationdate>
+                        <year>2004</year>
+                    <date-text xfab-added="true">2004</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.iospress.nl/bookserie/studies-in-health-technology-and-informatics/</ce:e-address>
+                    </website><publisher>
+                        <publishername>IOS Press</publishername>
+                        <affiliation country="nld">
+                            <address-part>Nieuwe Hemweg 6B</address-part>
+                            <city>Amsterdam</city>
+                            <postal-code>1013 BG</postal-code>
+                        </affiliation>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>461.9</classification-code>
+                                <classification-description>Biology</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>903.1</classification-code>
+                                <classification-description>Information Sources and Analysis</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>922.2</classification-code>
+                                <classification-description>Mathematical Statistics</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2204</classification>
+                            <classification>2718</classification>
+                            <classification>3605</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ENGI</classification><classification>MEDI</classification><classification>HEAL</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="10">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cluster analysis and display of genome-wide expression patterns</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032441150</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Eisen M.</ce:indexed-name>
+                                    <ce:surname>Eisen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.T.</ce:initials>
+                                    <ce:indexed-name>Spellman P.T.</ce:indexed-name>
+                                    <ce:surname>Spellman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Botstein D.</ce:indexed-name>
+                                    <ce:surname>Botstein</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.O.</ce:initials>
+                                    <ce:indexed-name>Brown P.O.</ce:indexed-name>
+                                    <ce:surname>Brown</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc Natl Acad Sci USA.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="25" volume="95"/>
+                                <pagerange first="14863" last="14868"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Eisen M, Spellman PT, Botstein D, and Brown PO, Cluster analysis and display of genome-wide expression patterns. Proc Natl Acad Sci USA. 1998, 95(25): 14863-8.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Bayesian clustering by dynamics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0036532775</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ramoni M.</ce:indexed-name>
+                                    <ce:surname>Ramoni</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Sebastiani P.</ce:indexed-name>
+                                    <ce:surname>Sebastiani</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Cohen P.</ce:indexed-name>
+                                    <ce:surname>Cohen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="47"/>
+                                <pagerange first="91" last="121"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ramoni M, Sebastiani P, and Cohen P. Bayesian clustering by dynamics. Machine Learning, 2002, 47: 91-121.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards knowledge discovery from cdna microarray gene expression data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33044506044</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Komorowski J.</ce:indexed-name>
+                                    <ce:surname>Komorowski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.R.</ce:initials>
+                                    <ce:indexed-name>Hvidsten T.R.</ce:indexed-name>
+                                    <ce:surname>Hvidsten</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.K.</ce:initials>
+                                    <ce:indexed-name>Jenssen T.K.</ce:indexed-name>
+                                    <ce:surname>Jenssen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Tjeldvoll D.</ce:indexed-name>
+                                    <ce:surname>Tjeldvoll</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Hovig E.</ce:indexed-name>
+                                    <ce:surname>Hovig</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>A.K.</ce:initials>
+                                    <ce:indexed-name>Sandvik A.K.</ce:indexed-name>
+                                    <ce:surname>Sandvik</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Laegreid A.</ce:indexed-name>
+                                    <ce:surname>Laegreid</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PKDD 2000, LNAI1910</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <pagerange first="470" last="475"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Komorowski J, Hvidsten TR, Jenssen TK, Tjeldvoll D, Hovig E, Sandvik AK, and Laegreid A. Towards Knowledge Discovery from cDNA Microarray Gene Expression Data. PKDD 2000, LNAI1910, 2000, 470-475.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predicting gene function from gene expressions and ontologies</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035229817</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.R.</ce:initials>
+                                    <ce:indexed-name>Hvidsten T.R.</ce:indexed-name>
+                                    <ce:surname>Hvidsten</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Komorowski J.</ce:indexed-name>
+                                    <ce:surname>Komorowski</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.K.</ce:initials>
+                                    <ce:indexed-name>Sandvik A.K.</ce:indexed-name>
+                                    <ce:surname>Sandvik</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Laegreid A.</ce:indexed-name>
+                                    <ce:surname>Laegreid</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Pacific Symposium on Bio-computing (PSB)</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="299" last="310"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hvidsten TR, Komorowski J,. Sandvik AK, and Laegreid A. Predicting Gene Function from Gene Expressions and Ontologies. Proceedings of The Pacific Symposium on Bio-computing (PSB), 6: 299-310, 2001.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning rule-based models of biological process from gene expression time profiles using gene ontology</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0038729567</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.R.</ce:initials>
+                                    <ce:indexed-name>Hvidsten T.R.</ce:indexed-name>
+                                    <ce:surname>Hvidsten</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Laegreid A.</ce:indexed-name>
+                                    <ce:surname>Laegreid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Komorowski J.</ce:indexed-name>
+                                    <ce:surname>Komorowski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="19"/>
+                                <pagerange first="1116" last="1123"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hvidsten TR, Laegreid A, and Komorowski J. Learning rule-based models of biological process from gene expression time profiles using Gene Ontology. Bioinformatics 2003, 19:1116-1123.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A framework for knowledge-based temporal abstraction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031069719</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Shahar Y.</ce:indexed-name>
+                                    <ce:surname>Shahar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="90"/>
+                                <pagerange first="79" last="133"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Shahar Y. A Framework for Knowledge-Based Temporal Abstraction. Artificial Intelligence 1997, 90 (1-2):79-133.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Temporal abstractions for interpreting diabetic patients monitoring data</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84883658864</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Bellazzi R.</ce:indexed-name>
+                                    <ce:surname>Bellazzi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Larizza C.</ce:indexed-name>
+                                    <ce:surname>Larizza</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Riva A.</ce:indexed-name>
+                                    <ce:surname>Riva</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Intelligent Data Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                                <pagerange first="97" last="122"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bellazzi R., Larizza C, and Riva A. Temporal Abstractions for Interpreting Diabetic patients monitoring data. Intelligent Data Analysis, 1998, 2: 97-122.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A simple algorithm for efficient piecewise linear approximation of space curves</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031353997</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Horst J.A.</ce:indexed-name>
+                                    <ce:surname>Horst</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Beichl I.</ce:indexed-name>
+                                    <ce:surname>Beichl</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Conference on Image Processing (ICIP '97)</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="744" last="747"/>
+                            </ref-volisspag>
+                            <ref-text>2 October 26-29 WA, DC</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Horst JA, and Beichl I. A Simple Algorithm for Efficient Piecewise Linear Approximation of Space Curves. International Conference on Image Processing (ICIP '97) 3-Vol. 2 October 26-29, 1997 WA, DC, 744-747.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Improved heterogeneous distance functions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001899045</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.R.</ce:initials>
+                                    <ce:indexed-name>Wilson D.R.</ce:indexed-name>
+                                    <ce:surname>Wilson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.R.</ce:initials>
+                                    <ce:indexed-name>Martinez T.R.</ce:indexed-name>
+                                    <ce:surname>Martinez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Artificial Intelligence Research</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss volume="6"/>
+                                <pagerange first="1" last="34"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wilson DR, and Martinez TR, Improved Heterogeneous Distance Functions. Journal of Artificial Intelligence Research, 1997, 6:1-34.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The transcriptional program of sporulation in budding yeast</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032561246</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Chu S.</ce:indexed-name>
+                                    <ce:surname>Chu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>De Risi J.</ce:indexed-name>
+                                    <ce:surname>De Risi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Eisen M.B.</ce:indexed-name>
+                                    <ce:surname>Eisen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Mullholland J.</ce:indexed-name>
+                                    <ce:surname>Mullholland</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Botstein D.</ce:indexed-name>
+                                    <ce:surname>Botstein</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>P.O.</ce:initials>
+                                    <ce:indexed-name>Brown P.O.</ce:indexed-name>
+                                    <ce:surname>Brown</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss volume="282"/>
+                                <pagerange first="699" last="705"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chu S, De Risi J, Eisen MB, Mullholland J, Botstein D, and Brown PO. The transcriptional program of sporulation in budding yeast. Science, 1998, 282: 699-705.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

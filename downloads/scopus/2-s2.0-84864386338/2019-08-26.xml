@@ -1,0 +1,673 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84864386338</prism:url><dc:identifier>SCOPUS_ID:84864386338</dc:identifier><eid>2-s2.0-84864386338</eid><pii>S0925231212003311</pii><prism:doi>10.1016/j.neucom.2011.09.039</prism:doi><dc:title>Applicability of approximate multipliers in hardware neural networks</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>25</citedby-count><prism:publicationName>Neurocomputing</prism:publicationName><source-id>24807</source-id><prism:issn>09252312 18728286</prism:issn><prism:volume>96</prism:volume><prism:startingPage>57</prism:startingPage><prism:endingPage>65</prism:endingPage><prism:pageRange>57-65</prism:pageRange><prism:coverDate>2012-11-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="6506205187"><ce:initials>U.</ce:initials><ce:indexed-name>Lotric U.</ce:indexed-name><ce:surname>Lotrič</ce:surname><ce:given-name>Uroš</ce:given-name><preferred-name><ce:initials>U.</ce:initials><ce:indexed-name>Lotrič U.</ce:indexed-name><ce:surname>Lotrič</ce:surname><ce:given-name>Uroš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506205187</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>In recent years there has been a growing interest in hardware neural networks, which express many benefits over conventional software models, mainly in applications where speed, cost, reliability, or energy efficiency are of great importance. These hardware neural networks require many resource-, power- and time-consuming multiplication operations, thus special care must be taken during their design. Since the neural network processing can be performed in parallel, there is usually a requirement for designs with as many concurrent multiplication circuits as possible.One option to achieve this goal is to replace the complex exact multiplying circuits with simpler, approximate ones. The present work demonstrates the application of approximate multiplying circuits in the design of a feed-forward neural network model with on-chip learning ability. The experiments performed on a heterogeneous P. roben1 benchmark dataset show that the adaptive nature of the neural network model successfully compensates for the calculation errors of the approximate multiplying circuits. At the same time, the proposed designs also profit from more computing power and increased energy efficiency. © 2012 Elsevier B.V.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84864386338" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84864386338&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84864386338&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6506205187"><ce:initials>U.</ce:initials><ce:indexed-name>Lotric U.</ce:indexed-name><ce:surname>Lotrič</ce:surname><ce:given-name>Uroš</ce:given-name><preferred-name><ce:initials>U.</ce:initials><ce:indexed-name>Lotrič U.</ce:indexed-name><ce:surname>Lotrič</ce:surname><ce:given-name>Uroš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506205187</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6603205527"><ce:initials>P.</ce:initials><ce:indexed-name>Bulic P.</ce:indexed-name><ce:surname>Bulić</ce:surname><ce:given-name>Patricio</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Bulić P.</ce:indexed-name><ce:surname>Bulić</ce:surname><ce:given-name>Patricio</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603205527</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Computer arithmetic</author-keyword><author-keyword>Digital design</author-keyword><author-keyword>FPGA</author-keyword><author-keyword>Hardware neural network</author-keyword><author-keyword>Iterative logarithmic multiplier</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Benchmark datasets</mainterm><mainterm weight="a" candidate="n">Calculation error</mainterm><mainterm weight="a" candidate="n">Computer arithmetic</mainterm><mainterm weight="a" candidate="n">Computing power</mainterm><mainterm weight="a" candidate="n">Digital designs</mainterm><mainterm weight="a" candidate="n">Hardware neural networks</mainterm><mainterm weight="a" candidate="n">Iterative logarithmic multiplier</mainterm><mainterm weight="a" candidate="n">Neural network model</mainterm><mainterm weight="a" candidate="n">Neural-network processing</mainterm><mainterm weight="a" candidate="n">On-chip learning</mainterm><mainterm weight="a" candidate="n">Software model</mainterm><mainterm weight="a" candidate="n">Time-consuming multiplication operations</mainterm></idxterms><subject-areas><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="2805" abbrev="NEUR">Cognitive Neuroscience</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-source-document source-document-type="pii">S0925231212003311</xocs:funding-source-document><xocs:funding-addon-generated-timestamp>2019-03-20T15:38:01Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Ministry of Civil Affairs, Bosnia and Herzegovina</xocs:funding-agency-matched-string><xocs:funding-id>BI-BA/10-11-026</xocs:funding-id></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency and the Ministry of Civil Affairs</xocs:funding-agency-matched-string></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-id>P2-0359</xocs:funding-id><xocs:funding-id>P2-0241</xocs:funding-id><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This research was supported by the Slovenian Research Agency under Grants P2-0241 and P2-0359 , and by the Slovenian Research Agency and the Ministry of Civil Affairs, Bosnia and Herzegovina , under Grant BI-BA/10-11-026 .  Uroš Lotrič received the B.Sc. degree in physics, and the M.Sc. and Ph.D. degrees in computer science from the University of Ljubljana, Ljubljana, Slovenia, in 1994, 1997, and 2000, respectively. He is currently an Associate Professor with the Faculty of Computer and Information Science, University of Ljubljana. His research interests include soft-computing methods, distributed processing, and their applications.  Patricio Bulić received his B.Sc. degree in electrical engineering, and M.Sc. and Ph.D. degrees in computer science from the University of Ljubljana, Slovenia, in 1998, 2001 and 2004, respectively. He is an Associate Professor at the Faculty of Computer and Information Science, University of Ljubljana. His main research interests include computer architecture, digital design, parallel processing and vectorization techniques. He is a member of the IEEE Computer Society and ACM. </xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="30" month="07" timestamp="2015-07-30T23:56:55.000055+01:00" year="2015"/><ait:date-sort day="01" month="11" year="2012"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2012 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:pii>S0925231212003311</ce:pii>
+<ce:doi>10.1016/j.neucom.2011.09.039</ce:doi>
+<itemid idtype="PUI">52019047</itemid>
+<itemid idtype="EMBASE">2012446115</itemid>
+<itemid idtype="CPX">20123115301779</itemid>
+<itemid idtype="SCP">84864386338</itemid>
+<itemid idtype="SGR">84864386338</itemid>
+</itemidlist><history>
+<date-created day="18" month="05" year="2012"/>
+</history><dbcollection>EMBASE</dbcollection><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Computer arithmetic</author-keyword>
+<author-keyword>Digital design</author-keyword>
+<author-keyword>FPGA</author-keyword>
+<author-keyword>Hardware neural network</author-keyword>
+<author-keyword>Iterative logarithmic multiplier</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Applicability of approximate multipliers in hardware neural networks</titletext></citation-title><author-group><author auid="6506205187" seq="1"><ce:initials>U.</ce:initials><ce:indexed-name>Lotric U.</ce:indexed-name><ce:surname>Lotrič</ce:surname><ce:given-name>Uroš</ce:given-name><preferred-name>
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Lotrič U.</ce:indexed-name>
+<ce:surname>Lotrič</ce:surname>
+<ce:given-name>Uroš</ce:given-name>
+</preferred-name></author><author auid="6603205527" seq="2"><ce:initials>P.</ce:initials><ce:indexed-name>Bulic P.</ce:indexed-name><ce:surname>Bulić</ce:surname><ce:given-name>Patricio</ce:given-name><preferred-name>
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Bulić P.</ce:indexed-name>
+<ce:surname>Bulić</ce:surname>
+<ce:given-name>Patricio</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Bulic P.</ce:indexed-name>
+<ce:surname>Bulić</ce:surname>
+</person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>In recent years there has been a growing interest in hardware neural networks, which express many benefits over conventional software models, mainly in applications where speed, cost, reliability, or energy efficiency are of great importance. These hardware neural networks require many resource-, power- and time-consuming multiplication operations, thus special care must be taken during their design. Since the neural network processing can be performed in parallel, there is usually a requirement for designs with as many concurrent multiplication circuits as possible.One option to achieve this goal is to replace the complex exact multiplying circuits with simpler, approximate ones. The present work demonstrates the application of approximate multiplying circuits in the design of a feed-forward neural network model with on-chip learning ability. The experiments performed on a heterogeneous P. roben1 benchmark dataset show that the adaptive nature of the neural network model successfully compensates for the calculation errors of the approximate multiplying circuits. At the same time, the proposed designs also profit from more computing power and increased energy efficiency. © 2012 Elsevier B.V.</ce:para>
+</abstract></abstracts><source country="nld" srcid="24807" type="j"><sourcetitle>Neurocomputing</sourcetitle><sourcetitle-abbrev>Neurocomputing</sourcetitle-abbrev><issn type="print">09252312</issn><issn type="electronic">18728286</issn><codencode>NRCGE</codencode><volisspag>
+<voliss volume="96"/>
+<pagerange first="57" last="65"/>
+</volisspag><publicationyear first="2012"/><publicationdate>
+<year>2012</year>
+<month>11</month>
+<day>01</day>
+<date-text xfab-added="true">1 November 2012</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1702</classification>
+<classification>1706</classification>
+<classification>2805</classification>
+</classifications><classifications type="CPXCLASS">
+<classification> <classification-code>911.2</classification-code> <classification-description>Industrial Economics</classification-description> </classification>
+<classification> <classification-code>723.4</classification-code> <classification-description>Artificial Intelligence</classification-description> </classification>
+<classification> <classification-code>722</classification-code> <classification-description>Computer Hardware</classification-description> </classification>
+<classification> <classification-code>913.3</classification-code> <classification-description>Quality Assurance and Control</classification-description> </classification>
+<classification> <classification-code>721.3</classification-code> <classification-description>Computer Circuits</classification-description> </classification>
+<classification> <classification-code>525.2</classification-code> <classification-description>Energy Conservation</classification-description> </classification>
+<classification> <classification-code>408</classification-code> <classification-description>Structural Design</classification-description> </classification>
+<classification> <classification-code>605</classification-code> <classification-description>Small Tools and Hardware</classification-description> </classification>
+</classifications><classifications type="EMCLASS">
+<classification> <classification-code>27.5</classification-code> <classification-description>Biophysics, Bioengineering and Medical Instrumentation; COMPUTERS AND AUTOMATION</classification-description> </classification>
+</classifications><classifications type="GEOCLASS">
+<classification> <classification-code>Related Topics</classification-code> </classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>NEUR</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="20">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Artificial neural networks: a review of commercial hardware</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">9944233985</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.M.</ce:initials>
+<ce:indexed-name>Dias F.M.</ce:indexed-name>
+<ce:surname>Dias</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Antunes A.</ce:indexed-name>
+<ce:surname>Antunes</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.M.</ce:initials>
+<ce:indexed-name>Mota A.M.</ce:indexed-name>
+<ce:surname>Mota</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Eng. Appl. Artif. Intell.</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="17"/>
+<pagerange first="945" last="952"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Dias F.M., Antunes A., Mota A.M. Artificial neural networks: a review of commercial hardware. Eng. Appl. Artif. Intell. 2004, 17:945-952.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Artificial neural networks in hardware: a survey of two decades of progress</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">78649481350</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Misra J.</ce:indexed-name>
+<ce:surname>Misra</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Saha I.</ce:indexed-name>
+<ce:surname>Saha</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="74"/>
+<pagerange first="239" last="255"/>
+</ref-volisspag>
+<ref-text>Artificial brains</ref-text>
+</ref-info>
+<ref-fulltext>Misra J., Saha I. Artificial neural networks in hardware: a survey of two decades of progress. Neurocomputing 2010, 74:239-255. Artificial brains.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Behavioral simulation and synthesis of biological neuron systems using synthesizable VHDL</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79957945206</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Bailey J.</ce:indexed-name>
+<ce:surname>Bailey</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Wilcock R.</ce:indexed-name>
+<ce:surname>Wilcock</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Wilson P.</ce:indexed-name>
+<ce:surname>Wilson</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Chad J.</ce:indexed-name>
+<ce:surname>Chad</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="74"/>
+<pagerange first="2392" last="2406"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Bailey J., Wilcock R., Wilson P., Chad J. Behavioral simulation and synthesis of biological neuron systems using synthesizable VHDL. Neurocomputing 2011, 74:2392-2406.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>FPGA implementations of neural networks-a survey of a decade of progress</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33746892995</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Zhu J.</ce:indexed-name>
+<ce:surname>Zhu</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Sutton P.</ce:indexed-name>
+<ce:surname>Sutton</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>FPL, Lecture Notes in Computer Science</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss volume="2778"/>
+<pagerange first="1062" last="1066"/>
+</ref-volisspag>
+<ref-text>Springer</ref-text>
+</ref-info>
+<ref-fulltext>Zhu J., Sutton P. FPGA implementations of neural networks-a survey of a decade of progress. FPL, Lecture Notes in Computer Science 2003, vol. 2778:1062-1066. Springer.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Low-error digital hardware implementation of artificial neuron activation functions and their derivative</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79959620936</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Armato A.</ce:indexed-name>
+<ce:surname>Armato</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Fanucci L.</ce:indexed-name>
+<ce:surname>Fanucci</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Scilingo E.</ce:indexed-name>
+<ce:surname>Scilingo</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.D.</ce:initials>
+<ce:indexed-name>Rossi D.D.</ce:indexed-name>
+<ce:surname>Rossi</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Microprocessors Microsystems Embedded Hardware Design</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="35"/>
+<pagerange first="557" last="567"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Armato A., Fanucci L., Scilingo E., Rossi D.D. Low-error digital hardware implementation of artificial neuron activation functions and their derivative. Microprocessors Microsystems Embedded Hardware Design 2011, 35:557-567.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>A high bit resolution FPGA implementation of a FNN with a new algorithm for the activation function</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">35748941248</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Ferreira P.</ce:indexed-name>
+<ce:surname>Ferreira</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Ribeiro P.</ce:indexed-name>
+<ce:surname>Ribeiro</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Antunes A.</ce:indexed-name>
+<ce:surname>Antunes</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>F.M.</ce:initials>
+<ce:indexed-name>Dias F.M.</ce:indexed-name>
+<ce:surname>Dias</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="71"/>
+<pagerange first="71" last="77"/>
+</ref-volisspag>
+<ref-text>(Dedicated Hardware Architectures for Intelligent Systems; Advances on Neural Networks for Speech and Audio Processing)</ref-text>
+</ref-info>
+<ref-fulltext>Ferreira P., Ribeiro P., Antunes A., Dias F.M. A high bit resolution FPGA implementation of a FNN with a new algorithm for the activation function. Neurocomputing 2007, 71:71-77. (Dedicated Hardware Architectures for Intelligent Systems; Advances on Neural Networks for Speech and Audio Processing).</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Fast neural network implementation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033280020</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Skrbek M.</ce:indexed-name>
+<ce:surname>Skrbek</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Neural Network World</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-volisspag>
+<voliss volume="5"/>
+<pagerange first="375" last="391"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Skrbek M. Fast neural network implementation. Neural Network World 1999, 5:375-391.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Dynamic MAC-based architecture of artificial neural networks suitable for hardware implementation on FPGAs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">67349275704</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Nedjah N.</ce:indexed-name>
+<ce:surname>Nedjah</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>da Silva R.</ce:indexed-name>
+<ce:surname>da Silva</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Mourelle L.</ce:indexed-name>
+<ce:surname>Mourelle</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>da Silva M.</ce:indexed-name>
+<ce:surname>da Silva</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="72"/>
+<pagerange first="2171" last="2179"/>
+</ref-volisspag>
+<ref-text>(Lattice Computing and Natural Computing (JCIS 2007)/Neural Networks in Intelligent Systems Design (ISDA 2007))</ref-text>
+</ref-info>
+<ref-fulltext>Nedjah N., da Silva R., Mourelle L., da Silva M. Dynamic MAC-based architecture of artificial neural networks suitable for hardware implementation on FPGAs. Neurocomputing 2009, 72:2171-2179. (Lattice Computing and Natural Computing (JCIS 2007)/Neural Networks in Intelligent Systems Design (ISDA 2007)).</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Logarithmic multiplier in hardware implementation of neural networks</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79955117817</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Lotric U.</ce:indexed-name>
+<ce:surname>Lotrič</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Bulic P.</ce:indexed-name>
+<ce:surname>Bulić</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>ICANNGA (1), Lecture Notes in Computer Science</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="6593"/>
+<pagerange first="158" last="168"/>
+</ref-volisspag>
+<ref-text>Springer</ref-text>
+</ref-info>
+<ref-fulltext>Lotrič U., Bulić P. Logarithmic multiplier in hardware implementation of neural networks. ICANNGA (1), Lecture Notes in Computer Science 2011, vol. 6593:158-168. Springer.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>A support vector machine with integer parameters</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">55949086839</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Anguita D.</ce:indexed-name>
+<ce:surname>Anguita</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Ghio A.</ce:indexed-name>
+<ce:surname>Ghio</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Pischiutta S.</ce:indexed-name>
+<ce:surname>Pischiutta</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Ridella S.</ce:indexed-name>
+<ce:surname>Ridella</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss volume="72"/>
+<pagerange first="480" last="489"/>
+</ref-volisspag>
+<ref-text>(Machine Learning for Signal Processing (MLSP 2006)/Life System Modelling, Simulation, and Bio-inspired Computing (LSMS 2007))</ref-text>
+</ref-info>
+<ref-fulltext>Anguita D., Ghio A., Pischiutta S., Ridella S. A support vector machine with integer parameters. Neurocomputing 2008, 72:480-489. (Machine Learning for Signal Processing (MLSP 2006)/Life System Modelling, Simulation, and Bio-inspired Computing (LSMS 2007)).</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Finite precision error analysis of neural network hardware implementations</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0027557033</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Holt J.</ce:indexed-name>
+<ce:surname>Holt</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.-N.</ce:initials>
+<ce:indexed-name>Hwang J.-N.</ce:indexed-name>
+<ce:surname>Hwang</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Comput.</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-volisspag>
+<voliss volume="42"/>
+<pagerange first="281" last="290"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Holt J., Hwang J.-N. Finite precision error analysis of neural network hardware implementations. IEEE Trans. Comput. 1993, 42:281-290.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Computer multiplication and division using binary logarithms</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000980875</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.N.</ce:initials>
+<ce:indexed-name>Mitchell J.N.</ce:indexed-name>
+<ce:surname>Mitchell</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IRE Trans. Electron. Comput.</ref-sourcetitle>
+<ref-publicationyear first="1962"/>
+<ref-volisspag>
+<voliss volume="EC11"/>
+<pagerange first="512" last="517"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mitchell J.N. Computer multiplication and division using binary logarithms. IRE Trans. Electron. Comput. 1962, EC-11:512-517.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Improving accuracy in Mitchell's logarithmic multiplication using operand decomposition</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33947271792</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Mahalingam V.</ce:indexed-name>
+<ce:surname>Mahalingam</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Ranganathan N.</ce:indexed-name>
+<ce:surname>Ranganathan</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Comput.</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="55"/>
+<pagerange first="1523" last="1535"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mahalingam V., Ranganathan N. Improving accuracy in Mitchell's logarithmic multiplication using operand decomposition. IEEE Trans. Comput. 2006, 55:1523-1535.</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Truncated binary multipliers with variable correction and minimum mean square error</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">77953291373</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Petra N.</ce:indexed-name>
+<ce:surname>Petra</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>De Caro D.</ce:indexed-name>
+<ce:surname>De Caro</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Garofalo V.</ce:indexed-name>
+<ce:surname>Garofalo</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Napoli E.</ce:indexed-name>
+<ce:surname>Napoli</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Strollo A.</ce:indexed-name>
+<ce:surname>Strollo</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Circuits Syst. I Regular Pap.</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="57"/>
+<pagerange first="1312" last="1325"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Petra N., De Caro D., Garofalo V., Napoli E., Strollo A. Truncated binary multipliers with variable correction and minimum mean square error. IEEE Trans. Circuits Syst. I Regular Pap. 2010, 57:1312-1325.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>An iterative logarithmic multiplier</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79551478217</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>Z.</ce:initials>
+<ce:indexed-name>Babic Z.</ce:indexed-name>
+<ce:surname>Babić</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Avramovic A.</ce:indexed-name>
+<ce:surname>Avramović</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Bulic P.</ce:indexed-name>
+<ce:surname>Bulić</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Microprocessors Microsystems Embedded Hardware Design</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss volume="35"/>
+<pagerange first="23" last="33"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Babić Z., Avramović A., Bulić P. An iterative logarithmic multiplier. Microprocessors Microsystems Embedded Hardware Design 2011, 35:23-33.</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003413187</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Haykin S.</ce:indexed-name>
+<ce:surname>Haykin</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Neural Networks: A Comprehensive Foundation</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-text>Prentice Hall</ref-text>
+</ref-info>
+<ref-fulltext>Haykin S. Neural Networks: A Comprehensive Foundation 1998, Prentice Hall. second ed.</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">34247854318</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Pedroni V.</ce:indexed-name>
+<ce:surname>Pedroni</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Circuit Design with VHDL</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-text>The MIT Press</ref-text>
+</ref-info>
+<ref-fulltext>Pedroni V. Circuit Design with VHDL 2004, The MIT Press.</ref-fulltext>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>Implementation of neural network with learning ability using FPGA programmable circuit</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79955086031</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Gutman M.</ce:indexed-name>
+<ce:surname>Gutman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Lotric U.</ce:indexed-name>
+<ce:surname>Lotrič</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nineteenth International Electrotechnical and Computer Science Conference, ERK, IEEE Slovenian Section</ref-sourcetitle>
+<ref-publicationyear first="2010"/>
+<ref-volisspag>
+<voliss volume="B"/>
+<pagerange first="173" last="176"/>
+</ref-volisspag>
+<ref-text>in: B. Zajc, A. Trost (Eds.),</ref-text>
+</ref-info>
+<ref-fulltext>M. Gutman, U. Lotrič, Implementation of neural network with learning ability using FPGA programmable circuit, in: B. Zajc, A. Trost (Eds.), Nineteenth International Electrotechnical and Computer Science Conference, ERK 2010, vol. B, IEEE Slovenian Section, pp. 173-176.</ref-fulltext>
+</reference>
+<reference id="19">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84864385281</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Prechelt L.</ce:indexed-name>
+<ce:surname>Prechelt</ce:surname>
+</author>
+</ref-authors>
+<ref-publicationyear first="1994"/>
+<ref-text>Proben1-a set of neural network benchmark problems and benchmarking rules</ref-text>
+</ref-info>
+<ref-fulltext>L. Prechelt, Proben1-a set of neural network benchmark problems and benchmarking rules, 1994.</ref-fulltext>
+</reference>
+<reference id="20">
+<ref-info>
+<ref-title>
+<ref-titletext>Statistical comparisons of classifiers over multiple data sets</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">29644438050</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demšar</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J. Mach. Learn. Res.</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pagerange first="1" last="30"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Demšar J. Statistical comparisons of classifiers over multiple data sets. J. Mach. Learn. Res. 2006, 7:1-30.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,1085 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/31544436584</prism:url><dc:identifier>SCOPUS_ID:31544436584</dc:identifier><eid>2-s2.0-31544436584</eid><pubmed-id>16287678</pubmed-id><pii>PP3M202101908N40</pii><prism:doi>10.1080/03091900512331332591</prism:doi><dc:title>An algorithm for synchronization of in vivo electroporation with ECG</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>11</citedby-count><prism:publicationName>Journal of Medical Engineering and Technology</prism:publicationName><source-id>15952</source-id><prism:issn>03091902</prism:issn><prism:volume>29</prism:volume><prism:issueIdentifier>6</prism:issueIdentifier><prism:startingPage>288</prism:startingPage><prism:endingPage>296</prism:endingPage><prism:pageRange>288-296</prism:pageRange><prism:coverDate>2005-12-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="12042265200"><ce:initials>B.</ce:initials><ce:indexed-name>Mali B.</ce:indexed-name><ce:surname>Mali</ce:surname><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Mali B.</ce:indexed-name><ce:surname>Mali</ce:surname><ce:given-name>B.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/12042265200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>The combined treatment of tumours in which delivery of a chemotherapeutic agent is followed by high voltage electroporation pulses has been termed electrochemotherapy. The electrochemotherapy of tumours located relatively close to the heart muscle can lead to fibrillation of the heart, especially if electroporation pulses are delivered in the vulnerable period of the heart or in coincidence with heart arrhythmias. We built an electroporation pulse delivery algorithm that enables safer use of electrochemotherapy. The algorithm is designed to deliver pulses outside the vulnerable period and to prevent pulses from being generated in the presence of heart arrhythmias. We evaluated the algorithm's performance using records of the Long-Term ST Database, thus simulating real-world conditions. The results of the evaluation, a sensitivity of 91.751%, a positive predictivity of 100.000% and a delivery error rate of 8.268% for electroporation pulse delivery (medians), suggest that the algorithm is accurate and appropriate for application in electrochemotherapy of tumours regardless of tumour location. © 2005 Taylor &amp; Francis.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/31544436584" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=31544436584&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=31544436584&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="12042265200"><ce:initials>B.</ce:initials><ce:indexed-name>Mali B.</ce:indexed-name><ce:surname>Mali</ce:surname><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Mali B.</ce:indexed-name><ce:surname>Mali</ce:surname><ce:given-name>B.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/12042265200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6603716206"><ce:initials>T.</ce:initials><ce:indexed-name>Jarm T.</ce:indexed-name><ce:surname>Jarm</ce:surname><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Jarm T.</ce:indexed-name><ce:surname>Jarm</ce:surname><ce:given-name>T.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603716206</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="35616708300"><ce:initials>F.</ce:initials><ce:indexed-name>Jager F.</ce:indexed-name><ce:surname>Jager</ce:surname><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Jager F.</ce:indexed-name><ce:surname>Jager</ce:surname><ce:given-name>F.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35616708300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="55885758900"><ce:initials>D.</ce:initials><ce:indexed-name>Miklavcic D.</ce:indexed-name><ce:surname>Miklavčič</ce:surname><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Miklavčič D.</ce:indexed-name><ce:surname>Miklavčič</ce:surname><ce:given-name>D.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55885758900</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Electrochemotherapy</mainterm><mainterm weight="a" candidate="n">In vivo electroporation</mainterm></idxterms><subject-areas><subject-area code="2204" abbrev="ENGI">Biomedical Engineering</subject-area><subject-area code="2718" abbrev="MEDI">Health Informatics</subject-area><subject-area code="3605" abbrev="HEAL">Health Information Management</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-23T09:52:08Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Ministry of Education, Science and Sport of the Republic of Slovenia</xocs:funding-agency-matched-string><xocs:funding-agency>Ministry of Education, Culture, Sports, Science and Technology</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001700</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/1861060/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>The presented work was performed for the purpose of two projects of 5th EU Framework Programme (CLINIPORA-TOR QLK3-CT-1999-00484 and ESOPE QLK3-2002-02003) within which instrumentation and procedures for clinical use of electrochemotherapy and gene electrotrans-fection are being developed and evaluated. The research was supported by various grants from the Ministry of Education, Science and Sport of the Republic of Slovenia.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="16" month="07" timestamp="2014-07-16T01:57:59.000059+01:00" year="2014"/><ait:date-sort day="01" month="12" year="2005"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><copyright type="Medline Descriptors">MEDLINE® is the source for the MeSH terms of this document.</copyright><itemidlist>
+<ce:pii>PP3M202101908N40</ce:pii>
+<ce:doi>10.1080/03091900512331332591</ce:doi>
+<itemid idtype="PUI">43161033</itemid>
+<itemid idtype="EMBASE">2006055990</itemid>
+<itemid idtype="CPX">2006069679548</itemid>
+<itemid idtype="MEDL">16287678</itemid>
+<itemid idtype="SCP">31544436584</itemid>
+<itemid idtype="SGR">31544436584</itemid>
+</itemidlist><history>
+<date-created day="06" month="02" year="2006"/>
+</history><dbcollection>EMBASE</dbcollection><dbcollection>CPX</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">An algorithm for synchronization of in vivo electroporation with ECG</titletext></citation-title><author-group><author auid="12042265200" seq="1"><ce:initials>B.</ce:initials><ce:indexed-name>Mali B.</ce:indexed-name><ce:surname>Mali</ce:surname><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Mali B.</ce:indexed-name>
+<ce:surname>Mali</ce:surname>
+<ce:given-name>B.</ce:given-name>
+</preferred-name></author><author auid="6603716206" seq="2"><ce:initials>T.</ce:initials><ce:indexed-name>Jarm T.</ce:indexed-name><ce:surname>Jarm</ce:surname><preferred-name>
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Jarm T.</ce:indexed-name>
+<ce:surname>Jarm</ce:surname>
+<ce:given-name>T.</ce:given-name>
+</preferred-name></author><author auid="55885758900" seq="4"><ce:initials>D.</ce:initials><ce:indexed-name>Miklavcic D.</ce:indexed-name><ce:surname>Miklavčič</ce:surname><preferred-name>
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Miklavčič D.</ce:indexed-name>
+<ce:surname>Miklavčič</ce:surname>
+<ce:given-name>D.</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580649"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>SI-1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="35616708300" seq="3"><ce:initials>F.</ce:initials><ce:indexed-name>Jager F.</ce:indexed-name><ce:surname>Jager</ce:surname><preferred-name>
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Jager F.</ce:indexed-name>
+<ce:surname>Jager</ce:surname>
+<ce:given-name>F.</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>SI-1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Miklavcic D.</ce:indexed-name>
+<ce:surname>Miklavčič</ce:surname>
+</person><affiliation country="svn"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>SI-1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>The combined treatment of tumours in which delivery of a chemotherapeutic agent is followed by high voltage electroporation pulses has been termed electrochemotherapy. The electrochemotherapy of tumours located relatively close to the heart muscle can lead to fibrillation of the heart, especially if electroporation pulses are delivered in the vulnerable period of the heart or in coincidence with heart arrhythmias. We built an electroporation pulse delivery algorithm that enables safer use of electrochemotherapy. The algorithm is designed to deliver pulses outside the vulnerable period and to prevent pulses from being generated in the presence of heart arrhythmias. We evaluated the algorithm's performance using records of the Long-Term ST Database, thus simulating real-world conditions. The results of the evaluation, a sensitivity of 91.751%, a positive predictivity of 100.000% and a delivery error rate of 8.268% for electroporation pulse delivery (medians), suggest that the algorithm is accurate and appropriate for application in electrochemotherapy of tumours regardless of tumour location. © 2005 Taylor &amp; Francis.</ce:para>
+</abstract></abstracts><source country="gbr" srcid="15952" type="j"><sourcetitle>Journal of Medical Engineering and Technology</sourcetitle><sourcetitle-abbrev>J. Med. Eng. Technol.</sourcetitle-abbrev><issn type="print">03091902</issn><codencode>JMTED</codencode><volisspag>
+<voliss issue="6" volume="29"/>
+<pagerange first="288" last="296"/>
+</volisspag><publicationyear first="2005"/><publicationdate>
+<year>2005</year>
+<month>12</month>
+<day>01</day>
+<date-text xfab-added="true">1 December 2005</date-text></publicationdate></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>2204</classification>
+<classification>2718</classification>
+<classification>3605</classification>
+</classifications><classifications type="SUBJABBR"><classification>ENGI</classification><classification>MEDI</classification><classification>HEAL</classification></classifications>
+<classifications type="CPXCLASS">
+<classification>461.2</classification>
+<classification>461.6</classification>
+<classification>701.1</classification>
+<classification>723</classification>
+<classification>723.5</classification>
+</classifications>
+<classifications type="EMCLASS">
+<classification>27.3</classification>
+</classifications>
+</classificationgroup><chemicalgroup>
+<chemicals source="nlm">
+<chemical>
+<chemical-name>Antineoplastic Agents</chemical-name>
+<cas-registry-number>0</cas-registry-number>
+</chemical>
+</chemicals>
+</chemicalgroup></enhancement></head><tail><bibliography refcount="25">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Treatment of cutaneous and subcutaneous tumors with electrochemotherapy using intralesional bleomycin</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0032127362</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Heller R.</ce:indexed-name>
+<ce:surname>Heller</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.J.</ce:initials>
+<ce:indexed-name>Jaroszeski M.J.</ce:indexed-name>
+<ce:surname>Jaroszeski</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.S.</ce:initials>
+<ce:indexed-name>Reintgen D.S.</ce:indexed-name>
+<ce:surname>Reintgen</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>C.A.</ce:initials>
+<ce:indexed-name>Puleo C.A.</ce:indexed-name>
+<ce:surname>Puleo</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>R.C.</ce:initials>
+<ce:indexed-name>DeConti R.C.</ce:indexed-name>
+<ce:surname>DeConti</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>R.A.</ce:initials>
+<ce:indexed-name>Gilbert R.A.</ce:indexed-name>
+<ce:surname>Gilbert</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>L.F.</ce:initials>
+<ce:indexed-name>Glass L.F.</ce:indexed-name>
+<ce:surname>Glass</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cancer</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="83"/>
+<pagerange first="148" last="157"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Heller, R., Jaroszeski, M.J., Reintgen, D.S., Puleo, C.A., DeConti, R.C., Gilbert, R.A. and Glass, L.F., 1998, Treatment of cutaneous and subcutaneous tumors with electrochemotherapy using intralesional bleomycin. Cancer, 83, 148-157.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Effective treatment of cutaneous and subcutaneous malignant tumors by electrochemotherapy</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031776828</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.M.</ce:initials>
+<ce:indexed-name>Mir L.M.</ce:indexed-name>
+<ce:surname>Mir</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.F.</ce:initials>
+<ce:indexed-name>Glass L.F.</ce:indexed-name>
+<ce:surname>Glass</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Sersa G.</ce:indexed-name>
+<ce:surname>Serša</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Teissie J.</ce:indexed-name>
+<ce:surname>Teissie</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Domenge C.</ce:indexed-name>
+<ce:surname>Domenge</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Miklavcic D.</ce:indexed-name>
+<ce:surname>Miklavčič</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>M.J.</ce:initials>
+<ce:indexed-name>Jaroszeski M.J.</ce:indexed-name>
+<ce:surname>Jaroszeski</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Orlowski S.</ce:indexed-name>
+<ce:surname>Orlowski</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>D.S.</ce:initials>
+<ce:indexed-name>Reintgen D.S.</ce:indexed-name>
+<ce:surname>Reintgen</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>Z.</ce:initials>
+<ce:indexed-name>Rudolf Z.</ce:indexed-name>
+<ce:surname>Rudolf</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Belehradek M.</ce:indexed-name>
+<ce:surname>Belehradek</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Gilbert R.</ce:indexed-name>
+<ce:surname>Gilbert</ce:surname>
+</author>
+<author seq="13">
+<ce:initials>M.P.</ce:initials>
+<ce:indexed-name>Rols M.P.</ce:indexed-name>
+<ce:surname>Rols</ce:surname>
+</author>
+<author seq="14">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Belehradek Jr. J.</ce:indexed-name>
+<ce:surname>Belehradek Jr.</ce:surname>
+</author>
+<author seq="15">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Bachaud J.M.</ce:indexed-name>
+<ce:surname>Bachaud</ce:surname>
+</author>
+<author seq="16">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>DeConti R.</ce:indexed-name>
+<ce:surname>DeConti</ce:surname>
+</author>
+<author seq="17">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Stabuc B.</ce:indexed-name>
+<ce:surname>Štabuc</ce:surname>
+</author>
+<author seq="18">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Cemazar M.</ce:indexed-name>
+<ce:surname>Čemažar</ce:surname>
+</author>
+<author seq="19">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Coninx P.</ce:indexed-name>
+<ce:surname>Coninx</ce:surname>
+</author>
+<author seq="20">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Heller R.</ce:indexed-name>
+<ce:surname>Heller</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>British Journal of Cancer</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="77"/>
+<pagerange first="2336" last="2342"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mir, L.M., Glass, L.F., Serša, G., Teissie, J., Domenge, C., Miklavčič, D., Jaroszeski, M.J., Orlowski, S., Reintgen, D.S., Rudolf, Z., Belehradek, M., Gilbert, R., Rols, M.P., Belehradek Jr, J., Bachaud, J.M., DeConti, R., Štabuc, B., Čemažar, M., Coninx, P. and Heller, R., 1998, Effective treatment of cutaneous and subcutaneous malignant tumors by electrochemotherapy. British Journal of Cancer, 77, 2336-2342.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Electrochemotherapy with bleomycin in the treatment of hypernephroma metastasis: Case report and literature review</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034107415</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Sersa G.</ce:indexed-name>
+<ce:surname>Serša</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Cufer T.</ce:indexed-name>
+<ce:surname>Čufer</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Cemazar M.</ce:indexed-name>
+<ce:surname>Čemažar</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Miklavcic D.</ce:indexed-name>
+<ce:surname>Miklavčič</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Rebersek M.</ce:indexed-name>
+<ce:surname>Reberšek</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>Z.</ce:initials>
+<ce:indexed-name>Rudolf Z.</ce:indexed-name>
+<ce:surname>Rudolf</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Tumori</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="86"/>
+<pagerange first="163" last="165"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Serša, G., Čufer, T., Čemažar, M., Miklavčič, D., Reberšek, M. and Rudolf, Z., 2000, Electrochemotherapy with bleomycin in the treatment of hypernephroma metastasis: case report and literature review. Tumori, 86, 163-165.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Electrochemotherapy with cisplatin: Clinical experience in malignant melanoma patients</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034059465</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Sersa G.</ce:indexed-name>
+<ce:surname>Serša</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Stabuc B.</ce:indexed-name>
+<ce:surname>Štabuc</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Cemazar M.</ce:indexed-name>
+<ce:surname>Čemažar</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Miklavcic D.</ce:indexed-name>
+<ce:surname>Miklavčič</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>Z.</ce:initials>
+<ce:indexed-name>Rudolf Z.</ce:indexed-name>
+<ce:surname>Rudolf</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Clinical Cancer Research</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="6"/>
+<pagerange first="863" last="867"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Serša, G., Štabuc, B., Čemažar, M., Miklavčič, D. and Rudolf, Z., 2000, Electrochemotherapy with cisplatin: Clinical experience in malignant melanoma patients. Clinical Cancer Research, 6, 863-867.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>The effect of pulse repetition frequency on the uptake into electropermeabilized cells in vitro with possible applications in electrochemotherapy</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0036021050</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Pucihar G.</ce:indexed-name>
+<ce:surname>Pucihar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.M.</ce:initials>
+<ce:indexed-name>Mir L.M.</ce:indexed-name>
+<ce:surname>Mir</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Miklavcic D.</ce:indexed-name>
+<ce:surname>Miklavčič</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioelectrochemistry</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="57"/>
+<pagerange first="167" last="172"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Pucihar, G., Mir, L.M. and Miklavčič, D., 2002, The effect of pulse repetition frequency on the uptake into electropermeabilized cells in vitro with possible applications in electrochemotherapy. Bioelectrochemistry, 57, 167-172.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>In vivo electrically mediated protein and gene transfer in murine melanoma</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031910791</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.P.</ce:initials>
+<ce:indexed-name>Rols M.P.</ce:indexed-name>
+<ce:surname>Rols</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Delteil C.</ce:indexed-name>
+<ce:surname>Delteil</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Golzio M.</ce:indexed-name>
+<ce:surname>Golzio</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Dumond P.</ce:indexed-name>
+<ce:surname>Dumond</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Cros S.</ce:indexed-name>
+<ce:surname>Cros</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Teissie J.</ce:indexed-name>
+<ce:surname>Teissie</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nature Biotechnology</ref-sourcetitle>
+<ref-publicationyear first="1997"/>
+<ref-volisspag>
+<voliss volume="16"/>
+<pagerange first="168" last="171"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Rols, M.P., Delteil, C., Golzio, M., Dumond, P., Cros, S. and Teissie, J., 1997, In vivo electrically mediated protein and gene transfer in murine melanoma. Nature Biotechnology, 16, 168-171.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Importance of association between permeabilization and electrophoretic forces for intramuscular DNA electrotransfer</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034194049</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.F.</ce:initials>
+<ce:indexed-name>Bureau M.F.</ce:indexed-name>
+<ce:surname>Bureau</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Gehl J.</ce:indexed-name>
+<ce:surname>Gehl</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Deleuze V.</ce:indexed-name>
+<ce:surname>Deleuze</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>L.M.</ce:initials>
+<ce:indexed-name>Mir L.M.</ce:indexed-name>
+<ce:surname>Mir</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Scherman D.</ce:indexed-name>
+<ce:surname>Scherman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Biochimica et Biophysica Acta</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="1474"/>
+<pagerange first="353" last="359"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Bureau, M.F., Gehl, J., Deleuze, V., Mir, L.M. and Scherman, D., 2000, Importance of association between permeabilization and electrophoretic forces for intramuscular DNA electrotransfer. Biochimica et Biophysica Acta, 1474, 353-359.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Mechanisms of in vivo DNA electrotransfer: Respective contributions of cell electropermeabilization and DNA electrophoresis</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0036166304</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Satkauskas S.</ce:indexed-name>
+<ce:surname>Šatkauskas</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.F.</ce:initials>
+<ce:indexed-name>Bureau M.F.</ce:indexed-name>
+<ce:surname>Bureau</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Puc M.</ce:indexed-name>
+<ce:surname>Puc</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Mahfoudi A.</ce:indexed-name>
+<ce:surname>Mahfoudi</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Scherman D.</ce:indexed-name>
+<ce:surname>Scherman</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Miklavcic D.</ce:indexed-name>
+<ce:surname>Miklavčič</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>L.M.</ce:initials>
+<ce:indexed-name>Mir L.M.</ce:indexed-name>
+<ce:surname>Mir</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Molecular Therapy</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="5"/>
+<pagerange first="133" last="140"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Šatkauskas, S., Bureau, M.F., Puc, M., Mahfoudi, A., Scherman, D., Miklavčič, D. and Mir, L.M., 2002, Mechanisms of in vivo DNA electrotransfer: respective contributions of cell electropermeabilization and DNA electrophoresis. Molecular Therapy, 5, 133-140.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Mechanisms of electrochemotherapy</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033521625</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.M.</ce:initials>
+<ce:indexed-name>Mir L.M.</ce:indexed-name>
+<ce:surname>Mir</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Orlowski S.</ce:indexed-name>
+<ce:surname>Orlowski</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Advanced Drug Delivery Reviews</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-volisspag>
+<voliss volume="35"/>
+<pagerange first="107" last="118"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mir, L.M. and Orlowski, S., 1999, Mechanisms of electrochemotherapy. Advanced Drug Delivery Reviews, 35, 107-118.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003679863</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.P.</ce:initials>
+<ce:indexed-name>Reilly J.P.</ce:indexed-name>
+<ce:surname>Reilly</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Applied Bioelectricity: From Electrical Stimulation to Electropathology</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-text>New York: Springer Verlag</ref-text>
+</ref-info>
+<ref-fulltext>Reilly, J.P., 1998, Applied Bioelectricity: from Electrical Stimulation to Electropathology (New York: Springer Verlag).</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Ventricular fibrillation due to single, localized induction and condenser shocks applied during the vulnerable phase of ventricular systole</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0001421841</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.J.</ce:initials>
+<ce:indexed-name>Wiggers C.J.</ce:indexed-name>
+<ce:surname>Wiggers</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Wegria R.</ce:indexed-name>
+<ce:surname>Wégria</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>American Journal of Physiology</ref-sourcetitle>
+<ref-publicationyear first="1940"/>
+<ref-volisspag>
+<voliss volume="128"/>
+<pagerange first="500" last="505"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Wiggers, C.J. and Wégria, R., 1940, Ventricular fibrillation due to single, localized induction and condenser shocks applied during the vulnerable phase of ventricular systole. American Journal of Physiology, 128, 500-505.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Ventricular vulnerability to fibrillation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0345213381</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Han J.</ce:indexed-name>
+<ce:surname>Han</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cardiac Arrhythmias</ref-sourcetitle>
+<ref-publicationyear first="1973"/>
+<ref-volisspag>
+<pagerange first="87" last="95"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Han, J., 1973, Ventricular vulnerability to fibrillation. Cardiac Arrhythmias, 87-95.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Instrumentation and electrodes for in vivo electroporation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0003214464</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.A.</ce:initials>
+<ce:indexed-name>Hofmann G.A.</ce:indexed-name>
+<ce:surname>Hofmann</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Electrochemotherapy, Electrogenetherapy, and Transdermal Drug Delivery: Electrically Mediated Delivery of Molecules to Cells</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<pagerange first="37" last="61"/>
+</ref-volisspag>
+<ref-text>M.J. Jaroszeski, R. Heller and R. Gilbert (eds), Totowa, New Jersey: Humana Press</ref-text>
+</ref-info>
+<ref-fulltext>Hofmann, G.A., 2000, Instrumentation and electrodes for in vivo electroporation. In M.J. Jaroszeski, R. Heller and R. Gilbert (eds), Electrochemotherapy, Electrogenetherapy, and Transdermal Drug Delivery: Electrically mediated delivery of molecules to cells, (Totowa, New Jersey: Humana Press), 37-61.</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Strength-duration curves for cardiac pacemaking and ventricular fibrillation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0017711221</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Jones M.</ce:indexed-name>
+<ce:surname>Jones</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.A.</ce:initials>
+<ce:indexed-name>Geddes L.A.</ce:indexed-name>
+<ce:surname>Geddes</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cardiovascular Research Center Bulletin</ref-sourcetitle>
+<ref-publicationyear first="1977"/>
+<ref-volisspag>
+<voliss volume="15"/>
+<pagerange first="101" last="112"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Jones, M. and Geddes, L.A., 1977, Strength-duration curves for cardiac pacemaking and ventricular fibrillation. Cardiovascular Research Center Bulletin, 15, 101-112.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>Ventricular proarrthythmic effects of ventricular cycle length and shock strength in a sheep model of transvenous atrial defibrillation</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0027976751</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.M.</ce:initials>
+<ce:indexed-name>Ayers G.M.</ce:indexed-name>
+<ce:surname>Ayers</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.A.</ce:initials>
+<ce:indexed-name>Alferness C.A.</ce:indexed-name>
+<ce:surname>Alferness</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ilina M.</ce:indexed-name>
+<ce:surname>Ilina</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.O.</ce:initials>
+<ce:indexed-name>Wagner D.O.</ce:indexed-name>
+<ce:surname>Wagner</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>W.A.</ce:initials>
+<ce:indexed-name>Sirokman W.A.</ce:indexed-name>
+<ce:surname>Sirokman</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Adams J.M.</ce:indexed-name>
+<ce:surname>Adams</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>J.C.</ce:initials>
+<ce:indexed-name>Griffin J.C.</ce:indexed-name>
+<ce:surname>Griffin</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Circulation</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-volisspag>
+<voliss volume="89"/>
+<pagerange first="413" last="422"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ayers, G.M., Alferness, C.A., Ilina, M., Wagner, D.O., Sirokman, W.A., Adams, J.M. and Griffin, J.C., 1994, Ventricular proarrthythmic effects of ventricular cycle length and shock strength in a sheep model of transvenous atrial defibrillation. Circulation, 89, 413-422.</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<ref-title>
+<ref-titletext>Re-entry in computational models of heterogenous and abnormal myocardium</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">22544472801</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.H.</ce:initials>
+<ce:indexed-name>Clayton R.H.</ce:indexed-name>
+<ce:surname>Clayton</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.V.</ce:initials>
+<ce:indexed-name>Holden A.V.</ce:indexed-name>
+<ce:surname>Holden</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>International Journal of Bioelectromagnetism</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss issue="2" volume="2"/>
+</ref-volisspag>
+<ref-website>
+<ce:e-address type="url">http://www.ijbem.org/volume2/number2/clayton/paper_ijbem.htm</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>Clayton, R.H. and Holden, A.V., 2000, Re-entry in computational models of heterogenous and abnormal myocardium. International Journal of Bioelectromagnetism, 2(2), http://www.ijbem.org/volume2/number2/clayton/ paper_ijbem.htm (last accessed on 22 December 2004).</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003950237</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.C.</ce:initials>
+<ce:indexed-name>Guyton A.C.</ce:indexed-name>
+<ce:surname>Guyton</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Hall J.E.</ce:indexed-name>
+<ce:surname>Hall</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Textbook of Medical Physiology</ref-sourcetitle>
+<ref-publicationyear first="1996"/>
+<ref-text>Pennsylvania: W.B. Saunders Company</ref-text>
+</ref-info>
+<ref-fulltext>Guyton, A.C. and Hall, J.E., 1996, Textbook of Medical Physiology (Pennsylvania: W.B. Saunders Company).</ref-fulltext>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>A comparison of the noise sensitivity of nine QRS detection algorithms</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0025267657</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.M.</ce:initials>
+<ce:indexed-name>Friesen G.M.</ce:indexed-name>
+<ce:surname>Friesen</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.C.</ce:initials>
+<ce:indexed-name>Jannett T.C.</ce:indexed-name>
+<ce:surname>Jannett</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.A.</ce:initials>
+<ce:indexed-name>Jadallah M.A.</ce:indexed-name>
+<ce:surname>Jadallah</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>S.L.</ce:initials>
+<ce:indexed-name>Yates S.L.</ce:indexed-name>
+<ce:surname>Yates</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>S.R.</ce:initials>
+<ce:indexed-name>Quint S.R.</ce:indexed-name>
+<ce:surname>Quint</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>H.T.</ce:initials>
+<ce:indexed-name>Nagle H.T.</ce:indexed-name>
+<ce:surname>Nagle</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Biomedical Engineering</ref-sourcetitle>
+<ref-publicationyear first="1990"/>
+<ref-volisspag>
+<voliss volume="37"/>
+<pagerange first="85" last="98"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Friesen, G.M., Jannett, T.C., Jadallah, M.A., Yates, S.L., Quint, S.R. and Nagle, H.T., 1990, A comparison of the noise sensitivity of nine QRS detection algorithms. IEEE Transactions on Biomedical Engineering, 37, 85-98.</ref-fulltext>
+</reference>
+<reference id="19">
+<ref-info>
+<ref-title>
+<ref-titletext>A new QRS detection algorithm based on the Hilbert transform</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034477804</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.S.</ce:initials>
+<ce:indexed-name>Benitez D.S.</ce:indexed-name>
+<ce:surname>Benitez</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.A.</ce:initials>
+<ce:indexed-name>Gaydecki P.A.</ce:indexed-name>
+<ce:surname>Gaydecki</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Zaidi A.</ce:indexed-name>
+<ce:surname>Zaidi</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>A.P.</ce:initials>
+<ce:indexed-name>Fitzpatrick A.P.</ce:indexed-name>
+<ce:surname>Fitzpatrick</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Laguna P.</ce:indexed-name>
+<ce:surname>Laguna</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Computers in Cardiology</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="27"/>
+<pagerange first="379" last="382"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Benitez, D.S., Gaydecki, P.A., Zaidi, A., Fitzpatrick, A.P. and Laguna, P., 2000, A new QRS detection algorithm based on the Hilbert transform. IEEE Computers in Cardiology, 27, 379-382.</ref-fulltext>
+</reference>
+<reference id="20">
+<ref-info>
+<ref-title>
+<ref-titletext>Quantitative investigation of QRS detection rules using the MIT/BIH arrhythmia Database</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022929617</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.S.</ce:initials>
+<ce:indexed-name>Hamilton P.S.</ce:indexed-name>
+<ce:surname>Hamilton</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>W.J.</ce:initials>
+<ce:indexed-name>Tompkins W.J.</ce:indexed-name>
+<ce:surname>Tompkins</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Biomedical Engineering</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="33"/>
+<pagerange first="1157" last="1165"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Hamilton, P.S. and Tompkins, W.J., 1986, Quantitative investigation of QRS detection rules using the MIT/BIH arrhythmia Database. IEEE Transactions on Biomedical Engineering, 33, 1157-1165.</ref-fulltext>
+</reference>
+<reference id="21">
+<ref-info>
+<ref-title>
+<ref-titletext>Automatic detection of wave boundaries in multilead ECG signals: Validation with the CSE Database</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0028211695</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Laguna P.</ce:indexed-name>
+<ce:surname>Laguna</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Jane R.</ce:indexed-name>
+<ce:surname>Jané</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Caminal P.</ce:indexed-name>
+<ce:surname>Caminal</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computers and Biomedical Research</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-volisspag>
+<voliss volume="27"/>
+<pagerange first="45" last="60"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Laguna, P., Jané, R. and Caminal, P., 1994, Automatic detection of wave boundaries in multilead ECG signals: Validation with the CSE Database. Computers and Biomedical Research, 27, 45-60.</ref-fulltext>
+</reference>
+<reference id="22">
+<ref-info>
+<ref-title>
+<ref-titletext>A real-time QRS detection algorithm</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0021892137</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Pan J.</ce:indexed-name>
+<ce:surname>Pan</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>W.J.</ce:initials>
+<ce:indexed-name>Tompkins W.J.</ce:indexed-name>
+<ce:surname>Tompkins</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Biomedical Engineering</ref-sourcetitle>
+<ref-publicationyear first="1985"/>
+<ref-volisspag>
+<voliss volume="32"/>
+<pagerange first="230" last="236"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Pan, J. and Tompkins, W.J., 1985, A real-time QRS detection algorithm. IEEE Transactions on Biomedical Engineering, 32, 230-236.</ref-fulltext>
+</reference>
+<reference id="23">
+<ref-info>
+<ref-title>
+<ref-titletext>Feature extraction and shape representation of ambulatory electrocardiogram using the Karhunen-Loève transform</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0036323753</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Jager F.</ce:indexed-name>
+<ce:surname>Jager</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Electrotechnical Review</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="69"/>
+<pagerange first="83" last="89"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Jager, F., 2002, Feature extraction and shape representation of ambulatory electrocardiogram using the Karhunen-Loève transform. Electrotechnical Review, 69, 83-89.</ref-fulltext>
+</reference>
+<reference id="24">
+<ref-info>
+<ref-title>
+<ref-titletext>Long-Term ST Database: A reference for the development and evaluation of automated ischaemia detectors and for the study of the dynamics of myocardial ischaemia</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0242668765</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Jager F.</ce:indexed-name>
+<ce:surname>Jager</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Taddei A.</ce:indexed-name>
+<ce:surname>Taddei</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.B.</ce:initials>
+<ce:indexed-name>Moody G.B.</ce:indexed-name>
+<ce:surname>Moody</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Emdin M.</ce:indexed-name>
+<ce:surname>Emdin</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Antolic G.</ce:indexed-name>
+<ce:surname>Antolič</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Dorn R.</ce:indexed-name>
+<ce:surname>Dorn</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Smrdel A.</ce:indexed-name>
+<ce:surname>Smrdel</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Marchesi C.</ce:indexed-name>
+<ce:surname>Marchesi</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>R.G.</ce:initials>
+<ce:indexed-name>Mark R.G.</ce:indexed-name>
+<ce:surname>Mark</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Medical &amp; Biological Engineering &amp; Computing</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss volume="41"/>
+<pagerange first="172" last="182"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Jager, F., Taddei, A., Moody, G.B., Emdin, M., Antolič, G., Dorn, R., Smrdel, A., Marchesi, C. and Mark, R.G., 2003, Long-Term ST Database: a reference for the development and evaluation of automated ischaemia detectors and for the study of the dynamics of myocardial ischaemia. Medical &amp; Biological Engineering &amp; Computing, 41, 172-182.</ref-fulltext>
+</reference>
+<reference id="25">
+<ref-info>
+<ref-title>
+<ref-titletext>A real-time microprocessor QRS detector system with a 1-ms timing accuracy for the measurement of ambulatory HRV</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031106763</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Ruha A.</ce:indexed-name>
+<ce:surname>Ruha</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Sallinen S.</ce:indexed-name>
+<ce:surname>Sallinen</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Nissila S.</ce:indexed-name>
+<ce:surname>Nissilä</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Biomedical Engineering</ref-sourcetitle>
+<ref-publicationyear first="1997"/>
+<ref-volisspag>
+<voliss volume="44"/>
+<pagerange first="159" last="167"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Ruha, A., Sallinen, S. and Nissilä, S., 1997, A real-time microprocessor QRS detector system with a 1-ms timing accuracy for the measurement of ambulatory HRV. IEEE Transactions on Biomedical Engineering, 44, 159-167.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

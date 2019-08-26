@@ -1,0 +1,1969 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/77956812341</prism:url><dc:identifier>SCOPUS_ID:77956812341</dc:identifier><eid>2-s2.0-77956812341</eid><pubmed-id>20860802</pubmed-id><prism:doi>10.1186/1471-2105-11-475</prism:doi><article-number>475</article-number><dc:title>FragViz: Visualization of fragmented networks</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>BMC Bioinformatics</prism:publicationName><source-id>17929</source-id><prism:issn>14712105</prism:issn><prism:volume>11</prism:volume><prism:coverDate>2010-09-22</prism:coverDate><openaccess>1</openaccess><openaccessFlag>true</openaccessFlag><dc:creator><author seq="1" auid="36553160300"><ce:initials>M.</ce:initials><ce:indexed-name>Stajdohar M.</ce:indexed-name><ce:surname>Štajdohar</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Štajdohar M.</ce:indexed-name><ce:surname>Štajdohar</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36553160300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Background: Researchers in systems biology use network visualization to summarize the results of their analysis. Such networks often include unconnected components, which popular network alignment algorithms place arbitrarily with respect to the rest of the network. This can lead to misinterpretations due to the proximity of otherwise unrelated elements.Results: We propose a new network layout optimization technique called FragViz which can incorporate additional information on relations between unconnected network components. It uses a two-step approach by first arranging the nodes within each of the components and then placing the components so that their proximity in the network corresponds to their relatedness. In the experimental study with the leukemia gene networks we demonstrate that FragViz can obtain network layouts which are more interpretable and hold additional information that could not be exposed using classical network layout optimization algorithms.Conclusions: Network visualization relies on computational techniques for proper placement of objects under consideration. These algorithms need to be fast so that they can be incorporated in responsive interfaces required by the explorative data analysis environments. Our layout optimization technique FragViz meets these requirements and specifically addresses the visualization of fragmented networks, for which standard algorithms do not consider similarities between unconnected components. The experiments confirmed the claims on speed and accuracy of the proposed solution. © 2010 Štajdohar et al; licensee BioMed Central Ltd.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/77956812341" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=77956812341&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=77956812341&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"><affilname>Baylor College of Medicine</affilname><affiliation-city>Houston</affiliation-city><affiliation-country>United States</affiliation-country></affiliation><authors><author seq="1" auid="36553160300"><ce:initials>M.</ce:initials><ce:indexed-name>Stajdohar M.</ce:indexed-name><ce:surname>Štajdohar</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Štajdohar M.</ce:indexed-name><ce:surname>Štajdohar</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36553160300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="8961505600"><ce:initials>M.</ce:initials><ce:indexed-name>Mramor M.</ce:indexed-name><ce:surname>Mramor</ce:surname><ce:given-name>Minca</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Mramor M.</ce:indexed-name><ce:surname>Mramor</ce:surname><ce:given-name>Minca</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8961505600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7003934784"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaž</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003934784</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/><affiliation id="60002441" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002441"/></author><author seq="4" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demšar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Computational technique</mainterm><mainterm weight="a" candidate="n">Explorative data analysis</mainterm><mainterm weight="a" candidate="n">Layout optimization</mainterm><mainterm weight="a" candidate="n">Network alignments</mainterm><mainterm weight="a" candidate="n">Network visualization</mainterm><mainterm weight="a" candidate="n">Standard algorithms</mainterm><mainterm weight="a" candidate="n">Systems biology</mainterm><mainterm weight="a" candidate="n">Two-step approach</mainterm></idxterms><subject-areas><subject-area code="1303" abbrev="BIOC">Biochemistry</subject-area><subject-area code="1312" abbrev="BIOC">Molecular Biology</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1315" abbrev="BIOC">Structural Biology</subject-area><subject-area code="2604" abbrev="MATH">Applied Mathematics</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="28" month="12" timestamp="2015-12-28T15:07:57.000057+00:00" year="2015"/><ait:date-sort day="22" month="09" year="2010"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1186/1471-2105-11-475</ce:doi>
+<itemid idtype="PUI">51084477</itemid>
+<itemid idtype="NURSNG">2010238910</itemid>
+<itemid idtype="EMBIO">2010352444</itemid>
+<itemid idtype="CPX">20131116100568</itemid>
+<itemid idtype="MEDL">20860802</itemid>
+<itemid idtype="SCP">77956812341</itemid>
+<itemid idtype="SGR">77956812341</itemid>
+<itemid idtype="PUIsecondary">360278655</itemid></itemidlist><history>
+<date-created day="24" month="09" year="2010"/>
+</history><dbcollection>NURSNG</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>CPX</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">FragViz: Visualization of fragmented networks</titletext></citation-title><author-group><author auid="36553160300" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Stajdohar M.</ce:indexed-name><ce:surname>Štajdohar</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Štajdohar M.</ce:indexed-name>
+<ce:surname>Štajdohar</ce:surname>
+<ce:given-name>Miha</ce:given-name>
+</preferred-name></author><author auid="8961505600" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Mramor M.</ce:indexed-name><ce:surname>Mramor</ce:surname><ce:given-name>Minca</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Mramor M.</ce:indexed-name>
+<ce:surname>Mramor</ce:surname>
+<ce:given-name>Minca</ce:given-name>
+</preferred-name></author><author auid="7003934784" seq="3"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaž</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+<ce:given-name>Blaž</ce:given-name>
+</preferred-name></author><author auid="55075851300" seq="4"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demšar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demšar J.</ce:indexed-name>
+<ce:surname>Demšar</ce:surname>
+<ce:given-name>Janez</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><country>Slovenia</country></affiliation></author-group><author-group><author auid="7003934784" seq="3"><ce:initials>B.</ce:initials><ce:indexed-name>Zupan B.</ce:indexed-name><ce:surname>Zupan</ce:surname><ce:given-name>Blaž</ce:given-name><preferred-name>
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+<ce:given-name>Blaž</ce:given-name>
+</preferred-name></author><affiliation afid="60002441" country="usa" dptid="113879976"><organization>Department of Molecular and Human Genetics</organization><organization>Baylor College of Medicine</organization><city-group>Houston TX</city-group><country>United States</country></affiliation></author-group><correspondence><person>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demšar</ce:surname>
+</person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Background: Researchers in systems biology use network visualization to summarize the results of their analysis. Such networks often include unconnected components, which popular network alignment algorithms place arbitrarily with respect to the rest of the network. This can lead to misinterpretations due to the proximity of otherwise unrelated elements.Results: We propose a new network layout optimization technique called FragViz which can incorporate additional information on relations between unconnected network components. It uses a two-step approach by first arranging the nodes within each of the components and then placing the components so that their proximity in the network corresponds to their relatedness. In the experimental study with the leukemia gene networks we demonstrate that FragViz can obtain network layouts which are more interpretable and hold additional information that could not be exposed using classical network layout optimization algorithms.Conclusions: Network visualization relies on computational techniques for proper placement of objects under consideration. These algorithms need to be fast so that they can be incorporated in responsive interfaces required by the explorative data analysis environments. Our layout optimization technique FragViz meets these requirements and specifically addresses the visualization of fragmented networks, for which standard algorithms do not consider similarities between unconnected components. The experiments confirmed the claims on speed and accuracy of the proposed solution. © 2010 Štajdohar et al; licensee BioMed Central Ltd.</ce:para>
+</abstract></abstracts><source country="gbr" srcid="17929" type="j"><sourcetitle>BMC Bioinformatics</sourcetitle><sourcetitle-abbrev>BMC Bioinform.</sourcetitle-abbrev><issn type="electronic">14712105</issn><codencode>BBMIC</codencode><volisspag>
+<voliss volume="11"/>
+</volisspag><article-number>475</article-number><publicationyear first="2010"/><publicationdate>
+<year>2010</year>
+<month>09</month>
+<day>22</day>
+<date-text xfab-added="true">22 September 2010</date-text></publicationdate><website>
+<ce:e-address type="url">http://www.biomedcentral.com/1471-2105/11/475</ce:e-address>
+</website></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1303</classification>
+<classification>1312</classification>
+<classification>1706</classification>
+<classification>1315</classification>
+<classification>2604</classification>
+</classifications><classifications type="CPXCLASS">
+<classification> <classification-code>723</classification-code> <classification-description>Computer Software, Data Handling and Applications</classification-description> </classification>
+<classification> <classification-code>902.1</classification-code> <classification-description>Engineering Graphics</classification-description> </classification>
+<classification> <classification-code>921</classification-code> <classification-description>Applied Mathematics</classification-description> </classification>
+<classification> <classification-code>921.5</classification-code> <classification-description>Optimization Techniques</classification-description> </classification>
+</classifications><classifications type="GEOCLASS">
+<classification> <classification-code>Related Topics</classification-code> </classification>
+</classifications><classifications type="SUBJABBR"><classification>BIOC</classification><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="39">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>Transcriptional Regulatory Networks in Saccharomyces cerevisiae</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0037174671</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.I.</ce:initials>
+<ce:indexed-name>Lee T.I.</ce:indexed-name>
+<ce:surname>Lee</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>N.J.</ce:initials>
+<ce:indexed-name>Rinaldi N.J.</ce:indexed-name>
+<ce:surname>Rinaldi</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Robert F.</ce:indexed-name>
+<ce:surname>Robert</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.T.</ce:initials>
+<ce:indexed-name>Odom D.T.</ce:indexed-name>
+<ce:surname>Odom</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>Z.</ce:initials>
+<ce:indexed-name>Bar-Joseph Z.</ce:indexed-name>
+<ce:surname>Bar-Joseph</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>G.K.</ce:initials>
+<ce:indexed-name>Gerber G.K.</ce:indexed-name>
+<ce:surname>Gerber</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>N.M.</ce:initials>
+<ce:indexed-name>Hannett N.M.</ce:indexed-name>
+<ce:surname>Hannett</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>C.T.</ce:initials>
+<ce:indexed-name>Harbison C.T.</ce:indexed-name>
+<ce:surname>Harbison</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>C.M.</ce:initials>
+<ce:indexed-name>Thompson C.M.</ce:indexed-name>
+<ce:surname>Thompson</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Simon I.</ce:indexed-name>
+<ce:surname>Simon</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Zeitlinger J.</ce:indexed-name>
+<ce:surname>Zeitlinger</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>E.G.</ce:initials>
+<ce:indexed-name>Jennings E.G.</ce:indexed-name>
+<ce:surname>Jennings</ce:surname>
+</author>
+<author seq="13">
+<ce:initials>H.L.</ce:initials>
+<ce:indexed-name>Murray H.L.</ce:indexed-name>
+<ce:surname>Murray</ce:surname>
+</author>
+<author seq="14">
+<ce:initials>D.B.</ce:initials>
+<ce:indexed-name>Gordon D.B.</ce:indexed-name>
+<ce:surname>Gordon</ce:surname>
+</author>
+<author seq="15">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Ren B.</ce:indexed-name>
+<ce:surname>Ren</ce:surname>
+</author>
+<author seq="16">
+<ce:initials>J.J.</ce:initials>
+<ce:indexed-name>Wyrick J.J.</ce:indexed-name>
+<ce:surname>Wyrick</ce:surname>
+</author>
+<author seq="17">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Tagne J.</ce:indexed-name>
+<ce:surname>Tagne</ce:surname>
+</author>
+<author seq="18">
+<ce:initials>T.L.</ce:initials>
+<ce:indexed-name>Volkert T.L.</ce:indexed-name>
+<ce:surname>Volkert</ce:surname>
+</author>
+<author seq="19">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Fraenkel E.</ce:indexed-name>
+<ce:surname>Fraenkel</ce:surname>
+</author>
+<author seq="20">
+<ce:initials>D.K.</ce:initials>
+<ce:indexed-name>Gifford D.K.</ce:indexed-name>
+<ce:surname>Gifford</ce:surname>
+</author>
+<author seq="21">
+<ce:initials>R.A.</ce:initials>
+<ce:indexed-name>Young R.A.</ce:indexed-name>
+<ce:surname>Young</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Science</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss issue="5594" volume="298"/>
+<pagerange first="799" last="804"/>
+</ref-volisspag>
+<ref-text>10.1126/science.1075090, 12399584</ref-text>
+</ref-info>
+<ref-fulltext>Lee TI, Rinaldi NJ, Robert F, Odom DT, Bar-Joseph Z, Gerber GK, Hannett NM, Harbison CT, Thompson CM, Simon I, Zeitlinger J, Jennings EG, Murray HL, Gordon DB, Ren B, Wyrick JJ, Tagne J, Volkert TL, Fraenkel E, Gifford DK, Young RA. Transcriptional Regulatory Networks in Saccharomyces cerevisiae. Science 2002, 298(5594):799-804. 10.1126/science.1075090, 12399584.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>A first-draft human protein-interaction map</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">14744270216</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Lehner B.</ce:indexed-name>
+<ce:surname>Lehner</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Fraser A.</ce:indexed-name>
+<ce:surname>Fraser</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Genome Biology</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss issue="9" volume="5"/>
+<pages>R63</pages>
+</ref-volisspag>
+<ref-text>10.1186/gb-2004-5-9-r63, 522870, 15345047</ref-text>
+</ref-info>
+<ref-fulltext>Lehner B, Fraser A. A first-draft human protein-interaction map. Genome Biology 2004, 5(9):R63. 10.1186/gb-2004-5-9-r63, 522870, 15345047.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Probabilistic model of the human protein-protein interaction network</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">23444452564</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.R.</ce:initials>
+<ce:indexed-name>Rhodes D.R.</ce:indexed-name>
+<ce:surname>Rhodes</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.A.</ce:initials>
+<ce:indexed-name>Tomlins S.A.</ce:indexed-name>
+<ce:surname>Tomlins</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Varambally S.</ce:indexed-name>
+<ce:surname>Varambally</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Mahavisno V.</ce:indexed-name>
+<ce:surname>Mahavisno</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Barrette T.</ce:indexed-name>
+<ce:surname>Barrette</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kalyana-Sundaram S.</ce:indexed-name>
+<ce:surname>Kalyana-Sundaram</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Ghosh D.</ce:indexed-name>
+<ce:surname>Ghosh</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Pandey A.</ce:indexed-name>
+<ce:surname>Pandey</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>A.M.</ce:initials>
+<ce:indexed-name>Chinnaiyan A.M.</ce:indexed-name>
+<ce:surname>Chinnaiyan</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nat Biotech</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss issue="8" volume="23"/>
+<pagerange first="951" last="959"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Rhodes DR, Tomlins SA, Varambally S, Mahavisno V, Barrette T, Kalyana-Sundaram S, Ghosh D, Pandey A, Chinnaiyan AM. Probabilistic model of the human protein-protein interaction network. Nat Biotech 2005, 23(8):951-959.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Machine learning for detecting gene-gene interactions: a review</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33744937046</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>B.A.</ce:initials>
+<ce:indexed-name>McKinney B.A.</ce:indexed-name>
+<ce:surname>McKinney</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.M.</ce:initials>
+<ce:indexed-name>Reif D.M.</ce:indexed-name>
+<ce:surname>Reif</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.D.</ce:initials>
+<ce:indexed-name>Ritchie M.D.</ce:indexed-name>
+<ce:surname>Ritchie</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>J.H.</ce:initials>
+<ce:indexed-name>Moore J.H.</ce:indexed-name>
+<ce:surname>Moore</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Applied Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss issue="2" volume="5"/>
+<pagerange first="77" last="88"/>
+</ref-volisspag>
+<ref-text>10.2165/00822942-200605020-00002, 16722772</ref-text>
+</ref-info>
+<ref-fulltext>McKinney BA, Reif DM, Ritchie MD, Moore JH. Machine learning for detecting gene-gene interactions: a review. Applied Bioinformatics 2006, 5(2):77-88. 10.2165/00822942-200605020-00002, 16722772.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>The human disease network</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">34547140875</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Goh K.</ce:indexed-name>
+<ce:surname>Goh</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.E.</ce:initials>
+<ce:indexed-name>Cusick M.E.</ce:indexed-name>
+<ce:surname>Cusick</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Valle D.</ce:indexed-name>
+<ce:surname>Valle</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Childs B.</ce:indexed-name>
+<ce:surname>Childs</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Vidal M.</ce:indexed-name>
+<ce:surname>Vidal</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Barabasi A.</ce:indexed-name>
+<ce:surname>Barabási</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the National Academy of Sciences</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss issue="21" volume="104"/>
+<pagerange first="8685" last="8690"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Goh K, Cusick ME, Valle D, Childs B, Vidal M, Barabási A. The human disease network. Proceedings of the National Academy of Sciences 2007, 104(21):8685-8690.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>A survey of visualization tools for biological network analysis</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">65449162644</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Pavlopoulos G.</ce:indexed-name>
+<ce:surname>Pavlopoulos</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.L.</ce:initials>
+<ce:indexed-name>Wegener A.L.</ce:indexed-name>
+<ce:surname>Wegener</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Schneider R.</ce:indexed-name>
+<ce:surname>Schneider</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>BioData Mining</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="12"/>
+</ref-volisspag>
+<ref-text>10.1186/1756-0381-1-12, 2636684, 19040716</ref-text>
+</ref-info>
+<ref-fulltext>Pavlopoulos G, Wegener AL, Schneider R. A survey of visualization tools for biological network analysis. BioData Mining 2008, 1:12. 10.1186/1756-0381-1-12, 2636684, 19040716.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Stratus Not Altocumulus: A New View of the Yeast Protein Interaction Network</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">34250354641</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.N.</ce:initials>
+<ce:indexed-name>Batada N.N.</ce:indexed-name>
+<ce:surname>Batada</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Reguly T.</ce:indexed-name>
+<ce:surname>Reguly</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Breitkreutz A.</ce:indexed-name>
+<ce:surname>Breitkreutz</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Boucher L.</ce:indexed-name>
+<ce:surname>Boucher</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Breitkreutz B.</ce:indexed-name>
+<ce:surname>Breitkreutz</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>L.D.</ce:initials>
+<ce:indexed-name>Hurst L.D.</ce:indexed-name>
+<ce:surname>Hurst</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Tyers M.</ce:indexed-name>
+<ce:surname>Tyers</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>PLoS Biol</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss issue="10" volume="4"/>
+<pages>e317</pages>
+</ref-volisspag>
+<ref-text>10.1371/journal.pbio.0040317, 1569888,1569888, 16984220</ref-text>
+</ref-info>
+<ref-fulltext>Batada NN, Reguly T, Breitkreutz A, Boucher L, Breitkreutz B, Hurst LD, Tyers M. Stratus Not Altocumulus: A New View of the Yeast Protein Interaction Network. PLoS Biol 2006, 4(10):e317. 10.1371/journal.pbio.0040317, 1569888,1569888, 16984220.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Identifying Network of Drug Mode of Action by Gene Expression Profiling</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">59649109178</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Iorio F.</ce:indexed-name>
+<ce:surname>Iorio</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Tagliaferri R.</ce:indexed-name>
+<ce:surname>Tagliaferri</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>di Bernardo D.</ce:indexed-name>
+<ce:surname>di Bernardo</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Computational Biology</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss issue="2" volume="16"/>
+<pagerange first="241" last="251"/>
+</ref-volisspag>
+<ref-text>10.1089/cmb.2008.10TT, 19183001</ref-text>
+</ref-info>
+<ref-fulltext>Iorio F, Tagliaferri R, di Bernardo D. Identifying Network of Drug Mode of Action by Gene Expression Profiling. Journal of Computational Biology 2009, 16(2):241-251. 10.1089/cmb.2008.10TT, 19183001.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Graph drawing by force-directed placement</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0026257928</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.M.J.</ce:initials>
+<ce:indexed-name>Fruchterman T.M.J.</ce:indexed-name>
+<ce:surname>Fruchterman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.M.</ce:initials>
+<ce:indexed-name>Reingold E.M.</ce:indexed-name>
+<ce:surname>Reingold</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Software: Practice and Experience</ref-sourcetitle>
+<ref-publicationyear first="1991"/>
+<ref-volisspag>
+<voliss issue="11" volume="21"/>
+<pagerange first="1129" last="1164"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Fruchterman TMJ, Reingold EM. Graph drawing by force-directed placement. Software: Practice and Experience 1991, 21(11):1129-1164.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>An algorithm for drawing general undirected graphs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0024640140</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Kamada T.</ce:indexed-name>
+<ce:surname>Kamada</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kawai S.</ce:indexed-name>
+<ce:surname>Kawai</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Information Processing Letters</ref-sourcetitle>
+<ref-publicationyear first="1989"/>
+<ref-volisspag>
+<voliss volume="31"/>
+<pagerange first="7" last="15"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Kamada T, Kawai S. An algorithm for drawing general undirected graphs. Information Processing Letters 1989, 31:7-15.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>A fast adaptive layout algorithm for undirected graphs (extended abstract and system demonstration)</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0002262640</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Frick A.</ce:indexed-name>
+<ce:surname>Frick</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Ludwig A.</ce:indexed-name>
+<ce:surname>Ludwig</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Mehldau H.</ce:indexed-name>
+<ce:surname>Mehldau</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Graph Drawing</ref-sourcetitle>
+<ref-volisspag>
+<pagerange first="388" last="403"/>
+</ref-volisspag>
+<ref-text>Springer</ref-text>
+</ref-info>
+<ref-fulltext>Frick A, Ludwig A, Mehldau H. A fast adaptive layout algorithm for undirected graphs (extended abstract and system demonstration). Graph Drawing 388-403. Springer.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Weighted gene co-expression network analysis of the peripheral blood from Amyotrophic Lateral Sclerosis patients</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">70349570737</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Saris C.</ce:indexed-name>
+<ce:surname>Saris</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Horvath S.</ce:indexed-name>
+<ce:surname>Horvath</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>van Vught P.</ce:indexed-name>
+<ce:surname>van Vught</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>van Es M.</ce:indexed-name>
+<ce:surname>van Es</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Blauw H.</ce:indexed-name>
+<ce:surname>Blauw</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Fuller T.</ce:indexed-name>
+<ce:surname>Fuller</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Langfelder P.</ce:indexed-name>
+<ce:surname>Langfelder</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>DeYoung J.</ce:indexed-name>
+<ce:surname>DeYoung</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Wokke J.</ce:indexed-name>
+<ce:surname>Wokke</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Veldink J.</ce:indexed-name>
+<ce:surname>Veldink</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>van den Berg L.</ce:indexed-name>
+<ce:surname>van den Berg</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Ophoff R.</ce:indexed-name>
+<ce:surname>Ophoff</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>BMC Genomics</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss volume="10"/>
+<pagerange first="405"/>
+</ref-volisspag>
+<ref-text>10.1186/1471-2164-10-405, 2743717, 19712483</ref-text>
+</ref-info>
+<ref-fulltext>Saris C, Horvath S, van Vught P, van Es M, Blauw H, Fuller T, Langfelder P, DeYoung J, Wokke J, Veldink J, van den Berg L, Ophoff R. Weighted gene co-expression network analysis of the peripheral blood from Amyotrophic Lateral Sclerosis patients. BMC Genomics 2009, 10:405. 10.1186/1471-2164-10-405, 2743717, 19712483.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>SNP-SNP interactions in breast cancer susceptibility</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33847099142</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Onay V.</ce:indexed-name>
+<ce:surname>Onay</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Briollais L.</ce:indexed-name>
+<ce:surname>Briollais</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Knight J.</ce:indexed-name>
+<ce:surname>Knight</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Shi E.</ce:indexed-name>
+<ce:surname>Shi</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>Y.</ce:initials>
+<ce:indexed-name>Wang Y.</ce:indexed-name>
+<ce:surname>Wang</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Wells S.</ce:indexed-name>
+<ce:surname>Wells</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Li H.</ce:indexed-name>
+<ce:surname>Li</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Rajendram I.</ce:indexed-name>
+<ce:surname>Rajendram</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Andrulis I.</ce:indexed-name>
+<ce:surname>Andrulis</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Ozcelik H.</ce:indexed-name>
+<ce:surname>Ozcelik</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>BMC Cancer</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="6"/>
+<pagerange first="114"/>
+</ref-volisspag>
+<ref-text>10.1186/1471-2407-6-114, 1522021, 16672066</ref-text>
+</ref-info>
+<ref-fulltext>Onay V, Briollais L, Knight J, Shi E, Wang Y, Wells S, Li H, Rajendram I, Andrulis I, Ozcelik H. SNP-SNP interactions in breast cancer susceptibility. BMC Cancer 2006, 6:114. 10.1186/1471-2407-6-114, 1522021, 16672066.</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Network analysis of genes regulated in renal diseases: implications for a molecular-based classification</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">70349887791</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Bhavnani S.</ce:indexed-name>
+<ce:surname>Bhavnani</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Eichinger F.</ce:indexed-name>
+<ce:surname>Eichinger</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Martini S.</ce:indexed-name>
+<ce:surname>Martini</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Saxman P.</ce:indexed-name>
+<ce:surname>Saxman</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Jagadish H.</ce:indexed-name>
+<ce:surname>Jagadish</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Kretzler M.</ce:indexed-name>
+<ce:surname>Kretzler</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>BMC Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss issue="SUPPL 9" volume="10"/>
+<pages>S3</pages>
+</ref-volisspag>
+<ref-text>10.1186/1471-2105-10-S9-S3, 2745690, 19761573</ref-text>
+</ref-info>
+<ref-fulltext>Bhavnani S, Eichinger F, Martini S, Saxman P, Jagadish H, Kretzler M. Network analysis of genes regulated in renal diseases: implications for a molecular-based classification. BMC Bioinformatics 2009, 10(Suppl 9):S3. 10.1186/1471-2105-10-S9-S3, 2745690, 19761573.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>Multidimensional scaling: I. Theory and method</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84950351930</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Torgerson W.</ce:indexed-name>
+<ce:surname>Torgerson</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Psychometrika</ref-sourcetitle>
+<ref-publicationyear first="1952"/>
+<ref-volisspag>
+<voliss issue="4" volume="17"/>
+<pagerange first="401" last="419"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Torgerson W. Multidimensional scaling: I. Theory and method. Psychometrika 1952, 17(4):401-419.</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003608388</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.B.</ce:initials>
+<ce:indexed-name>Kruskal J.B.</ce:indexed-name>
+<ce:surname>Kruskal</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Wish M.</ce:indexed-name>
+<ce:surname>Wish</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Multidimensional Scaling</ref-sourcetitle>
+<ref-publicationyear first="1978"/>
+<ref-text>Sage University Paper series on Quantitative Application in the Social Sciences</ref-text>
+</ref-info>
+<ref-fulltext>Kruskal JB, Wish M. Multidimensional Scaling 1978, Sage University Paper series on Quantitative Application in the Social Sciences.</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<ref-title>
+<ref-titletext>A multilevel algorithm for force-directed graph drawing</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0002333004</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Walshaw C.</ce:indexed-name>
+<ce:surname>Walshaw</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Graph Drawing</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<pagerange first="31" last="55"/>
+</ref-volisspag>
+<ref-text>Springer</ref-text>
+</ref-info>
+<ref-fulltext>Walshaw C. A multilevel algorithm for force-directed graph drawing. Graph Drawing 2000, 31-55. Springer.</ref-fulltext>
+</reference>
+<reference id="18">
+<ref-info>
+<ref-title>
+<ref-titletext>GrouseFlocks: steerable exploration of graph hierarchy space</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">44649096952</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Archambault D.</ce:indexed-name>
+<ce:surname>Archambault</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Munzner T.</ce:indexed-name>
+<ce:surname>Munzner</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Auber D.</ce:indexed-name>
+<ce:surname>Auber</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE transactions on visualization and computer graphics</ref-sourcetitle>
+<ref-volisspag>
+<voliss issue="4" volume="14"/>
+<pagerange first="900" last="913"/>
+</ref-volisspag>
+<ref-text>10.1109/TVCG.2008.34, 18467763</ref-text>
+</ref-info>
+<ref-fulltext>Archambault D, Munzner T, Auber D. GrouseFlocks: steerable exploration of graph hierarchy space. IEEE transactions on visualization and computer graphics 14(4):900-13. 10.1109/TVCG.2008.34, 18467763.</ref-fulltext>
+</reference>
+<reference id="19">
+<ref-info>
+<ref-title>
+<ref-titletext>TugGraph: Path-preserving hierarchies for browsing proximity and paths in graphs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">67650524432</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Archambault D.</ce:indexed-name>
+<ce:surname>Archambault</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Munzner T.</ce:indexed-name>
+<ce:surname>Munzner</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Auber D.</ce:indexed-name>
+<ce:surname>Auber</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>2009 IEEE Pacific Visualization Symposium</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<pagerange first="113" last="120"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Archambault D, Munzner T, Auber D. TugGraph: Path-preserving hierarchies for browsing proximity and paths in graphs. 2009 IEEE Pacific Visualization Symposium 2009, 113-120.</ref-fulltext>
+</reference>
+<reference id="20">
+<ref-info>
+<ref-title>
+<ref-titletext>Visual analysis of graphs with multiple connected components</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">72849114289</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>von Landesberger T.</ce:indexed-name>
+<ce:surname>von Landesberger</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Gorner M.</ce:indexed-name>
+<ce:surname>Gorner</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Schreck T.</ce:indexed-name>
+<ce:surname>Schreck</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Symposium on Visual Analytics Science and Technology</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<pagerange first="155" last="162"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>von Landesberger T, Gorner M, Schreck T. Visual analysis of graphs with multiple connected components. IEEE Symposium on Visual Analytics Science and Technology 2009, 155-162.</ref-fulltext>
+</reference>
+<reference id="21">
+<ref-info>
+<ref-title>
+<ref-titletext>Navigating clustered graphs using force-directed methods</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0006767318</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Eades P.</ce:indexed-name>
+<ce:surname>Eades</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Huang M.</ce:indexed-name>
+<ce:surname>Huang</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Graph Algorithms and Applications</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss issue="3" volume="4"/>
+<pagerange first="157" last="181"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Eades P, Huang M. Navigating clustered graphs using force-directed methods. Journal of Graph Algorithms and Applications 2000, 4(3):157-181.</ref-fulltext>
+</reference>
+<reference id="22">
+<ref-info>
+<ref-title>
+<ref-titletext>A Hybrid Layout Algorithm for Sub-Quadratic Multidimensional Scaling</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84948741096</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Morrison A.</ce:indexed-name>
+<ce:surname>Morrison</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Ross G.</ce:indexed-name>
+<ce:surname>Ross</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Chalmers M.</ce:indexed-name>
+<ce:surname>Chalmers</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>INFOVIS '02: Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02)</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<pagerange first="152"/>
+</ref-volisspag>
+<ref-text>Washington, DC, USA: IEEE Computer Society</ref-text>
+</ref-info>
+<ref-fulltext>Morrison A, Ross G, Chalmers M. A Hybrid Layout Algorithm for Sub-Quadratic Multidimensional Scaling. INFOVIS '02: Proceedings of the IEEE Symposium on Information Visualization (InfoVis'02) 2002, 152. Washington, DC, USA: IEEE Computer Society.</ref-fulltext>
+</reference>
+<reference id="23">
+<ref-info>
+<ref-title>
+<ref-titletext>Graph visualization and navigation in information visualization: A survey</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033872934</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Herman I.</ce:indexed-name>
+<ce:surname>Herman</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Melancon G.</ce:indexed-name>
+<ce:surname>Melancon</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Marshall M.</ce:indexed-name>
+<ce:surname>Marshall</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Visualization and Computer Graphics</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="6"/>
+<pagerange first="24" last="43"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Herman I, Melancon G, Marshall M. Graph visualization and navigation in information visualization: A survey. IEEE Transactions on Visualization and Computer Graphics 2000, 6:24-43.</ref-fulltext>
+</reference>
+<reference id="24">
+<ref-info>
+<ref-title>
+<ref-titletext>A statistical method for evaluating systematic relationships</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000825481</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.R.</ce:initials>
+<ce:indexed-name>Sokal R.R.</ce:indexed-name>
+<ce:surname>Sokal</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.D.</ce:initials>
+<ce:indexed-name>Michener C.D.</ce:indexed-name>
+<ce:surname>Michener</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>University of Kansas Scientific Bulletin</ref-sourcetitle>
+<ref-publicationyear first="1958"/>
+<ref-volisspag>
+<voliss volume="28"/>
+<pagerange first="1409" last="1438"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Sokal RR, Michener CD. A statistical method for evaluating systematic relationships. University of Kansas Scientific Bulletin 1958, 28:1409-1438.</ref-fulltext>
+</reference>
+<reference id="25">
+<ref-info>
+<ref-title>
+<ref-titletext>Multidimensional Scaling Using Majorization: SMACOF in R</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84888278787</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>de Leeuw J.</ce:indexed-name>
+<ce:surname>de Leeuw</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Mair P.</ce:indexed-name>
+<ce:surname>Mair</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Department of Statistics, UCLA. Department of Statistics Papers</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+</ref-info>
+<ref-fulltext>de Leeuw J, Mair P. Multidimensional Scaling Using Majorization: SMACOF in R. Department of Statistics, UCLA. Department of Statistics Papers 2008,</ref-fulltext>
+</reference>
+<reference id="26">
+<ref-info>
+<ref-title>
+<ref-titletext>Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033569406</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.R.</ce:initials>
+<ce:indexed-name>Golub T.R.</ce:indexed-name>
+<ce:surname>Golub</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>D.K.</ce:initials>
+<ce:indexed-name>Slonim D.K.</ce:indexed-name>
+<ce:surname>Slonim</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Tamayo P.</ce:indexed-name>
+<ce:surname>Tamayo</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Huard C.</ce:indexed-name>
+<ce:surname>Huard</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Gaasenbeek M.</ce:indexed-name>
+<ce:surname>Gaasenbeek</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>J.P.</ce:initials>
+<ce:indexed-name>Mesirov J.P.</ce:indexed-name>
+<ce:surname>Mesirov</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Coller H.</ce:indexed-name>
+<ce:surname>Coller</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>M.L.</ce:initials>
+<ce:indexed-name>Loh M.L.</ce:indexed-name>
+<ce:surname>Loh</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>J.R.</ce:initials>
+<ce:indexed-name>Downing J.R.</ce:indexed-name>
+<ce:surname>Downing</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>M.A.</ce:initials>
+<ce:indexed-name>Caligiuri M.A.</ce:indexed-name>
+<ce:surname>Caligiuri</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>C.D.</ce:initials>
+<ce:indexed-name>Bloomfield C.D.</ce:indexed-name>
+<ce:surname>Bloomfield</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>E.S.</ce:initials>
+<ce:indexed-name>Lander E.S.</ce:indexed-name>
+<ce:surname>Lander</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Science</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-volisspag>
+<voliss issue="5439" volume="286"/>
+<pagerange first="531" last="537"/>
+</ref-volisspag>
+<ref-text>10.1126/science.286.5439.531, 10521349</ref-text>
+</ref-info>
+<ref-fulltext>Golub TR, Slonim DK, Tamayo P, Huard C, Gaasenbeek M, Mesirov JP, Coller H, Loh ML, Downing JR, Caligiuri MA, Bloomfield CD, Lander ES. Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring. Science 1999, 286(5439):531-537. 10.1126/science.286.5439.531, 10521349.</ref-fulltext>
+</reference>
+<reference id="27">
+<ref-info>
+<ref-title>
+<ref-titletext>The MIPS mammalian protein-protein interaction database</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">20144387067</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Pagel P.</ce:indexed-name>
+<ce:surname>Pagel</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kovac S.</ce:indexed-name>
+<ce:surname>Kovac</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Oesterheld M.</ce:indexed-name>
+<ce:surname>Oesterheld</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Brauner B.</ce:indexed-name>
+<ce:surname>Brauner</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Dunger-Kaltenbach I.</ce:indexed-name>
+<ce:surname>Dunger-Kaltenbach</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Frishman G.</ce:indexed-name>
+<ce:surname>Frishman</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Montrone C.</ce:indexed-name>
+<ce:surname>Montrone</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Mark P.</ce:indexed-name>
+<ce:surname>Mark</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Stumpflen V.</ce:indexed-name>
+<ce:surname>Stumpflen</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>H.W.</ce:initials>
+<ce:indexed-name>Mewes H.W.</ce:indexed-name>
+<ce:surname>Mewes</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Ruepp A.</ce:indexed-name>
+<ce:surname>Ruepp</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Frishman D.</ce:indexed-name>
+<ce:surname>Frishman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics (Oxford, England)</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss issue="6" volume="21"/>
+<pagerange first="832" last="834"/>
+</ref-volisspag>
+<ref-text>10.1093/bioinformatics/bti115, 15531608</ref-text>
+</ref-info>
+<ref-fulltext>Pagel P, Kovac S, Oesterheld M, Brauner B, Dunger-Kaltenbach I, Frishman G, Montrone C, Mark P, Stumpflen V, Mewes HW, Ruepp A, Frishman D. The MIPS mammalian protein-protein interaction database. Bioinformatics (Oxford, England) 2005, 21(6):832-4. 10.1093/bioinformatics/bti115, 15531608.</ref-fulltext>
+</reference>
+<reference id="28">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">25144439604</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.N.</ce:initials>
+<ce:indexed-name>Tan P.N.</ce:indexed-name>
+<ce:surname>Tan</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Steinbach M.</ce:indexed-name>
+<ce:surname>Steinbach</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Kumar V.</ce:indexed-name>
+<ce:surname>Kumar</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Introduction to Data Mining</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-text>Addison Wesley, us ed edition</ref-text>
+</ref-info>
+<ref-fulltext>Tan PN, Steinbach M, Kumar V. Introduction to Data Mining 2005, Addison Wesley, us ed edition.</ref-fulltext>
+</reference>
+<reference id="29">
+<ref-info>
+<ref-title>
+<ref-titletext>From the Cover: Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">27344435774</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Subramanian A.</ce:indexed-name>
+<ce:surname>Subramanian</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Tamayo P.</ce:indexed-name>
+<ce:surname>Tamayo</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>V.K.</ce:initials>
+<ce:indexed-name>Mootha V.K.</ce:indexed-name>
+<ce:surname>Mootha</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Mukherjee S.</ce:indexed-name>
+<ce:surname>Mukherjee</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>B.L.</ce:initials>
+<ce:indexed-name>Ebert B.L.</ce:indexed-name>
+<ce:surname>Ebert</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>M.A.</ce:initials>
+<ce:indexed-name>Gillette M.A.</ce:indexed-name>
+<ce:surname>Gillette</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Paulovich A.</ce:indexed-name>
+<ce:surname>Paulovich</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>S.L.</ce:initials>
+<ce:indexed-name>Pomeroy S.L.</ce:indexed-name>
+<ce:surname>Pomeroy</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>T.R.</ce:initials>
+<ce:indexed-name>Golub T.R.</ce:indexed-name>
+<ce:surname>Golub</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>E.S.</ce:initials>
+<ce:indexed-name>Lander E.S.</ce:indexed-name>
+<ce:surname>Lander</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>J.P.</ce:initials>
+<ce:indexed-name>Mesirov J.P.</ce:indexed-name>
+<ce:surname>Mesirov</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>PNAS</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<voliss issue="43" volume="102"/>
+<pagerange first="15545" last="15550"/>
+</ref-volisspag>
+<ref-text>10.1073/pnas.0506580102, 1239896, 16199517</ref-text>
+</ref-info>
+<ref-fulltext>Subramanian A, Tamayo P, Mootha VK, Mukherjee S, Ebert BL, Gillette MA, Paulovich A, Pomeroy SL, Golub TR, Lander ES, Mesirov JP. From the Cover: Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. PNAS 2005, 102(43):15545-15550. 10.1073/pnas.0506580102, 1239896, 16199517.</ref-fulltext>
+</reference>
+<reference id="30">
+<ref-info>
+<ref-title>
+<ref-titletext>Exploring the human genome with functional maps</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">66449120271</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Huttenhower C.</ce:indexed-name>
+<ce:surname>Huttenhower</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.M.</ce:initials>
+<ce:indexed-name>Haley E.M.</ce:indexed-name>
+<ce:surname>Haley</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.A.</ce:initials>
+<ce:indexed-name>Hibbs M.A.</ce:indexed-name>
+<ce:surname>Hibbs</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Dumeaux V.</ce:indexed-name>
+<ce:surname>Dumeaux</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>D.R.</ce:initials>
+<ce:indexed-name>Barrett D.R.</ce:indexed-name>
+<ce:surname>Barrett</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>H.A.</ce:initials>
+<ce:indexed-name>Coller H.A.</ce:indexed-name>
+<ce:surname>Coller</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>O.G.</ce:initials>
+<ce:indexed-name>Troyanskaya O.G.</ce:indexed-name>
+<ce:surname>Troyanskaya</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Genome Research</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss issue="6" volume="19"/>
+<pagerange first="1093" last="1106"/>
+</ref-volisspag>
+<ref-text>10.1101/gr.082214.108, 2694471, 19246570</ref-text>
+</ref-info>
+<ref-fulltext>Huttenhower C, Haley EM, Hibbs MA, Dumeaux V, Barrett DR, Coller HA, Troyanskaya OG. Exploring the human genome with functional maps. Genome Research 2009, 19(6):1093-1106. 10.1101/gr.082214.108, 2694471, 19246570.</ref-fulltext>
+</reference>
+<reference id="31">
+<ref-info>
+<ref-title>
+<ref-titletext>Collective dynamics of 'small-world' networks</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0032482432</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.J.</ce:initials>
+<ce:indexed-name>Watts D.J.</ce:indexed-name>
+<ce:surname>Watts</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.H.</ce:initials>
+<ce:indexed-name>Strogatz S.H.</ce:indexed-name>
+<ce:surname>Strogatz</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nature</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss issue="6684" volume="393"/>
+<pagerange first="440" last="442"/>
+</ref-volisspag>
+<ref-text>10.1038/30918, 9623998</ref-text>
+</ref-info>
+<ref-fulltext>Watts DJ, Strogatz SH. Collective dynamics of 'small-world' networks. Nature 1998, 393(6684):440-442. 10.1038/30918, 9623998.</ref-fulltext>
+</reference>
+<reference id="32">
+<ref-info>
+<ref-title>
+<ref-titletext>Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034069495</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ashburner M.</ce:indexed-name>
+<ce:surname>Ashburner</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.A.</ce:initials>
+<ce:indexed-name>Ball C.A.</ce:indexed-name>
+<ce:surname>Ball</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.A.</ce:initials>
+<ce:indexed-name>Blake J.A.</ce:indexed-name>
+<ce:surname>Blake</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Botstein D.</ce:indexed-name>
+<ce:surname>Botstein</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Butler H.</ce:indexed-name>
+<ce:surname>Butler</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>J.M.</ce:initials>
+<ce:indexed-name>Cherry J.M.</ce:indexed-name>
+<ce:surname>Cherry</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>A.P.</ce:initials>
+<ce:indexed-name>Davis A.P.</ce:indexed-name>
+<ce:surname>Davis</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Dolinski K.</ce:indexed-name>
+<ce:surname>Dolinski</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>S.S.</ce:initials>
+<ce:indexed-name>Dwight S.S.</ce:indexed-name>
+<ce:surname>Dwight</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>J.T.</ce:initials>
+<ce:indexed-name>Eppig J.T.</ce:indexed-name>
+<ce:surname>Eppig</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>M.A.</ce:initials>
+<ce:indexed-name>Harris M.A.</ce:indexed-name>
+<ce:surname>Harris</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>D.P.</ce:initials>
+<ce:indexed-name>Hill D.P.</ce:indexed-name>
+<ce:surname>Hill</ce:surname>
+</author>
+<author seq="13">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Issel-Tarver L.</ce:indexed-name>
+<ce:surname>Issel-Tarver</ce:surname>
+</author>
+<author seq="14">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Kasarskis A.</ce:indexed-name>
+<ce:surname>Kasarskis</ce:surname>
+</author>
+<author seq="15">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Lewis S.</ce:indexed-name>
+<ce:surname>Lewis</ce:surname>
+</author>
+<author seq="16">
+<ce:initials>J.C.</ce:initials>
+<ce:indexed-name>Matese J.C.</ce:indexed-name>
+<ce:surname>Matese</ce:surname>
+</author>
+<author seq="17">
+<ce:initials>J.E.</ce:initials>
+<ce:indexed-name>Richardson J.E.</ce:indexed-name>
+<ce:surname>Richardson</ce:surname>
+</author>
+<author seq="18">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ringwald M.</ce:indexed-name>
+<ce:surname>Ringwald</ce:surname>
+</author>
+<author seq="19">
+<ce:initials>G.M.</ce:initials>
+<ce:indexed-name>Rubin G.M.</ce:indexed-name>
+<ce:surname>Rubin</ce:surname>
+</author>
+<author seq="20">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Sherlock G.</ce:indexed-name>
+<ce:surname>Sherlock</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nat Genet</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="25" last="29"/>
+</ref-volisspag>
+<ref-text>10.1038/75556, 10802651</ref-text>
+</ref-info>
+<ref-fulltext>Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, Davis AP, Dolinski K, Dwight SS, Eppig JT, Harris MA, Hill DP, Issel-Tarver L, Kasarskis A, Lewis S, Matese JC, Richardson JE, Ringwald M, Rubin GM, Sherlock G. Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat Genet 2000, 25:25-29. 10.1038/75556, 10802651.</ref-fulltext>
+</reference>
+<reference id="33">
+<ref-info>
+<ref-title>
+<ref-titletext>Identification of the Enzymatic Pathways of Nucleotide Metabolism in Human Lymphocytes and Leukemia Cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0015540570</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.M.</ce:initials>
+<ce:indexed-name>Scholar E.M.</ce:indexed-name>
+<ce:surname>Scholar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Calabresi P.</ce:indexed-name>
+<ce:surname>Calabresi</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Cancer Res</ref-sourcetitle>
+<ref-publicationyear first="1973"/>
+<ref-volisspag>
+<voliss volume="33"/>
+<pagerange first="94" last="103"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Scholar EM, Calabresi P. Identification of the Enzymatic Pathways of Nucleotide Metabolism in Human Lymphocytes and Leukemia Cells. Cancer Res 1973, 33:94-103.</ref-fulltext>
+</reference>
+<reference id="34">
+<ref-info>
+<ref-title>
+<ref-titletext>Treatment of Acute Lymphoblastic Leukemia</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">30444437486</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.H.</ce:initials>
+<ce:indexed-name>Pui C.H.</ce:indexed-name>
+<ce:surname>Pui</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>W.E.</ce:initials>
+<ce:indexed-name>Evans W.E.</ce:indexed-name>
+<ce:surname>Evans</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>N Engl J Med</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss issue="2" volume="354"/>
+<pagerange first="166" last="178"/>
+</ref-volisspag>
+<ref-text>10.1056/NEJMra052603, 16407512</ref-text>
+</ref-info>
+<ref-fulltext>Pui CH, Evans WE. Treatment of Acute Lymphoblastic Leukemia. N Engl J Med 2006, 354(2):166-178. 10.1056/NEJMra052603, 16407512.</ref-fulltext>
+</reference>
+<reference id="35">
+<ref-info>
+<ref-title>
+<ref-titletext>The Hallmarks of Cancer</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034614637</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Cell</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="100"/>
+<pagerange first="57" last="70"/>
+</ref-volisspag>
+<ref-text>10.1016/S0092-8674(00)81683-9, 10647931</ref-text>
+</ref-info>
+<ref-fulltext>The Hallmarks of Cancer. Cell 2000, 100:57-70. 10.1016/S0092-8674(00)81683-9, 10647931.</ref-fulltext>
+</reference>
+<reference id="36">
+<ref-info>
+<ref-title>
+<ref-titletext>Assessment of proliferative activity in leukaemic bone marrow using the monoclonal antibody Ki-67</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0028208370</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.M.</ce:initials>
+<ce:indexed-name>White D.M.</ce:indexed-name>
+<ce:surname>White</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.G.</ce:initials>
+<ce:indexed-name>Smith A.G.</ce:indexed-name>
+<ce:surname>Smith</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.L.</ce:initials>
+<ce:indexed-name>Smith J.L.</ce:indexed-name>
+<ce:surname>Smith</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of clinical pathology</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-volisspag>
+<voliss issue="3" volume="47"/>
+<pagerange first="209" last="213"/>
+</ref-volisspag>
+<ref-text>10.1136/jcp.47.3.209, 501896, 8163690</ref-text>
+</ref-info>
+<ref-fulltext>White DM, Smith AG, Smith JL. Assessment of proliferative activity in leukaemic bone marrow using the monoclonal antibody Ki-67. Journal of clinical pathology 1994, 47(3):209-13. 10.1136/jcp.47.3.209, 501896, 8163690.</ref-fulltext>
+</reference>
+<reference id="37">
+<ref-info>
+<ref-title>
+<ref-titletext>Cell proliferation is related to in vitro drug resistance in childhood acute leukaemia</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0037430005</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Kaaijk P.</ce:indexed-name>
+<ce:surname>Kaaijk</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.J.L.</ce:initials>
+<ce:indexed-name>Kaspers G.J.L.</ce:indexed-name>
+<ce:surname>Kaspers</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>E.R.</ce:initials>
+<ce:indexed-name>Van Wering E.R.</ce:indexed-name>
+<ce:surname>Van Wering</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>G.J.</ce:initials>
+<ce:indexed-name>Broekema G.J.</ce:indexed-name>
+<ce:surname>Broekema</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>A.H.</ce:initials>
+<ce:indexed-name>Loonen A.H.</ce:indexed-name>
+<ce:surname>Loonen</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Hahlen K.</ce:indexed-name>
+<ce:surname>Hählen</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Schmiegelow K.</ce:indexed-name>
+<ce:surname>Schmiegelow</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>G.E.</ce:initials>
+<ce:indexed-name>Janka-Schaub G.E.</ce:indexed-name>
+<ce:surname>Janka-Schaub</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Henze G.</ce:indexed-name>
+<ce:surname>Henze</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Creutzig U.</ce:indexed-name>
+<ce:surname>Creutzig</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>A.J.P.</ce:initials>
+<ce:indexed-name>Veerman A.J.P.</ce:indexed-name>
+<ce:surname>Veerman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>British journal of cancer</ref-sourcetitle>
+<ref-publicationyear first="2003"/>
+<ref-volisspag>
+<voliss issue="5" volume="88"/>
+<pagerange first="775" last="781"/>
+</ref-volisspag>
+<ref-text>10.1038/sj.bjc.6600787, 2376358, 12618889</ref-text>
+</ref-info>
+<ref-fulltext>Kaaijk P, Kaspers GJL, Van Wering ER, Broekema GJ, Loonen AH, Hählen K, Schmiegelow K, Janka-Schaub GE, Henze G, Creutzig U, Veerman AJP. Cell proliferation is related to in vitro drug resistance in childhood acute leukaemia. British journal of cancer 2003, 88(5):775-81. 10.1038/sj.bjc.6600787, 2376358, 12618889.</ref-fulltext>
+</reference>
+<reference id="38">
+<ref-info>
+<ref-title>
+<ref-titletext>Human Protein Reference Database-2009 update</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">58149193222</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.S.</ce:initials>
+<ce:indexed-name>Keshava Prasad T.S.</ce:indexed-name>
+<ce:surname>Keshava Prasad</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Goel R.</ce:indexed-name>
+<ce:surname>Goel</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Kandasamy K.</ce:indexed-name>
+<ce:surname>Kandasamy</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Keerthikumar S.</ce:indexed-name>
+<ce:surname>Keerthikumar</ce:surname>
+</author>
+<author seq="5">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kumar S.</ce:indexed-name>
+<ce:surname>Kumar</ce:surname>
+</author>
+<author seq="6">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Mathivanan S.</ce:indexed-name>
+<ce:surname>Mathivanan</ce:surname>
+</author>
+<author seq="7">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Telikicherla D.</ce:indexed-name>
+<ce:surname>Telikicherla</ce:surname>
+</author>
+<author seq="8">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Raju R.</ce:indexed-name>
+<ce:surname>Raju</ce:surname>
+</author>
+<author seq="9">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Shafreen B.</ce:indexed-name>
+<ce:surname>Shafreen</ce:surname>
+</author>
+<author seq="10">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Venugopal A.</ce:indexed-name>
+<ce:surname>Venugopal</ce:surname>
+</author>
+<author seq="11">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Balakrishnan L.</ce:indexed-name>
+<ce:surname>Balakrishnan</ce:surname>
+</author>
+<author seq="12">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Marimuthu A.</ce:indexed-name>
+<ce:surname>Marimuthu</ce:surname>
+</author>
+<author seq="13">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Banerjee S.</ce:indexed-name>
+<ce:surname>Banerjee</ce:surname>
+</author>
+<author seq="14">
+<ce:initials>D.S.</ce:initials>
+<ce:indexed-name>Somanathan D.S.</ce:indexed-name>
+<ce:surname>Somanathan</ce:surname>
+</author>
+<author seq="15">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Sebastian A.</ce:indexed-name>
+<ce:surname>Sebastian</ce:surname>
+</author>
+<author seq="16">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Rani S.</ce:indexed-name>
+<ce:surname>Rani</ce:surname>
+</author>
+<author seq="17">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Ray S.</ce:indexed-name>
+<ce:surname>Ray</ce:surname>
+</author>
+<author seq="18">
+<ce:initials>C.J.</ce:initials>
+<ce:indexed-name>Harrys Kishore C.J.</ce:indexed-name>
+<ce:surname>Harrys Kishore</ce:surname>
+</author>
+<author seq="19">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kanth S.</ce:indexed-name>
+<ce:surname>Kanth</ce:surname>
+</author>
+<author seq="20">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Ahmed M.</ce:indexed-name>
+<ce:surname>Ahmed</ce:surname>
+</author>
+<author seq="21">
+<ce:initials>M.K.</ce:initials>
+<ce:indexed-name>Kashyap M.K.</ce:indexed-name>
+<ce:surname>Kashyap</ce:surname>
+</author>
+<author seq="22">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Mohmood R.</ce:indexed-name>
+<ce:surname>Mohmood</ce:surname>
+</author>
+<author seq="23">
+<ce:initials>Y.L.</ce:initials>
+<ce:indexed-name>Ramachandra Y.L.</ce:indexed-name>
+<ce:surname>Ramachandra</ce:surname>
+</author>
+<author seq="24">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Krishna V.</ce:indexed-name>
+<ce:surname>Krishna</ce:surname>
+</author>
+<author seq="25">
+<ce:initials>B.A.</ce:initials>
+<ce:indexed-name>Rahiman B.A.</ce:indexed-name>
+<ce:surname>Rahiman</ce:surname>
+</author>
+<author seq="26">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Mohan S.</ce:indexed-name>
+<ce:surname>Mohan</ce:surname>
+</author>
+<author seq="27">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Ranganathan P.</ce:indexed-name>
+<ce:surname>Ranganathan</ce:surname>
+</author>
+<author seq="28">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Ramabadran S.</ce:indexed-name>
+<ce:surname>Ramabadran</ce:surname>
+</author>
+<author seq="29">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Chaerkady R.</ce:indexed-name>
+<ce:surname>Chaerkady</ce:surname>
+</author>
+<author seq="30">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Pandey A.</ce:indexed-name>
+<ce:surname>Pandey</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nucleic acids research</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss issue="37"/>
+<pages>D767-72</pages>
+</ref-volisspag>
+<ref-text>10.1093/nar/gkn892, 2686490, 18988627, Database</ref-text>
+</ref-info>
+<ref-fulltext>Keshava Prasad TS, Goel R, Kandasamy K, Keerthikumar S, Kumar S, Mathivanan S, Telikicherla D, Raju R, Shafreen B, Venugopal A, Balakrishnan L, Marimuthu A, Banerjee S, Somanathan DS, Sebastian A, Rani S, Ray S, Harrys Kishore CJ, Kanth S, Ahmed M, Kashyap MK, Mohmood R, Ramachandra YL, Krishna V, Rahiman BA, Mohan S, Ranganathan P, Ramabadran S, Chaerkady R, Pandey A. Human Protein Reference Database-2009 update. Nucleic acids research 2009, (37 Database):D767-72. 10.1093/nar/gkn892, 2686490, 18988627.</ref-fulltext>
+</reference>
+<reference id="39">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">13844283290</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demsar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Zupan B.</ce:indexed-name>
+<ce:surname>Zupan</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Leban G.</ce:indexed-name>
+<ce:surname>Leban</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Orange: From Experimental Machine Learning to Interactive Data Mining</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-website>
+<ce:e-address type="url">http://www.ailab.si/orange</ce:e-address>
+</ref-website>
+<ref-text>Faculty of Computer and Information Science, University of Ljubljana</ref-text>
+</ref-info>
+<ref-fulltext>Demsar J, Zupan B, Leban G. Orange: From Experimental Machine Learning to Interactive Data Mining 2004, Faculty of Computer and Information Science, University of Ljubljana., http://www.ailab.si/orange</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

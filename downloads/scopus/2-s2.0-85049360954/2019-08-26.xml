@@ -1,0 +1,486 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85049360954</prism:url><dc:identifier>SCOPUS_ID:85049360954</dc:identifier><eid>2-s2.0-85049360954</eid><prism:doi>10.1007/978-3-319-93846-2_43</prism:doi><dc:title>Syntax-based analysis of programming concepts in python</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><dc:publisher>
+                        Springer Verlag
+                        service@springer.de
+                    </dc:publisher><source-id>25674</source-id><prism:isbn>9783319938455</prism:isbn><prism:issn>16113349 03029743</prism:issn><prism:volume>10948 LNAI</prism:volume><prism:startingPage>236</prism:startingPage><prism:endingPage>240</prism:endingPage><prism:pageRange>236-240</prism:pageRange><prism:coverDate>2018-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© Springer International Publishing AG, part of Springer Nature 2018.</publishercopyright>
+                        <ce:para>Writing programs is essential to learning programming. Most programming courses encourage students to practice with lab and homework assignments. By analyzing solutions to these exercises teachers can discover mistakes and concepts students are struggling with, and use that knowledge to improve the course. Students however tend to submit many different programs even for simple exercises, making such analysis difficult. We propose using tree regular expressions to encode common patterns in programs. Based on these patterns we induce rules describing common approaches and mistakes for a given assignment. In this paper we present a case study of rule-based analysis for an introductory Python exercise. We show that our rules are easy to interpret, and can be learned from a relatively small set of programs.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85049360954" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85049360954&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85049360954&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="56336124300"><ce:initials>T.</ce:initials><ce:indexed-name>Lazar T.</ce:indexed-name><ce:surname>Lazar</ce:surname><ce:given-name>Timotej</ce:given-name><preferred-name><ce:initials>T.</ce:initials><ce:indexed-name>Lazar T.</ce:indexed-name><ce:surname>Lazar</ce:surname><ce:given-name>Timotej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56336124300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Abstract syntax tree</author-keyword><author-keyword>Educational data analysis</author-keyword><author-keyword>Error diagnosis</author-keyword><author-keyword>Learning programming</author-keyword><author-keyword>Tree regular expressions</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Abstract Syntax Trees</mainterm><mainterm weight="b" candidate="n">Educational datum</mainterm><mainterm weight="b" candidate="n">Error diagnosis</mainterm><mainterm weight="b" candidate="n">Learning programming</mainterm><mainterm weight="b" candidate="n">Regular expressions</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-07-11T14:34:15.109Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="10" month="08" timestamp="2018-08-10T13:55:17.000017-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-319-93846-2_43</ce:doi>
+                    <itemid idtype="PUI">622893640</itemid>
+                    <itemid idtype="CAR-ID">911532482</itemid>
+                    <itemid idtype="CPX">20182705519764</itemid>
+                    <itemid idtype="SCOPUS">20182031511</itemid>
+                    <itemid idtype="SCP">85049360954</itemid>
+                    <itemid idtype="SGR">85049360954</itemid>
+                </itemidlist><history>
+                    <date-created day="07" month="07" timestamp="BST 06:54:00" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword>Abstract syntax tree</author-keyword>
+                        <author-keyword>Educational data analysis</author-keyword>
+                        <author-keyword>Error diagnosis</author-keyword>
+                        <author-keyword>Learning programming</author-keyword>
+                        <author-keyword>Tree regular expressions</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Syntax-based analysis of programming concepts in python</titletext></citation-title><author-group><author auid="35409925300" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Možina M.</ce:indexed-name>
+                            <ce:surname>Možina</ce:surname>
+                            <ce:given-name>Martin</ce:given-name>
+                        </preferred-name></author><author auid="56336124300" seq="2" type="auth"><ce:initials>T.</ce:initials><ce:indexed-name>Lazar T.</ce:indexed-name><ce:surname>Lazar</ce:surname><ce:given-name>Timotej</ce:given-name><preferred-name>
+                            <ce:initials>T.</ce:initials>
+                            <ce:indexed-name>Lazar T.</ce:indexed-name>
+                            <ce:surname>Lazar</ce:surname>
+                            <ce:given-name>Timotej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Mozina M.</ce:indexed-name>
+                        <ce:surname>Možina</ce:surname>
+                        <ce:given-name>Martin</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© Springer International Publishing AG, part of Springer Nature 2018.</publishercopyright>
+                        <ce:para>Writing programs is essential to learning programming. Most programming courses encourage students to practice with lab and homework assignments. By analyzing solutions to these exercises teachers can discover mistakes and concepts students are struggling with, and use that knowledge to improve the course. Students however tend to submit many different programs even for simple exercises, making such analysis difficult. We propose using tree regular expressions to encode common patterns in programs. Based on these patterns we induce rules describing common approaches and mistakes for a given assignment. In this paper we present a case study of rule-based analysis for an introductory Python exercise. We show that our rules are easy to interpret, and can be learned from a relatively small set of programs.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</translated-sourcetitle><issuetitle>Artificial Intelligence in Education - 19th International Conference, AIED 2018, Proceedings</issuetitle><issn type="electronic">16113349</issn><issn type="print">03029743</issn><isbn length="13" level="volume" type="print">9783319938455</isbn><volisspag>
+                        <voliss volume="10948 LNAI"/>
+                        <pagerange first="236" last="240"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                    <date-text xfab-added="true">2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">https://www.springer.com/series/558</ce:e-address>
+                    </website><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Luckin R.</ce:indexed-name>
+                            <ce:surname>Luckin</ce:surname>
+                            <ce:given-name>Rose</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="2">
+                            <ce:initials>K.</ce:initials>
+                            <ce:indexed-name>Porayska-Pomsta K.</ce:indexed-name>
+                            <ce:surname>Porayska-Pomsta</ce:surname>
+                            <ce:given-name>Kaska</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="3">
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>du Boulay B.</ce:indexed-name>
+                            <ce:surname>du Boulay</ce:surname>
+                            <ce:given-name>Benedict</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Mavrikis M.</ce:indexed-name>
+                            <ce:surname>Mavrikis</ce:surname>
+                            <ce:given-name>Manolis</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Penstein Rose C.</ce:indexed-name>
+                            <ce:surname>Penstein Rosé</ce:surname>
+                            <ce:given-name>Carolyn</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="2">
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>McLaren B.</ce:indexed-name>
+                            <ce:surname>McLaren</ce:surname>
+                            <ce:given-name>Bruce</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>R.</ce:initials>
+                            <ce:indexed-name>Martinez-Maldonado R.</ce:indexed-name>
+                            <ce:surname>Martinez-Maldonado</ce:surname>
+                            <ce:given-name>Roberto</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>H.U.</ce:initials>
+                            <ce:indexed-name>Hoppe H.U.</ce:indexed-name>
+                            <ce:surname>Hoppe</ce:surname>
+                            <ce:given-name>H. Ulrich</ce:given-name>
+                        </contributor>
+                    </contributor-group><publisher>
+                        <publishername>Springer Verlag</publishername>
+                        <ce:e-address type="email">service@springer.de</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>19th International Conference on Artificial Intelligence in Education, AIED 2018</confname>
+                                <confnumber>19th</confnumber>
+                                <confseriestitle>International Conference on Artificial Intelligence in Education</confseriestitle>
+                                <conflocation country="gbr">
+                                    <city>London</city>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="27" month="06" year="2018"/>
+                                    <enddate day="30" month="06" year="2018"/>
+                                </confdate>
+                                <confcode>214799</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>2 of 2</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921.4</classification-code>
+                                <classification-description>Combinatorial Mathematics, Includes Graph Theory, Set Theory</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="7">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Program representation for automatic hint generation for a data-driven novice programming tutor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84862486854</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Jin W.</ce:indexed-name>
+                                    <ce:surname>Jin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Barnes T.</ce:indexed-name>
+                                    <ce:surname>Barnes</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Stamper J.</ce:indexed-name>
+                                    <ce:surname>Stamper</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Eagle M.J.</ce:indexed-name>
+                                    <ce:surname>Eagle</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.W.</ce:initials>
+                                    <ce:indexed-name>Johnson M.W.</ce:indexed-name>
+                                    <ce:surname>Johnson</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Lehmann L.</ce:indexed-name>
+                                    <ce:surname>Lehmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ITS 2012. LNCS</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="7315"/>
+                                <pagerange first="304" last="309"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/978-3-642-30950-240</ce:e-address>
+                            </ref-website>
+                            <ref-text>Cerri, S.A., Clancey, W.J., Papadourakis, G., Panourgia, K. (eds.), Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jin, W., Barnes, T., Stamper, J., Eagle, M.J., Johnson, M.W., Lehmann, L.: Program representation for automatic hint generation for a data-driven novice programming tutor. In: Cerri, S.A., Clancey, W.J., Papadourakis, G., Panourgia, K. (eds.) ITS 2012. LNCS, vol. 7315, pp. 304–309. Springer, Heidelberg (2012). https://doi. org/10.1007/978-3-642-30950-2 40</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Data-driven hint generation in vast solution spaces: A self-improving Python programming tutor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84976648810</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Rivers K.</ce:indexed-name>
+                                    <ce:surname>Rivers</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.R.</ce:initials>
+                                    <ce:indexed-name>Koedinger K.R.</ce:indexed-name>
+                                    <ce:surname>Koedinger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Artif. Intell. Educ.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="28"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rivers, K., Koedinger, K.R.: Data-driven hint generation in vast solution spaces: a self-improving Python programming tutor. Int. J. Artif. Intell. Educ. 1–28 (2015)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Codewebs: Scalable homework search for massive open online programming courses</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84906929037</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Nguyen A.</ce:indexed-name>
+                                    <ce:surname>Nguyen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Piech C.</ce:indexed-name>
+                                    <ce:surname>Piech</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huang J.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Guibas L.</ce:indexed-name>
+                                    <ce:surname>Guibas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 23Rd International World Wide Web Conference (WWW 2014)</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="491" last="502"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nguyen, A., Piech, C., Huang, J., Guibas, L.: Codewebs: scalable homework search for massive open online programming courses. In: Proceedings of the 23rd International World Wide Web Conference (WWW 2014), pp. 491–502 (2014)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Control-flow-only abstract syntax trees for analyzing students’ programming progress</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85000461143</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Hovemeyer D.</ce:indexed-name>
+                                    <ce:surname>Hovemeyer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Hellas A.</ce:indexed-name>
+                                    <ce:surname>Hellas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Petersen A.</ce:indexed-name>
+                                    <ce:surname>Petersen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Spacco J.</ce:indexed-name>
+                                    <ce:surname>Spacco</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the 2016 ACM Conference on International Computing Education Research</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="63" last="72"/>
+                            </ref-volisspag>
+                            <ref-text>ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hovemeyer, D., Hellas, A., Petersen, A., Spacco, J.: Control-flow-only abstract syntax trees for analyzing students’ programming progress. In: Proceedings of the 2016 ACM Conference on International Computing Education Research, pp. 63–72. ACM (2016)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>OverCode: Visualizing variation in student solutions to programming problems at scale</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84925337848</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.L.</ce:initials>
+                                    <ce:indexed-name>Glassman E.L.</ce:indexed-name>
+                                    <ce:surname>Glassman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Scott J.</ce:indexed-name>
+                                    <ce:surname>Scott</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Singh R.</ce:indexed-name>
+                                    <ce:surname>Singh</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.J.</ce:initials>
+                                    <ce:indexed-name>Guo P.J.</ce:indexed-name>
+                                    <ce:surname>Guo</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.C.</ce:initials>
+                                    <ce:indexed-name>Miller R.C.</ce:indexed-name>
+                                    <ce:surname>Miller</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Trans. Comput. Hum. Interact. (TOCHI)</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="22"/>
+                                <pagerange first="7"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Glassman, E.L., Scott, J., Singh, R., Guo, P.J., Miller, R.C.: OverCode: visualizing variation in student solutions to programming problems at scale. ACM Trans. Comput. Hum. Interact. (TOCHI) 22(2), 7 (2015)</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic extraction of AST patterns for debugging student programs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85022211967</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Lazar T.</ce:indexed-name>
+                                    <ce:surname>Lazar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>AIED 2017. LNCS (LNAI)</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="10331"/>
+                                <pagerange first="162" last="174"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/978-3-319-61425-014</ce:e-address>
+                            </ref-website>
+                            <ref-text>André, E., Baker, R., Hu, X., Rodrigo, M.M.T., du Boulay, B. (eds.), Springer, Cham</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Lazar, T., Možina, M., Bratko, I.: Automatic extraction of AST patterns for debugging student programs. In: André, E., Baker, R., Hu, X., Rodrigo, M.M.T., du Boulay, B. (eds.) AIED 2017. LNCS (LNAI), vol. 10331, pp. 162–174. Springer, Cham (2017). https://doi.org/10.1007/978-3-319-61425-0 14</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Orange: Data mining toolbox in Python</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84885599052</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Erjavec A.</ce:indexed-name>
+                                    <ce:surname>Erjavec</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Č.</ce:initials>
+                                    <ce:indexed-name>Gorup C.</ce:indexed-name>
+                                    <ce:surname>Gorup</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Hocevar T.</ce:indexed-name>
+                                    <ce:surname>Hočevar</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Milutinovic M.</ce:indexed-name>
+                                    <ce:surname>Milutinovič</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Polajnar M.</ce:indexed-name>
+                                    <ce:surname>Polajnar</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Toplak M.</ce:indexed-name>
+                                    <ce:surname>Toplak</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Staric A.</ce:indexed-name>
+                                    <ce:surname>Starič</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Stajdohar M.</ce:indexed-name>
+                                    <ce:surname>Štajdohar</ce:surname>
+                                </author>
+                                <author seq="12">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Umek L.</ce:indexed-name>
+                                    <ce:surname>Umek</ce:surname>
+                                </author>
+                                <author seq="13">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zagar L.</ce:indexed-name>
+                                    <ce:surname>Žagar</ce:surname>
+                                </author>
+                                <author seq="14">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zbontar J.</ce:indexed-name>
+                                    <ce:surname>Žbontar</ce:surname>
+                                </author>
+                                <author seq="15">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Zitnik M.</ce:indexed-name>
+                                    <ce:surname>Žitnik</ce:surname>
+                                </author>
+                                <author seq="16">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Mach. Learn. Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="2349" last="2353"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Demšar, J., Curk, T., Erjavec, A., Gorup, Č., Hočevar, T., Milutinovič, M., Možina, M., Polajnar, M., Toplak, M., Starič, A., Štajdohar, M., Umek, L., Žagar, L., Žbontar, J., Žitnik, M., Zupan, B.: Orange: data mining toolbox in Python. J. Mach. Learn. Res. 14, 2349–2353 (2013)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

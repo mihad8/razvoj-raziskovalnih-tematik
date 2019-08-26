@@ -1,0 +1,440 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84922948765</prism:url><dc:identifier>SCOPUS_ID:84922948765</dc:identifier><eid>2-s2.0-84922948765</eid><prism:doi>10.1117/12.2061834</prism:doi><article-number>92090X</article-number><dc:title>A proposal for an open source graphical environment for simulating X-ray optics</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>11</citedby-count><prism:publicationName>Proceedings of SPIE - The International Society for Optical Engineering</prism:publicationName><dc:publisher>
+                        SPIE
+                        spie@spie.org
+                    </dc:publisher><source-id>40067</source-id><prism:isbn>9781628412369</prism:isbn><prism:issn>1996756X 0277786X</prism:issn><prism:volume>9209</prism:volume><prism:coverDate>2014-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="55667239900"><ce:initials>M.S.</ce:initials><ce:indexed-name>Del Rio M.S.</ce:indexed-name><ce:surname>Del Rio</ce:surname><ce:given-name>Manuel Sanchez</ce:given-name><preferred-name><ce:initials>M.S.</ce:initials><ce:indexed-name>Del Rio M.</ce:indexed-name><ce:surname>Del Rio</ce:surname><ce:given-name>Manuel Sanchez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55667239900</author-url><affiliation id="60032633" href="https://api.elsevier.com/content/affiliation/affiliation_id/60032633"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2014 SPIE.</publishercopyright>
+                        <ce:para>A new graphic environment to drive X-ray optics simulation packages such as SHADOW and SRW is proposed. The aim is to simulate a virtual experiment, including the description of the electron beam and simulate the emitted radiation, the optics, the scattering by the sample and radiation detection. Python is chosen as common interaction language. The ingredients of the new application, a glossary of variables for optical component, the selection of visualization tools, and the integration of all these components in a high level workflow environment built on Orange are presented.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84922948765" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84922948765&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84922948765&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60033292" href="https://api.elsevier.com/content/affiliation/affiliation_id/60033292"><affilname>ELETTRA Sincrotrone Trieste S.C.p.A.</affilname><affiliation-city>Basovizza</affiliation-city><affiliation-country>Italy</affiliation-country></affiliation><affiliation id="60032633" href="https://api.elsevier.com/content/affiliation/affiliation_id/60032633"><affilname>European Synchrotron Radiation Facility</affilname><affiliation-city>Grenoble</affiliation-city><affiliation-country>France</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60006221" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006221"><affilname>Brookhaven National Laboratory</affilname><affiliation-city>Upton</affiliation-city><affiliation-country>United States</affiliation-country></affiliation><authors><author seq="1" auid="55667239900"><ce:initials>M.S.</ce:initials><ce:indexed-name>Del Rio M.S.</ce:indexed-name><ce:surname>Del Rio</ce:surname><ce:given-name>Manuel Sanchez</ce:given-name><preferred-name><ce:initials>M.S.</ce:initials><ce:indexed-name>Del Rio M.</ce:indexed-name><ce:surname>Del Rio</ce:surname><ce:given-name>Manuel Sanchez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55667239900</author-url><affiliation id="60032633" href="https://api.elsevier.com/content/affiliation/affiliation_id/60032633"/></author><author seq="2" auid="56193891200"><ce:initials>L.</ce:initials><ce:indexed-name>Rebuffi L.</ce:indexed-name><ce:surname>Rebuffi</ce:surname><ce:given-name>Luca</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Rebuffi L.</ce:indexed-name><ce:surname>Rebuffi</ce:surname><ce:given-name>Luca</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56193891200</author-url><affiliation id="60033292" href="https://api.elsevier.com/content/affiliation/affiliation_id/60033292"/></author><author seq="3" auid="55075851300"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55075851300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="50261229900"><ce:initials>N.</ce:initials><ce:indexed-name>Canestrari N.</ce:indexed-name><ce:surname>Canestrari</ce:surname><ce:given-name>Niccolo</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Canestrari N.</ce:indexed-name><ce:surname>Canestrari</ce:surname><ce:given-name>Niccolo</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/50261229900</author-url><affiliation id="60006221" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006221"/></author><author seq="5" auid="12646025500"><ce:initials>O.</ce:initials><ce:indexed-name>Chubar O.</ce:indexed-name><ce:surname>Chubar</ce:surname><ce:given-name>Oleg</ce:given-name><preferred-name><ce:initials>O.</ce:initials><ce:indexed-name>Chubar O.</ce:indexed-name><ce:surname>Chubar</ce:surname><ce:given-name>Oleg</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/12646025500</author-url><affiliation id="60006221" href="https://api.elsevier.com/content/affiliation/affiliation_id/60006221"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Graphical user interface</author-keyword><author-keyword>Optics simulations</author-keyword><author-keyword>Software</author-keyword><author-keyword>Virtual experiment</author-keyword><author-keyword>X-ray optics</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Emitted radiation</mainterm><mainterm weight="b" candidate="n">Graphic environment</mainterm><mainterm weight="b" candidate="n">Graphical environments</mainterm><mainterm weight="b" candidate="n">Optical components</mainterm><mainterm weight="b" candidate="n">Optics simulations</mainterm><mainterm weight="b" candidate="n">Radiation detection</mainterm><mainterm weight="b" candidate="n">Virtual experiments</mainterm><mainterm weight="b" candidate="n">Visualization tools</mainterm></idxterms><subject-areas><subject-area code="2504" abbrev="MATE">Electronic, Optical and Magnetic Materials</subject-area><subject-area code="3104" abbrev="PHYS">Condensed Matter Physics</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="2604" abbrev="MATH">Applied Mathematics</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="11" month="12" timestamp="2018-12-11T07:06:38.000038-05:00" year="2018"/><ait:date-sort day="01" month="01" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2015 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1117/12.2061834</ce:doi>
+                    <itemid idtype="PUI">602328451</itemid>
+                    <itemid idtype="CAR-ID">632786720</itemid>
+                    <itemid idtype="CPX">20150800546539</itemid>
+                    <itemid idtype="SCP">84922948765</itemid>
+                    <itemid idtype="SGR">84922948765</itemid>
+                </itemidlist><history>
+                    <date-created day="23" month="02" year="2015"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Graphical user interface</author-keyword>
+                        <author-keyword xml:lang="eng">Optics simulations</author-keyword>
+                        <author-keyword xml:lang="eng">Software</author-keyword>
+                        <author-keyword xml:lang="eng">Virtual experiment</author-keyword>
+                        <author-keyword xml:lang="eng">X-ray optics</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">A proposal for an open source graphical environment for simulating X-ray optics</titletext></citation-title><author-group><author auid="55667239900" seq="1" type="auth"><ce:initials>M.S.</ce:initials><ce:indexed-name>Del Rio M.S.</ce:indexed-name><ce:surname>Del Rio</ce:surname><ce:given-name>Manuel Sanchez</ce:given-name><preferred-name>
+                            <ce:initials>M.S.</ce:initials>
+                            <ce:indexed-name>Del Rio M.</ce:indexed-name>
+                            <ce:surname>Del Rio</ce:surname>
+                            <ce:given-name>Manuel Sanchez</ce:given-name>
+                        </preferred-name></author><affiliation afid="60032633" country="fra"><organization>ESRF the European Synchrotron</organization><address-part>71 Avenue des Martyrs</address-part><city>Grenoble</city><postal-code>38000</postal-code><affiliation-id afid="60032633"/><country>France</country></affiliation></author-group><author-group><author auid="56193891200" seq="2" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Rebuffi L.</ce:indexed-name><ce:surname>Rebuffi</ce:surname><ce:given-name>Luca</ce:given-name><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Rebuffi L.</ce:indexed-name>
+                            <ce:surname>Rebuffi</ce:surname>
+                            <ce:given-name>Luca</ce:given-name>
+                        </preferred-name></author><affiliation afid="60033292" country="ita"><organization>Elettra-Sincrotrone Trieste</organization><address-part>S.S. 14 km 163,5 in Area Science Park</address-part><city>Basovizza (TS)</city><affiliation-id afid="60033292"/><country>Italy</country></affiliation></author-group><author-group><author auid="55075851300" seq="3" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Demsar J.</ce:indexed-name><ce:surname>Demsar</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Demsar J.</ce:indexed-name>
+                            <ce:surname>Demsar</ce:surname>
+                            <ce:given-name>Janez</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="50261229900" seq="4" type="auth"><ce:initials>N.</ce:initials><ce:indexed-name>Canestrari N.</ce:indexed-name><ce:surname>Canestrari</ce:surname><ce:given-name>Niccolo</ce:given-name><preferred-name>
+                            <ce:initials>N.</ce:initials>
+                            <ce:indexed-name>Canestrari N.</ce:indexed-name>
+                            <ce:surname>Canestrari</ce:surname>
+                            <ce:given-name>Niccolo</ce:given-name>
+                        </preferred-name></author><author auid="12646025500" seq="5" type="auth"><ce:initials>O.</ce:initials><ce:indexed-name>Chubar O.</ce:indexed-name><ce:surname>Chubar</ce:surname><ce:given-name>Oleg</ce:given-name><preferred-name>
+                            <ce:initials>O.</ce:initials>
+                            <ce:indexed-name>Chubar O.</ce:indexed-name>
+                            <ce:surname>Chubar</ce:surname>
+                            <ce:given-name>Oleg</ce:given-name>
+                        </preferred-name></author><affiliation afid="60006221" country="usa"><organization>Brookhaven National Laboratory</organization><affiliation-id afid="60006221"/><country>United States</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.S.</ce:initials>
+                        <ce:indexed-name>Del Rio M.S.</ce:indexed-name>
+                        <ce:surname>Del Rio</ce:surname>
+                        <ce:given-name>Manuel Sanchez</ce:given-name>
+                    </person><affiliation country="fra"><organization>ESRF the European Synchrotron</organization><address-part>71 Avenue des Martyrs</address-part><city>Grenoble</city><postal-code>38000</postal-code><country>France</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2014 SPIE.</publishercopyright>
+                        <ce:para>A new graphic environment to drive X-ray optics simulation packages such as SHADOW and SRW is proposed. The aim is to simulate a virtual experiment, including the description of the electron beam and simulate the emitted radiation, the optics, the scattering by the sample and radiation detection. Python is chosen as common interaction language. The ingredients of the new application, a glossary of variables for optical component, the selection of visualization tools, and the integration of all these components in a high level workflow environment built on Orange are presented.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="40067" type="p"><sourcetitle>Proceedings of SPIE - The International Society for Optical Engineering</sourcetitle><sourcetitle-abbrev>Proc SPIE Int Soc Opt Eng</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Proceedings of SPIE - The International Society for Optical Engineering</translated-sourcetitle><volumetitle>Advances in Computational Methods for X-Ray Optics III</volumetitle><issn type="electronic">1996756X</issn><issn type="print">0277786X</issn><isbn length="13" level="volume" type="electronic">9781628412369</isbn><codencode>PSISD</codencode><volisspag>
+                        <voliss volume="9209"/>
+                    </volisspag><article-number>92090X</article-number><publicationyear first="2014"/><publicationdate>
+                        <year>2014</year>
+                    <date-text xfab-added="true">2014</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://spie.org/x1848.xml</ce:e-address>
+                    </website><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>O.</ce:initials>
+                            <ce:indexed-name>Chubar O.</ce:indexed-name>
+                            <ce:surname>Chubar</ce:surname>
+                            <ce:given-name>Oleg</ce:given-name>
+                        </contributor>
+                    </contributor-group><contributor-group>
+                        <contributor role="edit" seq="1">
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Sanchez del Rio M.</ce:indexed-name>
+                            <ce:surname>Sanchez del Rio</ce:surname>
+                            <ce:given-name>Manuel</ce:given-name>
+                        </contributor>
+                    </contributor-group><publisher>
+                        <publishername>SPIE</publishername>
+                        <ce:e-address type="email">spie@spie.org</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>Advances in Computational Methods for X-Ray Optics III</confname>
+                                <confnumber>3</confnumber>
+                                <confseriestitle>Advances in Computational Methods for X-Ray Optics</confseriestitle>
+                                <conflocation country="usa">
+                                    <city>San Diego</city>
+                                    <state>CA</state>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="18" month="08" year="2014"/>
+                                    <enddate day="21" month="08" year="2014"/>
+                                </confdate>
+                                <confcode>110752</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor>The Society of Photo-Optical Instrumentation Engineers (SPIE)</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 1</procpartno>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>722.2</classification-code>
+                                <classification-description>Computer Peripheral Equipment</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>932.1</classification-code>
+                                <classification-description>High Energy Physics</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2504</classification>
+                            <classification>3104</classification>
+                            <classification>1706</classification>
+                            <classification>2604</classification>
+                            <classification>2208</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATE</classification><classification>PHYS</classification><classification>COMP</classification><classification>MATH</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="8">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>SHADOW3: A new version of the synchrotron X-ray optics modelling package</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80052154523</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sanchez Del Rio M.</ce:indexed-name>
+                                    <ce:surname>Sanchez Del Rio</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Canestrari N.</ce:indexed-name>
+                                    <ce:surname>Canestrari</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Jiang F.</ce:indexed-name>
+                                    <ce:surname>Jiang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Cerrina F.</ce:indexed-name>
+                                    <ce:surname>Cerrina</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Synchrotron Radiation</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="18"/>
+                                <pagerange first="708" last="716"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sanchez del Rio, M., Canestrari, N. , Jiang, F. and Cerrina, F. "SHADOW3: a new version of the synchrotron X-ray optics modelling package" Journal of Synchrotron Radiation, 18, 708-716 (2011).</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Accurate and efficient computation of synchrotron radiation in the near field region</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002194280</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Chubar O.</ce:indexed-name>
+                                    <ce:surname>Chubar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Elleaume P.</ce:indexed-name>
+                                    <ce:surname>Elleaume</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the EPAC98 Conference</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <pagerange first="1177" last="1179"/>
+                            </ref-volisspag>
+                            <ref-text>22-26 June 1998</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Chubar, O., Elleaume, P. "Accurate And Efficient Computation Of Synchrotron Radiation In The Near Field Region" Proceedings of the EPAC98 Conference, 22-26 June 1998, 1177-1179 (1998)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>McXtrace: A monte carlo software package for simulating x-ray optics, beamlines and experiments</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84877846889</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Bergback Knudsen E.</ce:indexed-name>
+                                    <ce:surname>Bergback Knudsen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Prodi A.</ce:indexed-name>
+                                    <ce:surname>Prodi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Baltser J.</ce:indexed-name>
+                                    <ce:surname>Baltser</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Thomsen M.</ce:indexed-name>
+                                    <ce:surname>Thomsen</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Kjaer Willendrup P.</ce:indexed-name>
+                                    <ce:surname>Kjaer Willendrup</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Sanchez Del Rio M.</ce:indexed-name>
+                                    <ce:surname>Sanchez Del Rio</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Ferrero C.</ce:indexed-name>
+                                    <ce:surname>Ferrero</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Farhi E.</ce:indexed-name>
+                                    <ce:surname>Farhi</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Haldrup K.</ce:indexed-name>
+                                    <ce:surname>Haldrup</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Vickery A.</ce:indexed-name>
+                                    <ce:surname>Vickery</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Feidenhans'L R.</ce:indexed-name>
+                                    <ce:surname>Feidenhans'L</ce:surname>
+                                </author>
+                                <author seq="12">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mortensen K.</ce:indexed-name>
+                                    <ce:surname>Mortensen</ce:surname>
+                                </author>
+                                <author seq="13">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Meedom Nielsen M.</ce:indexed-name>
+                                    <ce:surname>Meedom Nielsen</ce:surname>
+                                </author>
+                                <author seq="14">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Friis Poulsen H.</ce:indexed-name>
+                                    <ce:surname>Friis Poulsen</ce:surname>
+                                </author>
+                                <author seq="15">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Schmidt S.</ce:indexed-name>
+                                    <ce:surname>Schmidt</ce:surname>
+                                </author>
+                                <author seq="16">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Lefmann K.</ce:indexed-name>
+                                    <ce:surname>Lefmann</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Applied Crystallography</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="46"/>
+                                <pagerange first="679" last="696"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bergback Knudsen, E., Prodi, A., Baltser, J., Thomsen, M., Kjaer Willendrup, P., Sanchez del Rio, M., Ferrero, C., Farhi, E., Haldrup, K., Vickery, A., Feidenhans'l, R., Mortensen, K., Meedom Nielsen, M., Friis Poulsen, H., Schmidt, S., and Lefmann, K., "McXtrace: a Monte Carlo software package for simulating X-ray optics, beamlines and experiments" Journal of Applied Crystallography, 46, 679-696 (2013).</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A powerful scriptable ray tracing package xrt</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84922928531</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.K.</ce:initials>
+                                    <ce:indexed-name>Klementiev L.K.</ce:indexed-name>
+                                    <ce:surname>Klementiev</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. SPIE</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="9209"/>
+                                <pagerange first="920909"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Klementiev, LK. "A powerful scriptable ray tracing package xrt" Proc. SPIE 9209, 920909 (2014).</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Orange: Data mining toolbox in python</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84885599052</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Curk T.</ce:indexed-name>
+                                    <ce:surname>Curk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Erjavec A.</ce:indexed-name>
+                                    <ce:surname>Erjavec</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="2349" last="2353"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Demšar, J., Curk, T., and Erjavec, A., et al. "Orange: Data Mining Toolbox in Python" Journal of Machine Learning Research 14, 2349-2353 (2013).</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84922929849</itemid>
+                            </refd-itemidlist>
+                            <ref-website>
+                                <ce:e-address type="email">https://github.com/biolab/orange3</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>"https://github.com/biolab/orange3"</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Calculation of the instrumental profile function for a powder diffraction beamline used in nanocrystalline material research</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84922880482</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Rebuffi L.</ce:indexed-name>
+                                    <ce:surname>Rebuffi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Scardi P.</ce:indexed-name>
+                                    <ce:surname>Scardi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. SPIE</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="9209"/>
+                                <pagerange first="920918"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rebuffi, L., Scardi, P. "Calculation of the instrumental profile function for a powder diffraction beamline used in nanocrystalline material research" Proc. SPIE 9209, 920918 (2014).</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>MCX: A synchrotron radiation beamline for x-ray diffraction line profile analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84916625233</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Rebuffi L.</ce:indexed-name>
+                                    <ce:surname>Rebuffi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Plaisier J.R.</ce:indexed-name>
+                                    <ce:surname>Plaisier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Abdellatief M.</ce:indexed-name>
+                                    <ce:surname>Abdellatief</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Lausi A.</ce:indexed-name>
+                                    <ce:surname>Lausi</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Scardi P.</ce:indexed-name>
+                                    <ce:surname>Scardi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Z. Anorg. Allg. Chem</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="0"/>
+                                <pagerange first="00" last="00"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rebuffi, L., Plaisier, J.R., Abdellatief, M., Lausi, A., Scardi, P., "MCX: a Synchrotron Radiation Beamline for X-ray Diffraction Line Profile Analysis" Z. anorg. allg. Chem. 00,00-00 (2014)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

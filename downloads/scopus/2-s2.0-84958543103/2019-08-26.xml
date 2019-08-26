@@ -1,0 +1,446 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84958543103</prism:url><dc:identifier>SCOPUS_ID:84958543103</dc:identifier><eid>2-s2.0-84958543103</eid><prism:doi>10.1007/978-3-319-07221-0_73</prism:doi><dc:title>Designing an interactive teaching tool with ABML knowledge refinement loop</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><dc:publisher>
+                        Springer Verlag
+                        service@springer.de
+                    </dc:publisher><source-id>25674</source-id><prism:isbn>9783319072203</prism:isbn><prism:issn>16113349 03029743</prism:issn><prism:volume>8474 LNCS</prism:volume><prism:startingPage>575</prism:startingPage><prism:endingPage>582</prism:endingPage><prism:pageRange>575-582</prism:pageRange><prism:coverDate>2014-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="49561875600"><ce:initials>M.</ce:initials><ce:indexed-name>Zapusek M.</ce:indexed-name><ce:surname>Zapušek</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Zapušek M.</ce:indexed-name><ce:surname>Zapušek</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/49561875600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Argument-based machine learning (ABML) knowledge refinement loop offers a powerful knowledge elicitation tool, suitable for obtaining expert knowledge in difficult domains. In this paper, we first use it to conceptualize a difficult, even ill-defined concept: distinguishing between "basic" and "advanced" programming style in python programming language, and then to teach this concept in an interactive learning session between a student and the computer. We demonstrate that by automatically selecting relevant examples and counter examples to be explained by the student, the ABML knowledge refinement loop provides a valuable interactive teaching tool. © 2014 Springer International Publishing Switzerland.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84958543103" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84958543103&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84958543103&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="49561875600"><ce:initials>M.</ce:initials><ce:indexed-name>Zapusek M.</ce:indexed-name><ce:surname>Zapušek</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Zapušek M.</ce:indexed-name><ce:surname>Zapušek</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/49561875600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="55948048700"><ce:initials>J.</ce:initials><ce:indexed-name>Rugelj J.</ce:indexed-name><ce:surname>Rugelj</ce:surname><ce:given-name>Jože</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Rugelj J.</ce:indexed-name><ce:surname>Rugelj</ce:surname><ce:given-name>Jože</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55948048700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="14121297500"><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14121297500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>argument-based machine learning</author-keyword><author-keyword>computer programming</author-keyword><author-keyword>ill-defined concept</author-keyword><author-keyword>intelligent tutoring</author-keyword><author-keyword>knowledge elicitation</author-keyword><author-keyword>programming style</author-keyword><author-keyword>python</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Argument-based machine learning</mainterm><mainterm weight="b" candidate="n">ill-defined concept</mainterm><mainterm weight="b" candidate="n">Intelligent tutoring</mainterm><mainterm weight="b" candidate="n">Programming styles</mainterm><mainterm weight="b" candidate="n">python</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="28" month="08" timestamp="2018-08-28T16:09:22.000022-04:00" year="2018"/><ait:date-sort day="01" month="01" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2016 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-319-07221-0_73</ce:doi>
+                    <itemid idtype="PUI">373808167</itemid>
+                    <itemid idtype="CAR-ID">625425612</itemid>
+                    <itemid idtype="CPX">20143518111425</itemid>
+                    <itemid idtype="SCP">84958543103</itemid>
+                    <itemid idtype="SGR">84958543103</itemid>
+                </itemidlist><history>
+                    <date-created day="24" month="11" timestamp="BST 14:46:16" year="2016"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">argument-based machine learning</author-keyword>
+                        <author-keyword xml:lang="eng">computer programming</author-keyword>
+                        <author-keyword xml:lang="eng">ill-defined concept</author-keyword>
+                        <author-keyword xml:lang="eng">intelligent tutoring</author-keyword>
+                        <author-keyword xml:lang="eng">knowledge elicitation</author-keyword>
+                        <author-keyword xml:lang="eng">programming style</author-keyword>
+                        <author-keyword xml:lang="eng">python</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Designing an interactive teaching tool with ABML knowledge refinement loop</titletext></citation-title><author-group><author auid="49561875600" seq="1" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Zapusek M.</ce:indexed-name><ce:surname>Zapušek</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Zapušek M.</ce:indexed-name>
+                            <ce:surname>Zapušek</ce:surname>
+                            <ce:given-name>Matej</ce:given-name>
+                        </preferred-name></author><author auid="55948048700" date-locked="2018-06-17T09:36:54.914" seq="4" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Rugelj J.</ce:indexed-name><ce:surname>Rugelj</ce:surname><ce:given-name>Jože</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Rugelj J.</ce:indexed-name>
+                            <ce:surname>Rugelj</ce:surname>
+                            <ce:given-name>Jože</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="112820954"><organization>Faculty of Education</organization><organization>University of Ljubljana</organization><affiliation-id afid="60031106" dptid="112820954"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="35409925300" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Možina M.</ce:indexed-name>
+                            <ce:surname>Možina</ce:surname>
+                            <ce:given-name>Martin</ce:given-name>
+                        </preferred-name></author><author auid="7003286588" seq="3" type="auth"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Bratko I.</ce:indexed-name>
+                            <ce:surname>Bratko</ce:surname>
+                            <ce:given-name>Ivan</ce:given-name>
+                        </preferred-name></author><author auid="14121297500" seq="5" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Guid M.</ce:indexed-name>
+                            <ce:surname>Guid</ce:surname>
+                            <ce:given-name>Matej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580834"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><affiliation-id afid="60031106" dptid="104580834"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Argument-based machine learning (ABML) knowledge refinement loop offers a powerful knowledge elicitation tool, suitable for obtaining expert knowledge in difficult domains. In this paper, we first use it to conceptualize a difficult, even ill-defined concept: distinguishing between "basic" and "advanced" programming style in python programming language, and then to teach this concept in an interactive learning session between a student and the computer. We demonstrate that by automatically selecting relevant examples and counter examples to be explained by the student, the ABML knowledge refinement loop provides a valuable interactive teaching tool. © 2014 Springer International Publishing Switzerland.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</translated-sourcetitle><issuetitle>Intelligent Tutoring Systems - 12th International Conference, ITS 2014, Proceedings</issuetitle><issn type="electronic">16113349</issn><issn type="print">03029743</issn><isbn length="13" level="volume" type="print">9783319072203</isbn><volisspag>
+                        <voliss volume="8474 LNCS"/>
+                        <pagerange first="575" last="582"/>
+                    </volisspag><publicationyear first="2014"/><publicationdate>
+                        <year>2014</year>
+                    <date-text xfab-added="true">2014</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://springerlink.com/content/0302-9743/copyright/2005/</ce:e-address>
+                    </website><publisher>
+                        <publishername>Springer Verlag</publishername>
+                        <ce:e-address type="email">service@springer.de</ce:e-address>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>12th International Conference on Intelligent Tutoring Systems, ITS 2014</confname>
+                                <conflocation country="usa">
+                                    <city-group>Honolulu, HI</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="05" month="06" year="2014"/>
+                                    <enddate day="09" month="06" year="2014"/>
+                                </confdate>
+                                <confcode>107059</confcode>
+                                <confsponsors complete="y">
+                                    <confsponsor>in Education Society</confsponsor>
+                                    <confsponsor>International Artificial Intelligence</confsponsor>
+                                    <confsponsor>MARi</confsponsor>
+                                    <confsponsor>of Artificial Intelligence (AAAI)</confsponsor>
+                                    <confsponsor>The Association for the Advancement</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpagerange>var.pagings</procpagerange>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>901.2</classification-code>
+                                <classification-description>Education</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="8">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Supporting students in C++ programming courses with automatic program style assessment</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33751074658</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Ala-Mutka K.</ce:indexed-name>
+                                    <ce:surname>Ala-Mutka</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Uimonen T.</ce:indexed-name>
+                                    <ce:surname>Uimonen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.M.</ce:initials>
+                                    <ce:indexed-name>Jarvinen H.M.</ce:indexed-name>
+                                    <ce:surname>Järvinen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>JITE</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="245" last="262"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ala-Mutka, K., Uimonen, T., Järvinen, H.M.: Supporting students in C++ programming courses with automatic program style assessment. JITE 3, 245-262 (2004)</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Elicitation of neurological knowledge with argumentbased machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875113924</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Groznik V.</ce:indexed-name>
+                                    <ce:surname>Groznik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guid M.</ce:indexed-name>
+                                    <ce:surname>Guid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mǒzina</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                                    <ce:surname>Georgiev</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Kragelj V.</ce:indexed-name>
+                                    <ce:surname>Kragelj</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ribaric S.</ce:indexed-name>
+                                    <ce:surname>Ribarič</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Pirtosek Z.</ce:indexed-name>
+                                    <ce:surname>Pirtǒsek</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence in Medicine</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="57"/>
+                                <pagerange first="133" last="144"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Groznik, V., Guid, M., Sadikov, A., Mǒzina, M., Georgiev, D., Kragelj, V., Ribarič, S., Pirtǒsek, Z., Bratko, I.: Elicitation of neurological knowledge with argumentbased machine learning. Artificial Intelligence in Medicine 57(2), 133-144 (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ABML knowledge refinement loop: A case study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84870874568</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guid M.</ce:indexed-name>
+                                    <ce:surname>Guid</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mǒzina</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Groznik V.</ce:indexed-name>
+                                    <ce:surname>Groznik</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Georgiev D.</ce:indexed-name>
+                                    <ce:surname>Georgiev</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Pirtosek Z.</ce:indexed-name>
+                                    <ce:surname>Pirtǒsek</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>LNCS (LNAI)</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="7661"/>
+                                <pagerange first="41" last="50"/>
+                            </ref-volisspag>
+                            <ref-text>Chen, L., Felfernig, A., Liu, J., Räs, Z.W. (eds.) ISMIS 2012 Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Guid, M., Mǒzina, M., Groznik, V., Georgiev, D., Sadikov, A., Pirtǒsek, Z., Bratko, I.: ABML knowledge refinement loop: A case study. In: Chen, L., Felfernig, A., Liu, J., Räs, Z.W. (eds.)) ISMIS 2012. LNCS (LNAI), vol. 7661, pp. 41-50. Springer, Heidelberg (2012)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Integrating perceptual learning with external world knowledge in a simulated student</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84880017143</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Li N.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Tian Y.</ce:indexed-name>
+                                    <ce:surname>Tian</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.W.</ce:initials>
+                                    <ce:indexed-name>Cohen W.W.</ce:indexed-name>
+                                    <ce:surname>Cohen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.R.</ce:initials>
+                                    <ce:indexed-name>Koedinger K.R.</ce:indexed-name>
+                                    <ce:surname>Koedinger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>LNCS (LNAI)</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="7926"/>
+                                <pagerange first="400" last="410"/>
+                            </ref-volisspag>
+                            <ref-text>Lane, H.C., Yacef, K., Mostow, J., Pavlik, P. (eds.) AIED 2013 Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Li, N., Tian, Y., Cohen, W.W., Koedinger, K.R.: Integrating perceptual learning with external world knowledge in a simulated student. In: Lane, H.C., Yacef, K., Mostow, J., Pavlik, P. (eds.)) AIED 2013. LNCS (LNAI), vol. 7926, pp. 400-410. Springer, Heidelberg (2013)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning by teaching simStudent: Technical accomplishments and an initial use with students</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79957441827</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Matsuda N.</ce:indexed-name>
+                                    <ce:surname>Matsuda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Keiser V.</ce:indexed-name>
+                                    <ce:surname>Keiser</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Raizada R.</ce:indexed-name>
+                                    <ce:surname>Raizada</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Tu A.</ce:indexed-name>
+                                    <ce:surname>Tu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Stylianides G.</ce:indexed-name>
+                                    <ce:surname>Stylianides</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>W.W.</ce:initials>
+                                    <ce:indexed-name>Cohen W.W.</ce:indexed-name>
+                                    <ce:surname>Cohen</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>K.R.</ce:initials>
+                                    <ce:indexed-name>Koedinger K.R.</ce:indexed-name>
+                                    <ce:surname>Koedinger</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>LNCS</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="6094"/>
+                                <pagerange first="317" last="326"/>
+                            </ref-volisspag>
+                            <ref-text>Aleven, V., Kay, J., Mostow, J. (eds.) ITS 2010, Part I Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Matsuda, N., Keiser, V., Raizada, R., Tu, A., Stylianides, G., Cohen, W.W., Koedinger, K.R.: Learning by teaching simStudent: Technical accomplishments and an initial use with students. In: Aleven, V., Kay, J., Mostow, J. (eds.)) ITS 2010, Part I. LNCS, vol. 6094, pp. 317-326. Springer, Heidelberg (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fighting knowledge acquisition bottleneck with Argument Based Machine Learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953737569</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mǒzina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Guid M.</ce:indexed-name>
+                                    <ce:surname>Guid</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Krivec J.</ce:indexed-name>
+                                    <ce:surname>Krivec</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sadikov A.</ce:indexed-name>
+                                    <ce:surname>Sadikov</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The 18th European Conference on Artificial Intelligence (ECAI)</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="234" last="238"/>
+                            </ref-volisspag>
+                            <ref-text>Patras, Greece</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mǒzina, M., Guid, M., Krivec, J., Sadikov, A., Bratko, I.: Fighting knowledge acquisition bottleneck with Argument Based Machine Learning. In: The 18th European Conference on Artificial Intelligence (ECAI), Patras, Greece, pp. 234-238 (2008)</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Argument based machine learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34548011440</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Mǒzina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zabkar J.</ce:indexed-name>
+                                    <ce:surname>Zabkar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="10-15" volume="171"/>
+                                <pagerange first="922" last="937"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mǒzina, M., Zabkar, J., Bratko, I.: Argument based machine learning. Artificial Intelligence 171(10/15), 922-937 (2007)</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004670092</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Okeefe R.</ce:indexed-name>
+                                    <ce:surname>Okeefe</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Craft of Prolog</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-text>The MIT Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>OKeefe, R.: The Craft of Prolog. The MIT Press (2009)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

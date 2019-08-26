@@ -1,0 +1,570 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84898274391</prism:url><dc:identifier>SCOPUS_ID:84898274391</dc:identifier><eid>2-s2.0-84898274391</eid><prism:doi>10.4018/978-1-4666-1806-0.ch012</prism:doi><dc:title>Learning and explaining the impact of enterprises' organizational quality on their economic results</dc:title><prism:aggregationType>Book</prism:aggregationType><srctype>b</srctype><subtype>ch</subtype><subtypeDescription>Chapter</subtypeDescription><citedby-count>4</citedby-count><prism:publicationName>Intelligent Data Analysis for Real-Life Applications: Theory and Practice</prism:publicationName><dc:publisher>
+                        IGI Global
+                    </dc:publisher><source-id>21100302268</source-id><prism:isbn>9781466618060</prism:isbn><prism:startingPage>228</prism:startingPage><prism:endingPage>248</prism:endingPage><prism:pageRange>228-248</prism:pageRange><prism:coverDate>2012-12-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="56110817200"><ce:initials>M.</ce:initials><ce:indexed-name>Pregeljc M.</ce:indexed-name><ce:surname>Pregeljc</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pregeljc M.</ce:indexed-name><ce:surname>Pregeljc</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56110817200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The authors employed traditional and novel machine learning to improve insight into the connections between the quality of an organization of enterprises as a type of formal social units and the results of enterprises' performance in this chapter. The analyzed data set contains 72 Slovenian enterprises' economic results across four years and indicators of their organizational quality. The authors hypothesize that a causal relationship exists between the latter and the former. In the first part of a two-part process, they use several classification algorithms to study these relationships and to evaluate how accurately they predict the target economic results. However, the most successful models were often very complex and difficult to interpret, especially for non-technical users. Therefore, in the second part, the authors take advantage of a novel general explanation method that can be used to explain the influence of individual features on the model's prediction. Results show that traditional machine-learning approaches are successful at modeling the dependency relationship. Furthermore, the explanation of the influence of the input features on the predicted economic results provides insights that have a meaningful economic interpretation. © 2012, IGI Global.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84898274391" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84898274391&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84898274391&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="56110817200"><ce:initials>M.</ce:initials><ce:indexed-name>Pregeljc M.</ce:indexed-name><ce:surname>Pregeljc</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pregeljc M.</ce:indexed-name><ce:surname>Pregeljc</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56110817200</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="57204664304"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Štrumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204664304</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6603423370"><ce:initials>M.</ce:initials><ce:indexed-name>Mihelcic M.</ce:indexed-name><ce:surname>Mihelčič</ce:surname><ce:given-name>Miran</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Mihelčič M.</ce:indexed-name><ce:surname>Mihelčič</ce:surname><ce:given-name>Miran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603423370</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="57188535146"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188535146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms/><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="22" month="11" timestamp="2018-11-22T14:38:41.000041-05:00" year="2018"/><ait:date-sort day="01" month="12" year="2012"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2014 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.4018/978-1-4666-1806-0.ch012</ce:doi>
+                    <itemid idtype="PUI">255350045</itemid>
+                    <itemid idtype="SNBOOK">2014119273</itemid>
+                    <itemid idtype="SCP">84898274391</itemid>
+                    <itemid idtype="SGR">84898274391</itemid>
+                </itemidlist><history>
+                    <date-created day="17" month="04" year="2014"/>
+                </history><dbcollection>SNBOOK</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ch"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Learning and explaining the impact of enterprises' organizational quality on their economic results</titletext></citation-title><author-group><author auid="56110817200" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Pregeljc M.</ce:indexed-name><ce:surname>Pregeljc</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Pregeljc M.</ce:indexed-name>
+                            <ce:surname>Pregeljc</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><author auid="57204664304" seq="2"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name>
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Štrumbelj E.</ce:indexed-name>
+                            <ce:surname>Štrumbelj</ce:surname>
+                            <ce:given-name>Erik</ce:given-name>
+                        </preferred-name></author><author auid="6603423370" seq="3"><ce:initials>M.</ce:initials><ce:indexed-name>Mihelcic M.</ce:indexed-name><ce:surname>Mihelčič</ce:surname><ce:given-name>Miran</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Mihelčič M.</ce:indexed-name>
+                            <ce:surname>Mihelčič</ce:surname>
+                            <ce:given-name>Miran</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="57188535146" seq="4"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                            <ce:surname>Kononenko</ce:surname>
+                            <ce:given-name>Igor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="105764893"><organization>Laboratory for Cognitive Modeling</organization><organization>University of Ljubljana</organization><affiliation-id afid="60031106" dptid="105764893"/><country>Slovenia</country></affiliation></author-group><correspondence><affiliation country="svn"><organization>University of Ljubljana</organization><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The authors employed traditional and novel machine learning to improve insight into the connections between the quality of an organization of enterprises as a type of formal social units and the results of enterprises' performance in this chapter. The analyzed data set contains 72 Slovenian enterprises' economic results across four years and indicators of their organizational quality. The authors hypothesize that a causal relationship exists between the latter and the former. In the first part of a two-part process, they use several classification algorithms to study these relationships and to evaluate how accurately they predict the target economic results. However, the most successful models were often very complex and difficult to interpret, especially for non-technical users. Therefore, in the second part, the authors take advantage of a novel general explanation method that can be used to explain the influence of individual features on the model's prediction. Results show that traditional machine-learning approaches are successful at modeling the dependency relationship. Furthermore, the explanation of the influence of the input features on the predicted economic results provides insights that have a meaningful economic interpretation. © 2012, IGI Global.</ce:para>
+                    </abstract></abstracts><source srcid="21100302268" type="b"><sourcetitle>Intelligent Data Analysis for Real-Life Applications: Theory and Practice</sourcetitle><sourcetitle-abbrev>Intelligent Data Anal. for Real-Life Applic.: Theor. and Pract.</sourcetitle-abbrev><isbn length="13">9781466618060</isbn><volisspag>
+                        <pagerange first="228" last="248"/>
+                    </volisspag><publicationyear first="2012"/><publicationdate>
+                        <year>2012</year>
+                    <date-text xfab-added="true">2012</date-text></publicationdate><website>
+                        <ce:e-address type="url">http://www.igi-global.com/book/intelligent-data-analysis-real-life/62622</ce:e-address>
+                    </website><publisher>
+                        <publishername>IGI Global</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="16">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visualizing the simple Bayesian classier</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0345159788</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Becker B.</ce:indexed-name>
+                                    <ce:surname>Becker</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kohavi R.</ce:indexed-name>
+                                    <ce:surname>Kohavi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Sommerfield D.</ce:indexed-name>
+                                    <ce:surname>Sommerfield</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>KDD Workshop on Issues in the Integration of Data Mining and Data Visualization</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-text>In, Menlo Park, CA: AAAI Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Becker, B., Kohavi, R., &amp; Sommerfield, D. (1997). Visualizing the simple Bayesian classier. In KDD Workshop on Issues in the Integration of Data Mining and Data Visualization. Menlo Park, CA: AAAI Press.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Positive relationships at work: An introduction and invitation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">60349084810</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.E.</ce:initials>
+                                    <ce:indexed-name>Dutton J.E.</ce:indexed-name>
+                                    <ce:surname>Dutton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.R.</ce:initials>
+                                    <ce:indexed-name>Ragins B.R.</ce:indexed-name>
+                                    <ce:surname>Ragins</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Exploring Positive Relationships at Work: Building a Theoretical and Research Foundation</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="3" last="25"/>
+                            </ref-volisspag>
+                            <ref-text>In, Mahwah, NJ: Lawrence Erlbaum Associates Publishers</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Dutton, J. E., &amp; Ragins, B. R. (2007). Positive relationships at work: An introduction and invitation. In Exploring positive relationships at work: Building a theoretical and research foundation (pp. 3-25). Mahwah, NJ: Lawrence Erlbaum Associates Publishers.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The WEKA data mining software: An update</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">76749092270</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Hall M.</ce:indexed-name>
+                                    <ce:surname>Hall</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Frank E.</ce:indexed-name>
+                                    <ce:surname>Frank</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Holmes G.</ce:indexed-name>
+                                    <ce:surname>Holmes</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Pfahringer B.</ce:indexed-name>
+                                    <ce:surname>Pfahringer</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Reutemann P.</ce:indexed-name>
+                                    <ce:surname>Reutemann</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>I.H.</ce:initials>
+                                    <ce:indexed-name>Witten I.H.</ce:indexed-name>
+                                    <ce:surname>Witten</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SIGKDD Explorations</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="11"/>
+                                <pagerange first="1" last="3"/>
+                            </ref-volisspag>
+                            <ref-text>doi:10.1145/1656274.1656278</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hall, M., Frank, E., Holmes, G., Pfahringer, B., Reutemann, P., &amp; Witten, I. H. (2009). The WEKA data mining software: An update. SIGKDD Explorations, 11(1), 1-3. doi:10.1145/1656274.1656278</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nomograms for visualizing support vector machines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">32344441116</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jakulin A.</ce:indexed-name>
+                                    <ce:surname>Jakulin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>KDD '05: ACM SIGKDD</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="108" last="117"/>
+                            </ref-volisspag>
+                            <ref-text>In, New York, NY: ACM</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jakulin, A., Možina, M., Demšar, J., Bratko, I., &amp; Zupan, B. (2005). Nomograms for visualizing support vector machines. In KDD '05: ACM SIGKDD (pp. 108-117). New York, NY: ACM.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Contact personalization using a score understanding method</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">56349095888</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Lemaire V.</ce:indexed-name>
+                                    <ce:surname>Lemaire</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Feraud V.</ce:indexed-name>
+                                    <ce:surname>Feraud</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Voisine N.</ce:indexed-name>
+                                    <ce:surname>Voisine</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Joint Conference on Neural Networks (IJCNN)</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="649" last="654"/>
+                            </ref-volisspag>
+                            <ref-text>In, Hong Kong: IEEE Xplore</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Lemaire, V., Feraud, V., &amp; Voisine, N. (2008). Contact personalization using a score understanding method. In International Joint Conference on Neural Networks (IJCNN) (pp. 649-654). Hong Kong: IEEE Xplore.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Focusing on relationships as a means of accelerating organizational improvement</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898106406</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mihelcic M.</ce:indexed-name>
+                                    <ce:surname>Mihelčič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Innovation Strategies - Theoretical Approaches - Experiences - Improvements - an International Perspective</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <pagerange first="141" last="152"/>
+                            </ref-volisspag>
+                            <ref-text>In Geschka, H., &amp; Huebner, H. (Eds.), Amsterdam, The Netherlands, Elsevier</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mihelčič, M. (1992a). Focusing on relationships as a means of accelerating organizational improvement. In Geschka, H., &amp; Huebner, H. (Eds.), Innovation strategies - Theoretical approaches - Experiences - Improvements - An international perspective (pp. 141-152). Amsterdam, The Netherlands: Elsevier.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Interdependency between perceived quality of companies' organization (or-ganizational excellence) and performance: Some assumptions of correlational study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898098536</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mihelcic M.</ce:indexed-name>
+                                    <ce:surname>Mihelčič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Slovenska Ekonomska Revija</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="43"/>
+                                <pagerange first="67" last="81"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mihelčič, M. (1992b). Interdependency between perceived quality of companies' organization (or-ganizational excellence) and performance: Some assumptions of correlational study. Slovenska Ekonomska Revija, 43(1), 67-81.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Could learning about the structure of relationships lead either to a break-through or synthesis in organization theory?</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898251427</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mihelcic M.</ce:indexed-name>
+                                    <ce:surname>Mihelčič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings: Beyond Waltz - Dances of Individuals and Organization, 23rd EGOS Colloquium, Vienna, 4-7 July 2007</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-text>In, London, UK: Sage Publications</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mihelčič, M. (2007). Could learning about the structure of relationships lead either to a break-through or synthesis in organization theory? In Proceedings: Beyond Waltz - Dances of Individuals and Organization, 23rd EGOS Colloquium, Vienna, 4-7 July 2007. London, UK: Sage Publications.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Transversality of the Shapley value</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">44649110114</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Moretti S.</ce:indexed-name>
+                                    <ce:surname>Moretti</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Patrone F.</ce:indexed-name>
+                                    <ce:surname>Patrone</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Top (Madrid)</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="16"/>
+                                <pagerange first="1" last="41"/>
+                            </ref-volisspag>
+                            <ref-text>doi:10.1007/s11750-008-0044-5</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Moretti, S., &amp; Patrone, F. (2008). Transversality of the Shapley value. Top (Madrid), 16, 1-41. doi:10.1007/s11750-008-0044-5</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nomograms for visualization of naive Bayesian classifier</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750710231</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kattan M.</ce:indexed-name>
+                                    <ce:surname>Kattan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>PKDD 2004</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="337" last="348"/>
+                            </ref-volisspag>
+                            <ref-text>In, Berlin, Germany: Springer-Verlag, doi:10.1007/978-3-540-30116-5_32</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Možina, M., Demšar, J., Kattan, M., &amp; Zupan, B. (2004). Nomograms for visualization of naive Bayesian classifier. In PKDD 2004 (pp. 337-348). Berlin, Germany: Springer-Verlag. doi:10.1007/978-3-540-30116-5_32</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Theoretical and empirical analysis of ReliefF and RReliefF</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0141990695</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik-Šikonja</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning Journal</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="53"/>
+                                <pagerange first="23" last="69"/>
+                            </ref-volisspag>
+                            <ref-text>doi:10.1023/A:1025667309714</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Robnik-Šikonja, M., &amp; Kononenko, I. (2003). Theoretical and empirical analysis of ReliefF and RReliefF. Machine Learning Journal, 53, 23-69. doi:10.1023/A:1025667309714</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A value for n-person games</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001255447</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.S.</ce:initials>
+                                    <ce:indexed-name>Shapley L.S.</ce:indexed-name>
+                                    <ce:surname>Shapley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Contributions to the Theory of Games</ref-sourcetitle>
+                            <ref-publicationyear first="1953"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                            </ref-volisspag>
+                            <ref-text>In Kuhn, H. W., &amp; Tucker, A. W. (Eds.), Princeton, NJ, Princeton University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Shapley, L. S. (1953). A value for n-person games. In Kuhn, H. W., &amp; Tucker, A. W. (Eds.), contributions to the theory of games (Vol. II). Princeton, NJ: Princeton University Press.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An efficient explanation of individual classifications using game theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">76749170318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1" last="18"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Štrumbelj, E., &amp; Kononenko, I. (2010). An efficient explanation of individual classifications using game theory. Journal of Machine Learning Research, 11, 1-18.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A general method for visualizing and explaining black-box regression models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898162735</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>International Conference on Adaptive and Natural Computing Algorithms</ref-sourcetitle>
+                            <ref-text>(in press), ICANNGA 2011</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Štrumbelj, E., &amp; Kononenko, I. (in press). A general method for visualizing and explaining black-box regression models. International Conference on Adaptive and Natural Computing Algorithms, ICANNGA 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual explanation of evidence in additive classifiers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750708213</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Szafron D.</ce:indexed-name>
+                                    <ce:surname>Szafron</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Poulin B.</ce:indexed-name>
+                                    <ce:surname>Poulin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Eisner R.</ce:indexed-name>
+                                    <ce:surname>Eisner</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Lu P.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Greiner R.</ce:indexed-name>
+                                    <ce:surname>Greiner</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Wishart D.</ce:indexed-name>
+                                    <ce:surname>Wishart</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Anvik J.</ce:indexed-name>
+                                    <ce:surname>Anvik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of Innovative Applications of Artificial Intelligence - Volume 2</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>In, Menlo Park, CA: AAAI Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Szafron, D., Poulin, B., Eisner, R., Lu, P., Greiner, R., &amp; Wishart, D....Anvik, J. (2006). Visual explanation of evidence in additive classifiers. In Proceedings of Innovative Applications of Artificial Intelligence - Volume 2. Menlo Park, CA: AAAI Press.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The feature importance ranking measure</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">70349960048</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zien A.</ce:indexed-name>
+                                    <ce:surname>Zien</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kramer N.</ce:indexed-name>
+                                    <ce:surname>Krämer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sonnenburg S.</ce:indexed-name>
+                                    <ce:surname>Sonnenburg</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Ratsch G.</ce:indexed-name>
+                                    <ce:surname>Rätsch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ECML PKDD 2009: Part II</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="694" last="709"/>
+                            </ref-volisspag>
+                            <ref-text>In, Berlin, Germany: Springer-Verlag</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zien, A., Krämer, N., Sonnenburg, S., &amp; Rätsch, G. (2009). The feature importance ranking measure. In ECML PKDD 2009: Part II (pp. 694-709). Berlin, Germany: Springer-Verlag.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

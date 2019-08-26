@@ -1,0 +1,559 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85056790181</prism:url><dc:identifier>SCOPUS_ID:85056790181</dc:identifier><eid>2-s2.0-85056790181</eid><dc:title>Searching for pattern graphs using a search plan in the presence of automorphisms Iskanje vzorčnih grafov s pomočjo iskalnega načrta ob prisotnosti avtomorfizmov</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Elektrotehniski Vestnik/Electrotechnical Review</prism:publicationName><dc:publisher>
+Electrotechnical Society of Slovenia
+Andrej.Zemva@fe.uni-lj.si
+</dc:publisher><source-id>16651</source-id><prism:issn>22323228 00135852</prism:issn><prism:volume>85</prism:volume><prism:issueIdentifier>4</prism:issueIdentifier><prism:startingPage>162</prism:startingPage><prism:endingPage>168</prism:endingPage><prism:pageRange>162-168</prism:pageRange><prism:coverDate>2018-01-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<publishercopyright>© 2018 Electrotechnical Society of Slovenia. All rights reserved.</publishercopyright>
+<ce:para>The subgraph isomorphism problem, the goal of which is to find the occurrences of a given pattern graph in a given host graph, is, owing to the pervasiveness of large networks, becoming increasingly important. However, the problem is NP-complete, and the search efficiency may also be negatively affected by symmetries in the pattern graph. In this paper, we present an algorithm for solving the subgraph isomorphism problem using a search plan, a sequence of instructions for a systematic traversal of the pattern graph. The presented algorithm pays attention to the symmetries in the pattern graph and thus performs more efficiently than its straightforward counterpart which merely follows the search plan instructions in all possible ways. By testing our algorithm on artificial and real-world graphs, we empirically confirm its advantage over the naive approach and answer several research questions.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85056790181" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85056790181&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85056790181&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="24329188700"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Fürst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/24329188700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="8911840700"><ce:initials>U.</ce:initials><ce:indexed-name>Cibej U.</ce:indexed-name><ce:surname>Čibej</ce:surname><ce:given-name>Uroš</ce:given-name><preferred-name><ce:initials>U.</ce:initials><ce:indexed-name>Čibej U.</ce:indexed-name><ce:surname>Čibej</ce:surname><ce:given-name>Uroš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8911840700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="7801483569"><ce:initials>J.</ce:initials><ce:indexed-name>Mihelic J.</ce:indexed-name><ce:surname>Mihelič</ce:surname><ce:given-name>Jurij</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Mihelič J.</ce:indexed-name><ce:surname>Mihelič</ce:surname><ce:given-name>Jurij</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7801483569</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="slv"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Algorithm for solving</mainterm><mainterm weight="b" candidate="n">Automorphisms</mainterm><mainterm weight="b" candidate="n">Large networks</mainterm><mainterm weight="b" candidate="n">Real-world graphs</mainterm><mainterm weight="b" candidate="n">Research questions</mainterm><mainterm weight="b" candidate="n">Search efficiency</mainterm><mainterm weight="b" candidate="n">Search plans</mainterm><mainterm weight="b" candidate="n">Subgraph isomorphism problem</mainterm></idxterms><subject-areas><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2018-12-06T16:33:26.819Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="04" month="02" timestamp="2019-02-04T21:47:43.000043-05:00" year="2019"/><ait:date-sort day="01" month="01" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2019 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">625061936</itemid>
+<itemid idtype="CAR-ID">914082552</itemid>
+<itemid idtype="CPX">20184706118551</itemid>
+<itemid idtype="REAXYSCAR">20182086288</itemid>
+<itemid idtype="SCOPUS">20183581638</itemid>
+<itemid idtype="SCOPUS">20183581650</itemid>
+<itemid idtype="SCP">85056790181</itemid>
+<itemid idtype="SGR">85056790181</itemid>
+</itemidlist><history>
+<date-created day="23" month="11" timestamp="BST 06:02:35" year="2018"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="slv" language="Slovenian"/><abstract-language xml:lang="eng" language="English"/><abstract-language xml:lang="slv" language="Slovenian"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Searching for pattern graphs using a search plan in the presence of automorphisms</titletext><titletext original="y" xml:lang="slv" language="Slovenian">Iskanje vzorčnih grafov s pomočjo iskalnega načrta ob prisotnosti avtomorfizmov</titletext></citation-title><author-group><author auid="24329188700" seq="1" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Furst L.</ce:indexed-name><ce:surname>Fürst</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Fürst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+<ce:given-name>Luka</ce:given-name>
+</preferred-name></author><author auid="8911840700" seq="2" type="auth"><ce:initials>U.</ce:initials><ce:indexed-name>Cibej U.</ce:indexed-name><ce:surname>Čibej</ce:surname><ce:given-name>Uroš</ce:given-name><preferred-name>
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Čibej U.</ce:indexed-name>
+<ce:surname>Čibej</ce:surname>
+<ce:given-name>Uroš</ce:given-name>
+</preferred-name></author><author auid="7801483569" seq="3" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Mihelic J.</ce:indexed-name><ce:surname>Mihelič</ce:surname><ce:given-name>Jurij</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Mihelič J.</ce:indexed-name>
+<ce:surname>Mihelič</ce:surname>
+<ce:given-name>Jurij</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="121659757"><organization>Univerza v Ljubljani</organization><organization>Fakulteta za računalni tvo in informatiko</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106" dptid="121659757"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Furst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+<ce:given-name>Luka</ce:given-name>
+</person><affiliation country="svn"><organization>Univerza v Ljubljani</organization><organization>Fakulteta za računalni tvo in informatiko</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<publishercopyright>© 2018 Electrotechnical Society of Slovenia. All rights reserved.</publishercopyright>
+<ce:para>The subgraph isomorphism problem, the goal of which is to find the occurrences of a given pattern graph in a given host graph, is, owing to the pervasiveness of large networks, becoming increasingly important. However, the problem is NP-complete, and the search efficiency may also be negatively affected by symmetries in the pattern graph. In this paper, we present an algorithm for solving the subgraph isomorphism problem using a search plan, a sequence of instructions for a systematic traversal of the pattern graph. The presented algorithm pays attention to the symmetries in the pattern graph and thus performs more efficiently than its straightforward counterpart which merely follows the search plan instructions in all possible ways. By testing our algorithm on artificial and real-world graphs, we empirically confirm its advantage over the naive approach and answer several research questions.</ce:para>
+</abstract></abstracts><source country="svn" srcid="16651" type="j"><sourcetitle>Elektrotehniski Vestnik/Electrotechnical Review</sourcetitle><sourcetitle-abbrev>Elektroteh Vestn Electrotech Rev</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Elektrotehniski Vestnik/Electrotechnical Review</translated-sourcetitle><issn type="electronic">22323228</issn><issn type="print">00135852</issn><codencode>ELVEA</codencode><volisspag>
+<voliss issue="4" volume="85"/>
+<pagerange first="162" last="168"/>
+</volisspag><publicationyear first="2018"/><publicationdate>
+<year>2018</year>
+<date-text xfab-added="true">2018</date-text></publicationdate><website>
+<ce:e-address type="email">http://ev.fe.uni-lj.si/4-2018/Fuerst.pdf</ce:e-address>
+</website><publisher>
+<publishername>Electrotechnical Society of Slovenia</publishername>
+<ce:e-address type="email">Andrej.Zemva@fe.uni-lj.si</ce:e-address>
+</publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+<classification>                                 <classification-code>709</classification-code>                                 <classification-description>Electrical Engineering, General</classification-description>                             </classification>
+<classification>                                 <classification-code>921.4</classification-code>                                 <classification-description>Combinatorial Mathematics, Includes Graph Theory, Set Theory</classification-description>                             </classification>
+</classifications><classifications type="FLXCLASS">
+<classification>                                 <classification-code>902</classification-code>                                 <classification-description>FLUIDEX; Related Topics</classification-description>                             </classification>
+</classifications><classifications type="ASJC">
+<classification>2208</classification>
+</classifications><classifications type="SUBJABBR"><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="17">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>KONECT: The koblenz network collection</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84893109716</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Kunegis J.</ce:indexed-name>
+<ce:surname>Kunegis</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of The International Web Observatory Workshop</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<pagerange first="1343" last="1350"/>
+</ref-volisspag>
+<ref-text>Rio de Janeiro, Brazilija, maj 2013</ref-text>
+</ref-info>
+<ref-fulltext>J. Kunegis, “KONECT: the Koblenz network collection,” Proceedings of the International Web Observatory Workshop, Rio de Janeiro, Brazilija, maj 2013, pp. 1343-1350, 2013.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">84925339541</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Leskovec J.</ce:indexed-name>
+<ce:surname>Leskovec</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Krevl A.</ce:indexed-name>
+<ce:surname>Krevl</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>SNAP Datasets: Stanford Large Network Dataset Collection</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-website>
+<ce:e-address type="email">http://snap.stanford.edu/data</ce:e-address>
+</ref-website>
+</ref-info>
+<ref-fulltext>J. Leskovec, A. Krevl, SNAP Datasets: Stanford large network dataset collection, http://snap.stanford.edu/data,2014.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Graditev in analiza grafov slovenskih besed</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84891760976</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Cibej U.</ce:indexed-name>
+<ce:surname>Čibej</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Elek-Trotehni Ki Vestnik</ref-sourcetitle>
+<ref-publicationyear first="2013"/>
+<ref-volisspag>
+<voliss issue="4" volume="80"/>
+<pagerange first="141" last="146"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>U. Čibej, “Graditev in analiza grafov slovenskih besed,” Elek-trotehni ki vestnik, vol. 80, no. 4, pp. 141-146, 2013.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>The complexity of theorem-proving procedures</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">85059770931</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.A.</ce:initials>
+<ce:indexed-name>Cook S.A.</ce:indexed-name>
+<ce:surname>Cook</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of The 3rd Annual ACM Symposium on Theory of Computing (STOC)</ref-sourcetitle>
+<ref-publicationyear first="1971"/>
+<ref-volisspag>
+<pagerange first="151" last="158"/>
+</ref-volisspag>
+<ref-text>Shaker Heights, Ohio, ZDA, maj 1971</ref-text>
+</ref-info>
+<ref-fulltext>S. A. Cook, “The complexity of theorem-proving procedures,” Proceedings of the 3rd Annual ACM Symposium on Theory of Computing (STOC), Shaker Heights, Ohio, ZDA, maj 1971, pp. 151-158, 1971.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">45849101880</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Arora S.</ce:indexed-name>
+<ce:surname>Arora</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Barak B.</ce:indexed-name>
+<ce:surname>Barak</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computational Complexity: A Modern Approach</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-text>Cambridge University Press</ref-text>
+</ref-info>
+<ref-fulltext>S. Arora, B. Barak, Computational complexity: a modern approach. Cambridge University Press, 2009.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>A (sub)graph isomorphism algorithm for matching large graphs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">4644303571</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.P.</ce:initials>
+<ce:indexed-name>Cordella L.P.</ce:indexed-name>
+<ce:surname>Cordella</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Foggia P.</ce:indexed-name>
+<ce:surname>Foggia</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Sansone C.</ce:indexed-name>
+<ce:surname>Sansone</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Vent M.</ce:indexed-name>
+<ce:surname>Vent</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss issue="10" volume="26"/>
+<pagerange first="1367" last="1372"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>L. P. Cordella, P. Foggia, C. Sansone, M. Vent, “A (sub)graph isomorphism algorithm for matching large graphs,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 10, pp. 1367-1372, 2004.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>A combinatorial approach to graphlet counting</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84894578126</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Hocevar T.</ce:indexed-name>
+<ce:surname>Hočevar</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Demsar J.</ce:indexed-name>
+<ce:surname>Demšar</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Bioinformatics</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-volisspag>
+<voliss issue="4" volume="30"/>
+<pagerange first="559" last="565"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Toma Hočevar, Janez Demšar, “A combinatorial approach to graphlet counting,” Bioinformatics, vol. 30, no. 4, pp. 559-565, 2014.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Improvements to Ullmann's algorithm for the subgraph isomorphism problem</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84942819668</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Cibej U.</ce:indexed-name>
+<ce:surname>Čibej</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Mihelic J.</ce:indexed-name>
+<ce:surname>Mihelič</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>International Journal of Pattern Recognition and Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2015"/>
+<ref-volisspag>
+<voliss issue="7" volume="29"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>U. Čibej, J. Mihelič, “Improvements to Ullmann's algorithm for the subgraph isomorphism problem,” International Journal of Pattern Recognition and Artificial Intelligence, vol. 29, no. 7, 2015.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>An in-depth comparison of subgraph isomorphism algorithms in graph databases</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84961638968</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Lee J.</ce:indexed-name>
+<ce:surname>Lee</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>W.-S.</ce:initials>
+<ce:indexed-name>Han W.-S.</ce:indexed-name>
+<ce:surname>Han</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Kasperovics R.</ce:indexed-name>
+<ce:surname>Kasperovics</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>J.-H.</ce:initials>
+<ce:indexed-name>Lee J.-H.</ce:indexed-name>
+<ce:surname>Lee</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of The VLDB Endowment</ref-sourcetitle>
+<ref-publicationyear first="2012"/>
+<ref-volisspag>
+<voliss issue="2" volume="6"/>
+<pagerange first="133" last="144"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>J. Lee, W.-S. Han, R. Kasperovics, J.-H. Lee, “An in-depth comparison of subgraph isomorphism algorithms in graph databases,” Proceedings of the VLDB Endowment, vol. 6, no. 2, pp. 133-144, 2012.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>An algorithm for subgraph isomorphism</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0016870630</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.R.</ce:initials>
+<ce:indexed-name>Ullmann J.R.</ce:indexed-name>
+<ce:surname>Ullmann</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of The ACM</ref-sourcetitle>
+<ref-publicationyear first="1976"/>
+<ref-volisspag>
+<voliss volume="23"/>
+<pagerange first="31" last="42"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>J. R. Ullmann, “An Algorithm for Subgraph Isomorphism,” Journal of the ACM, vol. 23, pp. 31-42, 1976.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Defining and parsing visual languages with layered graph grammars</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031066425</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Rekers J.</ce:indexed-name>
+<ce:surname>Rekers</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Schurr A.</ce:indexed-name>
+<ce:surname>Schürr</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Visual Languages and Computing</ref-sourcetitle>
+<ref-publicationyear first="1997"/>
+<ref-volisspag>
+<voliss issue="1" volume="8"/>
+<pagerange first="27" last="55"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>J. Rekers, A. Schürr, “Defining and parsing visual languages with Layered Graph Grammars,” Journal of Visual Languages and Computing, vol. 8, no. 1, pp. 27-55, 1997.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Symmetry breaking in graphs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">2442705488</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.O.</ce:initials>
+<ce:indexed-name>Albertson M.O.</ce:indexed-name>
+<ce:surname>Albertson</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>K.L.</ce:initials>
+<ce:indexed-name>Collins K.L.</ce:indexed-name>
+<ce:surname>Collins</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>The Electronic Journal of Combinatorics</ref-sourcetitle>
+<ref-publicationyear first="1996"/>
+<ref-volisspag>
+<voliss issue="1" volume="3"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>M. O. Albertson, K. L. Collins, “Symmetry breaking in graphs,” The Electronic Journal of Combinatorics, vol. 3, no. 1, 1996.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Computing regular equivalence: Practical and theoretical issues</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">85056790858</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.G.</ce:initials>
+<ce:indexed-name>Everett M.G.</ce:indexed-name>
+<ce:surname>Everett</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.P.</ce:initials>
+<ce:indexed-name>Borgatti S.P.</ce:indexed-name>
+<ce:surname>Borgatti</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Metodolo Ki Zvezki</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="17"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>M. G. Everett, S. P. Borgatti, “Computing regular equivalence: Practical and theoretical issues,” Metodolo ki zvezki, vol. 17, 2002.</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>Symmetry in constraint programming</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">38649128233</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.P.</ce:initials>
+<ce:indexed-name>Gent I.P.</ce:indexed-name>
+<ce:surname>Gent</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>K.E.</ce:initials>
+<ce:indexed-name>Petrie K.E.</ce:indexed-name>
+<ce:surname>Petrie</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.-F.</ce:initials>
+<ce:indexed-name>Puget J.-F.</ce:indexed-name>
+<ce:surname>Puget</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Handbook of Constraint Programming</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss volume="10"/>
+<pagerange first="329" last="376"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>I. P. Gent, K. E. Petrie, J.-F. Puget, “Symmetry in constraint programming,” Handbook of Constraint Programming, vol. 10, pp. 329-376, 2006.</ref-fulltext>
+</reference>
+<reference id="15">
+<ref-info>
+<ref-title>
+<ref-titletext>Exploratory equivalence in graphs: Definition and algorithms</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84912108874</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Mihelic J.</ce:indexed-name>
+<ce:surname>Mihelič</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Furst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Cibej U.</ce:indexed-name>
+<ce:surname>Čibej</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of The 2014 Federated Conference on Computer Science and Information Systems, FedCSIS 2014</ref-sourcetitle>
+<ref-publicationyear first="2014"/>
+<ref-volisspag>
+<pagerange first="447" last="456"/>
+</ref-volisspag>
+<ref-text>Var ava, Poljska, september 2014</ref-text>
+</ref-info>
+<ref-fulltext>J. Mihelič, L. Fürst, U. Čibej, “Exploratory equivalence in graphs: definition and algorithms,” Proceedings of the 2014 Federated Conference on Computer Science and Information Systems, FedCSIS 2014, Var ava, Poljska, september 2014, pp. 447-456, 2014.</ref-fulltext>
+</reference>
+<reference id="16">
+<ref-info>
+<ref-title>
+<ref-titletext>Maximum exploratory equivalence in trees</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84958068712</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Furst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>U.</ce:initials>
+<ce:indexed-name>Cibej U.</ce:indexed-name>
+<ce:surname>Čibej</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Mihelic J.</ce:indexed-name>
+<ce:surname>Mihelič</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of The 2015 Federated Conference on Computer Science and Information Systems, FedCSIS 2015</ref-sourcetitle>
+<ref-publicationyear first="2015"/>
+<ref-volisspag>
+<pagerange first="507" last="518"/>
+</ref-volisspag>
+<ref-text>Ł d´ z, Poljska, september 2015</ref-text>
+</ref-info>
+<ref-fulltext>L. Fürst, U. Čibej, J. Mihelič, “Maximum exploratory equivalence in trees,” Proceedings of the 2015 Federated Conference on Computer Science and Information Systems, FedCSIS 2015, Ł d´ z, Poljska, september 2015, pp. 507-518, 2015.</ref-fulltext>
+</reference>
+<reference id="17">
+<ref-info>
+<ref-title>
+<ref-titletext>Improving the graph grammar parser of Rekers and Sch rr</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">79959871011</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Furst L.</ce:indexed-name>
+<ce:surname>Fürst</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Mernik M.</ce:indexed-name>
+<ce:surname>Mernik</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>V.</ce:initials>
+<ce:indexed-name>Mahnic V.</ce:indexed-name>
+<ce:surname>Mahnič</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IET Software</ref-sourcetitle>
+<ref-publicationyear first="2011"/>
+<ref-volisspag>
+<voliss issue="2" volume="5"/>
+<pagerange first="246" last="261"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>L. Fürst, M. Mernik, V. Mahnič. Improving the graph grammar parser of Rekers and Sch rr. IET Software, 5(2):246-261, 2011.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

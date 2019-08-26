@@ -1,0 +1,466 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/79955103491</prism:url><dc:identifier>SCOPUS_ID:79955103491</dc:identifier><eid>2-s2.0-79955103491</eid><prism:doi>10.1007/978-3-642-20282-7_18</prism:doi><dc:title>Efficiently explaining decisions of probabilistic RBF classification networks</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>2</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><source-id>25674</source-id><prism:isbn>9783642202810</prism:isbn><prism:issn>03029743 16113349</prism:issn><prism:volume>6593 LNCS</prism:volume><prism:issueIdentifier>PART 1</prism:issueIdentifier><prism:startingPage>169</prism:startingPage><prism:endingPage>179</prism:endingPage><prism:pageRange>169-179</prism:pageRange><prism:coverDate>2011-04-28</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="55900495300"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55900495300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>For many important practical applications model transparency is an important requirement. A probabilistic radial basis function (PRBF) network is an effective non-linear classifier, but similarly to most other neural network models it is not straightforward to obtain explanations for its decisions. Recently two general methods for explaining of a model's decisions for individual instances have been introduced which are based on the decomposition of a model's prediction into contributions of each attribute. By exploiting the marginalization property of the Gaussian distribution, we show that PRBF is especially suitable for these explanation techniques. By explaining the PRBF's decisions for new unlabeled cases we demonstrate resulting methods and accompany presentation with visualization technique that works both for single instances as well as for the attributes and their values, thus providing a valuable tool for inspection of the otherwise opaque models. © 2011 Springer-Verlag.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/79955103491" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=79955103491&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=79955103491&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60004716" href="https://api.elsevier.com/content/affiliation/affiliation_id/60004716"><affilname>Panepistimion Ioanninon</affilname><affiliation-city>Ioannina</affiliation-city><affiliation-country>Greece</affiliation-country></affiliation><affiliation id="106601522" href="https://api.elsevier.com/content/affiliation/affiliation_id/106601522"><affilname>Barcelona Media</affilname><affiliation-city>Barcelona</affiliation-city><affiliation-country>Spain</affiliation-country></affiliation><authors><author seq="1" auid="55900495300"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55900495300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003844484"><ce:initials>A.</ce:initials><ce:indexed-name>Likas A.</ce:indexed-name><ce:surname>Likas</ce:surname><ce:given-name>Aristidis</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Likas A.</ce:indexed-name><ce:surname>Likas</ce:surname><ce:given-name>Aristidis</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003844484</author-url><affiliation id="60004716" href="https://api.elsevier.com/content/affiliation/affiliation_id/60004716"/></author><author seq="3" auid="6506978260"><ce:initials>C.</ce:initials><ce:indexed-name>Constantinopoulos C.</ce:indexed-name><ce:surname>Constantinopoulos</ce:surname><ce:given-name>Constantinos</ce:given-name><preferred-name><ce:initials>C.</ce:initials><ce:indexed-name>Constantinopoulos C.</ce:indexed-name><ce:surname>Constantinopoulos</ce:surname><ce:given-name>Constantinos</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506978260</author-url><affiliation id="106601522" href="https://api.elsevier.com/content/affiliation/affiliation_id/106601522"/></author><author seq="4" auid="57188535146"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188535146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="57204664304"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Štrumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204664304</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>classification explanation</author-keyword><author-keyword>comprehensibility</author-keyword><author-keyword>game theory</author-keyword><author-keyword>model explanation</author-keyword><author-keyword>model visualization</author-keyword><author-keyword>probabilistic RBF networks</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">classification explanation</mainterm><mainterm weight="a" candidate="n">comprehensibility</mainterm><mainterm weight="a" candidate="n">General method</mainterm><mainterm weight="a" candidate="n">Marginalization</mainterm><mainterm weight="a" candidate="n">Model transparency</mainterm><mainterm weight="a" candidate="n">model visualization</mainterm><mainterm weight="a" candidate="n">Neural network model</mainterm><mainterm weight="a" candidate="n">Nonlinear classifiers</mainterm><mainterm weight="a" candidate="n">Probabilistic RBF network</mainterm><mainterm weight="a" candidate="n">Radial basis functions</mainterm><mainterm weight="a" candidate="n">Visualization technique</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="22" month="11" timestamp="2018-11-22T14:38:41.000041-05:00" year="2018"/><ait:date-sort day="28" month="04" year="2011"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2011 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-642-20282-7_18</ce:doi>
+                    <itemid idtype="PUI">361647435</itemid>
+                    <itemid idtype="CPX">20111713937576</itemid>
+                    <itemid idtype="SCP">79955103491</itemid>
+                    <itemid idtype="SGR">79955103491</itemid>
+                </itemidlist><history>
+                    <date-created day="28" month="04" year="2011"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">classification explanation</author-keyword>
+                        <author-keyword xml:lang="eng">comprehensibility</author-keyword>
+                        <author-keyword xml:lang="eng">game theory</author-keyword>
+                        <author-keyword xml:lang="eng">model explanation</author-keyword>
+                        <author-keyword xml:lang="eng">model visualization</author-keyword>
+                        <author-keyword xml:lang="eng">probabilistic RBF networks</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Efficiently explaining decisions of probabilistic RBF classification networks</titletext></citation-title><author-group><author auid="55900495300" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name><ce:surname>Robnik-Šikonja</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Robnik-Šikonja M.</ce:indexed-name>
+                            <ce:surname>Robnik-Šikonja</ce:surname>
+                            <ce:given-name>Marko</ce:given-name>
+                        </preferred-name></author><author auid="57188535146" seq="4"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                            <ce:surname>Kononenko</ce:surname>
+                            <ce:given-name>Igor</ce:given-name>
+                        </preferred-name></author><author auid="57204664304" seq="5"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name>
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Štrumbelj E.</ce:indexed-name>
+                            <ce:surname>Štrumbelj</ce:surname>
+                            <ce:given-name>Erik</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Tržaška 25</address-part><city-group>1001 Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="7003844484" seq="2"><ce:initials>A.</ce:initials><ce:indexed-name>Likas A.</ce:indexed-name><ce:surname>Likas</ce:surname><ce:given-name>Aristidis</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Likas A.</ce:indexed-name>
+                            <ce:surname>Likas</ce:surname>
+                            <ce:given-name>Aristidis</ce:given-name>
+                        </preferred-name></author><affiliation afid="60004716" country="grc" dptid="105426443"><organization>University of Ioannina</organization><organization>Department of Computer Science</organization><city-group>GR 45110 Ioannina</city-group><affiliation-id afid="60004716" dptid="105426443"/><country>Greece</country></affiliation></author-group><author-group><author auid="6506978260" seq="3"><ce:initials>C.</ce:initials><ce:indexed-name>Constantinopoulos C.</ce:indexed-name><ce:surname>Constantinopoulos</ce:surname><ce:given-name>Constantinos</ce:given-name><preferred-name>
+                            <ce:initials>C.</ce:initials>
+                            <ce:indexed-name>Constantinopoulos C.</ce:indexed-name>
+                            <ce:surname>Constantinopoulos</ce:surname>
+                            <ce:given-name>Constantinos</ce:given-name>
+                        </preferred-name></author><affiliation afid="106601522" country="esp" dptid="107364155"><organization>Barcelona Media</organization><organization>Centre d'Innovació</organization><address-part>Av. Diagonal, 177, planta 9</address-part><city-group>08018 Barcelona</city-group><affiliation-id afid="106601522" dptid="107364155"/><country>Spain</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name>
+                        <ce:surname>Robnik-Šikonja</ce:surname>
+                    </person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Tržaška 25</address-part><city-group>1001 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>For many important practical applications model transparency is an important requirement. A probabilistic radial basis function (PRBF) network is an effective non-linear classifier, but similarly to most other neural network models it is not straightforward to obtain explanations for its decisions. Recently two general methods for explaining of a model's decisions for individual instances have been introduced which are based on the decomposition of a model's prediction into contributions of each attribute. By exploiting the marginalization property of the Gaussian distribution, we show that PRBF is especially suitable for these explanation techniques. By explaining the PRBF's decisions for new unlabeled cases we demonstrate resulting methods and accompany presentation with visualization technique that works both for single instances as well as for the attributes and their values, thus providing a valuable tool for inspection of the otherwise opaque models. © 2011 Springer-Verlag.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><issuetitle>Adaptive and Natural Computing Algorithms - 10th International Conference, ICANNGA 2011, Proceedings</issuetitle><issn type="print">03029743</issn><issn type="electronic">16113349</issn><isbn length="13" level="volume">9783642202810</isbn><volisspag>
+                        <voliss issue="PART 1" volume="6593 LNCS"/>
+                        <pagerange first="169" last="179"/>
+                    </volisspag><publicationyear first="2011"/><publicationdate>
+                        <year>2011</year>
+                    <date-text xfab-added="true">2011</date-text></publicationdate><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>10th International Conference on Adaptive and Natural Computing Algorithms, ICANNGA 2011</confname>
+                                <conflocation country="svn">
+                                    <city-group>Ljubljana</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="14" month="04" year="2011"/>
+                                    <enddate day="16" month="04" year="2011"/>
+                                </confdate>
+                                <confcode>84610</confcode>
+                            </confevent>
+                            <confpublication>
+                                <procpartno>1 of 2</procpartno>
+                                <procpagerange>var.pagings</procpagerange>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.4</classification-code>
+                                <classification-description>Artificial Intelligence</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>902.1</classification-code>
+                                <classification-description>Engineering Graphics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921</classification-code>
+                                <classification-description>Applied Mathematics</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>922.1</classification-code>
+                                <classification-description>Probability Theory</classification-description>
+                            </classification>
+                        </classifications><classifications type="GEOCLASS">
+                            <classification>
+                                <classification-code>Related Topics</classification-code>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="13">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003487601</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.M.</ce:initials>
+                                    <ce:indexed-name>Bishop C.M.</ce:indexed-name>
+                                    <ce:surname>Bishop</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Networks for Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-text>Oxford University Press, Oxford</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Bishop, C.M.: Neural Networks for Pattern Recognition. Oxford University Press, Oxford (1995)</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An incremental training method for the probabilistic RBF network</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33746874813</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Constantinopoulos C.</ce:indexed-name>
+                                    <ce:surname>Constantinopoulos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Likas A.</ce:indexed-name>
+                                    <ce:surname>Likas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="17"/>
+                                <pagerange first="966" last="974"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Constantinopoulos, C., Likas, A.: An incremental training method for the probabilistic RBF network. IEEE Trans. Neural Networks 17(4), 966-974 (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rule extraction from recurrent neural networks: A taxonomy and review</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">18444364992</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Jacobsson H.</ce:indexed-name>
+                                    <ce:surname>Jacobsson</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Computation</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="17"/>
+                                <pagerange first="1223" last="1263"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jacobsson, H.: Rule extraction from recurrent neural networks: A taxonomy and review. Neural Computation 17(6), 1223-1263 (2005)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004066260</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>McLachlan G.</ce:indexed-name>
+                                    <ce:surname>McLachlan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Peel D.</ce:indexed-name>
+                                    <ce:surname>Peel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Finite Mixture Models</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-text>John Wiley &amp; Sons, Chichester</ref-text>
+                        </ref-info>
+                        <ref-fulltext>McLachlan, G., Peel, D.: Finite Mixture Models. John Wiley &amp; Sons, Chichester (2000)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Nomograms for visualization of naive bayesian classifier</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33750710231</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mozina M.</ce:indexed-name>
+                                    <ce:surname>Možina</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Demsar J.</ce:indexed-name>
+                                    <ce:surname>Demšar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.W.</ce:initials>
+                                    <ce:indexed-name>Kattan M.W.</ce:indexed-name>
+                                    <ce:surname>Kattan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Zupan B.</ce:indexed-name>
+                                    <ce:surname>Zupan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>LNCS (LNAI)</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="3202"/>
+                                <pagerange first="337" last="348"/>
+                            </ref-volisspag>
+                            <ref-text>Boulicaut, J.-F., Esposito, F., Giannotti, F., Pedreschi, D. (eds.) PKDD 2004. Springer, Heidelberg</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Možina, M., Demšar, J., Kattan, M.W., Zupan, B.: Nomograms for visualization of naive bayesian classifier. In: Boulicaut, J.-F., Esposito, F., Giannotti, F., Pedreschi, D. (eds.) PKDD 2004. LNCS (LNAI), vol. 3202, pp. 337-348. Springer, Heidelberg (2004)</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining classifications for individual instances</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949101606</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik Šikonja</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Knowledge and Data Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="20"/>
+                                <pagerange first="589" last="600"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Robnik Šikonja, M., Kononenko, I.: Explaining classifications for individual instances. IEEE Transactions on Knowledge and Data Engineering 20(5), 589-600 (2008)</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Understanding neural networks via rule extraction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002801650</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Setiono R.</ce:indexed-name>
+                                    <ce:surname>Setiono</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Liu H.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of IJCAI 1995</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="480" last="487"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Setiono, R., Liu, H.: Understanding neural networks via rule extraction. In: Proceedings of IJCAI 1995, pp. 480-487 (1995)</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A value for n-person games</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001255447</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.S.</ce:initials>
+                                    <ce:indexed-name>Shapley L.S.</ce:indexed-name>
+                                    <ce:surname>Shapley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Contributions to the Theory of Games</ref-sourcetitle>
+                            <ref-publicationyear first="1953"/>
+                            <ref-volisspag>
+                                <voliss volume="2"/>
+                            </ref-volisspag>
+                            <ref-text>Princeton University Press, Princeton</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Shapley, L.S.: A value for n-person games. In: Contributions to the Theory of Games, vol. II. Princeton University Press, Princeton (1953)</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Shared kernel models for class conditional density estimation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035440306</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.K.</ce:initials>
+                                    <ce:indexed-name>Titsias M.K.</ce:indexed-name>
+                                    <ce:surname>Titsias</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Likas A.</ce:indexed-name>
+                                    <ce:surname>Likas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Neural Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="12"/>
+                                <pagerange first="987" last="997"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Titsias, M.K., Likas, A.: Shared kernel models for class conditional density estimation. IEEE Trans. Neural Networks 12(5), 987-997 (2001)</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Class conditional density estimation using mixtures with constrained component sharing</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0041347630</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.K.</ce:initials>
+                                    <ce:indexed-name>Titsias M.K.</ce:indexed-name>
+                                    <ce:surname>Titsias</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Likas A.</ce:indexed-name>
+                                    <ce:surname>Likas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. and Machine Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="25"/>
+                                <pagerange first="924" last="928"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Titsias, M.K., Likas, A.: Class conditional density estimation using mixtures with constrained component sharing. IEEE Trans. Pattern Anal. and Machine Intell. 25(7), 924-928 (2003)</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Extracting refined rules from knowledge-based neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027678679</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.G.</ce:initials>
+                                    <ce:indexed-name>Towell G.G.</ce:indexed-name>
+                                    <ce:surname>Towell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Shavlik J.W.</ce:indexed-name>
+                                    <ce:surname>Shavlik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="13"/>
+                                <pagerange first="71" last="101"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Towell, G.G., Shavlik, J.W.: Extracting refined rules from knowledge-based neural networks. Machine Learning 13(1), 71-101 (1993)</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An Efficient Explanation of Individual Classifications using Game Theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">76749170318</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1" last="18"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Štrumbelj, E., Kononenko, I.: An Efficient Explanation of Individual Classifications using Game Theory. Journal of Machine Learning Research 11, 1-18 (2010)</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining instance classifications with interactions of subsets of feature values</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">69249209926</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                                    <ce:surname>Štrumbelj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik-Šikonja</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data &amp; Knowledge Engineering</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="68"/>
+                                <pagerange first="886" last="904"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Štrumbelj, E., Kononenko, I., Robnik-Šikonja, M.: Explaining instance classifications with interactions of subsets of feature values. Data &amp; Knowledge Engineering 68(10), 886-904 (2009)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

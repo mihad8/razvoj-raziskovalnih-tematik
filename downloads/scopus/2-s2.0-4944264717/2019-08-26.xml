@@ -1,0 +1,204 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/4944264717</prism:url><dc:identifier>SCOPUS_ID:4944264717</dc:identifier><eid>2-s2.0-4944264717</eid><dc:title>SONIC: A system for transcription of piano music</dc:title><prism:aggregationType>Book</prism:aggregationType><srctype>b</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Advances in Automation, Multimedia and Video Systems, and Modern Computer Science</prism:publicationName><dc:publisher>
+World Scientific and Engineering Academy and Society
+</dc:publisher><source-id>94777</source-id><prism:isbn>9608052440</prism:isbn><prism:startingPage>236</prism:startingPage><prism:endingPage>239</prism:endingPage><prism:pageRange>236-239</prism:pageRange><prism:coverDate>2001-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6603601816"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603601816</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>This paper presents our system for transcription of polyphonic piano music - SONIC. SONIC takes an audio signal of a piano performance and tries to determine which notes were played by the performer, thus producing a list of notes and note onset times approximately matching the performance. SONIC is composed of three main parts: partial extractor, onset detector and note recognizer. We present these parts in more detail below, as well as some results obtained by using the system on recordings of piano music.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/4944264717" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=4944264717&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=4944264717&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6603601816"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603601816</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6602389688"><ce:initials>M.</ce:initials><ce:indexed-name>Privosnik M.</ce:indexed-name><ce:surname>Privosnik</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Privosnik M.</ce:indexed-name><ce:surname>Privosnik</ce:surname><ce:given-name>Marko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602389688</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Adaptive oscillators</author-keyword><author-keyword>Music transcription</author-keyword><author-keyword>Neural networks</author-keyword><author-keyword>Polyphonic pitch recognition</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Adaptive oscillators</mainterm><mainterm weight="a" candidate="n">Music transcription</mainterm><mainterm weight="a" candidate="n">Polyphonic pitch recognition</mainterm></idxterms><subject-areas><subject-area code="2200" abbrev="ENGI">Engineering (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="16" month="12" timestamp="2015-12-16T19:33:08.000008+00:00" year="2015"/><ait:date-sort day="01" month="12" year="2001"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">39324462</itemid>
+<itemid idtype="CPX">2004438416631</itemid>
+<itemid idtype="SCP">4944264717</itemid>
+<itemid idtype="SGR">4944264717</itemid>
+</itemidlist><history>
+<date-created day="18" month="10" year="2004"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Adaptive oscillators</author-keyword>
+<author-keyword>Music transcription</author-keyword>
+<author-keyword>Neural networks</author-keyword>
+<author-keyword>Polyphonic pitch recognition</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">SONIC: A system for transcription of piano music</titletext></citation-title><author-group><author auid="6603601816" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Marolt M.</ce:indexed-name>
+<ce:surname>Marolt</ce:surname>
+<ce:given-name>Matija</ce:given-name>
+</preferred-name></author><author auid="6602389688" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Privosnik M.</ce:indexed-name><ce:surname>Privosnik</ce:surname><ce:given-name>Marko</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Privosnik M.</ce:indexed-name>
+<ce:surname>Privosnik</ce:surname>
+<ce:given-name>Marko</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Fac. of Comp. and Info. Science</organization><organization>University of Ljubljana</organization><address-part>Trzaska 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Marolt M.</ce:indexed-name>
+<ce:surname>Marolt</ce:surname>
+</person><affiliation country="svn"><organization>Fac. of Comp. and Info. Science</organization><organization>University of Ljubljana</organization><address-part>Trzaska 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>This paper presents our system for transcription of polyphonic piano music - SONIC. SONIC takes an audio signal of a piano performance and tries to determine which notes were played by the performer, thus producing a list of notes and note onset times approximately matching the performance. SONIC is composed of three main parts: partial extractor, onset detector and note recognizer. We present these parts in more detail below, as well as some results obtained by using the system on recordings of piano music.</ce:para>
+</abstract></abstracts><source country="usa" srcid="94777" type="b"><sourcetitle>Advances in Automation, Multimedia and Video Systems, and Modern Computer Science</sourcetitle><sourcetitle-abbrev>Adv. Autom. Multimedia Video Syst. Mod. Comput. Sci.</sourcetitle-abbrev><issuetitle>Advances in Automation, Multimedia and Video Systems, and Modern Computer Science</issuetitle><isbn>9608052440</isbn><volisspag>
+<pagerange first="236" last="239"/>
+</volisspag><publicationyear first="2001"/><publicationdate>
+<year>2001</year>
+<date-text xfab-added="true">2001</date-text></publicationdate><publisher>
+<publishername>World Scientific and Engineering Academy and Society</publishername>
+</publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>2200</classification>
+</classifications><classifications type="CPXCLASS">
+<classification>713.2</classification>
+<classification>716.1</classification>
+<classification>723.4</classification>
+<classification>723.5</classification>
+<classification>731.1</classification>
+<classification>752</classification>
+</classifications><classifications type="SUBJABBR"><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="7">
+<reference id="107583067">
+<ref-info>
+<ref-title>
+<ref-titletext>Resonance and the perception of musical meter</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">77950415684</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>E.W.</ce:initials>
+<ce:indexed-name>Large E.W.</ce:indexed-name>
+<ce:surname>Large</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.F.</ce:initials>
+<ce:indexed-name>Kolen J.F.</ce:indexed-name>
+<ce:surname>Kolen</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Connection Science</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-volisspag>
+<voliss issue="1" volume="6"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>E.W. Large, J.F. Kolen, Resonance and the perception of musical meter, Connection Science, 6(1), 1994.</ref-fulltext>
+</reference>
+<reference id="107583068">
+<ref-info>
+<ref-title>
+<ref-titletext>Adaptive oscillator networks for partial tracking and piano music transcription</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">4944227644</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Marolt M.</ce:indexed-name>
+<ce:surname>Marolt</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the 2000 International Computer Music Conference</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-text>Berlin, Germany</ref-text>
+</ref-info>
+<ref-fulltext>M. Marolt, Adaptive oscillator networks for partial tracking and piano music transcription, Proceedings of the 2000 International Computer Music Conference, Berlin, Germany, 2000.</ref-fulltext>
+</reference>
+<reference id="107583069">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">4944238324</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.D.</ce:initials>
+<ce:indexed-name>Martin K.D.</ce:indexed-name>
+<ce:surname>Martin</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Toward A Machine Listener: Recognizing Sound Sources</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-text>Ph.D. thesis, MIT Department of Electrical Engineering</ref-text>
+</ref-info>
+<ref-fulltext>K.D. Martin, Toward a Machine Listener: Recognizing Sound Sources, Ph.D. thesis, MIT Department of Electrical Engineering, 1999.</ref-fulltext>
+</reference>
+<reference id="107583070">
+<ref-info>
+<ref-title>
+<ref-titletext>Simulation of mechanical to neural transduction in the auditory receptor</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022624057</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Meddis R.</ce:indexed-name>
+<ce:surname>Meddis</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of the Acoustical Society of America</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss issue="3" volume="79"/>
+<pagerange first="702" last="711"/>
+</ref-volisspag>
+<ref-text>March</ref-text>
+</ref-info>
+<ref-fulltext>R. Meddis, Simulation of mechanical to neural transduction in the auditory receptor, Journal of the Acoustical Society of America, vol.79, no.3, p. 702-711, March 1986.</ref-fulltext>
+</reference>
+<reference id="107583071">
+<ref-info>
+<ref-title>
+<ref-titletext>Complex sounds and auditory images</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000460671</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>R.D.</ce:initials>
+<ce:indexed-name>Patterson R.D.</ce:indexed-name>
+<ce:surname>Patterson</ce:surname>
+</author>
+<et-al/>
+</ref-authors>
+<ref-sourcetitle>Auditory Physiology and Perception</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-text>Y. Cazals, L. Demany, K. Horner, Pergamon (Eds.), Oxford</ref-text>
+</ref-info>
+<ref-fulltext>R.D. Patterson, et. al., Complex sounds and auditory images, Auditory Physiology and Perception, Y. Cazals, L. Demany, K. Horner, Pergamon (Eds.), Oxford, 1992.</ref-fulltext>
+</reference>
+<reference id="107583072">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003440816</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Rossi L.</ce:indexed-name>
+<ce:surname>Rossi</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Identification de Sons Polyphoniques de Piano</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-text>Ph.D. Thesis, University of Corsica, France</ref-text>
+</ref-info>
+<ref-fulltext>L. Rossi, Identification de Sons Polyphoniques de Piano, Ph.D. Thesis, University of Corsica, France, 1998.</ref-fulltext>
+</reference>
+<reference id="107583073">
+<ref-info>
+<ref-title>
+<ref-titletext>An efficient implementation of the Patterson-Holdsworth auditory filter bank</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0003913694</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Slaney M.</ce:indexed-name>
+<ce:surname>Slaney</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Apple Computer Technical Report #35</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-volisspag>
+<voliss volume="35"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>M. Slaney, An Efficient Implementation of the Patterson-Holdsworth Auditory Filter Bank, Apple Computer Technical Report #35, 1993.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

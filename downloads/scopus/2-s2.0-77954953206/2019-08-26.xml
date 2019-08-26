@@ -1,0 +1,741 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/77954953206</prism:url><dc:identifier>SCOPUS_ID:77954953206</dc:identifier><eid>2-s2.0-77954953206</eid><prism:doi>10.1007/s10115-009-0244-9</prism:doi><dc:title>Explanation and reliability of prediction models: The case of breast cancer recurrence</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>23</citedby-count><prism:publicationName>Knowledge and Information Systems</prism:publicationName><source-id>15703</source-id><prism:issn>02191377 02193116</prism:issn><prism:volume>24</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>305</prism:startingPage><prism:endingPage>324</prism:endingPage><prism:pageRange>305-324</prism:pageRange><prism:coverDate>2010-01-01</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="57204664304"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Štrumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204664304</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>In this paper, we describe the first practical application of two methods, which bridge the gap between the non-expert user and machine learning models. The first is a method for explaining classifiers' predictions, which provides the user with additional information about the decision-making process of a classifier. The second is a reliability estimation methodology for regression predictions, which helps the users to decide to what extent to trust a particular prediction. Both methods are successfully applied to a novel breast cancer recurrence prediction data set and the results are evaluated by expert oncologists. © 2009 Springer-Verlag London Limited.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/77954953206" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=77954953206&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=77954953206&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60000966" href="https://api.elsevier.com/content/affiliation/affiliation_id/60000966"><affilname>Onkološki inštitut Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57204664304"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Štrumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204664304</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="23566763400"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnić Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23566763400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="57188535146"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188535146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="55964893200"><ce:initials>B.</ce:initials><ce:indexed-name>Zakotnik B.</ce:indexed-name><ce:surname>Zakotnik</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Zakotnik B.</ce:indexed-name><ce:surname>Zakotnik</ce:surname><ce:given-name>Branko</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55964893200</author-url><affiliation id="60000966" href="https://api.elsevier.com/content/affiliation/affiliation_id/60000966"/></author><author seq="5" auid="6602237915"><ce:initials>C.G.</ce:initials><ce:indexed-name>Kuhar C.G.</ce:indexed-name><ce:surname>Kuhar</ce:surname><ce:given-name>Cvetka Grašič</ce:given-name><preferred-name><ce:initials>C.G.</ce:initials><ce:indexed-name>Kuhar C.</ce:indexed-name><ce:surname>Kuhar</ce:surname><ce:given-name>Cvetka Grašič</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602237915</author-url><affiliation id="60000966" href="https://api.elsevier.com/content/affiliation/affiliation_id/60000966"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Breast cancer</author-keyword><author-keyword>Classification explanation</author-keyword><author-keyword>Data mining</author-keyword><author-keyword>Machine learning</author-keyword><author-keyword>Prediction reliability</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1710" abbrev="COMP">Information Systems</subject-area><subject-area code="1709" abbrev="COMP">Human-Computer Interaction</subject-area><subject-area code="1708" abbrev="COMP">Hardware and Architecture</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="22" month="11" timestamp="2018-11-22T14:38:41.000041-05:00" year="2018"/><ait:date-sort day="01" month="01" year="2010"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2010 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/s10115-009-0244-9</ce:doi>
+                    <itemid idtype="PUI">50618499</itemid>
+                    <itemid idtype="SNCPX">2010050827</itemid>
+                    <itemid idtype="SCP">77954953206</itemid>
+                    <itemid idtype="SGR">77954953206</itemid>
+                </itemidlist><history>
+                    <date-created day="21" month="08" year="2009"/>
+                </history><dbcollection>SNCPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Breast cancer</author-keyword>
+                        <author-keyword xml:lang="eng">Classification explanation</author-keyword>
+                        <author-keyword xml:lang="eng">Data mining</author-keyword>
+                        <author-keyword xml:lang="eng">Machine learning</author-keyword>
+                        <author-keyword xml:lang="eng">Prediction reliability</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Explanation and reliability of prediction models: The case of breast cancer recurrence</titletext></citation-title><author-group><author auid="57204664304" seq="1"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name>
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Štrumbelj E.</ce:indexed-name>
+                            <ce:surname>Štrumbelj</ce:surname>
+                            <ce:given-name>Erik</ce:given-name>
+                        </preferred-name></author><author auid="23566763400" seq="2"><ce:initials>Z.</ce:initials><ce:indexed-name>Bosnic Z.</ce:indexed-name><ce:surname>Bosnić</ce:surname><ce:given-name>Zoran</ce:given-name><preferred-name>
+                            <ce:initials>Z.</ce:initials>
+                            <ce:indexed-name>Bosnić Z.</ce:indexed-name>
+                            <ce:surname>Bosnić</ce:surname>
+                            <ce:given-name>Zoran</ce:given-name>
+                        </preferred-name></author><author auid="57188535146" seq="3"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                            <ce:surname>Kononenko</ce:surname>
+                            <ce:given-name>Igor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55964893200" seq="4"><ce:initials>B.</ce:initials><ce:indexed-name>Zakotnik B.</ce:indexed-name><ce:surname>Zakotnik</ce:surname><ce:given-name>Branko</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Zakotnik B.</ce:indexed-name>
+                            <ce:surname>Zakotnik</ce:surname>
+                            <ce:given-name>Branko</ce:given-name>
+                        </preferred-name></author><author auid="6602237915" seq="5"><ce:initials>C.G.</ce:initials><ce:indexed-name>Kuhar C.G.</ce:indexed-name><ce:surname>Kuhar</ce:surname><ce:given-name>Cvetka Grašič</ce:given-name><preferred-name>
+                            <ce:initials>C.G.</ce:initials>
+                            <ce:indexed-name>Kuhar C.</ce:indexed-name>
+                            <ce:surname>Kuhar</ce:surname>
+                            <ce:given-name>Cvetka Grašič</ce:given-name>
+                        </preferred-name></author><affiliation afid="60000966" country="svn"><organization>Institute of Oncology</organization><city-group>Ljubljana</city-group><affiliation-id afid="60000966"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>E.</ce:initials>
+                        <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                        <ce:surname>Štrumbelj</ce:surname>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>In this paper, we describe the first practical application of two methods, which bridge the gap between the non-expert user and machine learning models. The first is a method for explaining classifiers' predictions, which provides the user with additional information about the decision-making process of a classifier. The second is a reliability estimation methodology for regression predictions, which helps the users to decide to what extent to trust a particular prediction. Both methods are successfully applied to a novel breast cancer recurrence prediction data set and the results are evaluated by expert oncologists. © 2009 Springer-Verlag London Limited.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="15703" type="j"><sourcetitle>Knowledge and Information Systems</sourcetitle><sourcetitle-abbrev>Knowl. Inf. Systems. Syst.</sourcetitle-abbrev><issn type="print">02191377</issn><issn type="electronic">02193116</issn><volisspag>
+                        <voliss issue="2" volume="24"/>
+                        <pagerange first="305" last="324"/>
+                    </volisspag><publicationyear first="2010"/><publicationdate>
+                        <year>2010</year>
+                    <date-text xfab-added="true">2010</date-text></publicationdate></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1710</classification>
+                            <classification>1709</classification>
+                            <classification>1708</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="30">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Survey and critique of techniques for extracting rules from trained artificial neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029484103</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Andrews R.</ce:indexed-name>
+                                    <ce:surname>Andrews</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Diederich J.</ce:indexed-name>
+                                    <ce:surname>Diederich</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.B.</ce:initials>
+                                    <ce:indexed-name>Tickle A.B.</ce:indexed-name>
+                                    <ce:surname>Tickle</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl Based Syst</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-volisspag>
+                                <voliss volume="8"/>
+                                <pagerange first="373" last="389"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Andrews R, Diederich J, Tickle AB (1996) Survey and critique of techniques for extracting rules from trained artificial neural networks. Knowl Based Syst 8: 373-389.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954953755</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Becker B, Kohavi R, Sommerfield D (1997) Visualizing the simple bayesian classier. In: KDD Workshop on issues in the integration of data mining and data visualization.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimation of individual prediction reliability using the local sensitivity analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">54249164497</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Appl Intell</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="29"/>
+                                <pagerange first="187" last="203"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bosnić Z, Kononenko I (2007) Estimation of individual prediction reliability using the local sensitivity analysis. Appl Intell 29(3): 187-203.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954955900</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Bosnić Z, Kononenko I (2008) Automatic selection of reliability estimates for individual predictions. Knowl Eng Rev (in press).</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Comparison of approaches for estimating reliability of individual regression predictions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">54349094489</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Bosnic Z.</ce:indexed-name>
+                                    <ce:surname>Bosnić</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Knowl Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="67"/>
+                                <pagerange first="504" last="516"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bosnić Z, Kononenko I (2008) Comparison of approaches for estimating reliability of individual regression predictions. Data Knowl Eng 67(3): 504-516.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954952347</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Bosnić Z, Kononenko I (2009) An overview of advances in reliability estimation of individual predictions in machine learning. Intell Data Anal 13(2): 385-401.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Random forests</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035478854</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Breiman L.</ce:indexed-name>
+                                    <ce:surname>Breiman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mach Learn J</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="45"/>
+                                <pagerange first="5" last="32"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Breiman L (2001) Random forests. Mach Learn J 45: 5-32.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954957145</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Craven MW, Shavlik J (1994) Using sampling and queries to extract rules from trained neural networks. In: Proceedings of international conference on machine learning, pp 37-45.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">54249155295</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Crowder M.J.</ce:indexed-name>
+                                    <ce:surname>Crowder</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kimber A.</ce:indexed-name>
+                                    <ce:surname>Kimber</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.L.</ce:initials>
+                                    <ce:indexed-name>Smith R.L.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Sweeting T.</ce:indexed-name>
+                                    <ce:surname>Sweeting</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Statistical Concepts in Reliability. Statistical Analysis of Reliability Data</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-text>London: Chapman &amp; Hall</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Crowder MJ, Kimber A, Smith RL, Sweeting T (1991) Statistical concepts in reliability. Statistical analysis of reliability data. Chapman &amp; Hall, London.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An evolutionary approach for automatically extracting intelligible classification rules</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13644251959</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>de Falco I.</ce:indexed-name>
+                                    <ce:surname>de Falco</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>della Cioppa A.</ce:indexed-name>
+                                    <ce:surname>della Cioppa</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Iazzetta A.</ce:indexed-name>
+                                    <ce:surname>Iazzetta</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Tarantino E.</ce:indexed-name>
+                                    <ce:surname>Tarantino</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl Inf Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="179" last="201"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>De Falco I, Della Cioppa A, Iazzetta A, Tarantino E (2006) An evolutionary approach for automatically extracting intelligible classification rules. Knowl Inf Syst 7: 179-201.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Strategies for improving the modeling and interpretability of bayesian networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34250310031</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.L.</ce:initials>
+                                    <ce:indexed-name>de Santana A.L.</ce:indexed-name>
+                                    <ce:surname>de Santana</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Frances C.</ce:indexed-name>
+                                    <ce:surname>Frances</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.A.</ce:initials>
+                                    <ce:indexed-name>Rocha C.A.</ce:indexed-name>
+                                    <ce:surname>Rocha</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.V.</ce:initials>
+                                    <ce:indexed-name>Carvalho S.V.</ce:indexed-name>
+                                    <ce:surname>Carvalho</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>N.L.</ce:initials>
+                                    <ce:indexed-name>Vijaykumar N.L.</ce:indexed-name>
+                                    <ce:surname>Vijaykumar</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.P.</ce:initials>
+                                    <ce:indexed-name>Rego L.P.</ce:indexed-name>
+                                    <ce:surname>Rego</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.C.</ce:initials>
+                                    <ce:indexed-name>Costa J.C.</ce:indexed-name>
+                                    <ce:surname>Costa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Data Knowl Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="63"/>
+                                <pagerange first="91" last="107"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>de Santana AL, Frances C, Rocha CA, Carvalho SV, Vijaykumar NL, Rego LP, Costa JC (2007) Strategies for improving the modeling and interpretability of bayesian networks. Data Knowl Eng 63(1): 91-107.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954957243</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Gammerman A, Vovk V, Vapnik V (1998) Learning by transduction. In: Proceedings of the 14th conference on uncertainty in artificial intelligence. Madison, Wisconsin, pp 148-155.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An introduction to variable and feature selection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33745561205</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Guyon I.</ce:indexed-name>
+                                    <ce:surname>Guyon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Elisseeff A.</ce:indexed-name>
+                                    <ce:surname>Elisseeff</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Mach Learn Res</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="1157" last="1182"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Guyon I, Elisseeff A (2003) An introduction to variable and feature selection. J Mach Learn Res 3: 1157-1182.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954953657</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Hamel L (2006) Visualization of support vector machines with unsupervised learning. In: Proceedings of 2006 IEEE symposium on computational intelligence in bioinformatics and computational biology. pp 1-8.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954956883</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Jakulin A, Možina M, Demšar J, Bratko I, Zupan B (2005) Nomograms for visualizing support vector machines. In: KDD '05: proceeding of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining. pp 108-117.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Wrappers for feature subset selection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031381525</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Kohavi R.</ce:indexed-name>
+                                    <ce:surname>Kohavi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>John G.</ce:indexed-name>
+                                    <ce:surname>John</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artif Intell J</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="97"/>
+                                <pagerange first="273" last="324"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kohavi R, John G (1997) Wrappers for feature subset selection. Artif Intell J 97(1-2): 273-324.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Inductive and bayesian learning in medical diagnosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027682531</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Appl Artif Intell</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="317" last="337"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kononenko I (1993) Inductive and bayesian learning in medical diagnosis. Appl Artif Intell 7: 317-337.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Machine learning for medical diagnosis: History, state of the art and perspective</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034922742</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artif Intell Med</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="23"/>
+                                <pagerange first="89" last="109"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kononenko I (2001) Machine learning for medical diagnosis: history, state of the art and perspective. Artif Intell Med 23: 89-109.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954953612</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Kononenko I, Kukar M (2007) Machine learning and data mining: introduction to principles and algorithms. Horwood, New York.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quality assessment of individual classifications in machine learning and data mining</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33645537482</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kukar M.</ce:indexed-name>
+                                    <ce:surname>Kukar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl Inf Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="9"/>
+                                <pagerange first="364" last="384"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kukar M (2004) Quality assessment of individual classifications in machine learning and data mining. Knowl Inf Syst 9(3): 364-384.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954956270</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Lemaire V, Féraud R, Voisine N (2008) Contact personalization using a score understanding method. In: International joint conference on neural networks (IJCNN).</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Toward integrating feature selection algorithms for classification and clustering</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">17044405923</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Liu H.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Yu L.</ce:indexed-name>
+                                    <ce:surname>Yu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl Data Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="17"/>
+                                <pagerange first="491" last="502"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu H, Yu L (2005) Toward integrating feature selection algorithms for classification and clustering. Knowl Data Eng 17(4): 491-502.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954957979</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Možina M, Demšar J, Kattan M, Zupan B (2004) Nomograms for visualization of naive bayesian classifier. In: PKDD '04: proceedings of the 8th European conference on principles and practice of knowledge discovery in databases, New York, NY, USA, 2004. Springer, New York, pp 337-348.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954951428</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Poulet F (2004) Svm and graphical algorithms: a cooperative approach. In: Proceedings of fourth IEEE international conference on data mining. pp 499-502.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining classifications for individual instances</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949101606</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.M.</ce:initials>
+                                    <ce:indexed-name>Robnik S.M.</ce:indexed-name>
+                                    <ce:surname>Robnik</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans Knowl Data Eng</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="20"/>
+                                <pagerange first="589" last="600"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Robnik Šikonja M, Kononenko I (2008) Explaining classifications for individual instances. IEEE Trans Knowl Data Eng 20: 589-600.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Transduction with confidence and credibility</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84880657197</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Saunders C.</ce:indexed-name>
+                                    <ce:surname>Saunders</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Gammerman A.</ce:indexed-name>
+                                    <ce:surname>Gammerman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vovk V.</ce:indexed-name>
+                                    <ce:surname>Vovk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc IJCAI</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="99"/>
+                                <pagerange first="722" last="726"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Saunders C, Gammerman A, Vovk V (1999) Transduction with confidence and credibility. Proc IJCAI' 99(2): 722-726.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954955350</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Szafron D, Poulin B, Eisner R, Lu P, Greiner R, Wishart D, Fyshe A, Pearcy B, Macdonell C, and Anvik J (2006) Visual explanation of evidence in additive classifiers. In: Proceedings of innovative applications of artificial intelligence.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954956736</itemid>
+                            </refd-itemidlist>
+                        </ref-info>
+                        <ref-fulltext>Štrumbelj E, Kononenko I (2008) Towards a model independent method for explaining classification for individual instances. In: Proceedings of data warehousing and knowledge discovery. LNCS. Springer, Berlin, pp 273-282.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Extracting refined rules from knowledge-based neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0027678679</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Towell G.</ce:indexed-name>
+                                    <ce:surname>Towell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Shavlik J.W.</ce:indexed-name>
+                                    <ce:surname>Shavlik</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mach Learn</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="71" last="101"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Towell G, Shavlik JW (1993) Extracting refined rules from knowledge-based neural networks. Mach Learn 13: 71-101.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Top 10 algorithms in data mining</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">37549018049</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wu X.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Kumar V.</ce:indexed-name>
+                                    <ce:surname>Kumar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Quinlan J.R.</ce:indexed-name>
+                                    <ce:surname>Quinlan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Ghosh J.</ce:indexed-name>
+                                    <ce:surname>Ghosh</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Yang Q.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Motoda H.</ce:indexed-name>
+                                    <ce:surname>Motoda</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>G.J.</ce:initials>
+                                    <ce:indexed-name>McLachlan G.J.</ce:indexed-name>
+                                    <ce:surname>McLachlan</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ng A.</ce:indexed-name>
+                                    <ce:surname>Ng</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Liu R.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="10">
+                                    <ce:initials>P.S.</ce:initials>
+                                    <ce:indexed-name>Yu P.S.</ce:indexed-name>
+                                    <ce:surname>Yu</ce:surname>
+                                </author>
+                                <author seq="11">
+                                    <ce:initials>Z.Z.M.</ce:initials>
+                                    <ce:indexed-name>Steinbach Z.Z.M.</ce:indexed-name>
+                                    <ce:surname>Steinbach</ce:surname>
+                                </author>
+                                <author seq="12">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Hand D.J.</ce:indexed-name>
+                                    <ce:surname>Hand</ce:surname>
+                                </author>
+                                <author seq="13">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Steinberg D.</ce:indexed-name>
+                                    <ce:surname>Steinberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowl Inf Syst</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="1" last="37"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wu X, Kumar V, Quinlan JR, Ghosh J, Yang Q, Motoda H, McLachlan GJ, Ng A, Liu R, Yu PS, Steinbach ZZM, Hand DJ, Steinberg D (2008) Top 10 algorithms in data mining. Knowl Inf Syst 14: 1-37.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

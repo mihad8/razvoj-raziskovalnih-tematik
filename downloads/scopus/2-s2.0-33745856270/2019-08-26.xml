@@ -1,0 +1,167 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/33745856270</prism:url><dc:identifier>SCOPUS_ID:33745856270</dc:identifier><eid>2-s2.0-33745856270</eid><dc:title>Structural descriptions in human-assisted robot visual learning</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>5</citedby-count><prism:publicationName>HRI 2006: Proceedings of the 2006 ACM Conference on Human-Robot Interaction</prism:publicationName><source-id>4700152424</source-id><prism:isbn>1595932941</prism:isbn><prism:isbn>9781595932945</prism:isbn><prism:volume>2006</prism:volume><prism:startingPage>343</prism:startingPage><prism:endingPage>344</prism:endingPage><prism:pageRange>343-344</prism:pageRange><prism:coverDate>2006-07-17</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="14035676700"><ce:initials>G.-J.M.</ce:initials><ce:indexed-name>Kruijff G.-J.M.</ce:indexed-name><ce:surname>Kruijff</ce:surname><ce:given-name>Geert-Jan M.</ce:given-name><preferred-name><ce:initials>G.J.M.</ce:initials><ce:indexed-name>Kruijff G.</ce:indexed-name><ce:surname>Kruijff</ce:surname><ce:given-name>Geert Jan M.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14035676700</author-url><affiliation id="60075096" href="https://api.elsevier.com/content/affiliation/affiliation_id/60075096"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The paper presents an approach to using structural descriptions, obtained through a human-robot tutoring dialogue, as labels for the visual object models a robot learns, The paper shows how structural descriptions enable relating models for different aspects of one and the same object, and how being able to relate descriptions for visual models and discourse referents enables incremental updating of model descriptions through dialogue (either robot- or human-initiated). The approach has been implemented in an integrated architecture for human-assisted robot visual learning.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/33745856270" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=33745856270&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=33745856270&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60075096" href="https://api.elsevier.com/content/affiliation/affiliation_id/60075096"><affilname>German Research Center for Artificial Intelligence (DFKI)</affilname><affiliation-city>Kaiserslautern</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="14035676700"><ce:initials>G.-J.M.</ce:initials><ce:indexed-name>Kruijff G.-J.M.</ce:indexed-name><ce:surname>Kruijff</ce:surname><ce:given-name>Geert-Jan M.</ce:given-name><preferred-name><ce:initials>G.J.M.</ce:initials><ce:indexed-name>Kruijff G.</ce:indexed-name><ce:surname>Kruijff</ce:surname><ce:given-name>Geert Jan M.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14035676700</author-url><affiliation id="60075096" href="https://api.elsevier.com/content/affiliation/affiliation_id/60075096"/></author><author seq="2" auid="14035902400"><ce:initials>J.D.</ce:initials><ce:indexed-name>Kelleher J.D.</ce:indexed-name><ce:surname>Kelleher</ce:surname><ce:given-name>John D.</ce:given-name><preferred-name><ce:initials>J.D.</ce:initials><ce:indexed-name>Kelleher J.</ce:indexed-name><ce:surname>Kelleher</ce:surname><ce:given-name>John D.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14035902400</author-url><affiliation id="60075096" href="https://api.elsevier.com/content/affiliation/affiliation_id/60075096"/></author><author seq="3" auid="14035299400"><ce:initials>G.</ce:initials><ce:indexed-name>Berginc G.</ce:indexed-name><ce:surname>Berginc</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Berginc G.</ce:indexed-name><ce:surname>Berginc</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14035299400</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="7003317327"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Cognitive vision and learning</author-keyword><author-keyword>Natural language dialogue</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Cognitive vision and learning</mainterm><mainterm weight="a" candidate="n">Natural language dialogue</mainterm><mainterm weight="a" candidate="n">Visual learning</mainterm><mainterm weight="a" candidate="n">Visual models</mainterm></idxterms><subject-areas><subject-area code="2200" abbrev="ENGI">Engineering (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="05" month="08" timestamp="2018-08-05T09:43:23.000023-04:00" year="2018"/><ait:date-sort day="17" month="07" year="2006"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">44032434</itemid>
+                    <itemid idtype="CPX">20062910006524</itemid>
+                    <itemid idtype="SCP">33745856270</itemid>
+                    <itemid idtype="SGR">33745856270</itemid>
+                </itemidlist><history>
+                    <date-created day="17" month="07" year="2006"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword>Cognitive vision and learning</author-keyword>
+                        <author-keyword>Natural language dialogue</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Structural descriptions in human-assisted robot visual learning</titletext></citation-title><author-group><author auid="14035676700" seq="1"><ce:initials>G.-J.M.</ce:initials><ce:indexed-name>Kruijff G.-J.M.</ce:indexed-name><ce:surname>Kruijff</ce:surname><ce:given-name>Geert-Jan M.</ce:given-name><preferred-name>
+                            <ce:initials>G.J.M.</ce:initials>
+                            <ce:indexed-name>Kruijff G.</ce:indexed-name>
+                            <ce:surname>Kruijff</ce:surname>
+                            <ce:given-name>Geert Jan M.</ce:given-name>
+                        </preferred-name></author><author auid="14035902400" seq="2"><ce:initials>J.D.</ce:initials><ce:indexed-name>Kelleher J.D.</ce:indexed-name><ce:surname>Kelleher</ce:surname><ce:given-name>John D.</ce:given-name><preferred-name>
+                            <ce:initials>J.D.</ce:initials>
+                            <ce:indexed-name>Kelleher J.</ce:indexed-name>
+                            <ce:surname>Kelleher</ce:surname>
+                            <ce:given-name>John D.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60075096" country="deu"><organization>LT Lab. DFKI GmbH</organization><city-group>Saarbrücken</city-group><affiliation-id afid="60075096"/><country>Germany</country></affiliation></author-group><author-group><author auid="14035299400" seq="3"><ce:initials>G.</ce:initials><ce:indexed-name>Berginc G.</ce:indexed-name><ce:surname>Berginc</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Berginc G.</ce:indexed-name>
+                            <ce:surname>Berginc</ce:surname>
+                            <ce:given-name>Gregor</ce:given-name>
+                        </preferred-name></author><author auid="7003317327" seq="4"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                            <ce:surname>Leonardis</ce:surname>
+                            <ce:given-name>Aleš</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104581229"><organization>ViCoS Lab.</organization><organization>University of Ljubljana</organization><city-group>Ljubljana</city-group><affiliation-id afid="60031106" dptid="104581229"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>G.-J.M.</ce:initials>
+                        <ce:indexed-name>Kruijff G.-J.M.</ce:indexed-name>
+                        <ce:surname>Kruijff</ce:surname>
+                    </person><affiliation country="deu"><organization>LT Lab. DFKI GmbH</organization><city-group>Saarbrücken</city-group><country>Germany</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The paper presents an approach to using structural descriptions, obtained through a human-robot tutoring dialogue, as labels for the visual object models a robot learns, The paper shows how structural descriptions enable relating models for different aspects of one and the same object, and how being able to relate descriptions for visual models and discourse referents enables incremental updating of model descriptions through dialogue (either robot- or human-initiated). The approach has been implemented in an integrated architecture for human-assisted robot visual learning.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="4700152424" type="p"><sourcetitle>HRI 2006: Proceedings of the 2006 ACM Conference on Human-Robot Interaction</sourcetitle><sourcetitle-abbrev>HRI Proc. ACM Conf. Human-Robot Interact.</sourcetitle-abbrev><issuetitle>HRI 2006: Proceedings of the 2006 ACM Conference on Human-Robot Interaction - Toward Human Robot Collaboration</issuetitle><isbn length="10" level="volume">1595932941</isbn><isbn length="13" level="volume">9781595932945</isbn><volisspag>
+                        <voliss volume="2006"/>
+                        <pagerange first="343" last="344"/>
+                    </volisspag><publicationyear first="2006"/><publicationdate>
+                        <year>2006</year>
+                    <date-text xfab-added="true">2006</date-text></publicationdate><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>HRI 2006: 2006 ACM Conference on Human-Robot Interaction</confname>
+                                <conflocation country="usa">
+                                    <city-group>Salt Lake City, Utah</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="02" month="03" year="2006"/>
+                                    <enddate day="04" month="03" year="2006"/>
+                                </confdate>
+                                <confcode>67758</confcode>
+                                <confsponsors complete="y">
+                                    <confsponsor>ACM SIGCHI</confsponsor>
+                                    <confsponsor>ACM SIGART</confsponsor>
+                                </confsponsors>
+                            </confevent>
+                            <confpublication>
+                                <procpagecount>364</procpagecount>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>2200</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>722.2</classification>
+                            <classification>723.2</classification>
+                            <classification>723.4</classification>
+                            <classification>731.1</classification>
+                            <classification>731.5</classification>
+                            <classification>921</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="4">
+                    <reference id="1">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85048736911</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Asher N.</ce:indexed-name>
+                                    <ce:surname>Asher</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Lascarides A.</ce:indexed-name>
+                                    <ce:surname>Lascarides</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Logics of Conversation</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-text>Cambridge University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>N. Asher and A. Lascarides. Logics of Conversation. Cambridge University Press, 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Coupling CCG and hybrid logic dependency semantics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">22944492656</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Baldridge J.</ce:indexed-name>
+                                    <ce:surname>Baldridge</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.J.M.</ce:initials>
+                                    <ce:indexed-name>Kruijff G.J.M.</ce:indexed-name>
+                                    <ce:surname>Kruijff</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. ACL 2002</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-text>Philadelphia, PA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Baldridge and G.J.M. Kruijff. Coupling CCG and hybrid logic dependency semantics. In Proc. ACL 2002, Philadelphia, PA, 2002.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Distinctive image features from scale-invariant keypoints</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">3042535216</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.G.</ce:initials>
+                                    <ce:indexed-name>Lowe D.G.</ce:indexed-name>
+                                    <ce:surname>Lowe</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Jnl. Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="91" last="110"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>D. G. Lowe. Distinctive image features from scale-invariant keypoints. In Int. Jnl. Computer Vision, pages 91-110, 2004.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Semiotic schemas: A framework for grounding language in the action and perception</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">24144445149</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.K.</ce:initials>
+                                    <ce:indexed-name>Roy D.K.</ce:indexed-name>
+                                    <ce:surname>Roy</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+                            <ref-text>to appear</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D.K. Roy, Semiotic schemas: A framework for grounding language in the action and perception. Artificial Intelligence, to appear.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

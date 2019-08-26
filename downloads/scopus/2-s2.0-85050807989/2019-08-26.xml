@@ -1,0 +1,1595 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85050807989</prism:url><dc:identifier>SCOPUS_ID:85050807989</dc:identifier><eid>2-s2.0-85050807989</eid><pubmed-id>30195424</pubmed-id><pii>S0169260717308799</pii><prism:doi>10.1016/j.cmpb.2018.07.010</prism:doi><dc:title>A topological approach to delineation and arrhythmic beats detection in unprocessed long-term ECG signals</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Computer Methods and Programs in Biomedicine</prism:publicationName><dc:publisher>
+                        Elsevier Ireland Ltd
+                    </dc:publisher><source-id>23604</source-id><prism:issn>18727565 01692607</prism:issn><prism:volume>164</prism:volume><prism:startingPage>159</prism:startingPage><prism:endingPage>168</prism:endingPage><prism:pageRange>159-168</prism:pageRange><prism:coverDate>2018-10-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="55561233700"><ce:initials>J.</ce:initials><ce:indexed-name>Faganeli Pucer J.</ce:indexed-name><ce:surname>Faganeli Pucer</ce:surname><ce:given-name>Jana</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Faganeli Pucer J.</ce:indexed-name><ce:surname>Faganeli Pucer</ce:surname><ce:given-name>Jana</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55561233700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 Elsevier B.V.</publishercopyright>
+                        <ce:para>Background and objective: Arrhythmias are one of the most common symptoms of cardiac failure. They are usually diagnosed using ECG recordings, particularly long ambulatory recordings (AECG). These recordings are tedious to interpret by humans due to their extent (up to 48 h) and the relative scarcity of arrhythmia events. This makes automated systems for detecting various AECG anomalies indispensable. In this work we present a novel procedure based on topological principles (Morse theory) for detecting arrhythmic beats in AECG. It works in nearly real-time (delayed by a 14 s window), and can be applied to raw (unprocessed) ECG signals. Methods: The procedure is based on a subject-specific adaptation of the one-dimensional discrete Morse theory (ADMT), which represents the signal as a sequence of its most important extrema. The ADMT algorithm is applied twice; for low-amplitude, high-frequency noise removal, and for detection of the characteristic waves of individual ECG beats. The waves are annotated using the ADMT algorithm and template matching. The annotated beats are then compared to the adjacent beats with two measures of similarity: the distance between two beats, and the difference in shape between them. The two measures of similarity are used as inputs to a decision tree algorithm that classifies the beats as normal or abnormal. The classification performance is evaluated with the leave-one-record-out cross-validation method. Results: Our approach was tested on the MIT-BIH database, where it exhibited a classification accuracy of 92.73%, a sensitivity of 73.35%, a specificity of 96.70%, a positive predictive value of 88.01%, and a negative predictive value of 95.73%. Conclusions: Compared to related studies, our algorithm requires less preprocessing while retaining the capability to detect and classify beats in almost real-time. The algorithm exhibits a high degree of accuracy in beats detection and classification that are at least comparable to state-of-the-art methods.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85050807989" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85050807989&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85050807989&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55561233700"><ce:initials>J.</ce:initials><ce:indexed-name>Faganeli Pucer J.</ce:indexed-name><ce:surname>Faganeli Pucer</ce:surname><ce:given-name>Jana</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Faganeli Pucer J.</ce:indexed-name><ce:surname>Faganeli Pucer</ce:surname><ce:given-name>Jana</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55561233700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="6603021463"><ce:initials>M.</ce:initials><ce:indexed-name>Kukar M.</ce:indexed-name><ce:surname>Kukar</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Kukar M.</ce:indexed-name><ce:surname>Kukar</ce:surname><ce:given-name>Matjaž</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603021463</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Arrhythmia</author-keyword><author-keyword>Discrete morse theory</author-keyword><author-keyword>ECG</author-keyword><author-keyword>Machine learning</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Arrhythmia</mainterm><mainterm weight="b" candidate="n">Classification performance</mainterm><mainterm weight="b" candidate="n">Cross-validation methods</mainterm><mainterm weight="b" candidate="n">Decision-tree algorithm</mainterm><mainterm weight="b" candidate="n">Discrete Morse theory</mainterm><mainterm weight="b" candidate="n">Negative predictive value</mainterm><mainterm weight="b" candidate="n">Positive predictive values</mainterm><mainterm weight="b" candidate="n">State-of-the-art methods</mainterm><mainterm weight="a" candidate="n">Algorithms</mainterm><mainterm weight="b" candidate="n">Arrhythmias, Cardiac</mainterm><mainterm weight="b" candidate="n">Databases, Factual</mainterm><mainterm weight="b" candidate="n">Diagnosis, Computer-Assisted</mainterm><mainterm weight="b" candidate="n">Electrocardiography, Ambulatory</mainterm><mainterm weight="b" candidate="n">Humans</mainterm><mainterm weight="b" candidate="n">Models, Cardiovascular</mainterm><mainterm weight="b" candidate="n">Sensitivity and Specificity</mainterm><mainterm weight="b" candidate="n">Signal Processing, Computer-Assisted</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="2718" abbrev="MEDI">Health Informatics</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-source-document source-document-type="pii">S0169260717308799</xocs:funding-source-document><xocs:funding-addon-generated-timestamp>2019-03-30T17:57:07Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Ministry of Education, Science, and Sport</xocs:funding-agency-matched-string></xocs:funding><xocs:funding-text>This work was supported by the Slovenian Ministry of Education, Science, and Sport, and the Slovenian Research Agency. The work was part of the Ph.D. thesis of the first author.   </xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="16" month="01" timestamp="2019-01-16T12:11:26.000026-05:00" year="2019"/><ait:date-sort day="01" month="10" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2019 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:pii>S0169260717308799</ce:pii>
+                    <ce:doi>10.1016/j.cmpb.2018.07.010</ce:doi>
+                    <itemid idtype="PUI">2000993220</itemid>
+                    <itemid idtype="CAR-ID">912031102</itemid>
+                    <itemid idtype="CPX">20183105646353</itemid>
+                    <itemid idtype="EMBASE">20180534412</itemid>
+                    <itemid idtype="MEDL">30195424</itemid>
+                    <itemid idtype="NURSNG">2018258680</itemid>
+                    <itemid idtype="REAXYSCAR">20181349264</itemid>
+                    <itemid idtype="RMC">2018221372</itemid>
+                    <itemid idtype="SCOPUS">20182318410</itemid>
+                    <itemid idtype="SCP">85050807989</itemid>
+                    <itemid idtype="SGR">85050807989</itemid>
+                    <itemid idtype="PUIsecondary">625857871</itemid>
+                </itemidlist><history>
+                    <date-created day="12" month="01" timestamp="BST 09:03:50" year="2019"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>EMBASE</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>NURSNG</dbcollection><dbcollection>REAXYSCAR</dbcollection><dbcollection>RMC</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection><external-source>MEDLINE</external-source></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword xml:lang="eng">Arrhythmia</author-keyword>
+                        <author-keyword xml:lang="eng">Discrete morse theory</author-keyword>
+                        <author-keyword xml:lang="eng">ECG</author-keyword>
+                        <author-keyword xml:lang="eng">Machine learning</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">A topological approach to delineation and arrhythmic beats detection in unprocessed long-term ECG signals</titletext></citation-title><author-group><author auid="55561233700" author-instance-id="S0169260717308799-a2d8c5bbdee2afd17b01ece55f692271" orcid="0000-0001-9564-5554" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Faganeli Pucer J.</ce:indexed-name><ce:surname>Faganeli Pucer</ce:surname><ce:given-name>Jana</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Faganeli Pucer J.</ce:indexed-name>
+                            <ce:surname>Faganeli Pucer</ce:surname>
+                            <ce:given-name>Jana</ce:given-name>
+                        </preferred-name></author><author auid="6603021463" author-instance-id="S0169260717308799-5b71c721281f0388e0a0325fd4bfea5b" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Kukar M.</ce:indexed-name><ce:surname>Kukar</ce:surname><ce:given-name>Matjaž</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Kukar M.</ce:indexed-name>
+                            <ce:surname>Kukar</ce:surname>
+                            <ce:given-name>Matjaž</ce:given-name>
+                        </preferred-name></author><affiliation affiliation-instance-id="S0169260717308799-0e41a7b3375291a09712818ae573490c" afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>J.</ce:initials>
+                        <ce:indexed-name>Faganeli Pucer J.</ce:indexed-name>
+                        <ce:surname>Faganeli Pucer</ce:surname>
+                        <ce:given-name>Jana</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2018 Elsevier B.V.</publishercopyright>
+                        <ce:para>Background and objective: Arrhythmias are one of the most common symptoms of cardiac failure. They are usually diagnosed using ECG recordings, particularly long ambulatory recordings (AECG). These recordings are tedious to interpret by humans due to their extent (up to 48 h) and the relative scarcity of arrhythmia events. This makes automated systems for detecting various AECG anomalies indispensable. In this work we present a novel procedure based on topological principles (Morse theory) for detecting arrhythmic beats in AECG. It works in nearly real-time (delayed by a 14 s window), and can be applied to raw (unprocessed) ECG signals. Methods: The procedure is based on a subject-specific adaptation of the one-dimensional discrete Morse theory (ADMT), which represents the signal as a sequence of its most important extrema. The ADMT algorithm is applied twice; for low-amplitude, high-frequency noise removal, and for detection of the characteristic waves of individual ECG beats. The waves are annotated using the ADMT algorithm and template matching. The annotated beats are then compared to the adjacent beats with two measures of similarity: the distance between two beats, and the difference in shape between them. The two measures of similarity are used as inputs to a decision tree algorithm that classifies the beats as normal or abnormal. The classification performance is evaluated with the leave-one-record-out cross-validation method. Results: Our approach was tested on the MIT-BIH database, where it exhibited a classification accuracy of 92.73%, a sensitivity of 73.35%, a specificity of 96.70%, a positive predictive value of 88.01%, and a negative predictive value of 95.73%. Conclusions: Compared to related studies, our algorithm requires less preprocessing while retaining the capability to detect and classify beats in almost real-time. The algorithm exhibits a high degree of accuracy in beats detection and classification that are at least comparable to state-of-the-art methods.</ce:para>
+                    </abstract></abstracts><source country="irl" srcid="23604" type="j"><sourcetitle>Computer Methods and Programs in Biomedicine</sourcetitle><sourcetitle-abbrev>Comput. Methods Programs Biomed.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Computer Methods and Programs in Biomedicine</translated-sourcetitle><issn type="electronic">18727565</issn><issn type="print">01692607</issn><codencode>CMPBE</codencode><volisspag>
+                        <voliss volume="164"/>
+                        <pagerange first="159" last="168"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>10</month>
+                        <day>01</day>
+                        <date-text>October 2018</date-text>
+                    </publicationdate><website>
+                        <ce:e-address type="email">www.elsevier.com/locate/cmpb</ce:e-address>
+                    </website><publisher>
+                        <publishername>Elsevier Ireland Ltd</publishername>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>461.6</classification-code>
+                                <classification-description>Medicine</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>716.1</classification-code>
+                                <classification-description>Information and Communication Theory</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723</classification-code>
+                                <classification-description>Computer Software, Data Handling and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.2</classification-code>
+                                <classification-description>Data Processing</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>731</classification-code>
+                                <classification-description>Automatic Control Principles and Applications</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>921.4</classification-code>
+                                <classification-description>Combinatorial Mathematics, Includes Graph Theory, Set Theory</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1706</classification>
+                            <classification>2718</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MEDI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="46">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Combined wavelet transformation and radial basis neural networks for classifying life-threatening cardiac arrhythmias</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0001</itemid>
+                                <itemid idtype="SGR">0032828829</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Al-Fahoum A.</ce:indexed-name>
+                                    <ce:surname>Al-Fahoum</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Howitt I.</ce:indexed-name>
+                                    <ce:surname>Howitt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Med. Biol. Eng. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="37"/>
+                                <pagerange first="566" last="573"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Al-Fahoum, A., Howitt, I., Combined wavelet transformation and radial basis neural networks for classifying life-threatening cardiac arrhythmias. Med. Biol. Eng. Comput. 37:5 (1999), 566–573.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Support vector machine-based arrhythmia classification using reduced features of heart rate variability signal</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0002</itemid>
+                                <itemid idtype="SGR">50049126632</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.M.</ce:initials>
+                                    <ce:indexed-name>Asl B.M.</ce:indexed-name>
+                                    <ce:surname>Asl</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Setarehdan S.K.</ce:indexed-name>
+                                    <ce:surname>Setarehdan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Mohebbi M.</ce:indexed-name>
+                                    <ce:surname>Mohebbi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artif. Intell. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="44"/>
+                                <pagerange first="51" last="64"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Asl, B.M., Setarehdan, S.K., Mohebbi, M., Support vector machine-based arrhythmia classification using reduced features of heart rate variability signal. Artif. Intell. Med. 44:1 (2008), 51–64.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ECG Signal denoising and baseline wander correction based on the empirical mode decomposition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0003</itemid>
+                                <itemid idtype="SGR">37049009937</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Blanco-Velasco M.</ce:indexed-name>
+                                    <ce:surname>Blanco-Velasco</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Weng B.</ce:indexed-name>
+                                    <ce:surname>Weng</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.E.</ce:initials>
+                                    <ce:indexed-name>Barner K.E.</ce:indexed-name>
+                                    <ce:surname>Barner</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Biol. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="38"/>
+                                <pagerange first="1" last="13"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Blanco-Velasco, M., Weng, B., Barner, K.E., ECG Signal denoising and baseline wander correction based on the empirical mode decomposition. Comput. Biol. Med. 38:1 (2008), 1–13.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Classification and Regression Trees</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0004</itemid>
+                                <itemid idtype="SGR">85052770793</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Breiman L.</ce:indexed-name>
+                                    <ce:surname>Breiman</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Friedman J.</ce:indexed-name>
+                                    <ce:surname>Friedman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.J.</ce:initials>
+                                    <ce:indexed-name>Stone C.J.</ce:indexed-name>
+                                    <ce:surname>Stone</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Olshen R.A.</ce:indexed-name>
+                                    <ce:surname>Olshen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="1984"/>
+                            <ref-text>CRC press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Breiman, L., Friedman, J., Stone, C.J., Olshen, R.A., Classification and Regression Trees. 1984, CRC press.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Guide to ECG Analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0005</itemid>
+                                <itemid idtype="SGR">0003470776</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.T.</ce:initials>
+                                    <ce:indexed-name>Catalano J.T.</ce:indexed-name>
+                                    <ce:surname>Catalano</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="2002"/>
+                            <ref-text>Lippincott Williams &amp; Wilkins</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Catalano, J.T., Guide to ECG Analysis. 2002, Lippincott Williams &amp; Wilkins.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A patient-adapting heartbeat classifier using ECG morphology and heartbeat interval features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0006</itemid>
+                                <itemid idtype="SGR">33845864226</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>de Chazal P.</ce:indexed-name>
+                                    <ce:surname>de Chazal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Reilly R.B.</ce:indexed-name>
+                                    <ce:surname>Reilly</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="53"/>
+                                <pagerange first="2535" last="2543"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>de Chazal, P., Reilly, R.B., A patient-adapting heartbeat classifier using ECG morphology and heartbeat interval features. IEEE Trans. Biomed. Eng. 53:12 (2006), 2535–2543.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Hardware implementation of a modified delay-coordinate mapping-based QRS complex detection algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0007</itemid>
+                                <itemid idtype="SGR">34247259101</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Cvikl M.</ce:indexed-name>
+                                    <ce:surname>Cvikl</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Jager F.</ce:indexed-name>
+                                    <ce:surname>Jager</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zemva A.</ce:indexed-name>
+                                    <ce:surname>Žemva</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>EURASIP J. Appl. Signal Process.</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="2007"/>
+                                <pagerange first="104"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cvikl, M., Jager, F., Žemva, A., Hardware implementation of a modified delay-coordinate mapping-based QRS complex detection algorithm. EURASIP J. Appl. Signal Process., 2007(1), 2007, 104.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic classification of heartbeats using ECG morphology and heartbeat interval features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0008</itemid>
+                                <itemid idtype="SGR">2942709662</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>De Chazal P.</ce:indexed-name>
+                                    <ce:surname>De Chazal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>O'Dwyer M.</ce:indexed-name>
+                                    <ce:surname>O'Dwyer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.B.</ce:initials>
+                                    <ce:indexed-name>Reilly R.B.</ce:indexed-name>
+                                    <ce:surname>Reilly</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="51"/>
+                                <pagerange first="1196" last="1206"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>De Chazal, P., O'Dwyer, M., Reilly, R.B., Automatic classification of heartbeats using ECG morphology and heartbeat interval features. IEEE Trans. Biomed. Eng. 51:7 (2004), 1196–1206.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ECG Beat classification via deterministic learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0009</itemid>
+                                <itemid idtype="SGR">85014224435</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Dong X.</ce:indexed-name>
+                                    <ce:surname>Dong</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Wang C.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Si W.</ce:indexed-name>
+                                    <ce:surname>Si</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="240"/>
+                                <pagerange first="1" last="12"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dong, X., Wang, C., Si, W., ECG Beat classification via deterministic learning. Neurocomputing 240 (2017), 1–12.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection of premature ventricular contractions using MLP neural networks: a comparative study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0010</itemid>
+                                <itemid idtype="SGR">71849109586</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ebrahimzadeh A.</ce:indexed-name>
+                                    <ce:surname>Ebrahimzadeh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Khazaee A.</ce:indexed-name>
+                                    <ce:surname>Khazaee</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Measurement</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="43"/>
+                                <pagerange first="103" last="112"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ebrahimzadeh, A., Khazaee, A., Detection of premature ventricular contractions using MLP neural networks: a comparative study. Measurement 43:1 (2010), 103–112.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A users guide to discrete morse theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0011</itemid>
+                                <itemid idtype="SGR">18144420427</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Forman R.</ce:indexed-name>
+                                    <ce:surname>Forman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Sém. Lothar. Combin</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <voliss volume="48"/>
+                                <pagerange first="35"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Forman, R., A users guide to discrete morse theory. Sém. Lothar. Combin, 48, 2002, 35.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0012</itemid>
+                                <itemid idtype="SGR">85014250663</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Fuster V.</ce:indexed-name>
+                                    <ce:surname>Fuster</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.B.</ce:initials>
+                                    <ce:indexed-name>Kelly B.B.</ce:indexed-name>
+                                    <ce:surname>Kelly</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Promoting Cardiovascular Health in the Developing World: A Critical Challenge to Achieve Global Health</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>National Academies Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Fuster, V., Kelly, B.B., (eds.) Promoting Cardiovascular Health in the Developing World: A Critical Challenge to Achieve Global Health, 2010, National Academies Press.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantitative investigation of QRS detection rules using the MIT/BIH arrhythmia database</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0013</itemid>
+                                <itemid idtype="SGR">0022929617</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.S.</ce:initials>
+                                    <ce:indexed-name>Hamilton P.S.</ce:indexed-name>
+                                    <ce:surname>Hamilton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.J.</ce:initials>
+                                    <ce:indexed-name>Tompkins W.J.</ce:indexed-name>
+                                    <ce:surname>Tompkins</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="BME-33"/>
+                                <pagerange first="1157" last="1165"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hamilton, P.S., Tompkins, W.J., Quantitative investigation of QRS detection rules using the MIT/BIH arrhythmia database. IEEE Trans. Biomed. Eng. BME-33:12 (1986), 1157–1165.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ECG arrhythmia recognition via a neuro-SVM–KNN hybrid classifier with virtual QRS image-based geometrical features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0014</itemid>
+                                <itemid idtype="SGR">80054958869</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Homaeinezhad M.R.</ce:indexed-name>
+                                    <ce:surname>Homaeinezhad</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Atyabi S.</ce:indexed-name>
+                                    <ce:surname>Atyabi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Tavakkoli E.</ce:indexed-name>
+                                    <ce:surname>Tavakkoli</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>H.N.</ce:initials>
+                                    <ce:indexed-name>Toosi H.N.</ce:indexed-name>
+                                    <ce:surname>Toosi</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ghaffari A.</ce:indexed-name>
+                                    <ce:surname>Ghaffari</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ebrahimpour R.</ce:indexed-name>
+                                    <ce:surname>Ebrahimpour</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Expert Syst. Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="39"/>
+                                <pagerange first="2047" last="2058"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Homaeinezhad, M.R., Atyabi, S., Tavakkoli, E., Toosi, H.N., Ghaffari, A., Ebrahimpour, R., ECG arrhythmia recognition via a neuro-SVM–KNN hybrid classifier with virtual QRS image-based geometrical features. Expert Syst. Appl. 39:2 (2012), 2047–2058.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The comparison of different feed forward neural network architectures for ECG signal diagnosis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0015</itemid>
+                                <itemid idtype="SGR">33644995117</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.G.</ce:initials>
+                                    <ce:indexed-name>Hosseini H.G.</ce:indexed-name>
+                                    <ce:surname>Hosseini</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Luo D.</ce:indexed-name>
+                                    <ce:surname>Luo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Reynolds K.</ce:indexed-name>
+                                    <ce:surname>Reynolds</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Med. Eng. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="28"/>
+                                <pagerange first="372" last="378"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Hosseini, H.G., Luo, D., Reynolds, K., The comparison of different feed forward neural network architectures for ECG signal diagnosis. Med. Eng. Phys. 28:4 (2006), 372–378.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking features in image sequences using discrete Morse functions</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0016</itemid>
+                                <itemid idtype="SGR">85050806580</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Jerse G.</ce:indexed-name>
+                                    <ce:surname>Jerše</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Mramor Kosta N.</ce:indexed-name>
+                                    <ce:surname>Mramor Kosta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Third International Workshop on Computational Topology in Image Context</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>Universidad de Sevilla</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jerše, G., Mramor Kosta, N., Tracking features in image sequences using discrete Morse functions. Proceedings of the Third International Workshop on Computational Topology in Image Context, 2010, Universidad de Sevilla.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Electrocardiogram analysis using a combination of statistical, geometric, and nonlinear heart rate variability features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0017</itemid>
+                                <itemid idtype="SGR">79954595949</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jovic A.</ce:indexed-name>
+                                    <ce:surname>Jović</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Bogunovic N.</ce:indexed-name>
+                                    <ce:surname>Bogunović</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artif. Intell. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="51"/>
+                                <pagerange first="175" last="186"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jović A., Bogunović N., Electrocardiogram analysis using a combination of statistical, geometric, and nonlinear heart rate variability features. Artif. Intell. Med. 51:3 (2011), 175–186.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection of PVC by using a wavelet-based statistical ECG monitoring procedure</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0018</itemid>
+                                <itemid idtype="SGR">85017603330</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Jung Y.</ce:indexed-name>
+                                    <ce:surname>Jung</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Kim H.</ce:indexed-name>
+                                    <ce:surname>Kim</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biomed. Signal Process Control</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="36"/>
+                                <pagerange first="176" last="182"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jung, Y., Kim, H., Detection of PVC by using a wavelet-based statistical ECG monitoring procedure. Biomed. Signal Process Control 36 (2017), 176–182.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection of life-threatening cardiac arrhythmias using the wavelet transformation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0019</itemid>
+                                <itemid idtype="SGR">0031281333</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Khadra L.</ce:indexed-name>
+                                    <ce:surname>Khadra</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Al-Fahoum A.</ce:indexed-name>
+                                    <ce:surname>Al-Fahoum</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Al-Nashash H.</ce:indexed-name>
+                                    <ce:surname>Al-Nashash</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Med. Biol. Eng. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="35"/>
+                                <pagerange first="626" last="632"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Khadra, L., Al-Fahoum, A., Al-Nashash, H., Detection of life-threatening cardiac arrhythmias using the wavelet transformation. Med. Biol. Eng. Comput. 35:6 (1997), 626–632.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ECG signal conditioning by morphological filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0020</itemid>
+                                <itemid idtype="SGR">77955437193</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.M.</ce:initials>
+                                    <ce:indexed-name>Krishnan S.M.</ce:indexed-name>
+                                    <ce:surname>Krishnan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.C.</ce:initials>
+                                    <ce:indexed-name>Keong K.C.</ce:indexed-name>
+                                    <ce:surname>Keong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Yan S.</ce:indexed-name>
+                                    <ce:surname>Yan</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.K.</ce:initials>
+                                    <ce:indexed-name>Luk C.K.</ce:indexed-name>
+                                    <ce:surname>Luk</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advances in Cardiac Signal Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="311" last="326"/>
+                            </ref-volisspag>
+                            <ref-text>Springer</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Krishnan, S.M., Keong, K.C., Yan, S., Luk, C.K., ECG signal conditioning by morphological filters. Advances in Cardiac Signal Processing, 2007, Springer, 311–326.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A multi-stage automatic arrhythmia recognition and classification system</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0021</itemid>
+                                <itemid idtype="SGR">78650611734</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Kutlu Y.</ce:indexed-name>
+                                    <ce:surname>Kutlu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Kuntalp D.</ce:indexed-name>
+                                    <ce:surname>Kuntalp</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Biol. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="41"/>
+                                <pagerange first="37" last="45"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kutlu, Y., Kuntalp, D., A multi-stage automatic arrhythmia recognition and classification system. Comput. Biol. Med. 41:1 (2011), 37–45.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Clustering ECG complexes using hermite functions and self-organizing maps</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0022</itemid>
+                                <itemid idtype="SGR">0033918208</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Lagerholm M.</ce:indexed-name>
+                                    <ce:surname>Lagerholm</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Peterson C.</ce:indexed-name>
+                                    <ce:surname>Peterson</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Braccini G.</ce:indexed-name>
+                                    <ce:surname>Braccini</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Edenbrandt L.</ce:indexed-name>
+                                    <ce:surname>Edenbrandt</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Sornmo L.</ce:indexed-name>
+                                    <ce:surname>Sornmo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2000"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="47"/>
+                                <pagerange first="838" last="848"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lagerholm, M., Peterson, C., Braccini, G., Edenbrandt, L., Sornmo, L., Clustering ECG complexes using hermite functions and self-organizing maps. IEEE Trans. Biomed. Eng. 47:7 (2000), 838–848.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Efficient algorithm for calculating similarity between trajectories containing an increasing dimension</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0023</itemid>
+                                <itemid idtype="SGR">38049166259</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Laurinen P.</ce:indexed-name>
+                                    <ce:surname>Laurinen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Siirtola P.</ce:indexed-name>
+                                    <ce:surname>Siirtola</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Roning J.</ce:indexed-name>
+                                    <ce:surname>Röning</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Twenty-Fourth IASTED International Conference on Artificial Intelligence and Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="392" last="399"/>
+                            </ref-volisspag>
+                            <ref-text>ACTA Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Laurinen, P., Siirtola, P., Röning, J., Efficient algorithm for calculating similarity between trajectories containing an increasing dimension. Proceedings of the Twenty-Fourth IASTED International Conference on Artificial Intelligence and Applications, 2006, ACTA Press, 392–399.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Applications of Forman's discrete morse theory to topology visualization and mesh compression</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0024</itemid>
+                                <itemid idtype="SGR">4344568237</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Lewiner T.</ce:indexed-name>
+                                    <ce:surname>Lewiner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Lopes H.</ce:indexed-name>
+                                    <ce:surname>Lopes</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Tavares G.</ce:indexed-name>
+                                    <ce:surname>Tavares</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Vis. Comput. Graph.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="10"/>
+                                <pagerange first="499" last="508"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lewiner, T., Lopes, H., Tavares, G., Applications of Forman's discrete morse theory to topology visualization and mesh compression. IEEE Trans. Vis. Comput. Graph. 10:5 (2004), 499–508.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A graph clustering technique based on discrete Morse theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0025</itemid>
+                                <itemid idtype="SGR">84862911409</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Liu X.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Xiang L.</ce:indexed-name>
+                                    <ce:surname>Xiang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Sixth International Conference on Pervasive Computing and Applications (ICPCA)</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="367" last="372"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Liu, X., Xiang, L., A graph clustering technique based on discrete Morse theory. Proceedings of the Sixth International Conference on Pervasive Computing and Applications (ICPCA), 2011, IEEE, 367–372.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Heartbeat classification using feature selection driven by database generalization criteria</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0026</itemid>
+                                <itemid idtype="SGR">79952156441</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Llamedo M.</ce:indexed-name>
+                                    <ce:surname>Llamedo</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.P.</ce:initials>
+                                    <ce:indexed-name>Martinez J.P.</ce:indexed-name>
+                                    <ce:surname>Martínez</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="58"/>
+                                <pagerange first="616" last="625"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Llamedo, M., Martínez, J.P., Heartbeat classification using feature selection driven by database generalization criteria. IEEE Trans. Biomed. Eng. 58:3 (2011), 616–625.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Evaluation of bagging ensemble method with time-domain feature extraction for diagnosing of arrhythmia beats</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0027</itemid>
+                                <itemid idtype="SGR">85050796920</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Mert A.</ce:indexed-name>
+                                    <ce:surname>Mert</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kilic N.</ce:indexed-name>
+                                    <ce:surname>Kılıç</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Akan A.</ce:indexed-name>
+                                    <ce:surname>Akan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Comput. Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="10"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mert, A., Kılıç N., Akan, A., Evaluation of bagging ensemble method with time-domain feature extraction for diagnosing of arrhythmia beats. Neural Comput. Appl., 2012, 1–10.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Morse Theory</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0028</itemid>
+                                <itemid idtype="SGR">0004190360</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.W.</ce:initials>
+                                    <ce:indexed-name>Milnor J.W.</ce:indexed-name>
+                                    <ce:surname>Milnor</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-publicationyear first="1963"/>
+                            <ref-text>Princeton University Press</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Milnor, J.W., Morse Theory. 1963, Princeton University Press.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Development and evaluation of a 2-lead ECG analysis program</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0029</itemid>
+                                <itemid idtype="SGR">0020948396</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.B.</ce:initials>
+                                    <ce:indexed-name>Moody G.B.</ce:indexed-name>
+                                    <ce:surname>Moody</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.G.</ce:initials>
+                                    <ce:indexed-name>Mark R.G.</ce:indexed-name>
+                                    <ce:surname>Mark</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Cardiol</ref-sourcetitle>
+                            <ref-publicationyear first="1982"/>
+                            <ref-volisspag>
+                                <voliss volume="9"/>
+                                <pagerange first="39" last="44"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Moody, G.B., Mark, R.G., Development and evaluation of a 2-lead ECG analysis program. Comput. Cardiol 9 (1982), 39–44.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The impact of the MIT-BIH arrhythmia database</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0030</itemid>
+                                <itemid idtype="SGR">0034953193</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.B.</ce:initials>
+                                    <ce:indexed-name>Moody G.B.</ce:indexed-name>
+                                    <ce:surname>Moody</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.G.</ce:initials>
+                                    <ce:indexed-name>Mark R.G.</ce:indexed-name>
+                                    <ce:surname>Mark</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Eng. Med. Biol. Mag. IEEE</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="20"/>
+                                <pagerange first="45" last="50"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Moody, G.B., Mark, R.G., The impact of the MIT-BIH arrhythmia database. Eng. Med. Biol. Mag. IEEE 20:3 (2001), 45–50.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Premature ventricular complex morphology. a marker for left ventricular structure and function</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0031</itemid>
+                                <itemid idtype="SGR">0025275633</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.P.</ce:initials>
+                                    <ce:indexed-name>Moulton K.P.</ce:indexed-name>
+                                    <ce:surname>Moulton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Medcalf T.</ce:indexed-name>
+                                    <ce:surname>Medcalf</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Lazzara R.</ce:indexed-name>
+                                    <ce:surname>Lazzara</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Circulation</ref-sourcetitle>
+                            <ref-publicationyear first="1990"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="81"/>
+                                <pagerange first="1245" last="1251"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Moulton, K.P., Medcalf, T., Lazzara, R., Premature ventricular complex morphology. a marker for left ventricular structure and function. Circulation 81:4 (1990), 1245–1251.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Using phase space reconstruction for patient independent heartbeat classification in comparison with some benchmark methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0032</itemid>
+                                <itemid idtype="SGR">79956320421</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Nejadgholi I.</ce:indexed-name>
+                                    <ce:surname>Nejadgholi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.H.</ce:initials>
+                                    <ce:indexed-name>Moradi M.H.</ce:indexed-name>
+                                    <ce:surname>Moradi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Abdolali F.</ce:indexed-name>
+                                    <ce:surname>Abdolali</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Biol. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="41"/>
+                                <pagerange first="411" last="419"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nejadgholi, I., Moradi, M.H., Abdolali, F., Using phase space reconstruction for patient independent heartbeat classification in comparison with some benchmark methods. Comput. Biol. Med. 41:6 (2011), 411–419.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Support vector machine-based expert system for reliable heartbeat recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0033</itemid>
+                                <itemid idtype="SGR">1642265037</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Osowski S.</ce:indexed-name>
+                                    <ce:surname>Osowski</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.T.</ce:initials>
+                                    <ce:indexed-name>Hoai L.T.</ce:indexed-name>
+                                    <ce:surname>Hoai</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Markiewicz T.</ce:indexed-name>
+                                    <ce:surname>Markiewicz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="51"/>
+                                <pagerange first="582" last="589"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Osowski, S., Hoai, L.T., Markiewicz, T., Support vector machine-based expert system for reliable heartbeat recognition. IEEE Trans. Biomed. Eng. 51:4 (2004), 582–589.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Theory and algorithms for constructing discrete morse complexes from grayscale digital images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0034</itemid>
+                                <itemid idtype="SGR">79959524693</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Robins V.</ce:indexed-name>
+                                    <ce:surname>Robins</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.J.</ce:initials>
+                                    <ce:indexed-name>Wood P.J.</ce:indexed-name>
+                                    <ce:surname>Wood</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.P.</ce:initials>
+                                    <ce:indexed-name>Sheppard A.P.</ce:indexed-name>
+                                    <ce:surname>Sheppard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="33"/>
+                                <pagerange first="1646" last="1658"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Robins, V., Wood, P.J., Sheppard, A.P., Theory and algorithms for constructing discrete morse complexes from grayscale digital images. IEEE Trans. Pattern Anal. Mach. Intell. 33:8 (2011), 1646–1658.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust detection of premature ventricular contractions using a wave-based Bayesian framework</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0035</itemid>
+                                <itemid idtype="SGR">77950345052</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Sayadi O.</ce:indexed-name>
+                                    <ce:surname>Sayadi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Shamsollahi M.B.</ce:indexed-name>
+                                    <ce:surname>Shamsollahi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.D.</ce:initials>
+                                    <ce:indexed-name>Clifford G.D.</ce:indexed-name>
+                                    <ce:surname>Clifford</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="57"/>
+                                <pagerange first="353" last="362"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sayadi, O., Shamsollahi, M.B., Clifford, G.D., Robust detection of premature ventricular contractions using a wave-based Bayesian framework. IEEE Trans. Biomed. Eng. 57:2 (2010), 353–362.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>PVC Discrimination using the QRS power spectrum and self-organizing maps</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0036</itemid>
+                                <itemid idtype="SGR">63649105559</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.L.</ce:initials>
+                                    <ce:indexed-name>Talbi M.L.</ce:indexed-name>
+                                    <ce:surname>Talbi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Charef A.</ce:indexed-name>
+                                    <ce:surname>Charef</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Methods Programs Biomed.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="94"/>
+                                <pagerange first="223" last="231"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Talbi, M.L., Charef, A., PVC Discrimination using the QRS power spectrum and self-organizing maps. Comput. Methods Programs Biomed. 94:3 (2009), 223–231.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Detection of PVC in ECG signals using fractional linear prediction</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0037</itemid>
+                                <itemid idtype="SGR">84940689262</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.L.</ce:initials>
+                                    <ce:indexed-name>Talbi M.L.</ce:indexed-name>
+                                    <ce:surname>Talbi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ravier P.</ce:indexed-name>
+                                    <ce:surname>Ravier</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Biomed. Signal Process Control</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <voliss volume="23"/>
+                                <pagerange first="42" last="51"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Talbi, M.L., Ravier, P., Detection of PVC in ECG signals using fractional linear prediction. Biomed. Signal Process Control 23 (2016), 42–51.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic arrhythmia detection based on time and time–frequency analysis of heart rate variability</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0038</itemid>
+                                <itemid idtype="SGR">1542375476</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.G.</ce:initials>
+                                    <ce:indexed-name>Tsipouras M.G.</ce:indexed-name>
+                                    <ce:surname>Tsipouras</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.I.</ce:initials>
+                                    <ce:indexed-name>Fotiadis D.I.</ce:indexed-name>
+                                    <ce:surname>Fotiadis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Methods Programs Biomed.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="74"/>
+                                <pagerange first="95" last="108"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tsipouras, M.G., Fotiadis, D.I., Automatic arrhythmia detection based on time and time–frequency analysis of heart rate variability. Comput. Methods Programs Biomed. 74:2 (2004), 95–108.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An arrhythmia classification system based on the RR-interval signal</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0039</itemid>
+                                <itemid idtype="SGR">16244422622</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.G.</ce:initials>
+                                    <ce:indexed-name>Tsipouras M.G.</ce:indexed-name>
+                                    <ce:surname>Tsipouras</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.I.</ce:initials>
+                                    <ce:indexed-name>Fotiadis D.I.</ce:indexed-name>
+                                    <ce:surname>Fotiadis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Sideris D.</ce:indexed-name>
+                                    <ce:surname>Sideris</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Artif. Intell. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="33"/>
+                                <pagerange first="237" last="250"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Tsipouras, M.G., Fotiadis, D.I., Sideris, D., An arrhythmia classification system based on the RR-interval signal. Artif. Intell. Med. 33:3 (2005), 237–250.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A data structure for manipulating priority queues</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="DOI">10.1145/359460.359478</itemid>
+                                <itemid idtype="FRAGMENTID">bib0040</itemid>
+                                <itemid idtype="SGR">0017961374</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Vuillemin J.</ce:indexed-name>
+                                    <ce:surname>Vuillemin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Commun. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1978"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="21"/>
+                                <pagerange first="309" last="315"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Vuillemin, J., A data structure for manipulating priority queues. Commun. ACM 21:4 (1978), 309–315, 10.1145/359460.359478.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Learning qualitative models from image sequences</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0041</itemid>
+                                <itemid idtype="SGR">70449439493</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Zabkar J.</ce:indexed-name>
+                                    <ce:surname>Žabkar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Bratko I.</ce:indexed-name>
+                                    <ce:surname>Bratko</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Jerse G.</ce:indexed-name>
+                                    <ce:surname>Jerše</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Prankl J.</ce:indexed-name>
+                                    <ce:surname>Prankl</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Schlemmer M.</ce:indexed-name>
+                                    <ce:surname>Schlemmer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the Twenty-Second International Workshop on Qualitative Reasoning</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="146" last="149"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Žabkar, J., Bratko, I., Jerše, G., Prankl, J., Schlemmer, M., Learning qualitative models from image sequences. Proceedings of the Twenty-Second International Workshop on Qualitative Reasoning, 2008, 146–149.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cardiac arrhythmia diagnosis method using linear discriminant analysis on ECG signals</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0042</itemid>
+                                <itemid idtype="SGR">63749124365</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.-C.</ce:initials>
+                                    <ce:indexed-name>Yeh Y.-C.</ce:indexed-name>
+                                    <ce:surname>Yeh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>W.-J.</ce:initials>
+                                    <ce:indexed-name>Wang W.-J.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.W.</ce:initials>
+                                    <ce:indexed-name>Chiou C.W.</ce:indexed-name>
+                                    <ce:surname>Chiou</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Measurement</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="42"/>
+                                <pagerange first="778" last="789"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yeh, Y.-C., Wang, W.-J., Chiou, C.W., Cardiac arrhythmia diagnosis method using linear discriminant analysis on ECG signals. Measurement 42:5 (2009), 778–789.</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Support vector machine based arrhythmia classification using reduced features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0043</itemid>
+                                <itemid idtype="SGR">28844500635</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Yoo S.K.</ce:indexed-name>
+                                    <ce:surname>Yoo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Control Autom. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="3"/>
+                                <pagerange first="571" last="579"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yoo, S.K., Support vector machine based arrhythmia classification using reduced features. Int. J. Control Autom. Syst. 3:4 (2005), 571–579.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0044</itemid>
+                                <itemid idtype="SGR">85050480372</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.E.</ce:initials>
+                                    <ce:indexed-name>Zax R.E.</ce:indexed-name>
+                                    <ce:surname>Zax</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Simplifying Complicated Simplicial Complexes: Discrete Morse Theory and its Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-text>Harvard University Cambridge, Massachusetts Master's thesis</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zax, R.E., Simplifying Complicated Simplicial Complexes: Discrete Morse Theory and its Applications, 2012, Harvard University Cambridge, Massachusetts Master's thesis.</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Heartbeat classification using disease-specific feature selection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0045</itemid>
+                                <itemid idtype="SGR">84893972699</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zhang Z.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Dong J.</ce:indexed-name>
+                                    <ce:surname>Dong</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Luo X.</ce:indexed-name>
+                                    <ce:surname>Luo</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>K.-S.</ce:initials>
+                                    <ce:indexed-name>Choi K.-S.</ce:indexed-name>
+                                    <ce:surname>Choi</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Wu X.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Biol. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="46"/>
+                                <pagerange first="79" last="89"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zhang, Z., Dong, J., Luo, X., Choi, K.-S., Wu, X., Heartbeat classification using disease-specific feature selection. Comput. Biol. Med. 46 (2014), 79–89.</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>QRS detection based on wavelet coefficients</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="FRAGMENTID">bib0046</itemid>
+                                <itemid idtype="SGR">84863877616</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Zidelmal Z.</ce:indexed-name>
+                                    <ce:surname>Zidelmal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Amirou A.</ce:indexed-name>
+                                    <ce:surname>Amirou</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Adnane M.</ce:indexed-name>
+                                    <ce:surname>Adnane</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Belouchrani A.</ce:indexed-name>
+                                    <ce:surname>Belouchrani</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Methods Programs Biomed.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="107"/>
+                                <pagerange first="490" last="496"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Zidelmal, Z., Amirou, A., Adnane, M., Belouchrani, A., QRS detection based on wavelet coefficients. Comput. Methods Programs Biomed. 107:3 (2012), 490–496.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

@@ -1,0 +1,1324 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84977668915</prism:url><dc:identifier>SCOPUS_ID:84977668915</dc:identifier><eid>2-s2.0-84977668915</eid><prism:doi>10.1109/WACV.2016.7477570</prism:doi><article-number>7477570</article-number><dc:title>Robust visual tracking using template anchors</dc:title><prism:aggregationType>Conference Proceeding</prism:aggregationType><srctype>p</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>15</citedby-count><prism:publicationName>2016 IEEE Winter Conference on Applications of Computer Vision, WACV 2016</prism:publicationName><dc:publisher>
+                        Institute of Electrical and Electronics Engineers Inc.
+                    </dc:publisher><source-id>21100467358</source-id><prism:isbn>9781509006410</prism:isbn><prism:coverDate>2016-05-23</prism:coverDate><openaccess>2</openaccess><openaccessFlag/><dc:creator><author seq="1" auid="36117548700"><ce:initials>L.</ce:initials><ce:indexed-name>Cehovin L.</ce:indexed-name><ce:surname>Cehovin</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Cehovin L.</ce:indexed-name><ce:surname>Cehovin</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36117548700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2016 IEEE.</publishercopyright>
+                        <ce:para>Deformable part models exhibit excellent performance in tracking non-rigidly deforming targets, but are usually outperformed by holistic models when the target does not deform or in the presence of uncertain visual data. The reason is that part-based models require estimation of a larger number of parameters compared to holistic models and since the updating process is self-supervised, the errors in parameter estimation are amplified with time, leading to a faster accuracy reduction than in holistic models. On the other hand, the robustness of part-based trackers is generally greater than in holistic trackers. We address the problem of self-supervised estimation of a large number of parameters by introducing controlled graduation in estimation of the free parameters. We propose decomposing the visual model into several sub-models, each describing the target at a different level of detail. The sub-models interact during target localization and, depending on the visual uncertainty, serve for cross-sub-model supervised updating. A new tracker is proposed based on this model which exhibits the qualities of part-based as well as holistic models. The tracker is tested on the highly-challenging VOT2013 and VOT2014 benchmarks, outperforming the state-of-the-art.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84977668915" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84977668915&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84977668915&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="36117548700"><ce:initials>L.</ce:initials><ce:indexed-name>Cehovin L.</ce:indexed-name><ce:surname>Cehovin</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Cehovin L.</ce:indexed-name><ce:surname>Cehovin</ce:surname><ce:given-name>Luka</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/36117548700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003317327"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Ales</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Ales</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="6602219252"><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602219252</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Deformable part models</mainterm><mainterm weight="b" candidate="n">Free parameters</mainterm><mainterm weight="b" candidate="n">Holistic model</mainterm><mainterm weight="b" candidate="n">Level of detail</mainterm><mainterm weight="b" candidate="n">Part-based models</mainterm><mainterm weight="b" candidate="n">State of the art</mainterm><mainterm weight="b" candidate="n">Target localization</mainterm><mainterm weight="b" candidate="n">Visual Tracking</mainterm></idxterms><subject-areas><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-11-16T02:50:45.146Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="09" month="04" timestamp="2019-04-09T21:44:58.000058-04:00" year="2019"/><ait:date-sort day="23" month="05" year="2016"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2016 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1109/WACV.2016.7477570</ce:doi>
+                    <itemid idtype="PUI">611175721</itemid>
+                    <itemid idtype="CAR-ID">652390577</itemid>
+                    <itemid idtype="CPX">20162802593143</itemid>
+                    <itemid idtype="SCP">84977668915</itemid>
+                    <itemid idtype="SGR">84977668915</itemid>
+                </itemidlist><history>
+                    <date-created day="08" month="12" timestamp="BST 16:39:55" year="2016"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Robust visual tracking using template anchors</titletext></citation-title><author-group><author auid="36117548700" seq="1" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Cehovin L.</ce:indexed-name><ce:surname>Cehovin</ce:surname><ce:given-name>Luka</ce:given-name><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                            <ce:surname>Cehovin</ce:surname>
+                            <ce:given-name>Luka</ce:given-name>
+                        </preferred-name></author><author auid="7003317327" seq="2" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Ales</ce:given-name><preferred-name>
+                            <ce:initials>A.</ce:initials>
+                            <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                            <ce:surname>Leonardis</ce:surname>
+                            <ce:given-name>Ales</ce:given-name>
+                        </preferred-name></author><author auid="6602219252" seq="3" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Kristan M.</ce:indexed-name><ce:surname>Kristan</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Kristan M.</ce:indexed-name>
+                            <ce:surname>Kristan</ce:surname>
+                            <ce:given-name>Matej</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Slovenia, Večna pot 113</address-part><city>Ljubljana</city><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2016 IEEE.</publishercopyright>
+                        <ce:para>Deformable part models exhibit excellent performance in tracking non-rigidly deforming targets, but are usually outperformed by holistic models when the target does not deform or in the presence of uncertain visual data. The reason is that part-based models require estimation of a larger number of parameters compared to holistic models and since the updating process is self-supervised, the errors in parameter estimation are amplified with time, leading to a faster accuracy reduction than in holistic models. On the other hand, the robustness of part-based trackers is generally greater than in holistic trackers. We address the problem of self-supervised estimation of a large number of parameters by introducing controlled graduation in estimation of the free parameters. We propose decomposing the visual model into several sub-models, each describing the target at a different level of detail. The sub-models interact during target localization and, depending on the visual uncertainty, serve for cross-sub-model supervised updating. A new tracker is proposed based on this model which exhibits the qualities of part-based as well as holistic models. The tracker is tested on the highly-challenging VOT2013 and VOT2014 benchmarks, outperforming the state-of-the-art.</ce:para>
+                    </abstract></abstracts><source country="usa" srcid="21100467358" type="p"><sourcetitle>2016 IEEE Winter Conference on Applications of Computer Vision, WACV 2016</sourcetitle><sourcetitle-abbrev>IEEE Winter Conf. Appl. Comput. Vis., WACV</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">2016 IEEE Winter Conference on Applications of Computer Vision, WACV 2016</translated-sourcetitle><issuetitle>2016 IEEE Winter Conference on Applications of Computer Vision, WACV 2016</issuetitle><isbn length="13" type="electronic">9781509006410</isbn><article-number>7477570</article-number><publicationyear first="2016"/><publicationdate>
+                        <year>2016</year>
+                        <month>05</month>
+                        <day>23</day>
+                    <date-text xfab-added="true">23 May 2016</date-text></publicationdate><publisher>
+                        <publishername>Institute of Electrical and Electronics Engineers Inc.</publishername>
+                    </publisher><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>IEEE Winter Conference on Applications of Computer Vision, WACV 2016</confname>
+                                <confseriestitle>IEEE Winter Conference on Applications of Computer Vision</confseriestitle>
+                                <conflocation country="usa">
+                                    <city>Lake Placid</city>
+                                    <state>NY</state>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="07" month="03" year="2016"/>
+                                    <enddate day="10" month="03" year="2016"/>
+                                </confdate>
+                                <confcatnumber>CFP16082-ART</confcatnumber>
+                                <confcode>121834</confcode>
+                                <confsponsors complete="n">
+                                    <confsponsor/>
+                                </confsponsors>
+                            </confevent>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1706</classification>
+                            <classification>1707</classification>
+                        </classifications><classifications type="CPXCLASS">
+                            <classification>
+                                 
+                                <classification-code>723.5</classification-code>
+                                 
+                                <classification-description>Computer Applications</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                 
+                                <classification-code>902</classification-code>
+                                 
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                                 
+                            </classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="35">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust object tracking with online multiple instance learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79959527478</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Babenko B.</ce:indexed-name>
+                                    <ce:surname>Babenko</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.-H.</ce:initials>
+                                    <ce:indexed-name>Yang M.-H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Belongie S.</ce:indexed-name>
+                                    <ce:surname>Belongie</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE TPAMI</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="8" volume="33"/>
+                                <pagerange first="1619" last="1632"/>
+                            </ref-volisspag>
+                            <ref-text>Aug.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>B. Babenko, M.-H. Yang, and S. Belongie. Robust Object Tracking with Online Multiple Instance Learning. IEEE TPAMI, 33 (8): 1619-1632, Aug. 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Probabilistic color and adaptive multi-feature tracking with dynamically switched priority between cues</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">50649089568</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Badrinarayanan V.</ce:indexed-name>
+                                    <ce:surname>Badrinarayanan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Perez P.</ce:indexed-name>
+                                    <ce:surname>Perez</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Le Clerc F.</ce:indexed-name>
+                                    <ce:surname>Le Clerc</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Oisel L.</ce:indexed-name>
+                                    <ce:surname>Oisel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCV</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>V. Badrinarayanan, P. Perez, F. Le Clerc, and L. Oisel. Probabilistic Color and Adaptive Multi-Feature Tracking with Dynamically Switched Priority Between Cues. In ICCV 2007, pages 1-8, 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On the statistical analysis of dirty pictures</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000013152</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Besag J.</ce:indexed-name>
+                                    <ce:surname>Besag</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. R. Stat. Soc. Ser. B</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="48"/>
+                                <pagerange first="259" last="302"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. Besag. On the Statistical Analysis of Dirty Pictures. J. R. Stat. Soc. Ser. B, 48 (3): pp. 259-302, 1986.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Structure-aware keypoint tracking for partial occlusion handling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904671106</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Bouachir W.</ce:indexed-name>
+                                    <ce:surname>Bouachir</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.-A.</ce:initials>
+                                    <ce:indexed-name>Bilodeau G.-A.</ce:indexed-name>
+                                    <ce:surname>Bilodeau</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>WACV2014</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="877" last="884"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W. Bouachir and G.-A. Bilodeau. Structure-aware keypoint tracking for partial occlusion handling. In WACV2014, pages 877-884. IEEE, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust deformable and occluded object tracking with dynamic graph</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84913558459</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Cai Z.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Wen L.</ce:indexed-name>
+                                    <ce:surname>Wen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Lei Z.</ce:indexed-name>
+                                    <ce:surname>Lei</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Vasconcelos N.</ce:indexed-name>
+                                    <ce:surname>Vasconcelos</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>S.Z.</ce:initials>
+                                    <ce:indexed-name>Li S.Z.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Image Process</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="23"/>
+                                <pagerange first="5497" last="5509"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Cai, L. Wen, Z. Lei, N. Vasconcelos, and S. Z. Li. Robust Deformable and Occluded Object Tracking With Dynamic Graph. IEEE Trans. Image Process., 23 (12): 5497-5509, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking by parts: A Bayesian approachwith component collaboration</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">64049093352</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.-Y.</ce:initials>
+                                    <ce:indexed-name>Chang W.-Y.</ce:indexed-name>
+                                    <ce:surname>Chang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.-S.</ce:initials>
+                                    <ce:indexed-name>Chen C.-S.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.-P.</ce:initials>
+                                    <ce:indexed-name>Hung Y.-P.</ce:indexed-name>
+                                    <ce:surname>Hung</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Syst. Man, Cybern. Part B Cybern</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="39"/>
+                                <pagerange first="375" last="388"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>W.-Y. Chang, C.-S. Chen, and Y.-P. Hung. Tracking by Parts: A Bayesian ApproachWith Component Collaboration. IEEE Trans. Syst. Man, Cybern. Part B Cybern., 39 (2): 375-388, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Accurate scale estimation for robust visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84919754301</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Danelljan M.</ce:indexed-name>
+                                    <ce:surname>Danelljan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Khan F.S.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.V.</ce:initials>
+                                    <ce:indexed-name>De Weijer J.V.</ce:indexed-name>
+                                    <ce:surname>De Weijer</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Hager G.</ce:indexed-name>
+                                    <ce:surname>Häger</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>F.S.</ce:initials>
+                                    <ce:indexed-name>Khan F.S.</ce:indexed-name>
+                                    <ce:surname>Khan</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BMVC 2014</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>M. Danelljan, F. S. Khan, M. Felsberg, J. V. de Weijer, G. Häger, F. S. Khan, and M. Felsberg. Accurate scale estimation for robust visual tracking. In BMVC 2014, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>PixelTrack: A fast adaptive algorithm for tracking non-rigid objects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84898822561</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Duffner S.</ce:indexed-name>
+                                    <ce:surname>Duffner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Garcia C.</ce:indexed-name>
+                                    <ce:surname>Garcia</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCV</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-text>Dec.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Duffner and C. Garcia. PixelTrack: A Fast Adaptive Algorithm for Tracking Non-rigid Objects. In ICCV, Dec. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Enhanced distribution field tracking using channel representations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897531696</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Felsberg M.</ce:indexed-name>
+                                    <ce:surname>Felsberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCV Work.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>M. Felsberg. Enhanced Distribution Field Tracking using Channel Representations. In ICCV Work., 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Hough-based tracking of non-rigid objects</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84885375240</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Godec M.</ce:indexed-name>
+                                    <ce:surname>Godec</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.M.</ce:initials>
+                                    <ce:indexed-name>Roth P.M.</ce:indexed-name>
+                                    <ce:surname>Roth</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVIU</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="10" volume="117"/>
+                                <pagerange first="1245" last="1256"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Godec, P. M. Roth, and H. Bischof. Hough-based Tracking of Non-rigid Objects. CVIU, 117 (10): 1245-1256, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Struck: Structured output tracking with kernels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84856659290</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hare S.</ce:indexed-name>
+                                    <ce:surname>Hare</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Saffari A.</ce:indexed-name>
+                                    <ce:surname>Saffari</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.H.S.</ce:initials>
+                                    <ce:indexed-name>Torr P.H.S.</ce:indexed-name>
+                                    <ce:surname>Torr</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCV 2011</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="263" last="270"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE, Nov.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S. Hare, A. Saffari, and P. H. S. Torr. Struck: Structured output tracking with kernels. In ICCV 2011, pages 263-270. IEEE, Nov. 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>High-speed tracking with kernelized correlation filters</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84921734598</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.F.</ce:initials>
+                                    <ce:indexed-name>Henriques J.F.</ce:indexed-name>
+                                    <ce:surname>Henriques</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Caseiro R.</ce:indexed-name>
+                                    <ce:surname>Caseiro</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Martins P.</ce:indexed-name>
+                                    <ce:surname>Martins</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Batista J.</ce:indexed-name>
+                                    <ce:surname>Batista</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE TPAMI</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>J. F. Henriques, R. Caseiro, P. Martins, and J. Batista. High-Speed Tracking with Kernelized Correlation Filters. IEEE TPAMI, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking-learningdetection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861312439</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kalal Z.</ce:indexed-name>
+                                    <ce:surname>Kalal</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mikolajczyk K.</ce:indexed-name>
+                                    <ce:surname>Mikolajczyk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE TPAMI</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="34"/>
+                                <pagerange first="1409" last="1422"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Kalal, K. Mikolajczyk, and J. Matas. Tracking-learningdetection. IEEE TPAMI, 34 (7): 1409-1422, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multivariate online kernel density estimation with Gaussian kernels</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79958782071</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Skocaj D.</ce:indexed-name>
+                                    <ce:surname>Skocaj</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="44"/>
+                                <pagerange first="2630" last="2642"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Kristan, A. Leonardis, and D. Skocaj. Multivariate online kernel density estimation with Gaussian kernels. Pattern Recognition, 44: 2630-2642, 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84949247277</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vojir T.</ce:indexed-name>
+                                    <ce:surname>Vojir</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pflugfelder R.</ce:indexed-name>
+                                    <ce:surname>Pflugfelder</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Fernandez G.</ce:indexed-name>
+                                    <ce:surname>Fernandez</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Nebehay G.</ce:indexed-name>
+                                    <ce:surname>Nebehay</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Porikli F.</ce:indexed-name>
+                                    <ce:surname>Porikli</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Cehovin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>A Novel Performance Evaluation Methodology for Single-target Trackers</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-text>arXiv preprint arXiv: 1503. 01313</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M. Kristan, J. Matas, A. Leonardis, T. Vojir, R. Pflugfelder, G. Fernandez, G. Nebehay, F. Porikli, and L. Cehovin. A novel performance evaluation methodology for single-target trackers. ArXiv preprint arXiv: 1503. 01313, 2015.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual object tracking vot2013 challenge results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897510119</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pflugfelder R.</ce:indexed-name>
+                                    <ce:surname>Pflugfelder</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Porikli F.</ce:indexed-name>
+                                    <ce:surname>Porikli</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Cehovin</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Nebehay G.</ce:indexed-name>
+                                    <ce:surname>Nebehay</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Fernandez G.</ce:indexed-name>
+                                    <ce:surname>Fernandez</ce:surname>
+                                </author>
+                                <author seq="9">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vojir T.</ce:indexed-name>
+                                    <ce:surname>Vojir</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCV Work</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="98" last="111"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>M. Kristan, R. Pflugfelder, A. Leonardis, J. Matas, F. Porikli, L. Cehovin, G. Nebehay, G. Fernandez, T. Vojir, and et al. The Visual Object Tracking VOT2013 challenge results. In ICCV Work., pages 98-111, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The visual object tracking vot2014 challenge results</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84958658618</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Pflugfelder R.</ce:indexed-name>
+                                    <ce:surname>Pflugfelder</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Cehovin</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Nebehay G.</ce:indexed-name>
+                                    <ce:surname>Nebehay</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vojir T.</ce:indexed-name>
+                                    <ce:surname>Vojir</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Fernandez G.</ce:indexed-name>
+                                    <ce:surname>Fernández</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>ECCV Work.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>M. Kristan, R. Pflugfelder, A. Leonardis, J. Matas, L. Cehovin, G. Nebehay, T. Vojir, G. Fernández, and et al. The Visual Object Tracking VOT2014 challenge results. In ECCV Work., 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking by sampling trackers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84863049929</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kwon J.</ce:indexed-name>
+                                    <ce:surname>Kwon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.M.</ce:initials>
+                                    <ce:indexed-name>Lee K.M.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCV</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="1195" last="1202"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE, Nov.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Kwon and K. M. Lee. Tracking by Sampling Trackers. In ICCV, pages 1195-1202. IEEE, Nov. 2011.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Tracking of a non-rigid object via patch-based dynamic appearance modeling and adaptive basin hopping monte carlo sampling</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">70450172803</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.S.</ce:initials>
+                                    <ce:indexed-name>Kwon J.S.</ce:indexed-name>
+                                    <ce:surname>Kwon</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.M.</ce:initials>
+                                    <ce:indexed-name>Lee K.M.</ce:indexed-name>
+                                    <ce:surname>Lee</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVPR 2009</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="1208" last="1215"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J. S. Kwon and K. M. Lee. Tracking of a non-rigid object via patch-based dynamic appearance modeling and adaptive Basin Hopping Monte Carlo sampling. In CVPR 2009, pages 1208-1215, 2009.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Long-term tracking through failure cases</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897541648</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Lebeda K.</ce:indexed-name>
+                                    <ce:surname>Lebeda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hadfield S.</ce:indexed-name>
+                                    <ce:surname>Hadfield</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Bowden R.</ce:indexed-name>
+                                    <ce:surname>Bowden</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCVWork.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>K. Lebeda, S. Hadfield, J. Matas, and R. Bowden. Long-Term Tracking Through Failure Cases. In ICCVWork., 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Object tracking by oversampling local features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84977627707</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Pernici F.</ce:indexed-name>
+                                    <ce:surname>Pernici</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.D.</ce:initials>
+                                    <ce:indexed-name>Bimbo A.D.</ce:indexed-name>
+                                    <ce:surname>Bimbo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE TPAMI</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>F. Pernici and A. D. Bimbo. Object Tracking by Oversampling Local Features. IEEE TPAMI, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Incremental learning for robust visual tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">39749173057</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Ross D.A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lim J.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.-S.</ce:initials>
+                                    <ce:indexed-name>Lin R.-S.</ce:indexed-name>
+                                    <ce:surname>Lin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.-H.</ce:initials>
+                                    <ce:indexed-name>Yang M.-H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IJCV</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="1-3" volume="77"/>
+                                <pagerange first="125" last="141"/>
+                            </ref-volisspag>
+                            <ref-text>May</ref-text>
+                        </ref-info>
+                        <ref-fulltext>D. A. Ross, J. Lim, R.-S. Lin, and M.-H. Yang. Incremental Learning for Robust Visual Tracking. IJCV, 77 (1-3): 125-141, May 2008.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>PROST-parallel robust online simple tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77956003979</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Santner J.</ce:indexed-name>
+                                    <ce:surname>Santner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Leistner C.</ce:indexed-name>
+                                    <ce:surname>Leistner</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Saffari A.</ce:indexed-name>
+                                    <ce:surname>Saffari</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Pock T.</ce:indexed-name>
+                                    <ce:surname>Pock</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Bischof H.</ce:indexed-name>
+                                    <ce:surname>Bischof</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVPR 2010</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-text>San Francisco, CA, USA</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Santner, C. Leistner, A. Saffari, T. Pock, and H. Bischof. PROST-Parallel Robust Online Simple Tracking. In CVPR 2010, San Francisco, CA, USA, 2010.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual tracking: An experimental survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84900533841</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.W.M.</ce:initials>
+                                    <ce:indexed-name>Smeulders A.W.M.</ce:indexed-name>
+                                    <ce:surname>Smeulders</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Chu D.M.</ce:indexed-name>
+                                    <ce:surname>Chu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Cucchiara R.</ce:indexed-name>
+                                    <ce:surname>Cucchiara</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Calderara S.</ce:indexed-name>
+                                    <ce:surname>Calderara</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Dehghan A.</ce:indexed-name>
+                                    <ce:surname>Dehghan</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Shah M.</ce:indexed-name>
+                                    <ce:surname>Shah</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>TPAMI</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>A. W. M. Smeulders, D. M. Chu, R. Cucchiara, S. Calderara, A. Dehghan, and M. Shah. Visual Tracking: An Experimental Survey. TPAMI, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust visual tracking using an adaptive coupled-layer visual model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874519372</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Cehovin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>TPAMI</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="35"/>
+                                <pagerange first="941" last="953"/>
+                            </ref-volisspag>
+                            <ref-text>Apr.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>L. Cehovin, M. Kristan, and A. Leonardis. Robust Visual Tracking using an Adaptive Coupled-layer Visual Model. TPAMI, 35 (4): 941-953, Apr. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Is my new tracker really better than yours</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84904674056</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Cehovin L.</ce:indexed-name>
+                                    <ce:surname>Cehovin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kristan M.</ce:indexed-name>
+                                    <ce:surname>Kristan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>WACV</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <pagerange first="540" last="547"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE</ref-text>
+                        </ref-info>
+                        <ref-fulltext>L. Cehovin, M. Kristan, and A. Leonardis. Is my new tracker really better than yoursIn WACV 2014, pages 540-547. IEEE, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robustifying the flock of trackers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897556072</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vojr T.</ce:indexed-name>
+                                    <ce:surname>Vojr</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVWW</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <pagerange first="91" last="97"/>
+                            </ref-volisspag>
+                            <ref-text>A. Wendel, S. Sternig, and M. Godec, editors, Inffeldgasse 16/II, Graz, Austria, 2011. Graz University of Technology</ref-text>
+                        </ref-info>
+                        <ref-fulltext>T. Vojr and J. Matas. Robustifying the Flock of Trackers. In A. Wendel, S. Sternig, and M. Godec, editors, CVWW 2011, pages 91-97, Inffeldgasse 16/II, Graz, Austria, 2011. Graz University of Technology.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust scale-adaptive mean-shift for tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84937809128</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vojir T.</ce:indexed-name>
+                                    <ce:surname>Vojir</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Noskova J.</ce:indexed-name>
+                                    <ce:surname>Noskova</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognit. Lett</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="49"/>
+                                <pagerange first="250" last="258"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>T. Vojir, J. Noskova, and J. Matas. Robust scale-adaptive mean-shift for tracking. Pattern Recognit. Lett., 49: 250-258, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online object tracking: A benchmark</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887348427</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Wu Y.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lim J.</ce:indexed-name>
+                                    <ce:surname>Lim</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.-H.</ce:initials>
+                                    <ce:indexed-name>Yang M.-H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                        </ref-info>
+                        <ref-fulltext>Y. Wu, J. Lim, and M.-h. Yang. Online Object Tracking: A Benchmark. In CVPR, 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An enhanced adaptive coupled-layer lgtracker++</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84897515288</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Xiao J.</ce:indexed-name>
+                                    <ce:surname>Xiao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Stolkin R.</ce:indexed-name>
+                                    <ce:surname>Stolkin</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Leonardis A.</ce:indexed-name>
+                                    <ce:surname>Leonardis</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICCVW 2013</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="137" last="144"/>
+                            </ref-volisspag>
+                            <ref-text>Dec.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Xiao, R. Stolkin, and A. Leonardis. An Enhanced Adaptive Coupled-Layer LGTracker++. In ICCVW 2013, pages 137-144, Dec. 2013.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time tracking via deformable structure regression learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84919904384</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Yang X.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Q.</ce:initials>
+                                    <ce:indexed-name>Xiao Q.</ce:indexed-name>
+                                    <ce:surname>Xiao</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Wang S.</ce:indexed-name>
+                                    <ce:surname>Wang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Liu P.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICPR 2014</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>X. Yang, Q. Xiao, S. Wang, and P. Liu. Real-time Tracking via Deformable Structure Regression Learning. ICPR 2014, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On-the-fly object modeling while tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35148853652</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Yin Z.</ce:indexed-name>
+                                    <ce:surname>Yin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Collins R.</ce:indexed-name>
+                                    <ce:surname>Collins</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVPR</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Z. Yin and R. Collins. On-the-fly Object Modeling while Tracking. In CVPR 2007, pages 1-8, 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time object tracking with generalized part-based appearance model and structure-constrained motion model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84919930689</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zhang H.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Cai S.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Quan L.</ce:indexed-name>
+                                    <ce:surname>Quan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ICPR 2014</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>H. Zhang, S. Cai, and L. Quan. Real-Time Object Tracking with Generalized Part-Based Appearance Model and Structure-Constrained Motion Model. ICPR 2014, 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Real-time compressive tracking</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875267892</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zhang K.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Zhang L.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.-H.</ce:initials>
+                                    <ce:indexed-name>Yang M.-H.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>ECCV 2012</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                        </ref-info>
+                        <ref-fulltext>K. Zhang, L. Zhang, and M.-H. Yang. Real-time Compressive Tracking. In ECCV 2012, 2012.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Object tracking using SIFT features and mean-shift</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">59349094120</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Zhou H.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Yuan Y.</ce:indexed-name>
+                                    <ce:surname>Yuan</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Shi C.</ce:indexed-name>
+                                    <ce:surname>Shi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVIU</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="113"/>
+                                <pagerange first="345" last="352"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>H. Zhou, Y. Yuan, and C. Shi. Object tracking using SIFT features and mean-shift. CVIU, 113 (3): 345-352, 2009.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

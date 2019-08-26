@@ -1,0 +1,636 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0032675435</prism:url><dc:identifier>SCOPUS_ID:0032675435</dc:identifier><eid>2-s2.0-0032675435</eid><dc:title>Asynchronous microprocessors</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Informatica (Ljubljana)</prism:publicationName><dc:publisher>
+                        Slovene Society Informatika
+                        Ljubljana, Slovenia
+                    </dc:publisher><source-id>25507</source-id><prism:issn>03505596</prism:issn><prism:volume>23</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>239</prism:startingPage><prism:endingPage>247</prism:endingPage><prism:pageRange>239-247</prism:pageRange><prism:coverDate>1999-05-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6602885301"><ce:initials>J.</ce:initials><ce:indexed-name>Silc J.</ce:indexed-name><ce:surname>Šilc</ce:surname><ce:given-name>Jurij</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Šilc J.</ce:indexed-name><ce:surname>Šilc</ce:surname><ce:given-name>Jurij</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602885301</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author></dc:creator><dc:description><abstract xmlns="" original="y" perspective="CPXAUTHOR" xml:lang="eng">
+                        <ce:para>The asynchronous processors attack clock-related timing problems by asynchronous (or self-timed) design techniques. Asynchronous processors remove the internal clock. Instead of a single central clock that keeps the chip's functional units in step, all parts of an asynchronous processor (e.g., the arithmetic units, the branch units, etc.) work at their own pace, negotiating with each other whenever data needs to be passed between them. In this paper, several projects are presented, two of these - the Superscalar Asynchronous Low-Power Processor (SCALP) and AMULET - are presented in more detail.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0032675435" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0032675435&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0032675435&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"><affilname>Jozef Stefan Institute</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6602885301"><ce:initials>J.</ce:initials><ce:indexed-name>Silc J.</ce:indexed-name><ce:surname>Šilc</ce:surname><ce:given-name>Jurij</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Šilc J.</ce:indexed-name><ce:surname>Šilc</ce:surname><ce:given-name>Jurij</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602885301</author-url><affiliation id="60023955" href="https://api.elsevier.com/content/affiliation/affiliation_id/60023955"/></author><author seq="2" auid="55947972500"><ce:initials>B.</ce:initials><ce:indexed-name>Robic B.</ce:indexed-name><ce:surname>Robič</ce:surname><ce:given-name>Borut</ce:given-name><preferred-name><ce:initials>B.</ce:initials><ce:indexed-name>Robič B.</ce:indexed-name><ce:surname>Robič</ce:surname><ce:given-name>Borut</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55947972500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Asynchronous logic</mainterm><mainterm weight="a" candidate="n">Asynchronous processor</mainterm><mainterm weight="a" candidate="n">Self timed processor</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1706" abbrev="COMP">Computer Science Applications</subject-area><subject-area code="1702" abbrev="COMP">Artificial Intelligence</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="22" month="05" timestamp="2019-05-22T14:33:09.000009-04:00" year="2019"/><ait:date-sort day="01" month="05" year="1999"/><ait:status state="update" type="core" stage="S300"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2005 Elsevier Science B.V., Amsterdam. All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">29848435</itemid>
+                    <itemid idtype="CPX">1999424774234</itemid>
+                    <itemid idtype="SCP">0032675435</itemid>
+                    <itemid idtype="SGR">0032675435</itemid>
+                </itemidlist><history>
+                    <date-created day="01" month="01" year="1999"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Asynchronous microprocessors</titletext></citation-title><author-group><author auid="6602885301" seq="1"><ce:initials>J.</ce:initials><ce:indexed-name>Silc J.</ce:indexed-name><ce:surname>Šilc</ce:surname><ce:given-name>Jurij</ce:given-name><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Šilc J.</ce:indexed-name>
+                            <ce:surname>Šilc</ce:surname>
+                            <ce:given-name>Jurij</ce:given-name>
+                        </preferred-name></author><affiliation afid="60023955" country="svn" dptid="104208728"><organization>Computer Systems Department</organization><organization>Jožef Stefan Institute</organization><city-group>Ljubljana</city-group><affiliation-id afid="60023955" dptid="104208728"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="55947972500" seq="2"><ce:initials>B.</ce:initials><ce:indexed-name>Robic B.</ce:indexed-name><ce:surname>Robič</ce:surname><ce:given-name>Borut</ce:given-name><preferred-name>
+                            <ce:initials>B.</ce:initials>
+                            <ce:indexed-name>Robič B.</ce:indexed-name>
+                            <ce:surname>Robič</ce:surname>
+                            <ce:given-name>Borut</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Fac. of Comp. and Info. Science</organization><organization>University of Ljubljana</organization><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>Jurij</ce:initials>
+                        <ce:indexed-name>Silc Jurij</ce:indexed-name>
+                        <ce:surname>Silc</ce:surname>
+                    </person><affiliation country="svn"><organization>Jozef Stefan Inst</organization><city-group>Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" perspective="CPXAUTHOR" xml:lang="eng">
+                        <ce:para>The asynchronous processors attack clock-related timing problems by asynchronous (or self-timed) design techniques. Asynchronous processors remove the internal clock. Instead of a single central clock that keeps the chip's functional units in step, all parts of an asynchronous processor (e.g., the arithmetic units, the branch units, etc.) work at their own pace, negotiating with each other whenever data needs to be passed between them. In this paper, several projects are presented, two of these - the Superscalar Asynchronous Low-Power Processor (SCALP) and AMULET - are presented in more detail.</ce:para>
+                    </abstract></abstracts><source srcid="25507" type="j"><sourcetitle>Informatica (Ljubljana)</sourcetitle><sourcetitle-abbrev>Inf</sourcetitle-abbrev><issn>03505596</issn><codencode>INFOF</codencode><volisspag>
+                        <voliss issue="2" volume="23"/>
+                        <pagerange first="239" last="247"/>
+                    </volisspag><publicationyear first="1999"/><publicationdate>
+                        <year>1999</year>
+                        <month>05</month>
+                    <date-text xfab-added="true">May 1999</date-text></publicationdate><publisher>
+                        <publishername>Slovene Society Informatika</publishername>
+                        <publisheraddress>Ljubljana, Slovenia</publisheraddress>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>714.2</classification>
+                            <classification>721.1</classification>
+                            <classification>721.2</classification>
+                            <classification>721.3</classification>
+                        </classifications><classifications type="SUBJECT">
+                            <classification>Engineering and Technology</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>2614</classification>
+                            <classification>1706</classification>
+                            <classification>1702</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="23">
+                    <reference id="19579309">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The NSR processor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84943237607</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Brunvand E.</ce:indexed-name>
+                                    <ce:surname>Brunvand</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 26th Annual Hawaii International Conference on System Sciences</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <pagerange first="428" last="435"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>E. Brunvand: The NSR processor. Proc. 26th Annual Hawaii International Conference on System Sciences, (1993), pp. 428-435.</ref-fulltext>
+                    </reference>
+                    <reference id="19579310">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The design an asynchronous TinyRISC TR4101 microprocessor core</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004721858</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.T.</ce:initials>
+                                    <ce:indexed-name>Christensen K.T.</ce:indexed-name>
+                                    <ce:surname>Christensen</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 4th International Symposium on Advanced Research in Asynchronous Circuits and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                        </ref-info>
+                        <ref-fulltext>K.T. Christensen et al.: The design an asynchronous TinyRISC TR4101 microprocessor core. Proc. 4th International Symposium on Advanced Research in Asynchronous Circuits and Systems, (1998).</ref-fulltext>
+                    </reference>
+                    <reference id="19579311">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Design of a 32-bit fully asynchronous microprocessor (FAM)</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85065727757</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.-R.</ce:initials>
+                                    <ce:indexed-name>Cho K.-R.</ce:indexed-name>
+                                    <ce:surname>Cho</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Okura K.</ce:indexed-name>
+                                    <ce:surname>Okura</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Asada K.</ce:indexed-name>
+                                    <ce:surname>Asada</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 35th Midwest Symposium on Circuits and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                        </ref-info>
+                        <ref-fulltext>K.-R. Cho, K. Okura, K. Asada: Design of a 32-bit fully asynchronous microprocessor (FAM). Proc. 35th Midwest Symposium on Circuits and Systems, (1992).</ref-fulltext>
+                    </reference>
+                    <reference id="19579312">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Self-timed architecture of a reduced instruction set computer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13044252561</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>David I.</ce:indexed-name>
+                                    <ce:surname>David</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Ginosar R.</ce:indexed-name>
+                                    <ce:surname>Ginosar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Yoeli M.</ce:indexed-name>
+                                    <ce:surname>Yoeli</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IFIP Working Conference on Asynchronous Design Methodologies</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                        </ref-info>
+                        <ref-fulltext>I. David, R. Ginosar, M. Yoeli: Self-timed architecture of a reduced instruction set computer. Proc. IFIP Working Conference on Asynchronous Design Methodologies, (1993).</ref-fulltext>
+                    </reference>
+                    <reference id="19579313">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Strip: A self-timed RISC processor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0003967255</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.E.</ce:initials>
+                                    <ce:indexed-name>Dean M.E.</ce:indexed-name>
+                                    <ce:surname>Dean</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Technical Report CSL-TR-92-543</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-text>Stanford University</ref-text>
+                        </ref-info>
+                        <ref-fulltext>M.E. Dean: Strip: A self-timed RISC processor. Technical Report CSL-TR-92-543, Stanford University, 1992.</ref-fulltext>
+                    </reference>
+                    <reference id="19579314">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Hades - Towards the design of an asynchronous superscalar processor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029233251</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.J.</ce:initials>
+                                    <ce:indexed-name>Elston C.J.</ce:indexed-name>
+                                    <ce:surname>Elston</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 2nd Working Conference on Asynchronous Design Methodologies</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="200" last="209"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>C.J. Elston et al.: Hades - Towards the design of an asynchronous superscalar processor. Proc. 2nd Working Conference on Asynchronous Design Methodologies, (1995), pp. 200-209.</ref-fulltext>
+                    </reference>
+                    <reference id="19579315">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13044276701</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.B.</ce:initials>
+                                    <ce:indexed-name>Endecot P.B.</ce:indexed-name>
+                                    <ce:surname>Endecot</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SCALP: A Superscalar Asynchronous Low-power Processor</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-text>Ph.D. Thesis, University of Manchester</ref-text>
+                        </ref-info>
+                        <ref-fulltext>P.B. Endecot: SCALP: A superscalar asynchronous low-power processor. Ph.D. Thesis, University of Manchester, 1996.</ref-fulltext>
+                    </reference>
+                    <reference id="19579316">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A micropipelined ARM</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002781123</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.B.</ce:initials>
+                                    <ce:indexed-name>Furber S.B.</ce:indexed-name>
+                                    <ce:surname>Furber</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. FIP TC10/WG 10.5 International Conference on Very Large. Scale Integration</ref-sourcetitle>
+                            <ref-publicationyear first="1993"/>
+                            <ref-volisspag>
+                                <pages>5.4.1-5.4.10</pages>
+                            </ref-volisspag>
+                            <ref-text>September</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S.B. Furber et al.: A micropipelined ARM. Proc. FIP TC10/WG 10.5 International Conference on Very Large. Scale Integration, (September, 1993), pp. 5.4.1-5.4.10.</ref-fulltext>
+                    </reference>
+                    <reference id="19579317">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>AMULET2e</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13044278639</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.B.</ce:initials>
+                                    <ce:indexed-name>Furber S.B.</ce:indexed-name>
+                                    <ce:surname>Furber</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. EM-SYS'96 - OMI 6th Annual Conference</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-text>September</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S.B. Furber et al.: AMULET2e. Proc. EM-SYS'96 - OMI 6th Annual Conference, (September, 1996).</ref-fulltext>
+                    </reference>
+                    <reference id="19579318">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>AMULET3: A high-performance self-timed ARM microprocessor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032302584</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.B.</ce:initials>
+                                    <ce:indexed-name>Furber S.B.</ce:indexed-name>
+                                    <ce:surname>Furber</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.D.</ce:initials>
+                                    <ce:indexed-name>Garside J.D.</ce:indexed-name>
+                                    <ce:surname>Garside</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.A.</ce:initials>
+                                    <ce:indexed-name>Gilbert D.A.</ce:indexed-name>
+                                    <ce:surname>Gilbert</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE International Conference on Computer Design</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-text>October</ref-text>
+                        </ref-info>
+                        <ref-fulltext>S.B. Furber, J.D. Garside, D.A. Gilbert: AMULET3: A high-performance self-timed ARM microprocessor. Proc. IEEE International Conference on Computer Design, (October 1998).</ref-fulltext>
+                    </reference>
+                    <reference id="19579319">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The design of an asynchronous microprocessor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000421548</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.J.</ce:initials>
+                                    <ce:indexed-name>Martin A.J.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. Decennial Caltech Conference on VLSI</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <pagerange first="351" last="373"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>A. J. Martin et al.: The design of an asynchronous microprocessor. Proc. Decennial Caltech Conference on VLSI, (1989), pp. 351-373.</ref-fulltext>
+                    </reference>
+                    <reference id="19579320">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>EC-STAG: A fast asynchronous microprocessor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029230452</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.V.</ce:initials>
+                                    <ce:indexed-name>Morton S.V.</ce:indexed-name>
+                                    <ce:surname>Morton</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.S.</ce:initials>
+                                    <ce:indexed-name>Appleton S.S.</ce:indexed-name>
+                                    <ce:surname>Appleton</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Liebelt M.J.</ce:indexed-name>
+                                    <ce:surname>Liebelt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 2nd Working Conference on Asynchronous Design Methodologies</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <pagerange first="180" last="189"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>S.V. Morton, S.S. Appleton, M.J. Liebelt: EC-STAG: A fast asynchronous microprocessor. Proc. 2nd Working Conference on Asynchronous Design Methodologies, (1995), pp. 180-189.</ref-fulltext>
+                    </reference>
+                    <reference id="19579321">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>TITAC: Design of a quasy-delay-insensitive microprocessor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028448101</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Nanya T.</ce:indexed-name>
+                                    <ce:surname>Nanya</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Design and Test of Comp.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="11"/>
+                                <pagerange first="50" last="63"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>T. Nanya et al.: TITAC: Design of a quasy-delay-insensitive microprocessor. IEEE Design and Test of Comp., 11(2):50-63, 1994.</ref-fulltext>
+                    </reference>
+                    <reference id="19579322">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>ASPO-216: A standard-cell Q.D.I. 16-bit RISC asynchronous microprocessor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84905382304</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Renaudin M.</ce:indexed-name>
+                                    <ce:surname>Renaudin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Vivet P.</ce:indexed-name>
+                                    <ce:surname>Vivet</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Robin F.</ce:indexed-name>
+                                    <ce:surname>Robin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. 4th International Symposium on Advanced Research in Asynchronous Circuits and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                        </ref-info>
+                        <ref-fulltext>M. Renaudin, P. Vivet, F. Robin: ASPO-216: A standard-cell Q.D.I. 16-bit RISC asynchronous microprocessor. Proc. 4th International Symposium on Advanced Research in Asynchronous Circuits and Systems, (1998).</ref-fulltext>
+                    </reference>
+                    <reference id="19579323">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fred: An architecture for a self-timed decoupled computer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004108509</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.F.</ce:initials>
+                                    <ce:indexed-name>Richardson W.F.</ce:indexed-name>
+                                    <ce:surname>Richardson</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Brunvand E.</ce:indexed-name>
+                                    <ce:surname>Brunvand</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Technical Report UUCS-95-008</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-text>University of Utah</ref-text>
+                        </ref-info>
+                        <ref-fulltext>W.F. Richardson, E. Brunvand: Fred: An architecture for a self-timed decoupled computer. Technical Report UUCS-95-008, University of Utah, 1995.</ref-fulltext>
+                    </reference>
+                    <reference id="19579324">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004204741</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Silc J.</ce:indexed-name>
+                                    <ce:surname>Šilc</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Robic B.</ce:indexed-name>
+                                    <ce:surname>Robič</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Ungerer T.</ce:indexed-name>
+                                    <ce:surname>Ungerer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Processor Architecture - From Dataflow to Superscalar and Beyond</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-text>Springer-Verlag, Berlin</ref-text>
+                        </ref-info>
+                        <ref-fulltext>J. Šilc, B. Robič, T. Ungerer: Processor Architecture - From Dataflow to Superscalar and Beyond. Springer-Verlag, Berlin, 1999.</ref-fulltext>
+                    </reference>
+                    <reference id="19579325">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Counterflow pipeline processor architecture</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002499329</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.F.</ce:initials>
+                                    <ce:indexed-name>Sproull R.F.</ce:indexed-name>
+                                    <ce:surname>Sproull</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.E.</ce:initials>
+                                    <ce:indexed-name>Sutherland I.E.</ce:indexed-name>
+                                    <ce:surname>Sutherland</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.E.</ce:initials>
+                                    <ce:indexed-name>Molnar C.E.</ce:indexed-name>
+                                    <ce:surname>Molnar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Design and Test of Comp.</ref-sourcetitle>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="11"/>
+                                <pagerange first="1994"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>R.F. Sproull, I.E. Sutherland, C.E. Molnar: Counterflow pipeline processor architecture. IEEE Design and Test of Comp., 11(3), 1994.</ref-fulltext>
+                    </reference>
+                    <reference id="19579326">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Micropipelines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0024683698</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.E.</ce:initials>
+                                    <ce:indexed-name>Sutherland I.E.</ce:indexed-name>
+                                    <ce:surname>Sutherland</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comm. ACM</ref-sourcetitle>
+                            <ref-publicationyear first="1989"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="32"/>
+                                <pagerange first="720" last="738"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>I.E. Sutherland: Micropipelines. Comm. ACM 32(6):720-738, 1989.</ref-fulltext>
+                    </reference>
+                    <reference id="19579327">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>TITAC-2: An asyncronous 32-bit microprocessor based on scalable-delay-insensitive model</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031336623</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Takamura A.</ce:indexed-name>
+                                    <ce:surname>Takamura</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE International Conference on Computer Design</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <pagerange first="288" last="294"/>
+                            </ref-volisspag>
+                            <ref-text>October</ref-text>
+                        </ref-info>
+                        <ref-fulltext>A. Takamura et al.: TITAC-2: An asyncronous 32-bit microprocessor based on scalable-delay-insensitive model. Proc. IEEE International Conference on Computer Design, (October 1997), pp. 288-294.</ref-fulltext>
+                    </reference>
+                    <reference id="19579328">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Building parallel distributed models for asynchronous computer architecture</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13044271421</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Theodoropoulos G.</ce:indexed-name>
+                                    <ce:surname>Theodoropoulos</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.V.</ce:initials>
+                                    <ce:indexed-name>Wood J.V.</ce:indexed-name>
+                                    <ce:surname>Wood</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. World Transputer Congress</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <pagerange first="285" last="301"/>
+                            </ref-volisspag>
+                            <ref-text>September</ref-text>
+                        </ref-info>
+                        <ref-fulltext>G. Theodoropoulos, J.V. Wood: Building parallel distributed models for asynchronous computer architecture. Proc. World Transputer Congress, (September 1994), pp. 285-301.</ref-fulltext>
+                    </reference>
+                    <reference id="19579329">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A 100-MIPS GaAs asynchronous microprocessor</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028444704</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Tierno J.A.</ce:indexed-name>
+                                    <ce:surname>Tierno</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Design and Test of Comp.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="11"/>
+                                <pagerange first="43" last="49"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>J.A. Tierno et al.: A 100-MIPS GaAs asynchronous microprocessor. IEEE Design and Test of Comp., 11(2):43-49, 1994.</ref-fulltext>
+                    </reference>
+                    <reference id="19579330">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Asynchronous processor survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0031271356</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Werner T.</ce:indexed-name>
+                                    <ce:surname>Werner</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Akella V.</ce:indexed-name>
+                                    <ce:surname>Akella</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Computer</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss issue="11" volume="30"/>
+                                <pagerange first="67" last="71"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>T. Werner, V. Akella: Asynchronous processor survey. Computer, 30(11):67-71, 1997.</ref-fulltext>
+                    </reference>
+                    <reference id="19579331">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">13044296777</itemid>
+                            </refd-itemidlist>
+                            <ref-text>The National Technology Roadmap for Semiconductors. SEMATECH Inc., Austin, TX, 1997</ref-text>
+                        </ref-info>
+                        <ref-fulltext>The National Technology Roadmap for Semiconductors. SEMATECH Inc., Austin, TX, 1997.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

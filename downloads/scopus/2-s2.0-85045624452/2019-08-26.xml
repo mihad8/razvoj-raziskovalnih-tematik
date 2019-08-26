@@ -1,0 +1,1769 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/85045624452</prism:url><dc:identifier>SCOPUS_ID:85045624452</dc:identifier><eid>2-s2.0-85045624452</eid><prism:doi>10.1049/iet-bmt.2017.0240</prism:doi><dc:title>Convolutional encoder-decoder networks for pixel-wise ear detection and segmentation</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>8</citedby-count><prism:publicationName>IET Biometrics</prism:publicationName><dc:publisher>
+                        Institution of Engineering and Technology
+                        journals@theiet.org
+                    </dc:publisher><source-id>21100216567</source-id><prism:issn>20474946 20474938</prism:issn><prism:volume>7</prism:volume><prism:issueIdentifier>3</prism:issueIdentifier><prism:startingPage>175</prism:startingPage><prism:endingPage>184</prism:endingPage><prism:pageRange>175-184</prism:pageRange><prism:coverDate>2018-05-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="56097253100"><ce:initials>Ž.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emeršič</ce:surname><ce:given-name>Žiga</ce:given-name><preferred-name><ce:initials>Ž.</ce:initials><ce:indexed-name>Emeršič Ž.</ce:indexed-name><ce:surname>Emeršič</ce:surname><ce:given-name>Žiga</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56097253100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© The Institution of Engineering and Technology 2018.</publishercopyright>
+                        <ce:para>Object detection and segmentation represents the basis for many tasks in computer and machine vision. In biometric recognition systems the detection of the region-of-interest (ROI) is one of the most crucial steps in the processing pipeline, significantly impacting the performance of the entire recognition system. Existing approaches to ear detection, are commonly susceptible to the presence of severe occlusions, ear accessories or variable illumination conditions and often deteriorate in their performance if applied on ear images captured in unconstrained settings. To address these shortcomings, we present a novel ear detection technique based on convolutional encoder-decoder networks (CEDs). We formulate the problem of ear detection as a two-class segmentation problem and design and train a CED-network architecture to distinguish between imagepixels belonging to the ear and the non-ear class. Unlike competing techniques, our approach does not simply return a bounding box around the detected ear, but provides detailed, pixel-wise information about the location of the ears in the image. Experiments on a dataset gathered from the web (a.k.a. in the wild) show that the proposed technique ensures good detection results in the presence of various covariate factors and significantly outperforms competing methods from the literature.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/85045624452" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85045624452&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=85045624452&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60002014" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002014"><affilname>The Royal Institute of Technology (KTH)</affilname><affiliation-city>Stockholm</affiliation-city><affiliation-country>Sweden</affiliation-country></affiliation><authors><author seq="1" auid="56097253100"><ce:initials>Ž.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emeršič</ce:surname><ce:given-name>Žiga</ce:given-name><preferred-name><ce:initials>Ž.</ce:initials><ce:indexed-name>Emeršič Ž.</ce:indexed-name><ce:surname>Emeršič</ce:surname><ce:given-name>Žiga</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56097253100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="57201665586"><ce:initials>L.L.</ce:initials><ce:indexed-name>Gabriel L.L.</ce:indexed-name><ce:surname>Gabriel</ce:surname><ce:given-name>Luka L.</ce:given-name><preferred-name><ce:initials>L.L.</ce:initials><ce:indexed-name>Gabriel L.</ce:indexed-name><ce:surname>Gabriel</ce:surname><ce:given-name>Luka L.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57201665586</author-url><affiliation id="60002014" href="https://api.elsevier.com/content/affiliation/affiliation_id/60002014"/></author><author seq="3" auid="17347474600"><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Štruc</ce:surname><ce:given-name>Vitomir</ce:given-name><preferred-name><ce:initials>V.</ce:initials><ce:indexed-name>Štruc V.</ce:indexed-name><ce:surname>Štruc</ce:surname><ce:given-name>Vitomir</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/17347474600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="7003277146"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003277146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="b" candidate="n">Biometric recognition system</mainterm><mainterm weight="b" candidate="n">Bounding box</mainterm><mainterm weight="b" candidate="n">Convolutional encoders</mainterm><mainterm weight="b" candidate="n">Detection techniques</mainterm><mainterm weight="b" candidate="n">Recognition systems</mainterm><mainterm weight="b" candidate="n">Severe occlusions</mainterm><mainterm weight="b" candidate="n">The region of interest (ROI)</mainterm><mainterm weight="b" candidate="n">Variable illumination</mainterm></idxterms><subject-areas><subject-area code="1712" abbrev="COMP">Software</subject-area><subject-area code="1711" abbrev="COMP">Signal Processing</subject-area><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-30T04:59:24Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-id>P2-0250</xocs:funding-id><xocs:funding-id>P2-0214</xocs:funding-id><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>ARRS</xocs:funding-agency-matched-string><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>This research was supported in parts by the ARRS (Slovenian Research Agency) Research Program P2-0250 (B) Metrology and Biometric Systems as well as the ARRS Research Program P2-0214 (A) Computer Vision.</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="31" month="10" timestamp="2018-10-31T04:13:25.000025-04:00" year="2018"/><ait:date-sort day="01" month="05" year="2018"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1049/iet-bmt.2017.0240</ce:doi>
+                    <itemid idtype="PUI">621768640</itemid>
+                    <itemid idtype="CAR-ID">910209037</itemid>
+                    <itemid idtype="CPX">20181705043937</itemid>
+                    <itemid idtype="SCOPUS">20181346536</itemid>
+                    <itemid idtype="SCP">85045624452</itemid>
+                    <itemid idtype="SGR">85045624452</itemid>
+                </itemidlist><history>
+                    <date-created day="25" month="04" timestamp="BST 07:39:51" year="2018"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>SCOPUS</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Convolutional encoder-decoder networks for pixel-wise ear detection and segmentation</titletext></citation-title><author-group><author auid="56097253100" seq="1" type="auth"><ce:initials>Ž.</ce:initials><ce:indexed-name>Emersic Z.</ce:indexed-name><ce:surname>Emeršič</ce:surname><ce:given-name>Žiga</ce:given-name><preferred-name>
+                            <ce:initials>Ž.</ce:initials>
+                            <ce:indexed-name>Emeršič Ž.</ce:indexed-name>
+                            <ce:surname>Emeršič</ce:surname>
+                            <ce:given-name>Žiga</ce:given-name>
+                        </preferred-name></author><author auid="7003277146" seq="4" type="auth"><ce:initials>P.</ce:initials><ce:indexed-name>Peer P.</ce:indexed-name><ce:surname>Peer</ce:surname><ce:given-name>Peter</ce:given-name><preferred-name>
+                            <ce:initials>P.</ce:initials>
+                            <ce:indexed-name>Peer P.</ce:indexed-name>
+                            <ce:surname>Peer</ce:surname>
+                            <ce:given-name>Peter</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Veèna pot 113</address-part><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="57201665586" seq="2" type="auth"><ce:initials>L.L.</ce:initials><ce:indexed-name>Gabriel L.L.</ce:indexed-name><ce:surname>Gabriel</ce:surname><ce:given-name>Luka L.</ce:given-name><preferred-name>
+                            <ce:initials>L.L.</ce:initials>
+                            <ce:indexed-name>Gabriel L.</ce:indexed-name>
+                            <ce:surname>Gabriel</ce:surname>
+                            <ce:given-name>Luka L.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60002014" country="swe"><organization>KTH Royal Institute of Technology</organization><city>Stockholm</city><postal-code>SE-100 44</postal-code><affiliation-id afid="60002014"/><country>Sweden</country></affiliation></author-group><author-group><author auid="17347474600" seq="3" type="auth"><ce:initials>V.</ce:initials><ce:indexed-name>Struc V.</ce:indexed-name><ce:surname>Štruc</ce:surname><ce:given-name>Vitomir</ce:given-name><preferred-name>
+                            <ce:initials>V.</ce:initials>
+                            <ce:indexed-name>Štruc V.</ce:indexed-name>
+                            <ce:surname>Štruc</ce:surname>
+                            <ce:given-name>Vitomir</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><address-part>Tržaška 25</address-part><city>Ljubljana</city><postal-code>SI-1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>Ž.</ce:initials>
+                        <ce:indexed-name>Emersic Z.</ce:indexed-name>
+                        <ce:surname>Emeršič</ce:surname>
+                        <ce:given-name>Žiga</ce:given-name>
+                    </person><affiliation country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Veèna pot 113</address-part><city>Ljubljana</city><postal-code>SI-1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© The Institution of Engineering and Technology 2018.</publishercopyright>
+                        <ce:para>Object detection and segmentation represents the basis for many tasks in computer and machine vision. In biometric recognition systems the detection of the region-of-interest (ROI) is one of the most crucial steps in the processing pipeline, significantly impacting the performance of the entire recognition system. Existing approaches to ear detection, are commonly susceptible to the presence of severe occlusions, ear accessories or variable illumination conditions and often deteriorate in their performance if applied on ear images captured in unconstrained settings. To address these shortcomings, we present a novel ear detection technique based on convolutional encoder-decoder networks (CEDs). We formulate the problem of ear detection as a two-class segmentation problem and design and train a CED-network architecture to distinguish between imagepixels belonging to the ear and the non-ear class. Unlike competing techniques, our approach does not simply return a bounding box around the detected ear, but provides detailed, pixel-wise information about the location of the ears in the image. Experiments on a dataset gathered from the web (a.k.a. in the wild) show that the proposed technique ensures good detection results in the presence of various covariate factors and significantly outperforms competing methods from the literature.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="21100216567" type="j"><sourcetitle>IET Biometrics</sourcetitle><sourcetitle-abbrev>IET Biom.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">IET Biometrics</translated-sourcetitle><issn type="electronic">20474946</issn><issn type="print">20474938</issn><volisspag>
+                        <voliss issue="3" volume="7"/>
+                        <pagerange first="175" last="184"/>
+                    </volisspag><publicationyear first="2018"/><publicationdate>
+                        <year>2018</year>
+                        <month>05</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 May 2018</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://digital-library.theiet.org/IET-BMT</ce:e-address>
+                    </website><publisher>
+                        <publishername>Institution of Engineering and Technology</publishername>
+                        <ce:e-address type="email">journals@theiet.org</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>
+                                <classification-code>716.1</classification-code>
+                                <classification-description>Information and Communication Theory</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>722.4</classification-code>
+                                <classification-description>Digital Computers and Systems</classification-description>
+                            </classification>
+                            <classification>
+                                <classification-code>723.2</classification-code>
+                                <classification-description>Data Processing</classification-description>
+                            </classification>
+                        </classifications><classifications type="FLXCLASS">
+                            <classification>
+                                <classification-code>902</classification-code>
+                                <classification-description>FLUIDEX; Related Topics</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>1712</classification>
+                            <classification>1711</classification>
+                            <classification>1707</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="56">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On applicability of tunable filter bank based feature for ear biometrics: A study from constrained to unconstrained</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85037030579</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.P.</ce:initials>
+                                    <ce:indexed-name>Chowdhury D.P.</ce:indexed-name>
+                                    <ce:surname>Chowdhury</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Bakshi S.</ce:indexed-name>
+                                    <ce:surname>Bakshi</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Guo G.</ce:indexed-name>
+                                    <ce:surname>Guo</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Med. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2018"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="42"/>
+                                <pagerange first="11"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chowdhury, D.P., Bakshi, S., Guo, G., et al.: 'On applicability of tunable filter bank based feature for ear biometrics: A study from constrained to unconstrained', J. Med. Syst., 2018, 42, (1), p. 11</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARXIV">171007662</itemid>
+                                <itemid idtype="SGR">85045627422</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.E.</ce:initials>
+                                    <ce:indexed-name>Hansley E.E.</ce:indexed-name>
+                                    <ce:surname>Hansley</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.P.</ce:initials>
+                                    <ce:indexed-name>Segundo M.P.</ce:indexed-name>
+                                    <ce:surname>Segundo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sarkar S.</ce:indexed-name>
+                                    <ce:surname>Sarkar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Employing Fusion of Learned and Handcrafted Features for Unconstrained Ear Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-text>arXiv preprint</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hansley, E.E., Segundo, M.P., Sarkar, S.: 'Employing fusion of learned and handcrafted features for unconstrained ear recognition', arXiv preprint arXiv:171007662, 2017</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust multimodal multivariate ear recognition using kernel based simultaneous sparse representation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85025631734</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Banerjee S.</ce:indexed-name>
+                                    <ce:surname>Banerjee</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Chatterjee A.</ce:indexed-name>
+                                    <ce:surname>Chatterjee</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Eng. Appl. Artif. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="64"/>
+                                <pagerange first="340" last="351"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Banerjee, S., Chatterjee, A.: 'Robust multimodal multivariate ear recognition using kernel based simultaneous sparse representation', Eng. Appl. Artif. Intell., 2017, 64, pp. 340-351</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A survey on ear biometrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84875180794</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Abaza A.</ce:indexed-name>
+                                    <ce:surname>Abaza</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Ross A.</ce:indexed-name>
+                                    <ce:surname>Ross</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hebert C.</ce:indexed-name>
+                                    <ce:surname>Hebert</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>ACM Comput. Surv.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="45"/>
+                                <pagerange first="22"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Abaza, A., Ross, A., Hebert, C., et al.: 'A survey on ear biometrics', ACM Comput. Surv., 2013, 45, (2), p. 22</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear biometrics: A survey of detection, feature extraction and recognition methods</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84866878822</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pflug A.</ce:indexed-name>
+                                    <ce:surname>Pflug</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Busch C.</ce:indexed-name>
+                                    <ce:surname>Busch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IET Biometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="1"/>
+                                <pagerange first="114" last="129"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pflug, A., Busch, C.: 'Ear biometrics: A survey of detection, feature extraction and recognition methods', IET Biometrics, 2012, 1, (2), pp. 114-129</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear recognition: More than a survey</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85017361058</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersi Z.</ce:indexed-name>
+                                    <ce:surname>Emerši</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Štruc</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neurocomputing</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss volume="255"/>
+                                <pagerange first="26" last="39"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Emerši, Ž., Štruc, V., Peer, P.: 'Ear recognition: More than a survey', Neurocomputing, 2017, 255, pp. 26-39</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARXIV">170200307</itemid>
+                                <itemid idtype="SGR">85045628119</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersi Z.</ce:indexed-name>
+                                    <ce:surname>Emerši</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.L.</ce:initials>
+                                    <ce:indexed-name>Gabriel L.L.</ce:indexed-name>
+                                    <ce:surname>Gabriel</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Štruc</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Pixel-wise Ear Detection with Convolutional Encoder-decoder Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-text>arXiv preprint</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Emerši, Ž., Gabriel, L.L., Štruc, V., et al.: 'Pixel-wise ear detection with convolutional encoder-decoder networks', arXiv preprint arXiv:170200307, 2017</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARXIV">150507293</itemid>
+                                <itemid idtype="SGR">84973893180</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Badrinarayanan V.</ce:indexed-name>
+                                    <ce:surname>Badrinarayanan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Handa A.</ce:indexed-name>
+                                    <ce:surname>Handa</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Cipolla R.</ce:indexed-name>
+                                    <ce:surname>Cipolla</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SegNet: A Deep Convolutional Encoder-decoder Architecture for Robust Semantic Pixel-wise Labelling</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                        </ref-info>
+                        <ref-fulltext>Badrinarayanan, V., Handa, A., Cipolla, R.: 'SegNet: A deep convolutional encoder-decoder architecture for robust semantic pixel-wise labelling', arXiv:150507293, 2015</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARXIV">151100561</itemid>
+                                <itemid idtype="SGR">84989829253</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Badrinarayanan V.</ce:indexed-name>
+                                    <ce:surname>Badrinarayanan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kendall A.</ce:indexed-name>
+                                    <ce:surname>Kendall</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Cipolla R.</ce:indexed-name>
+                                    <ce:surname>Cipolla</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>SegNet: A Deep Convolutional Encoder-decoder Architecture for Image Segmentation</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                        </ref-info>
+                        <ref-fulltext>Badrinarayanan, V., Kendall, A., Cipolla, R.: 'SegNet: A deep convolutional encoder-decoder architecture for image segmentation', arXiv preprint arXiv:151100561, 2015</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARXIV">161107004</itemid>
+                                <itemid idtype="SGR">85014051586</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Isola P.</ce:indexed-name>
+                                    <ce:surname>Isola</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.Y.</ce:initials>
+                                    <ce:indexed-name>Zhu J.Y.</ce:indexed-name>
+                                    <ce:surname>Zhu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Zhou T.</ce:indexed-name>
+                                    <ce:surname>Zhou</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Image-to-image Translation with Conditional Adversarial Networks</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                        </ref-info>
+                        <ref-fulltext>Isola, P., Zhu, J.Y., Zhou, T., et al.: 'Image-to-image translation with conditional adversarial networks', arXiv preprint arXiv:161107004, 2016</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Stacked hourglass networks for human pose estimation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84990052811</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Newell A.</ce:indexed-name>
+                                    <ce:surname>Newell</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Yang K.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Deng J.</ce:indexed-name>
+                                    <ce:surname>Deng</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>European Conf. On Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="483" last="499"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Newell, A., Yang, K., Deng, J.: 'Stacked hourglass networks for human pose estimation'. European Conf. on Computer Vision, 2016, pp. 483-499</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The unconstrained ear recognition challenge</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85045643825</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersi Z.</ce:indexed-name>
+                                    <ce:surname>Emerši</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Stepec D.</ce:indexed-name>
+                                    <ce:surname>Štepec</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Štruc</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Joint Conf. On Biometrics (IJCB</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                        </ref-info>
+                        <ref-fulltext>Emerši, Ž., Štepec, D., Štruc, V., et al.: 'The unconstrained ear recognition challenge'. Int. Joint Conf. on Biometrics (IJCB), 2017</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Covariate analysis of descriptorbased Ear recognition techniques</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85028561715</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersi Z.</ce:indexed-name>
+                                    <ce:surname>Emerši</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Meden B.</ce:indexed-name>
+                                    <ce:surname>Meden</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>2017 Int. Conf., Workshop On Bioinspired Intelligence (IWOBI</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="9"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Emerši, Ž., Meden, B., Peer, P., et al.: 'Covariate analysis of descriptorbased Ear recognition techniques'. 2017 Int. Conf., Workshop on Bioinspired Intelligence (IWOBI), 2017, pp. 1-9</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85011278958</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Prakash S.</ce:indexed-name>
+                                    <ce:surname>Prakash</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gupta P.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ear Biometrics in 2D and 3D: Localization and Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss volume="10"/>
+                            </ref-volisspag>
+                            <ref-text>Springer, Singapore</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Prakash, S., Gupta, P.: 'Ear biometrics in 2D and 3D: Localization and recognition' (Springer, Singapore, 2015), vol. 10</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>On shape-mediated enrolment in Ear biometrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">38149136574</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Arbab Zavar B.</ce:indexed-name>
+                                    <ce:surname>Arbab Zavar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Nixon M.S.</ce:indexed-name>
+                                    <ce:surname>Nixon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Symp. On Visual Computing</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="549" last="558"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Arbab Zavar, B., Nixon, M.S.: 'On shape-mediated enrolment in Ear biometrics'. Int. Symp. on Visual Computing, 2007, pp. 549-558</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85045686919</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Face Database</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.nd.edu/cvrl/CVRL/DataSets.html</ce:e-address>
+                            </ref-website>
+                            <ref-text>University of Notre Dame accessed 1 May 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>University of Notre Dame.: 'Face database', 2015. Available at http://www.nd.edu/cvrl/CVRL/DataSets.html, accessed 1 May 2016</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Localization of ear using outer helix curve of the ear</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34547380941</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ansari S.</ce:indexed-name>
+                                    <ce:surname>Ansari</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gupta P.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Computing: Theory and Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="688" last="692"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ansari, S., Gupta, P.: 'Localization of ear using outer helix curve of the ear'. Int. Conf. on Computing: Theory and Applications, 2007, pp. 688-692</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A New segmentation approach for Ear recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">57049130415</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Attarchi S.</ce:indexed-name>
+                                    <ce:surname>Attarchi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Faez K.</ce:indexed-name>
+                                    <ce:surname>Faez</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Rafiei A.</ce:indexed-name>
+                                    <ce:surname>Rafiei</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Advanced Concepts for Intelligent Vision Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1030" last="1037"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Attarchi, S., Faez, K., Rafiei, A.: 'A New segmentation approach for Ear recognition'. Int. Conf. on Advanced Concepts for Intelligent Vision Systems, 2008, pp. 1030-1037</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85038586104</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>Introduction to USTB Ear Image Databases</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www1.ustb.edu.cn/resb/en/doc/Imagedb123introen.pdf</ce:e-address>
+                            </ref-website>
+                            <ref-text>Ear Recognition Laboratory at the University of Science &amp; Technology Beijing at accessed 1 May 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Ear Recognition Laboratory at the University of Science &amp; Technology Beijing.: 'Introduction to USTB ear image databases', 2002. Available at http://www1.ustb.edu.cn/resb/en/doc/Imagedb-123-intro-en.pdf, accessed 1 May 2016</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">4544283276</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.M.A.</ce:initials>
+                                    <ce:indexed-name>Carreira P.M.A.</ce:indexed-name>
+                                    <ce:surname>Carreira</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Compression Neural Networks for Feature Extraction: Application to Human Recognition from Ear Images</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-text>Master's thesis, Faculty of Informatics, Technical University of Madrid, Spain</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Carreira Perpinan, M.A.: 'Compression neural networks for feature extraction: Application to human recognition from ear images'. Master's thesis, Faculty of Informatics, Technical University of Madrid, Spain, 1995</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast and fully automatic ear detection using cascaded AdaBoost</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">50849124178</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.M.</ce:initials>
+                                    <ce:indexed-name>Islam S.M.</ce:indexed-name>
+                                    <ce:surname>Islam</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bennamoun M.</ce:indexed-name>
+                                    <ce:surname>Bennamoun</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Davies R.</ce:indexed-name>
+                                    <ce:surname>Davies</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Workshop On Applications of Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Islam, S.M., Bennamoun, M., Davies, R.: 'Fast and fully automatic ear detection using cascaded AdaBoost'. Workshop on Applications of Computer Vision, 2008, pp. 1-6</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Ear localization from side face images using distance transform and template matching</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">62949237488</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Prakash S.</ce:indexed-name>
+                                    <ce:surname>Prakash</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Jayaraman U.</ce:indexed-name>
+                                    <ce:surname>Jayaraman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gupta P.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Workshops On Image Processing Theory, Tools and Applications</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Prakash, S., Jayaraman, U., Gupta, P.: 'Ear localization from side face images using distance transform and template matching'. Workshops on Image Processing Theory, Tools and Applications, 2008, pp. 1-8</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Connected component based technique for automatic ear detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77951954867</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Prakash S.</ce:indexed-name>
+                                    <ce:surname>Prakash</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Jayaraman U.</ce:indexed-name>
+                                    <ce:surname>Jayaraman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gupta P.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="2741" last="2744"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Prakash, S., Jayaraman, U., Gupta, P.: 'Connected component based technique for automatic ear detection'. Int. Conf. on Image Processing, 2009, pp. 2741-2744</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A skin-color and template based technique for automatic Ear detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">63649085982</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Prakash S.</ce:indexed-name>
+                                    <ce:surname>Prakash</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>U.</ce:initials>
+                                    <ce:indexed-name>Jayaraman U.</ce:indexed-name>
+                                    <ce:surname>Jayaraman</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gupta P.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Advances in Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="213" last="216"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Prakash, S., Jayaraman, U., Gupta, P.: 'A skin-color and template based technique for automatic Ear detection'. Int. Conf. on Advances in Pattern Recognition, 2009, pp. 213-216</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Fast learning Ear detection for realtime surveillance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78650367846</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Abaza A.</ce:indexed-name>
+                                    <ce:surname>Abaza</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Hebert C.</ce:indexed-name>
+                                    <ce:surname>Hebert</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.A.F.</ce:initials>
+                                    <ce:indexed-name>Harrison M.A.F.</ce:indexed-name>
+                                    <ce:surname>Harrison</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Biometrics: Theory Applications and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Abaza, A., Hebert, C., Harrison, M.A.F.: 'Fast learning Ear detection for realtime surveillance'. Int. Conf. on Biometrics: Theory Applications and Systems, 2010, pp. 1-6</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A novel Ray analogy for enrolment of Ear biometrics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78650320649</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.H.</ce:initials>
+                                    <ce:indexed-name>Cummings A.H.</ce:indexed-name>
+                                    <ce:surname>Cummings</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.S.</ce:initials>
+                                    <ce:indexed-name>Nixon M.S.</ce:indexed-name>
+                                    <ce:surname>Nixon</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.N.</ce:initials>
+                                    <ce:indexed-name>Carter J.N.</ce:indexed-name>
+                                    <ce:surname>Carter</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Biometrics: Theory Applications and Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="6"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cummings, A.H., Nixon, M.S., Carter, J.N.: 'A novel Ray analogy for enrolment of Ear biometrics'. Int. Conf. on Biometrics: Theory Applications and Systems, 2010, pp. 1-6</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>XM2VTSDB: The extended M2VTS database</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0001935972</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Messer K.</ce:indexed-name>
+                                    <ce:surname>Messer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Matas J.</ce:indexed-name>
+                                    <ce:surname>Matas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Kittler J.</ce:indexed-name>
+                                    <ce:surname>Kittler</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Audio and Video-based Biometric Person Authentication</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <pagerange first="965" last="966"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Messer, K., Matas, J., Kittler, J., et al.: 'XM2VTSDB: The extended M2VTS database'. Int. Conf. on Audio and Video-based Biometric Person Authentication, 1999, pp. 965-966</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An efficient ear localization technique</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84856445421</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Prakash S.</ce:indexed-name>
+                                    <ce:surname>Prakash</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Gupta P.</ce:indexed-name>
+                                    <ce:surname>Gupta</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Vis. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="30"/>
+                                <pagerange first="38" last="50"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Prakash, S., Gupta, P.: 'An efficient ear localization technique', Image Vis. Comput., 2012, 30, (1), pp. 38-50</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>HEARD: An automatic human EAR detection technique</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873161974</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.K.A.</ce:initials>
+                                    <ce:indexed-name>Wahab N.K.A.</ce:indexed-name>
+                                    <ce:surname>Wahab</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.E.</ce:initials>
+                                    <ce:indexed-name>Hemayed E.E.</ce:indexed-name>
+                                    <ce:surname>Hemayed</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.B.</ce:initials>
+                                    <ce:indexed-name>Fayek M.B.</ce:indexed-name>
+                                    <ce:surname>Fayek</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Engineering and Technology</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="7"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wahab, N.K.A., Hemayed, E.E., Fayek, M.B.: 'HEARD: An automatic human EAR detection technique'. Int. Conf. on Engineering and Technology, 2012, pp. 1-7</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Robust localization of ears by feature level fusion and context information</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84887478982</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Pflug A.</ce:indexed-name>
+                                    <ce:surname>Pflug</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Winterstein A.</ce:indexed-name>
+                                    <ce:surname>Winterstein</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Busch C.</ce:indexed-name>
+                                    <ce:surname>Busch</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Biometrics</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pflug, A., Winterstein, A., Busch, C.: 'Robust localization of ears by feature level fusion and context information'. Int. Conf. on Biometrics, 2013, pp. 1-8</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Entropy based binary particle swarm optimization and classification for ear detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84888290510</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Ganesh M.R.</ce:indexed-name>
+                                    <ce:surname>Ganesh</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Krishna R.</ce:indexed-name>
+                                    <ce:surname>Krishna</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Manikantan K.</ce:indexed-name>
+                                    <ce:surname>Manikantan</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Eng. Appl. Artif. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="27"/>
+                                <pagerange first="115" last="128"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ganesh, M.R., Krishna, R., Manikantan, K., et al.: 'Entropy based binary particle swarm optimization and classification for ear detection', Eng. Appl. Artif. Intell., 2014, 27, pp. 115-128</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The FERET database and evaluation procedure for face-recognition algorithms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032045780</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.J.</ce:initials>
+                                    <ce:indexed-name>Phillips P.J.</ce:indexed-name>
+                                    <ce:surname>Phillips</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Wechsler H.</ce:indexed-name>
+                                    <ce:surname>Wechsler</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huang J.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Vis. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="16"/>
+                                <pagerange first="295" last="306"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Phillips, P.J., Wechsler, H., Huang, J., et al.: 'The FERET database and evaluation procedure for face-recognition algorithms', Image Vis. Comput., 1998, 16, (5), pp. 295-306</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Entropy-cum-Houghtransform-based ear detection using ellipsoid particle swarm optimization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84925463312</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Chidananda P.</ce:indexed-name>
+                                    <ce:surname>Chidananda</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Srinivas P.</ce:indexed-name>
+                                    <ce:surname>Srinivas</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Manikantan K.</ce:indexed-name>
+                                    <ce:surname>Manikantan</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Mach. Vis. Appl.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="26"/>
+                                <pagerange first="185" last="203"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chidananda, P., Srinivas, P., Manikantan, K., et al.: 'Entropy-cum-Houghtransform-based ear detection using ellipsoid particle swarm optimization', Mach. Vis. Appl., 2015, 26, (2), pp. 185-203</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85045619088</itemid>
+                            </refd-itemidlist>
+                            <ref-sourcetitle>The Sheffield (Previously UMIST) Face Database</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-website>
+                                <ce:e-address type="email">https://www.sheffield.ac.uk/eee/research/iel/research/face</ce:e-address>
+                            </ref-website>
+                            <ref-text>University of Sheffield at accessed 1 May 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>University of Sheffield.: 'The Sheffield (previously UMIST) Face Database', 1998. Available at https://www.sheffield.ac.uk/eee/research/iel/research/face, accessed 1 May 2016</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An automated ear localization technique based on modified Hausdorff distance</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85038558882</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.P.</ce:initials>
+                                    <ce:indexed-name>Sarangi P.P.</ce:indexed-name>
+                                    <ce:surname>Sarangi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Panda M.</ce:indexed-name>
+                                    <ce:surname>Panda</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.S.P.</ce:initials>
+                                    <ce:indexed-name>Mishra B.S.P.</ce:indexed-name>
+                                    <ce:surname>Mishra</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Computer Vision and Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="12"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sarangi, P.P., Panda, M., Mishra, B.S.P., et al.: 'An automated ear localization technique based on modified Hausdorff distance'. Int. Conf. on Computer Vision and Image Processing, 2016, pp. 1-12</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Rapid object detection using a boosted cascade of simple features</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035680116</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Viola P.</ce:indexed-name>
+                                    <ce:surname>Viola</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Jones M.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Conf. On Computer Vision and Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <pagerange first="I" last="511"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Viola, P., Jones, M.: 'Rapid object detection using a boosted cascade of simple features'. Conf. on Computer Vision and Pattern Recognition, 2001, pp. I-511</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">21944431967</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>CVL Face Database</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://www.lrv.fri.uni-lj.si/facedb.html</ce:e-address>
+                            </ref-website>
+                            <ref-text>accessed 1 May 2016</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Peer, P.: 'CVL face database', 2005. Available at http://www.lrv.fri.uni-lj.si/facedb.html, accessed 1 May 2016</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The CMU pose, illumination, expression (PIE) database</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">4544292940</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Sim T.</ce:indexed-name>
+                                    <ce:surname>Sim</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Baker S.</ce:indexed-name>
+                                    <ce:surname>Baker</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Bsat M.</ce:indexed-name>
+                                    <ce:surname>Bsat</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Automatic Face and Gesture Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="53" last="58"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sim, T., Baker, S., Bsat, M.: 'The CMU pose, illumination, expression (PIE) database'. Int. Conf. on Automatic Face and Gesture Recognition, 2002, pp. 53-58</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Estimating face orientation from robust detection of salient facial structures</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33746099118</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Gourier N.</ce:indexed-name>
+                                    <ce:surname>Gourier</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Hall D.</ce:indexed-name>
+                                    <ce:surname>Hall</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Crowley J.L.</ce:indexed-name>
+                                    <ce:surname>Crowley</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>FG Net Workshop On Visual Observation of Deictic Gestures</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                        </ref-info>
+                        <ref-fulltext>Gourier, N., Hall, D., Crowley, J.L.: 'Estimating face orientation from robust detection of salient facial structures'. FG Net Workshop on Visual Observation of Deictic Gestures, 2004</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A new ranking method for principal components analysis and its application to face image analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77649336466</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.E.</ce:initials>
+                                    <ce:indexed-name>Thomaz C.E.</ce:indexed-name>
+                                    <ce:surname>Thomaz</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.A.</ce:initials>
+                                    <ce:indexed-name>Giraldi G.A.</ce:indexed-name>
+                                    <ce:surname>Giraldi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Vis. Comput.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="6" volume="28"/>
+                                <pagerange first="902" last="913"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Thomaz, C.E., Giraldi, G.A.: 'A new ranking method for principal components analysis and its application to face image analysis', Image Vis. Comput., 2010, 28, (6), pp. 902-913</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Image restoration using very deep convolutional encoder-decoder networks with symmetric skip connections</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85018922091</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Mao X.</ce:indexed-name>
+                                    <ce:surname>Mao</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Shen C.</ce:indexed-name>
+                                    <ce:surname>Shen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>Y.B.</ce:initials>
+                                    <ce:indexed-name>Yang Y.B.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Advances in Neural Information Processing Systems</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="2802" last="2810"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mao, X., Shen, C., Yang, Y.B.: 'Image restoration using very deep convolutional encoder-decoder networks with symmetric skip connections'. Advances in Neural Information Processing Systems, 2016, pp. 2802-2810</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>NucleiNet: A convolutional encoder-decoder network for bio-image denoising</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85032197814</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Liu Z.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Y.</ce:initials>
+                                    <ce:indexed-name>Hu Y.</ce:indexed-name>
+                                    <ce:surname>Hu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Xu H.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>2017 39th Annual Int. Conf. of the IEEE Engineering in Medicine and Biology Society (EMBC</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="1986" last="1989"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Liu, Z., Hu, Y., Xu, H., et al.: 'NucleiNet: A convolutional encoder-decoder network for bio-image denoising'. 2017 39th Annual Int. Conf. of the IEEE Engineering in Medicine and Biology Society (EMBC), 2017, pp. 1986-1989</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Object contour detection with a fully convolutional encoder-decoder network</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84986265719</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Yang J.</ce:indexed-name>
+                                    <ce:surname>Yang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Price B.</ce:indexed-name>
+                                    <ce:surname>Price</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Cohen S.</ce:indexed-name>
+                                    <ce:surname>Cohen</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE Conf. On Computer Vision and Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="193" last="202"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Yang, J., Price, B., Cohen, S., et al.: 'Object contour detection with a fully convolutional encoder-decoder network'. Proc. IEEE Conf. on Computer Vision and Pattern Recognition, 2016, pp. 193-202</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Seg Net: A deep convolutional encoder-decoder architecture for image segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85033697420</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Badrinarayanan V.</ce:indexed-name>
+                                    <ce:surname>Badrinarayanan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Kendall A.</ce:indexed-name>
+                                    <ce:surname>Kendall</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Cipolla R.</ce:indexed-name>
+                                    <ce:surname>Cipolla</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <voliss issue="12" volume="39"/>
+                                <pagerange first="2481" last="2495"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Badrinarayanan, V., Kendall, A., Cipolla, R.: 'SegNet: A deep convolutional encoder-decoder architecture for image segmentation', IEEE Trans. Pattern Anal. Mach. Intell., 2017, 39, (12), pp. 2481-2495</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="ARXIV">14091556</itemid>
+                                <itemid idtype="SGR">84925410541</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Simonyan K.</ce:indexed-name>
+                                    <ce:surname>Simonyan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Zisserman A.</ce:indexed-name>
+                                    <ce:surname>Zisserman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Very Deep Convolutional Networks for Largescale Image Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                        </ref-info>
+                        <ref-fulltext>Simonyan, K., Zisserman, A.: 'Very deep convolutional networks for largescale image recognition', arXiv preprint arXiv:14091556, 2014</ref-fulltext>
+                    </reference>
+                    <reference id="46">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Imagenet large scale visual recognition challenge</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84947041871</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Russakovsky O.</ce:indexed-name>
+                                    <ce:surname>Russakovsky</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Deng J.</ce:indexed-name>
+                                    <ce:surname>Deng</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Su H.</ce:indexed-name>
+                                    <ce:surname>Su</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Comput. Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="115"/>
+                                <pagerange first="211" last="252"/>
+                            </ref-volisspag>
+                            <ref-website>
+                                <ce:e-address type="email">https://doi.org/10.1007/s11263-015-0816-y</ce:e-address>
+                            </ref-website>
+                        </ref-info>
+                        <ref-fulltext>Russakovsky, O., Deng, J., Su, H., et al.: 'Imagenet large scale visual recognition challenge', Int. J. Comput. Vis., 2015, 115, (3), pp. 211-252. Available at: Https://doi.org/10.1007/s11263-015-0816-y</ref-fulltext>
+                    </reference>
+                    <reference id="47">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Inception-v4, inception-ResNet and the impact of residual connections on learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85028013193</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Szegedy C.</ce:indexed-name>
+                                    <ce:surname>Szegedy</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ioffe S.</ce:indexed-name>
+                                    <ce:surname>Ioffe</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Vanhoucke V.</ce:indexed-name>
+                                    <ce:surname>Vanhoucke</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>AAAI</ref-sourcetitle>
+                            <ref-publicationyear first="2017"/>
+                            <ref-volisspag>
+                                <pagerange first="4278" last="4284"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Szegedy, C., Ioffe, S., Vanhoucke, V., et al.: 'Inception-v4, inception-ResNet and the impact of residual connections on learning'. AAAI, 2017, pp. 4278-4284</ref-fulltext>
+                    </reference>
+                    <reference id="48">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Deep residual learning for image recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84986274465</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>He K.</ce:indexed-name>
+                                    <ce:surname>He</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Zhang X.</ce:indexed-name>
+                                    <ce:surname>Zhang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Ren S.</ce:indexed-name>
+                                    <ce:surname>Ren</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proc. IEEE Conf. On Computer Vision and Pattern Recognition</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                            <ref-volisspag>
+                                <pagerange first="770" last="778"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>He, K., Zhang, X., Ren, S., et al.: 'Deep residual learning for image recognition'. Proc. IEEE Conf. on Computer Vision And Pattern Recognition, 2016, pp. 770-778</ref-fulltext>
+                    </reference>
+                    <reference id="49">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Influence of alignment on Ear recognition: Case study on AWE dataset</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85045671129</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ribi M.</ce:indexed-name>
+                                    <ce:surname>Ribi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersi Z.</ce:indexed-name>
+                                    <ce:surname>Emerši</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Struc V.</ce:indexed-name>
+                                    <ce:surname>Štruc</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Electrotechnical and Computer Science Conf.</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                        </ref-info>
+                        <ref-fulltext>Ribi, M., Emerši, Ž., Štruc, V., et al.: 'Influence of alignment on Ear recognition: Case study on AWE dataset'. Int. Electrotechnical and Computer Science Conf., 2016</ref-fulltext>
+                    </reference>
+                    <reference id="50">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Assessment of predictive clustering trees on 2D-image-based Ear recognition</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85045692158</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Emersi Z.</ce:indexed-name>
+                                    <ce:surname>Emerši</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Dimitrovski I.</ce:indexed-name>
+                                    <ce:surname>Dimitrovski</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Electrotechnical and Computer Science Conf</ref-sourcetitle>
+                            <ref-publicationyear first="2016"/>
+                        </ref-info>
+                        <ref-fulltext>Emerši, Ž., Peer, P., Dimitrovski, I.: 'Assessment of predictive clustering trees on 2D-image-based Ear recognition'. Int. Electrotechnical and Computer Science Conf., 2016</ref-fulltext>
+                    </reference>
+                    <reference id="51">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Electricity price short-term forecasting using artificial neural networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0032593007</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>B.R.</ce:initials>
+                                    <ce:indexed-name>Szkuta B.R.</ce:indexed-name>
+                                    <ce:surname>Szkuta</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.A.</ce:initials>
+                                    <ce:indexed-name>Sanabria L.A.</ce:indexed-name>
+                                    <ce:surname>Sanabria</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.S.</ce:initials>
+                                    <ce:indexed-name>Dillon T.S.</ce:indexed-name>
+                                    <ce:surname>Dillon</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Power Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="1999"/>
+                            <ref-volisspag>
+                                <voliss issue="3" volume="14"/>
+                                <pagerange first="851" last="857"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Szkuta, B.R., Sanabria, L.A., Dillon, T.S.: 'Electricity price short-term forecasting using artificial neural networks', IEEE Trans. Power Syst., 1999, 14, (3), pp. 851-857</ref-fulltext>
+                    </reference>
+                    <reference id="52">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Increased rates of convergence through learning rate adaptation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0024137490</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.A.</ce:initials>
+                                    <ce:indexed-name>Jacobs R.A.</ce:indexed-name>
+                                    <ce:surname>Jacobs</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Neural Netw</ref-sourcetitle>
+                            <ref-publicationyear first="1988"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="1"/>
+                                <pagerange first="295" last="307"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jacobs, R.A.: 'Increased rates of convergence through learning rate adaptation', Neural Netw., 1988, 1, (4), pp. 295-307</ref-fulltext>
+                    </reference>
+                    <reference id="53">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A simple weight decay can improve generalization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000029122</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Moody J.</ce:indexed-name>
+                                    <ce:surname>Moody</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Hanson S.</ce:indexed-name>
+                                    <ce:surname>Hanson</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Krogh A.</ce:indexed-name>
+                                    <ce:surname>Krogh</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Adv. Neural Inf. Process. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="950" last="957"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Moody, J., Hanson, S., Krogh, A., et al.: 'A simple weight decay can improve generalization', Adv. Neural Inf. Process. Syst., 1995, 4, pp. 950-957</ref-fulltext>
+                    </reference>
+                    <reference id="54">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Predicting depth, surface normals and semantic labels with a common multi-scale convolutional architecture</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84973897611</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Eigen D.</ce:indexed-name>
+                                    <ce:surname>Eigen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Fergus R.</ce:indexed-name>
+                                    <ce:surname>Fergus</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Computer Vision</ref-sourcetitle>
+                            <ref-publicationyear first="2015"/>
+                            <ref-volisspag>
+                                <pagerange first="2650" last="2658"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Eigen, D., Fergus, R.: 'Predicting depth, surface normals and semantic labels with a common multi-scale convolutional architecture'. Int. Conf. on Computer Vision, 2015, pp. 2650-2658</ref-fulltext>
+                    </reference>
+                    <reference id="55">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The NICE.I: Noisy iris challenge evaluation-part I</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">48649107741</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Proenca H.</ce:indexed-name>
+                                    <ce:surname>Proenca</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.A.</ce:initials>
+                                    <ce:indexed-name>Alexandre L.A.</ce:indexed-name>
+                                    <ce:surname>Alexandre</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>First IEEE Int. Conf. On Biometrics: Theory, Applications, Systems, 2007 (BTAS</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss volume="2007"/>
+                                <pagerange first="1" last="4"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Proenca, H., Alexandre, L.A.: 'The NICE.I: Noisy iris challenge evaluation-part I'. First IEEE Int. Conf. on Biometrics: Theory, Applications, Systems, 2007 (BTAS 2007), 2007, pp. 1-4</ref-fulltext>
+                    </reference>
+                    <reference id="56">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An extended set of Haar-like features for rapid object detection</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">17744406666</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Lienhart R.</ce:indexed-name>
+                                    <ce:surname>Lienhart</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Maydt J.</ce:indexed-name>
+                                    <ce:surname>Maydt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. Conf. On Image Processing</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-volisspag>
+                                <pagerange first="I" last="900"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lienhart, R., Maydt, J.: 'An extended set of Haar-like features for rapid object detection'. Int. Conf. on Image Processing, 2002, pp. I-900</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

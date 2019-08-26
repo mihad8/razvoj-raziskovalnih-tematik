@@ -1,0 +1,1706 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84941599627</prism:url><dc:identifier>SCOPUS_ID:84941599627</dc:identifier><eid>2-s2.0-84941599627</eid><pubmed-id>26098834</pubmed-id><prism:doi>10.1111/jmi.12272</prism:doi><dc:title>Comparison of two automatic cell-counting solutions for fluorescent microscopic images</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>5</citedby-count><prism:publicationName>Journal of Microscopy</prism:publicationName><dc:publisher>
+                        Blackwell Publishing Ltd
+                        customerservices@oxonblackwellpublishing.com
+                    </dc:publisher><source-id>20919</source-id><prism:issn>13652818 00222720</prism:issn><prism:volume>260</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>107</prism:startingPage><prism:endingPage>116</prism:endingPage><prism:pageRange>107-116</prism:pageRange><prism:coverDate>2015-10-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="55620009100"><ce:initials>J.</ce:initials><ce:indexed-name>Lojk J.</ce:indexed-name><ce:surname>Lojk</ce:surname><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Lojk J.</ce:indexed-name><ce:surname>Lojk</ce:surname><ce:given-name>J.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55620009100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <publishercopyright>© 2015 Royal Microscopical Society.</publishercopyright>
+                        <ce:para>Cell counting in microscopic images is one of the fundamental analysis tools in life sciences, but is usually tedious, time consuming and prone to human error. Several programs for automatic cell counting have been developed so far, but most of them demand additional training or data input from the user. Most of them do not allow the users to online monitor the counting results, either. Therefore, we designed two straightforward, simple-to-use cell-counting programs that also allow users to correct the detection results. In this paper, we present the Cellcounter and Learn123 programs for automatic and semiautomatic counting of objects in fluorescent microscopic images (cells or cell nuclei) with a user-friendly interface. Although Cellcounter is based on predefined and fine-tuned set of filters optimized on sets of chosen experiments, Learn123 uses an evolutionary algorithm to determine the adapt filter parameters based on a learning set of images. Cellcounter also includes an extension for analysis of overlaying images. The efficiency of both programs was assessed on images of cells stained with different fluorescent dyes by comparing automatically obtained results with results that were manually annotated by an expert. With both programs, the correlation between automatic and manual counting was very high (R<sup>2</sup> &lt; 0.9), although Cellcounter had some difficulties processing images with no cells or weakly stained cells, where sometimes the background noise was recognized as an object of interest. Nevertheless, the differences between manual and automatic counting were small compared to variations between experimental repeats. Both programs significantly reduced the time required to process the acquired images from hours to minutes. The programs enable consistent, robust, fast and accurate detection of fluorescent objects and can therefore be applied to a range of different applications in different fields of life sciences where fluorescent labelling is used for quantification of various phenomena. Moreover, Cellcounter overlay extension also enables fast analysis of related images that would otherwise require image merging for accurate analysis, whereas Learn123's evolutionary algorithm can adapt counting parameters to specific sets of images of different experimental settings.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84941599627" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84941599627&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84941599627&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55620009100"><ce:initials>J.</ce:initials><ce:indexed-name>Lojk J.</ce:indexed-name><ce:surname>Lojk</ce:surname><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Lojk J.</ce:indexed-name><ce:surname>Lojk</ce:surname><ce:given-name>J.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55620009100</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="8911840700"><ce:initials>U.</ce:initials><ce:indexed-name>Cibej U.</ce:indexed-name><ce:surname>Čibej</ce:surname><preferred-name><ce:initials>U.</ce:initials><ce:indexed-name>Čibej U.</ce:indexed-name><ce:surname>Čibej</ce:surname><ce:given-name>U.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8911840700</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="56695278300"><ce:initials>D.</ce:initials><ce:indexed-name>Karlas D.</ce:indexed-name><ce:surname>Karlaš</ce:surname><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Karlaš D.</ce:indexed-name><ce:surname>Karlaš</ce:surname><ce:given-name>D.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56695278300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="8986058000"><ce:initials>L.</ce:initials><ce:indexed-name>Sajn L.</ce:indexed-name><ce:surname>Šajn</ce:surname><preferred-name><ce:initials>L.</ce:initials><ce:indexed-name>Šajn L.</ce:indexed-name><ce:surname>Šajn</ce:surname><ce:given-name>L.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8986058000</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="6603685988"><ce:initials>M.</ce:initials><ce:indexed-name>Pavlin M.</ce:indexed-name><ce:surname>Pavlin</ce:surname><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Pavlin M.</ce:indexed-name><ce:surname>Pavlin</ce:surname><ce:given-name>M.</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603685988</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Automatic cell counting</author-keyword><author-keyword>Cell viability</author-keyword><author-keyword>Cellcounter</author-keyword><author-keyword>Evolutionary algorithm</author-keyword><author-keyword>Fluorescence microscopy</author-keyword><author-keyword>Learn123</author-keyword><author-keyword>Transfection</author-keyword></authkeywords><idxterms><mainterm weight="b" candidate="n">Algorithms</mainterm><mainterm weight="b" candidate="n">Automation</mainterm><mainterm weight="b" candidate="n">Cell Count</mainterm><mainterm weight="b" candidate="n">Cell Nucleus</mainterm><mainterm weight="b" candidate="n">Cell Survival</mainterm><mainterm weight="b" candidate="n">Humans</mainterm><mainterm weight="b" candidate="n">Image Processing, Computer-Assisted</mainterm><mainterm weight="b" candidate="n">Microscopy, Fluorescence</mainterm><mainterm weight="b" candidate="n">Nanoparticles</mainterm><mainterm weight="a" candidate="n">Software</mainterm></idxterms><subject-areas><subject-area code="2734" abbrev="MEDI">Pathology and Forensic Medicine</subject-area><subject-area code="2722" abbrev="MEDI">Histology</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="14" month="08" timestamp="2018-08-14T20:39:42.000042-04:00" year="2018"/><ait:date-sort day="01" month="10" year="2015"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2016 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1111/jmi.12272</ce:doi>
+                    <itemid idtype="PUI">604973409</itemid>
+                    <itemid idtype="CABS">2015849478</itemid>
+                    <itemid idtype="CAR-ID">637314102</itemid>
+                    <itemid idtype="EMBASE">2015153166</itemid>
+                    <itemid idtype="EMBIO">2015946780</itemid>
+                    <itemid idtype="MEDL">26098834</itemid>
+                    <itemid idtype="SCP">84941599627</itemid>
+                    <itemid idtype="SGR">84941599627</itemid>
+                    <itemid idtype="PUIsecondary">611178822</itemid>
+                </itemidlist><history>
+                    <date-created day="27" month="06" timestamp="BST 10:45:37" year="2015"/>
+                </history><dbcollection>CABS</dbcollection><dbcollection>EMBASE</dbcollection><dbcollection>EMBIO</dbcollection><dbcollection>MEDL</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+                        <author-keyword>Automatic cell counting</author-keyword>
+                        <author-keyword>Cell viability</author-keyword>
+                        <author-keyword>Cellcounter</author-keyword>
+                        <author-keyword>Evolutionary algorithm</author-keyword>
+                        <author-keyword>Fluorescence microscopy</author-keyword>
+                        <author-keyword>Learn123</author-keyword>
+                        <author-keyword>Transfection</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Comparison of two automatic cell-counting solutions for fluorescent microscopic images</titletext></citation-title><author-group><author auid="55620009100" seq="1" type="auth"><ce:initials>J.</ce:initials><ce:indexed-name>Lojk J.</ce:indexed-name><ce:surname>Lojk</ce:surname><preferred-name>
+                            <ce:initials>J.</ce:initials>
+                            <ce:indexed-name>Lojk J.</ce:indexed-name>
+                            <ce:surname>Lojk</ce:surname>
+                            <ce:given-name>J.</ce:given-name>
+                        </preferred-name></author><author auid="6603685988" seq="5" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Pavlin M.</ce:indexed-name><ce:surname>Pavlin</ce:surname><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                            <ce:surname>Pavlin</ce:surname>
+                            <ce:given-name>M.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="112085966"><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><city>Ljubljana</city><affiliation-id afid="60031106" dptid="112085966"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="8911840700" seq="2" type="auth"><ce:initials>U.</ce:initials><ce:indexed-name>Cibej U.</ce:indexed-name><ce:surname>Čibej</ce:surname><preferred-name>
+                            <ce:initials>U.</ce:initials>
+                            <ce:indexed-name>Čibej U.</ce:indexed-name>
+                            <ce:surname>Čibej</ce:surname>
+                            <ce:given-name>U.</ce:given-name>
+                        </preferred-name></author><author auid="56695278300" seq="3" type="auth"><ce:initials>D.</ce:initials><ce:indexed-name>Karlas D.</ce:indexed-name><ce:surname>Karlaš</ce:surname><preferred-name>
+                            <ce:initials>D.</ce:initials>
+                            <ce:indexed-name>Karlaš D.</ce:indexed-name>
+                            <ce:surname>Karlaš</ce:surname>
+                            <ce:given-name>D.</ce:given-name>
+                        </preferred-name></author><author auid="8986058000" seq="4" type="auth"><ce:initials>L.</ce:initials><ce:indexed-name>Sajn L.</ce:indexed-name><ce:surname>Šajn</ce:surname><preferred-name>
+                            <ce:initials>L.</ce:initials>
+                            <ce:indexed-name>Šajn L.</ce:indexed-name>
+                            <ce:surname>Šajn</ce:surname>
+                            <ce:given-name>L.</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><address-part>Večna pot 113</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>M.</ce:initials>
+                        <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                        <ce:surname>Pavlin</ce:surname>
+                    </person><affiliation country="svn"><organization>Group for nano and biotechnological applications</organization><organization>Faculty of Electrical Engineering</organization><organization>University of Ljubljana</organization><address-part>Trzaska 25</address-part><city>Ljubljana</city><postal-code>1000</postal-code><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <publishercopyright>© 2015 Royal Microscopical Society.</publishercopyright>
+                        <ce:para>Cell counting in microscopic images is one of the fundamental analysis tools in life sciences, but is usually tedious, time consuming and prone to human error. Several programs for automatic cell counting have been developed so far, but most of them demand additional training or data input from the user. Most of them do not allow the users to online monitor the counting results, either. Therefore, we designed two straightforward, simple-to-use cell-counting programs that also allow users to correct the detection results. In this paper, we present the Cellcounter and Learn123 programs for automatic and semiautomatic counting of objects in fluorescent microscopic images (cells or cell nuclei) with a user-friendly interface. Although Cellcounter is based on predefined and fine-tuned set of filters optimized on sets of chosen experiments, Learn123 uses an evolutionary algorithm to determine the adapt filter parameters based on a learning set of images. Cellcounter also includes an extension for analysis of overlaying images. The efficiency of both programs was assessed on images of cells stained with different fluorescent dyes by comparing automatically obtained results with results that were manually annotated by an expert. With both programs, the correlation between automatic and manual counting was very high (R<sup>2</sup> &lt; 0.9), although Cellcounter had some difficulties processing images with no cells or weakly stained cells, where sometimes the background noise was recognized as an object of interest. Nevertheless, the differences between manual and automatic counting were small compared to variations between experimental repeats. Both programs significantly reduced the time required to process the acquired images from hours to minutes. The programs enable consistent, robust, fast and accurate detection of fluorescent objects and can therefore be applied to a range of different applications in different fields of life sciences where fluorescent labelling is used for quantification of various phenomena. Moreover, Cellcounter overlay extension also enables fast analysis of related images that would otherwise require image merging for accurate analysis, whereas Learn123's evolutionary algorithm can adapt counting parameters to specific sets of images of different experimental settings.</ce:para>
+                    </abstract></abstracts><source country="gbr" srcid="20919" type="j"><sourcetitle>Journal of Microscopy</sourcetitle><sourcetitle-abbrev>J. Microsc.</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Journal of Microscopy</translated-sourcetitle><issn type="electronic">13652818</issn><issn type="print">00222720</issn><codencode>JMICA</codencode><volisspag>
+                        <voliss issue="1" volume="260"/>
+                        <pagerange first="107" last="116"/>
+                    </volisspag><publicationyear first="2015"/><publicationdate>
+                        <year>2015</year>
+                        <month>10</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 October 2015</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www3.interscience.wiley.com/journal/117960848/home</ce:e-address>
+                    </website><publisher>
+                        <publishername>Blackwell Publishing Ltd</publishername>
+                        <ce:e-address type="email">customerservices@oxonblackwellpublishing.com</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="CABSCLASS">
+                            <classification>
+                                <classification-code>99</classification-code>
+                                <classification-description>General</classification-description>
+                            </classification>
+                        </classifications><classifications type="EMCLASS">
+                            <classification>
+                                <classification-code>29</classification-code>
+                                <classification-description>Clinical and Experimental Biochemistry</classification-description>
+                            </classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2734</classification>
+                            <classification>2722</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MEDI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="45">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Myoblast fusion: lessons from flies and mice</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84856141914</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.M.</ce:initials>
+                                    <ce:indexed-name>Abmayr S.M.</ce:indexed-name>
+                                    <ce:surname>Abmayr</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.K.</ce:initials>
+                                    <ce:indexed-name>Pavlath G.K.</ce:indexed-name>
+                                    <ce:surname>Pavlath</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Development</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="139"/>
+                                <pagerange first="641" last="656"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Abmayr, S.M. &amp; Pavlath, G.K. (2012) Myoblast fusion: lessons from flies and mice. Development 139, 641-656.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Analysis of Compound Enhancement Algorithms (CEA) based on Adaptive Histogram Equalization (AHE) on intra-oral dental radiographs images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84860691184</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.A.</ce:initials>
+                                    <ce:indexed-name>Ahmad S.A.</ce:indexed-name>
+                                    <ce:surname>Ahmad</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. New Comput. Archit. Their Appl. IJNCAA</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="902" last="916"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ahmad, S.A. (2011) Analysis of Compound Enhancement Algorithms (CEA) based on Adaptive Histogram Equalization (AHE) on intra-oral dental radiographs images. Int. J. New Comput. Archit. Their Appl. IJNCAA 4, 902-916.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A computerized image analysis system for quantitative analysis of cells in histological brain sections</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037564066</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Benali A.</ce:indexed-name>
+                                    <ce:surname>Benali</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Leefken I.</ce:indexed-name>
+                                    <ce:surname>Leefken</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>U.T.</ce:initials>
+                                    <ce:indexed-name>Eysel U.T.</ce:indexed-name>
+                                    <ce:surname>Eysel</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Weiler E.</ce:indexed-name>
+                                    <ce:surname>Weiler</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Neurosci. Methods</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="125"/>
+                                <pagerange first="33" last="43"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Benali, A., Leefken, I., Eysel, U.T. &amp; Weiler, E. (2003) A computerized image analysis system for quantitative analysis of cells in histological brain sections. J. Neurosci. Methods 125, 33-43.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visualization of internalization of functionalized cobalt ferrite nanoparticles and their intracellular fate</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874836876</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>V.B.</ce:initials>
+                                    <ce:indexed-name>Bregar V.B.</ce:indexed-name>
+                                    <ce:surname>Bregar</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lojk J.</ce:indexed-name>
+                                    <ce:surname>Lojk</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Sustar V.</ce:indexed-name>
+                                    <ce:surname>Suštar</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Veranic P.</ce:indexed-name>
+                                    <ce:surname>Veranič</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                                    <ce:surname>Pavlin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Nanomedicine</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="8"/>
+                                <pagerange first="919" last="931"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Bregar, V.B., Lojk, J., Suštar, V., Veranič, P. &amp; Pavlin, M. (2013) Visualization of internalization of functionalized cobalt ferrite nanoparticles and their intracellular fate. Int. J. Nanomedicine 8, 919-931.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automated tool for the detection of cell nuclei in digital microscopic images: application to retinal images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33747347874</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Byun J.</ce:indexed-name>
+                                    <ce:surname>Byun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Verardo M.R.</ce:indexed-name>
+                                    <ce:surname>Verardo</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>B.</ce:initials>
+                                    <ce:indexed-name>Sumengen B.</ce:indexed-name>
+                                    <ce:surname>Sumengen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>G.P.</ce:initials>
+                                    <ce:indexed-name>Lewis G.P.</ce:indexed-name>
+                                    <ce:surname>Lewis</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>B.S.</ce:initials>
+                                    <ce:indexed-name>Manjunath B.S.</ce:indexed-name>
+                                    <ce:surname>Manjunath</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>S.K.</ce:initials>
+                                    <ce:indexed-name>Fisher S.K.</ce:indexed-name>
+                                    <ce:surname>Fisher</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Mol. Vis.</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="12"/>
+                                <pagerange first="949" last="960"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Byun, J., Verardo, M.R., Sumengen, B., Lewis, G.P., Manjunath, B.S. &amp; Fisher, S.K. (2006) Automated tool for the detection of cell nuclei in digital microscopic images: application to retinal images. Mol. Vis. 12, 949-960.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Optimized digital counting colonies of clonogenic assays using ImageJ software and customized macros: comparison with manual counting</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80455178765</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Cai Z.</ce:indexed-name>
+                                    <ce:surname>Cai</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Chattopadhyay N.</ce:indexed-name>
+                                    <ce:surname>Chattopadhyay</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>W.J.</ce:initials>
+                                    <ce:indexed-name>Liu W.J.</ce:indexed-name>
+                                    <ce:surname>Liu</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Chan C.</ce:indexed-name>
+                                    <ce:surname>Chan</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>J.-P.</ce:initials>
+                                    <ce:indexed-name>Pignol J.-P.</ce:indexed-name>
+                                    <ce:surname>Pignol</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>R.M.</ce:initials>
+                                    <ce:indexed-name>Reilly R.M.</ce:indexed-name>
+                                    <ce:surname>Reilly</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Int. J. Radiat. Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="87"/>
+                                <pagerange first="1135" last="1146"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cai, Z., Chattopadhyay, N., Liu, W.J., Chan, C., Pignol, J.-P. &amp; Reilly, R.M. (2011) Optimized digital counting colonies of clonogenic assays using ImageJ software and customized macros: comparison with manual counting. Int. J. Radiat. Biol. 87, 1135-1146.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>CellProfiler: image analysis software for identifying and quantifying cell phenotypes</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33845792555</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.E.</ce:initials>
+                                    <ce:indexed-name>Carpenter A.E.</ce:indexed-name>
+                                    <ce:surname>Carpenter</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.R.</ce:initials>
+                                    <ce:indexed-name>Jones T.R.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.R.</ce:initials>
+                                    <ce:indexed-name>Lamprecht M.R.</ce:indexed-name>
+                                    <ce:surname>Lamprecht</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Genome Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <voliss volume="7"/>
+                                <pagerange first="R100" last="R100"/>
+                            </ref-volisspag>
+                            <ref-text>1-11.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Carpenter, A.E., Jones, T.R., Lamprecht, M.R., et al. (2006) CellProfiler: image analysis software for identifying and quantifying cell phenotypes. Genome Biol. 7, R100.1-R100.11.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A linear-time component-labeling algorithm using contour tracing technique</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0742322178</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Chang F.</ce:indexed-name>
+                                    <ce:surname>Chang</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.-J.</ce:initials>
+                                    <ce:indexed-name>Chen C.-J.</ce:indexed-name>
+                                    <ce:surname>Chen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>C.-J.</ce:initials>
+                                    <ce:indexed-name>Lu C.-J.</ce:indexed-name>
+                                    <ce:surname>Lu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Vis. Image Underst.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="93"/>
+                                <pagerange first="206" last="220"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chang, F., Chen, C.-J. &amp; Lu, C.-J. (2004) A linear-time component-labeling algorithm using contour tracing technique. Comput. Vis. Image Underst. 93, 206-220.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Leukocyte nucleus segmentation and nucleus lobe counting</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78649650505</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Y.-K.</ce:initials>
+                                    <ce:indexed-name>Chan Y.-K.</ce:indexed-name>
+                                    <ce:surname>Chan</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.-H.</ce:initials>
+                                    <ce:indexed-name>Tsai M.-H.</ce:indexed-name>
+                                    <ce:surname>Tsai</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.-C.</ce:initials>
+                                    <ce:indexed-name>Huang D.-C.</ce:indexed-name>
+                                    <ce:surname>Huang</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>Z.-H.</ce:initials>
+                                    <ce:indexed-name>Zheng Z.-H.</ce:indexed-name>
+                                    <ce:surname>Zheng</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.-D.</ce:initials>
+                                    <ce:indexed-name>Hung K.-D.</ce:indexed-name>
+                                    <ce:surname>Hung</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BMC Bioinformatics</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="11"/>
+                                <pagerange first="1" last="18"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Chan, Y.-K., Tsai, M.-H., Huang, D.-C., Zheng, Z.-H. &amp; Hung, K.-D. (2010) Leukocyte nucleus segmentation and nucleus lobe counting. BMC Bioinformatics 11, 1-18.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A simple and effective histogram equalization approach to image enhancement</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">1442360364</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.D.</ce:initials>
+                                    <ce:indexed-name>Cheng H.D.</ce:indexed-name>
+                                    <ce:surname>Cheng</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>X.J.</ce:initials>
+                                    <ce:indexed-name>Shi X.J.</ce:indexed-name>
+                                    <ce:surname>Shi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Digit. Signal Process.</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="14"/>
+                                <pagerange first="158" last="170"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Cheng, H.D. &amp; Shi, X.J. (2004) A simple and effective histogram equalization approach to image enhancement. Digit. Signal Process. 14, 158-170.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Avian leucocyte counting using the hemocytometer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0002356770</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>F.J.</ce:initials>
+                                    <ce:indexed-name>Dein F.J.</ce:indexed-name>
+                                    <ce:surname>Dein</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Wilson A.</ce:indexed-name>
+                                    <ce:surname>Wilson</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Fischer D.</ce:indexed-name>
+                                    <ce:surname>Fischer</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Langenberg P.</ce:indexed-name>
+                                    <ce:surname>Langenberg</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Zoo Wildl. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <voliss volume="25"/>
+                                <pagerange first="432" last="437"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dein, F.J., Wilson, A., Fischer, D. &amp; Langenberg, P. (1994) Avian leucocyte counting using the hemocytometer. J. Zoo Wildl. Med. 25, 432-437.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Stages in the development of an arrested scan type microscopic particle counter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36149070367</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>H.A.</ce:initials>
+                                    <ce:indexed-name>Dell H.A.</ce:indexed-name>
+                                    <ce:surname>Dell</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Br. J. Appl. Phys.</ref-sourcetitle>
+                            <ref-publicationyear first="1954"/>
+                            <ref-volisspag>
+                                <voliss volume="5"/>
+                                <pagerange first="S156" last="S161"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Dell, H.A. (1954) Stages in the development of an arrested scan type microscopic particle counter. Br. J. Appl. Phys. 5, S156-S161.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automatic embryonic stem cells detection and counting method in fluorescence microscopy images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">70449339706</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.M.</ce:initials>
+                                    <ce:indexed-name>Faustino G.M.</ce:indexed-name>
+                                    <ce:surname>Faustino</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Gattass M.</ce:indexed-name>
+                                    <ce:surname>Gattass</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Rehen S.</ce:indexed-name>
+                                    <ce:surname>Rehen</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>de Lucena C.</ce:indexed-name>
+                                    <ce:surname>de Lucena</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE International Symposium on Biomedical Imaging: From Nano to Macro, Boston, MA, USA, 2009. ISBI '09</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <pagerange first="799" last="802"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Faustino, G.M., Gattass, M., Rehen, S. &amp; deLucena, C. (2009) Automatic embryonic stem cells detection and counting method in fluorescence microscopy images. In IEEE International Symposium on Biomedical Imaging: From Nano to Macro, Boston, MA, USA, 2009. ISBI '09, 799-802.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Digital image processing and analysis with ImageJ</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84906904979</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>S.R.</ce:initials>
+                                    <ce:indexed-name>Gallagher S.R.</ce:indexed-name>
+                                    <ce:surname>Gallagher</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Current Protocols Essential Laboratory Techniques</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-text>ed. by Sean R. Gallagher and Emily A. Wiley). John Wiley &amp; Sons, Inc, Wiley, Hoboken, NJ, USA.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Gallagher, S.R. (2008) Digital image processing and analysis with ImageJ. Current Protocols Essential Laboratory Techniques (ed. by Sean R. Gallagher and Emily A. Wiley). John Wiley &amp; Sons, Inc, Wiley, Hoboken, NJ, USA.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Measuring batch fecundity using automated particle counting</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78149407636</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Ganias K.</ce:indexed-name>
+                                    <ce:surname>Ganias</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Rakka M.</ce:indexed-name>
+                                    <ce:surname>Rakka</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Vavalidis T.</ce:indexed-name>
+                                    <ce:surname>Vavalidis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Nunes C.</ce:indexed-name>
+                                    <ce:surname>Nunes</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Fish. Res.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="106"/>
+                                <pagerange first="570" last="574"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ganias, K., Rakka, M., Vavalidis, T. &amp; Nunes, C. (2010) Measuring batch fecundity using automated particle counting. Fish. Res. 106, 570-574.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A quantification tool to analyse stained cell cultures</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35048836665</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Glory E.</ce:indexed-name>
+                                    <ce:surname>Glory</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Faure A.</ce:indexed-name>
+                                    <ce:surname>Faure</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>V.</ce:initials>
+                                    <ce:indexed-name>Meas-Yedid V.</ce:indexed-name>
+                                    <ce:surname>Meas-Yedid</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>F.</ce:initials>
+                                    <ce:indexed-name>Cloppet F.</ce:indexed-name>
+                                    <ce:surname>Cloppet</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Pinset C.</ce:indexed-name>
+                                    <ce:surname>Pinset</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Stamon G.</ce:indexed-name>
+                                    <ce:surname>Stamon</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>J.-C.</ce:initials>
+                                    <ce:indexed-name>Olivo-Marin J.-C.</ce:indexed-name>
+                                    <ce:surname>Olivo-Marin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Image Analysis and Recognition, Lecture Notes in Computer Science</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <pagerange first="84" last="91"/>
+                            </ref-volisspag>
+                            <ref-text>(ed. by A. Campilho &amp; M. Kamel) - Springer, Berlin, Heidelberg.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Glory, E., Faure, A., Meas-Yedid, V., Cloppet, F., Pinset, C., Stamon, G. &amp; Olivo-Marin, J.-C. (2004) A quantification tool to analyse stained cell cultures. Image Analysis and Recognition, Lecture Notes in Computer Science (ed. by A. Campilho &amp; M. Kamel), pp. 84-91. Springer, Berlin, Heidelberg.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Image segmentation techniques</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0021892020</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.M.</ce:initials>
+                                    <ce:indexed-name>Haralick R.M.</ce:indexed-name>
+                                    <ce:surname>Haralick</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.G.</ce:initials>
+                                    <ce:indexed-name>Shapiro L.G.</ce:indexed-name>
+                                    <ce:surname>Shapiro</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Vis. Graph. Image Process.</ref-sourcetitle>
+                            <ref-publicationyear first="1985"/>
+                            <ref-volisspag>
+                                <voliss volume="29"/>
+                                <pagerange first="100" last="132"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Haralick, R.M. &amp; Shapiro, L.G. (1985) Image segmentation techniques. Comput. Vis. Graph. Image Process. 29, 100-132.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An improved method to determine cell viability by simultaneous staining with fluorescein diacetate-propidium iodide</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0021925444</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.H.</ce:initials>
+                                    <ce:indexed-name>Jones K.H.</ce:indexed-name>
+                                    <ce:surname>Jones</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Senft J.A.</ce:indexed-name>
+                                    <ce:surname>Senft</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Histochem. Cytochem. Off. J. Histochem. Soc.</ref-sourcetitle>
+                            <ref-publicationyear first="1985"/>
+                            <ref-volisspag>
+                                <voliss volume="33"/>
+                                <pagerange first="77" last="79"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Jones, K.H. &amp; Senft, J.A. (1985) An improved method to determine cell viability by simultaneous staining with fluorescein diacetate-propidium iodide. J. Histochem. Cytochem. Off. J. Histochem. Soc. 33, 77-79.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004013196</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.d.D.</ce:initials>
+                                    <ce:indexed-name>Jong K.d.D.</ce:indexed-name>
+                                    <ce:surname>Jong</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Evolutionary Computation</ref-sourcetitle>
+                            <ref-publicationyear first="2002"/>
+                            <ref-text>1st edn. A Bradford Book, Cambridge, M A.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jong, K.A. de D. (2002) Evolutionary Computation. 1st edn. A Bradford Book, Cambridge, M A.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Arraycount, an algorithm for automatic cell counting in microwell arrays</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77954055097</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kachouie N.</ce:indexed-name>
+                                    <ce:surname>Kachouie</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Kang L.</ce:indexed-name>
+                                    <ce:surname>Kang</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Khademhosseini A.</ce:indexed-name>
+                                    <ce:surname>Khademhosseini</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BioTechniques</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="47"/>
+                                <pagerange first="x" last="xvi"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kachouie, N., Kang, L. &amp; Khademhosseini, A. (2009) Arraycount, an algorithm for automatic cell counting in microwell arrays. BioTechniques 47, x-xvi.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mechanisms involved in gene electrotransfer using high- and low-voltage pulses-an in vitro study</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">58349115819</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kanduser M.</ce:indexed-name>
+                                    <ce:surname>Kanduser</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Miklavcic D.</ce:indexed-name>
+                                    <ce:surname>Miklavcic</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                                    <ce:surname>Pavlin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioelectrochemistry Amst. Neth.</ref-sourcetitle>
+                            <ref-publicationyear first="2009"/>
+                            <ref-volisspag>
+                                <voliss volume="74"/>
+                                <pagerange first="265" last="271"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Kanduser, M., Miklavcic, D. &amp; Pavlin, M. (2009) Mechanisms involved in gene electrotransfer using high- and low-voltage pulses-an in vitro study. Bioelectrochemistry Amst. Neth. 74, 265-271.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77953865084</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.R.</ce:initials>
+                                    <ce:indexed-name>Lakowicz J.R.</ce:indexed-name>
+                                    <ce:surname>Lakowicz</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Principles of Fluorescence Spectroscopy</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-text>3rd edn. Springer, New York, US.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Lakowicz, J.R. (2006) Principles of Fluorescence Spectroscopy. 3rd edn. Springer, New York, US.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Online tracking of migrating and proliferating cells imaged with phase-contrast microscopy</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33845543465</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Li K.</ce:indexed-name>
+                                    <ce:surname>Li</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>E.D.</ce:initials>
+                                    <ce:indexed-name>Miller E.D.</ce:indexed-name>
+                                    <ce:surname>Miller</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.E.</ce:initials>
+                                    <ce:indexed-name>Weiss L.E.</ce:indexed-name>
+                                    <ce:surname>Weiss</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>P.G.</ce:initials>
+                                    <ce:indexed-name>Campbell P.G.</ce:indexed-name>
+                                    <ce:surname>Campbell</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Kanade T.</ce:indexed-name>
+                                    <ce:surname>Kanade</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshop</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="65"/>
+                            </ref-volisspag>
+                            <ref-text>IEEE Computer Society Press, Los Alamitos.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Li, K., Miller, E.D., Weiss, L.E., Campbell, P.G. &amp; Kanade, T. (2006) Online tracking of migrating and proliferating cells imaged with phase-contrast microscopy. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshop. p. 65. IEEE Computer Society Press, Los Alamitos.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Colony counting is a major source of variation in CFU-GM results between centres</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0030923362</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.A.</ce:initials>
+                                    <ce:indexed-name>Lumley M.A.</ce:indexed-name>
+                                    <ce:surname>Lumley</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Burgess R.</ce:indexed-name>
+                                    <ce:surname>Burgess</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.J.</ce:initials>
+                                    <ce:indexed-name>Billingham L.J.</ce:indexed-name>
+                                    <ce:surname>Billingham</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.F.</ce:initials>
+                                    <ce:indexed-name>McDonald D.F.</ce:indexed-name>
+                                    <ce:surname>McDonald</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>D.W.</ce:initials>
+                                    <ce:indexed-name>Milligan D.W.</ce:indexed-name>
+                                    <ce:surname>Milligan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Br. J. Haematol.</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss volume="97"/>
+                                <pagerange first="481" last="484"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Lumley, M.A., Burgess, R., Billingham, L.J., McDonald, D.F. &amp; Milligan, D.W. (1997) Colony counting is a major source of variation in CFU-GM results between centres. Br. J. Haematol. 97, 481-484.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Comparison of flow cytometry, fluorescence microscopy and spectrofluorometry for analysis of gene electrotransfer efficiency</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84919907072</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Marjanovic I.</ce:indexed-name>
+                                    <ce:surname>Marjanovič</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kanduser M.</ce:indexed-name>
+                                    <ce:surname>Kandušer</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Miklavcic D.</ce:indexed-name>
+                                    <ce:surname>Miklavčič</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.M.</ce:initials>
+                                    <ce:indexed-name>Keber M.M.</ce:indexed-name>
+                                    <ce:surname>Keber</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                                    <ce:surname>Pavlin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Membr. Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="247"/>
+                                <pagerange first="1259" last="1267"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Marjanovič, I., Kandušer, M., Miklavčič, D., Keber, M.M. &amp; Pavlin, M. (2014) Comparison of flow cytometry, fluorescence microscopy and spectrofluorometry for analysis of gene electrotransfer efficiency. J. Membr. Biol. 247, 1259-1267.</ref-fulltext>
+                    </reference>
+                    <reference id="26">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Electrotransfection and lipofection show comparable efficiency for in vitro gene delivery of primary human myoblasts</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84936780473</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Mars T.</ce:indexed-name>
+                                    <ce:surname>Mars</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Strazisar M.</ce:indexed-name>
+                                    <ce:surname>Strazisar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Mis K.</ce:indexed-name>
+                                    <ce:surname>Mis</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Kotnik N.</ce:indexed-name>
+                                    <ce:surname>Kotnik</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Pegan K.</ce:indexed-name>
+                                    <ce:surname>Pegan</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Lojk J.</ce:indexed-name>
+                                    <ce:surname>Lojk</ce:surname>
+                                </author>
+                                <author seq="7">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Grubic Z.</ce:indexed-name>
+                                    <ce:surname>Grubic</ce:surname>
+                                </author>
+                                <author seq="8">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                                    <ce:surname>Pavlin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Membr. Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss volume="248"/>
+                                <pagerange first="273" last="283"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Mars, T., Strazisar, M., Mis, K., Kotnik, N., Pegan, K., Lojk, J., Grubic, Z. &amp; Pavlin, M. (2014) Electrotransfection and lipofection show comparable efficiency for in vitro gene delivery of primary human myoblasts. J. Membr. Biol. 248, 273-283.</ref-fulltext>
+                    </reference>
+                    <reference id="27">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Human vs machine: evaluation of fluorescence micrographs</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037212267</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.W.</ce:initials>
+                                    <ce:indexed-name>Nattkemper T.W.</ce:indexed-name>
+                                    <ce:surname>Nattkemper</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Twellmann T.</ce:indexed-name>
+                                    <ce:surname>Twellmann</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>H.</ce:initials>
+                                    <ce:indexed-name>Ritter H.</ce:indexed-name>
+                                    <ce:surname>Ritter</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>Schubert W.</ce:indexed-name>
+                                    <ce:surname>Schubert</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comput. Biol. Med.</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="33"/>
+                                <pagerange first="31" last="43"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Nattkemper, T.W., Twellmann, T., Ritter, H. &amp; Schubert, W. (2003) Human vs machine: evaluation of fluorescence micrographs. Comput. Biol. Med. 33, 31-43.</ref-fulltext>
+                    </reference>
+                    <reference id="28">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Determining cell number during cell culture using the scepter cell counter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80355126860</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Ongena K.</ce:indexed-name>
+                                    <ce:surname>Ongena</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Das C.</ce:indexed-name>
+                                    <ce:surname>Das</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.L.</ce:initials>
+                                    <ce:indexed-name>Smith J.L.</ce:indexed-name>
+                                    <ce:surname>Smith</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Gil S.</ce:indexed-name>
+                                    <ce:surname>Gil</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Johnston G.</ce:indexed-name>
+                                    <ce:surname>Johnston</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Vis. Exp.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="45"/>
+                                <pagerange first="1" last="5"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ongena, K., Das, C., Smith, J.L., Gil, S. &amp; Johnston, G. (2010) Determining cell number during cell culture using the scepter cell counter. J. Vis. Exp. 45, 1-5.</ref-fulltext>
+                    </reference>
+                    <reference id="29">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A threshold selection method from gray-level histograms</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0018306059</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>N.</ce:initials>
+                                    <ce:indexed-name>Otsu N.</ce:indexed-name>
+                                    <ce:surname>Otsu</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Syst. Man Cybern. IEEE Trans. On</ref-sourcetitle>
+                            <ref-publicationyear first="1979"/>
+                            <ref-volisspag>
+                                <voliss volume="9"/>
+                                <pagerange first="62" last="66"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Otsu, N. (1979) A threshold selection method from gray-level histograms. Syst. Man Cybern. IEEE Trans. On 9, 62-66.</ref-fulltext>
+                    </reference>
+                    <reference id="30">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The role of electrophoresis in gene electrotransfer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955304709</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                                    <ce:surname>Pavlin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Flisar K.</ce:indexed-name>
+                                    <ce:surname>Flisar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kanduser M.</ce:indexed-name>
+                                    <ce:surname>Kanduser</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Membr. Biol.</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="236"/>
+                                <pagerange first="75" last="79"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pavlin, M., Flisar, K. &amp; Kanduser, M. (2010) The role of electrophoresis in gene electrotransfer. J. Membr. Biol. 236, 75-79.</ref-fulltext>
+                    </reference>
+                    <reference id="31">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The role of electrically stimulated endocytosis in gene electrotransfer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">80555122973</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Pavlin M.</ce:indexed-name>
+                                    <ce:surname>Pavlin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Pucihar G.</ce:indexed-name>
+                                    <ce:surname>Pucihar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kanduser M.</ce:indexed-name>
+                                    <ce:surname>Kandušer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Bioelectrochemistry Amst. Neth.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="83"/>
+                                <pagerange first="38" last="45"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Pavlin, M., Pucihar, G. &amp; Kandušer, M. (2012) The role of electrically stimulated endocytosis in gene electrotransfer. Bioelectrochemistry Amst. Neth. 83, 38-45.</ref-fulltext>
+                    </reference>
+                    <reference id="32">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Local pixel value collection algorithm for spot segmentation in two-dimensional gel electrophoresis research</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">36849019674</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Peer P.</ce:indexed-name>
+                                    <ce:surname>Peer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>L.G.</ce:initials>
+                                    <ce:indexed-name>Corzo L.G.</ce:indexed-name>
+                                    <ce:surname>Corzo</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Comp. Funct. Genomics</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="91"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Peer, P. &amp; Corzo, L.G. (2007) Local pixel value collection algorithm for spot segmentation in two-dimensional gel electrophoresis research. Comp. Funct. Genomics, pp. 1-91.</ref-fulltext>
+                    </reference>
+                    <reference id="33">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Counting the number of cells in immunocytochemical images using genetic algorithm</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84874124932</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Ramin M.</ce:indexed-name>
+                                    <ce:surname>Ramin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Ahmadvand P.</ce:indexed-name>
+                                    <ce:surname>Ahmadvand</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Sepas-Moghaddam A.</ce:indexed-name>
+                                    <ce:surname>Sepas-Moghaddam</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.M.</ce:initials>
+                                    <ce:indexed-name>Dehshibi M.M.</ce:indexed-name>
+                                    <ce:surname>Dehshibi</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Int. Conf. Hybrid Intell. Syst.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="2012"/>
+                                <pagerange first="185" last="190"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Ramin, M., Ahmadvand, P., Sepas-Moghaddam, A. &amp; Dehshibi, M.M. (2012) Counting the number of cells in immunocytochemical images using genetic algorithm. IEEE Int. Conf. Hybrid Intell. Syst. 2012, 185-190.</ref-fulltext>
+                    </reference>
+                    <reference id="34">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Flow cytometry in biotechnology</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0034888126</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Rieseberg M.</ce:indexed-name>
+                                    <ce:surname>Rieseberg</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>C.</ce:initials>
+                                    <ce:indexed-name>Kasper C.</ce:indexed-name>
+                                    <ce:surname>Kasper</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>K.F.</ce:initials>
+                                    <ce:indexed-name>Reardon K.F.</ce:indexed-name>
+                                    <ce:surname>Reardon</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Scheper T.</ce:indexed-name>
+                                    <ce:surname>Scheper</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Appl. Microbiol. Biotechnol.</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="56"/>
+                                <pagerange first="350" last="360"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Rieseberg, M., Kasper, C., Reardon, K.F. &amp; Scheper, T. (2001) Flow cytometry in biotechnology. Appl. Microbiol. Biotechnol. 56, 350-360.</ref-fulltext>
+                    </reference>
+                    <reference id="35">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Software for quantification of labeled bacteria from digital microscope images by automated image analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">33644788676</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Selinummi J.</ce:indexed-name>
+                                    <ce:surname>Selinummi</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Seppala J.</ce:indexed-name>
+                                    <ce:surname>Seppälä</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>O.</ce:initials>
+                                    <ce:indexed-name>Yli-Harja O.</ce:indexed-name>
+                                    <ce:surname>Yli-Harja</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Puhakka J.A.</ce:indexed-name>
+                                    <ce:surname>Puhakka</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>BioTechniques</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <voliss volume="39"/>
+                                <pagerange first="859" last="863"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Selinummi, J., Seppälä, J., Yli-Harja, O. &amp; Puhakka, J.A. (2005) Software for quantification of labeled bacteria from digital microscope images by automated image analysis. BioTechniques 39, 859-863.</ref-fulltext>
+                    </reference>
+                    <reference id="36">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Towards the truly automated colony counter</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0022507104</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.N.</ce:initials>
+                                    <ce:indexed-name>Sharpe A.N.</ce:indexed-name>
+                                    <ce:surname>Sharpe</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.P.</ce:initials>
+                                    <ce:indexed-name>Diotte M.P.</ce:indexed-name>
+                                    <ce:surname>Diotte</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>P.I.</ce:initials>
+                                    <ce:indexed-name>Peterkin P.I.</ce:indexed-name>
+                                    <ce:surname>Peterkin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Dudas I.</ce:indexed-name>
+                                    <ce:surname>Dudas</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Food Microbiol</ref-sourcetitle>
+                            <ref-publicationyear first="1986"/>
+                            <ref-volisspag>
+                                <voliss volume="3"/>
+                                <pagerange first="247" last="270"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Sharpe, A.N., Diotte, M.P., Peterkin, P.I. &amp; Dudas, I. (1986) Towards the truly automated colony counter. Food Microbiol. 3, 247-270.</ref-fulltext>
+                    </reference>
+                    <reference id="37">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Light microscopy techniques for live cell imaging</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0037418906</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.J.</ce:initials>
+                                    <ce:indexed-name>Stephens D.J.</ce:indexed-name>
+                                    <ce:surname>Stephens</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>V.J.</ce:initials>
+                                    <ce:indexed-name>Allan V.J.</ce:indexed-name>
+                                    <ce:surname>Allan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss volume="300"/>
+                                <pagerange first="82" last="86"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Stephens, D.J. &amp; Allan, V.J. (2003). Light microscopy techniques for live cell imaging. Science 300, 82-86.</ref-fulltext>
+                    </reference>
+                    <reference id="38">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Automated classification and visualization of fluorescent live cell microscopy images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84873702387</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.L.</ce:initials>
+                                    <ce:indexed-name>Urish K.L.</ce:indexed-name>
+                                    <ce:surname>Urish</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>B.M.</ce:initials>
+                                    <ce:indexed-name>Deasy B.M.</ce:indexed-name>
+                                    <ce:surname>Deasy</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Huard J.</ce:indexed-name>
+                                    <ce:surname>Huard</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Microsc.</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss volume="249"/>
+                                <pagerange first="206" last="214"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Urish, K.L., Deasy, B.M. &amp; Huard, J. (2013) Automated classification and visualization of fluorescent live cell microscopy images. J. Microsc. 249, 206-214.</ref-fulltext>
+                    </reference>
+                    <reference id="39">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cell counting tool parameters optimization approach for electroporation efficiency determination of attached cells in phase contrast images</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79951526172</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Usaj M.</ce:indexed-name>
+                                    <ce:surname>Usaj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Torkar D.</ce:indexed-name>
+                                    <ce:surname>Torkar</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kanduser M.</ce:indexed-name>
+                                    <ce:surname>Kanduser</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Miklavcic D.</ce:indexed-name>
+                                    <ce:surname>Miklavcic</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J. Microsc.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="241"/>
+                                <pagerange first="303" last="314"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Usaj, M., Torkar, D., Kanduser, M. &amp; Miklavcic, D. (2011) Cell counting tool parameters optimization approach for electroporation efficiency determination of attached cells in phase contrast images. J. Microsc. 241, 303-314.</ref-fulltext>
+                    </reference>
+                    <reference id="40">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Cell-cell electrofusion: Cell-cell electrofusion: optimization of electric field amplitude and hypotonic treatment for mouse melanoma (B16-F1) and Chinese Hamster ovary (CHO) cells</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">77955308510</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Usaj M.</ce:indexed-name>
+                                    <ce:surname>Usaj</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Trontelj K.</ce:indexed-name>
+                                    <ce:surname>Trontelj</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Miklacvcic D.</ce:indexed-name>
+                                    <ce:surname>Miklacvcic</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Kanduser M.</ce:indexed-name>
+                                    <ce:surname>Kanduser</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>J Membr. Biol</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss volume="236"/>
+                                <pagerange first="107" last="116"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Usaj M., Trontelj K., Miklacvcic D. &amp; Kanduser M. (2010) Cell-cell electrofusion: Cell-cell electrofusion: optimization of electric field amplitude and hypotonic treatment for mouse melanoma (B16-F1) and Chinese Hamster ovary (CHO) cells. J Membr. Biol. 236, 107-116.</ref-fulltext>
+                    </reference>
+                    <reference id="41">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>An improved image analysis method for cell counting lends credibility to the prognostic significance of T cells in colorectal cancer</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84863727025</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.P.</ce:initials>
+                                    <ce:indexed-name>Vayrynen J.P.</ce:indexed-name>
+                                    <ce:surname>Väyrynen</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.O.</ce:initials>
+                                    <ce:indexed-name>Vornanen J.O.</ce:indexed-name>
+                                    <ce:surname>Vornanen</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Sajanti S.</ce:indexed-name>
+                                    <ce:surname>Sajanti</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>J.P.</ce:initials>
+                                    <ce:indexed-name>Bohm J.P.</ce:indexed-name>
+                                    <ce:surname>Böhm</ce:surname>
+                                </author>
+                                <author seq="5">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Tuomisto A.</ce:indexed-name>
+                                    <ce:surname>Tuomisto</ce:surname>
+                                </author>
+                                <author seq="6">
+                                    <ce:initials>M.J.</ce:initials>
+                                    <ce:indexed-name>Makinen M.J.</ce:indexed-name>
+                                    <ce:surname>Mäkinen</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Virchows Arch. Int. J. Pathol.</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss volume="460"/>
+                                <pagerange first="455" last="465"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Väyrynen, J.P., Vornanen, J.O., Sajanti, S., Böhm, J.P., Tuomisto, A. &amp; Mäkinen, M.J. (2012) An improved image analysis method for cell counting lends credibility to the prognostic significance of T cells in colorectal cancer. Virchows Arch. Int. J. Pathol. 460, 455-465.</ref-fulltext>
+                    </reference>
+                    <reference id="42">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Watersheds in digital spaces: an efficient algorithm based on immersion simulations</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0026172104</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Vincent L.</ce:indexed-name>
+                                    <ce:surname>Vincent</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>P.</ce:initials>
+                                    <ce:indexed-name>Soille P.</ce:indexed-name>
+                                    <ce:surname>Soille</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Pattern Anal. Mach. Intell.</ref-sourcetitle>
+                            <ref-publicationyear first="1991"/>
+                            <ref-volisspag>
+                                <voliss volume="13"/>
+                                <pagerange first="583" last="598"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Vincent, L. &amp; Soille, P. (1991) Watersheds in digital spaces: an efficient algorithm based on immersion simulations. IEEE Trans. Pattern Anal. Mach. Intell. 13, 583-598.</ref-fulltext>
+                    </reference>
+                    <reference id="43">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Live cell image segmentation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0028930290</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Wu K.</ce:indexed-name>
+                                    <ce:surname>Wu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Gauthier D.</ce:indexed-name>
+                                    <ce:surname>Gauthier</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>M.D.</ce:initials>
+                                    <ce:indexed-name>Levine M.D.</ce:indexed-name>
+                                    <ce:surname>Levine</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Trans. Biomed. Eng.</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss volume="42"/>
+                                <pagerange first="1" last="12"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Wu, K., Gauthier, D. &amp; Levine, M.D. (1995) Live cell image segmentation. IEEE Trans. Biomed. Eng. 42, 1-12.</ref-fulltext>
+                    </reference>
+                    <reference id="44">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Characteristic analysis of Otsu threshold and its applications</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">79952091482</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>X.</ce:initials>
+                                    <ce:indexed-name>Xu X.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.</ce:initials>
+                                    <ce:indexed-name>Xu S.</ce:indexed-name>
+                                    <ce:surname>Xu</ce:surname>
+                                </author>
+                                <author seq="3">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Jin L.</ce:indexed-name>
+                                    <ce:surname>Jin</ce:surname>
+                                </author>
+                                <author seq="4">
+                                    <ce:initials>E.</ce:initials>
+                                    <ce:indexed-name>Song E.</ce:indexed-name>
+                                    <ce:surname>Song</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Pattern Recognit. Lett.</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="32"/>
+                                <pagerange first="956" last="961"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Xu, X., Xu, S., Jin, L. &amp; Song, E. (2011) Characteristic analysis of Otsu threshold and its applications. Pattern Recognit. Lett. 32, 956-961.</ref-fulltext>
+                    </reference>
+                    <reference id="45">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Contrast limited adaptive histogram equalization</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0012934579</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Zuiderveld K.</ce:indexed-name>
+                                    <ce:surname>Zuiderveld</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Graphics Gems IV</ref-sourcetitle>
+                            <ref-publicationyear first="1994"/>
+                            <ref-volisspag>
+                                <pagerange first="474" last="485"/>
+                            </ref-volisspag>
+                            <ref-text>Academic Press Professional, Inc, San Diego, CA, USA.</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Zuiderveld, K. (1994) Contrast limited adaptive histogram equalization. Graphics Gems IV, pp. 474-485. Academic Press Professional, Inc, San Diego, CA, USA.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

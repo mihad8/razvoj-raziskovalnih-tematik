@@ -1,0 +1,378 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/0028547890</prism:url><dc:identifier>SCOPUS_ID:0028547890</dc:identifier><eid>2-s2.0-0028547890</eid><pii>0167865594901228</pii><prism:doi>10.1016/0167-8655(94)90122-8</prism:doi><dc:title>Two-dimensional object recognition using multiresolution non-information-preserving shape features</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>10</citedby-count><prism:publicationName>Pattern Recognition Letters</prism:publicationName><source-id>24825</source-id><prism:issn>01678655</prism:issn><prism:volume>15</prism:volume><prism:issueIdentifier>11</prism:issueIdentifier><prism:startingPage>1071</prism:startingPage><prism:endingPage>1079</prism:endingPage><prism:pageRange>1071-1079</prism:pageRange><prism:coverDate>1994-01-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="7004421964"><ce:initials>F.</ce:initials><ce:indexed-name>Pernus F.</ce:indexed-name><ce:surname>Pernuš</ce:surname><ce:given-name>Franjo</ce:given-name><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Pernuš F.</ce:indexed-name><ce:surname>Pernuš</ce:surname><ce:given-name>Franjo</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7004421964</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>The performance of any classification method relies on the quality of the measurement provided. One way to improve the classification is by extending the feature set and selecting the best features out of this set. In this paper a set of non-information-preserving features based on a multiresolution curve analysis which makes shape features explicit at multiple scales is proposed. An automatic procedure is designed to construct a binary tree which is used to classify the unknown objects. © 1994.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/0028547890" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0028547890&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=0028547890&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="7004421964"><ce:initials>F.</ce:initials><ce:indexed-name>Pernus F.</ce:indexed-name><ce:surname>Pernuš</ce:surname><ce:given-name>Franjo</ce:given-name><preferred-name><ce:initials>F.</ce:initials><ce:indexed-name>Pernuš F.</ce:indexed-name><ce:surname>Pernuš</ce:surname><ce:given-name>Franjo</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7004421964</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7003317327"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003317327</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="55411347900"><ce:initials>S.</ce:initials><ce:indexed-name>Kovacic S.</ce:indexed-name><ce:surname>Kovačič</ce:surname><ce:given-name>Stane</ce:given-name><preferred-name><ce:initials>S.</ce:initials><ce:indexed-name>Kovačič S.</ce:indexed-name><ce:surname>Kovačič</ce:surname><ce:given-name>Stane</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55411347900</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>2-D shape description</author-keyword><author-keyword>Binary tree classifier</author-keyword><author-keyword>Classification</author-keyword><author-keyword>Multiresolution curvature representation</author-keyword><author-keyword>Non-information-preserving features</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Binary tree</mainterm><mainterm weight="a" candidate="n">Binary tree classifiers</mainterm><mainterm weight="a" candidate="n">Discriminatory quality</mainterm><mainterm weight="a" candidate="n">Multiresolution curvature representation</mainterm><mainterm weight="a" candidate="n">Non information preserving features</mainterm></idxterms><subject-areas><subject-area code="1707" abbrev="COMP">Computer Vision and Pattern Recognition</subject-area><subject-area code="1711" abbrev="COMP">Signal Processing</subject-area><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2017-12-17T17:20:57.803Z</xocs:funding-addon-generated-timestamp></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="23" month="08" timestamp="2015-08-23T03:35:15.000015+01:00" year="2015"/><ait:date-sort day="01" month="01" year="1994"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2014 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:pii>0167865594901228</ce:pii>
+<ce:doi>10.1016/0167-8655(94)90122-8</ce:doi>
+<itemid idtype="PUI">224277402</itemid>
+<itemid idtype="ARCELS">2009338982</itemid>
+<itemid idtype="CAR-ID">46160760</itemid>
+<itemid idtype="CPX">1995242515680</itemid>
+<itemid idtype="SCP">0028547890</itemid>
+<itemid idtype="SGR">0028547890</itemid>
+<itemid idtype="PUIsecondary">25682072</itemid></itemidlist><history>
+<date-created day="16" month="12" year="2014"/>
+</history><dbcollection>ARCELS</dbcollection><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>2-D shape description</author-keyword>
+<author-keyword>Binary tree classifier</author-keyword>
+<author-keyword>Classification</author-keyword>
+<author-keyword>Multiresolution curvature representation</author-keyword>
+<author-keyword>Non-information-preserving features</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Two-dimensional object recognition using multiresolution non-information-preserving shape features</titletext></citation-title><author-group><author auid="7004421964" seq="1" type="auth"><ce:initials>F.</ce:initials><ce:indexed-name>Pernus F.</ce:indexed-name><ce:surname>Pernuš</ce:surname><ce:given-name>Franjo</ce:given-name><preferred-name>
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Pernuš F.</ce:indexed-name>
+<ce:surname>Pernuš</ce:surname>
+<ce:given-name>Franjo</ce:given-name>
+</preferred-name></author><author auid="7003317327" seq="2" type="auth"><ce:initials>A.</ce:initials><ce:indexed-name>Leonardis A.</ce:indexed-name><ce:surname>Leonardis</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+<ce:given-name>Aleš</ce:given-name>
+</preferred-name></author><author auid="55411347900" seq="3" type="auth"><ce:initials>S.</ce:initials><ce:indexed-name>Kovacic S.</ce:indexed-name><ce:surname>Kovačič</ce:surname><ce:given-name>Stane</ce:given-name><preferred-name>
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kovačič S.</ce:indexed-name>
+<ce:surname>Kovačič</ce:surname>
+<ce:given-name>Stane</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn"><organization>Faculty of Electrical and Computer Engineering, University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>61001 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Pernus F.</ce:indexed-name>
+<ce:surname>Pernuš</ce:surname>
+</person><affiliation country="svn"><organization>Faculty of Electrical and Computer Engineering, University of Ljubljana</organization><address-part>Tržaška 25</address-part><city-group>61001 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>The performance of any classification method relies on the quality of the measurement provided. One way to improve the classification is by extending the feature set and selecting the best features out of this set. In this paper a set of non-information-preserving features based on a multiresolution curve analysis which makes shape features explicit at multiple scales is proposed. An automatic procedure is designed to construct a binary tree which is used to classify the unknown objects. © 1994.</ce:para>
+</abstract></abstracts><source srcid="24825" type="j"><sourcetitle>Pattern Recognition Letters</sourcetitle><sourcetitle-abbrev>Pattern Recogn. Lett.</sourcetitle-abbrev><issn type="print">01678655</issn><volisspag>
+<voliss issue="11" volume="15"/>
+<pagerange first="1071" last="1079"/>
+</volisspag><publicationyear first="1994"/><publicationdate>
+<year>1994</year>
+<date-text>November 1994</date-text>
+</publicationdate></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1707</classification>
+<classification>1711</classification>
+<classification>2208</classification>
+</classifications><classifications type="CPXCLASS">
+<classification>723.4</classification>
+<classification>903.1</classification>
+<classification>921.4</classification>
+<classification>921.6</classification>
+</classifications><classifications type="SUBJECT">
+<classification>Engineering and Technology</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>ENGI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="12">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>The curvature primal sketch</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022605732</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Asada</ce:indexed-name>
+<ce:surname>Asada</ce:surname>
+<ce:given-name>H.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Brady</ce:indexed-name>
+<ce:surname>Brady</ce:surname>
+<ce:given-name>M.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="2" last="14"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Uniqueness of the Gaussian kernel for scale-space filtering</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022562801</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Babaud</ce:indexed-name>
+<ce:surname>Babaud</ce:surname>
+<ce:given-name>J.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Witkin</ce:indexed-name>
+<ce:surname>Witkin</ce:surname>
+<ce:given-name>A.P.</ce:given-name>
+</author>
+<author seq="3">
+<ce:indexed-name>Baudin</ce:indexed-name>
+<ce:surname>Baudin</ce:surname>
+<ce:given-name>M.</ce:given-name>
+</author>
+<author seq="4">
+<ce:indexed-name>Duda</ce:indexed-name>
+<ce:surname>Duda</ce:surname>
+<ce:given-name>R.O.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="26" last="32"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Filtering closed curves</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0006871116</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Horn</ce:indexed-name>
+<ce:surname>Horn</ce:surname>
+<ce:given-name>B.K.P.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Weldon</ce:indexed-name>
+<ce:surname>Weldon</ce:surname>
+<ce:given-name>E.J.</ce:given-name>
+<ce:suffix>Jr.</ce:suffix>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="665" last="668"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="4">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004292440</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Levine</ce:indexed-name>
+<ce:surname>Levine</ce:surname>
+<ce:given-name>M.D.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>Vision in Man and Machine</ref-sourcetitle>
+<ref-publicationyear first="1985"/>
+<ref-text>Academic Press, New York</ref-text>
+</ref-info>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Scale-based description and recognition of planar curves and two-dimensional shapes</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022563222</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Mokhtarian</ce:indexed-name>
+<ce:surname>Mokhtarian</ce:surname>
+<ce:given-name>F.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Mackworth</ce:indexed-name>
+<ce:surname>Mackworth</ce:surname>
+<ce:given-name>A.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="1986"/>
+<ref-volisspag>
+<voliss volume="8"/>
+<pagerange first="34" last="43"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>A theory of multiscale, curvature-based shape representation for planar curves</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0026903040</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Mokhtarian</ce:indexed-name>
+<ce:surname>Mokhtarian</ce:surname>
+<ce:given-name>F.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Mackworth</ce:indexed-name>
+<ce:surname>Mackworth</ce:surname>
+<ce:given-name>A.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="1992"/>
+<ref-volisspag>
+<voliss volume="14"/>
+<pagerange first="789" last="805"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Algorithms for shape analysis of contours and waveforms</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0019036866</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Pavlidis</ce:indexed-name>
+<ce:surname>Pavlidis</ce:surname>
+<ce:given-name>T.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans. Pattern Anal. Machine Intell.</ref-sourcetitle>
+<ref-publicationyear first="1980"/>
+<ref-volisspag>
+<voliss volume="2"/>
+<pagerange first="301" last="312"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Uniform resampling of digitized contours</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0022150145</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Shasraray</ce:indexed-name>
+<ce:surname>Shasraray</ce:surname>
+<ce:given-name>B.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Anderson</ce:indexed-name>
+<ce:surname>Anderson</ce:surname>
+<ce:given-name>D.J.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1985"/>
+<ref-volisspag>
+<voliss volume="7"/>
+<pagerange first="674" last="681"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="9">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004210306</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Tou</ce:indexed-name>
+<ce:surname>Tou</ce:surname>
+<ce:given-name>J.T.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Gonzales</ce:indexed-name>
+<ce:surname>Gonzales</ce:surname>
+<ce:given-name>R.C.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>Pattern Recognition Principles</ref-sourcetitle>
+<ref-publicationyear first="1974"/>
+<ref-text>Addison-Wesley, Reading, MA</ref-text>
+</ref-info>
+</reference>
+<reference id="10">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003783640</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Watanabe</ce:indexed-name>
+<ce:surname>Watanabe</ce:surname>
+<ce:given-name>S.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>Pattern Recognition: Human and Mechanical</ref-sourcetitle>
+<ref-publicationyear first="1985"/>
+<ref-text>Wiley, New York</ref-text>
+</ref-info>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Performance evaluation of shape matching via chord length distribution</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0021597760</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>You</ce:indexed-name>
+<ce:surname>You</ce:surname>
+<ce:given-name>Z.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Jain</ce:indexed-name>
+<ce:surname>Jain</ce:surname>
+<ce:given-name>A.K.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computer Vision, Graphics, and Image Processing</ref-sourcetitle>
+<ref-publicationyear first="1984"/>
+<ref-volisspag>
+<voliss volume="28"/>
+<pagerange first="185" last="198"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>An analysis technique for biological shape. I</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0016090811</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:indexed-name>Young</ce:indexed-name>
+<ce:surname>Young</ce:surname>
+<ce:given-name>I.T.</ce:given-name>
+</author>
+<author seq="2">
+<ce:indexed-name>Walker</ce:indexed-name>
+<ce:surname>Walker</ce:surname>
+<ce:given-name>J.E.</ce:given-name>
+</author>
+<author seq="3">
+<ce:indexed-name>Bowie</ce:indexed-name>
+<ce:surname>Bowie</ce:surname>
+<ce:given-name>J.E.</ce:given-name>
+</author>
+</ref-authors>
+<ref-sourcetitle>Information and Control</ref-sourcetitle>
+<ref-publicationyear first="1974"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="357" last="370"/>
+</ref-volisspag>
+</ref-info>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

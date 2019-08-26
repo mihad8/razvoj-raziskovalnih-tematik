@@ -1,0 +1,465 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/33749176601</prism:url><dc:identifier>SCOPUS_ID:33749176601</dc:identifier><eid>2-s2.0-33749176601</eid><dc:title>Multi-state processing with quantum-dot cellular automata Večstanjsko procesiranje v strukturah kvantnih celičnih avtomatov</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Elektrotehniski Vestnik/Electrotechnical Review</prism:publicationName><source-id>16651</source-id><prism:issn>00135852</prism:issn><prism:volume>73</prism:volume><prism:issueIdentifier>2-3</prism:issueIdentifier><prism:startingPage>105</prism:startingPage><prism:endingPage>110</prism:endingPage><prism:pageRange>105-110</prism:pageRange><prism:coverDate>2006-10-05</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="6506903357"><ce:initials>I.L.</ce:initials><ce:indexed-name>Bajec I.L.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Iztok Lebar</ce:given-name><preferred-name><ce:initials>I.L.</ce:initials><ce:indexed-name>Bajec I.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Iztok Lebar</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506903357</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Quantum-dot Cellular Automata (QCA) are becoming one of the possible alternative processing platforms of the future. Indeed, the technological processes that enable the tunnelling of electrons between quantum dots, as well QCA structures that implement the functionally complete set of binary logic functions, have already been developed [4, 5, 12, 13]. What is more, the first tools that enable the design and simulation of complex QCA structures have also been presented [14]. In this paper we present a definition of a new quantum dot cell. The cell extends the classical one in the sense of a larger set of stable states, which enables multi-valued processing [3]. The newly introduced cell is employed to implement the ternary logic functions that were originally presented by J. Łukasiewicz [1]. It turns out that in order to implement the desired ternary logic functions only minor modifications of the QCA structures, which implement the binary logic functions, are necessary. The suggested solution is interesting in the sense of a possible 'bottom-up' approach to the design of computer structures of the future. Indeed, until now the implementational part of the design of future computer structures has mostly been an analytical 'top-down' approach, based on material science and constant miniaturisation. As in the sense of miniaturisation the technological limits will soon be reached (and in the sense of safety and ethics maybe even breached [9]) we believe the proposed solution is a possible approach for switching from the analytical 'top-down' to the synthetic 'bottom-up' concept for the design of computer structures of the future.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/33749176601" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=33749176601&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=33749176601&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="6506903357"><ce:initials>I.L.</ce:initials><ce:indexed-name>Bajec I.L.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Iztok Lebar</ce:given-name><preferred-name><ce:initials>I.L.</ce:initials><ce:indexed-name>Bajec I.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Iztok Lebar</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6506903357</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="7007175863"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7007175863</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="slv"/><authkeywords><author-keyword>Extended quantum-dot cellular automata</author-keyword><author-keyword>Multi-state processing</author-keyword><author-keyword>Nano-computing</author-keyword><author-keyword>Quantum-dot cellular automata</author-keyword></authkeywords><idxterms><mainterm weight="a" candidate="n">Extended quantum dot cellular automata</mainterm><mainterm weight="a" candidate="n">Multi state processing</mainterm><mainterm weight="a" candidate="n">Nanocomputing</mainterm><mainterm weight="a" candidate="n">Quantum dot cellular automata (QCA)</mainterm></idxterms><subject-areas><subject-area code="2208" abbrev="ENGI">Electrical and Electronic Engineering</subject-area><subject-area code="1708" abbrev="COMP">Hardware and Architecture</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="03" month="02" timestamp="2015-02-03T21:46:56.000056+00:00" year="2015"/><ait:date-sort day="05" month="10" year="2006"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">44476118</itemid>
+<itemid idtype="CPX">20064010151705</itemid>
+<itemid idtype="SCP">33749176601</itemid>
+<itemid idtype="SGR">33749176601</itemid>
+</itemidlist><history>
+<date-created day="05" month="10" year="2006"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="slv" language="Slovenian"/><abstract-language xml:lang="eng" language="English"/><abstract-language xml:lang="slv" language="Slovenian"/><author-keywords>
+<author-keyword>Extended quantum-dot cellular automata</author-keyword>
+<author-keyword>Multi-state processing</author-keyword>
+<author-keyword>Nano-computing</author-keyword>
+<author-keyword>Quantum-dot cellular automata</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="n" xml:lang="eng" language="English">Multi-state processing with quantum-dot cellular automata</titletext><titletext original="y" xml:lang="slv" language="Slovenian">Večstanjsko procesiranje v strukturah kvantnih celičnih avtomatov</titletext></citation-title><author-group><author auid="6506903357" seq="1"><ce:initials>I.L.</ce:initials><ce:indexed-name>Bajec I.L.</ce:indexed-name><ce:surname>Bajec</ce:surname><ce:given-name>Iztok Lebar</ce:given-name><preferred-name>
+<ce:initials>I.L.</ce:initials>
+<ce:indexed-name>Bajec I.</ce:indexed-name>
+<ce:surname>Bajec</ce:surname>
+<ce:given-name>Iztok Lebar</ce:given-name>
+</preferred-name></author><author auid="7007175863" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Mraz M.</ce:indexed-name><ce:surname>Mraz</ce:surname><ce:given-name>Miha</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Mraz M.</ce:indexed-name>
+<ce:surname>Mraz</ce:surname>
+<ce:given-name>Miha</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580817"><organization>Univerza v Ljubljani</organization><organization>Fakulteta za Računalništvo in Informatiko</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>I.L.</ce:initials>
+<ce:indexed-name>Bajec I.L.</ce:indexed-name>
+<ce:surname>Bajec</ce:surname>
+</person><affiliation country="svn"><organization>Univerza v Ljubljani</organization><organization>Fakulteta za Računalništvo in Informatiko</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Quantum-dot Cellular Automata (QCA) are becoming one of the possible alternative processing platforms of the future. Indeed, the technological processes that enable the tunnelling of electrons between quantum dots, as well QCA structures that implement the functionally complete set of binary logic functions, have already been developed [4, 5, 12, 13]. What is more, the first tools that enable the design and simulation of complex QCA structures have also been presented [14]. In this paper we present a definition of a new quantum dot cell. The cell extends the classical one in the sense of a larger set of stable states, which enables multi-valued processing [3]. The newly introduced cell is employed to implement the ternary logic functions that were originally presented by J. Łukasiewicz [1]. It turns out that in order to implement the desired ternary logic functions only minor modifications of the QCA structures, which implement the binary logic functions, are necessary. The suggested solution is interesting in the sense of a possible 'bottom-up' approach to the design of computer structures of the future. Indeed, until now the implementational part of the design of future computer structures has mostly been an analytical 'top-down' approach, based on material science and constant miniaturisation. As in the sense of miniaturisation the technological limits will soon be reached (and in the sense of safety and ethics maybe even breached [9]) we believe the proposed solution is a possible approach for switching from the analytical 'top-down' to the synthetic 'bottom-up' concept for the design of computer structures of the future.</ce:para>
+</abstract></abstracts><source country="svn" srcid="16651" type="j"><sourcetitle>Elektrotehniski Vestnik/Electrotechnical Review</sourcetitle><sourcetitle-abbrev>Elektroteh Vestn Electrotech Rev</sourcetitle-abbrev><issn type="print">00135852</issn><codencode>ELVEA</codencode><volisspag>
+<voliss issue="2-3" volume="73"/>
+<pagerange first="105" last="110"/>
+</volisspag><publicationyear first="2006"/><publicationdate>
+<year>2006</year>
+<date-text xfab-added="true">2006</date-text></publicationdate></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>2208</classification>
+<classification>1708</classification>
+</classifications><classifications type="SUBJABBR"><classification>ENGI</classification><classification>COMP</classification></classifications>
+<classifications type="CPXCLASS">
+<classification>714.2</classification>
+<classification>721.1</classification>
+<classification>723.5</classification>
+<classification>921.6</classification>
+</classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="14">
+<reference id="1">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003913087</itemid>
+</refd-itemidlist>
+<ref-sourcetitle>Jan Łukasiewicz: Selected Works, Amsterdam</ref-sourcetitle>
+<ref-publicationyear first="1970"/>
+<ref-text>L. Borkowski (Ed.), North-Holland Publishing Company</ref-text>
+</ref-info>
+<ref-fulltext>L. Borkowski (Ed.), Jan Łukasiewicz: Selected Works, Amsterdam, North-Holland Publishing Company, 1970.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0003830657</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>Z.</ce:initials>
+<ce:indexed-name>Kohavi Z.</ce:indexed-name>
+<ce:surname>Kohavi</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Switching and Finite Automata Theory</ref-sourcetitle>
+<ref-publicationyear first="1978"/>
+<ref-text>New York, McGraw-Hill Inc.</ref-text>
+</ref-info>
+<ref-fulltext>Z. Kohavi, Switching and finite automata theory, New York, McGraw-Hill Inc., 1978.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>Towards multi-state based computing using quantum-dot cellular automata</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33749166571</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Lehar Bajec I.</ce:indexed-name>
+<ce:surname>Lehar Bajec</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Mraz M.</ce:indexed-name>
+<ce:surname>Mraz</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proc. of European Conference on Artificial Life, Workshop on Unconventional Computing</ref-sourcetitle>
+<ref-publicationyear first="2005"/>
+<ref-volisspag>
+<pagerange first="95" last="104"/>
+</ref-volisspag>
+<ref-text>Canterburry, England, September</ref-text>
+</ref-info>
+<ref-fulltext>I. Lehar Bajec. M. Mraz, Towards multi-state based computing using quantum-dot cellular automata, Proc. of European Conference on Artificial Life, Workshop on Unconventional Computing, Canterburry, England, September 2005, pp. 95-104.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Quantum cellular automata</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0027266749</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.S.</ce:initials>
+<ce:indexed-name>Lent C.S.</ce:indexed-name>
+<ce:surname>Lent</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.D.</ce:initials>
+<ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+<ce:surname>Tougaw</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>W.</ce:initials>
+<ce:indexed-name>Porod W.</ce:indexed-name>
+<ce:surname>Porod</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>G.H.</ce:initials>
+<ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+<ce:surname>Bernstein</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nanotechnology</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-volisspag>
+<voliss volume="4"/>
+<pagerange first="49" last="57"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>C.S. Lent, P.D. Tougaw, W. Porod, G.H. Bernstein, Quantum cellular automata. Nanotechnology, Vol. 4, pp. 49-57, 1993.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Lines of interacting quantum-dot cells: A binary wire</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">36449004365</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.S.</ce:initials>
+<ce:indexed-name>Lent C.S.</ce:indexed-name>
+<ce:surname>Lent</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.D.</ce:initials>
+<ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+<ce:surname>Tougaw</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Applied Physics</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-volisspag>
+<voliss volume="74"/>
+<pagerange first="6227" last="6233"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>C.S. Lent, P.D. Tougaw, Lines of interacting quantum-dot cells: A binary wire, Journal of Applied Physics, Vol. 74, pp. 6227-6233, 1993.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Quantum-dot cellular automata</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034903331</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>T.</ce:initials>
+<ce:indexed-name>Cole T.</ce:indexed-name>
+<ce:surname>Cole</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.C.</ce:initials>
+<ce:indexed-name>Lusth J.C.</ce:indexed-name>
+<ce:surname>Lusth</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Progress in Quantum Electronics</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="165" last="189"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>T. Cole, J.C. Lusth, Quantum-dot cellular automata, Progress in Quantum Electronics, Vol. 25, pp. 165-189, 2001.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Semiclassical simulation of quantum cellular automaton cells</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034756174</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Macucci M.</ce:indexed-name>
+<ce:surname>Macucci</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Iannaccone G.</ce:indexed-name>
+<ce:surname>Iannaccone</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Francaviglia S.</ce:indexed-name>
+<ce:surname>Francaviglia</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>B.</ce:initials>
+<ce:indexed-name>Pellegrini B.</ce:indexed-name>
+<ce:surname>Pellegrini</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>International Journal of Circuit Theory and Applications</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+<ref-volisspag>
+<voliss volume="29"/>
+<pagerange first="37" last="47"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>M. Macucci, G. Iannaccone, S. Francaviglia, B. Pellegrini, Semiclassical simulation of quantum cellular automaton cells, International Journal of Circuit Theory and Applications, Vol. 29, pp. 37-47, 2001.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Origins and motivations for design rules in QCA</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33749163166</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.T.</ce:initials>
+<ce:indexed-name>Niemier M.T.</ce:indexed-name>
+<ce:surname>Niemier</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.M.</ce:initials>
+<ce:indexed-name>Kogge P.M.</ce:indexed-name>
+<ce:surname>Kogge</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nano, Quantum and Molecular Computing</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<pagerange first="267" last="293"/>
+</ref-volisspag>
+<ref-text>S.K. Shukla, R.I. Bahar (Eds.) , Boston, Kluwer Academic Publishers</ref-text>
+</ref-info>
+<ref-fulltext>M.T. Niemier, P.M. Kogge, Origins and motivations for design rules in QCA, in: S.K. Shukla, R.I. Bahar (Eds.), Nano, Quantum and Molecular Computing, pp. 267-293, Boston, Kluwer Academic Publishers, 2004.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Safe exponential manufacturing</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">4344560601</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.</ce:initials>
+<ce:indexed-name>Phoenix C.</ce:indexed-name>
+<ce:surname>Phoenix</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Drexler E.</ce:indexed-name>
+<ce:surname>Drexler</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Nanotechnology</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="15"/>
+<pagerange first="869" last="872"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>C. Phoenix, E. Drexler, Safe exponential manufacturing, Nanotechnology, Vol. 15, pp. 869-872, 2004.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>Quantum-dot cellular automata: Line and majority logic gate</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033328168</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>G.L.</ce:initials>
+<ce:indexed-name>Snider G.L.</ce:indexed-name>
+<ce:surname>Snider</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.O.</ce:initials>
+<ce:indexed-name>Orlov A.O.</ce:indexed-name>
+<ce:surname>Orlov</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Amlani I.</ce:indexed-name>
+<ce:surname>Amlani</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>G.H.</ce:initials>
+<ce:indexed-name>Bernstein G.H.</ce:indexed-name>
+<ce:surname>Bernstein</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Japanese Journal of Applied Physics</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-volisspag>
+<voliss volume="38"/>
+<pagerange first="7227" last="7229"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>G.L. Snider, A.O. Orlov, I. Amlani, G.H. Bernstein, Quantum-dot cellular automata: Line and majority logic gate, Japanese Journal of Applied Physics, Vol. 38, pp. 7227-7229, 1999.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>Beyond bits: The future of quantum information processing</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0033640195</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Steane S.</ce:indexed-name>
+<ce:surname>Steane</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Rieffel E.</ce:indexed-name>
+<ce:surname>Rieffel</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Computer</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-volisspag>
+<voliss volume="1"/>
+<pagerange first="38" last="45"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>S. Steane, E. Rieffel, Beyond bits: The future of quantum information processing, IEEE Computer, Vol. 1, pp. 38-45, 2000.</ref-fulltext>
+</reference>
+<reference id="12">
+<ref-info>
+<ref-title>
+<ref-titletext>Logical devices implemented using quantum cellular automata</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">36449009014</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.D.</ce:initials>
+<ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+<ce:surname>Tougaw</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.S.</ce:initials>
+<ce:indexed-name>Lent C.S.</ce:indexed-name>
+<ce:surname>Lent</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Applied Physics</ref-sourcetitle>
+<ref-publicationyear first="1994"/>
+<ref-volisspag>
+<voliss volume="75"/>
+<pagerange first="1818" last="1825"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>P.D. Tougaw, C.S. Lent, Logical devices implemented using quantum cellular automata, Journal of Applied Physics, Vol. 75, pp. 1818-1825, 1994.</ref-fulltext>
+</reference>
+<reference id="13">
+<ref-info>
+<ref-title>
+<ref-titletext>Dynamic behaviour of quantum cellular automata</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0000115540</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.D.</ce:initials>
+<ce:indexed-name>Tougaw P.D.</ce:indexed-name>
+<ce:surname>Tougaw</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>C.S.</ce:initials>
+<ce:indexed-name>Lent C.S.</ce:indexed-name>
+<ce:surname>Lent</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Journal of Applied Physics</ref-sourcetitle>
+<ref-publicationyear first="1996"/>
+<ref-volisspag>
+<voliss volume="80"/>
+<pagerange first="4722" last="4736"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>P.D. Tougaw, C.S. Lent, Dynamic behaviour of quantum cellular automata, Journal of Applied Physics, Vol. 80, pp. 4722-4736, 1996.</ref-fulltext>
+</reference>
+<reference id="14">
+<ref-info>
+<ref-title>
+<ref-titletext>QCADesigner: A rapid design and simulation tool for quantum dots cellular automata</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">2342457054</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>K.</ce:initials>
+<ce:indexed-name>Walus K.</ce:indexed-name>
+<ce:surname>Walus</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>T.J.</ce:initials>
+<ce:indexed-name>Dysart T.J.</ce:indexed-name>
+<ce:surname>Dysart</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>G.A.</ce:initials>
+<ce:indexed-name>Jullien G.A.</ce:indexed-name>
+<ce:surname>Jullien</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>R.A.</ce:initials>
+<ce:indexed-name>Budiman R.A.</ce:indexed-name>
+<ce:surname>Budiman</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Nanotechnology</ref-sourcetitle>
+<ref-publicationyear first="2004"/>
+<ref-volisspag>
+<voliss volume="3"/>
+<pagerange first="26" last="31"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>K. Walus, T.J. Dysart, G.A. Jullien, R.A. Budiman, QCADesigner: A rapid design and simulation tool for quantum dots cellular automata, IEEE Transactions on Nanotechnology, Vol. 3, pp. 26-31, 2004.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

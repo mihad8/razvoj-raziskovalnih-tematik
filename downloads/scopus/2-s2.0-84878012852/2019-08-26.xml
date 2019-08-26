@@ -1,0 +1,362 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84878012852</prism:url><dc:identifier>SCOPUS_ID:84878012852</dc:identifier><eid>2-s2.0-84878012852</eid><prism:doi>10.1007/s10100-012-0276-1</prism:doi><dc:title>New heuristics for the vertex coloring problem based on semidefinite programming</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>5</citedby-count><prism:publicationName>Central European Journal of Operations Research</prism:publicationName><source-id>5000158106</source-id><prism:issn>1435246X 16139178</prism:issn><prism:volume>21</prism:volume><prism:issueIdentifier>SUPPL1</prism:issueIdentifier><prism:startingPage>13</prism:startingPage><prism:endingPage>25</prism:endingPage><prism:pageRange>13-25</prism:pageRange><prism:coverDate>2013-06-01</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="55458896800"><ce:initials>J.</ce:initials><ce:indexed-name>Govorcin J.</ce:indexed-name><ce:surname>Govorčin</ce:surname><ce:given-name>Jelena</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Govorčin J.</ce:indexed-name><ce:surname>Govorčin</ce:surname><ce:given-name>Jelena</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55458896800</author-url><affiliation id="109640147" href="https://api.elsevier.com/content/affiliation/affiliation_id/109640147"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>The Lovász theta number Lovász (IEEE Trans Inf Theory 25:1-7, 1979) is a well-known lower bound on the chromatic number of a graph G, and Ψ <inf>K</inf>(G) is its impressive strengthening Gvozdenović and Laurent (SIAM J Optim 19(2):592-615, 2008). The bound Ψ <inf>K</inf>(G) was introduced in very specific and abstract setting which is tough to translate into usual mathematical programming framework. In the first part of this paper we unify the motivations and approaches to both bounds and rewrite them in a very similar settings which are easy to understand and straightforward to implement. In the second part of the paper we provide explanations how to solve efficiently the resulting semidefinite programs and how to use optimal solutions to get good coloring heuristics. We propose two vertex coloring heuristics based on Ψ <inf>K</inf>(G) and present numerical results on medium sized graphs. © 2012 Springer-Verlag Berlin Heidelberg.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84878012852" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84878012852&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84878012852&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="109640147" href="https://api.elsevier.com/content/affiliation/affiliation_id/109640147"><affilname>FAKULTETA ZA INFORMACIJSKE STUDIJE V NOVEM MESTU</affilname><affiliation-city>Novo Mesto</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="55458896800"><ce:initials>J.</ce:initials><ce:indexed-name>Govorcin J.</ce:indexed-name><ce:surname>Govorčin</ce:surname><ce:given-name>Jelena</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Govorčin J.</ce:indexed-name><ce:surname>Govorčin</ce:surname><ce:given-name>Jelena</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55458896800</author-url><affiliation id="109640147" href="https://api.elsevier.com/content/affiliation/affiliation_id/109640147"/></author><author seq="2" auid="8969902300"><ce:initials>N.</ce:initials><ce:indexed-name>Gvozdenovic N.</ce:indexed-name><ce:surname>Gvozdenović</ce:surname><ce:given-name>Nebojša</ce:given-name><preferred-name><ce:initials>N.</ce:initials><ce:indexed-name>Gvozdenović N.</ce:indexed-name><ce:surname>Gvozdenović</ce:surname><ce:given-name>Nebojša</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/8969902300</author-url></author><author seq="3" auid="23568747900"><ce:initials>J.</ce:initials><ce:indexed-name>Povh J.</ce:indexed-name><ce:surname>Povh</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Povh J.</ce:indexed-name><ce:surname>Povh</ce:surname><ce:given-name>Janez</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23568747900</author-url><affiliation id="109640147" href="https://api.elsevier.com/content/affiliation/affiliation_id/109640147"/></author></authors><language xml:lang="eng"/><authkeywords><author-keyword>Boundary point method</author-keyword><author-keyword>Semidefinite programming</author-keyword><author-keyword>Vertex coloring problem</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="1803" abbrev="DECI">Management Science and Operations Research</subject-area></subject-areas><item xmlns=""><xocs:meta><xocs:funding-list has-funding-info="1" pui-match="primary"><xocs:funding-addon-generated-timestamp>2019-03-20T16:42:21Z</xocs:funding-addon-generated-timestamp><xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type><xocs:funding><xocs:funding-agency-matched-string>Serbian Ministry of Education and Science</xocs:funding-agency-matched-string><xocs:funding-id>OI 174018</xocs:funding-id><xocs:funding-id>III 44006</xocs:funding-id><xocs:funding-agency>Ministry of Education and Science</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100005992</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/732800/</xocs:funding-agency-country></xocs:funding><xocs:funding><xocs:funding-agency-matched-string>Slovenian Research Agency</xocs:funding-agency-matched-string><xocs:funding-agency-acronym>ARRS</xocs:funding-agency-acronym><xocs:funding-agency>Javna Agencija za Raziskovalno Dejavnost RS</xocs:funding-agency><xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004329</xocs:funding-agency-id><xocs:funding-agency-country>http://sws.geonames.org/3190538/</xocs:funding-agency-country></xocs:funding><xocs:funding-text>Supported by the Serbian Ministry of Education and Science (projects III 44006 and OI 174018), Supported by the Slovenian Research Agency (bilateral project no. BI-SR/10-11-040).</xocs:funding-text></xocs:funding-list></xocs:meta><ait:process-info><ait:date-delivered day="01" month="06" timestamp="2013-06-01T21:36:48.000048+01:00" year="2013"/><ait:date-sort day="01" month="06" year="2013"/><ait:status stage="S300" state="new" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1007/s10100-012-0276-1</ce:doi>
+<itemid idtype="PUI">52303333</itemid>
+<itemid idtype="SNECON">2013019909</itemid>
+<itemid idtype="SCP">84878012852</itemid>
+<itemid idtype="SGR">84878012852</itemid>
+</itemidlist><history>
+<date-created day="15" month="11" year="2012"/>
+</history><dbcollection>SNECON</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/><author-keywords>
+<author-keyword>Boundary point method</author-keyword>
+<author-keyword>Semidefinite programming</author-keyword>
+<author-keyword>Vertex coloring problem</author-keyword>
+</author-keywords></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">New heuristics for the vertex coloring problem based on semidefinite programming</titletext></citation-title><author-group><author auid="55458896800" seq="1"><ce:initials>J.</ce:initials><ce:indexed-name>Govorcin J.</ce:indexed-name><ce:surname>Govorčin</ce:surname><ce:given-name>Jelena</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Govorčin J.</ce:indexed-name>
+<ce:surname>Govorčin</ce:surname>
+<ce:given-name>Jelena</ce:given-name>
+</preferred-name></author><author auid="23568747900" seq="3"><ce:initials>J.</ce:initials><ce:indexed-name>Povh J.</ce:indexed-name><ce:surname>Povh</ce:surname><ce:given-name>Janez</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Povh J.</ce:indexed-name>
+<ce:surname>Povh</ce:surname>
+<ce:given-name>Janez</ce:given-name>
+</preferred-name></author><affiliation afid="109640147" country="svn"><organization>Fakulteta za informacijske študije v Novem mestu</organization><address-part>Novi trg 5</address-part><city-group>8000 Novo mesto</city-group><country>Slovenia</country></affiliation></author-group><author-group><author auid="8969902300" seq="2"><ce:initials>N.</ce:initials><ce:indexed-name>Gvozdenovic N.</ce:indexed-name><ce:surname>Gvozdenović</ce:surname><ce:given-name>Nebojša</ce:given-name><preferred-name>
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Gvozdenović N.</ce:indexed-name>
+<ce:surname>Gvozdenović</ce:surname>
+<ce:given-name>Nebojša</ce:given-name>
+</preferred-name></author><affiliation country="srb"><organization>Univerzitet u Novom Sadu, Ekonomski fakultet Subotica</organization><address-part>Segedinski put 9-11</address-part><city-group>24000 Subotica</city-group><country>Serbia</country></affiliation></author-group><correspondence><person>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Povh J.</ce:indexed-name>
+<ce:surname>Povh</ce:surname>
+</person><affiliation country="svn"><organization>Fakulteta za informacijske študije v Novem mestu</organization><address-part>Novi trg 5</address-part><city-group>8000 Novo mesto</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>The Lovász theta number Lovász (IEEE Trans Inf Theory 25:1-7, 1979) is a well-known lower bound on the chromatic number of a graph G, and Ψ <inf>K</inf>(G) is its impressive strengthening Gvozdenović and Laurent (SIAM J Optim 19(2):592-615, 2008). The bound Ψ <inf>K</inf>(G) was introduced in very specific and abstract setting which is tough to translate into usual mathematical programming framework. In the first part of this paper we unify the motivations and approaches to both bounds and rewrite them in a very similar settings which are easy to understand and straightforward to implement. In the second part of the paper we provide explanations how to solve efficiently the resulting semidefinite programs and how to use optimal solutions to get good coloring heuristics. We propose two vertex coloring heuristics based on Ψ <inf>K</inf>(G) and present numerical results on medium sized graphs. © 2012 Springer-Verlag Berlin Heidelberg.</ce:para>
+</abstract></abstracts><source country="deu" srcid="5000158106" type="j"><sourcetitle>Central European Journal of Operations Research</sourcetitle><sourcetitle-abbrev>Cent. Eur. J. Oper. Res.</sourcetitle-abbrev><issn type="print">1435246X</issn><issn type="electronic">16139178</issn><volisspag>
+<voliss issue="SUPPL1" volume="21"/>
+<pagerange first="13" last="25"/>
+</volisspag><publicationyear first="2013"/><publicationdate>
+<year>2013</year>
+<month>06</month>
+<date-text xfab-added="true">June 2013</date-text></publicationdate></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1803</classification>
+</classifications><classifications type="SUBJABBR"><classification>DECI</classification></classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="10">
+<reference id="1">
+<ref-info>
+<ref-title>
+<ref-titletext>New approximation guarantee for chromatic number</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33748105942</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Arora S.</ce:indexed-name>
+<ce:surname>Arora</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>E.</ce:initials>
+<ce:indexed-name>Chlamtac E.</ce:indexed-name>
+<ce:surname>Chlamtac</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the thirty-eighth annual ACM symposium on theory of computing, STOC '06</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<pagerange first="215" last="224"/>
+</ref-volisspag>
+<ref-text>ACM, New York, NY, USA. doi: 10. 1145/1132516. 1132548</ref-text>
+</ref-info>
+<ref-fulltext>Arora S, Chlamtac E (2006) New approximation guarantee for chromatic number. In: Proceedings of the thirty-eighth annual ACM symposium on theory of computing, STOC '06, pp 215-224. ACM, New York, NY, USA. doi: 10. 1145/1132516. 1132548.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Semidefinite programming relaxations for graph coloring and maximal clique problems</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33846706231</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Dukanovic I.</ce:indexed-name>
+<ce:surname>Dukanovic</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Rendl F.</ce:indexed-name>
+<ce:surname>Rendl</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Math Program</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss volume="109"/>
+<pagerange first="345" last="365"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Dukanovic I, Rendl F (2007) Semidefinite programming relaxations for graph coloring and maximal clique problems. Math Program 109: 345-365.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<ref-title>
+<ref-titletext>A semidefinite programming-based heuristic for graph coloring</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">37049015975</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Dukanovic I.</ce:indexed-name>
+<ce:surname>Dukanovic</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Rendl F.</ce:indexed-name>
+<ce:surname>Rendl</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Discret Appl Math</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss issue="2" volume="156"/>
+<pagerange first="180" last="189"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Dukanovic I, Rendl F (2008) A semidefinite programming-based heuristic for graph coloring. Discret Appl Math 156(2): 180-189.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Computing semidefinite programming lower bounds for the (fractional) chromatic number via block-diagonalization</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">58149088531</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Gvozdenovic N.</ce:indexed-name>
+<ce:surname>Gvozdenović</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Laurent M.</ce:indexed-name>
+<ce:surname>Laurent</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>SIAM J Optim</ref-sourcetitle>
+<ref-publicationyear first="2008"/>
+<ref-volisspag>
+<voliss issue="2" volume="19"/>
+<pagerange first="592" last="615"/>
+</ref-volisspag>
+<ref-text>doi: 10. 1137/070683520</ref-text>
+</ref-info>
+<ref-fulltext>Gvozdenović N, Laurent M (2008) Computing semidefinite programming lower bounds for the (fractional) chromatic number via block-diagonalization. SIAM J Optim 19(2): 592-615. doi: 10. 1137/070683520.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>Block-diagonal semidefinite programming hierarchies for 0/1 programming</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">58149097130</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>N.</ce:initials>
+<ce:indexed-name>Gvozdenovic N.</ce:indexed-name>
+<ce:surname>Gvozdenović</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Laurent M.</ce:indexed-name>
+<ce:surname>Laurent</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Vallentin F.</ce:indexed-name>
+<ce:surname>Vallentin</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Oper Res Lett</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss issue="1" volume="37"/>
+<pagerange first="27" last="31"/>
+</ref-volisspag>
+<ref-text>doi: 10. 1016/j. orl. 2008. 10. 003</ref-text>
+</ref-info>
+<ref-fulltext>Gvozdenović N, Laurent M, Vallentin F (2009) Block-diagonal semidefinite programming hierarchies for 0/1 programming. Oper Res Lett 37(1): 27-31. doi: 10. 1016/j. orl. 2008. 10. 003.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Approximate graph coloring by semidefinite programming</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0032028848</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Karger D.</ce:indexed-name>
+<ce:surname>Karger</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Motwani R.</ce:indexed-name>
+<ce:surname>Motwani</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Sudan M.</ce:indexed-name>
+<ce:surname>Sudan</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>J Assoc Comput Mach</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+<ref-volisspag>
+<voliss volume="45"/>
+<pagerange first="246" last="265"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Karger D, Motwani R, Sudan M (1998) Approximate graph coloring by semidefinite programming. J Assoc Comput Mach 45: 246-265.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>On the shannon capacity of a graph</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0018292109</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Lovasz L.</ce:indexed-name>
+<ce:surname>Lovász</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Trans Inf Theory</ref-sourcetitle>
+<ref-publicationyear first="1979"/>
+<ref-volisspag>
+<voliss volume="25"/>
+<pagerange first="1" last="7"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Lovász L (1979) On the shannon capacity of a graph. IEEE Trans Inf Theory 25: 1-7.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Regularization methods for semidefinite programming</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">70450212537</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Malick J.</ce:indexed-name>
+<ce:surname>Malick</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Povh J.</ce:indexed-name>
+<ce:surname>Povh</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Rendl F.</ce:indexed-name>
+<ce:surname>Rendl</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Wiegele A.</ce:indexed-name>
+<ce:surname>Wiegele</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>SIAM J Optim</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss issue="1" volume="20"/>
+<pagerange first="336" last="356"/>
+</ref-volisspag>
+<ref-text>doi: 10. 1137/070704575</ref-text>
+</ref-info>
+<ref-fulltext>Malick J, Povh J, Rendl F, Wiegele A (2009) Regularization methods for semidefinite programming. SIAM J Optim 20(1): 336-356. doi: 10. 1137/070704575.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Copositive and semidefinite relaxations of the quadratic assignment problem</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">67349203818</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Povh J.</ce:indexed-name>
+<ce:surname>Povh</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Rendl F.</ce:indexed-name>
+<ce:surname>Rendl</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Discrete Optim</ref-sourcetitle>
+<ref-publicationyear first="2009"/>
+<ref-volisspag>
+<voliss issue="3" volume="6"/>
+<pagerange first="231" last="241"/>
+</ref-volisspag>
+<ref-text>doi: 10. 1016/j. disopt. 2009. 01. 002</ref-text>
+</ref-info>
+<ref-fulltext>Povh J, Rendl F (2009) Copositive and semidefinite relaxations of the quadratic assignment problem. Discrete Optim 6(3): 231-241. doi: 10. 1016/j. disopt. 2009. 01. 002.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>A boundary point method to solve semidefinite programs</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">33751550994</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Povh J.</ce:indexed-name>
+<ce:surname>Povh</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Rendl F.</ce:indexed-name>
+<ce:surname>Rendl</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Wiegele A.</ce:indexed-name>
+<ce:surname>Wiegele</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Computing</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-volisspag>
+<voliss issue="3" volume="78"/>
+<pagerange first="277" last="286"/>
+</ref-volisspag>
+<ref-text>doi: 10. 1007/s00607-006-0182-2</ref-text>
+</ref-info>
+<ref-fulltext>Povh J, Rendl F, Wiegele A (2006) A boundary point method to solve semidefinite programs. Computing 78(3): 277-286. doi: 10. 1007/s00607-006-0182-2.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

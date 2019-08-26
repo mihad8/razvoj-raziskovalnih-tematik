@@ -1,0 +1,657 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84923170010</prism:url><dc:identifier>SCOPUS_ID:84923170010</dc:identifier><eid>2-s2.0-84923170010</eid><dc:title>Computational folkloristics: A semantic analysis and visualization of topic distribution of song types Računalniška folkloristika. Semantična analiza in vizualizacija tematske porazdelitve pesemskih tipov</dc:title><prism:aggregationType>Journal</prism:aggregationType><srctype>j</srctype><subtype>ar</subtype><subtypeDescription>Article</subtypeDescription><citedby-count>0</citedby-count><prism:publicationName>Glasnik SED</prism:publicationName><dc:publisher>
+                        Slovensko Etnolosko Drustvo
+                        sed-drustvo@sed-drustvo.si
+                    </dc:publisher><source-id>21100200441</source-id><prism:issn>03512908</prism:issn><prism:volume>54</prism:volume><prism:issueIdentifier>3</prism:issueIdentifier><prism:startingPage>36</prism:startingPage><prism:endingPage>43</prism:endingPage><prism:pageRange>36-43</prism:pageRange><prism:coverDate>2014-11-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="35175418100"><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:degrees>Dr.</ce:degrees><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35175418100</author-url><affiliation id="106939255" href="https://api.elsevier.com/content/affiliation/affiliation_id/106939255"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>The article presents research into the latent semantic structure of Slovenian folk songs using natural language processing (NLP) methods. The aim is to determine the appropriateness of NLP for discovering general patterns and relationships on the level of song types and genres, and to specify the basic procedure for the computational analysis of folkloristic materials. The results of the analysis show that the appropriate computational method can generate multidimensional semantic space on the basis of the distribution of topics and similarity measures, and therefore enable a more nuanced typological analysis of folkloristic materials.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84923170010" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84923170010&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84923170010&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="106939255" href="https://api.elsevier.com/content/affiliation/affiliation_id/106939255"><affilname>SAZU</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="35175418100"><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:degrees>Dr.</ce:degrees><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35175418100</author-url><affiliation id="106939255" href="https://api.elsevier.com/content/affiliation/affiliation_id/106939255"/></author><author seq="2" auid="6603601816"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6603601816</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="slv"/><authkeywords><author-keyword>Computational semantics</author-keyword><author-keyword>Folk song</author-keyword><author-keyword>Folkloristics</author-keyword><author-keyword>LDA (latent dirichlet allocation)</author-keyword><author-keyword>Natural language processing (NLP)</author-keyword><author-keyword>Typology</author-keyword></authkeywords><idxterms/><subject-areas><subject-area code="1206" abbrev="ARTS">Conservation</subject-area><subject-area code="3316" abbrev="SOCI">Cultural Studies</subject-area><subject-area code="3314" abbrev="SOCI">Anthropology</subject-area><subject-area code="1209" abbrev="ARTS">Museology</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="11" month="04" timestamp="2019-04-11T22:09:28.000028-04:00" year="2019"/><ait:date-sort day="01" month="11" year="2014"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2018 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <itemid idtype="PUI">602471818</itemid>
+                    <itemid idtype="CAR-ID">632996761</itemid>
+                    <itemid idtype="SCOPUS">20180305432</itemid>
+                    <itemid idtype="SNSOC">2015141059</itemid>
+                    <itemid idtype="SCP">84923170010</itemid>
+                    <itemid idtype="SGR">84923170010</itemid>
+                </itemidlist><history>
+                    <date-created day="09" month="02" timestamp="BST 13:58:31" year="2018"/>
+                </history><dbcollection>SCOPUS</dbcollection><dbcollection>SNSOC</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="ar"/><citation-language xml:lang="eng" language="English"/><citation-language xml:lang="slv" language="Slovenian"/><abstract-language xml:lang="eng" language="English"/><abstract-language xml:lang="slv" language="Slovenian"/><author-keywords>
+                        <author-keyword xml:lang="eng">Computational semantics</author-keyword>
+                        <author-keyword xml:lang="eng">Folk song</author-keyword>
+                        <author-keyword xml:lang="eng">Folkloristics</author-keyword>
+                        <author-keyword xml:lang="eng">LDA (latent dirichlet allocation)</author-keyword>
+                        <author-keyword xml:lang="eng">Natural language processing (NLP)</author-keyword>
+                        <author-keyword xml:lang="eng">Typology</author-keyword>
+                    </author-keywords></citation-info><citation-title><titletext original="n" xml:lang="eng" language="English">Computational folkloristics: A semantic analysis and visualization of topic distribution of song types</titletext><titletext original="y" xml:lang="slv" language="Slovenian">Računalniška folkloristika. Semantična analiza in vizualizacija tematske porazdelitve pesemskih tipov</titletext></citation-title><author-group><author auid="35175418100" seq="1" type="auth"><ce:initials>G.</ce:initials><ce:indexed-name>Strle G.</ce:indexed-name><ce:degrees>Dr.</ce:degrees><ce:surname>Strle</ce:surname><ce:given-name>Gregor</ce:given-name><preferred-name>
+                            <ce:initials>G.</ce:initials>
+                            <ce:indexed-name>Strle G.</ce:indexed-name>
+                            <ce:surname>Strle</ce:surname>
+                            <ce:given-name>Gregor</ce:given-name>
+                        </preferred-name></author><affiliation afid="106939255" country="svn" dptid="115004419"><organization>Glasbenonarodopisni Inštitut</organization><organization>ZRC</organization><organization>SAZU</organization><address-part>Novi trg 2</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="106939255" dptid="115004419"/><country>Slovenia</country></affiliation></author-group><author-group><author auid="6603601816" seq="2" type="auth"><ce:initials>M.</ce:initials><ce:indexed-name>Marolt M.</ce:indexed-name><ce:surname>Marolt</ce:surname><ce:given-name>Matija</ce:given-name><preferred-name>
+                            <ce:initials>M.</ce:initials>
+                            <ce:indexed-name>Marolt M.</ce:indexed-name>
+                            <ce:surname>Marolt</ce:surname>
+                            <ce:given-name>Matija</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580817"><organization>Fakulteta za Računalništvo in Informatiko</organization><organization>Univerza v Ljubljani</organization><address-part>Tržaška cesta 25</address-part><city>Ljubljana</city><postal-code>1000</postal-code><affiliation-id afid="60031106" dptid="104580817"/><country>Slovenia</country></affiliation></author-group><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>The article presents research into the latent semantic structure of Slovenian folk songs using natural language processing (NLP) methods. The aim is to determine the appropriateness of NLP for discovering general patterns and relationships on the level of song types and genres, and to specify the basic procedure for the computational analysis of folkloristic materials. The results of the analysis show that the appropriate computational method can generate multidimensional semantic space on the basis of the distribution of topics and similarity measures, and therefore enable a more nuanced typological analysis of folkloristic materials.</ce:para>
+                    </abstract></abstracts><source country="svn" srcid="21100200441" type="j"><sourcetitle>Glasnik SED</sourcetitle><sourcetitle-abbrev>Glas. SED</sourcetitle-abbrev><translated-sourcetitle xml:lang="eng">Glasnik SED</translated-sourcetitle><issn type="print">03512908</issn><volisspag>
+                        <voliss issue="3" volume="54"/>
+                        <pagerange first="36" last="43"/>
+                    </volisspag><publicationyear first="2014"/><publicationdate>
+                        <year>2014</year>
+                        <month>11</month>
+                        <day>01</day>
+                    <date-text xfab-added="true">1 November 2014</date-text></publicationdate><website>
+                        <ce:e-address type="email">http://www.sed-drustvo.si/upload/files/GSED%2054_3_2014-notranjik.pdf</ce:e-address>
+                    </website><publisher>
+                        <publishername>Slovensko Etnolosko Drustvo</publishername>
+                        <ce:e-address type="email">sed-drustvo@sed-drustvo.si</ce:e-address>
+                    </publisher></source><enhancement><classificationgroup><classifications type="ASJC">
+                            <classification>1206</classification>
+                            <classification>3316</classification>
+                            <classification>3314</classification>
+                            <classification>1209</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>ARTS</classification><classification>SOCI</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="25">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computational folkloristics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84863750015</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Abello J.</ce:indexed-name>
+                                    <ce:surname>Abello</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Communications of the ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="7" volume="55"/>
+                                <pagerange first="60" last="70"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>ABELLO, James idr.: Computational folkloristics. Communications of the ACM 55/7, 2012, 60-70.</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The computational turn: Thinking about the digital humanities</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84859295331</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Berry D.M.</ce:indexed-name>
+                                    <ce:surname>Berry</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Culture Machine</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss volume="12"/>
+                                <pagerange first="1" last="22"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>BERRY, David M: The Computational Turn: Thinking About the Digital Humanities. Culture Machine 12, 2011, 1-22.</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Probabilistic topic models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84861170800</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Blei D.M.</ce:indexed-name>
+                                    <ce:surname>Blei</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Communications of the ACM</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="55"/>
+                                <pagerange first="77" last="84"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>BLEI, David M.: Probabilistic Topic Models. Communications of the ACM 55/4, 2012, 77-84.</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Latent dirichlet allocation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0141607824</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.M.</ce:initials>
+                                    <ce:indexed-name>Blei D.M.</ce:indexed-name>
+                                    <ce:surname>Blei</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of Machine Learning Research</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-volisspag>
+                                <voliss issue="4" volume="3-5"/>
+                                <pagerange first="993" last="1022"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>BLEI, David M. idr.: Latent Dirichlet Allocation. Journal of Machine Learning Research 3/4-5, 2003, 993-1022.</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Half a century of literary computing: Towards a "new" philology</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84923191505</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Busa R.</ce:indexed-name>
+                                    <ce:surname>Busa</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Historical Social Research/Historische Sozialforschung</ref-sourcetitle>
+                            <ref-publicationyear first="1992"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="17"/>
+                                <pagerange first="124" last="133"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>BUSA, Roberto: Half a Century of Literary Computing: Towards a "New"Philology. Historical Social Research/Historische Sozialforschung 17/2, 1992, 124-133.</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85019144253</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.M.</ce:initials>
+                                    <ce:indexed-name>Kaucic G.M.</ce:indexed-name>
+                                    <ce:surname>Kaučič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Ljudsko in Umetno. Dva Obraza Ustvarjalnosti</ref-sourcetitle>
+                            <ref-publicationyear first="2003"/>
+                            <ref-text>Ljubljana: Založba ZRC, ZRC SAZU Folkloristika</ref-text>
+                        </ref-info>
+                        <ref-fulltext>GOLEŽ KAUČIČ, Marjetka: Ljudsko in umetno. Dva obraza ustvarjalnosti. Ljubljana: Založba ZRC, ZRC SAZU (Folkloristika), 2003.</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Obeliks. Statistični oblikoskladenjski označevalnik in lematizator za slovenski jezik</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84886367125</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Grcar M.</ce:indexed-name>
+                                    <ce:surname>Grčar</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Zbornik Osme Konference Jezikovne Tehnologije</ref-sourcetitle>
+                            <ref-publicationyear first="2012"/>
+                            <ref-volisspag>
+                                <pagerange first="89" last="94"/>
+                            </ref-volisspag>
+                            <ref-text>Tomaž Erjavec in Jerneja Žganec Gros ur., Ljubljana: Institut Jožef Stefan</ref-text>
+                        </ref-info>
+                        <ref-fulltext>GRČAR, Miha idr.: Obeliks. Statistični oblikoskladenjski označevalnik in lematizator za slovenski jezik. V: Tomaž Erjavec in Jerneja Žganec Gros (ur.), Zbornik Osme konference Jezikovne tehnologije. Ljubljana: Institut Jožef Stefan, 2012, 89-94.</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Topics in semantic representation</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34248560792</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.L.</ce:initials>
+                                    <ce:indexed-name>Griffiths T.L.</ce:indexed-name>
+                                    <ce:surname>Griffiths</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Psychological Review</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="114"/>
+                                <pagerange first="211" last="244"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>GRIFFITHS, Thomas L. idr.: Topics in Semantic Representation. Psychological Review 114/2, 2007, 211-244.</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The changing psychology of culture from 1800 through 2000</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84883783591</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>P.M.</ce:initials>
+                                    <ce:indexed-name>Greenfield P.M.</ce:indexed-name>
+                                    <ce:surname>Greenfield</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Psychological Science</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="9" volume="24"/>
+                                <pagerange first="1722" last="1731"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>GREENFIELD, Patricia M.: The Changing Psychology of Culture from 1800 through 2000. Psychological Science 24/9, 2013, 1722-1731.</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004185151</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.A.</ce:initials>
+                                    <ce:indexed-name>Hartigan J.A.</ce:indexed-name>
+                                    <ce:surname>Hartigan</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Clustering Algorithms</ref-sourcetitle>
+                            <ref-publicationyear first="1975"/>
+                            <ref-text>New York: John Wiley &amp; Sons, Inc</ref-text>
+                        </ref-info>
+                        <ref-fulltext>HARTIGAN, John A.: Clustering algorithms. New York: John Wiley &amp; Sons, Inc, 1975.</ref-fulltext>
+                    </reference>
+                    <reference id="11">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Zvrstnost slovenskih ljudskih pesmi. Refeksija pesemskega razvoja ali pogledov nanj</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85000226934</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Klobcar M.</ce:indexed-name>
+                                    <ce:surname>Klobčar</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Traditiones</ref-sourcetitle>
+                            <ref-publicationyear first="2010"/>
+                            <ref-volisspag>
+                                <voliss issue="2" volume="39"/>
+                                <pagerange first="125" last="147"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>KLOBČAR, Marija: Zvrstnost slovenskih ljudskih pesmi. Refeksija pesemskega razvoja ali pogledov nanj. Traditiones 39/2, 2010, 125-147, DOI: 10.3986/Traditio2010390208.</ref-fulltext>
+                    </reference>
+                    <reference id="12">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84880293059</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>Z.</ce:initials>
+                                    <ce:indexed-name>Kumer Z.</ce:indexed-name>
+                                    <ce:surname>Kumer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Vloga, Zgradba, Slog Slovenske Ljudske Pesmi</ref-sourcetitle>
+                            <ref-publicationyear first="1996"/>
+                            <ref-text>Ljubljana: Založba ZRC</ref-text>
+                        </ref-info>
+                        <ref-fulltext>KUMER, Zmaga: Vloga, zgradba, slog slovenske ljudske pesmi. Ljubljana: Založba ZRC, 1996.</ref-fulltext>
+                    </reference>
+                    <reference id="13">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">34547833445</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Landauer T.</ce:indexed-name>
+                                    <ce:surname>Landauer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Handbook of Latent Semantic Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-text>ur.:, Lawrence Erlbaum Associates</ref-text>
+                        </ref-info>
+                        <ref-fulltext>LANDAUER, Thomas idr. (ur.): Handbook of Latent Semantic Analysis. Lawrence Erlbaum Associates, 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="14">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>A solution to Plato's problem: The latent semantic analysis theory of acquisition, induction, and representation of knowledge</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0000600219</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.K.</ce:initials>
+                                    <ce:indexed-name>Landauer T.K.</ce:indexed-name>
+                                    <ce:surname>Landauer</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>S.T.</ce:initials>
+                                    <ce:indexed-name>Dumais S.T.</ce:indexed-name>
+                                    <ce:surname>Dumais</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Psychological Review</ref-sourcetitle>
+                            <ref-publicationyear first="1997"/>
+                            <ref-volisspag>
+                                <voliss volume="104"/>
+                                <pagerange first="211" last="240"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>LANDAUER, Thomas K. in Susan T. Dumais: A Solution to Plato's Problem: The Latent Semantic Analysis Theory of Acquisition, Induction, and Representation of Knowledge. Psychological Review 104, 1997, 211-240.</ref-fulltext>
+                    </reference>
+                    <reference id="15">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Computing folklore studies: Mapping over a century of scholarly production through topics</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84890951775</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Laudun J.</ce:indexed-name>
+                                    <ce:surname>Laudun</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>J.</ce:initials>
+                                    <ce:indexed-name>Goodwin J.</ce:indexed-name>
+                                    <ce:surname>Goodwin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Journal of American Folklore</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="502" volume="126"/>
+                                <pagerange first="455" last="475"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>LAUDUN, John in Jonathan Goodwin: Computing Folklore Studies: Mapping over a Century of Scholarly Production through Topics. Journal of American Folklore 126/502, 2013, 455-475.</ref-fulltext>
+                    </reference>
+                    <reference id="16">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mathematical foundations behind latent semantic analysis</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">51449089936</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.I.</ce:initials>
+                                    <ce:indexed-name>Martin D.I.</ce:indexed-name>
+                                    <ce:surname>Martin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.W.</ce:initials>
+                                    <ce:indexed-name>Berry M.W.</ce:indexed-name>
+                                    <ce:surname>Berry</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Handbook of Latent Semantic Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="35" last="55"/>
+                            </ref-volisspag>
+                            <ref-text>Thomas K. Landauer idr. ur., Lawrence Erlbaum Associates</ref-text>
+                        </ref-info>
+                        <ref-fulltext>MARTIN, Dian I. in Michael W. Berry: Mathematical Foundations behind Latent Semantic Analysis. V: Thomas K. Landauer idr. (ur.), Handbook of Latent Semantic Analysis. Lawrence Erlbaum Associates, 2007, 35-55.</ref-fulltext>
+                    </reference>
+                    <reference id="17">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Quantitative analysis of culture using millions of digitized books</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">78651466764</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>J.-B.</ce:initials>
+                                    <ce:indexed-name>Michel J.-B.</ce:indexed-name>
+                                    <ce:surname>Michel</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Science</ref-sourcetitle>
+                            <ref-publicationyear first="2011"/>
+                            <ref-volisspag>
+                                <voliss issue="6014" volume="331"/>
+                                <pagerange first="176" last="182"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>MICHEL, Jean-Baptiste, idr.: Quantitative Analysis of Culture using Millions of Digitized Books. Science 331/6014, 2011, 176-182.</ref-fulltext>
+                    </reference>
+                    <reference id="18">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Mapping knowledge domains</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">1842788873</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.M.</ce:initials>
+                                    <ce:indexed-name>Shiffrin R.M.</ce:indexed-name>
+                                    <ce:surname>Shiffrin</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>K.</ce:initials>
+                                    <ce:indexed-name>Bomer K.</ce:indexed-name>
+                                    <ce:surname>Bömer</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of the National Academy of Sciences of the United States of America</ref-sourcetitle>
+                            <ref-publicationyear first="2004"/>
+                            <ref-volisspag>
+                                <voliss volume="1"/>
+                                <pagerange first="5183" last="5185"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>SHIFFRIN, Richard M. in Katy Bömer: Mapping Knowledge Domains. Proceedings of the National Academy of Sciences of the United States of America 1, 2004, 5183-5185.</ref-fulltext>
+                    </reference>
+                    <reference id="19">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85039716465</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:indexed-name>SLP 4</ce:indexed-name>
+                                    <ce:surname>SLP 4</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Golez Kaucic M.</ce:indexed-name>
+                                    <ce:surname>Golež Kaučič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Slovenske Ljudske Pesmi. Knjiga 4. Pripovedne Pesmi</ref-sourcetitle>
+                            <ref-publicationyear first="1998"/>
+                            <ref-text>ur., Ljubljana: Slovenska matica</ref-text>
+                        </ref-info>
+                        <ref-fulltext>SLP 4. Marjetka Golež Kaučič idr. (ur.), Slovenske ljudske pesmi. Knjiga 4. Pripovedne pesmi. Ljubljana: Slovenska matica, 1998.</ref-fulltext>
+                    </reference>
+                    <reference id="20">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85039716465</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:indexed-name>SLP 5</ce:indexed-name>
+                                    <ce:surname>SLP 5</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Golez Kaucic M.</ce:indexed-name>
+                                    <ce:surname>Golež Kaučič</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Slovenske Ljudske Pesmi. Knjiga 5. Pripovedne Pesmi</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-text>ur., Ljubljana: Založba ZRC, ZRC SAZU</ref-text>
+                        </ref-info>
+                        <ref-fulltext>SLP 5. Marjetka Golež Kaučič idr. (ur.), Slovenske ljudske pesmi. Knjiga 5. Pripovedne pesmi. Ljubljana: Založba ZRC, ZRC SAZU, 2007.</ref-fulltext>
+                    </reference>
+                    <reference id="21">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Probabilistic topic models</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">44649094993</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Steyvers M.</ce:indexed-name>
+                                    <ce:surname>Steyvers</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>T.</ce:initials>
+                                    <ce:indexed-name>Griffths T.</ce:indexed-name>
+                                    <ce:surname>Griffths</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Handbook of Latent Semantic Analysis</ref-sourcetitle>
+                            <ref-publicationyear first="2007"/>
+                            <ref-volisspag>
+                                <pagerange first="424" last="440"/>
+                            </ref-volisspag>
+                            <ref-text>Thomas K. Landauer idr. ur., Lawrence Erlbaum Associates</ref-text>
+                        </ref-info>
+                        <ref-fulltext>STEYVERS, Mark in Thomas Griffths: Probabilistic Topic Models. V: Thomas K. Landauer idr. (ur.), Handbook of Latent Semantic Analysis. Lawrence Erlbaum Associates, 2007, 424-440.</ref-fulltext>
+                    </reference>
+                    <reference id="22">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Novi pristopi. Odkrivanje semantičnih struktur znotraj etnoloških vsebin</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84910143984</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>G.</ce:initials>
+                                    <ce:indexed-name>Strle G.</ce:indexed-name>
+                                    <ce:surname>Strle</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Marolt M.</ce:indexed-name>
+                                    <ce:surname>Marolt</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Glasnik SED</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-volisspag>
+                                <voliss issue="1-2" volume="54"/>
+                                <pagerange first="17" last="22"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>STRLE, Gregor in Matija Marolt: Novi pristopi. Odkrivanje semantičnih struktur znotraj etnoloških vsebin. Glasnik SED 54/1-2, 2014, 17-22.</ref-fulltext>
+                    </reference>
+                    <reference id="23">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>The folklore macroscope</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">84882273625</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>T.R.</ce:initials>
+                                    <ce:indexed-name>Tangherlini T.R.</ce:indexed-name>
+                                    <ce:surname>Tangherlini</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Western Folklore</ref-sourcetitle>
+                            <ref-publicationyear first="2013"/>
+                            <ref-volisspag>
+                                <voliss issue="1" volume="72"/>
+                                <pagerange first="7" last="27"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>TANGHERLINI, Timothy R.: The Folklore Macroscope. Western Folklore 72/1, 2013, 7-27.</ref-fulltext>
+                    </reference>
+                    <reference id="24">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Matlab topic modeling toolbox 1.4</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85042971217</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:indexed-name>Spletni vir 1</ce:indexed-name>
+                                    <ce:surname>Spletni vir 1</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>UCI. Cognitive Scinece Experiments</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://psiexp.ss.uci.edu/research/programs_data/toolbox.htm</ce:e-address>
+                            </ref-website>
+                            <ref-text>18. 2</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Spletni vir 1: Matlab Topic Modeling Toolbox 1.4. UCI. Cognitive Scinece Experiments; http://psiexp. ss.uci.edu/research/programs-data/toolbox.htm, 18. 2. 2014.</ref-fulltext>
+                    </reference>
+                    <reference id="25">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Stanford topic modeling toolbox - Version 0.0.4</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">85042988414</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:indexed-name>Spletni vir 2</ce:indexed-name>
+                                    <ce:surname>Spletni vir 2</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>The Stanford Natural Language Processing Group</ref-sourcetitle>
+                            <ref-publicationyear first="2014"/>
+                            <ref-website>
+                                <ce:e-address type="email">http://nlp.stanford.edu/software/tmt/tmt-0.4</ce:e-address>
+                            </ref-website>
+                            <ref-text>12. 2</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Spletni vir 2: Stanford Topic Modeling Toolbox - Version 0.0.4. The Stanford Natural Language Processing Group; http://nlp. stanford.edu/software/tmt/tmt-0.4/, 12. 2. 2014.</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>

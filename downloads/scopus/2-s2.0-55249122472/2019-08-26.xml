@@ -1,0 +1,205 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/55249122472</prism:url><dc:identifier>SCOPUS_ID:55249122472</dc:identifier><eid>2-s2.0-55249122472</eid><prism:doi>10.1007/978-3-540-87608-3_18</prism:doi><dc:title>Learning positional features for annotating chess games: A case study</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>7</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><source-id>25674</source-id><prism:isbn>3540876073</prism:isbn><prism:isbn>9783540876076</prism:isbn><prism:issn>03029743 16113349</prism:issn><prism:volume>5131 LNCS</prism:volume><prism:startingPage>192</prism:startingPage><prism:endingPage>204</prism:endingPage><prism:pageRange>192-204</prism:pageRange><prism:coverDate>2008-11-07</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="14121297500"><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14121297500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>By developing an intelligent computer system that will provide commentary of chess moves in a comprehensible, user-friendly, and instructive way, we are trying to use the power demonstrated by the current chess engines for tutoring chess and for annotating chess games. In this paper, we point out certain differences between the computer programs which are specialized for playing chess and our program which is aimed at providing quality commentary. Through a case study, we present an application of argument-based machine learning, which combines the techniques of machine learning and expert knowledge, to the construction of more complex positional features, in order to provide our annotating system with an ability to comment on various positional intricacies of positions in the game of chess. © 2008 Springer-Verlag Berlin Heidelberg.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/55249122472" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=55249122472&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=55249122472&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="14121297500"><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/14121297500</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="35409925300"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name><ce:initials>M.</ce:initials><ce:indexed-name>Možina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/35409925300</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="3" auid="23389904000"><ce:initials>J.</ce:initials><ce:indexed-name>Krivec J.</ce:indexed-name><ce:surname>Krivec</ce:surname><ce:given-name>Jana</ce:given-name><preferred-name><ce:initials>J.</ce:initials><ce:indexed-name>Krivec J.</ce:indexed-name><ce:surname>Krivec</ce:surname><ce:given-name>Jana</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/23389904000</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="4" auid="55883901600"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/55883901600</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="5" auid="7003286588"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/7003286588</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Case studies</mainterm><mainterm weight="a" candidate="n">Computer programs</mainterm><mainterm weight="a" candidate="n">Expert knowledges</mainterm><mainterm weight="a" candidate="n">Intelligent computers</mainterm><mainterm weight="a" candidate="n">Machine learnings</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="29" month="10" timestamp="2013-10-29T23:06:13.000013+00:00" year="2013"/><ait:date-sort day="07" month="11" year="2008"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<ce:doi>10.1007/978-3-540-87608-3_18</ce:doi>
+<itemid idtype="PUI">352603528</itemid>
+<itemid idtype="CPX">20084511689715</itemid>
+<itemid idtype="SCP">55249122472</itemid>
+<itemid idtype="SGR">55249122472</itemid>
+</itemidlist><history>
+<date-created day="07" month="11" year="2008"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Learning positional features for annotating chess games: A case study</titletext></citation-title><author-group><author auid="14121297500" seq="1"><ce:initials>M.</ce:initials><ce:indexed-name>Guid M.</ce:indexed-name><ce:surname>Guid</ce:surname><ce:given-name>Matej</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Guid M.</ce:indexed-name>
+<ce:surname>Guid</ce:surname>
+<ce:given-name>Matej</ce:given-name>
+</preferred-name></author><author auid="35409925300" seq="2"><ce:initials>M.</ce:initials><ce:indexed-name>Mozina M.</ce:indexed-name><ce:surname>Možina</ce:surname><ce:given-name>Martin</ce:given-name><preferred-name>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Možina M.</ce:indexed-name>
+<ce:surname>Možina</ce:surname>
+<ce:given-name>Martin</ce:given-name>
+</preferred-name></author><author auid="23389904000" seq="3"><ce:initials>J.</ce:initials><ce:indexed-name>Krivec J.</ce:indexed-name><ce:surname>Krivec</ce:surname><ce:given-name>Jana</ce:given-name><preferred-name>
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Krivec J.</ce:indexed-name>
+<ce:surname>Krivec</ce:surname>
+<ce:given-name>Jana</ce:given-name>
+</preferred-name></author><author auid="55883901600" seq="4"><ce:initials>A.</ce:initials><ce:indexed-name>Sadikov A.</ce:indexed-name><ce:surname>Sadikov</ce:surname><ce:given-name>Aleksander</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Sadikov A.</ce:indexed-name>
+<ce:surname>Sadikov</ce:surname>
+<ce:given-name>Aleksander</ce:given-name>
+</preferred-name></author><author auid="7003286588" seq="5"><ce:initials>I.</ce:initials><ce:indexed-name>Bratko I.</ce:indexed-name><ce:surname>Bratko</ce:surname><ce:given-name>Ivan</ce:given-name><preferred-name>
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+<ce:given-name>Ivan</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580932"><organization>Artificial Intelligence Laboratory</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><country>Slovenia</country></affiliation></author-group><correspondence><person>
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Guid M.</ce:indexed-name>
+<ce:surname>Guid</ce:surname>
+</person><affiliation country="svn"><organization>Artificial Intelligence Laboratory</organization><organization>Faculty of Computer and Information Science</organization><organization>University of Ljubljana</organization><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>By developing an intelligent computer system that will provide commentary of chess moves in a comprehensible, user-friendly, and instructive way, we are trying to use the power demonstrated by the current chess engines for tutoring chess and for annotating chess games. In this paper, we point out certain differences between the computer programs which are specialized for playing chess and our program which is aimed at providing quality commentary. Through a case study, we present an application of argument-based machine learning, which combines the techniques of machine learning and expert knowledge, to the construction of more complex positional features, in order to provide our annotating system with an ability to comment on various positional intricacies of positions in the game of chess. © 2008 Springer-Verlag Berlin Heidelberg.</ce:para>
+</abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><issuetitle>Computers and Games - 6th International Conference, CG 2008, Proceedings</issuetitle><issn type="print">03029743</issn><issn type="electronic">16113349</issn><isbn length="10" level="volume">3540876073</isbn><isbn length="13" level="volume">9783540876076</isbn><volisspag>
+<voliss volume="5131 LNCS"/>
+<pagerange first="192" last="204"/>
+</volisspag><publicationyear first="2008"/><publicationdate>
+<year>2008</year>
+<date-text xfab-added="true">2008</date-text></publicationdate><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>6th International Conference on Computers and Games, CG 2008</confname>
+<conflocation country="chn">
+<city-group>Beijing</city-group>
+</conflocation>
+<confdate>
+<startdate day="29" month="09" year="2008"/>
+<enddate day="01" month="10" year="2008"/>
+</confdate>
+<confcode>74227</confcode>
+<confsponsors complete="n">
+<confsponsor>Beijing Longlife Group</confsponsor>
+<confsponsor>Chinese Association for Artificial Intelligence</confsponsor>
+<confsponsor>Northeastern University</confsponsor>
+<confsponsor>Beijing University of Posts and Telecommunications</confsponsor>
+<confsponsor>Universiteit Maastricht</confsponsor>
+</confsponsors>
+</confevent>
+<confpublication>
+<procpagecount>var.pagings</procpagecount>
+</confpublication>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup>
+<classifications type="ASJC">
+<classification>1700</classification>
+<classification>2614</classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications>
+<classifications type="CPXCLASS">
+<classification>731.5</classification>
+<classification>723.5</classification>
+<classification>723.4</classification>
+<classification>922.1</classification>
+<classification>723</classification>
+<classification>674.1</classification>
+<classification>461.4</classification>
+<classification>722</classification>
+</classifications>
+</classificationgroup></enhancement></head><tail><bibliography refcount="6">
+<reference id="1">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">55249106419</itemid>
+</refd-itemidlist>
+<ref-text>Clark, P., Boswell, R.: Rule induction with CN2: Some recent improvements. In: Kodratoff, Y. (ed.) EWSL 1991. LNCS, 482, pp. 151-163. Springer, Heidelberg (1991)</ref-text>
+</ref-info>
+<ref-fulltext>Clark, P., Boswell, R.: Rule induction with CN2: Some recent improvements. In: Kodratoff, Y. (ed.) EWSL 1991. LNCS, vol. 482, pp. 151-163. Springer, Heidelberg (1991)</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>Argument based machine learning</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">34548011440</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Mozina M.</ce:indexed-name>
+<ce:surname>Mozina</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Zabkar J.</ce:indexed-name>
+<ce:surname>Žabkar</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>I.</ce:initials>
+<ce:indexed-name>Bratko I.</ce:indexed-name>
+<ce:surname>Bratko</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Artificial Intelligence</ref-sourcetitle>
+<ref-publicationyear first="2007"/>
+<ref-volisspag>
+<voliss issue="10-15" volume="171"/>
+<pagerange first="922" last="937"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>Mozina, M., Žabkar, J., Bratko, I.: Argument based machine learning. Artificial Intelligence 171(10/15), 922-937 (2007)</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">55249087172</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Nimzovich A.</ce:indexed-name>
+<ce:surname>Nimzovich</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>The Blockade</ref-sourcetitle>
+<ref-publicationyear first="2006"/>
+<ref-text>Republished by Hardinge Simpole Limited</ref-text>
+</ref-info>
+<ref-fulltext>Nimzovich. A.: The Blockade. Republished by Hardinge Simpole Limited (2006)</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Handbook of Philosophical Logic</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0011112281</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>H.</ce:initials>
+<ce:indexed-name>Prakken H.</ce:indexed-name>
+<ce:surname>Prakken</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>G.</ce:initials>
+<ce:indexed-name>Vreeswijk G.</ce:indexed-name>
+<ce:surname>Vreeswijk</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>chapter Logics for Defeasible Argumentation</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<voliss volume="4"/>
+<pagerange first="218" last="319"/>
+</ref-volisspag>
+<ref-text>2nd edn, Kluwer Academic Publishers, Dordrecht</ref-text>
+</ref-info>
+<ref-fulltext>Prakken, H., Vreeswijk. G.: Handbook of Philosophical Logic. In: chapter Logics for Defeasible Argumentation, 2nd edn., vol. 4, pp. 218-319. Kluwer Academic Publishers, Dordrecht (2002)</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">55249113155</itemid>
+</refd-itemidlist>
+<ref-text>Sadikov, A., Možina, M., Guid, M., Krivec, J., Bratko, I.: Automated chess tutor. In: van den Herik, H.J., Ciancarini, P., Donkers, H.H.L.M(J.) (eds.) CG 2006. LNCS, 4630. pp. 13-25. Springer, Heidelberg (2006)</ref-text>
+</ref-info>
+<ref-fulltext>Sadikov, A., Možina, M., Guid, M., Krivec, J., Bratko, I.: Automated chess tutor. In: van den Herik, H.J., Ciancarini, P., Donkers, H.H.L.M(J.) (eds.) CG 2006. LNCS, vol. 4630. pp. 13-25. Springer, Heidelberg (2006)</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">2942658571</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>J.</ce:initials>
+<ce:indexed-name>Watson J.</ce:indexed-name>
+<ce:surname>Watson</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Secrets of Modern Chess Strategy</ref-sourcetitle>
+<ref-publicationyear first="1999"/>
+<ref-text>Gambit Publications</ref-text>
+</ref-info>
+<ref-fulltext>Watson, J.: Secrets of Modern Chess Strategy. Gambit Publications (1999)</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

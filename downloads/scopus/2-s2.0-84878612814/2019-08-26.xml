@@ -1,0 +1,382 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/84878612814</prism:url><dc:identifier>SCOPUS_ID:84878612814</dc:identifier><eid>2-s2.0-84878612814</eid><dc:title>Fast recovery of piled deformable objects using superquadrics</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><source-id>25674</source-id><prism:isbn>354044209X</prism:isbn><prism:isbn>9783540442097</prism:isbn><prism:issn>03029743 16113349</prism:issn><prism:volume>2449 LNCS</prism:volume><prism:startingPage>174</prism:startingPage><prism:endingPage>181</prism:endingPage><prism:pageRange>174-181</prism:pageRange><prism:coverDate>2002-12-01</prism:coverDate><openaccess/><openaccessFlag/><dc:creator><author seq="1" auid="56632261700"><ce:initials>D.</ce:initials><ce:indexed-name>Katsoulas D.</ce:indexed-name><ce:surname>Katsoulas</ce:surname><ce:given-name>Dimitrios</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Katsoulas D.</ce:indexed-name><ce:surname>Katsoulas</ce:surname><ce:given-name>Dimitrios</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56632261700</author-url><affiliation id="60025641" href="https://api.elsevier.com/content/affiliation/affiliation_id/60025641"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+<ce:para>Fast robotic unloading of piled deformable box-like objects (e.g. box-like sacks), is undoubtedly of great importance to the industry. Existing systems although fast, can only deal with layered, neatly placed configurations of such objects. In this paper we discuss an approach which deals with both neatly placed and jumbled configurations of objects. We use a time of flight laser sensor mounted on the hand of a robot for data acquisition. Target objects are modeled with globally deformed superquadrics. Object vertices are detected and superquadric seeds are placed at these vertices. Seed refinement via region growing results in accurate object recovery. Our system exhibits a plethora of advantages the most important of which its speed. Experiments demonstrate that our system can be used for object unloading in real time, when a multi-processor computer is employed. © Springer-Verlag Berlin Heidelberg 2002.</ce:para>
+</abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/84878612814" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=84878612814&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=84878612814&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><affiliation id="60025641" href="https://api.elsevier.com/content/affiliation/affiliation_id/60025641"><affilname>Universität Freiburg im Breisgau</affilname><affiliation-city>Freiburg im Breisgau</affiliation-city><affiliation-country>Germany</affiliation-country></affiliation><authors><author seq="1" auid="56632261700"><ce:initials>D.</ce:initials><ce:indexed-name>Katsoulas D.</ce:indexed-name><ce:surname>Katsoulas</ce:surname><ce:given-name>Dimitrios</ce:given-name><preferred-name><ce:initials>D.</ce:initials><ce:indexed-name>Katsoulas D.</ce:indexed-name><ce:surname>Katsoulas</ce:surname><ce:given-name>Dimitrios</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/56632261700</author-url><affiliation id="60025641" href="https://api.elsevier.com/content/affiliation/affiliation_id/60025641"/></author><author seq="2" auid="6602116623"><ce:initials>A.</ce:initials><ce:indexed-name>Jaklic A.</ce:indexed-name><ce:surname>Jaklič</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name><ce:initials>A.</ce:initials><ce:indexed-name>Jaklič A.</ce:indexed-name><ce:surname>Jaklič</ce:surname><ce:given-name>Aleš</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/6602116623</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Deformable object</mainterm><mainterm weight="a" candidate="n">Existing systems</mainterm><mainterm weight="a" candidate="n">Fast recovery</mainterm><mainterm weight="a" candidate="n">Multi-processors</mainterm><mainterm weight="a" candidate="n">Object recovery</mainterm><mainterm weight="a" candidate="n">Object vertices</mainterm><mainterm weight="a" candidate="n">Region growing</mainterm><mainterm weight="a" candidate="n">Time of flight</mainterm><mainterm weight="b" candidate="n">Deformable object</mainterm><mainterm weight="b" candidate="n">Existing systems</mainterm><mainterm weight="b" candidate="n">Fast recovery</mainterm><mainterm weight="b" candidate="n">Multi-processors</mainterm><mainterm weight="b" candidate="n">Object recovery</mainterm><mainterm weight="b" candidate="n">Object vertices</mainterm><mainterm weight="b" candidate="n">Region growing</mainterm><mainterm weight="b" candidate="n">Time of flight</mainterm></idxterms><subject-areas><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="16" month="11" timestamp="2015-11-16T16:28:42.000042+00:00" year="2015"/><ait:date-sort day="01" month="12" year="2002"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2013 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+<itemid idtype="PUI">369051305</itemid>
+<itemid idtype="CPX">20132416411559</itemid>
+<itemid idtype="CAR-ID">641519289</itemid>
+<itemid idtype="SCP">84878612814</itemid>
+<itemid idtype="SGR">84878612814</itemid>
+<itemid idtype="PUIsecondary">606666940</itemid></itemidlist><history>
+<date-created day="10" month="06" year="2013"/>
+</history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Fast recovery of piled deformable objects using superquadrics</titletext></citation-title><author-group><author auid="56632261700" seq="1"><ce:initials>D.</ce:initials><ce:indexed-name>Katsoulas D.</ce:indexed-name><ce:surname>Katsoulas</ce:surname><ce:given-name>Dimitrios</ce:given-name><preferred-name>
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Katsoulas D.</ce:indexed-name>
+<ce:surname>Katsoulas</ce:surname>
+<ce:given-name>Dimitrios</ce:given-name>
+</preferred-name></author><affiliation afid="60025641" country="deu"><organization>Institute for Pattern Recognition and Image Processing</organization><organization>University of Freiburg</organization><address-part>Georges-Koehler-Allee 52</address-part><city-group>D-79110 Freiburg</city-group><country>Germany</country></affiliation></author-group><author-group><author auid="6602116623" seq="2"><ce:initials>A.</ce:initials><ce:indexed-name>Jaklic A.</ce:indexed-name><ce:surname>Jaklič</ce:surname><ce:given-name>Aleš</ce:given-name><preferred-name>
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Jaklič A.</ce:indexed-name>
+<ce:surname>Jaklič</ce:surname>
+<ce:given-name>Aleš</ce:given-name>
+</preferred-name></author><affiliation afid="60031106" country="svn" dptid="104580862"><organization>Computer Vision Laboratory</organization><organization>University of Ljubljana</organization><address-part>Tržaška cesta 25</address-part><city-group>SI-1000 Ljubljana</city-group><country>Slovenia</country></affiliation></author-group><correspondence><affiliation country="deu"><organization>Institute for Pattern Recognition and Image Processing</organization><organization>University of Freiburg</organization><address-part>Georges-Koehler-Allee 52</address-part><city-group>D-79110 Freiburg</city-group><country>Germany</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+<ce:para>Fast robotic unloading of piled deformable box-like objects (e.g. box-like sacks), is undoubtedly of great importance to the industry. Existing systems although fast, can only deal with layered, neatly placed configurations of such objects. In this paper we discuss an approach which deals with both neatly placed and jumbled configurations of objects. We use a time of flight laser sensor mounted on the hand of a robot for data acquisition. Target objects are modeled with globally deformed superquadrics. Object vertices are detected and superquadric seeds are placed at these vertices. Seed refinement via region growing results in accurate object recovery. Our system exhibits a plethora of advantages the most important of which its speed. Experiments demonstrate that our system can be used for object unloading in real time, when a multi-processor computer is employed. © Springer-Verlag Berlin Heidelberg 2002.</ce:para>
+</abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><issuetitle>Pattern Recognition - 24th DAGM Symposium, Proceedings</issuetitle><issn type="print">03029743</issn><issn type="electronic">16113349</issn><isbn length="10" level="volume">354044209X</isbn><isbn length="13" level="volume">9783540442097</isbn><volisspag>
+<voliss volume="2449 LNCS"/>
+<pagerange first="174" last="181"/>
+</volisspag><publicationyear first="2002"/><publicationdate>
+<year>2002</year>
+<date-text xfab-added="true">2002</date-text></publicationdate><additional-srcinfo>
+<conferenceinfo>
+<confevent>
+<confname>24th Symposium of the German Pattern Recognition Association, DAGM 2002</confname>
+<conflocation country="che">
+<city-group>Zurich</city-group>
+</conflocation>
+<confdate>
+<startdate day="16" month="09" year="2002"/>
+<enddate day="18" month="09" year="2002"/>
+</confdate>
+<confcode>97302</confcode>
+</confevent>
+<confpublication>
+<procpagerange>var.pagings</procpagerange>
+</confpublication>
+</conferenceinfo>
+</additional-srcinfo></source><enhancement><classificationgroup><classifications type="ASJC">
+<classification>1700</classification>
+<classification>2614</classification>
+</classifications><classifications type="CPXCLASS">
+<classification> <classification-code>421</classification-code> <classification-description>Strength of Building Materials; Mechanical Properties</classification-description> </classification>
+<classification> <classification-code>422</classification-code> <classification-description>Strength of Building Materials; Test Equipment and Methods</classification-description> </classification>
+<classification> <classification-code>674.1</classification-code> <classification-description>Small Marine Craft</classification-description> </classification>
+<classification> <classification-code>716</classification-code> <classification-description>Electronic Equipment, Radar, Radio and Television</classification-description> </classification>
+<classification> <classification-code>691.2</classification-code> <classification-description>Materials Handling Methods</classification-description> </classification>
+<classification> <classification-code>723.2</classification-code> <classification-description>Data Processing</classification-description> </classification>
+</classifications><classifications type="GEOCLASS">
+<classification> <classification-code>Related Topics</classification-code> </classification>
+</classifications><classifications type="FLXCLASS">
+<classification> <classification-code>902</classification-code> <classification-description>FLUIDEX; Related Topics</classification-description> </classification>
+</classifications><classifications type="SUBJABBR"><classification>COMP</classification><classification>MATH</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="11">
+<reference id="1">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004167361</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.J.</ce:initials>
+<ce:indexed-name>Baerveldt A.J.</ce:indexed-name>
+<ce:surname>Baerveldt</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Robust Singulation of Parcels with a Robot System Using Multiple Sensors</ref-sourcetitle>
+<ref-publicationyear first="1993"/>
+<ref-text>PhDthesis, Swiss federal institute of technology</ref-text>
+</ref-info>
+<ref-fulltext>A.J. Baerveldt. Robust Singulation of Parcels with a Robot System using multiple sensors. PhDthesis, Swiss federal institute of technology, 1993.</ref-fulltext>
+</reference>
+<reference id="2">
+<ref-info>
+<ref-title>
+<ref-titletext>A robot vision system for recognizing 3-dobjects in low-order polynomial time</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0024771615</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>C.H.</ce:initials>
+<ce:indexed-name>Chen C.H.</ce:indexed-name>
+<ce:surname>Chen</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.C.</ce:initials>
+<ce:indexed-name>Kak A.C.</ce:indexed-name>
+<ce:surname>Kak</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Systems, Man, and Cybernetics</ref-sourcetitle>
+<ref-publicationyear first="1989"/>
+<ref-volisspag>
+<voliss issue="6" volume="19"/>
+<pagerange first="1535" last="1563"/>
+</ref-volisspag>
+<ref-text>November-December</ref-text>
+</ref-info>
+<ref-fulltext>C. H. Chen and A. C. Kak. A robot vision system for recognizing 3-Dobjects in low-order polynomial time. IEEE Transactions on Systems, Man, and Cybernetics, 19(6): 1535-1563, November-December 1989.</ref-fulltext>
+</reference>
+<reference id="3">
+<ref-info>
+<refd-itemidlist>
+<itemid idtype="SGR">0004217902</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Jaklic A.</ce:indexed-name>
+<ce:surname>Jaklič</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Segmentation and Recovery of Superquadrics, Volume 20 of Computational Imaging and Vision</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+<ref-text>Kluwer Academic Publishers, Dordrecht</ref-text>
+</ref-info>
+<ref-fulltext>A. Jaklič, A. Leonardis, and F. Solina. Segmentation and recovery of Superquadrics, volume 20 of Computational imaging and vision. Kluwer Academic Publishers, Dordrecht, 2000.</ref-fulltext>
+</reference>
+<reference id="4">
+<ref-info>
+<ref-title>
+<ref-titletext>Recognition strategies for 3-d objects in occluded environment</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">84878579991</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.C.</ce:initials>
+<ce:indexed-name>Kak A.C.</ce:indexed-name>
+<ce:surname>Kak</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.J.</ce:initials>
+<ce:indexed-name>Vayda A.J.</ce:indexed-name>
+<ce:surname>Vayda</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>K.D.</ce:initials>
+<ce:indexed-name>Smith K.D.</ce:indexed-name>
+<ce:surname>Smith</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>C.H.</ce:initials>
+<ce:indexed-name>Chen C.H.</ce:indexed-name>
+<ce:surname>Chen</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Traditional and Non-Traditional Robotic Sensors, Volume F 63 of NATO Advanced Research Workshop Series</ref-sourcetitle>
+<ref-publicationyear first="1990"/>
+<ref-volisspag>
+<pagerange first="365" last="401"/>
+</ref-volisspag>
+<ref-text>T. C. Henderson, editor Springer-Verlag, Berlin</ref-text>
+</ref-info>
+<ref-fulltext>A.C. Kak, A.J. Vayda, K.D. Smith, and C.H. Chen. Recognition strategies for 3-d objects in occluded environment. In T. C. Henderson, editor, Traditional and Non-Traditional Robotic Sensors, volume F 63 of NATO Advanced Research Workshop Series, pages 365-401. Springer-Verlag, Berlin, 1990.</ref-fulltext>
+</reference>
+<reference id="5">
+<ref-info>
+<ref-title>
+<ref-titletext>A versatile depalletizer of boxes based on range imagery</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0036057529</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Katsoulas D.</ce:indexed-name>
+<ce:surname>Katsoulas</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Bergen L.</ce:indexed-name>
+<ce:surname>Bergen</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>L.</ce:initials>
+<ce:indexed-name>Tassakos L.</ce:indexed-name>
+<ce:surname>Tassakos</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA-2002)</ref-sourcetitle>
+<ref-publicationyear first="2002"/>
+<ref-volisspag>
+<pagerange first="4313" last="4319"/>
+</ref-volisspag>
+<ref-text>Washington D.C. IEEE Robotics and Automation Society, May 11-15</ref-text>
+</ref-info>
+<ref-fulltext>D. Katsoulas, L. Bergen, and L. Tassakos. A versatile depalletizer of boxes based on range imagery. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA-2002), Washington D.C., pages 4313-4319. IEEE Robotics and Automation Society, May 11-15 2002.</ref-fulltext>
+</reference>
+<reference id="6">
+<ref-info>
+<ref-title>
+<ref-titletext>Visionary automation of sack handling and emptying</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0034469517</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Kavoussanos M.</ce:indexed-name>
+<ce:surname>Kavoussanos</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Pouliezos A.</ce:indexed-name>
+<ce:surname>Pouliezos</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Robotics and Automation Magazine</ref-sourcetitle>
+<ref-publicationyear first="2000"/>
+</ref-info>
+<ref-fulltext>M. Kavoussanos and A. Pouliezos. Visionary automation of sack handling and emptying. IEEE Robotics and Automation Magazine, 2000.</ref-fulltext>
+</reference>
+<reference id="7">
+<ref-info>
+<ref-title>
+<ref-titletext>Bin-picking with a solid state range camera</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0035973334</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Kristensen S.</ce:indexed-name>
+<ce:surname>Kristensen</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>S.</ce:initials>
+<ce:indexed-name>Estable S.</ce:indexed-name>
+<ce:surname>Estable</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>M.</ce:initials>
+<ce:indexed-name>Kossow M.</ce:indexed-name>
+<ce:surname>Kossow</ce:surname>
+</author>
+<author seq="4">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Brosel R.</ce:indexed-name>
+<ce:surname>Brosel</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Robotics and Autonomous Systems</ref-sourcetitle>
+<ref-publicationyear first="2001"/>
+</ref-info>
+<ref-fulltext>S. Kristensen, S. Estable, M. Kossow, and R. Brosel. Bin-picking with a solid state range camera. Robotics and autonomous systems, 2001.</ref-fulltext>
+</reference>
+<reference id="8">
+<ref-info>
+<ref-title>
+<ref-titletext>Superquadrics for segmenting and modelling range data</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0031276159</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Leonardis A.</ce:indexed-name>
+<ce:surname>Leonardis</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>A.</ce:initials>
+<ce:indexed-name>Jaklic A.</ce:indexed-name>
+<ce:surname>Jaklic</ce:surname>
+</author>
+<author seq="3">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on PAMI</ref-sourcetitle>
+<ref-publicationyear first="1997"/>
+<ref-volisspag>
+<voliss issue="11" volume="19"/>
+<pagerange first="1289" last="1295"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>A. Leonardis, A. Jaklic, and F. Solina. Superquadrics for segmenting and modelling range data. IEEE Transactions on PAMI, 19(11): 1289-1295, 1997.</ref-fulltext>
+</reference>
+<reference id="9">
+<ref-info>
+<ref-title>
+<ref-titletext>Robot gains eyesight</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0344960488</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>D.</ce:initials>
+<ce:indexed-name>Newcorn D.</ce:indexed-name>
+<ce:surname>Newcorn</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>Packaging World</ref-sourcetitle>
+<ref-publicationyear first="1998"/>
+</ref-info>
+<ref-fulltext>D. Newcorn. Robot gains eyesight. Packaging World, 1998.</ref-fulltext>
+</reference>
+<reference id="10">
+<ref-info>
+<ref-title>
+<ref-titletext>Recovery of parametric models from range images: The case for superquadrics with global deformations</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0025384284</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>F.</ce:initials>
+<ce:indexed-name>Solina F.</ce:indexed-name>
+<ce:surname>Solina</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>R.</ce:initials>
+<ce:indexed-name>Bajcsy R.</ce:indexed-name>
+<ce:surname>Bajcsy</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1990"/>
+<ref-volisspag>
+<voliss issue="2" volume="12"/>
+<pagerange first="131" last="147"/>
+</ref-volisspag>
+</ref-info>
+<ref-fulltext>F. Solina and R. Bajcsy. Recovery of parametric models from range images: The case for superquadrics with global deformations. IEEE Transactions on Pattern Analysis and Machine Intelligence, 12(2): 131-147, 1990.</ref-fulltext>
+</reference>
+<reference id="11">
+<ref-info>
+<ref-title>
+<ref-titletext>From uncertainty to visual exploration</ref-titletext>
+</ref-title>
+<refd-itemidlist>
+<itemid idtype="SGR">0026240470</itemid>
+</refd-itemidlist>
+<ref-authors>
+<author seq="1">
+<ce:initials>P.</ce:initials>
+<ce:indexed-name>Whaite P.</ce:indexed-name>
+<ce:surname>Whaite</ce:surname>
+</author>
+<author seq="2">
+<ce:initials>P.F.</ce:initials>
+<ce:indexed-name>Ferrie P.F.</ce:indexed-name>
+<ce:surname>Ferrie</ce:surname>
+</author>
+</ref-authors>
+<ref-sourcetitle>IEEE Transactions on Pattern Analysis and Machine Intelligence</ref-sourcetitle>
+<ref-publicationyear first="1991"/>
+<ref-volisspag>
+<voliss issue="10" volume="13"/>
+<pagerange first="1038" last="1049"/>
+</ref-volisspag>
+<ref-text>October</ref-text>
+</ref-info>
+<ref-fulltext>P. Whaite and F. P. Ferrie. From uncertainty to visual exploration. IEEE Transactions on Pattern Analysis and Machine Intelligence, 13(10): 1038-1049, October 1991.</ref-fulltext>
+</reference>
+</bibliography></tail></bibrecord></item></abstracts-retrieval-response>

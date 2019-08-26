@@ -1,0 +1,273 @@
+<abstracts-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:dn="http://www.elsevier.com/xml/svapi/abstract/dtd" xmlns:ait="http://www.elsevier.com/xml/ani/ait" xmlns:ce="http://www.elsevier.com/xml/ani/common" xmlns:cto="http://www.elsevier.com/xml/cto/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/abstract/scopus_id/52949147440</prism:url><dc:identifier>SCOPUS_ID:52949147440</dc:identifier><eid>2-s2.0-52949147440</eid><prism:doi>10.1007/978-3-540-85836-2_26</prism:doi><dc:title>Towards a model independent method for explaining classification for individual instances</dc:title><prism:aggregationType>Book Series</prism:aggregationType><srctype>k</srctype><subtype>cp</subtype><subtypeDescription>Conference Paper</subtypeDescription><citedby-count>3</citedby-count><prism:publicationName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</prism:publicationName><source-id>25674</source-id><prism:isbn>3540858350</prism:isbn><prism:isbn>9783540858355</prism:isbn><prism:issn>03029743 16113349</prism:issn><prism:volume>5182 LNCS</prism:volume><prism:startingPage>273</prism:startingPage><prism:endingPage>282</prism:endingPage><prism:pageRange>273-282</prism:pageRange><prism:coverDate>2008-10-06</prism:coverDate><openaccess>0</openaccess><openaccessFlag>false</openaccessFlag><dc:creator><author seq="1" auid="57204664304"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Štrumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204664304</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></dc:creator><dc:description><abstract xmlns="" original="y" xml:lang="eng">
+                        <ce:para>Recently, a method for explaining the model's decision for an instance was introduced by Robnik-Šikonja and Kononenko. It is a rare example of a model-independent explanation method. In this paper we make a step towards formalization of the model-independent explanation methods by defining the criteria and a testing environment for such methods. We extensively test the aforementioned method and its variations. The results confirm some of the qualities of the original method as well as expose several of its shortcomings. We propose a new method, based on attribute interactions, that overcomes the shortcomings of the original method and serves as a theoretical framework for further work. © 2008 Springer-Verlag Berlin Heidelberg.</ce:para>
+                    </abstract></dc:description><link href="https://api.elsevier.com/content/abstract/scopus_id/52949147440" rel="self"/><link href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=52949147440&amp;origin=inward" rel="scopus"/><link href="https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&amp;scp=52949147440&amp;origin=inward" rel="scopus-citedby"/></coredata><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"><affilname>University of Ljubljana</affilname><affiliation-city>Ljubljana</affiliation-city><affiliation-country>Slovenia</affiliation-country></affiliation><authors><author seq="1" auid="57204664304"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name><ce:initials>E.</ce:initials><ce:indexed-name>Štrumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57204664304</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author><author seq="2" auid="57188535146"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name></preferred-name><author-url>https://api.elsevier.com/content/author/author_id/57188535146</author-url><affiliation id="60031106" href="https://api.elsevier.com/content/affiliation/affiliation_id/60031106"/></author></authors><language xml:lang="eng"/><authkeywords/><idxterms><mainterm weight="a" candidate="n">Attribute interactions</mainterm><mainterm weight="a" candidate="n">Data warehousing</mainterm><mainterm weight="a" candidate="n">International conferences</mainterm><mainterm weight="a" candidate="n">Knowledge discovery</mainterm><mainterm weight="a" candidate="n">Model independent</mainterm><mainterm weight="a" candidate="n">Testing environment</mainterm></idxterms><subject-areas><subject-area code="2614" abbrev="MATH">Theoretical Computer Science</subject-area><subject-area code="1700" abbrev="COMP">Computer Science (all)</subject-area></subject-areas><item xmlns=""><ait:process-info><ait:date-delivered day="22" month="11" timestamp="2018-11-22T14:38:41.000041-05:00" year="2018"/><ait:date-sort day="06" month="10" year="2008"/><ait:status stage="S300" state="update" type="core"/></ait:process-info><bibrecord><item-info><copyright type="Elsevier">Copyright 2008 Elsevier B.V., All rights reserved.</copyright><itemidlist>
+                    <ce:doi>10.1007/978-3-540-85836-2_26</ce:doi>
+                    <itemid idtype="PUI">352442451</itemid>
+                    <itemid idtype="CPX">20084111628014</itemid>
+                    <itemid idtype="SCP">52949147440</itemid>
+                    <itemid idtype="SGR">52949147440</itemid>
+                </itemidlist><history>
+                    <date-created day="06" month="10" year="2008"/>
+                </history><dbcollection>CPX</dbcollection><dbcollection>Scopusbase</dbcollection></item-info><head><citation-info><citation-type code="cp"/><citation-language xml:lang="eng" language="English"/><abstract-language xml:lang="eng" language="English"/></citation-info><citation-title><titletext original="y" xml:lang="eng" language="English">Towards a model independent method for explaining classification for individual instances</titletext></citation-title><author-group><author auid="57204664304" seq="1"><ce:initials>E.</ce:initials><ce:indexed-name>Strumbelj E.</ce:indexed-name><ce:surname>Štrumbelj</ce:surname><ce:given-name>Erik</ce:given-name><preferred-name>
+                            <ce:initials>E.</ce:initials>
+                            <ce:indexed-name>Štrumbelj E.</ce:indexed-name>
+                            <ce:surname>Štrumbelj</ce:surname>
+                            <ce:given-name>Erik</ce:given-name>
+                        </preferred-name></author><author auid="57188535146" seq="2"><ce:initials>I.</ce:initials><ce:indexed-name>Kononenko I.</ce:indexed-name><ce:surname>Kononenko</ce:surname><ce:given-name>Igor</ce:given-name><preferred-name>
+                            <ce:initials>I.</ce:initials>
+                            <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                            <ce:surname>Kononenko</ce:surname>
+                            <ce:given-name>Igor</ce:given-name>
+                        </preferred-name></author><affiliation afid="60031106" country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><affiliation-id afid="60031106"/><country>Slovenia</country></affiliation></author-group><correspondence><person>
+                        <ce:initials>E.</ce:initials>
+                        <ce:indexed-name>Strumbelj E.</ce:indexed-name>
+                        <ce:surname>Štrumbelj</ce:surname>
+                    </person><affiliation country="svn"><organization>University of Ljubljana</organization><organization>Faculty of Computer and Information Science</organization><address-part>Tržaška 25</address-part><city-group>1000 Ljubljana</city-group><country>Slovenia</country></affiliation></correspondence><abstracts><abstract original="y" xml:lang="eng">
+                        <ce:para>Recently, a method for explaining the model's decision for an instance was introduced by Robnik-Šikonja and Kononenko. It is a rare example of a model-independent explanation method. In this paper we make a step towards formalization of the model-independent explanation methods by defining the criteria and a testing environment for such methods. We extensively test the aforementioned method and its variations. The results confirm some of the qualities of the original method as well as expose several of its shortcomings. We propose a new method, based on attribute interactions, that overcomes the shortcomings of the original method and serves as a theoretical framework for further work. © 2008 Springer-Verlag Berlin Heidelberg.</ce:para>
+                    </abstract></abstracts><source country="deu" srcid="25674" type="k"><sourcetitle>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</sourcetitle><sourcetitle-abbrev>Lect. Notes Comput. Sci.</sourcetitle-abbrev><issuetitle>Data Warehousing and Knowledge Discovery - 10th International Conference, DaWaK 2008, Proceedings</issuetitle><issn type="print">03029743</issn><issn type="electronic">16113349</issn><isbn length="10" level="volume">3540858350</isbn><isbn length="13" level="volume">9783540858355</isbn><volisspag>
+                        <voliss volume="5182 LNCS"/>
+                        <pagerange first="273" last="282"/>
+                    </volisspag><publicationyear first="2008"/><publicationdate>
+                        <year>2008</year>
+                    <date-text xfab-added="true">2008</date-text></publicationdate><additional-srcinfo>
+                        <conferenceinfo>
+                            <confevent>
+                                <confname>10th International Conference on Data Warehousing and Knowledge Discovery, DaWaK 2008</confname>
+                                <conflocation country="ita">
+                                    <city-group>Turin</city-group>
+                                </conflocation>
+                                <confdate>
+                                    <startdate day="02" month="09" year="2008"/>
+                                    <enddate day="05" month="09" year="2008"/>
+                                </confdate>
+                                <confcode>73783</confcode>
+                            </confevent>
+                            <confpublication>
+                                <procpagecount>var.pagings</procpagecount>
+                            </confpublication>
+                        </conferenceinfo>
+                    </additional-srcinfo></source><enhancement><classificationgroup><classifications type="CPXCLASS">
+                            <classification>723.2</classification>
+                            <classification>723.4.1</classification>
+                        </classifications><classifications type="ASJC">
+                            <classification>2614</classification>
+                            <classification>1700</classification>
+                        </classifications><classifications type="SUBJABBR"><classification>MATH</classification><classification>COMP</classification></classifications></classificationgroup></enhancement></head><tail><bibliography refcount="10">
+                    <reference id="1">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Survey and Critique of Techniques for Extracting Rules from Trained Artificial Neural Networks</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0029484103</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>R.</ce:initials>
+                                    <ce:indexed-name>Andrews R.</ce:indexed-name>
+                                    <ce:surname>Andrews</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Knowledge-Based Systems</ref-sourcetitle>
+                            <ref-publicationyear first="1995"/>
+                            <ref-volisspag>
+                                <voliss volume="8"/>
+                                <pagerange first="373" last="389"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Andrews, R., et al.: Survey and Critique of Techniques for Extracting Rules from Trained Artificial Neural Networks. Knowledge-Based Systems 8, 373-389 (1995)</ref-fulltext>
+                    </reference>
+                    <reference id="2">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Random Forests</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0035478854</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Breiman L.</ce:indexed-name>
+                                    <ce:surname>Breiman</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning Journal</ref-sourcetitle>
+                            <ref-publicationyear first="2001"/>
+                            <ref-volisspag>
+                                <voliss volume="42"/>
+                                <pagerange first="5" last="32"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Breiman, L.: Random Forests. Machine Learning Journal 42, 5-32 (2001)</ref-fulltext>
+                    </reference>
+                    <reference id="3">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">0004282950</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>I.J.</ce:initials>
+                                    <ce:indexed-name>Good I.J.</ce:indexed-name>
+                                    <ce:surname>Good</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Probability and the Weighing of Evidence</ref-sourcetitle>
+                            <ref-publicationyear first="1950"/>
+                            <ref-text>C. Griffin, London</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Good, I.J.: Probability and the Weighing of Evidence. C. Griffin, London (1950)</ref-fulltext>
+                    </reference>
+                    <reference id="4">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Grid Visualization of Support Vector Machines with Unsupervised Learning</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">50249158464</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>L.</ce:initials>
+                                    <ce:indexed-name>Hamel L.</ce:indexed-name>
+                                    <ce:surname>Hamel</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of 2006 IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                            <ref-volisspag>
+                                <pagerange first="1" last="8"/>
+                            </ref-volisspag>
+                            <ref-text>Toronto, Canada, pp</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Hamel, L.: Grid Visualization of Support Vector Machines with Unsupervised Learning. In: Proceedings of 2006 IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology, Toronto, Canada, pp. 1-8 (2006)</ref-fulltext>
+                    </reference>
+                    <reference id="5">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">35348928433</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jakulin A.</ce:indexed-name>
+                                    <ce:surname>Jakulin</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>Machine Learning Based on Attribute Interactions</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-text>PhD Thesis. University of Ljubljana, Faculty of Computer and Information Science</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jakulin, A.: Machine Learning Based on Attribute Interactions. PhD Thesis. University of Ljubljana, Faculty of Computer and Information Science (2005)</ref-fulltext>
+                    </reference>
+                    <reference id="6">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Grid Nomograms for Visualizing Support Vector Machines</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">32344441116</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>A.</ce:initials>
+                                    <ce:indexed-name>Jakulin A.</ce:indexed-name>
+                                    <ce:surname>Jakulin</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>KDD 2005: Proceeding of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining</ref-sourcetitle>
+                            <ref-publicationyear first="2005"/>
+                            <ref-volisspag>
+                                <pagerange first="108" last="117"/>
+                            </ref-volisspag>
+                            <ref-text>Chicago, Illinois, USA, pp</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Jakulin, A., et al.: Grid Nomograms for Visualizing Support Vector Machines. In: KDD 2005: Proceeding of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining, Chicago, Illinois, USA, pp. 108-117 (2005)</ref-fulltext>
+                    </reference>
+                    <reference id="7">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Multivariate Information Transmission</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949098614</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>W.</ce:initials>
+                                    <ce:indexed-name>McGill W.</ce:indexed-name>
+                                    <ce:surname>McGill</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE Transactions on Information Theory</ref-sourcetitle>
+                            <ref-publicationyear first="1981"/>
+                            <ref-volisspag>
+                                <voliss volume="4"/>
+                                <pagerange first="195" last="197"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>McGill, W.: Multivariate Information Transmission. IEEE Transactions on Information Theory 4, 195-197 (1981)</ref-fulltext>
+                    </reference>
+                    <reference id="8">
+                        <ref-info>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949137636</itemid>
+                            </refd-itemidlist>
+                            <ref-text>Mozina, M., et al.: Nomograms for Visualization of Naive Bayesian Classifier. In: Boulicaut, J.-F., Esposito, F., Giannotti, F., Pedreschi, D. (eds.) PKDD 2004. LNCS (LNAI), 3202, pp. 337-348. Springer, Heidelberg (2004)</ref-text>
+                        </ref-info>
+                        <ref-fulltext>Mozina, M., et al.: Nomograms for Visualization of Naive Bayesian Classifier. In: Boulicaut, J.-F., Esposito, F., Giannotti, F., Pedreschi, D. (eds.) PKDD 2004. LNCS (LNAI), vol. 3202, pp. 337-348. Springer, Heidelberg (2004)</ref-fulltext>
+                    </reference>
+                    <reference id="9">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Explaining Classifications for Individual Instances</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949101606</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>M.</ce:initials>
+                                    <ce:indexed-name>Robnik-Sikonja M.</ce:indexed-name>
+                                    <ce:surname>Robnik-Šikonja</ce:surname>
+                                </author>
+                                <author seq="2">
+                                    <ce:initials>I.</ce:initials>
+                                    <ce:indexed-name>Kononenko I.</ce:indexed-name>
+                                    <ce:surname>Kononenko</ce:surname>
+                                </author>
+                            </ref-authors>
+                            <ref-sourcetitle>IEEE TKDE</ref-sourcetitle>
+                            <ref-publicationyear first="2008"/>
+                            <ref-volisspag>
+                                <voliss issue="5" volume="20"/>
+                                <pagerange first="589" last="600"/>
+                            </ref-volisspag>
+                        </ref-info>
+                        <ref-fulltext>Robnik-Šikonja, M., Kononenko, I.: Explaining Classifications for Individual Instances. IEEE TKDE 20(5), 589-600 (2008)</ref-fulltext>
+                    </reference>
+                    <reference id="10">
+                        <ref-info>
+                            <ref-title>
+                                <ref-titletext>Visual Explanation of Evidence in Additive Classifiers</ref-titletext>
+                            </ref-title>
+                            <refd-itemidlist>
+                                <itemid idtype="SGR">52949151416</itemid>
+                            </refd-itemidlist>
+                            <ref-authors>
+                                <author seq="1">
+                                    <ce:initials>D.</ce:initials>
+                                    <ce:indexed-name>Szafron D.</ce:indexed-name>
+                                    <ce:surname>Szafron</ce:surname>
+                                </author>
+                                <et-al/>
+                            </ref-authors>
+                            <ref-sourcetitle>Proceedings of Innovative Applications of Artificial Intelligence</ref-sourcetitle>
+                            <ref-publicationyear first="2006"/>
+                        </ref-info>
+                        <ref-fulltext>Szafron, D., et al.: Visual Explanation of Evidence in Additive Classifiers. In: Proceedings of Innovative Applications of Artificial Intelligence (2006)</ref-fulltext>
+                    </reference>
+                </bibliography></tail></bibrecord></item></abstracts-retrieval-response>
